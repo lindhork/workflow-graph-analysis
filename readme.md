@@ -29,15 +29,20 @@ Cypher queries.
 
 The repository includes the following components:
 
-- **GitHub extraction pipeline**  
-  Python scripts used to collect repository metadata and workflow files
-  from GitHub.
+- **workflow_github_extractor.py**  
+  Python script used to collect repository metadata and workflow files
+  from GitHub and export the extracted data as CSV files.
 
-- **CSV export**  
-  Structured data export used for graph database import.
+- **validation.py**  
+  Script used to inspect the generated CSV files and summarize dataset
+  statistics per workflow engine and repository.
 
-- **Neo4j import scripts**  
-  Cypher scripts used to import the dataset into a Neo4j graph database.
+- **import.cypher**  
+  Cypher script used to import the generated CSV files into the Neo4j
+  graph database.
+
+- **requirements.txt**  
+  Python dependencies required to run the extraction pipeline.
 
 ## Data Model
 
@@ -57,18 +62,70 @@ the following main node types:
 Relationships capture workflow dependencies, artifact usage, repository
 structure, and development activity.
 
-## Reproducibility
+## Requirements
 
-To reproduce the analysis:
+- Python >= 3.10
+- GitHub API access
+- Neo4j Graph Database
 
-1. Run the extraction pipeline to collect repository data.
-3. Import the dataset into Neo4j using the provided import scripts.
-4. Execute Cypher queries to explore workflow structures and repository activity.
+## Setup
+
+Install the required Python dependencies:
+
+    pip install -r requirements.txt
+
+### GitHub API Token
+
+The extraction pipeline requires a GitHub personal access token to access
+the GitHub API and avoid strict rate limits.
+
+Set the token as an environment variable:
+
+    export GITHUB_TOKEN=<your_github_token>
+
+## Usage
+
+Run the extraction pipeline to collect repository data:
+
+    python workflow_github_extractor.py
+
+The script generates CSV files containing repositories, workflow tasks,
+artifacts, files, commits, issues, and pull requests.
+
+## Importing Data into Neo4j
+
+After generating the CSV files, import them into Neo4j using the provided
+Cypher script.
+
+Open the Neo4j Browser and execute:
+
+    :source import.cypher
+
+This will create the graph model and load all nodes and relationships
+into the database.
+
+## Validation
+
+The repository also includes a validation script that provides a basic
+sanity check for the generated CSV exports.
+
+Run:
+
+    python validation.py
+
+The script expects engine-specific subdirectories inside `data/` and reports:
+
+- whether the expected CSV files are present
+- row counts for each CSV file
+- per-repository distributions for files, workflow files, tasks, artifacts,
+  issues, pull requests, and pull request–file links
+
+This helps to inspect the extracted dataset before importing it into Neo4j.
 
 ## Technologies Used
 
 - Python
 - GitHub API
+- PyGithub
 - Neo4j Graph Database
 - Cypher Query Language
-
