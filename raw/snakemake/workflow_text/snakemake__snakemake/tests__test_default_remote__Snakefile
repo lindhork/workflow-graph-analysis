@@ -1,0 +1,82 @@
+shell.executable("bash")
+
+rule all:
+    input:
+        "test.3.txt", 'test.4.txt', 'test.5.txt', 'test.6.txt'
+
+
+def check_remote(f):
+    if not f.startswith(".snakemake/storage/"):
+        raise ValueError("Input and output are not remote files.")
+
+
+def list_function(wildcards):
+    return ["test.2.txt", "test.txt"]
+
+
+def dict_function(wildcards):
+    return {'a': "test.2.txt", 'b': "test.txt"}
+
+
+rule a:
+    input:
+        "test.txt"
+    output:
+        "{sample}.2.txt"
+    run:
+        check_remote(input[0])
+        check_remote(output[0])
+        shell("cp {input} {output}")
+
+rule b:
+    input:
+        list_function
+    output:
+        "test.3.txt"
+    run:
+        for e in input:
+            check_remote(e)
+        check_remote(output[0])
+        shell("cp {input[0]} {output}")
+
+rule c:
+    input:
+        **dict_function(None)
+    output:
+        "test.4.txt"
+    run:
+        for e in input:
+            check_remote(e)
+        check_remote(output[0])
+        shell("cp {input.a} {output}")
+
+rule d:
+    input:
+        unpack(dict_function)
+    output:
+        "test.5.txt"
+    run:
+        for e in input:
+            check_remote(e)
+        check_remote(output[0])
+        shell("cp {input.a} {output}")
+
+rule e:
+    input:
+        rules.a.output[0]
+    output:
+        "{sample}.6.txt"
+    run:
+        for e in input:
+            check_remote(e)
+        check_remote(output[0])
+        shell("cp {input} {output}")
+
+
+rule base:
+    output:
+        "test.txt"
+    log:
+        "logs/base.log"
+    shell:
+        "touch {output} 2> {log}"

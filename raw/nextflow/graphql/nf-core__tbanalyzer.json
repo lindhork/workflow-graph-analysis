@@ -1,0 +1,2245 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 3,
+            "title": "Collect different peer-reviewed pipelines for MTBC",
+            "state": "OPEN",
+            "createdAt": "2024-06-13T13:49:34Z",
+            "closedAt": null,
+            "author": {
+              "login": "abhi18av"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 15,
+            "title": "Important! Template update for nf-core/tools v3.3.1",
+            "state": "OPEN",
+            "createdAt": "2025-06-03T11:03:36Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/actions/get-shards/action.yml"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": ".prettierrc.yml"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "nf-test.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_tbanalyzer_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/nextflow.config"
+                },
+                {
+                  "path": "workflows/tbanalyzer.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 14,
+            "title": "Important! Template update for nf-core/tools v3.2.1",
+            "state": "CLOSED",
+            "createdAt": "2025-04-30T12:28:40Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_tbanalyzer_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "workflows/tbanalyzer.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 13,
+            "title": "Important! Template update for nf-core/tools v3.2.0",
+            "state": "CLOSED",
+            "createdAt": "2025-01-27T15:25:19Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_tbanalyzer_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "workflows/tbanalyzer.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 12,
+            "title": "Important! Template update for nf-core/tools v3.1.2",
+            "state": "CLOSED",
+            "createdAt": "2025-01-20T14:36:35Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_tbanalyzer_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "workflows/tbanalyzer.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 11,
+            "title": "Important! Template update for nf-core/tools v3.1.1",
+            "state": "CLOSED",
+            "createdAt": "2024-12-20T13:11:51Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_tbanalyzer_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "workflows/tbanalyzer.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 10,
+            "title": "Important! Template update for nf-core/tools v3.1.0",
+            "state": "CLOSED",
+            "createdAt": "2024-12-12T11:24:48Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_tbanalyzer_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "workflows/tbanalyzer.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 9,
+            "title": "tbpore-modules and tests",
+            "state": "OPEN",
+            "createdAt": "2024-11-03T22:59:46Z",
+            "mergedAt": null,
+            "author": {
+              "login": "ycode-sh"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "conf/mtbseq_base.config"
+                },
+                {
+                  "path": "conf/mtbseq_parallel_test.config"
+                },
+                {
+                  "path": "conf/mtbseq_test.config"
+                },
+                {
+                  "path": "data/mtbseq-references/Readme.md"
+                },
+                {
+                  "path": "data/mtbseq-references/cat/MTB_Gene_Categories.txt"
+                },
+                {
+                  "path": "data/mtbseq-references/ref/M._tuberculosis_H37Rv_2015-11-13.dict"
+                },
+                {
+                  "path": "data/mtbseq-references/ref/M._tuberculosis_H37Rv_2015-11-13.fasta.amb"
+                },
+                {
+                  "path": "data/mtbseq-references/ref/M._tuberculosis_H37Rv_2015-11-13.fasta.ann"
+                },
+                {
+                  "path": "data/mtbseq-references/ref/M._tuberculosis_H37Rv_2015-11-13.fasta.bwt"
+                },
+                {
+                  "path": "data/mtbseq-references/ref/M._tuberculosis_H37Rv_2015-11-13.fasta.fai"
+                },
+                {
+                  "path": "data/mtbseq-references/ref/M._tuberculosis_H37Rv_2015-11-13.fasta.pac"
+                },
+                {
+                  "path": "data/mtbseq-references/ref/M._tuberculosis_H37Rv_2015-11-13.fasta.sa"
+                },
+                {
+                  "path": "data/mtbseq-references/ref/M._tuberculosis_H37Rv_2015-11-13_genes.txt"
+                },
+                {
+                  "path": "data/mtbseq-references/res/MTB_Base_Calibration_List.vcf"
+                },
+                {
+                  "path": "data/mtbseq-references/res/MTB_Base_Calibration_List.vcf.idx"
+                },
+                {
+                  "path": "data/mtbseq-references/res/MTB_Extended_Resistance_Mediating.txt"
+                },
+                {
+                  "path": "data/mtbseq-references/res/MTB_Resistance_Mediating.txt"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbamend/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbamend/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbamend/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbbwa/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbbwa/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbbwa/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbfull/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbfull/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbfull/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbgroups/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbgroups/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbgroups/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbjoin/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbjoin/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbjoin/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tblist/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tblist/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tblist/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbpile/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbpile/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbpile/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbrefine/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbrefine/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbrefine/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbstats/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbstats/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbstats/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbstrains/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbstrains/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbstrains/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbvariants/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbvariants/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbvariants/meta.yml"
+                },
+                {
+                  "path": "modules/local/utils/rename_files.nf"
+                },
+                {
+                  "path": "modules/magma/modules/local/gatk4.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/bcf.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/bcf_gz.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/nextflow.gvcf.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/vcf.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/vcf_gz.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/vcf_gz_index.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/vcf_gz_index_csi.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/vcf_gz_index_tbi.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/vcf_gz_index.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/vcf_gz_index_csi.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/vcf_gz_index_tbi.config"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/index/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/mem/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/mem/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/mem/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/mem/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/mem/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/mem/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/delly/call/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/delly/call/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/delly/call/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/delly/call/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/delly/call/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/delly/call/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/delly/call/tests/vcf.config"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/applybqsr/environment.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 8,
+            "title": "Add mtbseq workflow",
+            "state": "MERGED",
+            "createdAt": "2024-10-28T13:08:02Z",
+            "mergedAt": "2024-10-30T09:48:53Z",
+            "author": {
+              "login": "Mxrcon"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "conf/mtbseq_base.config"
+                },
+                {
+                  "path": "conf/mtbseq_parallel_test.config"
+                },
+                {
+                  "path": "conf/mtbseq_test.config"
+                },
+                {
+                  "path": "data/mtbseq-references/Readme.md"
+                },
+                {
+                  "path": "data/mtbseq-references/cat/MTB_Gene_Categories.txt"
+                },
+                {
+                  "path": "data/mtbseq-references/ref/M._tuberculosis_H37Rv_2015-11-13.dict"
+                },
+                {
+                  "path": "data/mtbseq-references/ref/M._tuberculosis_H37Rv_2015-11-13.fasta.amb"
+                },
+                {
+                  "path": "data/mtbseq-references/ref/M._tuberculosis_H37Rv_2015-11-13.fasta.ann"
+                },
+                {
+                  "path": "data/mtbseq-references/ref/M._tuberculosis_H37Rv_2015-11-13.fasta.bwt"
+                },
+                {
+                  "path": "data/mtbseq-references/ref/M._tuberculosis_H37Rv_2015-11-13.fasta.fai"
+                },
+                {
+                  "path": "data/mtbseq-references/ref/M._tuberculosis_H37Rv_2015-11-13.fasta.pac"
+                },
+                {
+                  "path": "data/mtbseq-references/ref/M._tuberculosis_H37Rv_2015-11-13.fasta.sa"
+                },
+                {
+                  "path": "data/mtbseq-references/ref/M._tuberculosis_H37Rv_2015-11-13_genes.txt"
+                },
+                {
+                  "path": "data/mtbseq-references/res/MTB_Base_Calibration_List.vcf"
+                },
+                {
+                  "path": "data/mtbseq-references/res/MTB_Base_Calibration_List.vcf.idx"
+                },
+                {
+                  "path": "data/mtbseq-references/res/MTB_Extended_Resistance_Mediating.txt"
+                },
+                {
+                  "path": "data/mtbseq-references/res/MTB_Resistance_Mediating.txt"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbamend/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbamend/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbamend/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbbwa/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbbwa/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbbwa/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbfull/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbfull/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbfull/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbgroups/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbgroups/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbgroups/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbjoin/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbjoin/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbjoin/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tblist/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tblist/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tblist/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbpile/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbpile/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbpile/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbrefine/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbrefine/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbrefine/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbstats/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbstats/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbstats/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbstrains/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbstrains/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbstrains/meta.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbvariants/environment.yml"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbvariants/main.nf"
+                },
+                {
+                  "path": "modules/local/mtbseq/tbvariants/meta.yml"
+                },
+                {
+                  "path": "modules/local/utils/rename_files.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/mtbseq/parallel_mode.nf"
+                },
+                {
+                  "path": "subworkflows/local/mtbseq/quality_check.nf"
+                },
+                {
+                  "path": "workflows/mtbseqnf.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 7,
+            "title": "Add modules for magma ",
+            "state": "MERGED",
+            "createdAt": "2024-10-26T14:21:57Z",
+            "mergedAt": "2024-10-28T15:33:21Z",
+            "author": {
+              "login": "abhi18av"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/magma/modules/local/gatk4.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/bcf.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/bcf_gz.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/nextflow.gvcf.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/vcf.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/vcf_gz.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/vcf_gz_index.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/vcf_gz_index_csi.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/vcf_gz_index_tbi.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/vcf_gz_index.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/vcf_gz_index_csi.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/vcf_gz_index_tbi.config"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/index/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/mem/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/mem/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/mem/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/mem/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/mem/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/mem/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/delly/call/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/delly/call/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/delly/call/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/delly/call/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/delly/call/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/delly/call/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/delly/call/tests/vcf.config"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/applybqsr/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/applybqsr/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/applybqsr/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/applybqsr/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/applybqsr/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/applybqsr/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/applyvqsr/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/applyvqsr/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/applyvqsr/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/applyvqsr/tests/allelspecificity.config"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/applyvqsr/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/applyvqsr/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/applyvqsr/tests/no-allelspecificity.config"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/applyvqsr/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/indexfeaturefile/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/indexfeaturefile/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/indexfeaturefile/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/indexfeaturefile/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/indexfeaturefile/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/indexfeaturefile/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/markduplicates/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/markduplicates/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/markduplicates/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/markduplicates/tests/bam.config"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/markduplicates/tests/cram.config"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/markduplicates/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/markduplicates/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/markduplicates/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/selectvariants/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/selectvariants/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/selectvariants/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/selectvariants/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/selectvariants/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/variantrecalibrator/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/variantrecalibrator/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/variantrecalibrator/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/variantstotable/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/variantstotable/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/variantstotable/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/variantstotable/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/variantstotable/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/variantstotable/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/variantstotable/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/iqtree/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/iqtree/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/iqtree/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/iqtree/tests/iqtree_bootstrap.config"
+                },
+                {
+                  "path": "modules/nf-core/iqtree/tests/iqtree_optional.config"
+                },
+                {
+                  "path": "modules/nf-core/iqtree/tests/iqtree_treels.config"
+                },
+                {
+                  "path": "modules/nf-core/iqtree/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/iqtree/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/iqtree/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/ismapper/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/ismapper/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6,
+            "title": "initiate tbpore modules",
+            "state": "OPEN",
+            "createdAt": "2024-10-26T14:21:25Z",
+            "mergedAt": null,
+            "author": {
+              "login": "abhi18av"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/tbpore/modules/local/tbpore_cluster/main.nf"
+                },
+                {
+                  "path": "modules/tbpore/modules/local/tbpore_cluster/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/tbpore/modules/local/tbpore_process/main.nf"
+                },
+                {
+                  "path": "modules/tbpore/modules/local/tbpore_process/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/tbpore/modules/local/tbpore_process/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nf-test.config"
+                },
+                {
+                  "path": "tests/nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 5,
+            "title": "Important! Template update for nf-core/tools v3.0.2",
+            "state": "MERGED",
+            "createdAt": "2024-10-11T12:35:14Z",
+            "mergedAt": "2024-10-26T13:46:53Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes_ignored.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/nextflow.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_tbanalyzer_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/tags.yml"
+                },
+                {
+                  "path": "workflows/tbanalyzer.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4,
+            "title": "Important! Template update for nf-core/tools v3.0.1",
+            "state": "CLOSED",
+            "createdAt": "2024-10-09T11:44:43Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes_ignored.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/nextflow.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_tbanalyzer_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/tags.yml"
+                },
+                {
+                  "path": "workflows/tbanalyzer.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2,
+            "title": "Important! Template update for nf-core/tools v2.14.1",
+            "state": "MERGED",
+            "createdAt": "2024-05-09T12:20:34Z",
+            "mergedAt": "2024-05-22T09:06:38Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_tbanalyzer_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "workflows/tbanalyzer.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1,
+            "title": "Important! Template update for nf-core/tools v2.14.0",
+            "state": "CLOSED",
+            "createdAt": "2024-05-08T15:36:09Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_tbanalyzer_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "workflows/tbanalyzer.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

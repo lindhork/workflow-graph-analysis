@@ -1,0 +1,2007 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 48,
+            "title": "HIV",
+            "state": "OPEN",
+            "createdAt": "2025-01-28T12:21:28Z",
+            "closedAt": null,
+            "author": {
+              "login": "AndreaAguadoM"
+            }
+          },
+          {
+            "number": 46,
+            "title": "Rename `gene` to `cds`",
+            "state": "OPEN",
+            "createdAt": "2024-01-09T15:50:13Z",
+            "closedAt": null,
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 40,
+            "title": "Don't count nucleotides 0-100 towards divergence ",
+            "state": "OPEN",
+            "createdAt": "2023-03-19T14:28:16Z",
+            "closedAt": null,
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 39,
+            "title": "ENH: Attach recombinants at most recent common ancestor",
+            "state": "OPEN",
+            "createdAt": "2023-03-18T15:27:25Z",
+            "closedAt": null,
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 35,
+            "title": "ENH: Build proper tree for XBB.1.5 rather than the simplistic current one",
+            "state": "CLOSED",
+            "createdAt": "2023-01-31T19:55:38Z",
+            "closedAt": "2023-03-18T15:07:14Z",
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 29,
+            "title": "ENH: Add escape score etc as colorings",
+            "state": "OPEN",
+            "createdAt": "2022-10-17T10:46:56Z",
+            "closedAt": null,
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 28,
+            "title": "ENH: Allow recombinant sublineages to be present",
+            "state": "CLOSED",
+            "createdAt": "2022-10-02T16:05:12Z",
+            "closedAt": "2023-03-18T15:12:08Z",
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 27,
+            "title": "ENH: Make BA.2 build side-product of main build",
+            "state": "CLOSED",
+            "createdAt": "2022-10-02T16:03:19Z",
+            "closedAt": "2023-03-18T15:12:24Z",
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 26,
+            "title": "ENH: Remove real sequences from Nextclade build",
+            "state": "CLOSED",
+            "createdAt": "2022-10-02T15:59:40Z",
+            "closedAt": "2023-03-18T15:12:38Z",
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 25,
+            "title": "MPXV: Add reversions to virus_properties in B.1 build",
+            "state": "OPEN",
+            "createdAt": "2022-09-26T19:01:13Z",
+            "closedAt": null,
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 24,
+            "title": "MPXV: Remove duplicates (after masking) to reduce tree size",
+            "state": "OPEN",
+            "createdAt": "2022-09-26T13:51:23Z",
+            "closedAt": null,
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 23,
+            "title": "Include XBB in 21L build to not call BJ.1",
+            "state": "CLOSED",
+            "createdAt": "2022-09-20T13:58:48Z",
+            "closedAt": "2023-03-18T15:12:52Z",
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 22,
+            "title": "BUG: 28370 not overwritten with `-` but `T` 28371 -> T in BF.7",
+            "state": "CLOSED",
+            "createdAt": "2022-09-13T22:36:59Z",
+            "closedAt": "2023-03-18T15:14:33Z",
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 20,
+            "title": "ENH: Add date of designation to SC2 build for pango lineages",
+            "state": "CLOSED",
+            "createdAt": "2022-09-12T14:06:19Z",
+            "closedAt": "2023-03-18T15:14:51Z",
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 19,
+            "title": "Prohibit reversions by default, make allowlist for real reversions",
+            "state": "OPEN",
+            "createdAt": "2022-08-23T11:46:41Z",
+            "closedAt": null,
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 18,
+            "title": "Auto generate constraint.nwk from pango alias file, allow additional resolution",
+            "state": "OPEN",
+            "createdAt": "2022-07-22T15:51:46Z",
+            "closedAt": null,
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 17,
+            "title": "Use pango defining mutations to improve synthetic lineage curation",
+            "state": "OPEN",
+            "createdAt": "2022-07-22T15:50:29Z",
+            "closedAt": null,
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 15,
+            "title": "ENH: Manual overwrite of lineage mutations",
+            "state": "CLOSED",
+            "createdAt": "2022-06-27T11:24:35Z",
+            "closedAt": "2023-03-18T15:18:49Z",
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 14,
+            "title": "ENH: Soft mask 26577 (M:19) instead of hard mask",
+            "state": "CLOSED",
+            "createdAt": "2022-06-27T10:26:06Z",
+            "closedAt": "2023-03-18T15:20:16Z",
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 13,
+            "title": "ENH: Put all recombinants on single branch from root",
+            "state": "CLOSED",
+            "createdAt": "2022-03-21T15:02:44Z",
+            "closedAt": "2023-03-18T15:20:16Z",
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 12,
+            "title": "ENH: Add recombinants back in, as subtree connected to root",
+            "state": "CLOSED",
+            "createdAt": "2022-02-10T05:04:53Z",
+            "closedAt": "2023-03-18T15:19:13Z",
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 11,
+            "title": "Request: Add vaccine strains and clade defining viruses to NextClade flu dataset",
+            "state": "OPEN",
+            "createdAt": "2022-01-19T23:54:19Z",
+            "closedAt": null,
+            "author": {
+              "login": "ammaraziz"
+            }
+          },
+          {
+            "number": 10,
+            "title": "Use hand curated list of high quality Omicron sequences",
+            "state": "CLOSED",
+            "createdAt": "2021-12-01T20:22:46Z",
+            "closedAt": "2023-03-18T15:20:15Z",
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 9,
+            "title": "Don't pull GISAID sequences into output",
+            "state": "CLOSED",
+            "createdAt": "2021-11-27T11:45:09Z",
+            "closedAt": "2023-03-18T15:19:23Z",
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 8,
+            "title": "colour omicron in tree properly",
+            "state": "CLOSED",
+            "createdAt": "2021-11-27T11:44:30Z",
+            "closedAt": "2023-03-18T15:20:15Z",
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 7,
+            "title": "Include GISAID data provenance",
+            "state": "CLOSED",
+            "createdAt": "2021-11-27T11:43:37Z",
+            "closedAt": "2023-03-18T15:20:14Z",
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 6,
+            "title": "Unmask S:95",
+            "state": "CLOSED",
+            "createdAt": "2021-11-17T13:19:30Z",
+            "closedAt": "2023-03-18T15:20:14Z",
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 5,
+            "title": "Exclude S:142G sequences within Delta as outliers",
+            "state": "CLOSED",
+            "createdAt": "2021-11-17T13:19:10Z",
+            "closedAt": "2023-03-18T15:20:13Z",
+            "author": {
+              "login": "corneliusroemer"
+            }
+          },
+          {
+            "number": 4,
+            "title": "Filter out Egypt/Iraq due to often bad quality",
+            "state": "CLOSED",
+            "createdAt": "2021-11-16T15:25:39Z",
+            "closedAt": "2021-11-17T13:12:42Z",
+            "author": {
+              "login": "corneliusroemer"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 49,
+            "title": "2025-12 SC2 clades",
+            "state": "MERGED",
+            "createdAt": "2025-12-23T11:02:23Z",
+            "mergedAt": "2025-12-23T11:53:44Z",
+            "author": {
+              "login": "corneliusroemer"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "sars-cov-2/README.md"
+                },
+                {
+                  "path": "sars-cov-2/defaults/color_ordering.tsv"
+                },
+                {
+                  "path": "sars-cov-2/defaults/labeled_muts.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/BA.2.86/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/proteins/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/wuhan/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/scripts/generate_virus_properties.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/overwrite_recombinant_clades.py"
+                },
+                {
+                  "path": "sars-cov-2/virus_properties.json"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/core.smk"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/preprocess.smk"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/qc_preparation.smk"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/subsampling.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 47,
+            "title": "new clades",
+            "state": "MERGED",
+            "createdAt": "2024-10-03T14:56:13Z",
+            "mergedAt": "2024-10-03T14:56:29Z",
+            "author": {
+              "login": "corneliusroemer"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "sars-cov-2/defaults/CHANGELOG.md"
+                },
+                {
+                  "path": "sars-cov-2/defaults/color_ordering.tsv"
+                },
+                {
+                  "path": "sars-cov-2/defaults/constraint.nwk"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/BA.2.86/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/BA.2/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/XBB/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/lineage_overwrite.tsv"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/proteins/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/proteins/reference_seq.gb"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/wuhan/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/scripts/overwrite_recombinant_clades.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 45,
+            "title": "fix sc2 root mutations",
+            "state": "MERGED",
+            "createdAt": "2023-09-21T16:23:42Z",
+            "mergedAt": "2023-09-21T16:23:50Z",
+            "author": {
+              "login": "corneliusroemer"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "sars-cov-2/README.md"
+                },
+                {
+                  "path": "sars-cov-2/defaults/color_ordering.tsv"
+                },
+                {
+                  "path": "sars-cov-2/defaults/constraint.nwk"
+                },
+                {
+                  "path": "sars-cov-2/defaults/frameshifts_exclude.txt"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/21L/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/21L/reference.fasta"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/builds.yaml"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/constraint_XBB.nwk"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/lineage_overwrite.tsv"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/wuhan/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/wuhan/reference.fasta"
+                },
+                {
+                  "path": "sars-cov-2/profiles/cluster/cluster.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/default/config.yaml"
+                },
+                {
+                  "path": "sars-cov-2/scripts/add_recombinants.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/common_frameshifts.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/common_stops.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/designation_date_generator.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/generate_virus_properties.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/update_virus_properties.py"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/core.smk"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/preprocess.smk"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/qc_preparation.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 44,
+            "title": "Flu/lineages",
+            "state": "MERGED",
+            "createdAt": "2023-08-22T21:51:24Z",
+            "mergedAt": "2023-08-22T21:51:33Z",
+            "author": {
+              "login": "rneher"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "flu/Snakefile"
+                },
+                {
+                  "path": "flu/profiles/auspice_config.json"
+                },
+                {
+                  "path": "flu/profiles/auspice_config_wshort_clade.json"
+                },
+                {
+                  "path": "flu/profiles/builds.yaml"
+                },
+                {
+                  "path": "flu/profiles/h1n1pdm_ha_lineages.tsv"
+                },
+                {
+                  "path": "flu/profiles/h1n1pdm_na_lineages.tsv"
+                },
+                {
+                  "path": "flu/profiles/h3n2_ha_lineages.tsv"
+                },
+                {
+                  "path": "flu/profiles/h3n2_na_lineages.tsv"
+                },
+                {
+                  "path": "flu/profiles/tag.json"
+                },
+                {
+                  "path": "flu/profiles/vic_ha_lineages.tsv"
+                },
+                {
+                  "path": "flu/profiles/vic_na_lineages.tsv"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/excludes.txt"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/includes.txt"
+                },
+                {
+                  "path": "flu/references/h3n2/excludes.txt"
+                },
+                {
+                  "path": "flu/references/vic/excludes.txt"
+                },
+                {
+                  "path": "flu/references/vic/includes.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 43,
+            "title": "Update monkeypox workflow with new clades and slimmer builds",
+            "state": "MERGED",
+            "createdAt": "2023-07-31T12:29:37Z",
+            "mergedAt": "2023-07-31T12:30:04Z",
+            "author": {
+              "login": "corneliusroemer"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "monkeypox/README.md"
+                },
+                {
+                  "path": "monkeypox/config/MPXV/clades.tsv"
+                },
+                {
+                  "path": "monkeypox/config/MPXV/include_accessions.txt"
+                },
+                {
+                  "path": "monkeypox/config/MPXV/post_filter_exclude.txt"
+                },
+                {
+                  "path": "monkeypox/config/b1/clades.tsv"
+                },
+                {
+                  "path": "monkeypox/config/b1/post_filter_exclude.txt"
+                },
+                {
+                  "path": "monkeypox/config/color_ordering.tsv"
+                },
+                {
+                  "path": "monkeypox/config/config.yaml"
+                },
+                {
+                  "path": "monkeypox/config/exclude_accessions.txt"
+                },
+                {
+                  "path": "monkeypox/config/hpxv1/clades.tsv"
+                },
+                {
+                  "path": "monkeypox/config/hpxv1/include_accessions.txt"
+                },
+                {
+                  "path": "monkeypox/config/hpxv1/post_filter_exclude.txt"
+                },
+                {
+                  "path": "monkeypox/config/include_accessions.txt"
+                },
+                {
+                  "path": "monkeypox/workflow/snakemake_rules/core.smk"
+                },
+                {
+                  "path": "monkeypox/workflow/snakemake_rules/prepare.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 42,
+            "title": "Align SC2 with new clades tsvs in ncov",
+            "state": "MERGED",
+            "createdAt": "2023-05-22T17:28:44Z",
+            "mergedAt": "2023-05-22T17:28:50Z",
+            "author": {
+              "login": "corneliusroemer"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "sars-cov-2/profiles/clades/21L/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/wuhan/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/scripts/rename_clades.py"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/core.smk"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/preprocess.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 41,
+            "title": "RSV Lineage proposal",
+            "state": "OPEN",
+            "createdAt": "2023-05-12T17:34:13Z",
+            "mergedAt": null,
+            "author": {
+              "login": "corneliusroemer"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "common_scripts/clade_translator.py"
+                },
+                {
+                  "path": "flu/Snakefile"
+                },
+                {
+                  "path": "rsv/Snakefile"
+                },
+                {
+                  "path": "rsv/profiles/auspice_config.json"
+                },
+                {
+                  "path": "rsv/profiles/builds.yaml"
+                },
+                {
+                  "path": "rsv/profiles/color_ordering_a.tsv"
+                },
+                {
+                  "path": "rsv/profiles/color_ordering_b.tsv"
+                },
+                {
+                  "path": "rsv/profiles/pango/REFROOTA.gb"
+                },
+                {
+                  "path": "rsv/profiles/pango/REFROOTB.gb"
+                },
+                {
+                  "path": "rsv/profiles/pango/amino-acid-genotypes.xlsx"
+                },
+                {
+                  "path": "rsv/scripts/excel-to-clades.py"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/lineage_overwrite.tsv"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 38,
+            "title": "feat/placement priors",
+            "state": "MERGED",
+            "createdAt": "2023-03-09T18:50:21Z",
+            "mergedAt": "2023-03-23T18:47:28Z",
+            "author": {
+              "login": "corneliusroemer"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "sars-cov-2/README.md"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/21L/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/builds.yaml"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/constraint_XBB.nwk"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/lineage_overwrite.tsv"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/wuhan/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/cluster/cluster.json"
+                },
+                {
+                  "path": "sars-cov-2/scripts/add_priors.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/internal_pango.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/remove_unaliased_for_outgroup.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/update_escape_scores.py"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/core.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 37,
+            "title": "Unified Omicron and ordinary SC2 workflows",
+            "state": "MERGED",
+            "createdAt": "2023-02-23T03:47:28Z",
+            "mergedAt": "2023-02-24T01:52:57Z",
+            "author": {
+              "login": "corneliusroemer"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "sars-cov-2/.gitignore"
+                },
+                {
+                  "path": "sars-cov-2/README.md"
+                },
+                {
+                  "path": "sars-cov-2/Snakefile"
+                },
+                {
+                  "path": "sars-cov-2/defaults/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/defaults/clade_emergence_dates.tsv"
+                },
+                {
+                  "path": "sars-cov-2/defaults/clades.tsv"
+                },
+                {
+                  "path": "sars-cov-2/defaults/color_ordering.tsv"
+                },
+                {
+                  "path": "sars-cov-2/defaults/constraint.nwk"
+                },
+                {
+                  "path": "sars-cov-2/defaults/include.txt"
+                },
+                {
+                  "path": "sars-cov-2/defaults/parameters.yaml"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades-cluster/config.yaml"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/21L/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/21L/excluded_recombinants.txt"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/21L/outgroup.tsv"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/builds.yaml"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/config.yaml"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/constraint_XBB.nwk"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/lineage_overwrite.tsv"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/wuhan/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/wuhan/excluded_recombinants.txt"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/wuhan/outgroup.tsv"
+                },
+                {
+                  "path": "sars-cov-2/profiles/primers.csv"
+                },
+                {
+                  "path": "sars-cov-2/profiles/qc.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/sequences.fasta"
+                },
+                {
+                  "path": "sars-cov-2/profiles/tag.json"
+                },
+                {
+                  "path": "sars-cov-2/scripts/add_designation_recency.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/add_recombinants.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/add_synthetic_metadata.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/combine-and-dedup-fastas.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/common_frameshifts.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/diagnostic.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/fix_open_pango_lineages.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/get_distance_to_focal_set.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/include_prefix.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/internal_pango.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/open_clock_deviation.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/overwrite_recombinant_clades.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/pango_strain_rename.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/pick_samples.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/pick_synthetic.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/priorities.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/priority_hash.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/prune_constraint_tree.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/separate_recombinants.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/simple_tree.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/synthetic_pick.py"
+                },
+                {
+                  "path": "sars-cov-2/workflow/envs/nextstrain.yaml"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/core.smk"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/preprocess.smk"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/qc_preparation.smk"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/subsampling.smk"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/templated_build.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 36,
+            "title": "Update rsv",
+            "state": "MERGED",
+            "createdAt": "2023-02-03T15:43:40Z",
+            "mergedAt": "2023-02-03T15:43:49Z",
+            "author": {
+              "login": "rneher"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "rsv/Snakefile"
+                },
+                {
+                  "path": "rsv/profiles/auspice_config.json"
+                },
+                {
+                  "path": "rsv/profiles/builds.yaml"
+                },
+                {
+                  "path": "rsv/profiles/exclude.txt"
+                },
+                {
+                  "path": "rsv/references/a/EPI_ISL_412866/clades_G.tsv"
+                },
+                {
+                  "path": "rsv/references/a/EPI_ISL_412866/clades_genome.tsv"
+                },
+                {
+                  "path": "rsv/references/a/EPI_ISL_412866/virus_properties.json"
+                },
+                {
+                  "path": "rsv/references/a/LR699737/clades_G.tsv"
+                },
+                {
+                  "path": "rsv/references/a/LR699737/clades_genome.tsv"
+                },
+                {
+                  "path": "rsv/references/a/LR699737/virus_properties.json"
+                },
+                {
+                  "path": "rsv/references/b/EPI_ISL_1653999/clades_G.tsv"
+                },
+                {
+                  "path": "rsv/references/b/EPI_ISL_1653999/clades_genome.tsv"
+                },
+                {
+                  "path": "rsv/references/b/EPI_ISL_1653999/virus_properties.json"
+                },
+                {
+                  "path": "rsv/references/b/MW020595/clades_G.tsv"
+                },
+                {
+                  "path": "rsv/references/b/MW020595/clades_genome.tsv"
+                },
+                {
+                  "path": "rsv/references/b/MW020595/virus_properties.json"
+                },
+                {
+                  "path": "rsv/scripts/fix_clade_labels.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 34,
+            "title": "Add na",
+            "state": "MERGED",
+            "createdAt": "2023-01-27T14:51:37Z",
+            "mergedAt": "2023-01-27T14:51:45Z",
+            "author": {
+              "login": "rneher"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "flu/Snakefile"
+                },
+                {
+                  "path": "flu/notes.md"
+                },
+                {
+                  "path": "flu/profiles/auspice_config.json"
+                },
+                {
+                  "path": "flu/profiles/auspice_config_wshort_clade.json"
+                },
+                {
+                  "path": "flu/profiles/builds.yaml"
+                },
+                {
+                  "path": "flu/profiles/exclude.txt"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/includes.txt"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/na/MW626056/virus_properties.json"
+                },
+                {
+                  "path": "flu/references/h3n2/includes.txt"
+                },
+                {
+                  "path": "flu/references/h3n2/na/EPI1857215/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h3n2/na/EPI1857215/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h3n2/na/EPI1857215/virus_properties.json"
+                },
+                {
+                  "path": "flu/references/vic/includes.txt"
+                },
+                {
+                  "path": "flu/references/vic/na/CY073894/genemap.gff"
+                },
+                {
+                  "path": "flu/references/vic/na/CY073894/reference.fasta"
+                },
+                {
+                  "path": "flu/references/vic/na/CY073894/virus_properties.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 33,
+            "title": "Update MPXV workflow",
+            "state": "MERGED",
+            "createdAt": "2023-01-26T19:56:47Z",
+            "mergedAt": "2023-01-26T19:56:58Z",
+            "author": {
+              "login": "corneliusroemer"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "monkeypox/README.md"
+                },
+                {
+                  "path": "monkeypox/config/MPXV/clades.tsv"
+                },
+                {
+                  "path": "monkeypox/config/MPXV/include_accessions.txt"
+                },
+                {
+                  "path": "monkeypox/config/b1/clades.tsv"
+                },
+                {
+                  "path": "monkeypox/config/b1/include_accessions.txt"
+                },
+                {
+                  "path": "monkeypox/config/color_ordering.tsv"
+                },
+                {
+                  "path": "monkeypox/config/config.yaml"
+                },
+                {
+                  "path": "monkeypox/config/exclude_accessions.txt"
+                },
+                {
+                  "path": "monkeypox/config/hpxv1/clades.tsv"
+                },
+                {
+                  "path": "monkeypox/config/hpxv1/include_accessions.txt"
+                },
+                {
+                  "path": "monkeypox/config/include_accessions.txt"
+                },
+                {
+                  "path": "monkeypox/scripts/deduplicate.py"
+                },
+                {
+                  "path": "monkeypox/workflow/snakemake_rules/core.smk"
+                },
+                {
+                  "path": "monkeypox/workflow/snakemake_rules/prepare.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 32,
+            "title": "Update flu clades",
+            "state": "MERGED",
+            "createdAt": "2023-01-18T20:52:30Z",
+            "mergedAt": "2023-01-18T20:52:37Z",
+            "author": {
+              "login": "rneher"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "flu/Snakefile"
+                },
+                {
+                  "path": "flu/profiles/auspice_config.json"
+                },
+                {
+                  "path": "flu/profiles/builds.yaml"
+                },
+                {
+                  "path": "flu/profiles/exclude.txt"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/ha/MW626062/virus_properties.json"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/na/MW626056/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/na/MW626056/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/na/MW626056/virus_properties.json"
+                },
+                {
+                  "path": "flu/references/h3n2/ha/EPI1857216/virus_properties.json"
+                },
+                {
+                  "path": "flu/references/vic/ha/EPI1926632/virus_properties.json"
+                },
+                {
+                  "path": "flu/scripts/swap_strain_accession.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 31,
+            "title": "add RSV A and B datasets",
+            "state": "MERGED",
+            "createdAt": "2022-12-28T09:25:22Z",
+            "mergedAt": "2022-12-28T09:25:29Z",
+            "author": {
+              "login": "rneher"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "common_scripts/attach_root_mutations.py"
+                },
+                {
+                  "path": "common_scripts/clade_translator.py"
+                },
+                {
+                  "path": "common_scripts/explicit_translation.py"
+                },
+                {
+                  "path": "common_scripts/set_final_strain_name.py"
+                },
+                {
+                  "path": "flu/Snakefile"
+                },
+                {
+                  "path": "rsv/Snakefile"
+                },
+                {
+                  "path": "rsv/profiles/auspice_config.json"
+                },
+                {
+                  "path": "rsv/profiles/builds.yaml"
+                },
+                {
+                  "path": "rsv/profiles/config.yaml"
+                },
+                {
+                  "path": "rsv/profiles/primers.csv"
+                },
+                {
+                  "path": "rsv/profiles/qc.json"
+                },
+                {
+                  "path": "rsv/profiles/tag.json"
+                },
+                {
+                  "path": "rsv/profiles/virus_properties.json"
+                },
+                {
+                  "path": "rsv/references/a/LR699737/clades_G.tsv"
+                },
+                {
+                  "path": "rsv/references/a/LR699737/clades_genome.tsv"
+                },
+                {
+                  "path": "rsv/references/a/LR699737/genemap.gff"
+                },
+                {
+                  "path": "rsv/references/a/LR699737/reference.fasta"
+                },
+                {
+                  "path": "rsv/references/a/LR699737/reference.gbk"
+                },
+                {
+                  "path": "rsv/references/b/MW020595/clades_G.tsv"
+                },
+                {
+                  "path": "rsv/references/b/MW020595/clades_genome.tsv"
+                },
+                {
+                  "path": "rsv/references/b/MW020595/genemap.gff"
+                },
+                {
+                  "path": "rsv/references/b/MW020595/reference.fasta"
+                },
+                {
+                  "path": "rsv/references/b/MW020595/reference.gbk"
+                },
+                {
+                  "path": "rsv/scripts/wrangle_metadata.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 30,
+            "title": "Feat/new flu data sets",
+            "state": "MERGED",
+            "createdAt": "2022-12-07T16:09:16Z",
+            "mergedAt": "2022-12-10T09:34:38Z",
+            "author": {
+              "login": "rneher"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "flu/Snakefile"
+                },
+                {
+                  "path": "flu/profiles/builds.yaml"
+                },
+                {
+                  "path": "flu/profiles/qc.json"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/ha/CY121680/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/ha/CY121680/virus_properties.json"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/ha/MW626062/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/ha/MW626062/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/ha/MW626062/virus_properties.json"
+                },
+                {
+                  "path": "flu/references/h3n2/ha/CY163680/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h3n2/ha/CY163680/virus_properties.json"
+                },
+                {
+                  "path": "flu/references/h3n2/ha/EPI1857216/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h3n2/ha/EPI1857216/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h3n2/ha/EPI1857216/virus_properties.json"
+                },
+                {
+                  "path": "flu/references/vic/ha/EPI1926632/genemap.gff"
+                },
+                {
+                  "path": "flu/references/vic/ha/EPI1926632/reference.fasta"
+                },
+                {
+                  "path": "flu/references/vic/ha/EPI1926632/virus_properties.json"
+                },
+                {
+                  "path": "flu/references/vic/ha/KX058884/genemap.gff"
+                },
+                {
+                  "path": "flu/references/vic/ha/KX058884/virus_properties.json"
+                },
+                {
+                  "path": "flu/scripts/attach_root_mutations.py"
+                },
+                {
+                  "path": "flu/scripts/explicit_translation.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 21,
+            "title": "Add monkeypox workflow",
+            "state": "MERGED",
+            "createdAt": "2022-09-12T20:00:24Z",
+            "mergedAt": "2022-09-12T20:03:30Z",
+            "author": {
+              "login": "corneliusroemer"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "monkeypox/.gitattributes"
+                },
+                {
+                  "path": "monkeypox/.gitignore"
+                },
+                {
+                  "path": "monkeypox/README.md"
+                },
+                {
+                  "path": "monkeypox/Snakefile"
+                },
+                {
+                  "path": "monkeypox/config/MPXV/auspice_config.json"
+                },
+                {
+                  "path": "monkeypox/config/MPXV/clades.tsv"
+                },
+                {
+                  "path": "monkeypox/config/MPXV/exclude_accessions.txt"
+                },
+                {
+                  "path": "monkeypox/config/MPXV/include_accessions.txt"
+                },
+                {
+                  "path": "monkeypox/config/MPXV/mask.bed"
+                },
+                {
+                  "path": "monkeypox/config/MPXV/reference.fasta"
+                },
+                {
+                  "path": "monkeypox/config/b1/auspice_config.json"
+                },
+                {
+                  "path": "monkeypox/config/b1/clades.tsv"
+                },
+                {
+                  "path": "monkeypox/config/b1/exclude_accessions.txt"
+                },
+                {
+                  "path": "monkeypox/config/b1/include_accessions.txt"
+                },
+                {
+                  "path": "monkeypox/config/b1/mask.bed"
+                },
+                {
+                  "path": "monkeypox/config/b1/reference.fasta"
+                },
+                {
+                  "path": "monkeypox/config/color_ordering.tsv"
+                },
+                {
+                  "path": "monkeypox/config/color_schemes.tsv"
+                },
+                {
+                  "path": "monkeypox/config/config.yaml"
+                },
+                {
+                  "path": "monkeypox/config/exclude_accessions.txt"
+                },
+                {
+                  "path": "monkeypox/config/genemap.gff"
+                },
+                {
+                  "path": "monkeypox/config/hpxv1/auspice_config.json"
+                },
+                {
+                  "path": "monkeypox/config/hpxv1/clades.tsv"
+                },
+                {
+                  "path": "monkeypox/config/hpxv1/exclude_accessions.txt"
+                },
+                {
+                  "path": "monkeypox/config/hpxv1/include_accessions.txt"
+                },
+                {
+                  "path": "monkeypox/config/hpxv1/mask.bed"
+                },
+                {
+                  "path": "monkeypox/config/hpxv1/reference.fasta"
+                },
+                {
+                  "path": "monkeypox/config/lat_longs.tsv"
+                },
+                {
+                  "path": "monkeypox/scripts/assign-colors.py"
+                },
+                {
+                  "path": "monkeypox/scripts/clades_renaming.py"
+                },
+                {
+                  "path": "monkeypox/scripts/fix_tree.py"
+                },
+                {
+                  "path": "monkeypox/scripts/mutation_context.py"
+                },
+                {
+                  "path": "monkeypox/scripts/remove_timeinfo.py"
+                },
+                {
+                  "path": "monkeypox/scripts/set_final_strain_name.py"
+                },
+                {
+                  "path": "monkeypox/scripts/wrangle_metadata.py"
+                },
+                {
+                  "path": "monkeypox/workflow/snakemake_rules/core.smk"
+                },
+                {
+                  "path": "monkeypox/workflow/snakemake_rules/prepare.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 16,
+            "title": "Make SARS-CoV-2 gene map compatible with GFF3 spec",
+            "state": "MERGED",
+            "createdAt": "2022-07-21T18:33:40Z",
+            "mergedAt": "2022-07-22T00:59:29Z",
+            "author": {
+              "login": "huddlej"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "sars-cov-2/references/MN908947/genemap.gff"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3,
+            "title": "feat: exclude recombinants (XA etc.) from SC2 reference tree",
+            "state": "MERGED",
+            "createdAt": "2021-11-15T17:29:33Z",
+            "mergedAt": "2021-11-17T15:57:59Z",
+            "author": {
+              "login": "corneliusroemer"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "sars-cov-2/Snakefile"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/builds.yaml"
+                },
+                {
+                  "path": "sars-cov-2/profiles/exclude.txt"
+                },
+                {
+                  "path": "sars-cov-2/profiles/qc.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/tag.json"
+                },
+                {
+                  "path": "sars-cov-2/scripts/fix_open_pango_lineages.py"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/subsampling.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 605
+                }
+              ]
+            }
+          },
+          {
+            "number": 2,
+            "title": "Add sars-cov-2 reference tree generation workflow",
+            "state": "MERGED",
+            "createdAt": "2021-09-24T19:47:35Z",
+            "mergedAt": "2021-09-24T19:48:13Z",
+            "author": {
+              "login": "corneliusroemer"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "sars-cov-2/.gitignore"
+                },
+                {
+                  "path": "sars-cov-2/Snakefile"
+                },
+                {
+                  "path": "sars-cov-2/defaults/annotation.gff"
+                },
+                {
+                  "path": "sars-cov-2/defaults/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/defaults/clades.tsv"
+                },
+                {
+                  "path": "sars-cov-2/defaults/color_ordering.tsv"
+                },
+                {
+                  "path": "sars-cov-2/defaults/color_schemes.tsv"
+                },
+                {
+                  "path": "sars-cov-2/defaults/description.md"
+                },
+                {
+                  "path": "sars-cov-2/defaults/include.txt"
+                },
+                {
+                  "path": "sars-cov-2/defaults/parameters.yaml"
+                },
+                {
+                  "path": "sars-cov-2/defaults/reference_seq.fasta"
+                },
+                {
+                  "path": "sars-cov-2/defaults/reference_seq.gb"
+                },
+                {
+                  "path": "sars-cov-2/log/empty/empty"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades-cluster/config.yaml"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/auspice_config.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/builds.yaml"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/config.yaml"
+                },
+                {
+                  "path": "sars-cov-2/profiles/clades/description.md"
+                },
+                {
+                  "path": "sars-cov-2/profiles/cluster/cluster.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/cluster/submit.sh"
+                },
+                {
+                  "path": "sars-cov-2/profiles/exclude.txt"
+                },
+                {
+                  "path": "sars-cov-2/profiles/primers.csv"
+                },
+                {
+                  "path": "sars-cov-2/profiles/qc.json"
+                },
+                {
+                  "path": "sars-cov-2/profiles/sequences.fasta"
+                },
+                {
+                  "path": "sars-cov-2/profiles/tag.json"
+                },
+                {
+                  "path": "sars-cov-2/references/MN908947/genemap.gff"
+                },
+                {
+                  "path": "sars-cov-2/references/MN908947/reference.fasta"
+                },
+                {
+                  "path": "sars-cov-2/scripts/add_branch_labels.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/assign-colors.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/combine-and-dedup-fastas.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/diagnostic.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/explicit_translation.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/fix_open_pango_lineages.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/get_distance_to_focal_set.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/include_prefix.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/mask-alignment.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/mutation_summary.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/open_clock_deviation.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/open_pango_curated.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/priorities.py"
+                },
+                {
+                  "path": "sars-cov-2/scripts/priority_hash.py"
+                },
+                {
+                  "path": "sars-cov-2/workflow/envs/nextstrain.yaml"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/core.smk"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/preprocess.smk"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/subsampling.smk"
+                },
+                {
+                  "path": "sars-cov-2/workflow/snakemake_rules/templated_build.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1,
+            "title": "feat/allow multi refs",
+            "state": "MERGED",
+            "createdAt": "2021-08-27T16:49:24Z",
+            "mergedAt": "2021-08-27T16:49:36Z",
+            "author": {
+              "login": "corneliusroemer"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "flu/Snakefile"
+                },
+                {
+                  "path": "flu/datasetRef.json"
+                },
+                {
+                  "path": "flu/profiles/auspice_config.json"
+                },
+                {
+                  "path": "flu/profiles/b/vic/builds.yaml"
+                },
+                {
+                  "path": "flu/profiles/b/vic/config.yaml"
+                },
+                {
+                  "path": "flu/profiles/b/vic/genemap.gff"
+                },
+                {
+                  "path": "flu/profiles/b/vic/reference.fasta"
+                },
+                {
+                  "path": "flu/profiles/b/yam/genemap.gff"
+                },
+                {
+                  "path": "flu/profiles/b/yam/reference.fasta"
+                },
+                {
+                  "path": "flu/profiles/builds.yaml"
+                },
+                {
+                  "path": "flu/profiles/config.yaml"
+                },
+                {
+                  "path": "flu/profiles/exclude.txt"
+                },
+                {
+                  "path": "flu/profiles/qc.json"
+                },
+                {
+                  "path": "flu/profiles/tag.json"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/ha/CY121680/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/ha/CY121680/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/ha/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/ha/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/na/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/na/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/na/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/np/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/np/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/np/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/ns/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/ns/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/ns/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/pa/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/pa/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/pa/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/pb1/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/pb1/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/pb1/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/pb2/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/pb2/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h1n1pdm/pb2/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/h3n2/ha/CY163680/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h3n2/ha/CY163680/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h3n2/ha/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h3n2/ha/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h3n2/ha/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/h3n2/ma/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h3n2/ma/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h3n2/ma/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/h3n2/na/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h3n2/na/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h3n2/na/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/h3n2/np/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h3n2/np/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h3n2/np/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/h3n2/ns/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h3n2/ns/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h3n2/ns/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/h3n2/pa/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h3n2/pa/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h3n2/pa/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/h3n2/pb1/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h3n2/pb1/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h3n2/pb1/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/h3n2/pb2/genemap.gff"
+                },
+                {
+                  "path": "flu/references/h3n2/pb2/reference.fasta"
+                },
+                {
+                  "path": "flu/references/h3n2/pb2/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/vic/ha/KX058884/genemap.gff"
+                },
+                {
+                  "path": "flu/references/vic/ha/KX058884/reference.fasta"
+                },
+                {
+                  "path": "flu/references/vic/ha/genemap.gff"
+                },
+                {
+                  "path": "flu/references/vic/ha/reference.fasta"
+                },
+                {
+                  "path": "flu/references/vic/ha/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/vic/na/genemap.gff"
+                },
+                {
+                  "path": "flu/references/vic/na/reference.fasta"
+                },
+                {
+                  "path": "flu/references/vic/na/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/vic/np/genemap.gff"
+                },
+                {
+                  "path": "flu/references/vic/np/reference.fasta"
+                },
+                {
+                  "path": "flu/references/vic/np/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/vic/ns/genemap.gff"
+                },
+                {
+                  "path": "flu/references/vic/ns/reference.fasta"
+                },
+                {
+                  "path": "flu/references/vic/ns/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/vic/pa/genemap.gff"
+                },
+                {
+                  "path": "flu/references/vic/pa/reference.fasta"
+                },
+                {
+                  "path": "flu/references/vic/pa/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/vic/pb1/genemap.gff"
+                },
+                {
+                  "path": "flu/references/vic/pb1/reference.fasta"
+                },
+                {
+                  "path": "flu/references/vic/pb1/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/vic/pb2/genemap.gff"
+                },
+                {
+                  "path": "flu/references/vic/pb2/reference.fasta"
+                },
+                {
+                  "path": "flu/references/vic/pb2/sequences.fasta"
+                },
+                {
+                  "path": "flu/references/yam/ha/JN993010/genemap.gff"
+                },
+                {
+                  "path": "flu/references/yam/ha/JN993010/reference.fasta"
+                },
+                {
+                  "path": "flu/references/yam/ha/genemap.gff"
+                },
+                {
+                  "path": "flu/references/yam/ha/reference.fasta"
+                },
+                {
+                  "path": "flu/references/yam/na/genemap.gff"
+                },
+                {
+                  "path": "flu/references/yam/na/reference.fasta"
+                },
+                {
+                  "path": "flu/references/yam/np/genemap.gff"
+                },
+                {
+                  "path": "flu/references/yam/np/reference.fasta"
+                },
+                {
+                  "path": "flu/references/yam/ns/genemap.gff"
+                },
+                {
+                  "path": "flu/references/yam/ns/reference.fasta"
+                },
+                {
+                  "path": "flu/references/yam/pa/genemap.gff"
+                },
+                {
+                  "path": "flu/references/yam/pa/reference.fasta"
+                },
+                {
+                  "path": "flu/references/yam/pb1/genemap.gff"
+                },
+                {
+                  "path": "flu/references/yam/pb1/reference.fasta"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

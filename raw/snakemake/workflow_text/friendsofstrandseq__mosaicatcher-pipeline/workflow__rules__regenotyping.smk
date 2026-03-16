@@ -1,0 +1,132 @@
+# if config["multistep_normalisation"] == False or config["ashleys_pipeline"] == False:
+
+
+rule mergeBams:
+    input:
+        check=remove_unselected_fct,
+        bam=selected_input_bam,
+        bai=selected_input_bai,
+        labels="{folder}/{sample}/cell_selection/labels.tsv",
+    output:
+        temp("{folder}/{sample}/merged_bam/merged.raw.bam"),
+    log:
+        "{folder}/log/mergeBams/{sample}.log",
+    group:
+        "merge_bams_per_sample"
+    resources:
+        mem_mb=get_mem_mb_merge_group,
+        time="01:00:00",
+    threads: 10
+    conda:
+        "../envs/mc_bioinfo_tools.yaml"
+    envmodules:
+        "SAMtools/1.21-GCC-13.3.0",
+    shell:
+        "samtools merge -@ {threads} {output} {input.bam} 2>&1 > {log}"
+
+
+rule mergeSortBams:
+    input:
+        "{folder}/{sample}/merged_bam/merged.raw.bam",
+    output:
+        temp("{folder}/{sample}/merged_bam/merged.bam"),
+    log:
+        "{folder}/log/mergeBams/{sample}.log",
+    group:
+        "merge_bams_per_sample"
+    resources:
+        mem_mb=get_mem_mb_merge_group,
+        time="01:00:00",
+    threads: 10
+    conda:
+        "../envs/mc_bioinfo_tools.yaml"
+    envmodules:
+        "SAMtools/1.21-GCC-13.3.0",
+    shell:
+        "samtools sort -@ {threads} -o {output} {input} 2>&1 > {log}"
+
+
+rule index_merged_bam:
+    input:
+        "{folder}/{sample}/merged_bam/merged.bam",
+    output:
+        temp("{folder}/{sample}/merged_bam/merged.bam.bai"),
+    log:
+        "{folder}/log/merged_bam/{sample}/merged.log",
+    group:
+        "merge_bams_per_sample"
+    conda:
+        "../envs/mc_bioinfo_tools.yaml"
+    envmodules:
+        "SAMtools/1.21-GCC-13.3.0",
+    resources:
+        mem_mb=get_mem_mb_merge_group,
+    shell:
+        "samtools index {input} > {log} 2>&1"
+
+
+rule regenotype_SNVs:
+    input:
+        bam="{folder}/{sample}/merged_bam/merged.bam",
+        bai="{folder}/{sample}/merged_bam/merged.bam.bai",
+        sites=(
+            config["references_data"][config["reference"]]["snv_sites_to_genotype"]
+            if config["references_data"][config["reference"]]["snv_sites_to_genotype"]
+            else []
+        ),
+        fasta=get_reference_fasta(),
+        fasta_index=f"{get_reference_fasta()}.fai",
+    output:
+        vcf="{folder}/{sample}/snv_genotyping/{chrom,chr[0-9A-Z]+}.vcf",
+    log:
+        "{folder}/log/snv_genotyping/{sample}/{chrom}.log",
+    params:
+        sites_arg=lambda wildcards, input: f"-@ {input.sites}" if input.sites else "",
+    resources:
+        mem_mb=get_mem_mb_heavy,
+        time="10:00:00",
+    conda:
+        "../envs/mc_bioinfo_tools.yaml"
+    envmodules:
+        "freebayes/1.3.6-foss-2021b-R-4.1.2",
+        "BCFtools/1.21-GCC-13.3.0",
+    shell:
+        """
+        (freebayes \
+            -f {input.fasta} \
+            -r {wildcards.chrom} \
+            {params.sites_arg} \
+            --only-use-input-alleles {input.bam} \
+            --genotype-qualities \
+        | bcftools view \
+            --exclude-uncalled \
+            --types snps \
+            --genotype het \
+            --include "QUAL>=10" \
+        > {output.vcf}) 2> {log}
+        """
+
+
+rule call_SNVs_bcftools_chrom:
+    input:
+        unpack(get_call_SNVs_bcftools_inputs),
+    output:
+        vcf="{folder}/{sample}/snv_calls/{chrom,chr[0-9A-Z]+}.vcf",
+    log:
+        "{folder}/log/snv_calls/{sample}/{chrom,chr[0-9A-Z]+}.vcf",
+    params:
+        ploidy_arg=lambda wildcards, input: (
+            f"--ploidy-file {input.ploidy}" if hasattr(input, "ploidy") else ""
+        ),
+    conda:
+        "../envs/mc_bioinfo_tools.yaml"
+    envmodules:
+        "BCFtools/1.21-GCC-13.3.0",
+    resources:
+        mem_mb=get_mem_mb_heavy,
+        time="10:00:00",
+    shell:
+        """
+        bcftools mpileup -r {wildcards.chrom} -f {input.fasta} {input.bam} \
+        | bcftools call -mv {params.ploidy_arg} | bcftools view --genotype het --types snps > {output} 2> {log}
+        """

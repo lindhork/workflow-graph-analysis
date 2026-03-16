@@ -1,0 +1,39 @@
+## Rule index for dtangle deconv
+##
+## @zgr2788
+##
+##
+## Description:
+## This file includes the rule to run dtangle with C1 and C2 references.
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+
+rule dtangle_run:
+    input:
+        getC2(getC1(getBulks('{sample}'), '{sample}'), '{sample}')
+
+    output:
+        "Output/{sample}_res_dtangle.rds"
+
+    conda:
+        "env.yaml"
+
+    benchmark:
+        "Benchmarks/{sample}_dtangle_benchmark.txt"
+
+    resources:
+        mem_mb=getMB(config['mem_gb']['minorOps'])
+
+    shell:
+        "Rscript Modules/dtangle/dtangle_run.R {input} {output}"

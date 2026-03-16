@@ -1,0 +1,3572 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 989,
+            "title": "BUSCO fails with exit error 1, cannot parse null string",
+            "state": "OPEN",
+            "createdAt": "2026-03-05T15:33:38Z",
+            "closedAt": null,
+            "author": {
+              "login": "masalgar"
+            }
+          },
+          {
+            "number": 985,
+            "title": "Incorrect validation of `long_reads_platform`",
+            "state": "CLOSED",
+            "createdAt": "2026-03-04T03:57:10Z",
+            "closedAt": "2026-03-06T19:43:58Z",
+            "author": {
+              "login": "vinisalazar"
+            }
+          },
+          {
+            "number": 983,
+            "title": "GTDBtk completeness/contamination Param docs out of date",
+            "state": "CLOSED",
+            "createdAt": "2026-03-02T08:17:14Z",
+            "closedAt": "2026-03-03T01:59:30Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 982,
+            "title": "Add `gunc_checkm_summary.tsv` table to `bin_summary.tsv",
+            "state": "OPEN",
+            "createdAt": "2026-02-13T13:19:40Z",
+            "closedAt": null,
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 981,
+            "title": "If all BIN QC tools fail, the pipeline should stop and not attempt to run downstream steps",
+            "state": "OPEN",
+            "createdAt": "2026-02-11T13:47:03Z",
+            "closedAt": null,
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 980,
+            "title": "Add DeepMAsED to the pipeline",
+            "state": "OPEN",
+            "createdAt": "2026-02-11T13:15:09Z",
+            "closedAt": null,
+            "author": {
+              "login": "amizeranschi"
+            }
+          },
+          {
+            "number": 978,
+            "title": "BOWTIE2_ASSEMBLY_ALIGN fails with samtools \"-@\" option under conda profile",
+            "state": "OPEN",
+            "createdAt": "2026-02-08T06:00:02Z",
+            "closedAt": null,
+            "author": {
+              "login": "Ruiqi-CUB"
+            }
+          },
+          {
+            "number": 977,
+            "title": "AWS megatest configuration suboptimal",
+            "state": "OPEN",
+            "createdAt": "2026-02-06T13:36:18Z",
+            "closedAt": null,
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 976,
+            "title": "Integrate BiG-SCAPE into the pipeline",
+            "state": "CLOSED",
+            "createdAt": "2026-02-05T18:57:12Z",
+            "closedAt": "2026-02-05T19:05:10Z",
+            "author": {
+              "login": "amizeranschi"
+            }
+          },
+          {
+            "number": 975,
+            "title": "Integrate BiG-SLiCE into the pipeline",
+            "state": "CLOSED",
+            "createdAt": "2026-02-05T18:56:26Z",
+            "closedAt": "2026-02-05T19:04:58Z",
+            "author": {
+              "login": "amizeranschi"
+            }
+          },
+          {
+            "number": 974,
+            "title": "ALE should not be executed with long read data",
+            "state": "OPEN",
+            "createdAt": "2026-02-04T09:52:14Z",
+            "closedAt": null,
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 971,
+            "title": "Add dedicated parameters for Trimmomatic adapter clipping",
+            "state": "OPEN",
+            "createdAt": "2026-01-27T07:04:42Z",
+            "closedAt": null,
+            "author": {
+              "login": "Pranjal-Bioinfo"
+            }
+          },
+          {
+            "number": 968,
+            "title": "NFCORE_MAG:MAG:BUSCO_QC:BUSCO_SUMMARY terminated with an error exit status (1)",
+            "state": "OPEN",
+            "createdAt": "2026-01-26T09:58:38Z",
+            "closedAt": null,
+            "author": {
+              "login": "mglgc"
+            }
+          },
+          {
+            "number": 964,
+            "title": "Generate contig-to-bin maps for all bins during binning and simplify code",
+            "state": "CLOSED",
+            "createdAt": "2026-01-08T07:50:30Z",
+            "closedAt": "2026-01-14T04:56:03Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 961,
+            "title": "[ERRO] record on line 2: wrong number of fields",
+            "state": "CLOSED",
+            "createdAt": "2025-12-14T14:43:59Z",
+            "closedAt": "2025-12-14T16:40:35Z",
+            "author": {
+              "login": "tkcaccia"
+            }
+          },
+          {
+            "number": 960,
+            "title": "FLye --meta as a default assembly mode.",
+            "state": "CLOSED",
+            "createdAt": "2025-12-11T09:56:16Z",
+            "closedAt": "2025-12-11T10:15:35Z",
+            "author": {
+              "login": "palec87"
+            }
+          },
+          {
+            "number": 959,
+            "title": "Process `NFCORE_MAG:MAG:PROKKA (...)` terminated with an error exit status (2)",
+            "state": "CLOSED",
+            "createdAt": "2025-12-09T09:49:20Z",
+            "closedAt": "2026-01-23T13:40:28Z",
+            "author": {
+              "login": "brovolia"
+            }
+          },
+          {
+            "number": 955,
+            "title": "Count table after mapping reads back to the dereplicated MAGs",
+            "state": "OPEN",
+            "createdAt": "2025-12-03T15:11:31Z",
+            "closedAt": null,
+            "author": {
+              "login": "richrr"
+            }
+          },
+          {
+            "number": 951,
+            "title": "Better document BUSCO run by default, and how to turn it off",
+            "state": "OPEN",
+            "createdAt": "2025-12-02T12:16:01Z",
+            "closedAt": null,
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 950,
+            "title": "NFCORE_MAG:MAG:BINNING:COMEBIN_RUNCOMEBIN: corruption of 638 bytes: Error in middle of record",
+            "state": "OPEN",
+            "createdAt": "2025-12-02T06:56:39Z",
+            "closedAt": null,
+            "author": {
+              "login": "tkcaccia"
+            }
+          },
+          {
+            "number": 946,
+            "title": "Memory managing",
+            "state": "CLOSED",
+            "createdAt": "2025-12-01T09:12:20Z",
+            "closedAt": "2025-12-02T12:07:26Z",
+            "author": {
+              "login": "tkcaccia"
+            }
+          },
+          {
+            "number": 944,
+            "title": "Running mag v. 5.2.0 with --skip_binning doesn't cleanly skip GTDB-tk, resulting in error",
+            "state": "CLOSED",
+            "createdAt": "2025-11-27T19:54:46Z",
+            "closedAt": "2025-12-02T12:10:51Z",
+            "author": {
+              "login": "amizeranschi"
+            }
+          },
+          {
+            "number": 942,
+            "title": "Recurring error on aws key",
+            "state": "CLOSED",
+            "createdAt": "2025-11-27T10:04:28Z",
+            "closedAt": "2025-11-28T13:39:43Z",
+            "author": {
+              "login": "ADGM"
+            }
+          },
+          {
+            "number": 941,
+            "title": "Feature + Question: Identify Plasmid contigs with geNomad",
+            "state": "CLOSED",
+            "createdAt": "2025-11-26T13:21:26Z",
+            "closedAt": "2025-12-08T07:17:08Z",
+            "author": {
+              "login": "fconstancias"
+            }
+          },
+          {
+            "number": 940,
+            "title": "MetaBinner error: Missing output file(s) *.tooShort.fa.gz when no short contigs are produced (nf-core/mag v5.2.0)",
+            "state": "CLOSED",
+            "createdAt": "2025-11-26T11:40:08Z",
+            "closedAt": "2025-12-01T08:32:57Z",
+            "author": {
+              "login": "tkcaccia"
+            }
+          },
+          {
+            "number": 939,
+            "title": "Go runtime panic in SEQKIT_STATS process (running on NVIDIA DGX Spark / ARM64)",
+            "state": "CLOSED",
+            "createdAt": "2025-11-26T02:53:45Z",
+            "closedAt": "2025-12-01T08:26:50Z",
+            "author": {
+              "login": "ystone1101"
+            }
+          },
+          {
+            "number": 936,
+            "title": "GPU acceleration for COMEBin and SemiBin2",
+            "state": "OPEN",
+            "createdAt": "2025-11-19T09:38:49Z",
+            "closedAt": null,
+            "author": {
+              "login": "d4straub"
+            }
+          },
+          {
+            "number": 935,
+            "title": "Missing Taxonomy and MultiQC folders",
+            "state": "CLOSED",
+            "createdAt": "2025-11-18T10:53:38Z",
+            "closedAt": "2025-11-18T12:43:09Z",
+            "author": {
+              "login": "joao1980"
+            }
+          },
+          {
+            "number": 934,
+            "title": "Doubts about the final results",
+            "state": "CLOSED",
+            "createdAt": "2025-11-18T06:34:20Z",
+            "closedAt": "2025-11-18T19:24:29Z",
+            "author": {
+              "login": "SanSanMX"
+            }
+          },
+          {
+            "number": 928,
+            "title": "Tiara fails with metaMDBG inputs",
+            "state": "CLOSED",
+            "createdAt": "2025-11-12T21:51:06Z",
+            "closedAt": "2025-11-25T15:02:00Z",
+            "author": {
+              "login": "MicroSeq"
+            }
+          },
+          {
+            "number": 926,
+            "title": "MetaBinner too_short.fastq.gz file missing with metaMDBG assemblies",
+            "state": "CLOSED",
+            "createdAt": "2025-11-12T03:46:23Z",
+            "closedAt": "2025-11-13T12:21:52Z",
+            "author": {
+              "login": "MicroSeq"
+            }
+          },
+          {
+            "number": 925,
+            "title": "Integrate the nf-core module for ALE (Assembly Likelihood Evaluation)",
+            "state": "CLOSED",
+            "createdAt": "2025-11-10T08:00:57Z",
+            "closedAt": "2026-02-02T14:33:45Z",
+            "author": {
+              "login": "amizeranschi"
+            }
+          },
+          {
+            "number": 920,
+            "title": "BUSCO error",
+            "state": "CLOSED",
+            "createdAt": "2025-11-06T12:04:10Z",
+            "closedAt": "2025-11-06T15:17:05Z",
+            "author": {
+              "login": "joao1980"
+            }
+          },
+          {
+            "number": 917,
+            "title": "Create a small geNomad database for running tests",
+            "state": "OPEN",
+            "createdAt": "2025-11-06T00:05:56Z",
+            "closedAt": null,
+            "author": {
+              "login": "dialvarezs"
+            }
+          },
+          {
+            "number": 916,
+            "title": "Improve testing datasets and databases",
+            "state": "OPEN",
+            "createdAt": "2025-11-06T00:03:46Z",
+            "closedAt": null,
+            "author": {
+              "login": "dialvarezs"
+            }
+          },
+          {
+            "number": 915,
+            "title": "Make a small CheckM2 database for running tests",
+            "state": "OPEN",
+            "createdAt": "2025-11-06T00:00:13Z",
+            "closedAt": null,
+            "author": {
+              "login": "dialvarezs"
+            }
+          },
+          {
+            "number": 903,
+            "title": "Generate MGNify submission compatible metrics",
+            "state": "OPEN",
+            "createdAt": "2025-10-28T14:27:52Z",
+            "closedAt": null,
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 902,
+            "title": "Generate snapshot for test_single_end",
+            "state": "OPEN",
+            "createdAt": "2025-10-28T13:50:46Z",
+            "closedAt": null,
+            "author": {
+              "login": "dialvarezs"
+            }
+          },
+          {
+            "number": 901,
+            "title": "Generate snapshot for test_hybrid",
+            "state": "OPEN",
+            "createdAt": "2025-10-28T13:50:16Z",
+            "closedAt": null,
+            "author": {
+              "login": "dialvarezs"
+            }
+          },
+          {
+            "number": 900,
+            "title": "Generate snapshot for test_assembly_input",
+            "state": "CLOSED",
+            "createdAt": "2025-10-28T13:49:33Z",
+            "closedAt": "2025-11-14T21:31:54Z",
+            "author": {
+              "login": "dialvarezs"
+            }
+          },
+          {
+            "number": 899,
+            "title": "Generate snapshot for test_longreadonly",
+            "state": "OPEN",
+            "createdAt": "2025-10-28T13:48:49Z",
+            "closedAt": null,
+            "author": {
+              "login": "dialvarezs"
+            }
+          },
+          {
+            "number": 898,
+            "title": "Generate snapshot for test_longreadonly_alternatives",
+            "state": "OPEN",
+            "createdAt": "2025-10-28T10:19:22Z",
+            "closedAt": null,
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 897,
+            "title": "Generate snapshot for test_default",
+            "state": "OPEN",
+            "createdAt": "2025-10-28T09:55:01Z",
+            "closedAt": null,
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 890,
+            "title": "METASPADES exit status 21: paired read files contain unequal number of reads",
+            "state": "CLOSED",
+            "createdAt": "2025-10-24T07:41:21Z",
+            "closedAt": "2025-11-27T17:28:52Z",
+            "author": {
+              "login": "maartenciers"
+            }
+          },
+          {
+            "number": 889,
+            "title": "using a custom config file?",
+            "state": "CLOSED",
+            "createdAt": "2025-10-23T13:36:41Z",
+            "closedAt": "2025-10-28T06:10:48Z",
+            "author": {
+              "login": "Thomieh73"
+            }
+          },
+          {
+            "number": 887,
+            "title": "Utilization of both old assemblies and new raw reads",
+            "state": "OPEN",
+            "createdAt": "2025-10-20T10:46:30Z",
+            "closedAt": null,
+            "author": {
+              "login": "stas-malavin"
+            }
+          },
+          {
+            "number": 884,
+            "title": "Find CI test dataset for binner \"COMEBin\" & \"MetaBinner\"",
+            "state": "OPEN",
+            "createdAt": "2025-10-17T07:05:09Z",
+            "closedAt": null,
+            "author": {
+              "login": "d4straub"
+            }
+          },
+          {
+            "number": 883,
+            "title": "unknown lr_platform provided to Flye",
+            "state": "CLOSED",
+            "createdAt": "2025-10-16T19:24:28Z",
+            "closedAt": "2025-10-24T10:54:01Z",
+            "author": {
+              "login": "feixiang1209"
+            }
+          },
+          {
+            "number": 882,
+            "title": "Cannot pass checkm2_db directory to `--checkm2_db` due to faulty validation",
+            "state": "CLOSED",
+            "createdAt": "2025-10-16T15:25:21Z",
+            "closedAt": "2025-10-24T12:02:23Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 877,
+            "title": "Low-complexity sequence filtering",
+            "state": "OPEN",
+            "createdAt": "2025-10-10T17:18:19Z",
+            "closedAt": null,
+            "author": {
+              "login": "Thomieh73"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 994,
+            "title": "Update help_text formatting for spades and megahit options",
+            "state": "MERGED",
+            "createdAt": "2026-03-10T08:51:59Z",
+            "mergedAt": "2026-03-10T13:29:41Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "nextflow_schema.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 993,
+            "title": "Update full test resources",
+            "state": "MERGED",
+            "createdAt": "2026-03-09T19:33:13Z",
+            "mergedAt": "2026-03-09T21:09:32Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/test_full.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 977
+                }
+              ]
+            }
+          },
+          {
+            "number": 992,
+            "title": "Update command to get python package versions in local modules",
+            "state": "MERGED",
+            "createdAt": "2026-03-07T23:24:07Z",
+            "mergedAt": "2026-03-08T11:35:03Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules/local/bigmag_summary/main.nf"
+                },
+                {
+                  "path": "modules/local/bin_summary/main.nf"
+                },
+                {
+                  "path": "modules/local/gtdbtk_summary/main.nf"
+                },
+                {
+                  "path": "modules/local/mag_depths/main.nf"
+                },
+                {
+                  "path": "modules/local/mag_depths_plot/main.nf"
+                },
+                {
+                  "path": "modules/local/mag_depths_summary/main.nf"
+                },
+                {
+                  "path": "modules/local/split_fasta/main.nf"
+                },
+                {
+                  "path": "modules/local/summarise_pydamagebins/main.nf"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_assembly_input.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_hybrid.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_single_end.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 991,
+            "title": "Release 5.4.1",
+            "state": "OPEN",
+            "createdAt": "2026-03-07T13:00:39Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/bigmag_summary/main.nf"
+                },
+                {
+                  "path": "modules/local/bin_summary/main.nf"
+                },
+                {
+                  "path": "modules/local/gtdbtk_summary/main.nf"
+                },
+                {
+                  "path": "modules/local/mag_depths/main.nf"
+                },
+                {
+                  "path": "modules/local/mag_depths_plot/main.nf"
+                },
+                {
+                  "path": "modules/local/mag_depths_summary/main.nf"
+                },
+                {
+                  "path": "modules/local/split_fasta/main.nf"
+                },
+                {
+                  "path": "modules/local/summarise_pydamagebins/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/assembly_shortread/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/binning_preparation_longread/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/hostremoval_longread/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_mag_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_assembly_input.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_hybrid.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_minimal.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_single_end.nf.test.snap"
+                },
+                {
+                  "path": "workflows/mag.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 990,
+            "title": "Bump version for release v5.4.1",
+            "state": "MERGED",
+            "createdAt": "2026-03-06T19:42:52Z",
+            "mergedAt": "2026-03-07T12:59:21Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_assembly_input.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_hybrid.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_minimal.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_single_end.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 988,
+            "title": "Update docs re: long_reads_platform",
+            "state": "MERGED",
+            "createdAt": "2026-03-05T01:56:59Z",
+            "mergedAt": "2026-03-06T13:27:43Z",
+            "author": {
+              "login": "vinisalazar"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 985
+                }
+              ]
+            }
+          },
+          {
+            "number": 987,
+            "title": "Fix documentation issues",
+            "state": "MERGED",
+            "createdAt": "2026-03-04T15:35:19Z",
+            "mergedAt": "2026-03-05T11:14:39Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_mag_pipeline/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 986,
+            "title": "Fix faulty YAML loading issue",
+            "state": "MERGED",
+            "createdAt": "2026-03-04T15:20:39Z",
+            "mergedAt": "2026-03-06T19:30:55Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/binning_preparation_longread/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/hostremoval_longread/main.nf"
+                },
+                {
+                  "path": "tests/test_hybrid.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "workflows/mag.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 984,
+            "title": "Update GTDB-Tk QC documentation to include CheckM and CheckM2",
+            "state": "MERGED",
+            "createdAt": "2026-03-02T18:51:58Z",
+            "mergedAt": "2026-03-02T20:39:27Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 983
+                }
+              ]
+            }
+          },
+          {
+            "number": 979,
+            "title": "Re-add contigs vs scaffolds metaSPAdes selection",
+            "state": "MERGED",
+            "createdAt": "2026-02-09T08:37:41Z",
+            "mergedAt": "2026-03-04T15:16:43Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "subworkflows/local/assembly_shortread/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 973,
+            "title": "Bump version post 5.4",
+            "state": "MERGED",
+            "createdAt": "2026-02-02T14:38:53Z",
+            "mergedAt": "2026-02-09T08:34:43Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_assembly_input.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_hybrid.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_minimal.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_single_end.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 972,
+            "title": "Add PR labeller workflow to report size of PRs",
+            "state": "MERGED",
+            "createdAt": "2026-02-02T11:07:55Z",
+            "mergedAt": "2026-02-02T11:14:36Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/labeler.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 970,
+            "title": "Release 5.4.0 (Yellow Frog)",
+            "state": "MERGED",
+            "createdAt": "2026-01-26T13:20:19Z",
+            "mergedAt": "2026-02-02T14:07:40Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/labeler.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "bin/combine_tables.py"
+                },
+                {
+                  "path": "bin/summarise_pydamagebins.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_alternatives.config"
+                },
+                {
+                  "path": "conf/test_assembly_input.config"
+                },
+                {
+                  "path": "conf/test_hybrid.config"
+                },
+                {
+                  "path": "conf/test_longreadonly.config"
+                },
+                {
+                  "path": "conf/test_longreadonly_alternatives.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "conf/test_single_end.config"
+                },
+                {
+                  "path": "docs/images/mag_metromap_dark.png"
+                },
+                {
+                  "path": "docs/images/mag_metromap_dark.svg"
+                },
+                {
+                  "path": "docs/images/mag_metromap_light.png"
+                },
+                {
+                  "path": "docs/images/mag_metromap_light.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/bin_summary/main.nf"
+                },
+                {
+                  "path": "modules/local/summarise_pydamagebins/environment.yml"
+                },
+                {
+                  "path": "modules/local/summarise_pydamagebins/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/ale/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/ale/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/ale/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/ale/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/ale/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/checkm2/predict/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/checkm2/predict/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/metabat2/metabat2/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/metabat2/metabat2/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/metabat2/metabat2/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/metabat2/metabat2/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/bin_qc/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/binning/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/binning_pydamage/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/binning_pydamage/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/binning_refinement/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_mag_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_assembly_input.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_hybrid.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_minimal.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_single_end.nf.test.snap"
+                },
+                {
+                  "path": "workflows/mag.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 969,
+            "title": "Bump version for release 5.4",
+            "state": "MERGED",
+            "createdAt": "2026-01-26T12:04:58Z",
+            "mergedAt": "2026-01-26T13:18:53Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "docs/images/mag_metromap_dark.png"
+                },
+                {
+                  "path": "docs/images/mag_metromap_dark.svg"
+                },
+                {
+                  "path": "docs/images/mag_metromap_light.png"
+                },
+                {
+                  "path": "docs/images/mag_metromap_light.svg"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_assembly_input.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_hybrid.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_minimal.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_single_end.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 967,
+            "title": "Update utils_nfschema_pipeline to allow `--help`",
+            "state": "MERGED",
+            "createdAt": "2026-01-25T13:27:50Z",
+            "mergedAt": "2026-01-25T14:12:09Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 966,
+            "title": "Workaround around for CheckM2 database downloading being blocked by Zenodo",
+            "state": "MERGED",
+            "createdAt": "2026-01-20T07:39:17Z",
+            "mergedAt": "2026-01-20T10:41:53Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/checkm2/predict/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/checkm2/predict/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/bin_qc/main.nf"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 965,
+            "title": "Generate contig to bin maps for all bins during binning and simplify bin refinment DAS_Tool contig2bin code",
+            "state": "MERGED",
+            "createdAt": "2026-01-09T11:16:05Z",
+            "mergedAt": "2026-01-14T04:55:17Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_alternatives.config"
+                },
+                {
+                  "path": "conf/test_assembly_input.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/binning/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/binning_refinement/main.nf"
+                },
+                {
+                  "path": "tests/test_assembly_input.nf.test.snap"
+                },
+                {
+                  "path": "workflows/mag.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 964
+                }
+              ]
+            }
+          },
+          {
+            "number": 963,
+            "title": "Summarise ancient DNA pyDamage results per bin and add to bin summary table ",
+            "state": "MERGED",
+            "createdAt": "2026-01-07T09:01:54Z",
+            "mergedAt": "2026-01-16T14:20:04Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "bin/combine_tables.py"
+                },
+                {
+                  "path": "bin/summarise_pydamagebins.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_single_end.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules/local/bin_summary/main.nf"
+                },
+                {
+                  "path": "modules/local/summarise_pydamagebins/environment.yml"
+                },
+                {
+                  "path": "modules/local/summarise_pydamagebins/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/binning_pydamage/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/binning_pydamage/meta.yaml"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_mag_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/test_single_end.nf.test.snap"
+                },
+                {
+                  "path": "workflows/mag.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 962,
+            "title": "Include MetaBinner/SemiBin2 as inputs to DASTool",
+            "state": "MERGED",
+            "createdAt": "2025-12-25T10:59:51Z",
+            "mergedAt": "2026-01-21T13:57:58Z",
+            "author": {
+              "login": "AlexHoratio"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "tests/test_assembly_input.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 958,
+            "title": "test_longreadonly",
+            "state": "OPEN",
+            "createdAt": "2025-12-08T15:34:57Z",
+            "mergedAt": null,
+            "author": {
+              "login": "brovolia"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/test_longreadonly.nf.test"
+                },
+                {
+                  "path": "tests/test_longreadonly.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 957,
+            "title": "Post 5.3.0 release version bump ",
+            "state": "MERGED",
+            "createdAt": "2025-12-05T13:11:56Z",
+            "mergedAt": "2025-12-05T13:52:42Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_assembly_input.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_hybrid.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_minimal.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_single_end.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 956,
+            "title": "Support long reads assemblers in assembly input",
+            "state": "MERGED",
+            "createdAt": "2025-12-03T20:13:38Z",
+            "mergedAt": "2025-12-03T20:29:05Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/schema_assembly_input.json"
+                },
+                {
+                  "path": "docs/usage.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 954,
+            "title": "Improve handling of GTDB-Tk + Bin QC ",
+            "state": "MERGED",
+            "createdAt": "2025-12-03T11:31:27Z",
+            "mergedAt": "2025-12-03T13:42:55Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_mag_pipeline/main.nf"
+                },
+                {
+                  "path": "workflows/mag.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 953,
+            "title": "metaSPAdes error 250 (OOM) triggers retry rather than finish",
+            "state": "MERGED",
+            "createdAt": "2025-12-03T09:23:53Z",
+            "mergedAt": "2025-12-03T11:09:03Z",
+            "author": {
+              "login": "AlexHoratio"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/base.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 952,
+            "title": "Update semibin module",
+            "state": "MERGED",
+            "createdAt": "2025-12-02T16:50:19Z",
+            "mergedAt": "2025-12-03T09:14:46Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/semibin/singleeasybin/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/semibin/singleeasybin/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/semibin/singleeasybin/semibin-singleeasybin.diff"
+                },
+                {
+                  "path": "modules/nf-core/semibin/singleeasybin/tests/main.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 949,
+            "title": "Address #948 review comments",
+            "state": "MERGED",
+            "createdAt": "2025-12-01T15:58:43Z",
+            "mergedAt": "2025-12-02T14:51:46Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "bin/prepare_bigmag_summary.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_assembly_input.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/bigmag_summary/environment.yml"
+                },
+                {
+                  "path": "modules/local/bigmag_summary/main.nf"
+                },
+                {
+                  "path": "modules/local/metabinner_bins/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_hybrid.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_minimal.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_single_end.nf.test.snap"
+                },
+                {
+                  "path": "workflows/mag.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 948,
+            "title": "Release: v5.3.0 Rainbow Rattlesnake ",
+            "state": "MERGED",
+            "createdAt": "2025-12-01T13:07:53Z",
+            "mergedAt": "2025-12-05T12:00:59Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/schema_assembly_input.json"
+                },
+                {
+                  "path": "bin/combine_tables.py"
+                },
+                {
+                  "path": "bin/domain_classification.R"
+                },
+                {
+                  "path": "bin/prepare_bigmag_summary.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_alternatives.config"
+                },
+                {
+                  "path": "conf/test_assembly_input.config"
+                },
+                {
+                  "path": "conf/test_longreadonly.config"
+                },
+                {
+                  "path": "conf/test_longreadonly_alternatives.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "conf/test_single_end.config"
+                },
+                {
+                  "path": "docs/images/mag_metromap_dark.png"
+                },
+                {
+                  "path": "docs/images/mag_metromap_dark.svg"
+                },
+                {
+                  "path": "docs/images/mag_metromap_light.png"
+                },
+                {
+                  "path": "docs/images/mag_metromap_light.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/bigmag_summary/environment.yml"
+                },
+                {
+                  "path": "modules/local/bigmag_summary/main.nf"
+                },
+                {
+                  "path": "modules/local/metabinner_bins/main.nf"
+                },
+                {
+                  "path": "modules/local/tiara_classify/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/consensus/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/consensus/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/consensus/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/consensus/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/busco/busco/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/catpack/prepare/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/checkm/qa/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/checkm2/predict/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/checkm2/predict/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/chopper/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/concoct/concoct/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/concoct/concoctcoveragetable/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/concoct/cutupfasta/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/concoct/extractfastabins/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/concoct/mergecutupclustering/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/dastool/dastool/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/dastool/fastatocontig2bin/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastp/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastp/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastp/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastp/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastp/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/genomad/download/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/genomad/download/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/genomad/download/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/genomad/endtoend/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/genomad/endtoend/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/genomad/endtoend/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gunc/mergecheckm/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gunc/mergecheckm/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gunc/run/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gunc/run/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/metaeuk/easypredict/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/metaeuk/easypredict/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/metamdbg/asm/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/metamdbg/asm/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/metamdbg/asm/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/databases/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/databases/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/databases/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/nanoplot/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/porechop/porechop/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/prodigal/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/qsv/cat/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/qsv/cat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/qsv/cat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/qsv/cat/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/qsv/cat/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/samtools/faidx/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/faidx/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 947,
+            "title": "Version bump for v5.3.0 release [Rainbow Rattlesnake] ",
+            "state": "MERGED",
+            "createdAt": "2025-12-01T12:22:06Z",
+            "mergedAt": "2025-12-01T13:06:37Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "docs/images/mag_metromap_dark.png"
+                },
+                {
+                  "path": "docs/images/mag_metromap_dark.svg"
+                },
+                {
+                  "path": "docs/images/mag_metromap_light.png"
+                },
+                {
+                  "path": "docs/images/mag_metromap_light.svg"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_assembly_input.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_hybrid.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_minimal.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_single_end.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 945,
+            "title": "Skip mixing of GTDB-Tk MultiQC files when binning is skipped",
+            "state": "MERGED",
+            "createdAt": "2025-11-27T21:25:26Z",
+            "mergedAt": "2025-11-27T22:15:40Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "workflows/mag.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 943,
+            "title": "Fix BUSCO and TIARA report concatenation",
+            "state": "MERGED",
+            "createdAt": "2025-11-27T15:59:29Z",
+            "mergedAt": "2025-11-28T19:02:25Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/qsv/cat/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/qsv/cat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/qsv/cat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/qsv/cat/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/qsv/cat/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/ancient_dna/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/bin_qc/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/bin_qc/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/binning/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/binning/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/binning_metabinner/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/tiara/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/tiara/meta.yml"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_assembly_input.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_hybrid.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_single_end.nf.test.snap"
+                },
+                {
+                  "path": "workflows/mag.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 871
+                }
+              ]
+            }
+          },
+          {
+            "number": 938,
+            "title": "Update nf-core modules",
+            "state": "MERGED",
+            "createdAt": "2025-11-20T12:37:37Z",
+            "mergedAt": "2025-11-24T15:56:41Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/test_assembly_input.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/consensus/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/consensus/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/consensus/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/consensus/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/busco/busco/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/catpack/prepare/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/checkm/qa/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/checkm2/predict/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/checkm2/predict/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/chopper/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/concoct/concoct/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/concoct/concoctcoveragetable/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/concoct/cutupfasta/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/concoct/extractfastabins/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/concoct/mergecutupclustering/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/dastool/dastool/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/dastool/fastatocontig2bin/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastp/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastp/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastp/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastp/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastp/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/genomad/download/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/genomad/download/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/genomad/download/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/genomad/endtoend/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/genomad/endtoend/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/genomad/endtoend/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gunc/mergecheckm/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gunc/mergecheckm/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gunc/run/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gunc/run/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/metaeuk/easypredict/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/metaeuk/easypredict/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/metamdbg/asm/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/metamdbg/asm/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/metamdbg/asm/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/databases/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/databases/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/databases/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/nanoplot/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/porechop/porechop/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/prodigal/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/samtools/faidx/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/faidx/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/faidx/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/samtools/faidx/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/samtools/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/samtools/stats/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/stats/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/stats/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/semibin/singleeasybin/semibin-singleeasybin.diff"
+                },
+                {
+                  "path": "modules/nf-core/semibin/singleeasybin/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/trimmomatic/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/untar/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/preprocessing_shortread/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_assembly_input.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_hybrid.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_single_end.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 937,
+            "title": "Important! Template update for nf-core/tools v3.5.1",
+            "state": "MERGED",
+            "createdAt": "2025-11-20T09:31:35Z",
+            "mergedAt": "2025-11-20T12:24:12Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_hybrid.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_minimal.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_single_end.nf.test.snap"
+                },
+                {
+                  "path": "workflows/mag.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 933,
+            "title": "Set concurrent connections for CheckM2 database download",
+            "state": "MERGED",
+            "createdAt": "2025-11-17T15:36:36Z",
+            "mergedAt": "2025-11-18T09:50:47Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/test_alternatives.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 932,
+            "title": "Change deprecated `Channel` and make closures parameters explicit",
+            "state": "MERGED",
+            "createdAt": "2025-11-16T13:04:20Z",
+            "mergedAt": "2025-11-17T15:37:25Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "subworkflows/local/ancient_dna/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/assembly/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/assembly_hybrid/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/assembly_longread/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/assembly_shortread/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/bin_qc/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/binning/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/binning_metabinner/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/binning_preparation/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/binning_preparation_longread/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/binning_preparation_shortread/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/binning_refinement/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/catpack/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/depths/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/domain_classification/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/gtdbtk/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/hostremoval_longread/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/preprocessing_longread/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/preprocessing_shortread/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/tiara/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_mag_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/virus_identification/main.nf"
+                },
+                {
+                  "path": "workflows/mag.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 931,
+            "title": "Ale module",
+            "state": "MERGED",
+            "createdAt": "2025-11-16T09:02:25Z",
+            "mergedAt": "2026-01-22T15:04:28Z",
+            "author": {
+              "login": "PetcuBogdan"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_alternatives.config"
+                },
+                {
+                  "path": "conf/test_assembly_input.config"
+                },
+                {
+                  "path": "conf/test_hybrid.config"
+                },
+                {
+                  "path": "conf/test_longreadonly.config"
+                },
+                {
+                  "path": "conf/test_longreadonly_alternatives.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "conf/test_single_end.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/ale/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/ale/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/ale/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/ale/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/ale/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "workflows/mag.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 930,
+            "title": "Add binner SemiBin2",
+            "state": "MERGED",
+            "createdAt": "2025-11-14T14:21:52Z",
+            "mergedAt": "2025-11-19T16:10:46Z",
+            "author": {
+              "login": "d4straub"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_alternatives.config"
+                },
+                {
+                  "path": "conf/test_longreadonly.config"
+                },
+                {
+                  "path": "conf/test_longreadonly_alternatives.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "conf/test_single_end.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/semibin/singleeasybin/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/semibin/singleeasybin/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/semibin/singleeasybin/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/semibin/singleeasybin/semibin-singleeasybin.diff"
+                },
+                {
+                  "path": "modules/nf-core/semibin/singleeasybin/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/semibin/singleeasybin/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/semibin/singleeasybin/tests/nextflow.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/binning/main.nf"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_assembly_input.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_hybrid.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 929,
+            "title": "Fix domain classification compatibility with long reads",
+            "state": "MERGED",
+            "createdAt": "2025-11-13T08:57:56Z",
+            "mergedAt": "2025-11-13T13:07:01Z",
+            "author": {
+              "login": "prototaxites"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "bin/domain_classification.R"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "nf-test.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 927,
+            "title": "Fix when there are no too short contigs for MetaBinner",
+            "state": "MERGED",
+            "createdAt": "2025-11-12T15:22:59Z",
+            "mergedAt": "2025-11-12T16:00:00Z",
+            "author": {
+              "login": "d4straub"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules/local/metabinner_bins/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 924,
+            "title": "Remove duplicated \"Usage\" block from README",
+            "state": "MERGED",
+            "createdAt": "2025-11-07T18:06:45Z",
+            "mergedAt": "2025-11-07T19:54:43Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 923,
+            "title": "Post 5.2.0 release version bump ",
+            "state": "MERGED",
+            "createdAt": "2025-11-07T14:58:26Z",
+            "mergedAt": "2025-11-07T17:57:31Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_assembly_input.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_hybrid.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_minimal.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_single_end.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 922,
+            "title": "Apply #910 review suggestions",
+            "state": "MERGED",
+            "createdAt": "2025-11-07T12:19:40Z",
+            "mergedAt": "2025-11-07T12:50:21Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/metabinner_bins/main.nf"
+                },
+                {
+                  "path": "modules/local/metabinner_kmer/main.nf"
+                },
+                {
+                  "path": "modules/local/metabinner_metabinner/main.nf"
+                },
+                {
+                  "path": "modules/local/metabinner_tooshort/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_mag_pipeline/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 921,
+            "title": "Fix BUSCO publishing",
+            "state": "MERGED",
+            "createdAt": "2025-11-06T13:46:42Z",
+            "mergedAt": "2025-11-06T14:36:12Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 920
+                }
+              ]
+            }
+          },
+          {
+            "number": 919,
+            "title": "Update release announcement action",
+            "state": "MERGED",
+            "createdAt": "2025-11-06T11:25:36Z",
+            "mergedAt": "2025-11-06T11:28:32Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 918,
+            "title": "Update genomad modules",
+            "state": "MERGED",
+            "createdAt": "2025-11-06T01:29:16Z",
+            "mergedAt": "2025-11-06T06:34:20Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/genomad/download/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/genomad/download/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/genomad/download/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/genomad/endtoend/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/genomad/endtoend/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/genomad/endtoend/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_single_end.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 914,
+            "title": " Release: v5.2.0 Puce Pangolin",
+            "state": "MERGED",
+            "createdAt": "2025-11-05T12:25:11Z",
+            "mergedAt": "2025-11-07T14:18:35Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "bin/combine_tables.py"
+                },
+                {
+                  "path": "bin/create_metabinner_bins.py"
+                },
+                {
+                  "path": "bin/get_mag_depths.py"
+                },
+                {
+                  "path": "bin/get_mag_depths_summary.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_alternatives.config"
+                },
+                {
+                  "path": "conf/test_assembly_input.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_hybrid.config"
+                },
+                {
+                  "path": "conf/test_longreadonly.config"
+                },
+                {
+                  "path": "conf/test_longreadonly_alternatives.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "conf/test_single_end.config"
+                },
+                {
+                  "path": "docs/images/mag_metromap_dark.png"
+                },
+                {
+                  "path": "docs/images/mag_metromap_dark.svg"
+                },
+                {
+                  "path": "docs/images/mag_metromap_light.png"
+                },
+                {
+                  "path": "docs/images/mag_metromap_light.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/bin_summary/main.nf"
+                },
+                {
+                  "path": "modules/local/metabinner_bins/environment.yml"
+                },
+                {
+                  "path": "modules/local/metabinner_bins/main.nf"
+                },
+                {
+                  "path": "modules/local/metabinner_kmer/environment.yml"
+                },
+                {
+                  "path": "modules/local/metabinner_kmer/main.nf"
+                },
+                {
+                  "path": "modules/local/metabinner_metabinner/environment.yml"
+                },
+                {
+                  "path": "modules/local/metabinner_metabinner/main.nf"
+                },
+                {
+                  "path": "modules/local/metabinner_tooshort/environment.yml"
+                },
+                {
+                  "path": "modules/local/metabinner_tooshort/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/genomad/download/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/genomad/download/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/genomad/download/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/genomad/endtoend/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/genomad/endtoend/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/genomad/endtoend/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/bin_qc/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/binning/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/binning_metabinner/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/gtdbtk/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_mag_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_assembly_input.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_hybrid.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_minimal.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_single_end.nf.test.snap"
+                },
+                {
+                  "path": "workflows/mag.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 913,
+            "title": "Version bump for  v5.2.0 release [Puce Pangolin]",
+            "state": "MERGED",
+            "createdAt": "2025-11-04T10:43:57Z",
+            "mergedAt": "2025-11-05T12:22:56Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "docs/images/mag_metromap_dark.png"
+                },
+                {
+                  "path": "docs/images/mag_metromap_dark.svg"
+                },
+                {
+                  "path": "docs/images/mag_metromap_light.png"
+                },
+                {
+                  "path": "docs/images/mag_metromap_light.svg"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_assembly_input.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_hybrid.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_longreadonly_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_minimal.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_single_end.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 912,
+            "title": "Fix multiple sequencing platform validation",
+            "state": "MERGED",
+            "createdAt": "2025-11-04T08:27:00Z",
+            "mergedAt": "2025-11-04T15:57:58Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "bin/combine_tables.py"
+                },
+                {
+                  "path": "bin/get_mag_depths_summary.py"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_mag_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 911,
+            "title": "Ensure column ordering on `get_mag_depths.py`",
+            "state": "MERGED",
+            "createdAt": "2025-11-04T07:30:35Z",
+            "mergedAt": "2025-11-04T08:59:13Z",
+            "author": {
+              "login": "dialvarezs"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "bin/get_mag_depths.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 910,
+            "title": "Update to new runner size syntax",
+            "state": "MERGED",
+            "createdAt": "2025-11-03T15:46:38Z",
+            "mergedAt": "2025-11-03T16:00:23Z",
+            "author": {
+              "login": "mashehu"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 909,
+            "title": "Snapshot for `-profile test`",
+            "state": "OPEN",
+            "createdAt": "2025-11-03T13:24:41Z",
+            "mergedAt": null,
+            "author": {
+              "login": "brovolia"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

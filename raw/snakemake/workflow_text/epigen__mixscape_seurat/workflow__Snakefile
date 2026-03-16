@@ -1,0 +1,49 @@
+
+##### global workflow dependencies #####
+# conda: "envs/global.yaml"
+
+##### libraries #####
+import os
+import sys
+import pandas as pd
+import yaml
+from snakemake.utils import min_version
+
+##### set minimum snakemake version #####
+min_version("8.20.1")
+
+##### module name #####
+module_name = "mixscape_seurat"
+
+##### setup report #####
+report: os.path.join("report", "workflow.rst")
+
+##### load config and sample annotation sheets #####
+configfile: os.path.join("config", "config.yaml")
+
+annot = pd.read_csv(config['annotation'], index_col='name')
+samples = list(annot.index)
+
+result_path = os.path.join(config["result_path"],'mixscape_seurat')
+
+rule all:
+    input:
+        mixscape_lda_objects = expand(os.path.join(result_path,'{sample}','FILTERED_object.rds'), 
+                               sample=samples),
+        prtb_score_plots = expand(os.path.join(result_path,'{sample}','plots','PerturbScore'),
+                                 sample=samples),
+        envs = expand(os.path.join(result_path,'envs','{env}.yaml'),env=['seurat_mixscape','seurat_lda']),
+        configs = os.path.join(result_path,'configs','{}_config.yaml'.format(config["project_name"])),
+        annotations = os.path.join(result_path,'configs','{}_annot.csv'.format(config["project_name"])),
+    resources:
+        mem_mb=config.get("mem", "8000"),
+    threads: config.get("threads", 1)
+    log:
+        os.path.join("logs","rules","all.log"),
+
+
+##### load rules #####
+include: os.path.join("rules", "common.smk")
+include: os.path.join("rules", "mixscape.smk")
+include: os.path.join("rules", "visualize.smk")
+include: os.path.join("rules", "envs_export.smk")

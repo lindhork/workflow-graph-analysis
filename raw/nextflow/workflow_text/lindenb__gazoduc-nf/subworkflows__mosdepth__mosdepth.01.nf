@@ -1,0 +1,206 @@
+/*
+
+Copyright (c) 2026 Pierre Lindenbaum
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+The MIT License (MIT)
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*/
+include {SAMTOOLS_SAMPLES_01} from '../../subworkflows/samtools/samtools.samples.03.nf'
+include {SCATTER_TO_BED} from '../../subworkflows/picard/picard.scatter2bed.nf'
+include {MOSDEPTH_DOWNLOAD_01} from '../../modules/mosdepth/mosdepth.downoad.01.nf'
+include {MOSDEPTH_RUN_01} from '../../modules/mosdepth/mosdepth.run.01.nf'
+include {MERGE_VERSION} from '../../modules/version/version.merge.nf'
+include {MULTIQC_01} from '../../modules/multiqc/multiqc.01.nf'
+include {COLLECT_TO_FILE_01} from '../../modules/utils/collect2file.01.nf'
+include {moduleLoad;getVersionCmd} from '../../modules/utils/functions.nf'
+
+
+workflow MOSDEPTH_BAMS_01 {
+	take:
+		reference
+		bams // sample, bam, bai
+		bed
+	main:
+		version_ch  = Channel.empty()
+
+		if(bed.name.equals("NO_FILE")) {
+			acgt_ch = SCATTER_TO_BED(reference)
+                        bed2 = acgt_ch.output
+			}
+		else
+			{
+			bed2 = Channel.fromPath(bed)
+			}
+
+		ch1 = bams_ch.rows.combine(bed2)
+		mosdepth_ch = MOSDEPTH_DOWNLOAD_01()
+	
+		ch2 = MOSDEPTH_RUN_01(mosdepth_ch.output, ch1)
+
+		merge_ch = MERGE_MOSDEPTH_SUMMARY([:], ch2.summary.map{T->T[0].sample+"\t"+T[0].bam+"\t"+T[0].reference+"\t"+T[1]}.collect())
+		version_ch = version_ch.mix(merge_ch.version)
+
+		file_list_ch = COLLECT_TO_FILE_01([:],ch2.regiondist.map{T->T[1]}.collect())
+		version_ch = version_ch.mix(file_list_ch.version)
+
+		regdist_ch = ZIP_REGION_DIST([:], file_list_ch.output)
+		version_ch = version_ch.mix(regdist_ch.version)
+
+		multiqc_ch = MULTIQC_01([:],ch2.regiondist.map{T->T[1]}.collect())
+		version_ch = version_ch.mix(multiqc_ch.version)
+
+		pdf_ch = Channel.empty()
+		plot_ch = PLOT_IT([:], merge_ch.output)
+		version_ch = version_ch.mix(plot_ch.version)
+		pdf_ch = pdf_ch.mix(plot_ch.coverage)
+		pdf_ch = pdf_ch.mix(plot_ch.coverage_region)
+
+
+		ch3 = MERGE_VERSION("Mosdepth", version_ch.collect())
+	emit:
+		version = ch3
+		summary = merge_ch.output
+		globaldist = ch2.globaldist
+		perbase = ch2.perbase
+		pdf  = pdf_ch.collect()
+		region_dist_zip = regdist_ch.zip
+		multiqc = multiqc_ch.zip
+	}
+
+process MERGE_MOSDEPTH_SUMMARY {
+tag "N=${L.size()}"
+afterScript "rm -rf TMP"
+input:
+	val(meta)
+	val(L)
+output:
+	path("${params.prefix?:""}summary.tsv"),emit:output
+	path("version.xml"),emit:version
+script:
+"""
+hostname 1>&2
+${moduleLoad("r")}
+set -o pipefail
+
+mkdir TMP
+
+cat << EOF > TMP/jeter1.txt
+${L.join("\n")}
+EOF
+
+echo "sample\tbam\treference\tcoverage\tcoverage_region" > TMP/jeter2.txt
+
+cat TMP/jeter1.txt | while read SN BAM REF SUMMARY
+do
+	echo -n "\${SN}\t\${BAM}\t\${REF}" >> TMP/jeter2.txt
+	awk -F '\t' '(\$1=="total") {printf("\t%s",\$4);}' "\${SUMMARY}" >> TMP/jeter2.txt
+	awk -F '\t' 'BEGIN{C="";} (\$1=="total") {if(C=="") {C=\$4;}} (\$1=="total_region") {C=\$4;} END{printf("\t%s",C);}' "\${SUMMARY}" >> TMP/jeter2.txt
+	echo >> TMP/jeter2.txt
+done
+
+mv TMP/jeter2.txt "${params.prefix?:""}summary.tsv"
+
+##################
+cat << EOF > version.xml
+<properties id="${task.process}">
+	<entry key="name">${task.process}</entry>
+	<entry key="description">merge mosdepth summary</entry>
+	<entry key="count">${L.size()}</entry>
+</properties>
+EOF
+"""
+}
+
+process ZIP_REGION_DIST {
+tag "${files.name}"
+input:
+	val(meta)
+	path(files)
+output:
+	path("${params.prefix?:""}regions.dist.zip"),emit:zip
+	path("version.xml"),emit:version
+script:
+"""
+hostname 1>&2
+
+zip -9@j "${params.prefix?:""}regions.dist.zip" < "${files}"
+
+##################
+cat << EOF > version.xml
+<properties id="${task.process}">
+        <entry key="name">${task.process}</entry>
+        <entry key="description">merge mosdepth region_dist</entry>
+        <entry key="input">${files}</entry>
+</properties>
+EOF
+"""
+}
+
+process PLOT_IT {
+tag "${summary.name}"
+input:
+	val(meta)
+	path(summary)
+output:
+	path("${params.prefix?:""}coverage.pdf"),emit:coverage
+	path("${params.prefix?:""}coverage_region.pdf"),optional:true,emit:coverage_region
+	path("version.xml"),emit:version
+script:
+	def prefix = params.prefix?:""
+"""
+hostname 1>&2
+${moduleLoad("r")}
+
+cat << EOF > jeter.R
+T1 <- read.table(file="${summary}",sep="\\t",header=TRUE)
+T2 <- as.numeric(T1\\\$coverage)
+
+pdf("${prefix}coverage.pdf")
+boxplot(T2 ,ylim=c(0,max(T2)+1), main="${prefix}mosdepth",xlab="Sample",ylab="coverage")
+dev.off()
+
+
+T1 <- T1[T1\\\$coverage_region!="",]
+
+if (nrow(T1)>0) {
+T2 <- as.numeric(T1\\\$coverage_region)
+
+pdf("${prefix}coverage_region.pdf")
+boxplot(T2 ,ylim=c(0,max(T2)+1), main="${prefix}mosdepth in BED",xlab="Sample",ylab="coverage")
+dev.off()
+}
+
+
+EOF
+
+R --no-save < jeter.R
+
+rm jeter.R
+
+##################
+cat << EOF > version.xml
+<properties id="${task.process}">
+	<entry key="name">${task.process}</entry>
+	<entry key="description">plot mosdepth summary</entry>
+	<entry key="versions">${getVersionCmd("r")}</entry>
+</properties>
+EOF
+"""
+}

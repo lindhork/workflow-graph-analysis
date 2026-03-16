@@ -1,0 +1,537 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 53,
+            "title": "dynamic resource retrieval and generation",
+            "state": "OPEN",
+            "createdAt": "2025-09-02T15:41:20Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 52,
+            "title": "upgrade MultiQC for AI Summaries",
+            "state": "OPEN",
+            "createdAt": "2025-03-30T17:21:50Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 51,
+            "title": "Resources as input files",
+            "state": "CLOSED",
+            "createdAt": "2025-03-13T12:13:21Z",
+            "closedAt": "2025-06-23T11:23:35Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 50,
+            "title": "Compatibility outside ATAC-seq data",
+            "state": "CLOSED",
+            "createdAt": "2024-09-25T12:21:42Z",
+            "closedAt": "2024-09-30T08:43:47Z",
+            "author": {
+              "login": "BiotechPedro"
+            }
+          },
+          {
+            "number": 49,
+            "title": "try using HOMER with conda",
+            "state": "OPEN",
+            "createdAt": "2024-09-24T15:03:11Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 47,
+            "title": "make duplicate handling configurable",
+            "state": "CLOSED",
+            "createdAt": "2024-09-10T11:56:49Z",
+            "closedAt": "2024-09-14T15:13:25Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 46,
+            "title": "download resources directly from Zenodo",
+            "state": "CLOSED",
+            "createdAt": "2024-09-09T13:14:15Z",
+            "closedAt": "2025-03-04T15:32:53Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 45,
+            "title": "add Chrom Y info to docs",
+            "state": "CLOSED",
+            "createdAt": "2024-08-28T09:58:03Z",
+            "closedAt": "2024-09-14T13:27:15Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 44,
+            "title": "Move/Copy UROPA template in case of Module usage",
+            "state": "CLOSED",
+            "createdAt": "2024-08-15T15:11:52Z",
+            "closedAt": "2024-09-14T13:20:40Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 43,
+            "title": "is it necessary to copy this pipeline for each dataset?",
+            "state": "CLOSED",
+            "createdAt": "2024-07-30T05:58:02Z",
+            "closedAt": "2024-08-15T15:10:08Z",
+            "author": {
+              "login": "zhangzhen"
+            }
+          },
+          {
+            "number": 42,
+            "title": "Input files",
+            "state": "CLOSED",
+            "createdAt": "2024-07-03T07:22:31Z",
+            "closedAt": "2024-07-03T14:04:33Z",
+            "author": {
+              "login": "BiotechPedro"
+            }
+          },
+          {
+            "number": 41,
+            "title": "provide promoter_annotation.csv for downstream analyses",
+            "state": "CLOSED",
+            "createdAt": "2024-04-25T15:26:28Z",
+            "closedAt": "2024-04-29T17:14:31Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 40,
+            "title": "Save TSS_regions table also",
+            "state": "CLOSED",
+            "createdAt": "2024-04-05T09:22:16Z",
+            "closedAt": "2024-04-25T13:59:33Z",
+            "author": {
+              "login": "dariarom94"
+            }
+          },
+          {
+            "number": 39,
+            "title": "remove UCSC genome browser track hub",
+            "state": "CLOSED",
+            "createdAt": "2024-03-19T09:59:35Z",
+            "closedAt": "2024-04-25T13:21:14Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 38,
+            "title": "Promoter beds extend the genome size",
+            "state": "CLOSED",
+            "createdAt": "2024-03-19T07:25:30Z",
+            "closedAt": "2024-04-25T15:22:21Z",
+            "author": {
+              "login": "dariarom94"
+            }
+          },
+          {
+            "number": 37,
+            "title": "aggregated HOMER results are empty although knownResults.txt in sample results are non-empty",
+            "state": "CLOSED",
+            "createdAt": "2024-03-04T14:50:07Z",
+            "closedAt": "2024-04-25T13:15:41Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 36,
+            "title": "Duplicated empty rows in poromoter_counts.csv",
+            "state": "CLOSED",
+            "createdAt": "2024-03-04T14:43:23Z",
+            "closedAt": "2024-04-29T13:59:49Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 35,
+            "title": "make test data larger to include peaks and motifs",
+            "state": "CLOSED",
+            "createdAt": "2024-01-25T13:55:00Z",
+            "closedAt": "2025-06-23T12:03:12Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 34,
+            "title": "Update rulegraph to reflect latest feature additions",
+            "state": "CLOSED",
+            "createdAt": "2024-01-24T11:14:35Z",
+            "closedAt": "2024-04-25T14:05:16Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 33,
+            "title": "handle exception when no known motifs are found by HOMER",
+            "state": "CLOSED",
+            "createdAt": "2024-01-19T13:40:14Z",
+            "closedAt": "2024-01-19T16:42:44Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 32,
+            "title": "document config of UROPA",
+            "state": "CLOSED",
+            "createdAt": "2023-12-07T13:57:07Z",
+            "closedAt": "2023-12-07T17:29:12Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 31,
+            "title": "mitochondrial fraction metric is missing in report",
+            "state": "CLOSED",
+            "createdAt": "2023-11-30T10:29:19Z",
+            "closedAt": "2023-12-04T12:56:19Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 30,
+            "title": "consider including TOBIAS",
+            "state": "CLOSED",
+            "createdAt": "2023-11-29T13:09:23Z",
+            "closedAt": "2023-12-05T20:03:16Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 29,
+            "title": "split UROPA region annotation rule to parallelize",
+            "state": "CLOSED",
+            "createdAt": "2023-11-28T10:30:43Z",
+            "closedAt": "2023-11-28T11:39:59Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 28,
+            "title": "clean bash commands of all rules",
+            "state": "CLOSED",
+            "createdAt": "2023-11-28T09:55:17Z",
+            "closedAt": "2023-12-04T17:06:18Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 27,
+            "title": "test on ATAChom within JakStruct",
+            "state": "CLOSED",
+            "createdAt": "2023-11-22T18:33:04Z",
+            "closedAt": "2023-12-07T19:43:44Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 26,
+            "title": "create and add versions to all env.yaml files",
+            "state": "CLOSED",
+            "createdAt": "2023-11-17T13:55:35Z",
+            "closedAt": "2023-11-20T18:13:04Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 25,
+            "title": "make Snakemake 7 compatible",
+            "state": "CLOSED",
+            "createdAt": "2023-11-17T13:54:26Z",
+            "closedAt": "2023-11-20T15:14:33Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 24,
+            "title": "reduce scope/remove redundancy to other modules",
+            "state": "CLOSED",
+            "createdAt": "2023-11-17T13:52:17Z",
+            "closedAt": "2023-11-20T14:20:24Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 23,
+            "title": "simplify configuration to 2 files",
+            "state": "CLOSED",
+            "createdAt": "2023-11-17T13:48:29Z",
+            "closedAt": "2023-11-22T18:07:22Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 22,
+            "title": "Adapt result folder and report to MR.PARETO standard",
+            "state": "CLOSED",
+            "createdAt": "2023-11-17T13:47:17Z",
+            "closedAt": "2023-11-23T16:54:54Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 21,
+            "title": "revamp MultiQC report",
+            "state": "CLOSED",
+            "createdAt": "2023-11-13T16:10:25Z",
+            "closedAt": "2023-11-27T15:07:03Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 20,
+            "title": "resource download",
+            "state": "CLOSED",
+            "createdAt": "2023-08-26T14:18:56Z",
+            "closedAt": "2023-11-29T15:03:47Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 19,
+            "title": "add example (micro)data for hg38 & mm10",
+            "state": "CLOSED",
+            "createdAt": "2023-08-26T14:18:16Z",
+            "closedAt": "2023-12-04T12:47:09Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 18,
+            "title": "promoter region quantification",
+            "state": "CLOSED",
+            "createdAt": "2023-08-26T14:17:37Z",
+            "closedAt": "2023-12-05T19:51:08Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 17,
+            "title": "(automated) QC: add tutorial & tips",
+            "state": "CLOSED",
+            "createdAt": "2023-08-26T14:15:39Z",
+            "closedAt": "2023-11-29T16:30:50Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 16,
+            "title": "genetic sex testing functionality as QC",
+            "state": "CLOSED",
+            "createdAt": "2023-08-26T14:14:23Z",
+            "closedAt": "2023-11-29T17:09:51Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 15,
+            "title": "aggregate sample-wise HOMER results for downstream analyses",
+            "state": "CLOSED",
+            "createdAt": "2023-08-26T13:51:56Z",
+            "closedAt": "2023-12-05T15:20:26Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 14,
+            "title": "make parameter slop_extension configurable",
+            "state": "CLOSED",
+            "createdAt": "2023-08-26T13:50:15Z",
+            "closedAt": "2023-11-22T16:42:09Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 13,
+            "title": "make the hub shareable",
+            "state": "CLOSED",
+            "createdAt": "2023-08-26T13:49:40Z",
+            "closedAt": "2023-12-04T12:44:07Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 12,
+            "title": "Install Homer should be a rule/job",
+            "state": "CLOSED",
+            "createdAt": "2023-08-26T13:48:56Z",
+            "closedAt": "2023-11-21T13:50:24Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 11,
+            "title": "consensus region annotation file",
+            "state": "CLOSED",
+            "createdAt": "2023-08-26T13:46:56Z",
+            "closedAt": "2023-11-28T19:14:58Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 10,
+            "title": "Genetic similarity testing with (Picard) functionality",
+            "state": "CLOSED",
+            "createdAt": "2023-08-26T13:46:01Z",
+            "closedAt": "2023-11-29T17:08:56Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 9,
+            "title": "extract MultiQC statistics",
+            "state": "CLOSED",
+            "createdAt": "2023-08-26T13:45:09Z",
+            "closedAt": "2023-11-28T11:14:45Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 8,
+            "title": "remove tmp bam files before bowtie execution",
+            "state": "CLOSED",
+            "createdAt": "2023-08-26T13:41:44Z",
+            "closedAt": "2023-11-28T11:23:23Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 7,
+            "title": "consider changing consensus region generation, quantification, aggregation to R package GenomicRegions to make it more citable/understandable",
+            "state": "CLOSED",
+            "createdAt": "2023-08-26T13:37:14Z",
+            "closedAt": "2023-11-22T18:35:12Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 6,
+            "title": "quick aggregation of counts and support option from 4-8h to minutes",
+            "state": "CLOSED",
+            "createdAt": "2023-08-26T13:34:28Z",
+            "closedAt": "2023-11-28T13:44:43Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 5,
+            "title": "refactorize, reduce scope/remove redundancy to other modules and integrate into MR.PARETO for v1.0.0",
+            "state": "CLOSED",
+            "createdAt": "2023-08-26T13:31:43Z",
+            "closedAt": "2023-11-27T17:44:36Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 4,
+            "title": "fix multiqc.yaml installation error",
+            "state": "CLOSED",
+            "createdAt": "2023-08-26T13:30:30Z",
+            "closedAt": "2023-11-22T18:08:59Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 3,
+            "title": "address adapter “confusion”",
+            "state": "CLOSED",
+            "createdAt": "2023-08-26T13:25:17Z",
+            "closedAt": "2025-03-04T16:30:58Z",
+            "author": {
+              "login": "sreichl"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 48,
+            "title": "Macs2 keep dup configurable",
+            "state": "MERGED",
+            "createdAt": "2024-09-14T13:41:06Z",
+            "mergedAt": "2024-09-14T13:44:04Z",
+            "author": {
+              "login": "sreichl"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/processing.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

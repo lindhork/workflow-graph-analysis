@@ -1,0 +1,99 @@
+configfile_location = "config/config.yaml"
+
+
+configfile: configfile_location
+
+
+report: "report/workflow.rst"
+
+
+# Read version from centralized VERSION file
+with open("VERSION", "r") as f:
+    __version__ = f.read().strip()
+
+
+# Use assembly-specific container image based on reference genome
+# Add 'v' prefix to match git tag convention (e.g., v2.4.0-beta.2)
+docker_container = "docker://ghcr.io/friendsofstrandseq/mosaicatcher-pipeline:{assembly}-v{version}".format(
+    assembly=config["reference"], version=__version__
+)
+
+
+containerized: docker_container
+
+
+# Load common utilities first (needed by other rules)
+include: "rules/common.smk"
+
+
+if config["ashleys_pipeline"] is True:
+
+    include: "rules/ashleys/common.smk"
+    include: "rules/ashleys/aggregate_fct.smk"
+    include: "rules/ashleys/alignment.smk"
+    include: "rules/ashleys/qc.smk"
+    include: "rules/ashleys/multiqc.smk"
+
+    if config["genecore"]:
+
+        localrules:
+            ashleys_genecore_symlink,
+
+else:
+
+    localrules:
+        symlink_selected_bam,
+
+
+include: "rules/resources.smk"
+include: "rules/aggregate_fct.smk"
+include: "rules/external_data.smk"
+include: "rules/setup.smk"
+include: "rules/utils.smk"
+include: "rules/count.smk"
+include: "rules/segmentation.smk"
+include: "rules/plots.smk"
+include: "rules/regenotyping.smk"
+include: "rules/strandphaser.smk"
+include: "rules/breakpointr.smk"
+include: "rules/haplotagging.smk"
+include: "rules/mosaiclassifier.smk"
+include: "rules/postprocessing.smk"
+include: "rules/ploidy.smk"
+include: "rules/stats.smk"
+include: "rules/arbigent_rules.smk"
+include: "rules/arbigent.smk"
+# include: "rules/scNOVA.smk"
+include: "rules/gc.smk"
+
+
+if config["list_commands"] is False:
+    if config["ashleys_pipeline"] is True:
+        if config["ashleys_pipeline_only"] is False:
+
+            rule all:
+                input:
+                    rules.ashleys_all.input,
+                    get_final_output(),
+                default_target: True
+
+        else:
+
+            rule all:
+                input:
+                    rules.ashleys_all.input,
+                default_target: True
+
+    else:
+
+        rule all:
+            input:
+                get_final_output(),
+
+    if config["email"]:
+
+        onsuccess:
+            onsuccess_fct(log)
+
+        onerror:
+            onerror_fct(log)

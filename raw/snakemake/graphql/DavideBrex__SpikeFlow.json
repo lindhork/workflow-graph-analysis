@@ -1,0 +1,972 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 27,
+            "title": "Spike-in chipseq in Arabidopsis",
+            "state": "CLOSED",
+            "createdAt": "2025-09-23T17:43:36Z",
+            "closedAt": "2025-09-26T15:05:54Z",
+            "author": {
+              "login": "VandaGAdamkova"
+            }
+          },
+          {
+            "number": 26,
+            "title": "Error while running macs",
+            "state": "CLOSED",
+            "createdAt": "2025-03-22T08:31:01Z",
+            "closedAt": "2025-09-24T12:57:07Z",
+            "author": {
+              "login": "jasons2389"
+            }
+          },
+          {
+            "number": 23,
+            "title": "Using SpikeFlow with yeast genomes",
+            "state": "CLOSED",
+            "createdAt": "2024-12-31T00:12:14Z",
+            "closedAt": "2025-08-18T09:05:20Z",
+            "author": {
+              "login": "hideo1"
+            }
+          },
+          {
+            "number": 22,
+            "title": "Exogenous Reads Not Being Discarded After Splitting",
+            "state": "CLOSED",
+            "createdAt": "2024-10-01T08:33:25Z",
+            "closedAt": "2025-02-08T08:06:08Z",
+            "author": {
+              "login": "alessandro-vai"
+            }
+          },
+          {
+            "number": 19,
+            "title": "Wrong calculation of RX-Input normalization factor ",
+            "state": "CLOSED",
+            "createdAt": "2024-09-09T12:37:27Z",
+            "closedAt": "2024-09-09T15:21:24Z",
+            "author": {
+              "login": "alessandro-vai"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 25,
+            "title": "chore(main): release 1.3.1",
+            "state": "MERGED",
+            "createdAt": "2025-02-08T07:14:02Z",
+            "mergedAt": "2025-02-08T07:19:22Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 24,
+            "title": "fix: added removal of uncertain readd for paired end",
+            "state": "MERGED",
+            "createdAt": "2025-02-07T17:52:03Z",
+            "mergedAt": "2025-02-08T07:13:33Z",
+            "author": {
+              "login": "DavideBrex"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/envs/various.yaml"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/DifferentialPeaksAnalysis.R"
+                },
+                {
+                  "path": "workflow/scripts/createSplitBamQCtab.py"
+                },
+                {
+                  "path": "workflow/scripts/split_bam.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 21,
+            "title": "chore(main): release 1.3.0",
+            "state": "MERGED",
+            "createdAt": "2024-09-09T13:58:58Z",
+            "mergedAt": "2024-09-09T14:48:37Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 20,
+            "title": "chore(main): release 2.0.0",
+            "state": "CLOSED",
+            "createdAt": "2024-09-09T13:42:19Z",
+            "mergedAt": null,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "workflow/rules/align.smk"
+                },
+                {
+                  "path": "workflow/rules/callPeaks.smk"
+                },
+                {
+                  "path": "workflow/rules/differentialPeaks.smk"
+                },
+                {
+                  "path": "workflow/rules/mergeAndAnnotatePeaks.smk"
+                },
+                {
+                  "path": "workflow/scripts/computeNormFactors.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 18,
+            "title": "chore(main): release 1.2.1",
+            "state": "MERGED",
+            "createdAt": "2024-06-20T13:21:53Z",
+            "mergedAt": "2024-06-20T14:02:40Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 17,
+            "title": "fix: changed config readme",
+            "state": "MERGED",
+            "createdAt": "2024-06-20T12:44:31Z",
+            "mergedAt": "2024-06-20T13:21:33Z",
+            "author": {
+              "login": "DavideBrex"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 16,
+            "title": "chore(main): release 1.2.0",
+            "state": "MERGED",
+            "createdAt": "2024-06-04T13:07:02Z",
+            "mergedAt": "2024-06-04T13:55:58Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 15,
+            "title": "feat: BREAKING CHANGE added diff peak analysis ",
+            "state": "MERGED",
+            "createdAt": "2024-06-03T12:50:44Z",
+            "mergedAt": "2024-06-04T13:06:36Z",
+            "author": {
+              "login": "DavideBrex"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": ".test/config/multiqc_config.yaml"
+                },
+                {
+                  "path": ".test/config/samples_sheet.csv"
+                },
+                {
+                  "path": ".test/data/dm6_index/bowtie1_dm6_index.2.ebwt"
+                },
+                {
+                  "path": ".test/data/dm6_index/bowtie1_dm6_index.rev.2.ebwt"
+                },
+                {
+                  "path": ".test/data/hg38.chromsizes"
+                },
+                {
+                  "path": ".test/data/subset_GRCh38_bowtieIndex/subset_GRCh38_bowtieIndex.1.ebwt"
+                },
+                {
+                  "path": ".test/data/subset_GRCh38_bowtieIndex/subset_GRCh38_bowtieIndex.2.ebwt"
+                },
+                {
+                  "path": ".test/data/subset_GRCh38_bowtieIndex/subset_GRCh38_bowtieIndex.3.ebwt"
+                },
+                {
+                  "path": ".test/data/subset_GRCh38_bowtieIndex/subset_GRCh38_bowtieIndex.4.ebwt"
+                },
+                {
+                  "path": ".test/data/subset_GRCh38_bowtieIndex/subset_GRCh38_bowtieIndex.rev.1.ebwt"
+                },
+                {
+                  "path": ".test/data/subset_GRCh38_bowtieIndex/subset_GRCh38_bowtieIndex.rev.2.ebwt"
+                },
+                {
+                  "path": ".test/data/subset_hg38_dm6_index/index_ref.1.bt2"
+                },
+                {
+                  "path": ".test/data/subset_hg38_dm6_index/index_ref.2.bt2"
+                },
+                {
+                  "path": ".test/data/subset_hg38_dm6_index/index_ref.3.bt2"
+                },
+                {
+                  "path": ".test/data/subset_hg38_dm6_index/index_ref.4.bt2"
+                },
+                {
+                  "path": ".test/data/subset_hg38_dm6_index/index_ref.rev.1.bt2"
+                },
+                {
+                  "path": ".test/data/subset_hg38_dm6_index/index_ref.rev.2.bt2"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/multiqc_config.yaml"
+                },
+                {
+                  "path": "config/samples_sheet.csv"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/Renv.yaml"
+                },
+                {
+                  "path": "workflow/envs/bowtie.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/bowtie2.yaml"
+                },
+                {
+                  "path": "workflow/envs/various.yaml"
+                },
+                {
+                  "path": "workflow/rules/align.smk"
+                },
+                {
+                  "path": "workflow/rules/callPeaks.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/createBigWigs.smk"
+                },
+                {
+                  "path": "workflow/rules/differentialPeaks.smk"
+                },
+                {
+                  "path": "workflow/rules/mergeAndAnnotatePeaks.smk"
+                },
+                {
+                  "path": "workflow/rules/qc.smk"
+                },
+                {
+                  "path": "workflow/rules/references.smk"
+                },
+                {
+                  "path": "workflow/rules/trim.smk"
+                },
+                {
+                  "path": "workflow/schemas/config.schema.yaml"
+                },
+                {
+                  "path": "workflow/scripts/DifferentialPeaksAnalysis.R"
+                },
+                {
+                  "path": "workflow/scripts/PeakAnnot.R"
+                },
+                {
+                  "path": "workflow/scripts/computeNormFactors.py"
+                },
+                {
+                  "path": "workflow/scripts/consensusPeaks.py"
+                },
+                {
+                  "path": "workflow/scripts/createMacs2QCtab.py"
+                },
+                {
+                  "path": "workflow/scripts/createPeakAnnotQCtab.py"
+                },
+                {
+                  "path": "workflow/scripts/createSpikeQCtab.py"
+                },
+                {
+                  "path": "workflow/scripts/createSplitBamQCtab.py"
+                },
+                {
+                  "path": "workflow/scripts/frag_count.py"
+                },
+                {
+                  "path": "workflow/scripts/remove_spikeDups.py"
+                },
+                {
+                  "path": "workflow/scripts/split_bam.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 14,
+            "title": "chore(main): release 1.1.0",
+            "state": "MERGED",
+            "createdAt": "2024-02-21T10:14:39Z",
+            "mergedAt": "2024-02-21T10:15:37Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 13,
+            "title": "feat: changed docs",
+            "state": "MERGED",
+            "createdAt": "2024-02-21T09:36:18Z",
+            "mergedAt": "2024-02-21T10:14:13Z",
+            "author": {
+              "login": "DavideBrex"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 12,
+            "title": "chore(main): release 1.0.2",
+            "state": "MERGED",
+            "createdAt": "2024-01-24T17:14:34Z",
+            "mergedAt": "2024-01-24T17:15:01Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 11,
+            "title": "fix: fixed check for user bowtie index",
+            "state": "MERGED",
+            "createdAt": "2024-01-24T16:04:13Z",
+            "mergedAt": "2024-01-24T17:14:11Z",
+            "author": {
+              "login": "DavideBrex"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "workflow/rules/callPeaks.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 10,
+            "title": "chore(main): release 1.0.1",
+            "state": "MERGED",
+            "createdAt": "2024-01-22T20:08:06Z",
+            "mergedAt": "2024-01-23T08:00:14Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 9,
+            "title": "fix: changed  genome download",
+            "state": "MERGED",
+            "createdAt": "2024-01-22T18:34:17Z",
+            "mergedAt": "2024-01-22T20:07:43Z",
+            "author": {
+              "login": "DavideBrex"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/envs/genomepy.yaml"
+                },
+                {
+                  "path": "workflow/rules/references.smk"
+                },
+                {
+                  "path": "workflow/schemas/config.schema.yaml"
+                },
+                {
+                  "path": "workflow/scripts/download_genome.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 8,
+            "title": "chore(main): release 1.0.0",
+            "state": "MERGED",
+            "createdAt": "2023-12-13T10:47:06Z",
+            "mergedAt": "2024-01-17T22:27:37Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 7,
+            "title": "feat: added rep peaks merge and peak annototation",
+            "state": "MERGED",
+            "createdAt": "2023-12-06T15:26:55Z",
+            "mergedAt": "2023-12-06T17:54:15Z",
+            "author": {
+              "login": "DavideBrex"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": ".test/config/samples_sheet.csv"
+                },
+                {
+                  "path": ".test/data/fastq/H3K9me2_EGF-2_Homo_sapiens.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/H3K9me2_untreated-2_Homo_sapiens.fastq.gz"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/samples_sheet.csv"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/Renv.yaml"
+                },
+                {
+                  "path": "workflow/rules/callPeaks.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/mergeAndAnnotatePeaks.smk"
+                },
+                {
+                  "path": "workflow/rules/qc.smk"
+                },
+                {
+                  "path": "workflow/scripts/PeakAnnot.R"
+                },
+                {
+                  "path": "workflow/scripts/createEddQCtab.py"
+                },
+                {
+                  "path": "workflow/scripts/createEpic2QCtab.py"
+                },
+                {
+                  "path": "workflow/scripts/createMacs2QCtab.py"
+                },
+                {
+                  "path": "workflow/scripts/createSpikeQCtab.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6,
+            "title": "feat: QC",
+            "state": "MERGED",
+            "createdAt": "2023-11-16T08:56:11Z",
+            "mergedAt": "2023-11-22T19:19:47Z",
+            "author": {
+              "login": "DavideBrex"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/samples_sheet.csv"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/Renv.yaml"
+                },
+                {
+                  "path": "workflow/envs/pysam.yaml"
+                },
+                {
+                  "path": "workflow/envs/qc.yaml"
+                },
+                {
+                  "path": "workflow/envs/various.yaml"
+                },
+                {
+                  "path": "workflow/rules/align.smk"
+                },
+                {
+                  "path": "workflow/rules/callPeaks.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/createBigWigs.smk"
+                },
+                {
+                  "path": "workflow/rules/qc.smk"
+                },
+                {
+                  "path": "workflow/rules/trim.smk"
+                },
+                {
+                  "path": "workflow/schemas/config.schema.yaml"
+                },
+                {
+                  "path": "workflow/scripts/createEddQCtab.py"
+                },
+                {
+                  "path": "workflow/scripts/createEpic2QCtab.py"
+                },
+                {
+                  "path": "workflow/scripts/createMacs2QCtab.py"
+                },
+                {
+                  "path": "workflow/scripts/createSpikeQCtab.py"
+                },
+                {
+                  "path": "workflow/scripts/run_spp_nodups.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 5,
+            "title": "feat: added peak calling ",
+            "state": "MERGED",
+            "createdAt": "2023-10-25T12:27:33Z",
+            "mergedAt": "2023-10-25T17:59:10Z",
+            "author": {
+              "login": "DavideBrex"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": ".test/data/hg38.chromsizes"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/edd.yaml"
+                },
+                {
+                  "path": "workflow/envs/epic2.yaml"
+                },
+                {
+                  "path": "workflow/rules/align.smk"
+                },
+                {
+                  "path": "workflow/rules/callPeaks.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/createBigWigs.smk"
+                },
+                {
+                  "path": "workflow/rules/references.smk"
+                },
+                {
+                  "path": "workflow/rules/trim.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4,
+            "title": "chore(main): release 1.0.0",
+            "state": "CLOSED",
+            "createdAt": "2023-10-09T13:00:21Z",
+            "mergedAt": null,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3,
+            "title": "feat: added spike in alignment and bigwigs file creation",
+            "state": "MERGED",
+            "createdAt": "2023-10-06T11:05:39Z",
+            "mergedAt": "2023-10-09T12:07:30Z",
+            "author": {
+              "login": "DavideBrex"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": ".test/config/samples_sheet.csv"
+                },
+                {
+                  "path": ".test/data/fastq/H3K4me3_EGF-1_Homo_sapiens.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/H3K4me3_EGF-2_Homo_sapiens.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/H3K4me3_untreated-1_Homo_sapiens_L1.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/H3K4me3_untreated-1_Homo_sapiens_L2.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/H3K4me3_untreated-2_Homo_sapiens_L1.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/H3K4me3_untreated-2_Homo_sapiens_L2.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/H3K9me2_EGF-1_Homo_sapiens.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/H3K9me2_untreated-1_Homo_sapiens.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/Input-EGF-1_Homo_sapiens_ChIP-Seq.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/Input-EGF-2_Homo_sapiens_ChIP-Seq.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/Input-untreated-1_Homo_sapiens_ChIP-Seq.fastq.gz"
+                },
+                {
+                  "path": ".test/data/hg38-blacklist.v2.bed"
+                },
+                {
+                  "path": ".test/data/subset_GRCh38_bowtieIndex/subset_GRCh38_bowtieIndex.1.ebwt"
+                },
+                {
+                  "path": ".test/data/subset_GRCh38_bowtieIndex/subset_GRCh38_bowtieIndex.2.ebwt"
+                },
+                {
+                  "path": ".test/data/subset_GRCh38_bowtieIndex/subset_GRCh38_bowtieIndex.3.ebwt"
+                },
+                {
+                  "path": ".test/data/subset_GRCh38_bowtieIndex/subset_GRCh38_bowtieIndex.4.ebwt"
+                },
+                {
+                  "path": ".test/data/subset_GRCh38_bowtieIndex/subset_GRCh38_bowtieIndex.rev.1.ebwt"
+                },
+                {
+                  "path": ".test/data/subset_GRCh38_bowtieIndex/subset_GRCh38_bowtieIndex.rev.2.ebwt"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/samples_sheet.csv"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/align.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/createBigWigs.smk"
+                },
+                {
+                  "path": "workflow/schemas/sampleSheet.schema.yaml"
+                },
+                {
+                  "path": "workflow/scripts/remove_spikeDups.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2,
+            "title": "feat: Add spike alignment and filtering",
+            "state": "MERGED",
+            "createdAt": "2023-09-19T17:21:02Z",
+            "mergedAt": "2023-09-20T13:19:32Z",
+            "author": {
+              "login": "DavideBrex"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": ".test/config/samples_sheet.csv"
+                },
+                {
+                  "path": ".test/data/dm6_index/bowtie1_dm6_index.1.ebwt"
+                },
+                {
+                  "path": ".test/data/dm6_index/bowtie1_dm6_index.2.ebwt"
+                },
+                {
+                  "path": ".test/data/dm6_index/bowtie1_dm6_index.3.ebwt"
+                },
+                {
+                  "path": ".test/data/dm6_index/bowtie1_dm6_index.4.ebwt"
+                },
+                {
+                  "path": ".test/data/dm6_index/bowtie1_dm6_index.rev.1.ebwt"
+                },
+                {
+                  "path": ".test/data/dm6_index/bowtie1_dm6_index.rev.2.ebwt"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/samples_sheet.csv"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/pysam.yaml"
+                },
+                {
+                  "path": "workflow/rules/align.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/references.smk"
+                },
+                {
+                  "path": "workflow/rules/trim.smk"
+                },
+                {
+                  "path": "workflow/scripts/remove_spikeDups.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1,
+            "title": "create pull + merge",
+            "state": "MERGED",
+            "createdAt": "2023-09-12T14:24:25Z",
+            "mergedAt": "2023-09-12T14:26:18Z",
+            "author": {
+              "login": "AndreaMariani-AM"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

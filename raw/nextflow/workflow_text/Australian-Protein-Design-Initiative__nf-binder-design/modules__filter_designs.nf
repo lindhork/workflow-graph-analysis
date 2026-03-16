@@ -1,0 +1,31 @@
+process FILTER_DESIGNS {
+    tag "filter_${pdb.name}"
+
+    container 'ghcr.io/australian-protein-design-initiative/containers/nf-binder-design-utils:0.1.5'
+
+    publishDir "${params.outdir}/${step}/scores", mode: 'copy', pattern: '*.scores.tsv'
+    publishDir "${params.outdir}/${step}/filtered", mode: 'copy', pattern: 'accepted/*.pdb'
+    publishDir "${params.outdir}/${step}/filtered", mode: 'copy', pattern: 'rejected/*.pdb'
+
+    input:
+    path pdb
+    val filters
+    val binder_chains
+    val step
+
+    output:
+    path "accepted/${pdb.name}", emit: accepted, optional: true
+    path "rejected/${pdb.name}", emit: rejected, optional: true
+    path "${pdb.baseName}.scores.tsv", emit: scores
+
+    script:
+    def filter_args_str = filters ? filters.split(';').collect { "--filter \"${it}\"" }.join(' ') : ''
+    """
+    filter_designs.py \\
+        ${pdb} \\
+        ${filter_args_str} \\
+        --binder-chains ${binder_chains} \\
+        --collect-in . \\
+        --output ${pdb.baseName}.scores.tsv
+    """
+}

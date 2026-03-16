@@ -1,0 +1,92 @@
+## C tables generation to serve as reference for supervised methods
+##
+## @zgr2788
+##
+##
+## Description:
+## Generates single cell references for supervised / semi-supervised
+## deconvolution methods. Since the methods require different types, the
+## generated references also vary in type. The following convention is
+## used:
+##
+##
+##      Type 0: Single cell expression matrix (C0)
+##
+##      Type 1: Mean of gene raw counts (rows) by cell types (columns) (C1)
+##      -also at this step, refVar table (Standard deviations of rows by cell types)
+##
+##      Type 2: Marker genes list with respect to cell types (C2)
+##
+##
+
+rule generateReferences:
+    input:
+        'Input/Cell_splits/{sample}_C0.rds'
+
+    output:
+        'Input/References/{sample}_C1.rds',
+        'Input/References/{sample}_C2.rds',
+        'Input/References/{sample}_refVar.rds',
+        'Input/References/{sample}_C0.rds',
+        'Input/References/{sample}_phenData.rds'
+
+    params:
+        method = config['stParam']['transform'],
+        test_1 = config['refgenDgeParam']['test_1'],
+        test_2 = config['refgenDgeParam']['test_2'],
+        seurNorm = config['refgenDgeParam']['seuratNorm']
+
+    conda:
+        'env.yaml'
+
+    threads: config['cores']['c_gen']
+
+    benchmark:
+        "Benchmarks/{sample}_Cgen_benchmark.txt"
+
+    resources:
+        mem_mb=getMB(config['mem_gb']['c_gen'])
+
+    shell:
+        """
+        mkdir -p Input/References
+        Rscript Modules/C_generation/genRef_1.R {input} {params.method}
+        Rscript Modules/C_generation/genRef_2.R {input} {params.test_1} {params.test_2} {params.seurNorm} {threads}
+        """
+
+
+#Overload for seeded output to be differentiated
+rule generateSeededReferences:
+    input:
+        'Input/Cell_splits/{sample}_C0_seeded.rds'
+
+    output:
+        'Input/References/{sample}_C1_seeded.rds',
+        'Input/References/{sample}_C2_seeded.rds',
+        'Input/References/{sample}_refVar_seeded.rds',
+        'Input/References/{sample}_C0_seeded.rds',
+        'Input/References/{sample}_phenData_seeded.rds'
+
+    params:
+        method = config['stParam']['transform'],
+        test_1 = config['refgenDgeParam']['test_1'],
+        test_2 = config['refgenDgeParam']['test_2'],
+        seurNorm = config['refgenDgeParam']['seuratNorm']
+
+    conda:
+        'env.yaml'
+
+    threads: config['cores']['c_gen']
+
+    benchmark:
+        "Benchmarks/{sample}_Cgen_benchmark.txt"
+
+    resources:
+        mem_mb=getMB(config['mem_gb']['c_gen'])
+
+    shell:
+        """
+        mkdir -p Input/References
+        Rscript Modules/C_generation/genRef_1.R {input} {params.method}
+        Rscript Modules/C_generation/genRef_2.R {input} {params.test_1} {params.test_2} {params.seurNorm} {threads}
+        """

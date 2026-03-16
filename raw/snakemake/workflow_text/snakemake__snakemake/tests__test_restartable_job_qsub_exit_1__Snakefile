@@ -1,0 +1,13 @@
+localrules: all
+
+
+rule all:
+	input: '.done'
+
+rule fails_sometimes:
+	output:
+		'.done'
+	shell:
+		r"""
+		touch .done
+		"""

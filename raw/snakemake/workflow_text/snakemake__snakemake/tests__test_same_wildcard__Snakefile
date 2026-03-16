@@ -1,0 +1,9 @@
+shell.executable("bash")
+
+rule:
+	input:  "test_test.out"
+
+rule:
+	input: "{name}_{name}.in"
+	output: "{name}_{name}.out"
+	shell: "echo {wildcards.name} > {output}"

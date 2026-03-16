@@ -1,0 +1,1265 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 28,
+            "title": "use-envs-only problem / ModuleNotFoundError in line 3 of /home/*/smsk_popoolation/workflow/Snakefile: No module named 'pandas'",
+            "state": "CLOSED",
+            "createdAt": "2024-08-30T22:35:36Z",
+            "closedAt": "2024-09-02T08:24:01Z",
+            "author": {
+              "login": "Adam-Staniszewski"
+            }
+          },
+          {
+            "number": 20,
+            "title": "Possible issue with mkfifo",
+            "state": "CLOSED",
+            "createdAt": "2021-12-08T13:42:58Z",
+            "closedAt": "2022-02-08T08:33:47Z",
+            "author": {
+              "login": "azurillandfriend"
+            }
+          },
+          {
+            "number": 19,
+            "title": "error in rule \"raw_extract_genome\"",
+            "state": "CLOSED",
+            "createdAt": "2021-12-06T11:08:40Z",
+            "closedAt": "2021-12-08T13:38:14Z",
+            "author": {
+              "login": "azurillandfriend"
+            }
+          },
+          {
+            "number": 18,
+            "title": "use-envs-only problem",
+            "state": "CLOSED",
+            "createdAt": "2021-12-06T10:20:51Z",
+            "closedAt": "2021-12-08T13:37:26Z",
+            "author": {
+              "login": "azurillandfriend"
+            }
+          },
+          {
+            "number": 17,
+            "title": "about the snakemake doesn't work",
+            "state": "CLOSED",
+            "createdAt": "2020-07-31T03:03:57Z",
+            "closedAt": "2020-07-31T06:26:56Z",
+            "author": {
+              "login": "yanzhongsino"
+            }
+          },
+          {
+            "number": 13,
+            "title": "tmp folder in samtools / picard steps",
+            "state": "CLOSED",
+            "createdAt": "2018-03-14T09:31:28Z",
+            "closedAt": "2019-04-08T12:38:49Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 10,
+            "title": "Join samples from different runs",
+            "state": "CLOSED",
+            "createdAt": "2017-07-20T09:46:38Z",
+            "closedAt": "2017-07-21T22:38:51Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 9,
+            "title": "Remove Trimmomatic files",
+            "state": "CLOSED",
+            "createdAt": "2017-07-20T09:44:47Z",
+            "closedAt": "2017-07-21T12:52:37Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 8,
+            "title": "add support to @RG tags in config.yaml",
+            "state": "CLOSED",
+            "createdAt": "2017-07-20T09:36:15Z",
+            "closedAt": "2017-07-21T22:38:51Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 7,
+            "title": "compress to cram instead of bam",
+            "state": "CLOSED",
+            "createdAt": "2017-07-20T09:32:27Z",
+            "closedAt": "2017-07-21T12:52:37Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 4,
+            "title": "add support for single end fastq files",
+            "state": "CLOSED",
+            "createdAt": "2017-03-13T15:45:04Z",
+            "closedAt": "2017-07-21T12:52:37Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 3,
+            "title": "Memory in Java",
+            "state": "CLOSED",
+            "createdAt": "2016-12-19T08:27:02Z",
+            "closedAt": "2017-07-26T09:21:47Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 2,
+            "title": "Set up Travis-CI",
+            "state": "CLOSED",
+            "createdAt": "2016-12-19T08:05:25Z",
+            "closedAt": "2017-03-14T16:40:50Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 1,
+            "title": "Add test data",
+            "state": "CLOSED",
+            "createdAt": "2016-12-19T08:05:14Z",
+            "closedAt": "2017-03-14T16:40:50Z",
+            "author": {
+              "login": "jlanga"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 27,
+            "title": "chore(master): release 1.1.0",
+            "state": "MERGED",
+            "createdAt": "2024-04-26T13:19:11Z",
+            "mergedAt": "2024-04-26T13:24:05Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 26,
+            "title": "feat: update all!",
+            "state": "MERGED",
+            "createdAt": "2024-04-25T13:52:03Z",
+            "mergedAt": "2024-04-26T13:17:34Z",
+            "author": {
+              "login": "jlanga"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/cache.yml"
+                },
+                {
+                  "path": ".github/workflows/conventional-prs.yml"
+                },
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".github/workflows/release-please.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/params.yml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/popoolation/__main__.smk"
+                },
+                {
+                  "path": "workflow/rules/popoolation/variance_sliding.smk"
+                },
+                {
+                  "path": "workflow/rules/popoolation2/__main__.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/__environment__.yml"
+                },
+                {
+                  "path": "workflow/rules/preprocess/coverage.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/index.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/map.smk"
+                },
+                {
+                  "path": "workflow/scripts/plot_coverage.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 25,
+            "title": "feat: cleanup",
+            "state": "MERGED",
+            "createdAt": "2024-04-19T14:28:56Z",
+            "mergedAt": "2024-04-19T14:29:01Z",
+            "author": {
+              "login": "jlanga"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/params.yml"
+                },
+                {
+                  "path": "workflow/rules/preprocess/__environment__.yml"
+                },
+                {
+                  "path": "workflow/rules/preprocess/__functions__.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/coverage.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 24,
+            "title": "feat: compute coverage from pileups",
+            "state": "MERGED",
+            "createdAt": "2024-04-19T14:19:39Z",
+            "mergedAt": "2024-04-19T14:19:45Z",
+            "author": {
+              "login": "jlanga"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/params.yml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/folders.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/__environment__.yml"
+                },
+                {
+                  "path": "workflow/rules/preprocess/__functions__.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/__main__.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/coverage.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/map.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/mpileup.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 23,
+            "title": "feat: handle chromosomes, parse units",
+            "state": "MERGED",
+            "createdAt": "2024-04-18T11:42:10Z",
+            "mergedAt": "2024-04-18T11:42:31Z",
+            "author": {
+              "login": "jlanga"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/features.yml"
+                },
+                {
+                  "path": "config/params.yml"
+                },
+                {
+                  "path": "resources/genome/2R.1.fa.gz"
+                },
+                {
+                  "path": "resources/genome/2R.fa.gz"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/folders.smk"
+                },
+                {
+                  "path": "workflow/rules/popoolation/mpileup.smk"
+                },
+                {
+                  "path": "workflow/rules/popoolation/plot.smk"
+                },
+                {
+                  "path": "workflow/rules/popoolation/variance_sliding.smk"
+                },
+                {
+                  "path": "workflow/rules/popoolation2/__environment__.yml"
+                },
+                {
+                  "path": "workflow/rules/popoolation2/fst_sliding.smk"
+                },
+                {
+                  "path": "workflow/rules/popoolation2/mpileup.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/__environment__.yml"
+                },
+                {
+                  "path": "workflow/rules/preprocess/__functions__.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/map.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/mpileup.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 22,
+            "title": "feat: restyle again",
+            "state": "MERGED",
+            "createdAt": "2024-04-17T16:12:28Z",
+            "mergedAt": "2024-04-17T16:12:37Z",
+            "author": {
+              "login": "jlanga"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/samples.tsv"
+                },
+                {
+                  "path": "rulegraph.svg"
+                },
+                {
+                  "path": "rulegraph_simple.dot"
+                },
+                {
+                  "path": "rulegraph_simple.svg"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/FET.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/FormatSNP.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/FstAsymptUnbiased.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/FstConventional.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/MajorAlleles.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/MaxCoverage.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/Pileup.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/Subsample.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/SyncSlider.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/SynchronizeUtility.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/Synchronized.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/Test.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/Test/PileupParser.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/Test/TCMH.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/Test/TFisher.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/Test/TFstCalculation.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/Test/TMaxCoverage.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/Test/TSubsample.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/Test/TSyncSlider.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/Test/TSynchronized.pm"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/javasrc/BatchProcessor.java"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/javasrc/BatchReader.java"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/javasrc/BatchWriter.java"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/javasrc/CommandLineParser.java"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/javasrc/LogFormatter.java"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/javasrc/Mpileup2SyncFramework.java"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/javasrc/Mpileup2syncMain.java"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/javasrc/MpileupParser.java"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/javasrc/QualityEncoding.java"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/javasrc/SyncFormater.java"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/javasrc/SyncLine.java"
+                },
+                {
+                  "path": "src/popoolation2_1201/Modules/javasrc/SyncPop.java"
+                },
+                {
+                  "path": "src/popoolation2_1201/cmh-test.pl"
+                },
+                {
+                  "path": "src/popoolation2_1201/create-genewise-sync.pl"
+                },
+                {
+                  "path": "src/popoolation2_1201/export/cmh2gwas.pl"
+                },
+                {
+                  "path": "src/popoolation2_1201/export/pwc2igv.pl"
+                },
+                {
+                  "path": "src/popoolation2_1201/export/subsample_sync2GenePop.pl"
+                },
+                {
+                  "path": "src/popoolation2_1201/export/subsample_sync2fasta.pl"
+                },
+                {
+                  "path": "src/popoolation2_1201/fisher-test.pl"
+                },
+                {
+                  "path": "src/popoolation2_1201/fst-sliding.pl"
+                },
+                {
+                  "path": "src/popoolation2_1201/indel_filtering/filter-sync-by-gtf.pl"
+                },
+                {
+                  "path": "src/popoolation2_1201/indel_filtering/identify-indel-regions.pl"
+                },
+                {
+                  "path": "src/popoolation2_1201/mpileup2sync.jar"
+                },
+                {
+                  "path": "src/popoolation2_1201/mpileup2sync.pl"
+                },
+                {
+                  "path": "src/popoolation2_1201/snp-frequency-diff.pl"
+                },
+                {
+                  "path": "src/popoolation2_1201/subsample-synchronized.pl"
+                },
+                {
+                  "path": "src/popoolation2_1201/synchronize-pileup.pl"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Modules/BasicUtility.pm"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Modules/FormatSNP.pm"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Modules/Pileup.pm"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Modules/PileupTripletSlider.pm"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Modules/PileupTripletWindowSlider.pm"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Modules/SynNonSyn.pm"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Modules/Test.pm"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Modules/Test/PileupParser.pm"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Modules/Test/TClassicalVariance.pm"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Modules/Test/TPileupTripletSliding.pm"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Modules/Test/TSynNonSyn.pm"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Modules/Test/Variance.pm"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Modules/VarMath.pm"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Modules/VarMathClassical.pm"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Modules/VarianceExactCorrection.pm"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Modules/VarianceUncorrected.pm"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Modules/tmp/VarMath_ndm.pm"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/VarSliding2Flybase.pl"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/VarSliding2Wiggle.pl"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Variance-at-position.pl"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Variance-sliding.pl"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/Visualise-output.pl"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/basic-pipeline/convert-fastq.pl"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/basic-pipeline/filter-pileup-by-gtf.pl"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/basic-pipeline/identify-genomic-indel-regions.pl"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/basic-pipeline/mask-sam-indelregions.pl"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/basic-pipeline/subsample-pileup.pl"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/basic-pipeline/trim-fastq.pl"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/calculate-dxy.pl"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/mauve-parser.pl"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/syn-nonsyn/Syn-nonsyn-at-position.pl"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/syn-nonsyn/Syn-nonsyn-sliding.pl"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/syn-nonsyn/codon-table.txt"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/syn-nonsyn/create-syn-nonsynmatrix.pl"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/syn-nonsyn/nsl_p1.txt"
+                },
+                {
+                  "path": "src/popoolation_1.2.2/syn-nonsyn/nsl_p6.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 21,
+            "title": "feat: update to 2024 standards",
+            "state": "MERGED",
+            "createdAt": "2024-04-17T15:12:53Z",
+            "mergedAt": "2024-04-17T15:28:31Z",
+            "author": {
+              "login": "jlanga"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/cache.yml"
+                },
+                {
+                  "path": ".github/workflows/conventional-prs.yml"
+                },
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".github/workflows/release-please.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".gitmodules"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".travis.yml"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "config/features.yml"
+                },
+                {
+                  "path": "config/params.yml"
+                },
+                {
+                  "path": "config/profile/config.yaml"
+                },
+                {
+                  "path": "config/samples.tsv"
+                },
+                {
+                  "path": "data/adapters/NexteraPE-PE.fa"
+                },
+                {
+                  "path": "data/adapters/TruSeq2-PE.fa"
+                },
+                {
+                  "path": "data/adapters/TruSeq2-SE.fa"
+                },
+                {
+                  "path": "data/adapters/TruSeq3-PE-2.fa"
+                },
+                {
+                  "path": "data/adapters/TruSeq3-PE.fa"
+                },
+                {
+                  "path": "data/adapters/TruSeq3-SE.fa"
+                },
+                {
+                  "path": "data/genome/2R.fa.gz"
+                },
+                {
+                  "path": "data/reads/pop1_1.fq.gz"
+                },
+                {
+                  "path": "data/reads/pop1_2.fq.gz"
+                },
+                {
+                  "path": "data/reads/pop2_1.fq.gz"
+                },
+                {
+                  "path": "data/reads/pop2_2.fq.gz"
+                },
+                {
+                  "path": "doc/changelog.txt"
+                },
+                {
+                  "path": "params.yml"
+                },
+                {
+                  "path": "resources/genome/2R.fa.gz"
+                },
+                {
+                  "path": "resources/reads/pop1_1.fq.gz"
+                },
+                {
+                  "path": "resources/reads/pop1_2.fq.gz"
+                },
+                {
+                  "path": "resources/reads/pop2_1.fq.gz"
+                },
+                {
+                  "path": "resources/reads/pop2_2.fq.gz"
+                },
+                {
+                  "path": "rulegraph.svg"
+                },
+                {
+                  "path": "run"
+                },
+                {
+                  "path": "run_cluster"
+                },
+                {
+                  "path": "samples.tsv"
+                },
+                {
+                  "path": "src/plot_score.R"
+                },
+                {
+                  "path": "src/pre-commit"
+                },
+                {
+                  "path": "src/snakefiles/folders.py"
+                },
+                {
+                  "path": "src/snakefiles/fst.py"
+                },
+                {
+                  "path": "src/snakefiles/fst.yml"
+                },
+                {
+                  "path": "src/snakefiles/generic.py"
+                },
+                {
+                  "path": "src/snakefiles/generic.yml"
+                },
+                {
+                  "path": "src/snakefiles/hp.py"
+                },
+                {
+                  "path": "src/snakefiles/hp.yml"
+                },
+                {
+                  "path": "src/snakefiles/map.py"
+                },
+                {
+                  "path": "src/snakefiles/map.yml"
+                },
+                {
+                  "path": "src/snakefiles/mpileup.py"
+                },
+                {
+                  "path": "src/snakefiles/mpileup.yml"
+                },
+                {
+                  "path": "src/snakefiles/popoolation.py"
+                },
+                {
+                  "path": "src/snakefiles/popoolation.yml"
+                },
+                {
+                  "path": "src/snakefiles/qc.py"
+                },
+                {
+                  "path": "src/snakefiles/qc.yml"
+                },
+                {
+                  "path": "src/snakefiles/raw.py"
+                },
+                {
+                  "path": "src/snakefiles/reports.py"
+                },
+                {
+                  "path": "src/snakefiles/reports.yml"
+                },
+                {
+                  "path": "src/snakefiles/sync.py"
+                },
+                {
+                  "path": "src/snakefiles/sync.yml"
+                },
+                {
+                  "path": "src/snakehooks"
+                },
+                {
+                  "path": "src/variance_sliding_to_genomic_score.sh"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/folders.smk"
+                },
+                {
+                  "path": "workflow/rules/helpers/__environment__.yml"
+                },
+                {
+                  "path": "workflow/rules/helpers/__main__.smk"
+                },
+                {
+                  "path": "workflow/rules/popoolation/__environment__.yml"
+                },
+                {
+                  "path": "workflow/rules/popoolation/__functions__.smk"
+                },
+                {
+                  "path": "workflow/rules/popoolation/__main__.smk"
+                },
+                {
+                  "path": "workflow/rules/popoolation/hp.smk"
+                },
+                {
+                  "path": "workflow/rules/popoolation/mpileup.smk"
+                },
+                {
+                  "path": "workflow/rules/popoolation/plot.smk"
+                },
+                {
+                  "path": "workflow/rules/popoolation/variance_sliding.smk"
+                },
+                {
+                  "path": "workflow/rules/popoolation2/__environment__.yml"
+                },
+                {
+                  "path": "workflow/rules/popoolation2/__functions__.smk"
+                },
+                {
+                  "path": "workflow/rules/popoolation2/__main__.smk"
+                },
+                {
+                  "path": "workflow/rules/popoolation2/fst_sliding.smk"
+                },
+                {
+                  "path": "workflow/rules/popoolation2/mpileup.smk"
+                },
+                {
+                  "path": "workflow/rules/popoolation2/plot.smk"
+                },
+                {
+                  "path": "workflow/rules/popoolation2/sync.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/__environment__.yml"
+                },
+                {
+                  "path": "workflow/rules/preprocess/__functions__.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/__main__.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/index.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/map.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/mpileup.smk"
+                },
+                {
+                  "path": "workflow/rules/reads/__environment__.yml"
+                },
+                {
+                  "path": "workflow/rules/reads/__functions__.smk"
+                },
+                {
+                  "path": "workflow/rules/reads/__main__.smk"
+                },
+                {
+                  "path": "workflow/rules/reference/__environment__.yml"
+                },
+                {
+                  "path": "workflow/rules/reference/__main__.smk"
+                },
+                {
+                  "path": "workflow/rules/report/__environment__.yml"
+                },
+                {
+                  "path": "workflow/rules/report/__main__.smk"
+                },
+                {
+                  "path": "workflow/scripts/compute_depths.sh"
+                },
+                {
+                  "path": "workflow/scripts/fst_to_genomic_score.py"
+                },
+                {
+                  "path": "workflow/scripts/join_mpileups.py"
+                },
+                {
+                  "path": "workflow/scripts/plot_score.R"
+                },
+                {
+                  "path": "workflow/scripts/popoolation/Modules/BasicUtility.pm"
+                },
+                {
+                  "path": "workflow/scripts/popoolation/Modules/FormatSNP.pm"
+                },
+                {
+                  "path": "workflow/scripts/popoolation/Modules/Pileup.pm"
+                },
+                {
+                  "path": "workflow/scripts/popoolation/Modules/PileupTripletSlider.pm"
+                },
+                {
+                  "path": "workflow/scripts/popoolation/Modules/PileupTripletWindowSlider.pm"
+                },
+                {
+                  "path": "workflow/scripts/popoolation/Modules/SynNonSyn.pm"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 16,
+            "title": "Updated README",
+            "state": "MERGED",
+            "createdAt": "2019-04-08T12:39:00Z",
+            "mergedAt": "2019-04-08T12:39:09Z",
+            "author": {
+              "login": "jlanga"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "cluster.json"
+                },
+                {
+                  "path": "src/snakefiles/raw.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 15,
+            "title": "Devel",
+            "state": "MERGED",
+            "createdAt": "2018-11-29T10:27:10Z",
+            "mergedAt": "2018-11-29T10:54:43Z",
+            "author": {
+              "login": "jlanga"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".travis.yml"
+                },
+                {
+                  "path": "src/snakefiles/fst.yml"
+                },
+                {
+                  "path": "src/snakefiles/generic.yml"
+                },
+                {
+                  "path": "src/snakefiles/hp.yml"
+                },
+                {
+                  "path": "src/snakefiles/map.yml"
+                },
+                {
+                  "path": "src/snakefiles/mpileup.yml"
+                },
+                {
+                  "path": "src/snakefiles/popoolation.yml"
+                },
+                {
+                  "path": "src/snakefiles/qc.yml"
+                },
+                {
+                  "path": "src/snakefiles/reports.yml"
+                },
+                {
+                  "path": "src/snakefiles/sync.yml"
+                },
+                {
+                  "path": "src/snakehooks"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 14,
+            "title": "Update Travis conf, linting, caching",
+            "state": "MERGED",
+            "createdAt": "2018-11-21T11:27:40Z",
+            "mergedAt": "2018-11-21T12:57:55Z",
+            "author": {
+              "login": "jlanga"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitmodules"
+                },
+                {
+                  "path": ".travis.yml"
+                },
+                {
+                  "path": ".travis/travis_before_install.sh"
+                },
+                {
+                  "path": "src/install/from_tarball.sh"
+                },
+                {
+                  "path": "src/snakefiles/fst.yml"
+                },
+                {
+                  "path": "src/snakefiles/generic.yml"
+                },
+                {
+                  "path": "src/snakefiles/hp.yml"
+                },
+                {
+                  "path": "src/snakefiles/map.yml"
+                },
+                {
+                  "path": "src/snakefiles/mpileup.yml"
+                },
+                {
+                  "path": "src/snakefiles/popoolation.yml"
+                },
+                {
+                  "path": "src/snakefiles/qc.yml"
+                },
+                {
+                  "path": "src/snakefiles/reports.yml"
+                },
+                {
+                  "path": "src/snakefiles/sync.yml"
+                },
+                {
+                  "path": "src/snakehooks"
+                },
+                {
+                  "path": "src/snps_to_hp.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 12,
+            "title": "Get the joint mpileup tables from the single ones",
+            "state": "MERGED",
+            "createdAt": "2017-08-21T10:44:01Z",
+            "mergedAt": "2017-08-21T10:45:40Z",
+            "author": {
+              "login": "jlanga"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".travis.yml"
+                },
+                {
+                  "path": ".travis/travis_before_install.sh"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "requirements.txt"
+                },
+                {
+                  "path": "src/config.yaml"
+                },
+                {
+                  "path": "src/plot_score.R"
+                },
+                {
+                  "path": "src/snakefiles/folders.py"
+                },
+                {
+                  "path": "src/snakefiles/fst.py"
+                },
+                {
+                  "path": "src/snakefiles/generic.py"
+                },
+                {
+                  "path": "src/snakefiles/hp.py"
+                },
+                {
+                  "path": "src/snakefiles/map.py"
+                },
+                {
+                  "path": "src/snakefiles/mpileup.py"
+                },
+                {
+                  "path": "src/snakefiles/qc.py"
+                },
+                {
+                  "path": "src/snakefiles/raw.py"
+                },
+                {
+                  "path": "src/snakefiles/sync.py"
+                },
+                {
+                  "path": "src/snakefiles/tajimad.py"
+                },
+                {
+                  "path": "src/snakefiles/tajimapi.py"
+                },
+                {
+                  "path": "src/snakefiles/theta.py"
+                },
+                {
+                  "path": "src/snps_to_hp.py"
+                },
+                {
+                  "path": "src/variance_sliding_to_genomic_score.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 11,
+            "title": "Multiple mpileups",
+            "state": "MERGED",
+            "createdAt": "2017-08-21T09:56:17Z",
+            "mergedAt": "2017-08-21T10:42:32Z",
+            "author": {
+              "login": "jlanga"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".travis.yml"
+                },
+                {
+                  "path": ".travis/travis_before_install.sh"
+                },
+                {
+                  "path": "src/config.yaml"
+                },
+                {
+                  "path": "src/snakefiles/map.py"
+                },
+                {
+                  "path": "src/snakefiles/mpileup.py"
+                },
+                {
+                  "path": "src/snakefiles/sync.py"
+                },
+                {
+                  "path": "src/snakefiles/tajimapi.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6,
+            "title": "Devel",
+            "state": "MERGED",
+            "createdAt": "2017-05-09T15:09:47Z",
+            "mergedAt": "2017-05-09T15:09:55Z",
+            "author": {
+              "login": "jlanga"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakefiles/map.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 5,
+            "title": "Update map.py",
+            "state": "MERGED",
+            "createdAt": "2017-05-09T14:20:19Z",
+            "mergedAt": "2017-05-09T15:09:32Z",
+            "author": {
+              "login": "jlanga"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakefiles/map.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

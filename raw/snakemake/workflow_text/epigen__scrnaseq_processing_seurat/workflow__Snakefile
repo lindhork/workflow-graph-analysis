@@ -1,0 +1,117 @@
+
+##### global workflow dependencies #####
+# conda: "envs/global.yaml"
+
+##### libraries #####
+import os
+import sys
+import pandas as pd
+import yaml
+from snakemake.utils import min_version
+
+##### set minimum snakemake version #####
+min_version("8.20.1")
+
+##### module name #####
+module_name = "scrnaseq_processing_seurat"
+
+##### setup report #####
+report: os.path.join("report", "workflow.rst")
+
+##### load config and sample annotation sheets #####
+configfile: os.path.join("config", "config.yaml")
+
+annot = pd.read_csv(config['sample_annotation'], index_col='sample_name')
+
+result_path = os.path.join(config["result_path"],'scrnaseq_processing_seurat')
+
+# gene list dictionary (filter empty strings)
+gene_list_dict = config["module_gene_lists"] | config["vis_gene_lists"]
+gene_list_dict = {key: value for key, value in gene_list_dict.items() if value != ""}
+
+# data split list
+data_splits = ['merged']
+# if config["split_by"] is not None:
+#     for split in config["split_by"]:
+#         data_splits.extend(["{}__{}".format(split, value) for value in config["split_by"][split]])
+if config.get("split_by"):  # handles None or {}
+    for split, values in config["split_by"].items():
+        if values:  # skip if [] or None
+            data_splits.extend(f"{split}__{value}" for value in values)
+
+# processing steps
+all_steps = ['RAW','FILTERED','NORMALIZED','CORRECTED']
+
+if config["stop_after"]=="CORRECTED":
+    plot_steps = ["NORMALIZED","CORRECTED"]
+    metadata_plot_steps = all_steps[:all_steps.index(config["stop_after"])]
+elif config["stop_after"]=="NORMALIZED":
+    plot_steps = ["NORMALIZED"]
+    metadata_plot_steps = all_steps[:all_steps.index(config["stop_after"])+1]
+else:
+    plot_steps = []
+    metadata_plot_steps = all_steps[:all_steps.index(config["stop_after"])+1]
+
+### visualization feature lists
+# normalized plots
+vis_features_normalized = list(config["vis_gene_lists"].keys()) + ["HVG"]
+
+for modality in ["Antibody_Capture", "CRISPR_Guide_Capture", "Custom"]:
+    if (config["modality_flags"][modality]!="")and(len(config["vis_features"][modality])>0):
+        vis_features_normalized.append(modality)
+        
+if len(config["vis_features"]["Metadata"])>0:
+        vis_features_normalized.append("Metadata")
+
+# corrected plots (only plots of scale.data i.e., gene expression)
+vis_features_corrected = list(config["vis_gene_lists"].keys())
+
+# to handle AmbiguousRuleException in case of PSEUDOBULK generation
+ruleorder: pseudobulk > save_counts
+
+rule all:
+    input:
+        final_objects = expand(os.path.join(result_path,'{split}','{step}','object.rds'), 
+                               split=data_splits, 
+                               step=config["stop_after"]),
+        counts = expand(os.path.join(result_path,'{split}','{step}','RNA.csv'), 
+                               split=data_splits, 
+                               step=config["save_counts"]) if (len(config["save_counts"])>0) else [],
+        metadata_plots = expand(os.path.join(result_path,'{split}','{step}','plots','metadata'),
+                             split=data_splits,
+                             step=metadata_plot_steps,
+                            ),
+        pseudobulk_counts = (expand(os.path.join(result_path,'{split}','PSEUDOBULK','RNA.csv'),
+                                   split=data_splits,
+                                  )) if (config["pseudobulk"]["method"]!="") else [],
+        normalized_plot_dirs = (expand(os.path.join(result_path,'{split}','{step}','plots','{plot_type}','{category}','{feature_list}'),
+                                       split=data_splits,
+                                       step=["NORMALIZED"],
+                                       plot_type=['VlnPlot', 'RidgePlot', 'DotPlot', 'Heatmap'],
+                                       category=config["vis_categories"],
+                                       feature_list=vis_features_normalized,
+                      )) if (config["stop_after"]=="NORMALIZED" or config["stop_after"]=="CORRECTED") else [],
+        corrected_plot_dirs = (expand(os.path.join(result_path,'{split}','{step}','plots','{plot_type}','{category}','{feature_list}'), 
+                                      split=data_splits,
+                                      step=["CORRECTED"],
+                                      plot_type=['VlnPlot', 'RidgePlot', 'Heatmap'],
+                                      category=config["vis_categories"],
+                                      feature_list=vis_features_corrected,
+                      )) if (config["stop_after"]=="CORRECTED") else [],
+        envs = expand(os.path.join(result_path,'envs','{env}.yaml'),env=['seurat','inspectdf']),
+        gene_lists = expand(os.path.join(result_path,'configs','{gene_list}.txt'),gene_list=list(gene_list_dict.keys())),
+        configs = os.path.join(result_path,'configs','{}_config.yaml'.format(config["project_name"])),
+        annotations = os.path.join(result_path,'configs','{}_annot.csv'.format(config["project_name"])),
+    resources:
+        mem_mb=config.get("mem", "16000"),
+    threads: config.get("threads", 1)
+    log:
+        os.path.join("logs","rules","all.log"),
+
+        
+##### load rules #####
+include: os.path.join("rules", "common.smk")
+include: os.path.join("rules", "process.smk")
+include: os.path.join("rules", "normalize_correct_score.smk")
+include: os.path.join("rules", "visualize.smk")
+include: os.path.join("rules", "envs_export.smk")

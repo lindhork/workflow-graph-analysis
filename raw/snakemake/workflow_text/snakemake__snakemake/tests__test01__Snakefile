@@ -1,0 +1,73 @@
+from snakemake.utils import min_version
+
+from snakemake import __version__
+print(__version__, file=sys.stderr)
+
+# The next line does not seem to be needed for this test to pass.
+# If it is re-enabled then the default setting must be restored afterwards
+# because this is a global setting and breaks some other tests.
+#shell.prefix("source ~/.bashrc; ")
+
+TEST = "abc"
+
+
+onstart:
+    print("Workflow starting")
+    print("Log:")
+    print(log)
+
+onsuccess:
+    print("Workflow finished")
+    print("Log:")
+    print(log)
+
+
+onerror:
+    print("Workflow failed")
+    print("Log:")
+    print(log)
+
+
+
+
+ruleorder: rule2 > rule4
+
+def testin(wildcards):
+	return "test.in"
+
+def version():
+	return "3.3"
+
+rule rule1:
+	# This rule creates an intermediate file.
+	input: 
+		'test.inter'
+	output: 'dir/test.out'
+	log:    a='log/logfile.log'
+	threads: 3
+	shell: 
+		'if [ {threads} -ne 3 ]; then echo "This test has to be run with -j3 in order to succeed!"; exit 1; fi; ' \
+		'echo {TEST}; cp {input[0]} {output[0]}; ' # append a comment
+		'echo test > {log.a}'
+
+rule rule2:
+	input: testin
+	output: 'test.inter'
+	message: 'Copying {input[0]} to {output[0]}'
+	shell: 
+		'''
+		cp {input[0]} {output[0]}
+		'''
+
+rule rule4:
+	input: "test.in"
+	output: "test.inter"
+	shell: "cp {input} {output}"
+
+
+# this should be ignored since test.in is present
+rule rule3:
+	input: "dir/{a}.out"
+	output: "{a}.in"
+	shell: "cp {input} {output}"
+

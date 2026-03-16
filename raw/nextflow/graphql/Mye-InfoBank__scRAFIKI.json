@@ -1,0 +1,1890 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 54,
+            "title": "Support RNAse R effect correction",
+            "state": "CLOSED",
+            "createdAt": "2024-03-18T11:02:33Z",
+            "closedAt": "2024-03-18T11:21:06Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 43,
+            "title": "Implement correlation analysis for clusterings",
+            "state": "CLOSED",
+            "createdAt": "2024-02-16T11:56:34Z",
+            "closedAt": "2024-02-27T19:03:52Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 42,
+            "title": "Implement a second iteration to the pipeline",
+            "state": "CLOSED",
+            "createdAt": "2024-02-16T11:27:50Z",
+            "closedAt": "2024-04-05T09:29:25Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 41,
+            "title": "Add option for regressing out  cycling, mitochondrial and ribosomal influences",
+            "state": "OPEN",
+            "createdAt": "2024-02-16T11:15:30Z",
+            "closedAt": null,
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 40,
+            "title": "Switch to hard threshold of minimum cells to keep a gene",
+            "state": "CLOSED",
+            "createdAt": "2024-02-16T11:09:54Z",
+            "closedAt": "2024-02-20T21:27:39Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 39,
+            "title": "Implement cellbender as ambient RNA correction method",
+            "state": "OPEN",
+            "createdAt": "2024-02-16T11:05:25Z",
+            "closedAt": null,
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 38,
+            "title": "Fix problems with dots in gene symbols",
+            "state": "CLOSED",
+            "createdAt": "2024-02-16T11:02:28Z",
+            "closedAt": "2024-02-20T21:24:23Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 33,
+            "title": "Add QC metrics to cellxgene",
+            "state": "CLOSED",
+            "createdAt": "2024-02-05T15:12:24Z",
+            "closedAt": "2024-02-08T14:45:21Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 32,
+            "title": "Make sure important marker genes are available",
+            "state": "CLOSED",
+            "createdAt": "2024-02-05T15:04:17Z",
+            "closedAt": "2024-02-10T08:14:20Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 30,
+            "title": "Add cell type composition plots for metadata fields",
+            "state": "CLOSED",
+            "createdAt": "2024-01-27T11:39:10Z",
+            "closedAt": "2024-02-08T14:51:18Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 27,
+            "title": "Add dataset metadata composition analysis",
+            "state": "CLOSED",
+            "createdAt": "2024-01-17T23:16:20Z",
+            "closedAt": "2024-01-20T18:39:27Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 25,
+            "title": "Add an additional way of investigating differential expression between clusters",
+            "state": "OPEN",
+            "createdAt": "2024-01-16T11:23:19Z",
+            "closedAt": null,
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 24,
+            "title": "Implement clustering QC analysis",
+            "state": "CLOSED",
+            "createdAt": "2024-01-16T11:20:15Z",
+            "closedAt": "2024-01-22T22:27:27Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 23,
+            "title": "Add guide for using cellXgene with our output format from a celltype-expert perspective",
+            "state": "CLOSED",
+            "createdAt": "2024-01-16T11:15:22Z",
+            "closedAt": "2024-01-23T10:12:19Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 22,
+            "title": "Investigate potential usage of GPU acceleration",
+            "state": "CLOSED",
+            "createdAt": "2024-01-14T20:39:24Z",
+            "closedAt": "2024-02-27T21:55:04Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 18,
+            "title": "Implement R-based integration methods using scib-pipeline",
+            "state": "OPEN",
+            "createdAt": "2023-12-28T10:36:38Z",
+            "closedAt": null,
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 17,
+            "title": "Investigate additional doublet detection methods",
+            "state": "CLOSED",
+            "createdAt": "2023-12-28T10:04:23Z",
+            "closedAt": "2024-02-27T21:54:15Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 15,
+            "title": "Investigate resource usage of cellxgene on Oscar",
+            "state": "CLOSED",
+            "createdAt": "2023-11-10T10:15:54Z",
+            "closedAt": "2024-01-25T20:09:38Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 14,
+            "title": "Investigate additional annotation methods",
+            "state": "CLOSED",
+            "createdAt": "2023-11-10T10:06:24Z",
+            "closedAt": "2024-02-27T21:54:26Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 12,
+            "title": "Add option for processing Seurat objects",
+            "state": "CLOSED",
+            "createdAt": "2023-09-16T20:35:48Z",
+            "closedAt": "2024-01-26T10:54:29Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 11,
+            "title": "Implement additional python-based integration methods",
+            "state": "CLOSED",
+            "createdAt": "2023-09-16T20:28:47Z",
+            "closedAt": "2023-12-28T10:40:57Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 10,
+            "title": "Improve clustering",
+            "state": "CLOSED",
+            "createdAt": "2023-09-15T12:53:47Z",
+            "closedAt": "2023-09-23T11:05:40Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 9,
+            "title": "Implement scIB",
+            "state": "CLOSED",
+            "createdAt": "2023-09-15T12:52:15Z",
+            "closedAt": "2024-01-05T16:49:01Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 8,
+            "title": "Write a how-to guide for dataset pre-processing",
+            "state": "CLOSED",
+            "createdAt": "2023-09-15T12:51:19Z",
+            "closedAt": "2024-01-24T14:54:42Z",
+            "author": {
+              "login": "FPetitprez"
+            }
+          },
+          {
+            "number": 7,
+            "title": "Implement copy number variation (CNV) analysis",
+            "state": "OPEN",
+            "createdAt": "2023-09-15T12:46:42Z",
+            "closedAt": null,
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 6,
+            "title": "Add guide for our best practices in the usage of cellxgene",
+            "state": "CLOSED",
+            "createdAt": "2023-09-15T12:45:09Z",
+            "closedAt": "2024-01-16T11:27:38Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 5,
+            "title": "Add guide on how to run cellxgene based on our output",
+            "state": "CLOSED",
+            "createdAt": "2023-09-15T12:42:54Z",
+            "closedAt": "2024-01-23T10:12:46Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 4,
+            "title": "Implement scArches",
+            "state": "CLOSED",
+            "createdAt": "2023-09-15T12:37:49Z",
+            "closedAt": "2024-02-13T14:56:22Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 3,
+            "title": "Implement entropy calculation",
+            "state": "CLOSED",
+            "createdAt": "2023-09-15T12:36:32Z",
+            "closedAt": "2024-01-14T20:07:35Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 2,
+            "title": "Implement removal of ambient RNA",
+            "state": "CLOSED",
+            "createdAt": "2023-09-15T12:34:13Z",
+            "closedAt": "2023-09-18T11:07:02Z",
+            "author": {
+              "login": "nictru"
+            }
+          },
+          {
+            "number": 1,
+            "title": "Implement normalization",
+            "state": "CLOSED",
+            "createdAt": "2023-09-15T12:32:20Z",
+            "closedAt": "2024-01-17T06:42:27Z",
+            "author": {
+              "login": "nictru"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 58,
+            "title": "scHPL",
+            "state": "MERGED",
+            "createdAt": "2024-04-27T13:12:42Z",
+            "mergedAt": "2024-04-27T13:12:48Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modes.config"
+                },
+                {
+                  "path": "conf/modes/build.config"
+                },
+                {
+                  "path": "conf/modes/extend.config"
+                },
+                {
+                  "path": "docker/docker-compose.yml"
+                },
+                {
+                  "path": "docker/rpy/Dockerfile"
+                },
+                {
+                  "path": "docker/scHPL/Dockerfile"
+                },
+                {
+                  "path": "docker/scHPL/environment.yml"
+                },
+                {
+                  "path": "docker/scib/Dockerfile"
+                },
+                {
+                  "path": "example/build/nextflow.config"
+                },
+                {
+                  "path": "example/build/run.sh"
+                },
+                {
+                  "path": "example/extend/atlas.h5ad"
+                },
+                {
+                  "path": "example/extend/model/model.pt"
+                },
+                {
+                  "path": "example/extend/nextflow.config"
+                },
+                {
+                  "path": "example/extend/run.sh"
+                },
+                {
+                  "path": "example/extend/tree.pkl"
+                },
+                {
+                  "path": "example/test.config"
+                },
+                {
+                  "path": "modules/cell_cycle.nf"
+                },
+                {
+                  "path": "modules/integrate.nf"
+                },
+                {
+                  "path": "modules/integrate_scanvi.nf"
+                },
+                {
+                  "path": "modules/integrate_scarches.nf"
+                },
+                {
+                  "path": "modules/leiden.nf"
+                },
+                {
+                  "path": "modules/merge.nf"
+                },
+                {
+                  "path": "modules/scHPL.nf"
+                },
+                {
+                  "path": "modules/scIB.nf"
+                },
+                {
+                  "path": "modules/sc_SHC.nf"
+                },
+                {
+                  "path": "modules/solo.nf"
+                },
+                {
+                  "path": "subworkflows/clustering.nf"
+                },
+                {
+                  "path": "workflows/build.nf"
+                },
+                {
+                  "path": "workflows/extend.nf"
+                },
+                {
+                  "path": "workflows/sub.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 57,
+            "title": "Implement CI/CD workflow",
+            "state": "MERGED",
+            "createdAt": "2024-04-09T11:59:19Z",
+            "mergedAt": "2024-04-09T14:59:13Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": "docker/docker-compose.yml"
+                },
+                {
+                  "path": "docker/scarches/Dockerfile"
+                },
+                {
+                  "path": "docker/scib/Dockerfile"
+                },
+                {
+                  "path": "example/build/.gitignore"
+                },
+                {
+                  "path": "example/extend/.gitignore"
+                },
+                {
+                  "path": "example/extend/atlas.h5ad"
+                },
+                {
+                  "path": "example/extend/model/model.pt"
+                },
+                {
+                  "path": "example/extend/transfer.h5ad"
+                },
+                {
+                  "path": "example/sub/.gitignore"
+                },
+                {
+                  "path": "example/sub/annotation.csv"
+                },
+                {
+                  "path": "example/sub/atlas.h5ad"
+                },
+                {
+                  "path": "modules/cell_cycle.nf"
+                },
+                {
+                  "path": "modules/cell_qc.nf"
+                },
+                {
+                  "path": "modules/celltypist.nf"
+                },
+                {
+                  "path": "modules/clean_adata.nf"
+                },
+                {
+                  "path": "modules/collect_problems.nf"
+                },
+                {
+                  "path": "modules/composition.nf"
+                },
+                {
+                  "path": "modules/decontX.nf"
+                },
+                {
+                  "path": "modules/dedoublet_adata.nf"
+                },
+                {
+                  "path": "modules/distribution.nf"
+                },
+                {
+                  "path": "modules/entropy.nf"
+                },
+                {
+                  "path": "modules/extract_embedding.nf"
+                },
+                {
+                  "path": "modules/genes_upset.nf"
+                },
+                {
+                  "path": "modules/get_batches.nf"
+                },
+                {
+                  "path": "modules/identify_hvgs.nf"
+                },
+                {
+                  "path": "modules/integrate.nf"
+                },
+                {
+                  "path": "modules/integrate_scanvi.nf"
+                },
+                {
+                  "path": "modules/integrate_scarches.nf"
+                },
+                {
+                  "path": "modules/leiden.nf"
+                },
+                {
+                  "path": "modules/merge.nf"
+                },
+                {
+                  "path": "modules/merge_clustering.nf"
+                },
+                {
+                  "path": "modules/merge_datasets.nf"
+                },
+                {
+                  "path": "modules/merge_extended.nf"
+                },
+                {
+                  "path": "modules/neighbors.nf"
+                },
+                {
+                  "path": "modules/normalize.nf"
+                },
+                {
+                  "path": "modules/rds_to_h5ad.nf"
+                },
+                {
+                  "path": "modules/rename_integrations.nf"
+                },
+                {
+                  "path": "modules/scIB.nf"
+                },
+                {
+                  "path": "modules/sc_SHC.nf"
+                },
+                {
+                  "path": "modules/solo.nf"
+                },
+                {
+                  "path": "modules/split_categories.nf"
+                },
+                {
+                  "path": "modules/stop_if_problems.nf"
+                },
+                {
+                  "path": "modules/umap.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 56,
+            "title": "Implement multiple pipeline modes",
+            "state": "MERGED",
+            "createdAt": "2024-04-08T18:18:02Z",
+            "mergedAt": "2024-04-08T18:18:09Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/merge_datasets.py"
+                },
+                {
+                  "path": "bin/preprocess.py"
+                },
+                {
+                  "path": "conf/modes.config"
+                },
+                {
+                  "path": "conf/modes/build-extend.config"
+                },
+                {
+                  "path": "conf/modes/build.config"
+                },
+                {
+                  "path": "conf/modes/extend.config"
+                },
+                {
+                  "path": "conf/modes/sub.config"
+                },
+                {
+                  "path": "example/build/.gitignore"
+                },
+                {
+                  "path": "example/build/minimal_example.h5ad"
+                },
+                {
+                  "path": "example/build/nextflow.config"
+                },
+                {
+                  "path": "example/build/run.sh"
+                },
+                {
+                  "path": "example/build/samplesheet.csv"
+                },
+                {
+                  "path": "example/extend/.gitignore"
+                },
+                {
+                  "path": "example/extend/nextflow.config"
+                },
+                {
+                  "path": "example/extend/run.sh"
+                },
+                {
+                  "path": "example/extend/samplesheet.csv"
+                },
+                {
+                  "path": "example/run.sh"
+                },
+                {
+                  "path": "example/sub/.gitignore"
+                },
+                {
+                  "path": "example/sub/nextflow.config"
+                },
+                {
+                  "path": "example/sub/run.sh"
+                },
+                {
+                  "path": "example/test.config"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/cell_qc.nf"
+                },
+                {
+                  "path": "modules/get_batches.nf"
+                },
+                {
+                  "path": "modules/identify_hvgs.nf"
+                },
+                {
+                  "path": "modules/integrate_scarches.nf"
+                },
+                {
+                  "path": "modules/merge_datasets.nf"
+                },
+                {
+                  "path": "modules/merge_extended.nf"
+                },
+                {
+                  "path": "modules/prepare_solo.nf"
+                },
+                {
+                  "path": "modules/preprocess.nf"
+                },
+                {
+                  "path": "modules/solo.nf"
+                },
+                {
+                  "path": "modules/split_categories.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "sub-atlas.nf"
+                },
+                {
+                  "path": "subworkflows/benchmarking.nf"
+                },
+                {
+                  "path": "subworkflows/clustering.nf"
+                },
+                {
+                  "path": "subworkflows/counts.nf"
+                },
+                {
+                  "path": "subworkflows/doublets.nf"
+                },
+                {
+                  "path": "subworkflows/integration.nf"
+                },
+                {
+                  "path": "subworkflows/preprocessing.nf"
+                },
+                {
+                  "path": "workflows/build.nf"
+                },
+                {
+                  "path": "workflows/extend.nf"
+                },
+                {
+                  "path": "workflows/sub.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 55,
+            "title": "Implement a second iteration to the pipeline",
+            "state": "MERGED",
+            "createdAt": "2024-04-05T09:29:17Z",
+            "mergedAt": "2024-04-05T09:29:24Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/clean_adata.nf"
+                },
+                {
+                  "path": "modules/extract_embedding.nf"
+                },
+                {
+                  "path": "modules/merge.nf"
+                },
+                {
+                  "path": "modules/rename_integrations.nf"
+                },
+                {
+                  "path": "modules/split_categories.nf"
+                },
+                {
+                  "path": "modules/umap.nf"
+                },
+                {
+                  "path": "sub-atlas.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 42
+                }
+              ]
+            }
+          },
+          {
+            "number": 53,
+            "title": "Support pseudo aligners",
+            "state": "MERGED",
+            "createdAt": "2024-03-09T08:44:25Z",
+            "mergedAt": "2024-03-09T08:44:34Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/preprocess.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "example/nextflow.config"
+                },
+                {
+                  "path": "modules/dedoublet_adata.nf"
+                },
+                {
+                  "path": "modules/preprocess.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 52,
+            "title": "Fix problems with small batches during doublet detection",
+            "state": "MERGED",
+            "createdAt": "2024-03-04T19:36:42Z",
+            "mergedAt": "2024-03-04T19:36:49Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/dedoublet_adata.nf"
+                },
+                {
+                  "path": "modules/solo.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 51,
+            "title": "Implement detection for problems in input files",
+            "state": "MERGED",
+            "createdAt": "2024-02-26T22:58:39Z",
+            "mergedAt": "2024-02-26T22:58:45Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/merge_datasets.py"
+                },
+                {
+                  "path": "bin/preprocess.py"
+                },
+                {
+                  "path": "modules/collect_problems.nf"
+                },
+                {
+                  "path": "modules/integrate.nf"
+                },
+                {
+                  "path": "modules/merge_datasets.nf"
+                },
+                {
+                  "path": "modules/preprocess.nf"
+                },
+                {
+                  "path": "modules/stop_if_problems.nf"
+                },
+                {
+                  "path": "workflows/preprocessing.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 50,
+            "title": "Implement support for adding custom metadata columns and including certain genes to HVGs",
+            "state": "MERGED",
+            "createdAt": "2024-02-26T22:58:07Z",
+            "mergedAt": "2024-02-26T22:58:14Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/merge_datasets.py"
+                },
+                {
+                  "path": "modules/identify_hvgs.nf"
+                },
+                {
+                  "path": "modules/merge_datasets.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "workflows/preprocessing.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 49,
+            "title": "Fix problems with tmp mount in apptainer (Diana's Leistung)",
+            "state": "MERGED",
+            "createdAt": "2024-02-23T10:21:18Z",
+            "mergedAt": "2024-02-23T10:21:27Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 48,
+            "title": "Fix bug with SOLO if batch size is smaller than 128",
+            "state": "MERGED",
+            "createdAt": "2024-02-23T10:16:59Z",
+            "mergedAt": "2024-02-23T10:17:10Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/solo.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 47,
+            "title": "Make HVG identification more robust when low expression values are present",
+            "state": "MERGED",
+            "createdAt": "2024-02-20T21:29:52Z",
+            "mergedAt": "2024-02-20T21:29:58Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/identify_hvgs.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 46,
+            "title": "Switch to constant threshold for minimum cells to keep genes",
+            "state": "MERGED",
+            "createdAt": "2024-02-20T21:27:29Z",
+            "mergedAt": "2024-02-20T21:27:38Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/merge_datasets.py"
+                },
+                {
+                  "path": "modules/merge_datasets.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "workflows/preprocessing.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 40
+                }
+              ]
+            }
+          },
+          {
+            "number": 45,
+            "title": "Fix problems with dots in gene symbols",
+            "state": "MERGED",
+            "createdAt": "2024-02-20T21:24:14Z",
+            "mergedAt": "2024-02-20T21:24:22Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/filter.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 38
+                }
+              ]
+            }
+          },
+          {
+            "number": 44,
+            "title": "Make celltypes optional",
+            "state": "MERGED",
+            "createdAt": "2024-02-18T07:18:03Z",
+            "mergedAt": "2024-02-18T07:18:12Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/integrate_scarches.nf"
+                },
+                {
+                  "path": "modules/solo.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "workflows/doublets.nf"
+                },
+                {
+                  "path": "workflows/integration.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 37,
+            "title": "4 implement scarches",
+            "state": "MERGED",
+            "createdAt": "2024-02-13T14:56:11Z",
+            "mergedAt": "2024-02-13T14:56:21Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/filter.py"
+                },
+                {
+                  "path": "bin/integrate.py"
+                },
+                {
+                  "path": "bin/merge_datasets.py"
+                },
+                {
+                  "path": "docker/docker-compose.yml"
+                },
+                {
+                  "path": "docker/scarches/Dockerfile"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/cell_qc.nf"
+                },
+                {
+                  "path": "modules/dedoublet_adata.nf"
+                },
+                {
+                  "path": "modules/extract_embedding.nf"
+                },
+                {
+                  "path": "modules/filter.nf"
+                },
+                {
+                  "path": "modules/identify_hvgs.nf"
+                },
+                {
+                  "path": "modules/integrate.nf"
+                },
+                {
+                  "path": "modules/integrate_scanvi.nf"
+                },
+                {
+                  "path": "modules/integrate_scarches.nf"
+                },
+                {
+                  "path": "modules/merge.nf"
+                },
+                {
+                  "path": "modules/merge_datasets.nf"
+                },
+                {
+                  "path": "modules/merge_extended.nf"
+                },
+                {
+                  "path": "modules/prepare_solo.nf"
+                },
+                {
+                  "path": "modules/solo.nf"
+                },
+                {
+                  "path": "modules/umap.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "workflows/doublets.nf"
+                },
+                {
+                  "path": "workflows/integration.nf"
+                },
+                {
+                  "path": "workflows/preprocessing.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 4
+                }
+              ]
+            }
+          },
+          {
+            "number": 36,
+            "title": "32 make sure important marker genes are available",
+            "state": "MERGED",
+            "createdAt": "2024-02-10T08:14:11Z",
+            "mergedAt": "2024-02-10T08:14:19Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/merge_datasets.py"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/merge.nf"
+                },
+                {
+                  "path": "modules/merge_datasets.nf"
+                },
+                {
+                  "path": "workflows/doublets.nf"
+                },
+                {
+                  "path": "workflows/preprocessing.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 32
+                }
+              ]
+            }
+          },
+          {
+            "number": 35,
+            "title": "Implement cell type distribution plots",
+            "state": "MERGED",
+            "createdAt": "2024-02-08T14:51:09Z",
+            "mergedAt": "2024-02-08T14:51:17Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/distribution.nf"
+                },
+                {
+                  "path": "workflows/preprocessing.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 30
+                }
+              ]
+            }
+          },
+          {
+            "number": 34,
+            "title": "Implement per-cell QC metrics",
+            "state": "MERGED",
+            "createdAt": "2024-02-08T14:45:12Z",
+            "mergedAt": "2024-02-08T14:45:19Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/cell_qc.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 33
+                }
+              ]
+            }
+          },
+          {
+            "number": 31,
+            "title": "Improve doublet removal",
+            "state": "MERGED",
+            "createdAt": "2024-01-29T10:53:04Z",
+            "mergedAt": "2024-01-29T10:53:12Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/celltypist_majority.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/dedoublet_adata.nf"
+                },
+                {
+                  "path": "modules/merge.nf"
+                },
+                {
+                  "path": "modules/solo.nf"
+                },
+                {
+                  "path": "workflows/doublets.nf"
+                },
+                {
+                  "path": "workflows/integration.nf"
+                },
+                {
+                  "path": "www/SIMBA.png"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 29,
+            "title": "Implement sc-SHC",
+            "state": "MERGED",
+            "createdAt": "2024-01-21T11:25:27Z",
+            "mergedAt": "2024-01-22T22:27:26Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "bin/annotate_celltypist.py"
+                },
+                {
+                  "path": "bin/celltypist_majority.py"
+                },
+                {
+                  "path": "bin/merge_datasets.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docker/docker-compose.yml"
+                },
+                {
+                  "path": "docker/rpy/Dockerfile"
+                },
+                {
+                  "path": "docker/rpy/environment.yml"
+                },
+                {
+                  "path": "example/nextflow.config"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/cell_cycle.nf"
+                },
+                {
+                  "path": "modules/celltypist.nf"
+                },
+                {
+                  "path": "modules/entropy.nf"
+                },
+                {
+                  "path": "modules/extract_embedding.nf"
+                },
+                {
+                  "path": "modules/leiden.nf"
+                },
+                {
+                  "path": "modules/merge.nf"
+                },
+                {
+                  "path": "modules/merge_clustering.nf"
+                },
+                {
+                  "path": "modules/neighbors.nf"
+                },
+                {
+                  "path": "modules/sc_SHC.nf"
+                },
+                {
+                  "path": "modules/solo.nf"
+                },
+                {
+                  "path": "modules/umap.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "workflows/clustering.nf"
+                },
+                {
+                  "path": "workflows/integration.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 24
+                }
+              ]
+            }
+          },
+          {
+            "number": 28,
+            "title": "Implement composition analysis",
+            "state": "MERGED",
+            "createdAt": "2024-01-20T18:38:11Z",
+            "mergedAt": "2024-01-20T18:39:26Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/composition.nf"
+                },
+                {
+                  "path": "workflows/preprocessing.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 27
+                }
+              ]
+            }
+          },
+          {
+            "number": 26,
+            "title": "Add more normalization methods",
+            "state": "MERGED",
+            "createdAt": "2024-01-17T06:42:18Z",
+            "mergedAt": "2024-01-17T06:42:26Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/normalize.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "workflows/counts.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 1
+                }
+              ]
+            }
+          },
+          {
+            "number": 21,
+            "title": "Add cell-cycle annotation",
+            "state": "MERGED",
+            "createdAt": "2024-01-05T20:35:58Z",
+            "mergedAt": "2024-01-05T20:36:08Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/normalize.py"
+                },
+                {
+                  "path": "bin/scIB.py"
+                },
+                {
+                  "path": "example/minimal_example.h5ad"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/cell_cycle.nf"
+                },
+                {
+                  "path": "modules/merge.nf"
+                },
+                {
+                  "path": "modules/scIB.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "workflows/counts.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 20,
+            "title": "Implement benchmarking",
+            "state": "MERGED",
+            "createdAt": "2024-01-05T16:48:32Z",
+            "mergedAt": "2024-01-05T16:49:00Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/merge.nf"
+                },
+                {
+                  "path": "modules/scIB.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "workflows/benchmarking.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 9
+                }
+              ]
+            }
+          },
+          {
+            "number": 19,
+            "title": "Simplify pipeline structure",
+            "state": "MERGED",
+            "createdAt": "2024-01-05T15:33:19Z",
+            "mergedAt": "2024-01-05T15:33:44Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "analyses/.gitignore"
+                },
+                {
+                  "path": "analyses/01_process_own_data/.gitignore"
+                },
+                {
+                  "path": "analyses/01_process_own_data/make_h5ad_batch1.py"
+                },
+                {
+                  "path": "analyses/01_process_own_data/make_h5ad_batch2.py"
+                },
+                {
+                  "path": "analyses/10_seed_annotations/annotate_lambrechts_2018_luad_6653.py"
+                },
+                {
+                  "path": "analyses/10_seed_annotations/annotate_maynard_bivona_2020_nsclc.py"
+                },
+                {
+                  "path": "analyses/20_integrate_scrnaseq_data/21_merge_all.py"
+                },
+                {
+                  "path": "analyses/20_integrate_scrnaseq_data/22_harmony.py"
+                },
+                {
+                  "path": "analyses/20_integrate_scrnaseq_data/23_mnn.py"
+                },
+                {
+                  "path": "analyses/20_integrate_scrnaseq_data/25_merge_solo.py"
+                },
+                {
+                  "path": "analyses/20_integrate_scrnaseq_data/testset/testset_file.h5ad"
+                },
+                {
+                  "path": "analyses/30_annotate_scrnaseq_data/32_annotate_cell_types_fine.py"
+                },
+                {
+                  "path": "analyses/30_annotate_scrnaseq_data/33_epithelial_cells.py"
+                },
+                {
+                  "path": "analyses/30_annotate_scrnaseq_data/35_export_atlas.py"
+                },
+                {
+                  "path": "analyses/36_add_additional_datasets/36_scvi_mapping.py"
+                },
+                {
+                  "path": "analyses/36_add_additional_datasets/36b_update_annotation.py"
+                },
+                {
+                  "path": "analyses/37_subclustering/37_neutrophil_subclustering.py"
+                },
+                {
+                  "path": "analyses/38_patient_stratification/38_patient_stratification.py"
+                },
+                {
+                  "path": "analyses/80_export_atlas/81_export_atlas.py"
+                },
+                {
+                  "path": "bin/annotate_SingleR.Rmd"
+                },
+                {
+                  "path": "bin/annotate_celltypist.py"
+                },
+                {
+                  "path": "bin/celltypist_majority.py"
+                },
+                {
+                  "path": "bin/decontX.R"
+                },
+                {
+                  "path": "bin/filter.py"
+                },
+                {
+                  "path": "bin/integrate.R"
+                },
+                {
+                  "path": "bin/integrate.py"
+                },
+                {
+                  "path": "bin/integrate_scanvi.py"
+                },
+                {
+                  "path": "bin/integrate_scvi.py"
+                },
+                {
+                  "path": "bin/integration_methods.R"
+                },
+                {
+                  "path": "bin/merge_datasets.py"
+                },
+                {
+                  "path": "bin/normalization.py"
+                },
+                {
+                  "path": "bin/normalize.py"
+                },
+                {
+                  "path": "bin/run_deseq2.R"
+                },
+                {
+                  "path": "bin/scIB.py"
+                },
+                {
+                  "path": "bin/scissor_single_sample.R"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "docker/docker-compose.yml"
+                },
+                {
+                  "path": "docker/mnn/Dockerfile"
+                },
+                {
+                  "path": "docker/r/Dockerfile"
+                },
+                {
+                  "path": "docker/r/install.R"
+                },
+                {
+                  "path": "docker/rpy/.dockerignore"
+                },
+                {
+                  "path": "docker/rpy/Dockerfile"
+                },
+                {
+                  "path": "docker/rpy/environment.yml"
+                },
+                {
+                  "path": "docker/rpy/setup.sh"
+                },
+                {
+                  "path": "docker/scib/Dockerfile"
+                },
+                {
+                  "path": "docker/sctransform/Dockerfile"
+                },
+                {
+                  "path": "docker/sctransform/install.R"
+                },
+                {
+                  "path": "docker/sctransform/requirements.txt"
+                },
+                {
+                  "path": "example/minimal_example.h5ad"
+                },
+                {
+                  "path": "lib/.gitignore"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/.gitignore"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/README.rst"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/pyproject.toml"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/__init__.py"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/annotation.py"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/assets/__init__.py"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/assets/cytosig_signature_matrix.tsv"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/cell2cell.py"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/colors.py"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/compare_groups/__init__.py"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/compare_groups/compute_scores.py"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/compare_groups/lm.py"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/compare_groups/pl.py"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/deconvolution.py"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/diversity.py"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/integration.py"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/pairwise.py"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/pseudobulk.py"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/signatures.py"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/tests/__init__.py"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/tests/fixtures.py"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/tests/test_integration.py"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/tests/test_pseudobulk.py"
+                },
+                {
+                  "path": "lib/scanpy_helper_submodule/scanpy_helpers/util.py"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "media/metro.png"
+                },
+                {
+                  "path": "media/metro.svg"
+                },
+                {
+                  "path": "modules/celltypist.nf"
+                },
+                {
+                  "path": "modules/check_samplesheet.nf"
+                },
+                {
+                  "path": "modules/concat_anndata.nf"
+                },
+                {
+                  "path": "modules/decontX.nf"
+                },
+                {
+                  "path": "modules/filter.nf"
+                },
+                {
+                  "path": "modules/integrate.nf"
+                },
+                {
+                  "path": "modules/integrate_scanvi.nf"
+                },
+                {
+                  "path": "modules/local/adata_metrics.nf"
+                },
+                {
+                  "path": "modules/local/celltypist.nf"
+                },
+                {
+                  "path": "modules/local/decontX.nf"
+                },
+                {
+                  "path": "modules/local/jupyternotebook/main.nf"
+                },
+                {
+                  "path": "modules/local/jupyternotebook/meta.yml"
+                },
+                {
+                  "path": "modules/local/jupyternotebook/parametrize.nf"
+                },
+                {
+                  "path": "modules/local/merge_integrations.nf"
+                },
+                {
+                  "path": "modules/local/normalize_anndata.nf"
+                },
+                {
+                  "path": "modules/local/rmarkdownnotebook/main.nf"
+                },
+                {
+                  "path": "modules/local/rmarkdownnotebook/meta.yml"
+                },
+                {
+                  "path": "modules/local/rmarkdownnotebook/parametrize.nf"
+                },
+                {
+                  "path": "modules/local/scIB.nf"
+                },
+                {
+                  "path": "modules/local/scconversion/main.nf"
+                },
+                {
+                  "path": "modules/local/scde/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 16,
+            "title": "normalisation row issue fixed",
+            "state": "MERGED",
+            "createdAt": "2023-12-23T10:56:42Z",
+            "mergedAt": "2023-12-23T11:06:24Z",
+            "author": {
+              "login": "serareif"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/normalization.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 13,
+            "title": "Implement removal of ambient RNA using decontX",
+            "state": "MERGED",
+            "createdAt": "2023-09-18T11:06:43Z",
+            "mergedAt": "2023-09-18T11:07:01Z",
+            "author": {
+              "login": "nictru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/decontX.R"
+                },
+                {
+                  "path": "docker/docker-compose.yml"
+                },
+                {
+                  "path": "docker/r/Dockerfile"
+                },
+                {
+                  "path": "modules/local/decontX.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "workflows/integrate_datasets.nf"
+                },
+                {
+                  "path": "workflows/neighbors_leiden_umap.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 2
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

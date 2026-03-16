@@ -1,0 +1,107 @@
+import datetime
+import os
+from snakemake.utils import min_version
+import sys
+
+
+min_version("6.12.3")
+
+
+containerized: "docker://kellysovacool/mikropml:latest"
+
+
+default_configfile = "config/config.yaml"
+
+
+configfile: default_configfile
+
+
+args = sys.argv
+config_path = (
+    args[args.index("--configfile") + 1]
+    if "--configfile" in args
+    else default_configfile
+)
+
+
+MEM_PER_GB = 1024
+
+dataset = config["dataset_name"]
+ncores = config["ncores"]
+ml_methods = config["ml_methods"]
+kfold = config["kfold"]
+outcome_colname = config["outcome_colname"]
+
+nseeds = config["nseeds"]
+start_seed = 100
+seeds = range(start_seed, start_seed + nseeds)
+
+hyperparams = config["hyperparams"] if "hyperparams" in config else None
+find_feature_importance = config["find_feature_importance"]
+results_types = ["performance", "benchmarks", "sensspec"]
+if find_feature_importance:
+    results_types.append("feature-importance")
+
+
+include: "rules/learn.smk"
+include: "rules/combine.smk"
+include: "rules/plot.smk"
+include: "rules/example-report.smk"
+
+
+report: "report/workflow.rst"
+
+
+rule targets:
+    input:
+        f"report_{dataset}.html",
+
+
+rule render_report:
+    input:
+        perf_plot=rules.plot_performance.output.plot,
+        feat_plot="figures/{dataset}/feature_importance.png",
+        hp_plot=expand(
+            "figures/{{dataset}}/hp_performance_{method}.png", method=ml_methods
+        ),
+        bench_plot=rules.plot_benchmarks.output.plot,
+        roc_plot=rules.plot_roc_curves.output.plot,
+        rulegraph="figures/graphviz/rulegraph.png",
+    output:
+        html="report_{dataset}.html",
+    log:
+        "log/{dataset}/render_report.txt",
+    params:
+        dataset=dataset,
+        nseeds=nseeds,
+        ml_methods=ml_methods,
+        ncores=ncores,
+        kfold=kfold,
+        find_feature_importance=find_feature_importance,
+        config_path=config_path,
+    conda:
+        "envs/mikropml.yml"
+    script:
+        "scripts/report.Rmd"
+
+
+rule archive:
+    input:
+        expand(rules.render_report.input, dataset=dataset),
+        expand(rules.render_report.output, dataset=dataset),
+        expand(
+            "results/{dataset}/{rtype}_results.csv",
+            dataset=dataset,
+            rtype=results_types,
+        ),
+        config_path,
+    output:
+        f"workflow_{dataset}.zip",
+    log:
+        f"log/archive_{dataset}.txt",
+    conda:
+        "envs/smk.yml"
+    shell:
+        """
+        zip -r {output} {input} 2> {log}
+        """

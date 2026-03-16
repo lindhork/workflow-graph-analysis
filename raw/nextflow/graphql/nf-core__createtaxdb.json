@@ -1,0 +1,4085 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 151,
+            "title": "Output files for some classifiers are all going into the root results directory and not directrories",
+            "state": "OPEN",
+            "createdAt": "2026-02-16T13:54:52Z",
+            "closedAt": null,
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 150,
+            "title": "KRAKEN2_BUILD fails on AWS megatest with 134 but insane amount of memory requested",
+            "state": "OPEN",
+            "createdAt": "2026-02-11T11:04:38Z",
+            "closedAt": null,
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 142,
+            "title": "Tutorial: NCBI assembly_summary to createtaxdb input",
+            "state": "CLOSED",
+            "createdAt": "2025-12-10T11:30:00Z",
+            "closedAt": "2026-02-02T09:16:37Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 141,
+            "title": "Document KrakenUniq jellyfish issue",
+            "state": "CLOSED",
+            "createdAt": "2025-12-10T11:08:41Z",
+            "closedAt": "2025-12-18T10:22:13Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 138,
+            "title": "java.util.ConcurrentModificationException during PREPROCESSING",
+            "state": "CLOSED",
+            "createdAt": "2025-12-01T10:41:16Z",
+            "closedAt": "2025-12-01T12:47:35Z",
+            "author": {
+              "login": "Proton-NTA"
+            }
+          },
+          {
+            "number": 126,
+            "title": "Document proper order of parameters for `--<tool>_build_options`",
+            "state": "CLOSED",
+            "createdAt": "2025-11-12T13:09:20Z",
+            "closedAt": "2025-11-12T16:56:15Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 124,
+            "title": "A MALT validation check accidently checks to see if krakenunique is running",
+            "state": "CLOSED",
+            "createdAt": "2025-11-12T11:12:11Z",
+            "closedAt": "2025-11-12T12:52:33Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 123,
+            "title": "Add support for sylph",
+            "state": "CLOSED",
+            "createdAt": "2025-11-12T07:58:54Z",
+            "closedAt": "2025-11-13T08:59:18Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 119,
+            "title": "Remove automated `tar.gz` building",
+            "state": "CLOSED",
+            "createdAt": "2025-11-05T13:21:34Z",
+            "closedAt": "2025-11-11T13:48:21Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 118,
+            "title": "Use more recent version of nft-utils",
+            "state": "CLOSED",
+            "createdAt": "2025-10-23T14:34:48Z",
+            "closedAt": "2025-11-13T10:51:33Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 114,
+            "title": "Occasional 'java.util.ConcurrentModificationException' errors",
+            "state": "OPEN",
+            "createdAt": "2025-10-02T05:33:56Z",
+            "closedAt": null,
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 113,
+            "title": "Kraken2 build fails with local taxonomy files, works with URLs",
+            "state": "CLOSED",
+            "createdAt": "2025-09-25T13:34:15Z",
+            "closedAt": "2025-11-12T07:34:52Z",
+            "author": {
+              "login": "ellmagu"
+            }
+          },
+          {
+            "number": 112,
+            "title": "MALT should support parallel AA and DNA database building",
+            "state": "OPEN",
+            "createdAt": "2025-09-18T08:36:01Z",
+            "closedAt": null,
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 104,
+            "title": "Missing samplesheet when generating",
+            "state": "CLOSED",
+            "createdAt": "2025-06-17T04:01:31Z",
+            "closedAt": "2025-06-18T06:26:09Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 103,
+            "title": "Some systems can see infinite loop with FIND_CONCATENATE",
+            "state": "CLOSED",
+            "createdAt": "2025-06-17T03:59:13Z",
+            "closedAt": "2025-06-18T06:26:34Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 97,
+            "title": "DIAMOND version does not support latest NCBI taxonomy name changes (e.g. superkingdom -> domain)",
+            "state": "CLOSED",
+            "createdAt": "2025-06-05T09:27:48Z",
+            "closedAt": "2025-11-12T16:56:51Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 96,
+            "title": "Consider adding a low-complexity sequence masking to genomes before building",
+            "state": "OPEN",
+            "createdAt": "2025-06-05T06:59:20Z",
+            "closedAt": null,
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 91,
+            "title": "Bracken version not reported in MultiQC report vrsions table",
+            "state": "CLOSED",
+            "createdAt": "2025-05-03T20:44:39Z",
+            "closedAt": "2025-05-28T16:47:18Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 84,
+            "title": "Kaiju SeqKit module will make HPC schedulers very sad",
+            "state": "CLOSED",
+            "createdAt": "2025-03-13T15:08:57Z",
+            "closedAt": "2025-03-13T15:11:23Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 80,
+            "title": "Make smaller MEGAN megan-nucl-Feb2022.db file",
+            "state": "CLOSED",
+            "createdAt": "2025-02-28T15:44:40Z",
+            "closedAt": "2025-05-08T09:54:56Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 79,
+            "title": "Unable to use custom accession2taxid files",
+            "state": "CLOSED",
+            "createdAt": "2025-02-17T10:17:04Z",
+            "closedAt": "2025-04-16T12:36:11Z",
+            "author": {
+              "login": "davve2"
+            }
+          },
+          {
+            "number": 78,
+            "title": "Seqkit replace is inefficient for large samplesheets",
+            "state": "CLOSED",
+            "createdAt": "2025-02-06T13:12:41Z",
+            "closedAt": "2025-05-28T16:41:11Z",
+            "author": {
+              "login": "BioWilko"
+            }
+          },
+          {
+            "number": 76,
+            "title": "Pipeline should check for file name uniqueness (without `.gz`) before any processing occurs",
+            "state": "CLOSED",
+            "createdAt": "2025-02-06T11:41:13Z",
+            "closedAt": "2025-04-11T07:37:31Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 72,
+            "title": "Move file preparation code into it's own subworkflow",
+            "state": "CLOSED",
+            "createdAt": "2025-01-30T15:59:18Z",
+            "closedAt": "2025-03-13T15:07:20Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 67,
+            "title": "Need process to rename FASTA sequence IDs with their taxIDs for Kaiju",
+            "state": "CLOSED",
+            "createdAt": "2025-01-22T08:29:36Z",
+            "closedAt": "2025-01-30T10:03:53Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 64,
+            "title": "Combining input fastas is inefficient for large datasets",
+            "state": "CLOSED",
+            "createdAt": "2025-01-21T13:52:02Z",
+            "closedAt": "2025-03-13T15:06:57Z",
+            "author": {
+              "login": "BioWilko"
+            }
+          },
+          {
+            "number": 63,
+            "title": "CAT_CAT Fails with large sample sheets",
+            "state": "CLOSED",
+            "createdAt": "2025-01-21T13:45:52Z",
+            "closedAt": "2025-03-13T15:07:05Z",
+            "author": {
+              "login": "BioWilko"
+            }
+          },
+          {
+            "number": 59,
+            "title": "Check krakenuniq usage of nucl2tax",
+            "state": "CLOSED",
+            "createdAt": "2025-01-18T16:32:37Z",
+            "closedAt": "2025-01-31T14:02:01Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 53,
+            "title": "Add support for KMCP databases",
+            "state": "CLOSED",
+            "createdAt": "2024-10-17T10:27:19Z",
+            "closedAt": "2025-04-10T17:22:47Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 52,
+            "title": "Tool specific auxiliary files if missing will fail the pipeline, even if the tool is not activated",
+            "state": "CLOSED",
+            "createdAt": "2024-10-15T11:01:22Z",
+            "closedAt": "2025-01-22T10:57:27Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 46,
+            "title": "Add running of nf-test for singularity and conda",
+            "state": "CLOSED",
+            "createdAt": "2024-10-10T06:08:21Z",
+            "closedAt": "2025-01-31T11:09:37Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 43,
+            "title": "Consider using nf-boost to clean up intermediate files from GUNZIP/CAT processes?",
+            "state": "OPEN",
+            "createdAt": "2024-10-07T19:34:36Z",
+            "closedAt": null,
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 41,
+            "title": "Documentation outdated",
+            "state": "CLOSED",
+            "createdAt": "2024-07-30T04:17:27Z",
+            "closedAt": "2024-07-31T11:56:30Z",
+            "author": {
+              "login": "ChillarAnand"
+            }
+          },
+          {
+            "number": 40,
+            "title": "How to build standard databases?",
+            "state": "CLOSED",
+            "createdAt": "2024-07-07T08:36:36Z",
+            "closedAt": "2024-07-07T20:16:55Z",
+            "author": {
+              "login": "ChillarAnand"
+            }
+          },
+          {
+            "number": 39,
+            "title": "Add support for metacache db",
+            "state": "CLOSED",
+            "createdAt": "2024-07-05T03:22:34Z",
+            "closedAt": "2026-01-16T17:41:55Z",
+            "author": {
+              "login": "ChillarAnand"
+            }
+          },
+          {
+            "number": 33,
+            "title": "Krakenuniq build module emits lots of unnecessary files (including all the input FASTAss)",
+            "state": "CLOSED",
+            "createdAt": "2024-05-02T08:23:18Z",
+            "closedAt": "2025-01-18T10:16:52Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 32,
+            "title": "Provide way to provide all optional parameter to each module",
+            "state": "CLOSED",
+            "createdAt": "2024-05-02T07:20:31Z",
+            "closedAt": "2024-12-20T13:13:09Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 31,
+            "title": "Document with large warning of uncompressing of all FASTA files (because of Kraken2 and Centrifuge...)",
+            "state": "CLOSED",
+            "createdAt": "2024-04-11T09:05:17Z",
+            "closedAt": "2025-04-30T12:43:45Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 29,
+            "title": "MALT will fail if too many FASTAs due to UNIX command limits",
+            "state": "CLOSED",
+            "createdAt": "2024-03-15T14:38:54Z",
+            "closedAt": "2024-11-28T09:28:27Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 27,
+            "title": "Consider input genome quality before building",
+            "state": "OPEN",
+            "createdAt": "2024-02-27T01:05:14Z",
+            "closedAt": null,
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 24,
+            "title": "Docs section: input file descriptions",
+            "state": "CLOSED",
+            "createdAt": "2024-02-15T10:12:28Z",
+            "closedAt": "2025-06-18T06:31:24Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 23,
+            "title": "FAAs files won't be prepared for MALT if protein sequences selected",
+            "state": "CLOSED",
+            "createdAt": "2024-02-08T11:06:24Z",
+            "closedAt": "2025-01-13T19:21:34Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 21,
+            "title": "Add support for giving NCBI acc2tax files to MALT databases",
+            "state": "CLOSED",
+            "createdAt": "2024-02-08T09:01:17Z",
+            "closedAt": "2025-03-13T12:54:03Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 19,
+            "title": "taxdump related files should be supplied as a directory not per file",
+            "state": "CLOSED",
+            "createdAt": "2024-01-05T16:33:02Z",
+            "closedAt": "2024-12-20T13:14:16Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 18,
+            "title": "[BEFORE RELEASE] Rename to taxdbcreator?",
+            "state": "CLOSED",
+            "createdAt": "2024-01-05T16:06:25Z",
+            "closedAt": "2025-04-25T07:40:30Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 16,
+            "title": "Consider database reduction options",
+            "state": "OPEN",
+            "createdAt": "2023-12-14T12:14:14Z",
+            "closedAt": null,
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 15,
+            "title": "Generate taxprofiler samplesheet",
+            "state": "CLOSED",
+            "createdAt": "2023-12-14T12:13:22Z",
+            "closedAt": "2025-03-26T09:04:12Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 13,
+            "title": "Make Kraken2 build module",
+            "state": "CLOSED",
+            "createdAt": "2023-10-24T08:57:14Z",
+            "closedAt": "2024-04-11T08:08:19Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 12,
+            "title": "Make centrifuge-build module",
+            "state": "CLOSED",
+            "createdAt": "2023-10-24T08:57:10Z",
+            "closedAt": "2024-02-15T12:08:38Z",
+            "author": {
+              "login": "jfy133"
+            }
+          },
+          {
+            "number": 11,
+            "title": "Make centrifuge-download module",
+            "state": "CLOSED",
+            "createdAt": "2023-10-24T08:57:05Z",
+            "closedAt": "2024-04-11T08:07:43Z",
+            "author": {
+              "login": "jfy133"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 152,
+            "title": "Add nf-metro mermaid diagram",
+            "state": "OPEN",
+            "createdAt": "2026-02-20T14:02:23Z",
+            "mergedAt": null,
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/nf-metro-mermaid.mmd"
+                },
+                {
+                  "path": "assets/nf-metro-mermaid.svg"
+                },
+                {
+                  "path": "docs/usage/dev.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 149,
+            "title": "Post Gracious Goblin version bump",
+            "state": "MERGED",
+            "createdAt": "2026-02-10T14:24:38Z",
+            "mergedAt": "2026-02-11T12:26:17Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 148,
+            "title": "Add PR labeller for estimating size of PRs",
+            "state": "MERGED",
+            "createdAt": "2026-02-02T11:00:43Z",
+            "mergedAt": "2026-02-02T11:01:10Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/labeler.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 147,
+            "title": "v2.1: Gracious Goblin Release!",
+            "state": "MERGED",
+            "createdAt": "2026-02-02T09:23:47Z",
+            "mergedAt": "2026-02-10T14:15:00Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/labeler.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-dark.png"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-dark.svg"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-light.png"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-light.svg"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_alternatives.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "docs/usage/dev.md"
+                },
+                {
+                  "path": "docs/usage/faq.md"
+                },
+                {
+                  "path": "docs/usage/tutorials.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/metacache/build/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/metacache/build/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/metacache/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/metacache/build/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/metacache/build/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/preprocessing/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_createtaxdb_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/createtaxdb.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 146,
+            "title": "Bump version for Gracious Goblin (2.1.0) release",
+            "state": "MERGED",
+            "createdAt": "2026-02-02T09:08:54Z",
+            "mergedAt": "2026-02-02T09:22:16Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 145,
+            "title": "Update utils_nfschema_pipeline to allow `--help`",
+            "state": "MERGED",
+            "createdAt": "2026-01-25T13:30:14Z",
+            "mergedAt": "2026-01-25T18:09:51Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 144,
+            "title": "Add tutorial demonstrating how to convert a NCBI assembly_summary file to a nf-core/createtaxdb samplesheet",
+            "state": "MERGED",
+            "createdAt": "2026-01-06T10:32:17Z",
+            "mergedAt": "2026-02-02T09:04:06Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "docs/usage/tutorials.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 143,
+            "title": "Document how to resolve KrakenUniq unbound variable jellyfish issue",
+            "state": "MERGED",
+            "createdAt": "2025-12-10T13:24:19Z",
+            "mergedAt": "2025-12-18T10:22:01Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "docs/usage/faq.md"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 140,
+            "title": "Metacache",
+            "state": "MERGED",
+            "createdAt": "2025-12-08T17:47:04Z",
+            "mergedAt": "2025-12-18T16:08:11Z",
+            "author": {
+              "login": "alxndrdiaz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-dark.png"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-dark.svg"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-light.png"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-light.svg"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_alternatives.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage/dev.md"
+                },
+                {
+                  "path": "docs/usage/faq.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/metacache/build/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/metacache/build/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/metacache/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/metacache/build/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/metacache/build/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/preprocessing/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_createtaxdb_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/createtaxdb.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 39
+                }
+              ]
+            }
+          },
+          {
+            "number": 139,
+            "title": "Metacache: include subworflow",
+            "state": "CLOSED",
+            "createdAt": "2025-12-06T21:39:09Z",
+            "mergedAt": null,
+            "author": {
+              "login": "alxndrdiaz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_alternatives.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage/faq.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/metacache/build/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/metacache/build/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/metacache/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/metacache/build/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/metacache/build/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_createtaxdb_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "workflows/createtaxdb.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 39
+                }
+              ]
+            }
+          },
+          {
+            "number": 137,
+            "title": "Fix template along with base branch",
+            "state": "CLOSED",
+            "createdAt": "2025-11-27T13:31:00Z",
+            "mergedAt": null,
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 136,
+            "title": "Important! Template update for nf-core/tools v3.5.1",
+            "state": "MERGED",
+            "createdAt": "2025-11-20T09:32:10Z",
+            "mergedAt": "2025-11-20T16:21:48Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 135,
+            "title": "Important! Template update for nf-core/tools v3.5.1",
+            "state": "MERGED",
+            "createdAt": "2025-11-19T16:08:56Z",
+            "mergedAt": "2025-11-19T17:32:44Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_createtaxdb_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "workflows/createtaxdb.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 134,
+            "title": "Bump version post 2.0.0 release",
+            "state": "MERGED",
+            "createdAt": "2025-11-15T09:10:18Z",
+            "mergedAt": "2025-11-15T10:39:07Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 133,
+            "title": "Release 2.0.0 - Charming Chaac ",
+            "state": "MERGED",
+            "createdAt": "2025-11-13T12:11:13Z",
+            "mergedAt": "2025-11-14T10:05:10Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".devcontainer/setup.sh"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-dark.png"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-dark.svg"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-light.png"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-light.svg"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_alternatives.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "docs/usage/dev.md"
+                },
+                {
+                  "path": "docs/usage/faq.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/centrifuge/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/diamond/makedb/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/diamond/makedb/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/diamond/makedb/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/diamond/makedb/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/unpigz/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/ganon/buildcustom/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/kaiju/mkfmi/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/kaiju/mkfmi/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/kmcp/compute/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/kmcp/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/add/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/add/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/add/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/add/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/add/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/build/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/build/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/build/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/build/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/krakenuniq/build/krakenuniq-build.diff"
+                },
+                {
+                  "path": "modules/nf-core/krakenuniq/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/malt/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/pigz/compress/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/sketch/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/sketch/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/sketch/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/sketch/sourmash-sketch.diff"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/sketch/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/sketch/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/sylph/sketchgenomes/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/sylph/sketchgenomes/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/sylph/sketchgenomes/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/sylph/sketchgenomes/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/sylph/sketchgenomes/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/tar/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/tar/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/tar/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/tar/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/tar/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/unzip/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "nf-test.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/generate_downstream_samplesheets/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 132,
+            "title": "2.0.0 release version bump (plus MultiQC and Sourmash module updates)",
+            "state": "MERGED",
+            "createdAt": "2025-11-13T12:04:07Z",
+            "mergedAt": "2025-11-13T12:09:54Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/sketch/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/sketch/sourmash-sketch.diff"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/sketch/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 131,
+            "title": "Fix snapshot assertion in default.nf.test - missing line break",
+            "state": "MERGED",
+            "createdAt": "2025-11-13T11:06:21Z",
+            "mergedAt": "2025-11-13T11:36:11Z",
+            "author": {
+              "login": "maxulysse"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/default.nf.test"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 130,
+            "title": "Use more recent version of nft-utils and make more stable snapshot by removing workflow versions but recording all tool verions",
+            "state": "MERGED",
+            "createdAt": "2025-11-13T10:26:27Z",
+            "mergedAt": "2025-11-13T10:51:12Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "nf-test.config"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_minimal.nf.test"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 118
+                }
+              ]
+            }
+          },
+          {
+            "number": 129,
+            "title": "Remove generate samplesheet direct output access for bioflow insight compatibility",
+            "state": "MERGED",
+            "createdAt": "2025-11-13T08:29:04Z",
+            "mergedAt": "2025-11-13T08:34:03Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "subworkflows/local/generate_downstream_samplesheets/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 128,
+            "title": "Add support for genome database sketch with Sylph ",
+            "state": "MERGED",
+            "createdAt": "2025-11-12T15:12:51Z",
+            "mergedAt": "2025-11-13T08:58:52Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-dark.png"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-dark.svg"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-light.png"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-light.svg"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_alternatives.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "docs/usage/dev.md"
+                },
+                {
+                  "path": "docs/usage/faq.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/sylph/sketchgenomes/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/sylph/sketchgenomes/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/sylph/sketchgenomes/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/sylph/sketchgenomes/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/sylph/sketchgenomes/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/preprocessing/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_createtaxdb_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/createtaxdb.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 123
+                }
+              ]
+            }
+          },
+          {
+            "number": 127,
+            "title": "Update help text to remove unnecessary docs about double and single quotes and escapes",
+            "state": "MERGED",
+            "createdAt": "2025-11-12T15:10:13Z",
+            "mergedAt": "2025-11-12T16:55:57Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 125,
+            "title": "Fix malt validation check accidently checking to see if krakenuniq is running instead of malt build",
+            "state": "MERGED",
+            "createdAt": "2025-11-12T11:14:03Z",
+            "mergedAt": "2025-11-12T11:37:32Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_createtaxdb_pipeline/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 124
+                }
+              ]
+            }
+          },
+          {
+            "number": 122,
+            "title": "Update DIAMOND versions to support more recent NCBI taxonomy",
+            "state": "MERGED",
+            "createdAt": "2025-11-12T07:41:46Z",
+            "mergedAt": "2025-11-12T08:48:01Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "docs/usage/faq.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/diamond/makedb/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/diamond/makedb/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/diamond/makedb/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 97
+                }
+              ]
+            }
+          },
+          {
+            "number": 121,
+            "title": "Fix Kraken2 taxonomy files not being able to be loaded when files not inside `work/` directory",
+            "state": "MERGED",
+            "createdAt": "2025-11-11T14:17:16Z",
+            "mergedAt": "2025-11-11T19:04:49Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/add/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/add/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/add/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/add/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/add/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/build/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/build/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/build/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/build/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_build_add_kraken2_bracken/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_build_add_kraken2_bracken/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_build_add_kraken2_bracken/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_build_add_kraken2_bracken/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/createtaxdb.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 113
+                }
+              ]
+            }
+          },
+          {
+            "number": 120,
+            "title": "Deprecate automatic `.tar.gz` archive building of databases",
+            "state": "MERGED",
+            "createdAt": "2025-11-11T13:17:59Z",
+            "mergedAt": "2025-11-11T13:47:44Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-dark.png"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-dark.svg"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-light.png"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-light.svg"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_alternatives.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "docs/usage/faq.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/tar/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/tar/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/tar/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/tar/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/tar/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/generate_downstream_samplesheets/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_createtaxdb_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/createtaxdb.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 119
+                }
+              ]
+            }
+          },
+          {
+            "number": 117,
+            "title": "Important! Template update for nf-core/tools v3.4.1",
+            "state": "MERGED",
+            "createdAt": "2025-10-16T13:38:21Z",
+            "mergedAt": "2025-10-23T14:35:50Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".devcontainer/setup.sh"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_createtaxdb_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 116,
+            "title": "Important! Template update for nf-core/tools v3.4.0",
+            "state": "CLOSED",
+            "createdAt": "2025-10-15T12:35:17Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".devcontainer/setup.sh"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_createtaxdb_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 115,
+            "title": "Fix Kraken2 symlink in symlink container mounting incompatibility",
+            "state": "CLOSED",
+            "createdAt": "2025-10-06T12:32:35Z",
+            "mergedAt": null,
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/images/nf-core-createtaxdb_logo_dark.png"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/tar_kraken2bracken/environment.yml"
+                },
+                {
+                  "path": "modules/local/tar_kraken2bracken/main.nf"
+                },
+                {
+                  "path": "modules/local/tar_kraken2bracken/meta.yml"
+                },
+                {
+                  "path": "modules/local/tar_kraken2bracken/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/tar_kraken2bracken/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/add/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/add/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/add/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/add/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/add/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/build/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/build/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/build/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/build/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/generate_downstream_samplesheets/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/kmcp_create/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/preprocessing/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/sourmash_create/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_createtaxdb_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_build_add_kraken2_bracken/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_build_add_kraken2_bracken/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_build_add_kraken2_bracken/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_build_add_kraken2_bracken/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "workflows/createtaxdb.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 113
+                }
+              ]
+            }
+          },
+          {
+            "number": 111,
+            "title": "Add sourmash",
+            "state": "MERGED",
+            "createdAt": "2025-09-15T21:02:52Z",
+            "mergedAt": "2025-10-02T15:42:00Z",
+            "author": {
+              "login": "Midnighter"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage/faq.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/sketch/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/sketch/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/sketch/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/sketch/sourmash-sketch.diff"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/sketch/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/sourmash/sketch/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/preprocessing/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/sourmash_create/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/sourmash_create/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/sourmash_create/tests/dna.config"
+                },
+                {
+                  "path": "subworkflows/local/sourmash_create/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/sourmash_create/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/sourmash_create/tests/protein.config"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_createtaxdb_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/createtaxdb.function.nf.test"
+                },
+                {
+                  "path": "workflows/createtaxdb.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 110,
+            "title": "fix structure for grouped pre-processing output",
+            "state": "MERGED",
+            "createdAt": "2025-09-11T19:12:25Z",
+            "mergedAt": "2025-09-16T09:15:34Z",
+            "author": {
+              "login": "Midnighter"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "subworkflows/local/preprocessing/meta.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 109,
+            "title": "Important! Template update for nf-core/tools v3.3.2",
+            "state": "MERGED",
+            "createdAt": "2025-07-08T11:38:31Z",
+            "mergedAt": "2025-07-15T08:05:50Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/centrifuge/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/diamond/makedb/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/unpigz/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/ganon/buildcustom/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/kaiju/mkfmi/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/kmcp/compute/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/kmcp/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/add/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/krakenuniq/build/krakenuniq-build.diff"
+                },
+                {
+                  "path": "modules/nf-core/krakenuniq/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/malt/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/pigz/compress/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/tar/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/unzip/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 108,
+            "title": "Document building from a single FASTA file",
+            "state": "MERGED",
+            "createdAt": "2025-07-02T14:57:35Z",
+            "mergedAt": "2025-07-15T08:38:09Z",
+            "author": {
+              "login": "pcantalupo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/usage/faq.md"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 107,
+            "title": "Bump versions post 1.0.0 release",
+            "state": "MERGED",
+            "createdAt": "2025-06-19T07:58:46Z",
+            "mergedAt": "2025-06-19T08:49:49Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 106,
+            "title": "update find concat",
+            "state": "MERGED",
+            "createdAt": "2025-06-17T12:53:31Z",
+            "mergedAt": "2025-06-17T13:00:00Z",
+            "author": {
+              "login": "BioWilko"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/tests/main.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 105,
+            "title": "update find concat",
+            "state": "CLOSED",
+            "createdAt": "2025-06-17T12:45:15Z",
+            "mergedAt": null,
+            "author": {
+              "login": "BioWilko"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/tests/main.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 102,
+            "title": "Add full test-data profile with paths to aws-megatest s3 bucket",
+            "state": "MERGED",
+            "createdAt": "2025-06-15T03:57:05Z",
+            "mergedAt": "2025-06-18T06:25:05Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_alternatives.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "workflows/createtaxdb.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 101,
+            "title": "Resolve @maxulysse comments",
+            "state": "MERGED",
+            "createdAt": "2025-06-11T14:34:38Z",
+            "mergedAt": "2025-06-11T15:53:08Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/templates/dumpsoftwareversions.py"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/tags.yml"
+                },
+                {
+                  "path": "workflows/createtaxdb.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 100,
+            "title": "Satisfy more linting warnings",
+            "state": "MERGED",
+            "createdAt": "2025-06-06T08:06:43Z",
+            "mergedAt": "2025-06-06T09:14:50Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/seqkit/batchrename/environment.yml"
+                },
+                {
+                  "path": "modules/local/seqkit/batchrename/main.nf"
+                },
+                {
+                  "path": "modules/local/seqkit/batchrename/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/seqkit/batchrename/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/centrifuge/build/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/centrifuge/build/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/centrifuge/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/centrifuge/build/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/centrifuge/build/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/unpigz/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/unpigz/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/ganon/buildcustom/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/ganon/buildcustom/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/kaiju/mkfmi/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/kaiju/mkfmi/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/add/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/add/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/add/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/build/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/build/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/kraken2/build/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/malt/build/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/malt/build/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/pigz/compress/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/pigz/compress/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/pigz/compress/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/unzip/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/unzip/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/generate_downstream_samplesheets/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/generate_downstream_samplesheets/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/preprocessing/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/preprocessing/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_build_add_kraken2_bracken/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "workflows/createtaxdb.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 99,
+            "title": "Add support for genomesizes file (required by ganon when offline)",
+            "state": "MERGED",
+            "createdAt": "2025-06-06T07:01:41Z",
+            "mergedAt": "2025-06-06T07:29:28Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/usage/faq.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "workflows/createtaxdb.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 98,
+            "title": "Release PR 1.0.0",
+            "state": "MERGED",
+            "createdAt": "2025-06-06T03:02:26Z",
+            "mergedAt": "2025-06-19T07:43:11Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CODEOWNERS"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/actions/get-shards/action.yml"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcments.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": ".prettierrc.yml"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-dark.png"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-dark.svg"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-light.png"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-light.svg"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/email_template.txt"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-createtaxdb_logo_light.png"
+                },
+                {
+                  "path": "assets/samplesheet.csv"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "assets/test.csv"
+                },
+                {
+                  "path": "bin/check_samplesheet.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_alternatives.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/images/nf-core-createtaxdb_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-createtaxdb_logo_dark_tax.png"
+                },
+                {
+                  "path": "docs/images/nf-core-createtaxdb_logo_dark_tax.svg"
+                },
+                {
+                  "path": "docs/images/nf-core-createtaxdb_logo_light.png"
+                },
+                {
+                  "path": "docs/images/nf-core-createtaxdb_logo_light_tax.png"
+                },
+                {
+                  "path": "docs/images/nf-core-createtaxdb_logo_light_tax.svg"
+                },
+                {
+                  "path": "docs/images/nf-core-createtaxdb_mascot.png"
+                },
+                {
+                  "path": "docs/images/nf-core-createtaxdb_mascot.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "docs/usage/faq.md"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowCreatetaxdb.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/local/seqkit/batchrename/environment.yml"
+                },
+                {
+                  "path": "modules/local/seqkit/batchrename/main.nf"
+                },
+                {
+                  "path": "modules/local/seqkit/batchrename/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/seqkit/batchrename/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bracken/build/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/centrifuge/build/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/centrifuge/build/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/centrifuge/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/centrifuge/build/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/centrifuge/build/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/templates/dumpsoftwareversions.py"
+                },
+                {
+                  "path": "modules/nf-core/diamond/makedb/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/diamond/makedb/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/diamond/makedb/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/diamond/makedb/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/diamond/makedb/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 95,
+            "title": "Minor docs fixes.",
+            "state": "MERGED",
+            "createdAt": "2025-06-04T20:01:43Z",
+            "mergedAt": "2025-06-06T02:58:13Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "docs/usage/faq.md"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 94,
+            "title": "Important! Template update for nf-core/tools v3.3.1",
+            "state": "MERGED",
+            "createdAt": "2025-06-03T11:01:14Z",
+            "mergedAt": "2025-06-05T12:09:37Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/actions/get-shards/action.yml"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierrc.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_alternatives.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "docs/images/nf-core-createtaxdb_mascot.png"
+                },
+                {
+                  "path": "docs/images/nf-core-createtaxdb_mascot.svg"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "nf-test.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/generate_downstream_samplesheets/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/generate_downstream_samplesheets/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/kmcp_create/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/kmcp_create/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/kmcp_create/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/kmcp_create/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/nextflow.config"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_minimal.nf.test"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 93,
+            "title": "Seqkit rename batching, make work better in cloud",
+            "state": "MERGED",
+            "createdAt": "2025-05-27T13:54:16Z",
+            "mergedAt": "2025-05-28T16:41:10Z",
+            "author": {
+              "login": "BioWilko"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/seqkit/batch_rename/environment.yml"
+                },
+                {
+                  "path": "modules/local/seqkit/batch_rename/main.nf"
+                },
+                {
+                  "path": "modules/local/seqkit/batch_rename/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/seqkit/batch_rename/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/tests/replace.config"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/tests/uncomp.config"
+                },
+                {
+                  "path": "subworkflows/local/preprocessing/main.nf"
+                },
+                {
+                  "path": "tests/test.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 78
+                }
+              ]
+            }
+          },
+          {
+            "number": 92,
+            "title": "Use smaller (custom built) maltDB file",
+            "state": "MERGED",
+            "createdAt": "2025-05-05T11:10:09Z",
+            "mergedAt": "2025-05-08T09:54:55Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/test_alternatives.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 80
+                }
+              ]
+            }
+          },
+          {
+            "number": 90,
+            "title": "Final todos",
+            "state": "MERGED",
+            "createdAt": "2025-04-30T13:33:42Z",
+            "mergedAt": "2025-05-27T15:28:34Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-dark.png"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-dark.svg"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-light.png"
+                },
+                {
+                  "path": "assets/createtaxdb-metromap-diagram-light.svg"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_createtaxdb_pipeline/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 89,
+            "title": "Important! Template update for nf-core/tools v3.2.1",
+            "state": "MERGED",
+            "createdAt": "2025-04-30T12:26:09Z",
+            "mergedAt": "2025-05-04T13:23:25Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 88,
+            "title": "Fix some minor syntax errors",
+            "state": "MERGED",
+            "createdAt": "2025-04-30T12:25:37Z",
+            "mergedAt": "2025-05-04T13:44:14Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_createtaxdb_pipeline/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 87,
+            "title": "Add CODEOWNERs file for active maintainers",
+            "state": "MERGED",
+            "createdAt": "2025-04-30T08:00:14Z",
+            "mergedAt": "2025-04-30T08:40:41Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/CODEOWNERS"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 86,
+            "title": "Add subworkflow to build KMCP databases",
+            "state": "MERGED",
+            "createdAt": "2025-04-01T01:57:05Z",
+            "mergedAt": "2025-04-10T17:22:46Z",
+            "author": {
+              "login": "alxndrdiaz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_alternatives.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/kmcp/compute/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/kmcp/compute/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/kmcp/compute/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/kmcp/compute/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/kmcp/compute/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/kmcp/compute/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/kmcp/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/kmcp/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/kmcp/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/kmcp/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/kmcp/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/kmcp/index/tests/nextflow.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/kmcp_create/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/kmcp_create/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/kmcp_create/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/preprocessing/main.nf"
+                },
+                {
+                  "path": "tests/test.nf.test"
+                },
+                {
+                  "path": "tests/test.nf.test.snap"
+                },
+                {
+                  "path": "workflows/createtaxdb.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 53
+                }
+              ]
+            }
+          },
+          {
+            "number": 85,
+            "title": "Add samplesheet generation for taxprofiler input",
+            "state": "MERGED",
+            "createdAt": "2025-03-25T12:06:19Z",
+            "mergedAt": "2025-03-26T09:01:48Z",
+            "author": {
+              "login": "jfy133"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_alternatives.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/tar/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/tar/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/tar/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/tar/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/tar/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "nf-test.config"
+                },
+                {
+                  "path": "subworkflows/local/generate_downstream_samplesheets/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/generate_downstream_samplesheets/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/generate_downstream_samplesheets/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_createtaxdb_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/test.nf.test"
+                },
+                {
+                  "path": "tests/test.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test"
+                },
+                {
+                  "path": "tests/test_alternatives.nf.test.snap"
+                },
+                {
+                  "path": "workflows/createtaxdb.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

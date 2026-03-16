@@ -1,0 +1,44 @@
+## Rule index for CIBERSORT deconv
+##
+## @zgr2788
+##
+##
+## Description:
+## This file includes the rule to run CIBERSORT with C1 reference.
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+
+rule CIBERSORT_run:
+    input:
+        getC2(getC1(getBulks('{sample}'), '{sample}'),'{sample}')
+
+    output:
+        "Output/{sample}_res_CIBERSORT.rds"
+        
+    params:
+        markers=config['markers']
+
+    conda:
+        "env.yaml"
+
+    threads: config["cores"]["CIBERSORT"]
+
+    benchmark:
+        "Benchmarks/{sample}_CIBERSORT_benchmark.txt"
+
+    resources:
+        mem_mb=getMB(config['mem_gb']['minorOps'])    
+
+    shell:
+        "Rscript Modules/CIBERSORT/CIBERSORT_run.R {input} {params.markers} {output}"

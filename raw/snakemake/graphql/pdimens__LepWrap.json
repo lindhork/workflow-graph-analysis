@@ -1,0 +1,1063 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 13,
+            "title": "restarting LepWrap after timeout",
+            "state": "CLOSED",
+            "createdAt": "2025-06-19T12:46:11Z",
+            "closedAt": "2025-07-07T09:08:09Z",
+            "author": {
+              "login": "angusdavison"
+            }
+          },
+          {
+            "number": 12,
+            "title": "Exception in thread \"main\" java.lang.OutOfMemoryError: Java heap space",
+            "state": "CLOSED",
+            "createdAt": "2023-04-23T01:45:38Z",
+            "closedAt": "2023-04-23T01:52:24Z",
+            "author": {
+              "login": "wj1106"
+            }
+          },
+          {
+            "number": 10,
+            "title": "Formal installation with conda and install script",
+            "state": "CLOSED",
+            "createdAt": "2022-02-14T19:53:11Z",
+            "closedAt": "2022-02-24T16:09:17Z",
+            "author": {
+              "login": "pdimens"
+            }
+          },
+          {
+            "number": 8,
+            "title": "update LepMap3 and LepAnchor modules",
+            "state": "CLOSED",
+            "createdAt": "2022-02-02T20:18:46Z",
+            "closedAt": "2022-02-24T16:09:17Z",
+            "author": {
+              "login": "pdimens"
+            }
+          },
+          {
+            "number": 7,
+            "title": "Red tries to use any \".fa\" file in the working directory",
+            "state": "CLOSED",
+            "createdAt": "2022-02-01T20:01:27Z",
+            "closedAt": "2022-02-02T19:48:25Z",
+            "author": {
+              "login": "kate-stankiewicz"
+            }
+          },
+          {
+            "number": 5,
+            "title": "Haplomerger deps not on PATH",
+            "state": "CLOSED",
+            "createdAt": "2022-01-21T22:01:37Z",
+            "closedAt": "2022-01-22T23:24:26Z",
+            "author": {
+              "login": "makopyan"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 11,
+            "title": "merge conda testing branch into main",
+            "state": "MERGED",
+            "createdAt": "2022-02-24T16:05:14Z",
+            "mergedAt": "2022-02-24T16:08:59Z",
+            "author": {
+              "login": "pdimens"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".misc/build.sh"
+                },
+                {
+                  "path": ".misc/install.sh"
+                },
+                {
+                  "path": ".misc/meta.yml"
+                },
+                {
+                  "path": "LepWrap"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conda_setup.yml"
+                },
+                {
+                  "path": "config.yml"
+                },
+                {
+                  "path": "rules/LepAnchor/LA_extra.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/LepAnchor.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/build_agp.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/build_fasta.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/generate_inputs.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/mareymaps_untrimmed.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/mask_and_chain.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/place_orient.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/place_orient1.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/place_orient2.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/place_orient3.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/place_orient4.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/place_orient_ii.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/place_orient_iii.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/trim_edges.smk"
+                },
+                {
+                  "path": "rules/LepMap3/distances.smk"
+                },
+                {
+                  "path": "rules/LepMap3/generate_map.smk"
+                },
+                {
+                  "path": "rules/LepMap3/order.smk"
+                },
+                {
+                  "path": "rules/LepMap3/prepare_data.smk"
+                },
+                {
+                  "path": "rules/LepMap3/reorder.smk"
+                },
+                {
+                  "path": "rules/LepMap3/trim.smk"
+                },
+                {
+                  "path": "scripts/FilterLinkageMap.r"
+                },
+                {
+                  "path": "scripts/LATrim.r"
+                },
+                {
+                  "path": "scripts/LGcutoff.sh"
+                },
+                {
+                  "path": "scripts/LepWrapTrim.r"
+                },
+                {
+                  "path": "scripts/RecombinationSummary.r"
+                },
+                {
+                  "path": "scripts/extract_markers.sh"
+                },
+                {
+                  "path": "scripts/generate_config.sh"
+                },
+                {
+                  "path": "scripts/generate_lastzctl.sh"
+                },
+                {
+                  "path": "scripts/generate_qscoremtx.sh"
+                },
+                {
+                  "path": "scripts/iterate_js2all.sh"
+                },
+                {
+                  "path": "scripts/lepmap2anchor"
+                },
+                {
+                  "path": "scripts/refinemap.sh"
+                },
+                {
+                  "path": "scripts/usage"
+                },
+                {
+                  "path": "software/LepAnchor/AltLinks.class"
+                },
+                {
+                  "path": "software/LepAnchor/ChainPaf.class"
+                },
+                {
+                  "path": "software/LepAnchor/CleanMap$CleanMarker.class"
+                },
+                {
+                  "path": "software/LepAnchor/CleanMap.class"
+                },
+                {
+                  "path": "software/LepAnchor/ContigInterval.class"
+                },
+                {
+                  "path": "software/LepAnchor/CoverageAnalyser$Gaussian.class"
+                },
+                {
+                  "path": "software/LepAnchor/CoverageAnalyser$Zeta.class"
+                },
+                {
+                  "path": "software/LepAnchor/CoverageAnalyser.class"
+                },
+                {
+                  "path": "software/LepAnchor/CoverageHMM.class"
+                },
+                {
+                  "path": "software/LepAnchor/FindContigErrors.class"
+                },
+                {
+                  "path": "software/LepAnchor/Input.class"
+                },
+                {
+                  "path": "software/LepAnchor/InputData.class"
+                },
+                {
+                  "path": "software/LepAnchor/Map2Bed.class"
+                },
+                {
+                  "path": "software/LepAnchor/Misc$ArrayIndexComparator.class"
+                },
+                {
+                  "path": "software/LepAnchor/Misc$ArrayIndexComparator2.class"
+                },
+                {
+                  "path": "software/LepAnchor/Misc.class"
+                },
+                {
+                  "path": "software/LepAnchor/ParameterParser.class"
+                },
+                {
+                  "path": "software/LepAnchor/PlaceAndOrientContigs$CalculateBest.class"
+                },
+                {
+                  "path": "software/LepAnchor/PlaceAndOrientContigs$LongComparator0.class"
+                },
+                {
+                  "path": "software/LepAnchor/PlaceAndOrientContigs$LongComparator1.class"
+                },
+                {
+                  "path": "software/LepAnchor/PlaceAndOrientContigs$PossibleError.class"
+                },
+                {
+                  "path": "software/LepAnchor/PlaceAndOrientContigs.class"
+                },
+                {
+                  "path": "software/LepAnchor/Proximity.class"
+                },
+                {
+                  "path": "software/LepAnchor/deps/step1.HM2"
+                },
+                {
+                  "path": "software/LepAnchor/deps/step2.HM2"
+                },
+                {
+                  "path": "software/LepAnchor/scripts/COPYING"
+                },
+                {
+                  "path": "software/LepAnchor/scripts/chainpaf.awk"
+                },
+                {
+                  "path": "software/LepAnchor/scripts/cutBed.awk"
+                },
+                {
+                  "path": "software/LepAnchor/scripts/cutBed_fixN.awk"
+                },
+                {
+                  "path": "software/LepAnchor/scripts/hic.awk"
+                },
+                {
+                  "path": "software/LepAnchor/scripts/ld.awk"
+                },
+                {
+                  "path": "software/LepAnchor/scripts/lepanchor_wrapper.sh"
+                },
+                {
+                  "path": "software/LepAnchor/scripts/lepanchor_wrapper2.sh"
+                },
+                {
+                  "path": "software/LepAnchor/scripts/lepanchor_wrapper3.sh"
+                },
+                {
+                  "path": "software/LepAnchor/scripts/longread.awk"
+                },
+                {
+                  "path": "software/LepAnchor/scripts/makeagp2.awk"
+                },
+                {
+                  "path": "software/LepAnchor/scripts/makeagp_full2.awk"
+                },
+                {
+                  "path": "software/LepAnchor/scripts/normalise.awk"
+                },
+                {
+                  "path": "software/LepAnchor/scripts/paf2chain.awk"
+                },
+                {
+                  "path": "software/LepAnchor/scripts/prox10x.awk"
+                },
+                {
+                  "path": "software/LepAnchor/scripts/removeHaplotypes.awk"
+                },
+                {
+                  "path": "software/LepAnchor/scripts/sortpaf.awk"
+                },
+                {
+                  "path": "software/LepAnchor/scripts/umi.awk"
+                },
+                {
+                  "path": "software/LepAnchor/src/CleanMap.java"
+                },
+                {
+                  "path": "software/LepAnchor/src/ContigInterval.java"
+                },
+                {
+                  "path": "software/LepAnchor/src/CoverageAnalyser.java"
+                },
+                {
+                  "path": "software/LepAnchor/src/CoverageHMM.java"
+                },
+                {
+                  "path": "software/LepAnchor/src/FindContigErrors.java"
+                },
+                {
+                  "path": "software/LepAnchor/src/Input.java"
+                },
+                {
+                  "path": "software/LepAnchor/src/InputData.java"
+                },
+                {
+                  "path": "software/LepAnchor/src/LiftoverHaplotypes.java"
+                },
+                {
+                  "path": "software/LepAnchor/src/Map2Bed.java"
+                },
+                {
+                  "path": "software/LepAnchor/src/Marker.java"
+                },
+                {
+                  "path": "software/LepAnchor/src/Misc.java"
+                },
+                {
+                  "path": "software/LepAnchor/src/ParameterParser.java"
+                },
+                {
+                  "path": "software/LepAnchor/src/PlaceAndOrientContigs.java"
+                },
+                {
+                  "path": "software/LepAnchor/src/Proximity.java"
+                },
+                {
+                  "path": "software/LepMap3/DataParser$PosteriorParser.class"
+                },
+                {
+                  "path": "software/LepMap3/DataParser$VCFParser.class"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 9,
+            "title": "LMLAupdates",
+            "state": "MERGED",
+            "createdAt": "2022-02-04T01:42:32Z",
+            "mergedAt": "2022-02-04T01:46:11Z",
+            "author": {
+              "login": "pdimens"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "LepWrap"
+                },
+                {
+                  "path": "rules/LepAnchor/LepAnchor.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/build_agp.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/generate_inputs.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/mask_and_chain.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/place_orient2.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/place_orient3.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/place_orient4.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6,
+            "title": "Create LICENSE",
+            "state": "MERGED",
+            "createdAt": "2022-01-29T16:47:37Z",
+            "mergedAt": "2022-01-29T16:47:45Z",
+            "author": {
+              "login": "pdimens"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "LICENSE"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4,
+            "title": "Anchor",
+            "state": "MERGED",
+            "createdAt": "2021-06-07T16:29:40Z",
+            "mergedAt": "2021-06-07T16:30:11Z",
+            "author": {
+              "login": "pdimens"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "rules/LepMap3/LepMap3.smk"
+                },
+                {
+                  "path": "rules/LepMap3/generate_map.smk"
+                },
+                {
+                  "path": "rules/LepMap3/order.smk"
+                },
+                {
+                  "path": "rules/LepMap3/reorder.smk"
+                },
+                {
+                  "path": "scripts/MapSummary.r"
+                },
+                {
+                  "path": "scripts/params"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3,
+            "title": "Anchor",
+            "state": "MERGED",
+            "createdAt": "2021-06-03T16:48:15Z",
+            "mergedAt": "2021-06-03T16:49:43Z",
+            "author": {
+              "login": "pdimens"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".misc/LepAnchor.rulegraph.png"
+                },
+                {
+                  "path": "LepWrap"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "rules/LAtest.smk"
+                },
+                {
+                  "path": "rules/LepAnchor.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/LA_extra.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/LepAnchor.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/build_agp.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/build_fasta.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/generate_inputs.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/mareymaps_untrimmed.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/mask_and_chain.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/place_orient.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/place_orient_ii.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/place_orient_iii.smk"
+                },
+                {
+                  "path": "rules/LepAnchor/trim_edges.smk"
+                },
+                {
+                  "path": "rules/LepMap3/LepMap3.smk"
+                },
+                {
+                  "path": "rules/LepMap3/distances.smk"
+                },
+                {
+                  "path": "rules/LepMap3/generate_map.smk"
+                },
+                {
+                  "path": "rules/LepMap3/order.smk"
+                },
+                {
+                  "path": "rules/LepMap3/prepare_data.smk"
+                },
+                {
+                  "path": "rules/LepMap3/reorder.smk"
+                },
+                {
+                  "path": "rules/LepMap3/trim.smk"
+                },
+                {
+                  "path": "rules/order.smk"
+                },
+                {
+                  "path": "rules/prepare_data.smk"
+                },
+                {
+                  "path": "rules/reorder.smk"
+                },
+                {
+                  "path": "scripts/FilterLinkageMap.r"
+                },
+                {
+                  "path": "scripts/LAMidpointSummary.r"
+                },
+                {
+                  "path": "scripts/LASummary.r"
+                },
+                {
+                  "path": "scripts/LASummarySexAvg.r"
+                },
+                {
+                  "path": "scripts/LATrim.r"
+                },
+                {
+                  "path": "scripts/LA_summary.r"
+                },
+                {
+                  "path": "scripts/LepWrapTrim.r"
+                },
+                {
+                  "path": "scripts/MapSummary.r"
+                },
+                {
+                  "path": "scripts/MarkerPlot.r"
+                },
+                {
+                  "path": "scripts/RecombinationSummary.r"
+                },
+                {
+                  "path": "scripts/TrimSummaryPlot.r"
+                },
+                {
+                  "path": "scripts/iterate_js2all.sh"
+                },
+                {
+                  "path": "software/LepMap3/Error.class"
+                },
+                {
+                  "path": "software/LepMap3/Filtering2.class"
+                },
+                {
+                  "path": "software/LepMap3/IBD.class"
+                },
+                {
+                  "path": "software/LepMap3/LMPlot.class"
+                },
+                {
+                  "path": "software/LepMap3/OrderFinder$MergeClass$ParallelScoreCalculator$UpdateScoreThread.class"
+                },
+                {
+                  "path": "software/LepMap3/OrderFinder$MergeClass$ParallelScoreCalculator.class"
+                },
+                {
+                  "path": "software/LepMap3/OrderFinder$MergeClass.class"
+                },
+                {
+                  "path": "software/LepMap3/OrderFinder$PhysicalFamily.class"
+                },
+                {
+                  "path": "software/LepMap3/OrderFinder$SingleFamily$RecombinationScale.class"
+                },
+                {
+                  "path": "software/LepMap3/OrderFinder$SingleFamily$RecombinationScale1.class"
+                },
+                {
+                  "path": "software/LepMap3/OrderFinder$SingleFamily$RecombinationScale2.class"
+                },
+                {
+                  "path": "software/LepMap3/OrderFinder$SingleFamily.class"
+                },
+                {
+                  "path": "software/LepMap3/OrderFinder$polishThread.class"
+                },
+                {
+                  "path": "software/LepMap3/OrderFinder.class"
+                },
+                {
+                  "path": "software/LepMap3/OrderMarkers2.class"
+                },
+                {
+                  "path": "software/LepMap3/ParameterParser.class"
+                },
+                {
+                  "path": "software/LepMap3/Separate2$SeparateIdenticalThread.class"
+                },
+                {
+                  "path": "software/LepMap3/Separate2$SeparateThread.class"
+                },
+                {
+                  "path": "software/LepMap3/Separate2.class"
+                },
+                {
+                  "path": "software/LepMap3/SeparateIdenticals.class"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2,
+            "title": "Anchor",
+            "state": "MERGED",
+            "createdAt": "2021-05-27T17:48:48Z",
+            "mergedAt": "2021-05-27T17:48:54Z",
+            "author": {
+              "login": "pdimens"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conda_setup.yml"
+                },
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "rules/LepAnchor.smk"
+                },
+                {
+                  "path": "rules/LepMap3.smk"
+                },
+                {
+                  "path": "rules/trim.smk"
+                },
+                {
+                  "path": "scripts/LAMidpointSummary.r"
+                },
+                {
+                  "path": "scripts/LASummary.r"
+                },
+                {
+                  "path": "scripts/LASummarySexAvg.r"
+                },
+                {
+                  "path": "scripts/LATrim.r"
+                },
+                {
+                  "path": "scripts/LA_summary.r"
+                },
+                {
+                  "path": "scripts/LepWrapTrim.r"
+                },
+                {
+                  "path": "scripts/TrimCounts.r"
+                },
+                {
+                  "path": "scripts/TrimSummaryPlot.r"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1,
+            "title": "Almost complete rewrite",
+            "state": "MERGED",
+            "createdAt": "2021-05-20T15:23:31Z",
+            "mergedAt": "2021-05-20T15:24:13Z",
+            "author": {
+              "login": "pdimens"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".misc/LepAnchor.rulegraph.png"
+                },
+                {
+                  "path": ".misc/LepMap.rulegraph.png"
+                },
+                {
+                  "path": ".misc/rulegraph.png"
+                },
+                {
+                  "path": ".misc/trim_example.png"
+                },
+                {
+                  "path": "LepWrap"
+                },
+                {
+                  "path": "conda_setup.yml"
+                },
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "rules/LAtest.smk"
+                },
+                {
+                  "path": "rules/LepAnchor.smk"
+                },
+                {
+                  "path": "rules/LepMap3.smk"
+                },
+                {
+                  "path": "rules/data_prep.smk"
+                },
+                {
+                  "path": "rules/distances.smk"
+                },
+                {
+                  "path": "rules/generate_map.smk"
+                },
+                {
+                  "path": "rules/order.smk"
+                },
+                {
+                  "path": "rules/prepare_data.smk"
+                },
+                {
+                  "path": "rules/reorder.smk"
+                },
+                {
+                  "path": "rules/trim.smk"
+                },
+                {
+                  "path": "scripts/LA_summary.r"
+                },
+                {
+                  "path": "scripts/LepWrapQA.r"
+                },
+                {
+                  "path": "scripts/LepWrapTrim.r"
+                },
+                {
+                  "path": "scripts/MapSummary.r"
+                },
+                {
+                  "path": "scripts/MarkerPlot.r"
+                },
+                {
+                  "path": "scripts/RecombinationSummary.r"
+                },
+                {
+                  "path": "scripts/extract_markers.sh"
+                },
+                {
+                  "path": "scripts/iterate_js2all.sh"
+                },
+                {
+                  "path": "scripts/lepmap2anchor"
+                },
+                {
+                  "path": "scripts/lg_cutoff.sh"
+                },
+                {
+                  "path": "scripts/map_summary.sh"
+                },
+                {
+                  "path": "scripts/refine_map.sh"
+                },
+                {
+                  "path": "software/LepAnchor/CleanMap$CleanMarker.class"
+                },
+                {
+                  "path": "software/LepAnchor/CleanMap.class"
+                },
+                {
+                  "path": "software/LepAnchor/ContigInterval$MapComp.class"
+                },
+                {
+                  "path": "software/LepAnchor/ContigInterval.class"
+                },
+                {
+                  "path": "software/LepAnchor/CoverageAnalyser$Gaussian.class"
+                },
+                {
+                  "path": "software/LepAnchor/CoverageAnalyser$Zeta.class"
+                },
+                {
+                  "path": "software/LepAnchor/CoverageAnalyser.class"
+                },
+                {
+                  "path": "software/LepAnchor/CoverageHMM.class"
+                },
+                {
+                  "path": "software/LepAnchor/FindContigErrors.class"
+                },
+                {
+                  "path": "software/LepAnchor/Input.class"
+                },
+                {
+                  "path": "software/LepAnchor/InputData.class"
+                },
+                {
+                  "path": "software/LepAnchor/LiftoverHaplotypes.class"
+                },
+                {
+                  "path": "software/LepAnchor/Map2Bed$Interval.class"
+                },
+                {
+                  "path": "software/LepAnchor/Map2Bed.class"
+                },
+                {
+                  "path": "software/LepAnchor/Marker.class"
+                },
+                {
+                  "path": "software/LepAnchor/Misc$ArrayIndexComparator.class"
+                },
+                {
+                  "path": "software/LepAnchor/Misc$ArrayIndexComparator2.class"
+                },
+                {
+                  "path": "software/LepAnchor/Misc$LongComparator0.class"
+                },
+                {
+                  "path": "software/LepAnchor/Misc$LongComparator1.class"
+                },
+                {
+                  "path": "software/LepAnchor/Misc.class"
+                },
+                {
+                  "path": "software/LepAnchor/ParameterParser.class"
+                },
+                {
+                  "path": "software/LepAnchor/PlaceAndOrientContigs$CalculateBest.class"
+                },
+                {
+                  "path": "software/LepAnchor/PlaceAndOrientContigs$LongComparator0.class"
+                },
+                {
+                  "path": "software/LepAnchor/PlaceAndOrientContigs$LongComparator1.class"
+                },
+                {
+                  "path": "software/LepAnchor/PlaceAndOrientContigs$PossibleError.class"
+                },
+                {
+                  "path": "software/LepAnchor/PlaceAndOrientContigs.class"
+                },
+                {
+                  "path": "software/LepAnchor/Proximity.class"
+                },
+                {
+                  "path": "software/LepAnchor/deps/HM_all_lastz_mThreads.pl"
+                },
+                {
+                  "path": "software/LepAnchor/deps/HM_axtChainRecipBestNet.pl"
+                },
+                {
+                  "path": "software/LepAnchor/deps/HM_axtChainRecipBestNet_fixed3.pl"
+                },
+                {
+                  "path": "software/LepAnchor/deps/Red"
+                },
+                {
+                  "path": "software/LepAnchor/deps/all_lastz.ctl"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/axtChain"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/axtFilter"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/axtPretty"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/axtSort"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/axtSplitByTarget"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/axtSwap"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/axtToBed"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/axtToMaf"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/chainAntiRepeat"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/chainFilter"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/chainMergeSort"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/chainNet"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/chainPreNet"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/chainSort"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/chainSplit"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/chainStitchId"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/chainSwap"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/chainToAxt"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/chainToPsl"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/faCat"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/faCount"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/faFilter"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/faFrag"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/faGapLocs"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/faGapSizes"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/faLowerToN"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/faRc"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/faSize"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/faSplit"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/faToNib"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/faToTwoBit"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/lastz"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/lastz_D"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/lavToAxt"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/lavToPsl"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/mafToAxt"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/mafToFa"
+                },
+                {
+                  "path": "software/LepAnchor/deps/centOS5/mafToPsl"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

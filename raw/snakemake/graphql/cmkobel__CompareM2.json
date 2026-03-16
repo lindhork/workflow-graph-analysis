@@ -1,0 +1,752 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 136,
+            "title": "Mashtree runs even when there is only one input genome",
+            "state": "CLOSED",
+            "createdAt": "2025-10-28T18:49:02Z",
+            "closedAt": "2025-11-13T10:09:18Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 135,
+            "title": "Error in mutate() and sort.int()",
+            "state": "OPEN",
+            "createdAt": "2025-09-18T08:21:55Z",
+            "closedAt": null,
+            "author": {
+              "login": "sjparkmk"
+            }
+          },
+          {
+            "number": 134,
+            "title": "These jobs run when there is no input",
+            "state": "OPEN",
+            "createdAt": "2025-09-11T11:30:39Z",
+            "closedAt": null,
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 133,
+            "title": "cp: cannot stat 'results_comparem2/.ncbi_cache/accessions/<accession>/genomic.gff': No such file or directory",
+            "state": "OPEN",
+            "createdAt": "2025-09-07T22:53:57Z",
+            "closedAt": null,
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 132,
+            "title": "Edge case: ncbi dataset not redownloaded when changing the list of accessions for later runs",
+            "state": "CLOSED",
+            "createdAt": "2025-09-02T21:27:02Z",
+            "closedAt": "2025-09-04T19:39:43Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 131,
+            "title": "There should be a way of using the databases without necessitating write access",
+            "state": "OPEN",
+            "createdAt": "2025-08-19T16:34:00Z",
+            "closedAt": null,
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 130,
+            "title": "Solve all environments in conda strict mode",
+            "state": "CLOSED",
+            "createdAt": "2025-08-11T09:29:32Z",
+            "closedAt": "2025-09-07T18:18:01Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 129,
+            "title": "Differentiate rule gather",
+            "state": "OPEN",
+            "createdAt": "2025-08-10T11:20:45Z",
+            "closedAt": null,
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 128,
+            "title": "gapseq_fill seems to fail when running on add_refseq genomes",
+            "state": "CLOSED",
+            "createdAt": "2025-08-05T16:56:46Z",
+            "closedAt": "2025-08-10T09:03:15Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 127,
+            "title": "Publish in peer-reviewed journal",
+            "state": "CLOSED",
+            "createdAt": "2025-08-05T14:45:10Z",
+            "closedAt": "2025-09-15T20:32:48Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 126,
+            "title": "Self-contained docker image?",
+            "state": "OPEN",
+            "createdAt": "2025-08-05T14:36:26Z",
+            "closedAt": null,
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 125,
+            "title": "Missing test of duplicate sample names after merging local and refseq samples",
+            "state": "CLOSED",
+            "createdAt": "2025-08-04T13:36:25Z",
+            "closedAt": "2025-08-13T21:01:23Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 124,
+            "title": "`--test`",
+            "state": "OPEN",
+            "createdAt": "2025-08-03T10:26:28Z",
+            "closedAt": null,
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 123,
+            "title": "Enable advanced caching between jobs",
+            "state": "OPEN",
+            "createdAt": "2025-07-22T11:07:00Z",
+            "closedAt": null,
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 122,
+            "title": "`--status` doesn't show the intended output when different input genomes are given.",
+            "state": "CLOSED",
+            "createdAt": "2025-07-22T10:41:19Z",
+            "closedAt": "2025-08-03T12:22:50Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 121,
+            "title": "Bakta should be default",
+            "state": "CLOSED",
+            "createdAt": "2025-07-21T17:46:08Z",
+            "closedAt": "2025-08-13T22:06:24Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 120,
+            "title": "`--version` should ideally output all versions.",
+            "state": "OPEN",
+            "createdAt": "2025-07-18T19:21:15Z",
+            "closedAt": null,
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 119,
+            "title": "Add information on how a system admin can set a default path for the databases",
+            "state": "CLOSED",
+            "createdAt": "2025-07-17T21:30:26Z",
+            "closedAt": "2025-07-22T19:12:18Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 118,
+            "title": "Add more documentation on how to use the powerful `--until` argument",
+            "state": "CLOSED",
+            "createdAt": "2025-07-17T21:28:39Z",
+            "closedAt": "2025-08-03T17:45:50Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 117,
+            "title": "An option for higher resolution figures that can be suitbale for publication (i.e. tiff/eps/pdf)",
+            "state": "CLOSED",
+            "createdAt": "2025-07-17T21:27:08Z",
+            "closedAt": "2025-08-10T19:01:56Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 116,
+            "title": "An option for a lateral entry point for already annotated genomes (such as reference genomes)",
+            "state": "CLOSED",
+            "createdAt": "2025-07-17T21:23:13Z",
+            "closedAt": "2025-07-22T13:06:10Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 115,
+            "title": "Report graphics should work with <= 512 genomes",
+            "state": "OPEN",
+            "createdAt": "2025-07-17T21:21:12Z",
+            "closedAt": null,
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 114,
+            "title": "Is only generated if `set_eggnog--decorate_gff=no` which is not default",
+            "state": "CLOSED",
+            "createdAt": "2024-10-31T21:39:52Z",
+            "closedAt": "2024-12-02T12:52:24Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 113,
+            "title": "Some version files are empty",
+            "state": "OPEN",
+            "createdAt": "2024-10-31T14:13:43Z",
+            "closedAt": null,
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 112,
+            "title": "Busco and antismash",
+            "state": "CLOSED",
+            "createdAt": "2024-10-19T12:23:45Z",
+            "closedAt": "2024-12-10T12:08:19Z",
+            "author": {
+              "login": "bharat1912"
+            }
+          },
+          {
+            "number": 111,
+            "title": "Insatlling comparem2",
+            "state": "CLOSED",
+            "createdAt": "2024-10-01T11:33:53Z",
+            "closedAt": "2024-10-03T18:41:05Z",
+            "author": {
+              "login": "bharat1912"
+            }
+          },
+          {
+            "number": 110,
+            "title": "installation issue",
+            "state": "CLOSED",
+            "createdAt": "2024-08-04T20:57:25Z",
+            "closedAt": "2024-08-05T10:35:30Z",
+            "author": {
+              "login": "flefler"
+            }
+          },
+          {
+            "number": 109,
+            "title": "Error in passthrough argument feature: `Invalid config definition: Config entry must start with a valid identifier.`",
+            "state": "OPEN",
+            "createdAt": "2024-07-25T14:55:09Z",
+            "closedAt": null,
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 108,
+            "title": "Eggnog fails if version installed is above or equal to 2.1.7",
+            "state": "CLOSED",
+            "createdAt": "2024-07-23T07:27:00Z",
+            "closedAt": "2024-07-23T08:53:18Z",
+            "author": {
+              "login": "michoug"
+            }
+          },
+          {
+            "number": 107,
+            "title": "URL to manually download the databases?",
+            "state": "CLOSED",
+            "createdAt": "2024-07-22T20:10:48Z",
+            "closedAt": "2024-08-16T23:51:54Z",
+            "author": {
+              "login": "ruizhao087"
+            }
+          },
+          {
+            "number": 106,
+            "title": "both bakta and prokka are run despite specify an annotator",
+            "state": "CLOSED",
+            "createdAt": "2024-07-19T13:27:44Z",
+            "closedAt": "2024-07-19T20:21:30Z",
+            "author": {
+              "login": "michoug"
+            }
+          },
+          {
+            "number": 101,
+            "title": "Can't add more than a single string (file or glob) to the input_genomes parameter.",
+            "state": "CLOSED",
+            "createdAt": "2024-05-14T16:30:31Z",
+            "closedAt": "2024-05-15T11:58:45Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 100,
+            "title": "Upgrade to snakemake 8",
+            "state": "OPEN",
+            "createdAt": "2024-05-14T16:05:59Z",
+            "closedAt": null,
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 98,
+            "title": "--help",
+            "state": "CLOSED",
+            "createdAt": "2024-05-06T10:45:19Z",
+            "closedAt": "2024-05-14T16:06:23Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 97,
+            "title": "Returns exit code 0 on error. ",
+            "state": "CLOSED",
+            "createdAt": "2024-05-06T08:23:33Z",
+            "closedAt": "2024-05-14T16:07:02Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 96,
+            "title": "Benchmarking",
+            "state": "CLOSED",
+            "createdAt": "2024-04-25T09:32:17Z",
+            "closedAt": "2024-05-23T21:09:01Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 95,
+            "title": "Follow the standard file hierarchy for a snakemake pipeline.",
+            "state": "CLOSED",
+            "createdAt": "2024-03-20T11:54:28Z",
+            "closedAt": "2024-05-02T12:52:40Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 94,
+            "title": "Remove mamba as dependency from bioconda recipe?",
+            "state": "CLOSED",
+            "createdAt": "2024-03-19T11:38:31Z",
+            "closedAt": "2024-05-14T16:07:33Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 93,
+            "title": "Migrate to codeberg",
+            "state": "CLOSED",
+            "createdAt": "2024-03-06T10:48:11Z",
+            "closedAt": "2024-04-25T11:10:52Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 92,
+            "title": "hat?",
+            "state": "CLOSED",
+            "createdAt": "2024-03-04T09:42:44Z",
+            "closedAt": "2024-03-18T13:38:15Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 91,
+            "title": "Option to add .faa files for analysis downstream of gene calling",
+            "state": "CLOSED",
+            "createdAt": "2024-02-08T19:01:00Z",
+            "closedAt": "2025-08-03T17:47:22Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 90,
+            "title": "Implement downloading ko00001.json",
+            "state": "CLOSED",
+            "createdAt": "2024-02-08T13:40:02Z",
+            "closedAt": "2024-03-23T17:06:37Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 89,
+            "title": "Roary policy",
+            "state": "CLOSED",
+            "createdAt": "2024-02-07T11:39:56Z",
+            "closedAt": "2024-03-18T13:33:54Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 88,
+            "title": "Naming of output directory.",
+            "state": "CLOSED",
+            "createdAt": "2024-02-05T21:39:36Z",
+            "closedAt": "2024-05-23T21:17:32Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 87,
+            "title": "wget should not use --continue, but somehow otherwise never write to an alternatively named file.",
+            "state": "OPEN",
+            "createdAt": "2024-02-02T17:51:26Z",
+            "closedAt": null,
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 86,
+            "title": "gtdbtk: mash: error while loading shared libraries: libgsl.so.25: cannot open shared object file: No such file or directory ",
+            "state": "CLOSED",
+            "createdAt": "2024-02-02T17:45:40Z",
+            "closedAt": "2024-05-14T16:08:50Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 85,
+            "title": "N<4, iqtree: ERROR: It makes no sense to perform bootstrap with less than 4 sequences.",
+            "state": "CLOSED",
+            "createdAt": "2024-02-02T12:04:19Z",
+            "closedAt": "2024-05-14T16:09:29Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 83,
+            "title": "Remove busco?",
+            "state": "CLOSED",
+            "createdAt": "2024-01-27T00:12:43Z",
+            "closedAt": "2024-06-11T09:26:28Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 82,
+            "title": "Prune test datasets",
+            "state": "CLOSED",
+            "createdAt": "2024-01-26T13:25:22Z",
+            "closedAt": "2024-06-11T09:26:39Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          },
+          {
+            "number": 81,
+            "title": "mamba requirement is unnecessarily specific",
+            "state": "CLOSED",
+            "createdAt": "2024-01-26T13:23:43Z",
+            "closedAt": "2024-06-11T09:26:22Z",
+            "author": {
+              "login": "cmkobel"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 102,
+            "title": "Update README.md",
+            "state": "MERGED",
+            "createdAt": "2024-07-10T20:58:36Z",
+            "mergedAt": "2024-07-11T09:58:05Z",
+            "author": {
+              "login": "wwood"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 99,
+            "title": "Add ring and bi-plot for quality",
+            "state": "OPEN",
+            "createdAt": "2024-05-06T13:14:30Z",
+            "mergedAt": null,
+            "author": {
+              "login": "wala-github"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "dynamic_report/workflow/scripts/AC2-Quality_Visualisation.Rmd"
+                },
+                {
+                  "path": "dynamic_report/workflow/scripts/report_template.rmd"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 43,
+            "title": "Report v3",
+            "state": "MERGED",
+            "createdAt": "2023-03-29T19:32:11Z",
+            "mergedAt": "2023-03-29T19:32:23Z",
+            "author": {
+              "login": "cmkobel"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conda_definitions/curl.yaml"
+                },
+                {
+                  "path": "conda_definitions/prokka.yaml"
+                },
+                {
+                  "path": "conda_definitions/seqkit.yaml"
+                },
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "profiles/local/config.yaml"
+                },
+                {
+                  "path": "profiles/slurm-nmbu-orion/config.yaml"
+                },
+                {
+                  "path": "report_subpipeline/scripts/genomes_to_report_v2.Rmd"
+                },
+                {
+                  "path": "report_subpipeline/scripts/genomes_to_report_v3.Rmd"
+                },
+                {
+                  "path": "report_subpipeline/scripts/section_assembly_stats.rmd"
+                },
+                {
+                  "path": "report_subpipeline/scripts/section_busco.rmd"
+                },
+                {
+                  "path": "report_subpipeline/scripts/section_checkm2.rmd"
+                },
+                {
+                  "path": "report_subpipeline/scripts/section_kraken2.rmd"
+                },
+                {
+                  "path": "report_subpipeline/scripts/section_mashtree.rmd"
+                },
+                {
+                  "path": "report_subpipeline/scripts/section_prokka.rmd"
+                },
+                {
+                  "path": "report_subpipeline/scripts/section_sequence_lengths.rmd"
+                },
+                {
+                  "path": "report_subpipeline/snakefile"
+                },
+                {
+                  "path": "snakefile"
+                },
+                {
+                  "path": "tests/MAGs/Treatment_LowE.metabat.242.fasta"
+                },
+                {
+                  "path": "tests/MAGs/Treatment_LowE.metabat.618.fasta"
+                },
+                {
+                  "path": "tests/MAGs/Treatment_MidE.metabat.482.fasta"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 29,
+            "title": "Feature differential enrichment",
+            "state": "MERGED",
+            "createdAt": "2022-02-28T18:50:10Z",
+            "mergedAt": "2022-02-28T18:51:56Z",
+            "author": {
+              "login": "cmkobel"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/ko"
+                },
+                {
+                  "path": "assets/readme.txt"
+                },
+                {
+                  "path": "changelog.txt"
+                },
+                {
+                  "path": "conda_envs/r-clusterProfiler.yaml"
+                },
+                {
+                  "path": "scripts/genomes_to_report_v2.Rmd"
+                },
+                {
+                  "path": "scripts/sample_pathway_enrichment_analysis.R"
+                },
+                {
+                  "path": "snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 12,
+            "title": "V2",
+            "state": "MERGED",
+            "createdAt": "2021-03-04T16:28:16Z",
+            "mergedAt": "2021-03-04T16:28:26Z",
+            "author": {
+              "login": "cmkobel"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assemblycomparator"
+                },
+                {
+                  "path": "configs/cluster.yaml"
+                },
+                {
+                  "path": "configs/slurm/config.yaml"
+                },
+                {
+                  "path": "environment.yaml"
+                },
+                {
+                  "path": "envs/envone.yml"
+                },
+                {
+                  "path": "envs/prokka.yml"
+                },
+                {
+                  "path": "envs/roary.yml"
+                },
+                {
+                  "path": "snakefile"
+                },
+                {
+                  "path": "v1/environment.yml"
+                },
+                {
+                  "path": "v1/install"
+                },
+                {
+                  "path": "v1/scripts/R/aniplot.r"
+                },
+                {
+                  "path": "v1/scripts/R/ape_newick2pdf.r"
+                },
+                {
+                  "path": "v1/scripts/R/gg_newick2graphics.r"
+                },
+                {
+                  "path": "v1/scripts/R/gg_nwk2tree.r"
+                },
+                {
+                  "path": "v1/scripts/logo.png"
+                },
+                {
+                  "path": "v1/scripts/perl/roary2svg.pl"
+                },
+                {
+                  "path": "v1/scripts/py/fasta_shorten_headers.py"
+                },
+                {
+                  "path": "v1/scripts/py/roary_plots.py"
+                },
+                {
+                  "path": "v1/workflow_templates.py"
+                },
+                {
+                  "path": "workflow.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

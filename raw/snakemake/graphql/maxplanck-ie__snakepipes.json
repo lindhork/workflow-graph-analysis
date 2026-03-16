@@ -1,0 +1,2816 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 1160,
+            "title": "STAR overwrite hard coded aligner options in case of bamRemoveDuplicatesType UniqueIdentical is not possible",
+            "state": "OPEN",
+            "createdAt": "2026-02-18T12:14:39Z",
+            "closedAt": null,
+            "author": {
+              "login": "NderBinf"
+            }
+          },
+          {
+            "number": 1159,
+            "title": "conda build is failing with python 3.12",
+            "state": "OPEN",
+            "createdAt": "2025-12-19T08:33:32Z",
+            "closedAt": null,
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1157,
+            "title": "consider renaming bw files after the applied normalization method",
+            "state": "OPEN",
+            "createdAt": "2025-12-01T10:15:28Z",
+            "closedAt": null,
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1155,
+            "title": "update documentation on normalization for bamCoverage files",
+            "state": "OPEN",
+            "createdAt": "2025-12-01T10:10:02Z",
+            "closedAt": null,
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1153,
+            "title": "rule run_eisaR failing for GRCh38_gencode40",
+            "state": "OPEN",
+            "createdAt": "2025-11-20T10:12:47Z",
+            "closedAt": null,
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1152,
+            "title": "add support for alignment-free + allelic-whatshap + fromBAM in mRNA seq",
+            "state": "OPEN",
+            "createdAt": "2025-11-20T09:23:44Z",
+            "closedAt": null,
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1151,
+            "title": "add whatshap-allelic mode to dna-mapping",
+            "state": "OPEN",
+            "createdAt": "2025-11-18T13:07:00Z",
+            "closedAt": null,
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1150,
+            "title": "ATACseq fixes and extentions",
+            "state": "OPEN",
+            "createdAt": "2025-11-17T14:11:14Z",
+            "closedAt": null,
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1146,
+            "title": "deprecate allelic counting mode in mRNAseq",
+            "state": "OPEN",
+            "createdAt": "2025-11-13T12:35:55Z",
+            "closedAt": null,
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1141,
+            "title": "rule cellsort_bam for velocyto has a wildcards issue",
+            "state": "CLOSED",
+            "createdAt": "2025-11-10T11:52:15Z",
+            "closedAt": "2025-11-14T14:24:13Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1137,
+            "title": "conda build gha fails",
+            "state": "CLOSED",
+            "createdAt": "2025-10-10T09:37:48Z",
+            "closedAt": "2025-11-11T13:30:19Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1136,
+            "title": "add DB for histoneHMM",
+            "state": "CLOSED",
+            "createdAt": "2025-10-10T08:17:01Z",
+            "closedAt": "2025-11-14T14:29:32Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1134,
+            "title": "chipqc: samples with no matching mark are dropped",
+            "state": "CLOSED",
+            "createdAt": "2025-09-30T12:37:00Z",
+            "closedAt": "2025-11-14T14:29:32Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1133,
+            "title": "uncap snakemake and test",
+            "state": "CLOSED",
+            "createdAt": "2025-09-29T12:07:54Z",
+            "closedAt": "2025-11-14T14:24:14Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1132,
+            "title": "review and update documentation",
+            "state": "CLOSED",
+            "createdAt": "2025-09-29T11:51:23Z",
+            "closedAt": "2025-11-14T14:24:13Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1130,
+            "title": "WGBS calculate conversion rate over lambda chromosome",
+            "state": "OPEN",
+            "createdAt": "2025-09-26T11:15:42Z",
+            "closedAt": null,
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1127,
+            "title": "histoneHMM error",
+            "state": "OPEN",
+            "createdAt": "2025-09-26T08:37:57Z",
+            "closedAt": null,
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1125,
+            "title": "WGBS fix qc report",
+            "state": "CLOSED",
+            "createdAt": "2025-09-25T11:43:46Z",
+            "closedAt": "2025-09-29T11:58:52Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1124,
+            "title": "snakePipes/shared/tools/bedGraphToBigwig.py: Permission denied",
+            "state": "CLOSED",
+            "createdAt": "2025-09-25T11:11:21Z",
+            "closedAt": "2025-09-29T11:58:53Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1123,
+            "title": "WGBS getRandomCpgs errors out",
+            "state": "CLOSED",
+            "createdAt": "2025-09-22T08:13:18Z",
+            "closedAt": "2025-09-29T11:58:52Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1122,
+            "title": "shared/tools/bedGraphToBigWig is not installed",
+            "state": "CLOSED",
+            "createdAt": "2025-09-22T07:48:57Z",
+            "closedAt": "2025-09-29T11:58:51Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1121,
+            "title": "[SOLVED-not relative] consesus peaks Vs called peaks",
+            "state": "CLOSED",
+            "createdAt": "2025-09-17T06:40:28Z",
+            "closedAt": "2025-09-17T08:09:57Z",
+            "author": {
+              "login": "sunta3iouxos"
+            }
+          },
+          {
+            "number": 1120,
+            "title": "scRNAseq txt files with barcode whitelists are not installed",
+            "state": "CLOSED",
+            "createdAt": "2025-09-11T12:42:52Z",
+            "closedAt": "2025-11-14T14:24:14Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1118,
+            "title": "change bowtie2 default setting to `--local`",
+            "state": "CLOSED",
+            "createdAt": "2025-09-01T13:13:33Z",
+            "closedAt": "2025-09-29T11:58:51Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1114,
+            "title": "deprecation list",
+            "state": "CLOSED",
+            "createdAt": "2025-08-04T12:56:16Z",
+            "closedAt": "2025-11-13T08:36:24Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1113,
+            "title": "multiqc errors out ( in mRNAseq) when freshly pulled from conda",
+            "state": "CLOSED",
+            "createdAt": "2025-08-04T10:51:50Z",
+            "closedAt": "2025-09-29T11:58:51Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1109,
+            "title": "histoneHMM_qc rule is triggered while histoneHMM is not , for broad samples",
+            "state": "CLOSED",
+            "createdAt": "2025-07-29T10:51:58Z",
+            "closedAt": "2025-09-29T11:58:51Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1108,
+            "title": "Mem / resource allocation - retries",
+            "state": "OPEN",
+            "createdAt": "2025-07-28T09:05:08Z",
+            "closedAt": null,
+            "author": {
+              "login": "WardDeb"
+            }
+          },
+          {
+            "number": 1106,
+            "title": "Big Help in create envs",
+            "state": "CLOSED",
+            "createdAt": "2025-07-16T09:14:56Z",
+            "closedAt": "2025-09-29T12:14:20Z",
+            "author": {
+              "login": "younng367"
+            }
+          },
+          {
+            "number": 1105,
+            "title": "add size-factor-normalized bw to DNAmapping and ChIPseq workflows",
+            "state": "OPEN",
+            "createdAt": "2025-06-24T11:40:34Z",
+            "closedAt": null,
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1103,
+            "title": "chipqc Error in ChIPseq snakePipe",
+            "state": "CLOSED",
+            "createdAt": "2025-06-03T14:47:57Z",
+            "closedAt": "2025-09-29T11:58:52Z",
+            "author": {
+              "login": "skhassafi"
+            }
+          },
+          {
+            "number": 1102,
+            "title": "createIndices is missing --userYAML",
+            "state": "CLOSED",
+            "createdAt": "2025-06-03T07:58:02Z",
+            "closedAt": "2025-09-29T11:58:52Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1098,
+            "title": "WGBS samtools filter",
+            "state": "CLOSED",
+            "createdAt": "2025-04-25T10:24:31Z",
+            "closedAt": "2025-05-13T11:42:13Z",
+            "author": {
+              "login": "hanrong498"
+            }
+          },
+          {
+            "number": 1097,
+            "title": "add LRT as an option to DESeq2",
+            "state": "CLOSED",
+            "createdAt": "2025-04-15T11:05:43Z",
+            "closedAt": "2025-09-29T11:58:50Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1094,
+            "title": "ValueError: 'group' is not in list",
+            "state": "CLOSED",
+            "createdAt": "2025-03-20T15:44:41Z",
+            "closedAt": "2025-11-14T14:24:14Z",
+            "author": {
+              "login": "malszycki"
+            }
+          },
+          {
+            "number": 1093,
+            "title": "HiC - enzyme",
+            "state": "CLOSED",
+            "createdAt": "2025-03-02T13:13:14Z",
+            "closedAt": "2025-09-29T11:58:51Z",
+            "author": {
+              "login": "hanrong498"
+            }
+          },
+          {
+            "number": 1091,
+            "title": "add summary of whatshap splitting metrics",
+            "state": "OPEN",
+            "createdAt": "2025-01-28T08:29:53Z",
+            "closedAt": null,
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1087,
+            "title": "cleanup code",
+            "state": "CLOSED",
+            "createdAt": "2025-01-14T08:52:39Z",
+            "closedAt": "2025-11-14T13:40:31Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1085,
+            "title": "the default spikeinExt doesn't get appended to spikein chromosome names in all cases",
+            "state": "CLOSED",
+            "createdAt": "2025-01-10T10:06:51Z",
+            "closedAt": "2025-04-14T12:02:45Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1084,
+            "title": "RuleException in rule validateFQ: The name 'snakePipes_cluster_logDir' is unknown in this context",
+            "state": "CLOSED",
+            "createdAt": "2024-12-31T08:25:17Z",
+            "closedAt": "2025-09-17T07:46:47Z",
+            "author": {
+              "login": "sunta3iouxos"
+            }
+          },
+          {
+            "number": 1083,
+            "title": "WGBS: conversion rate is failing",
+            "state": "CLOSED",
+            "createdAt": "2024-12-17T11:59:28Z",
+            "closedAt": "2025-04-14T12:02:45Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1082,
+            "title": "methylDackel Mbias output missing",
+            "state": "CLOSED",
+            "createdAt": "2024-12-06T14:33:20Z",
+            "closedAt": "2025-04-14T12:02:46Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1081,
+            "title": "pairtools - multiqc enhancements",
+            "state": "OPEN",
+            "createdAt": "2024-11-15T11:08:33Z",
+            "closedAt": null,
+            "author": {
+              "login": "WardDeb"
+            }
+          },
+          {
+            "number": 1079,
+            "title": "force compression of multiqc_data",
+            "state": "OPEN",
+            "createdAt": "2024-11-09T09:04:53Z",
+            "closedAt": null,
+            "author": {
+              "login": "thomasmanke"
+            }
+          },
+          {
+            "number": 1078,
+            "title": "three-prime-seq replace \"shell\" with \"script\" directive",
+            "state": "CLOSED",
+            "createdAt": "2024-11-08T12:26:08Z",
+            "closedAt": "2025-09-29T11:58:53Z",
+            "author": {
+              "login": "katsikora"
+            }
+          },
+          {
+            "number": 1077,
+            "title": "proper envs - conda versions",
+            "state": "CLOSED",
+            "createdAt": "2024-11-07T08:52:37Z",
+            "closedAt": "2025-11-14T13:12:15Z",
+            "author": {
+              "login": "WardDeb"
+            }
+          },
+          {
+            "number": 1076,
+            "title": "salmonIndex seq name from genes_bed2fasta",
+            "state": "CLOSED",
+            "createdAt": "2024-10-29T13:14:53Z",
+            "closedAt": "2025-09-29T13:17:59Z",
+            "author": {
+              "login": "hanrong498"
+            }
+          },
+          {
+            "number": 1075,
+            "title": "validateFQ",
+            "state": "CLOSED",
+            "createdAt": "2024-10-28T17:04:27Z",
+            "closedAt": "2025-01-08T08:57:08Z",
+            "author": {
+              "login": "hanrong498"
+            }
+          },
+          {
+            "number": 1071,
+            "title": "createIndices yaml output",
+            "state": "CLOSED",
+            "createdAt": "2024-10-21T14:52:53Z",
+            "closedAt": "2024-10-28T10:15:39Z",
+            "author": {
+              "login": "WardDeb"
+            }
+          },
+          {
+            "number": 1070,
+            "title": "rule histoneHMM_out_gz throws an error at workflow rerun in the same output folder",
+            "state": "OPEN",
+            "createdAt": "2024-10-18T11:19:42Z",
+            "closedAt": null,
+            "author": {
+              "login": "katsikora"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 1158,
+            "title": "Allelic whatshap dna",
+            "state": "MERGED",
+            "createdAt": "2025-12-19T08:32:26Z",
+            "mergedAt": "2026-03-09T12:43:05Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/conda_ci.yml"
+                },
+                {
+                  "path": "docs/content/News.rst"
+                },
+                {
+                  "path": "docs/content/cookbook.rst"
+                },
+                {
+                  "path": "docs/content/workflows/DNAmapping.rst"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/deepTools_qc_allelic.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/deepTools_qc_allelic_spikein.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/split_bam_ops_DNA_spikein.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/whatshap.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/ChIPseq/internals.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/DNAmapping/DNAmapping.py"
+                },
+                {
+                  "path": "snakePipes/workflows/DNAmapping/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/DNAmapping/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/DNAmapping/internals.snakefile"
+                },
+                {
+                  "path": "tests/test_jobcounts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1156,
+            "title": "Allelic whatshap dna",
+            "state": "MERGED",
+            "createdAt": "2025-12-01T10:12:38Z",
+            "mergedAt": "2025-12-01T10:35:16Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conda-recipe/meta.yaml"
+                },
+                {
+                  "path": "docs/content/News.rst"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/multiQC.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/DNAmapping/DNAmapping.py"
+                },
+                {
+                  "path": "snakePipes/workflows/DNAmapping/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/DNAmapping/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/DNAmapping/internals.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/mRNAseq.py"
+                },
+                {
+                  "path": "tests/test_jobcounts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1154,
+            "title": "Whatshap salmon",
+            "state": "MERGED",
+            "createdAt": "2025-11-25T12:07:13Z",
+            "mergedAt": "2025-11-25T12:30:55Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakePipes/shared/rscripts/extractIntronSeqs.R"
+                },
+                {
+                  "path": "snakePipes/shared/rules/multiQC.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/mRNAseq.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1149,
+            "title": "Develop",
+            "state": "MERGED",
+            "createdAt": "2025-11-14T14:09:19Z",
+            "mergedAt": "2025-11-14T14:24:12Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/conda_ci.yml"
+                },
+                {
+                  "path": ".github/condarc.yml"
+                },
+                {
+                  "path": ".github/workflows/conda-build.yml"
+                },
+                {
+                  "path": "conda-recipe/meta.yaml"
+                },
+                {
+                  "path": "docs/conf.py"
+                },
+                {
+                  "path": "docs/content/News.rst"
+                },
+                {
+                  "path": "docs/content/advanced_usage.rst"
+                },
+                {
+                  "path": "docs/content/cookbook.rst"
+                },
+                {
+                  "path": "docs/content/setting_up.rst"
+                },
+                {
+                  "path": "docs/content/workflows/ATACseq.rst"
+                },
+                {
+                  "path": "docs/content/workflows/ChIPseq.rst"
+                },
+                {
+                  "path": "docs/content/workflows/DNAmapping.rst"
+                },
+                {
+                  "path": "docs/content/workflows/mRNAseq.rst"
+                },
+                {
+                  "path": "docs/content/workflows/makePairs.rst"
+                },
+                {
+                  "path": "docs/content/workflows/ncRNAseq.rst"
+                },
+                {
+                  "path": "docs/content/workflows/scRNAseq.rst"
+                },
+                {
+                  "path": "docs/index.rst"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "snakePipes/common_functions.py"
+                },
+                {
+                  "path": "snakePipes/shared/rscripts/chipqc.R"
+                },
+                {
+                  "path": "snakePipes/shared/rules/ATAC.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/CSAW.multiComp.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/CSAW.singleComp.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/ChIP_peak_calling.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/RNA-seq_qc_report.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/SNPsplit.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/Salmon.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/Salmon_allelic.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/createIndices.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/multiQC.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/rMats.multipleComp.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/scRNAseq_Alevin.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/scRNAseq_STARsolo.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/ATACseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/ChIPseq/ChIPseq.py"
+                },
+                {
+                  "path": "snakePipes/workflows/ChIPseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/ChIPseq/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/ChIPseq/internals.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/DNAmapping/DNAmapping.py"
+                },
+                {
+                  "path": "snakePipes/workflows/DNAmapping/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/HiC/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/HiC/internals.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/WGBS/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/createIndices/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/ncRNAseq/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/preprocessing/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/scRNAseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/scRNAseq/defaults.yaml"
+                },
+                {
+                  "path": "tests/test_jobcounts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 910
+                },
+                {
+                  "number": 1087
+                },
+                {
+                  "number": 1094
+                },
+                {
+                  "number": 1120
+                },
+                {
+                  "number": 1132
+                },
+                {
+                  "number": 1133
+                },
+                {
+                  "number": 1141
+                }
+              ]
+            }
+          },
+          {
+            "number": 1148,
+            "title": "bump version + news",
+            "state": "MERGED",
+            "createdAt": "2025-11-14T13:58:03Z",
+            "mergedAt": "2025-11-14T14:09:02Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conda-recipe/meta.yaml"
+                },
+                {
+                  "path": "docs/content/News.rst"
+                },
+                {
+                  "path": "pyproject.toml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1147,
+            "title": "Documentation",
+            "state": "MERGED",
+            "createdAt": "2025-11-14T13:15:05Z",
+            "mergedAt": "2025-11-14T13:24:15Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/conf.py"
+                },
+                {
+                  "path": "docs/content/advanced_usage.rst"
+                },
+                {
+                  "path": "docs/content/cookbook.rst"
+                },
+                {
+                  "path": "docs/content/setting_up.rst"
+                },
+                {
+                  "path": "docs/content/workflows/ATACseq.rst"
+                },
+                {
+                  "path": "docs/content/workflows/ChIPseq.rst"
+                },
+                {
+                  "path": "docs/content/workflows/DNAmapping.rst"
+                },
+                {
+                  "path": "docs/content/workflows/mRNAseq.rst"
+                },
+                {
+                  "path": "docs/content/workflows/makePairs.rst"
+                },
+                {
+                  "path": "docs/content/workflows/ncRNAseq.rst"
+                },
+                {
+                  "path": "docs/content/workflows/scRNAseq.rst"
+                },
+                {
+                  "path": "docs/index.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1145,
+            "title": "Cleanup",
+            "state": "MERGED",
+            "createdAt": "2025-11-13T12:24:18Z",
+            "mergedAt": "2025-11-13T13:38:51Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakePipes/common_functions.py"
+                },
+                {
+                  "path": "snakePipes/shared/rules/ATAC.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/RNA-seq_qc_report.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/SNPsplit.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/Salmon.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/Salmon_allelic.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/createIndices.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/multiQC.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/scRNAseq_Alevin.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/scRNAseq_STARsolo.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/ATACseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/ChIPseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/ChIPseq/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/ChIPseq/internals.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/DNAmapping/DNAmapping.py"
+                },
+                {
+                  "path": "snakePipes/workflows/DNAmapping/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/HiC/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/HiC/internals.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/WGBS/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/createIndices/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/ncRNAseq/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/preprocessing/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/scRNAseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/scRNAseq/defaults.yaml"
+                },
+                {
+                  "path": "tests/test_jobcounts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1144,
+            "title": "Fix scrnaseq",
+            "state": "MERGED",
+            "createdAt": "2025-11-11T13:12:41Z",
+            "mergedAt": "2025-11-11T13:29:51Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakePipes/shared/rules/scRNAseq_STARsolo.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/scRNAseq/Snakefile"
+                },
+                {
+                  "path": "tests/test_jobcounts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1143,
+            "title": "Fix conda build",
+            "state": "MERGED",
+            "createdAt": "2025-11-11T13:02:13Z",
+            "mergedAt": "2025-11-11T13:11:10Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/conda_ci.yml"
+                },
+                {
+                  "path": ".github/condarc.yml"
+                },
+                {
+                  "path": ".github/workflows/conda-build.yml"
+                },
+                {
+                  "path": "conda-recipe/meta.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1142,
+            "title": "fix scrnaseq",
+            "state": "MERGED",
+            "createdAt": "2025-11-10T13:45:12Z",
+            "mergedAt": "2025-11-11T12:13:37Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "pyproject.toml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1140,
+            "title": "Fix rmats",
+            "state": "MERGED",
+            "createdAt": "2025-11-05T08:25:38Z",
+            "mergedAt": "2025-11-05T08:45:23Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/content/News.rst"
+                },
+                {
+                  "path": "tests/test_jobcounts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1139,
+            "title": "Fix rmats",
+            "state": "MERGED",
+            "createdAt": "2025-11-03T12:15:32Z",
+            "mergedAt": "2025-11-03T12:35:57Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/content/News.rst"
+                },
+                {
+                  "path": "snakePipes/shared/rules/rMats.multipleComp.snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1138,
+            "title": "Mv histone hmm to peak caller",
+            "state": "MERGED",
+            "createdAt": "2025-10-21T08:18:31Z",
+            "mergedAt": "2025-10-21T08:44:36Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/content/News.rst"
+                },
+                {
+                  "path": "docs/content/workflows/ChIPseq.rst"
+                },
+                {
+                  "path": "snakePipes/shared/rules/CSAW.multiComp.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/CSAW.singleComp.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/ChIP_peak_calling.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/ChIPseq/ChIPseq.py"
+                },
+                {
+                  "path": "snakePipes/workflows/ChIPseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/ChIPseq/internals.snakefile"
+                },
+                {
+                  "path": "tests/test_jobcounts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1135,
+            "title": "fix chipqc",
+            "state": "MERGED",
+            "createdAt": "2025-10-01T09:07:31Z",
+            "mergedAt": "2025-10-01T09:26:19Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakePipes/shared/rscripts/chipqc.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1131,
+            "title": "Fix py script execution",
+            "state": "MERGED",
+            "createdAt": "2025-09-29T11:05:46Z",
+            "mergedAt": "2025-09-29T11:21:38Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/content/News.rst"
+                },
+                {
+                  "path": "snakePipes/shared/rules/WGBS.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/three_prime_seq.snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1129,
+            "title": "Fixes wgbs",
+            "state": "MERGED",
+            "createdAt": "2025-09-26T10:05:31Z",
+            "mergedAt": "2025-09-26T10:24:37Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/content/News.rst"
+                },
+                {
+                  "path": "snakePipes/shared/rscripts/WGBS_QC_report_template.Rmd"
+                },
+                {
+                  "path": "snakePipes/shared/rules/WGBS.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/tools/bedGraphToBigwig.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1128,
+            "title": "release_prep_3.3.0",
+            "state": "MERGED",
+            "createdAt": "2025-09-26T09:12:24Z",
+            "mergedAt": "2025-09-29T11:58:49Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".ci_stuff/test_dag.sh"
+                },
+                {
+                  "path": ".github/conda_ci.yml"
+                },
+                {
+                  "path": ".github/workflows/conda-build.yml"
+                },
+                {
+                  "path": ".github/workflows/linux.yml"
+                },
+                {
+                  "path": "conda-recipe/meta.yaml"
+                },
+                {
+                  "path": "docs/content/News.rst"
+                },
+                {
+                  "path": "docs/content/workflows/HiC.rst"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "snakePipes/common_functions.py"
+                },
+                {
+                  "path": "snakePipes/shared/profiles/snakepipes_genericprofile/config.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rscripts/DESeq2.R"
+                },
+                {
+                  "path": "snakePipes/shared/rscripts/DE_functions.R"
+                },
+                {
+                  "path": "snakePipes/shared/rscripts/WGBS_QC_report_template.Rmd"
+                },
+                {
+                  "path": "snakePipes/shared/rscripts/chipqc.R"
+                },
+                {
+                  "path": "snakePipes/shared/rules/Bowtie2.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/Bowtie2_allelic.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/ChIP_peak_calling.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/ChIP_peak_calling_spikein.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/DESeq2.multipleComp.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/DESeq2.singleComp.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/WGBS.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/envs/rna_seq.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/envs/shared.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/hicexplorer.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/histoneHMM.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/masked_genomeIndex.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/three_prime_seq.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/tools/bedGraphToBigwig.py"
+                },
+                {
+                  "path": "snakePipes/workflows/ChIPseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/DNAmapping/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/HiC/HiC.py"
+                },
+                {
+                  "path": "snakePipes/workflows/HiC/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/HiC/internals.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/createIndices/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/mRNAseq.py"
+                },
+                {
+                  "path": "tests/test_jobcounts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 1078
+                },
+                {
+                  "number": 1093
+                },
+                {
+                  "number": 1097
+                },
+                {
+                  "number": 1102
+                },
+                {
+                  "number": 1103
+                },
+                {
+                  "number": 1109
+                },
+                {
+                  "number": 1113
+                },
+                {
+                  "number": 1118
+                },
+                {
+                  "number": 1122
+                },
+                {
+                  "number": 1123
+                },
+                {
+                  "number": 1124
+                },
+                {
+                  "number": 1125
+                }
+              ]
+            }
+          },
+          {
+            "number": 1126,
+            "title": "Update feature counts",
+            "state": "MERGED",
+            "createdAt": "2025-09-25T11:45:45Z",
+            "mergedAt": "2025-09-26T09:00:25Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakePipes/shared/rules/envs/rna_seq.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1119,
+            "title": "Bowtie2 default local",
+            "state": "MERGED",
+            "createdAt": "2025-09-02T11:31:43Z",
+            "mergedAt": "2025-09-02T12:56:03Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/conda_ci.yml"
+                },
+                {
+                  "path": "conda-recipe/meta.yaml"
+                },
+                {
+                  "path": "docs/content/News.rst"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/Bowtie2.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/Bowtie2_allelic.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/DNAmapping/defaults.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1117,
+            "title": "Deprecate test dag",
+            "state": "MERGED",
+            "createdAt": "2025-09-01T12:12:48Z",
+            "mergedAt": "2025-09-01T12:27:22Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/conda_ci.yml"
+                },
+                {
+                  "path": ".github/workflows/linux.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1116,
+            "title": "rm duplicated argument",
+            "state": "MERGED",
+            "createdAt": "2025-08-11T12:23:49Z",
+            "mergedAt": "2025-08-11T12:39:46Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakePipes/shared/rscripts/chipqc.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1115,
+            "title": "multiqc 1.30",
+            "state": "MERGED",
+            "createdAt": "2025-08-07T09:41:32Z",
+            "mergedAt": "2025-08-07T09:54:38Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakePipes/shared/rules/envs/shared.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1112,
+            "title": "Conda build action - py3.13 cap removed",
+            "state": "MERGED",
+            "createdAt": "2025-07-31T10:23:54Z",
+            "mergedAt": "2025-07-31T10:35:27Z",
+            "author": {
+              "login": "WardDeb"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/conda-build.yml"
+                },
+                {
+                  "path": "conda-recipe/meta.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1111,
+            "title": "temporarily combine chrom before building bt2 index in allelic mode",
+            "state": "MERGED",
+            "createdAt": "2025-07-30T13:24:12Z",
+            "mergedAt": "2025-07-31T11:27:04Z",
+            "author": {
+              "login": "WardDeb"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakePipes/shared/rules/masked_genomeIndex.snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1110,
+            "title": "update predict chip dict and chipseq snakefile",
+            "state": "MERGED",
+            "createdAt": "2025-07-29T11:35:21Z",
+            "mergedAt": "2025-08-04T11:51:32Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".ci_stuff/test_dag.sh"
+                },
+                {
+                  "path": "snakePipes/common_functions.py"
+                },
+                {
+                  "path": "snakePipes/shared/rscripts/chipqc.R"
+                },
+                {
+                  "path": "snakePipes/shared/rules/ChIP_peak_calling.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/ChIP_peak_calling_spikein.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/histoneHMM.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/ChIPseq/Snakefile"
+                },
+                {
+                  "path": "tests/test_jobcounts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1107,
+            "title": "Wgbs convrate mem",
+            "state": "MERGED",
+            "createdAt": "2025-07-28T08:59:48Z",
+            "mergedAt": "2025-07-28T09:34:26Z",
+            "author": {
+              "login": "WardDeb"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakePipes/shared/profiles/snakepipes_genericprofile/config.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/WGBS.snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1104,
+            "title": "fix ",
+            "state": "MERGED",
+            "createdAt": "2025-06-23T12:28:40Z",
+            "mergedAt": "2025-06-24T09:03:40Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakePipes/workflows/createIndices/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1101,
+            "title": "added smRNAseq workflow",
+            "state": "OPEN",
+            "createdAt": "2025-05-19T12:16:49Z",
+            "mergedAt": null,
+            "author": {
+              "login": "NavandarM"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".ci_stuff/organism.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "snakePipes/common_functions.py"
+                },
+                {
+                  "path": "snakePipes/shared/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/organisms/mm10_gencodeM19.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/profiles/snakepipes_genericprofile/config.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/TESMALL.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/envs/smrna.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/smRNA_trimming.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/smRNAseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/smRNAseq/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/smRNAseq/internals.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/smRNAseq/reads_adapters_set.fasta"
+                },
+                {
+                  "path": "snakePipes/workflows/smRNAseq/smRNAseq.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1100,
+            "title": "HiC allow for two enzymes",
+            "state": "MERGED",
+            "createdAt": "2025-05-15T13:11:36Z",
+            "mergedAt": "2025-05-16T07:53:10Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".ci_stuff/test_dag.sh"
+                },
+                {
+                  "path": "conda-recipe/meta.yaml"
+                },
+                {
+                  "path": "docs/content/News.rst"
+                },
+                {
+                  "path": "docs/content/workflows/HiC.rst"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/hicexplorer.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/HiC/HiC.py"
+                },
+                {
+                  "path": "snakePipes/workflows/HiC/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/HiC/internals.snakefile"
+                },
+                {
+                  "path": "tests/test_jobcounts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 1093
+                }
+              ]
+            }
+          },
+          {
+            "number": 1099,
+            "title": "Ks lrt",
+            "state": "MERGED",
+            "createdAt": "2025-04-25T11:28:51Z",
+            "mergedAt": "2025-05-09T12:32:37Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".ci_stuff/test_dag.sh"
+                },
+                {
+                  "path": "snakePipes/shared/rscripts/DESeq2.R"
+                },
+                {
+                  "path": "snakePipes/shared/rscripts/DE_functions.R"
+                },
+                {
+                  "path": "snakePipes/shared/rules/DESeq2.multipleComp.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/DESeq2.singleComp.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/mRNAseq.py"
+                },
+                {
+                  "path": "tests/test_jobcounts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1096,
+            "title": "Develop",
+            "state": "MERGED",
+            "createdAt": "2025-04-14T10:54:47Z",
+            "mergedAt": "2025-04-14T12:02:43Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".ci_stuff/test_dag.sh"
+                },
+                {
+                  "path": "conda-recipe/meta.yaml"
+                },
+                {
+                  "path": "docs/content/News.rst"
+                },
+                {
+                  "path": "docs/content/workflows/ChIPseq.rst"
+                },
+                {
+                  "path": "docs/content/workflows/mRNAseq.rst"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "snakePipes/common_functions.py"
+                },
+                {
+                  "path": "snakePipes/shared/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/organisms/GRCh38_gencode40.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/profiles/local/config.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/profiles/snakepipes_genericprofile/config.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rscripts/CSAW.R"
+                },
+                {
+                  "path": "snakePipes/shared/rscripts/DB_functions.R"
+                },
+                {
+                  "path": "snakePipes/shared/rscripts/chipqc.R"
+                },
+                {
+                  "path": "snakePipes/shared/rscripts/clean_histoneHMM_result.R"
+                },
+                {
+                  "path": "snakePipes/shared/rscripts/sleuth.R"
+                },
+                {
+                  "path": "snakePipes/shared/rules/CSAW.multiComp.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/CSAW.singleComp.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/ChIP_peak_calling.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/ChIP_peak_calling_spikein.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/DESeq2.multipleComp.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/DESeq2.singleComp.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/LinkBam.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/SNPsplit.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/Salmon.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/WGBS.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/bam_filtering.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/createIndices.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/deepTools_qc.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/envs/chipqc.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/envs/picard.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/envs/shared.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/envs/sleuth.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/envs/whatshap.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/histoneHMM.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/masked_genomeIndex.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/multiQC.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/pairtools.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/sambamba.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/scRNAseq_STARsolo.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/three_prime_seq.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/umi_tools.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/whatshap.snakefile"
+                },
+                {
+                  "path": "snakePipes/snakePipes.py"
+                },
+                {
+                  "path": "snakePipes/workflows/ChIPseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/ChIPseq/internals.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/DNAmapping/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/WGBS/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/WGBS/internals.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/internals.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/mRNAseq.py"
+                },
+                {
+                  "path": "snakePipes/workflows/scRNAseq/Snakefile"
+                },
+                {
+                  "path": "tests/test_jobcounts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1095,
+            "title": "chipqc",
+            "state": "MERGED",
+            "createdAt": "2025-04-11T11:46:59Z",
+            "mergedAt": "2025-04-14T10:37:12Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".ci_stuff/test_dag.sh"
+                },
+                {
+                  "path": "conda-recipe/meta.yaml"
+                },
+                {
+                  "path": "docs/content/News.rst"
+                },
+                {
+                  "path": "docs/content/workflows/ChIPseq.rst"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "snakePipes/common_functions.py"
+                },
+                {
+                  "path": "snakePipes/shared/rscripts/CSAW.R"
+                },
+                {
+                  "path": "snakePipes/shared/rscripts/chipqc.R"
+                },
+                {
+                  "path": "snakePipes/shared/rscripts/clean_histoneHMM_result.R"
+                },
+                {
+                  "path": "snakePipes/shared/rules/ChIP_peak_calling.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/ChIP_peak_calling_spikein.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/DESeq2.multipleComp.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/envs/chipqc.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/histoneHMM.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/ChIPseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/ChIPseq/internals.snakefile"
+                },
+                {
+                  "path": "tests/test_jobcounts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1092,
+            "title": "mqc pairtools force for reruns",
+            "state": "MERGED",
+            "createdAt": "2025-02-06T09:04:02Z",
+            "mergedAt": "2025-02-06T09:30:11Z",
+            "author": {
+              "login": "WardDeb"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakePipes/shared/rules/pairtools.snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1090,
+            "title": "Fixes tested live",
+            "state": "MERGED",
+            "createdAt": "2025-01-21T14:31:23Z",
+            "mergedAt": "2025-01-27T12:09:45Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".ci_stuff/test_dag.sh"
+                },
+                {
+                  "path": "conda-recipe/meta.yaml"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "snakePipes/common_functions.py"
+                },
+                {
+                  "path": "snakePipes/shared/organisms/GRCh38_gencode40.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/profiles/local/config.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/profiles/snakepipes_genericprofile/config.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/WGBS.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/createIndices.snakefile"
+                },
+                {
+                  "path": "snakePipes/snakePipes.py"
+                },
+                {
+                  "path": "snakePipes/workflows/ChIPseq/internals.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/WGBS/Snakefile"
+                },
+                {
+                  "path": "tests/test_jobcounts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1089,
+            "title": "Cluster nodes",
+            "state": "MERGED",
+            "createdAt": "2025-01-15T08:53:32Z",
+            "mergedAt": "2025-04-11T11:46:17Z",
+            "author": {
+              "login": "caballero"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakePipes/shared/profiles/snakepipes_genericprofile/config.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1088,
+            "title": "Issue fixes",
+            "state": "MERGED",
+            "createdAt": "2025-01-14T13:01:12Z",
+            "mergedAt": "2025-01-20T08:34:02Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".ci_stuff/test_dag.sh"
+                },
+                {
+                  "path": "docs/content/News.rst"
+                },
+                {
+                  "path": "docs/content/workflows/mRNAseq.rst"
+                },
+                {
+                  "path": "snakePipes/common_functions.py"
+                },
+                {
+                  "path": "snakePipes/shared/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/WGBS.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/createIndices.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/envs/picard.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/multiQC.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/scRNAseq_STARsolo.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/whatshap.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/WGBS/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/internals.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/scRNAseq/Snakefile"
+                },
+                {
+                  "path": "tests/test_jobcounts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1086,
+            "title": "Whatshap allelic",
+            "state": "MERGED",
+            "createdAt": "2025-01-13T10:02:23Z",
+            "mergedAt": "2025-01-13T10:29:54Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".ci_stuff/test_dag.sh"
+                },
+                {
+                  "path": "docs/content/News.rst"
+                },
+                {
+                  "path": "docs/content/workflows/mRNAseq.rst"
+                },
+                {
+                  "path": "snakePipes/common_functions.py"
+                },
+                {
+                  "path": "snakePipes/shared/rules/DESeq2.singleComp.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/LinkBam.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/envs/whatshap.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/multiQC.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/whatshap.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/internals.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/mRNAseq.py"
+                },
+                {
+                  "path": "tests/test_jobcounts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1080,
+            "title": "bowtie2 build fix",
+            "state": "MERGED",
+            "createdAt": "2024-11-15T10:44:54Z",
+            "mergedAt": "2024-12-20T12:55:34Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".ci_stuff/test_dag.sh"
+                },
+                {
+                  "path": "snakePipes/shared/profiles/local/config.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rscripts/DB_functions.R"
+                },
+                {
+                  "path": "snakePipes/shared/rscripts/sleuth.R"
+                },
+                {
+                  "path": "snakePipes/shared/rules/CSAW.multiComp.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/CSAW.singleComp.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/DESeq2.singleComp.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/LinkBam.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/SNPsplit.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/Salmon.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/WGBS.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/bam_filtering.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/deepTools_qc.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/envs/sleuth.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/masked_genomeIndex.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/multiQC.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/sambamba.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/scRNAseq_STARsolo.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/three_prime_seq.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/umi_tools.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/ChIPseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/DNAmapping/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/WGBS/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/WGBS/internals.snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/internals.snakefile"
+                },
+                {
+                  "path": "tests/test_jobcounts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1074,
+            "title": "bump mqc in sharedenv to .25",
+            "state": "MERGED",
+            "createdAt": "2024-10-28T09:18:03Z",
+            "mergedAt": "2024-10-28T10:15:27Z",
+            "author": {
+              "login": "WardDeb"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakePipes/shared/rules/envs/shared.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1073,
+            "title": "3.1.0",
+            "state": "MERGED",
+            "createdAt": "2024-10-22T13:00:07Z",
+            "mergedAt": "2024-10-22T14:27:02Z",
+            "author": {
+              "login": "WardDeb"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".ci_stuff/test_dag.sh"
+                },
+                {
+                  "path": ".github/workflows/linux.yml"
+                },
+                {
+                  "path": ".github/workflows/osx.yml"
+                },
+                {
+                  "path": "conda-recipe/meta.yaml"
+                },
+                {
+                  "path": "docs/conf.py"
+                },
+                {
+                  "path": "docs/content/News.rst"
+                },
+                {
+                  "path": "docs/content/setting_up.rst"
+                },
+                {
+                  "path": "docs/content/workflows/makePairs.rst"
+                },
+                {
+                  "path": "docs/index.rst"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "snakePipes/common_functions.py"
+                },
+                {
+                  "path": "snakePipes/parserCommon.py"
+                },
+                {
+                  "path": "snakePipes/shared/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/ChIP_peak_calling.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/FASTQ.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/envs/fqlint.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/envs/makePairs.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/envs/shared.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/masked_genomeIndex.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/pairtools.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/pairtools_allelic.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/split_bam_ops_ChIP_spikein.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/umi_tools.snakefile"
+                },
+                {
+                  "path": "snakePipes/snakePipes.py"
+                },
+                {
+                  "path": "snakePipes/workflows/DNAmapping/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/createIndices/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/createIndices/createIndices.py"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/makePairs/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/makePairs/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/makePairs/internals.snakefile"
+                },
+                {
+                  "path": "tests/test_jobcounts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1072,
+            "title": "Create indices orgyamls",
+            "state": "MERGED",
+            "createdAt": "2024-10-22T12:15:52Z",
+            "mergedAt": "2024-10-22T12:59:26Z",
+            "author": {
+              "login": "WardDeb"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/linux.yml"
+                },
+                {
+                  "path": ".github/workflows/osx.yml"
+                },
+                {
+                  "path": "docs/content/News.rst"
+                },
+                {
+                  "path": "snakePipes/common_functions.py"
+                },
+                {
+                  "path": "snakePipes/shared/rules/FASTQ.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/envs/fqlint.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/envs/shared.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/createIndices/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/createIndices/createIndices.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1067,
+            "title": "Pairtools merge",
+            "state": "MERGED",
+            "createdAt": "2024-10-09T15:43:56Z",
+            "mergedAt": "2024-10-11T07:32:31Z",
+            "author": {
+              "login": "WardDeb"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/linux.yml"
+                },
+                {
+                  "path": ".github/workflows/osx.yml"
+                },
+                {
+                  "path": "conda-recipe/meta.yaml"
+                },
+                {
+                  "path": "docs/conf.py"
+                },
+                {
+                  "path": "docs/content/News.rst"
+                },
+                {
+                  "path": "docs/content/workflows/makePairs.rst"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "snakePipes/parserCommon.py"
+                },
+                {
+                  "path": "snakePipes/shared/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/envs/makePairs.yaml"
+                },
+                {
+                  "path": "snakePipes/shared/rules/pairtools.snakefile"
+                },
+                {
+                  "path": "snakePipes/shared/rules/pairtools_allelic.snakefile"
+                },
+                {
+                  "path": "snakePipes/snakePipes.py"
+                },
+                {
+                  "path": "snakePipes/workflows/makePairs/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/makePairs/defaults.yaml"
+                },
+                {
+                  "path": "snakePipes/workflows/makePairs/internals.snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1064,
+            "title": "capturing sambamba/markdup log for MultiQC report",
+            "state": "OPEN",
+            "createdAt": "2024-09-26T08:49:59Z",
+            "mergedAt": null,
+            "author": {
+              "login": "caballero"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakePipes/shared/rules/sambamba.snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1059,
+            "title": "drop log as omitted by profile",
+            "state": "MERGED",
+            "createdAt": "2024-09-23T13:25:16Z",
+            "mergedAt": "2024-09-26T08:25:14Z",
+            "author": {
+              "login": "WardDeb"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakePipes/shared/rules/split_bam_ops_ChIP_spikein.snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1055,
+            "title": "docs",
+            "state": "MERGED",
+            "createdAt": "2024-09-10T10:17:05Z",
+            "mergedAt": "2024-09-10T10:28:11Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/content/setting_up.rst"
+                },
+                {
+                  "path": "docs/index.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1054,
+            "title": "Fix 1049 and 1009",
+            "state": "MERGED",
+            "createdAt": "2024-09-10T09:51:19Z",
+            "mergedAt": "2024-09-10T10:09:02Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakePipes/snakePipes.py"
+                },
+                {
+                  "path": "snakePipes/workflows/DNAmapping/Snakefile"
+                },
+                {
+                  "path": "snakePipes/workflows/mRNAseq/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1052,
+            "title": "fix 1025",
+            "state": "MERGED",
+            "createdAt": "2024-09-09T12:23:38Z",
+            "mergedAt": "2024-09-09T12:36:17Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakePipes/shared/rules/ChIP_peak_calling.snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1047,
+            "title": "fix 1023",
+            "state": "MERGED",
+            "createdAt": "2024-09-05T13:06:28Z",
+            "mergedAt": "2024-09-05T13:06:42Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".ci_stuff/test_dag.sh"
+                },
+                {
+                  "path": "snakePipes/shared/rules/umi_tools.snakefile"
+                },
+                {
+                  "path": "tests/test_jobcounts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1046,
+            "title": "Fix CI test",
+            "state": "MERGED",
+            "createdAt": "2024-09-05T11:35:25Z",
+            "mergedAt": "2024-09-05T11:47:15Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".ci_stuff/test_dag.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1043,
+            "title": "Dev ks",
+            "state": "MERGED",
+            "createdAt": "2024-08-20T10:01:00Z",
+            "mergedAt": "2024-08-20T10:17:04Z",
+            "author": {
+              "login": "katsikora"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakePipes/shared/rules/envs/shared.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

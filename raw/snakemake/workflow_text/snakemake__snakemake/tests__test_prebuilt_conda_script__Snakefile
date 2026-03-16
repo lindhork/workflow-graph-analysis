@@ -1,0 +1,11 @@
+rule all:
+    input:
+        'output.txt'
+
+rule test_prebuilt_conda_script:
+    output:
+        'output.txt'
+    conda:
+        'test_prebuilt_conda_script'
+    shell:
+        "Tm -h > {output} || true"

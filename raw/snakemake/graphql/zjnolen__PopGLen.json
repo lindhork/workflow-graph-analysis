@@ -1,0 +1,2865 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 72,
+            "title": "Workflow fails on local combine rules with many inputs (likely path or command length limit)",
+            "state": "CLOSED",
+            "createdAt": "2026-02-16T10:53:03Z",
+            "closedAt": "2026-03-03T12:18:09Z",
+            "author": {
+              "login": "Lunareyy"
+            }
+          },
+          {
+            "number": 71,
+            "title": "Default mem_mb not applied",
+            "state": "CLOSED",
+            "createdAt": "2026-02-01T14:43:54Z",
+            "closedAt": "2026-02-16T13:44:45Z",
+            "author": {
+              "login": "Lunareyy"
+            }
+          },
+          {
+            "number": 70,
+            "title": "Question about extreme depth filter",
+            "state": "CLOSED",
+            "createdAt": "2026-01-23T10:20:20Z",
+            "closedAt": "2026-01-26T15:49:46Z",
+            "author": {
+              "login": "abbyevewilliams"
+            }
+          },
+          {
+            "number": 68,
+            "title": "Single-end read compatibility",
+            "state": "OPEN",
+            "createdAt": "2025-12-04T07:56:45Z",
+            "closedAt": null,
+            "author": {
+              "login": "LBWitt"
+            }
+          },
+          {
+            "number": 66,
+            "title": "ngsF-HMM error",
+            "state": "CLOSED",
+            "createdAt": "2025-11-21T12:54:56Z",
+            "closedAt": "2026-01-08T13:37:39Z",
+            "author": {
+              "login": "katiemcma"
+            }
+          },
+          {
+            "number": 63,
+            "title": "Missing inputs",
+            "state": "CLOSED",
+            "createdAt": "2025-10-20T15:03:46Z",
+            "closedAt": "2025-10-23T11:30:43Z",
+            "author": {
+              "login": "DaniEstevezBarcia"
+            }
+          },
+          {
+            "number": 62,
+            "title": "Wildcards in config.yaml for exclusion of contigs",
+            "state": "OPEN",
+            "createdAt": "2025-10-17T15:38:21Z",
+            "closedAt": null,
+            "author": {
+              "login": "DaniEstevezBarcia"
+            }
+          },
+          {
+            "number": 61,
+            "title": "Possibility to merge when a same sample is sequenced in multiple lanes?",
+            "state": "CLOSED",
+            "createdAt": "2025-10-14T21:32:43Z",
+            "closedAt": "2025-10-15T19:59:02Z",
+            "author": {
+              "login": "DaniEstevezBarcia"
+            }
+          },
+          {
+            "number": 59,
+            "title": "PopGLen failure on SLURM cluster",
+            "state": "OPEN",
+            "createdAt": "2025-05-30T14:32:59Z",
+            "closedAt": null,
+            "author": {
+              "login": "cjfields"
+            }
+          },
+          {
+            "number": 58,
+            "title": "LD pruning run time",
+            "state": "OPEN",
+            "createdAt": "2025-03-12T09:17:11Z",
+            "closedAt": null,
+            "author": {
+              "login": "abbyevewilliams"
+            }
+          },
+          {
+            "number": 57,
+            "title": "Integrate Dsuite?",
+            "state": "CLOSED",
+            "createdAt": "2025-03-04T11:59:01Z",
+            "closedAt": "2025-03-12T08:50:41Z",
+            "author": {
+              "login": "abbyevewilliams"
+            }
+          },
+          {
+            "number": 49,
+            "title": "Make pruning optional for NGSrelate and enable allele frequency based coefficients",
+            "state": "CLOSED",
+            "createdAt": "2024-09-13T15:48:23Z",
+            "closedAt": "2024-10-23T12:47:43Z",
+            "author": {
+              "login": "zjnolen"
+            }
+          },
+          {
+            "number": 48,
+            "title": "Bug: Changing samples.tsv order triggers poplist remake, but not bamlist, leading to incorrect association of sample indices",
+            "state": "CLOSED",
+            "createdAt": "2024-09-13T15:28:47Z",
+            "closedAt": "2024-09-30T16:00:27Z",
+            "author": {
+              "login": "zjnolen"
+            }
+          },
+          {
+            "number": 43,
+            "title": "Add in IBS to reference analysis",
+            "state": "CLOSED",
+            "createdAt": "2024-06-15T12:34:18Z",
+            "closedAt": "2024-09-24T09:14:46Z",
+            "author": {
+              "login": "zjnolen"
+            }
+          },
+          {
+            "number": 42,
+            "title": "Parallelize IBSrelate (ibs version) to reduce memory usage",
+            "state": "OPEN",
+            "createdAt": "2024-06-12T13:43:17Z",
+            "closedAt": null,
+            "author": {
+              "login": "zjnolen"
+            }
+          },
+          {
+            "number": 41,
+            "title": "Add plotting for IBSrelate results",
+            "state": "OPEN",
+            "createdAt": "2024-06-12T13:42:21Z",
+            "closedAt": null,
+            "author": {
+              "login": "zjnolen"
+            }
+          },
+          {
+            "number": 33,
+            "title": "Add ability to bootstrap SFS",
+            "state": "CLOSED",
+            "createdAt": "2024-02-14T11:21:57Z",
+            "closedAt": "2024-09-24T09:14:57Z",
+            "author": {
+              "login": "zjnolen"
+            }
+          },
+          {
+            "number": 29,
+            "title": "Replace prune_ngsLD.py with prune_graph",
+            "state": "CLOSED",
+            "createdAt": "2024-02-09T16:26:15Z",
+            "closedAt": "2024-09-24T09:15:04Z",
+            "author": {
+              "login": "zjnolen"
+            }
+          },
+          {
+            "number": 28,
+            "title": "Make pruning to a specific amount possible for ngsF-HMM",
+            "state": "CLOSED",
+            "createdAt": "2024-02-09T16:25:10Z",
+            "closedAt": "2024-09-24T09:15:10Z",
+            "author": {
+              "login": "zjnolen"
+            }
+          },
+          {
+            "number": 27,
+            "title": "Allow polarizing allele frequencies to ancestral state",
+            "state": "CLOSED",
+            "createdAt": "2024-02-09T16:21:51Z",
+            "closedAt": "2024-09-24T09:15:16Z",
+            "author": {
+              "login": "zjnolen"
+            }
+          },
+          {
+            "number": 16,
+            "title": "Allow per population pruning settings",
+            "state": "CLOSED",
+            "createdAt": "2023-11-07T09:57:12Z",
+            "closedAt": "2024-02-09T16:25:23Z",
+            "author": {
+              "login": "zjnolen"
+            }
+          },
+          {
+            "number": 14,
+            "title": "Add IBSrelate IBS method",
+            "state": "CLOSED",
+            "createdAt": "2023-10-23T09:36:48Z",
+            "closedAt": "2023-10-23T11:22:07Z",
+            "author": {
+              "login": "zjnolen"
+            }
+          },
+          {
+            "number": 5,
+            "title": "Allow processing of multiple sequencing runs per sample",
+            "state": "CLOSED",
+            "createdAt": "2023-08-18T11:23:33Z",
+            "closedAt": "2023-09-14T08:56:31Z",
+            "author": {
+              "login": "zjnolen"
+            }
+          },
+          {
+            "number": 4,
+            "title": "Processed bam as initial input",
+            "state": "CLOSED",
+            "createdAt": "2023-08-18T11:23:10Z",
+            "closedAt": "2024-01-12T19:19:44Z",
+            "author": {
+              "login": "zjnolen"
+            }
+          },
+          {
+            "number": 2,
+            "title": "Subsample depth",
+            "state": "CLOSED",
+            "createdAt": "2023-08-15T13:33:02Z",
+            "closedAt": "2024-02-12T10:46:29Z",
+            "author": {
+              "login": "zjnolen"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 75,
+            "title": "Allow dispatching tests action",
+            "state": "MERGED",
+            "createdAt": "2026-03-03T16:22:11Z",
+            "mergedAt": "2026-03-03T16:42:36Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 74,
+            "title": "Fix: Fix ngsF-HMM failing in GH Actions (action configuration problem, works fine otherwise)",
+            "state": "OPEN",
+            "createdAt": "2026-03-03T13:04:05Z",
+            "mergedAt": null,
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 73,
+            "title": "Fix rules that combine sample outputs failing when dataset has a large number of samples",
+            "state": "MERGED",
+            "createdAt": "2026-02-16T16:00:56Z",
+            "mergedAt": "2026-03-03T12:18:08Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": "environment.yaml"
+                },
+                {
+                  "path": "workflow/rules/2.1_sample_qc.smk"
+                },
+                {
+                  "path": "workflow/rules/3.0_genotype_likelihoods.smk"
+                },
+                {
+                  "path": "workflow/rules/5.0_relatedness.smk"
+                },
+                {
+                  "path": "workflow/rules/7.2_fst.smk"
+                },
+                {
+                  "path": "workflow/scripts/concat_files.py"
+                },
+                {
+                  "path": "workflow/scripts/make_bamlist.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 72
+                }
+              ]
+            }
+          },
+          {
+            "number": 69,
+            "title": "fix: Prevent reference chunking failures when contigs have bash characters (e.g. pipes)",
+            "state": "MERGED",
+            "createdAt": "2026-01-08T13:34:32Z",
+            "mergedAt": "2026-01-12T08:43:27Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/badexample-filt.bed"
+                },
+                {
+                  "path": ".test/config/example-filt.bed"
+                },
+                {
+                  "path": ".test/data/bam/mod2.bam"
+                },
+                {
+                  "path": ".test/data/ref/testref.fa"
+                },
+                {
+                  "path": "docs/config.md"
+                },
+                {
+                  "path": "workflow/rules/0.1_ref_prep.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 67,
+            "title": "fix: Beagle files retain site order when pruned",
+            "state": "MERGED",
+            "createdAt": "2025-12-03T08:39:38Z",
+            "mergedAt": "2026-01-08T13:28:08Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/4.1_linkage_pruning.smk"
+                },
+                {
+                  "path": "workflow/scripts/prune_beagle.py"
+                },
+                {
+                  "path": "workflow/scripts/prune_ngsLD.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 65,
+            "title": "Small doc updates",
+            "state": "MERGED",
+            "createdAt": "2025-10-23T07:24:37Z",
+            "mergedAt": "2025-10-23T07:24:52Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/cluster-execution.md"
+                },
+                {
+                  "path": "docs/getting-started.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 64,
+            "title": "fix: allow decimal values for subsampled depth targets",
+            "state": "MERGED",
+            "createdAt": "2025-10-22T14:11:21Z",
+            "mergedAt": "2025-10-23T08:54:28Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/2.0_mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 63
+                }
+              ]
+            }
+          },
+          {
+            "number": 60,
+            "title": "[WIP] Add functionality to get repeat bed from softmasked genome",
+            "state": "CLOSED",
+            "createdAt": "2025-10-08T15:16:11Z",
+            "mergedAt": null,
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": []
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 56,
+            "title": "Separate extra params for paired and merged fastp processing",
+            "state": "OPEN",
+            "createdAt": "2025-02-16T11:02:15Z",
+            "mergedAt": null,
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/1.0_preprocessing.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 55,
+            "title": "Add docs on how to extend PopGLen to add or replace analyses",
+            "state": "MERGED",
+            "createdAt": "2025-02-11T16:31:47Z",
+            "mergedAt": "2025-02-11T16:32:14Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/extending-workflows.md"
+                },
+                {
+                  "path": "docs/images/pca-docov.png"
+                },
+                {
+                  "path": "docs/index.md"
+                },
+                {
+                  "path": "mkdocs.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 54,
+            "title": "Fix: Pass memory resources to qualimap",
+            "state": "MERGED",
+            "createdAt": "2025-01-20T13:21:05Z",
+            "mergedAt": "2025-01-20T14:50:25Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/2.1_sample_qc.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 53,
+            "title": "Fix: Only use first white-space separated entry in contig name",
+            "state": "MERGED",
+            "createdAt": "2025-01-20T10:44:00Z",
+            "mergedAt": "2025-01-20T13:19:01Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/data/ref/testref.fa"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 52,
+            "title": "Add in frequency based functionalities of NgsRelate (and add allele frequencies as a targeted output as a byproduct)",
+            "state": "MERGED",
+            "createdAt": "2024-09-30T09:38:01Z",
+            "mergedAt": "2024-10-01T13:00:14Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "docs/config.md"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/3.2_beagles.smk"
+                },
+                {
+                  "path": "workflow/rules/3.3_mafs.smk"
+                },
+                {
+                  "path": "workflow/rules/5.0_relatedness.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 51,
+            "title": "Fix: Make it so that bamlist generation is re-run if sample order changes, keeping meta-data consistent",
+            "state": "MERGED",
+            "createdAt": "2024-09-30T09:10:25Z",
+            "mergedAt": "2024-09-30T16:00:18Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/3.0_genotype_likelihoods.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 50,
+            "title": "Prepare v0.4.0",
+            "state": "MERGED",
+            "createdAt": "2024-09-27T13:43:44Z",
+            "mergedAt": "2024-11-04T14:02:26Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/cluster.yaml"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "docs/cluster-execution.md"
+                },
+                {
+                  "path": "docs/config-cheat.md"
+                },
+                {
+                  "path": "docs/config.md"
+                },
+                {
+                  "path": "docs/files/samples.tsv"
+                },
+                {
+                  "path": "docs/files/units.tsv"
+                },
+                {
+                  "path": "docs/files/units_bams.tsv"
+                },
+                {
+                  "path": "docs/getting-started.md"
+                },
+                {
+                  "path": "docs/high-memory-rules.md"
+                },
+                {
+                  "path": "docs/images/admix-full.png"
+                },
+                {
+                  "path": "docs/images/admix.png"
+                },
+                {
+                  "path": "docs/images/depth-het.png"
+                },
+                {
+                  "path": "docs/images/evaladmix-full.png"
+                },
+                {
+                  "path": "docs/images/evaladmix.png"
+                },
+                {
+                  "path": "docs/images/froh-full.png"
+                },
+                {
+                  "path": "docs/images/froh-reg.png"
+                },
+                {
+                  "path": "docs/images/froh.png"
+                },
+                {
+                  "path": "docs/images/fst.png"
+                },
+                {
+                  "path": "docs/images/heterozygosity.png"
+                },
+                {
+                  "path": "docs/images/ld-decay-all.png"
+                },
+                {
+                  "path": "docs/images/ld-decay-pop.png"
+                },
+                {
+                  "path": "docs/images/nrmse.png"
+                },
+                {
+                  "path": "docs/images/pca-full.png"
+                },
+                {
+                  "path": "docs/images/pca-norel.png"
+                },
+                {
+                  "path": "docs/images/pca.png"
+                },
+                {
+                  "path": "docs/images/ref-bias.png"
+                },
+                {
+                  "path": "docs/images/relatedness.png"
+                },
+                {
+                  "path": "docs/images/site-filt-basic.png"
+                },
+                {
+                  "path": "docs/images/site-filt-full.png"
+                },
+                {
+                  "path": "docs/images/theta-table.png"
+                },
+                {
+                  "path": "docs/images/thetas.png"
+                },
+                {
+                  "path": "docs/images/workflow.png"
+                },
+                {
+                  "path": "docs/images/workflow.svg"
+                },
+                {
+                  "path": "docs/index.md"
+                },
+                {
+                  "path": "docs/outfile-summ.md"
+                },
+                {
+                  "path": "docs/resources.md"
+                },
+                {
+                  "path": "docs/tutorial.md"
+                },
+                {
+                  "path": "environment.yaml"
+                },
+                {
+                  "path": "images/rulegraph.svg"
+                },
+                {
+                  "path": "mkdocs.yml"
+                },
+                {
+                  "path": "profiles/dardel/README.md"
+                },
+                {
+                  "path": "profiles/dardel/config.v8+.yaml"
+                },
+                {
+                  "path": "profiles/default/config.yaml"
+                },
+                {
+                  "path": "rackham/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/dedup.yaml"
+                },
+                {
+                  "path": "workflow/envs/r-rectable.yaml"
+                },
+                {
+                  "path": "workflow/envs/r.yaml"
+                },
+                {
+                  "path": "workflow/envs/repeatmasker.yaml"
+                },
+                {
+                  "path": "workflow/rules/0.1_ref_prep.smk"
+                },
+                {
+                  "path": "workflow/rules/0.2_ref_filt.smk"
+                },
+                {
+                  "path": "workflow/rules/1.0_preprocessing.smk"
+                },
+                {
+                  "path": "workflow/rules/2.0_mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/2.1_sample_qc.smk"
+                },
+                {
+                  "path": "workflow/rules/2.2_dna_damage.smk"
+                },
+                {
+                  "path": "workflow/rules/3.0_genotype_likelihoods.smk"
+                },
+                {
+                  "path": "workflow/rules/3.1_safs.smk"
+                },
+                {
+                  "path": "workflow/rules/3.2_beagles.smk"
+                },
+                {
+                  "path": "workflow/rules/3.3_mafs.smk"
+                },
+                {
+                  "path": "workflow/rules/4.0_estimate_LD.smk"
+                },
+                {
+                  "path": "workflow/rules/4.1_linkage_pruning.smk"
+                },
+                {
+                  "path": "workflow/rules/4.2_linkage_decay.smk"
+                },
+                {
+                  "path": "workflow/rules/5.0_relatedness.smk"
+                },
+                {
+                  "path": "workflow/rules/6.0_pca.smk"
+                },
+                {
+                  "path": "workflow/rules/6.1_admixture.smk"
+                },
+                {
+                  "path": "workflow/rules/7.0_SFS.smk"
+                },
+                {
+                  "path": "workflow/rules/7.1_thetas.smk"
+                },
+                {
+                  "path": "workflow/rules/7.2_fst.smk"
+                },
+                {
+                  "path": "workflow/rules/7.3_heterozygosity.smk"
+                },
+                {
+                  "path": "workflow/rules/8.0_inbreeding.smk"
+                },
+                {
+                  "path": "workflow/rules/9.0_IBS.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/calc_depth.R"
+                },
+                {
+                  "path": "workflow/scripts/calc_endocont.sh"
+                },
+                {
+                  "path": "workflow/scripts/depth_extremes.R"
+                },
+                {
+                  "path": "workflow/scripts/ngsF-HMM.sh"
+                },
+                {
+                  "path": "workflow/scripts/ngsadmix.sh"
+                },
+                {
+                  "path": "workflow/scripts/plot_Froh.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_PCA.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_admix.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_evaladmix.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_fst.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_heterozygosity.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_ref_bias.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_thetas.R"
+                },
+                {
+                  "path": "workflow/scripts/tsv2html.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 47,
+            "title": "Containerize all rules and use as minimal containers as possible",
+            "state": "MERGED",
+            "createdAt": "2024-08-20T15:14:06Z",
+            "mergedAt": "2024-09-27T13:43:18Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "environment.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/dedup.yaml"
+                },
+                {
+                  "path": "workflow/rules/0.1_ref_prep.smk"
+                },
+                {
+                  "path": "workflow/rules/0.2_ref_filt.smk"
+                },
+                {
+                  "path": "workflow/rules/1.0_preprocessing.smk"
+                },
+                {
+                  "path": "workflow/rules/2.0_mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/2.1_sample_qc.smk"
+                },
+                {
+                  "path": "workflow/rules/2.2_dna_damage.smk"
+                },
+                {
+                  "path": "workflow/rules/3.0_genotype_likelihoods.smk"
+                },
+                {
+                  "path": "workflow/rules/3.2_beagles.smk"
+                },
+                {
+                  "path": "workflow/rules/4.0_estimate_LD.smk"
+                },
+                {
+                  "path": "workflow/rules/4.1_linkage_pruning.smk"
+                },
+                {
+                  "path": "workflow/rules/4.2_linkage_decay.smk"
+                },
+                {
+                  "path": "workflow/rules/5.0_relatedness.smk"
+                },
+                {
+                  "path": "workflow/rules/6.0_pca.smk"
+                },
+                {
+                  "path": "workflow/rules/6.1_admixture.smk"
+                },
+                {
+                  "path": "workflow/rules/7.1_thetas.smk"
+                },
+                {
+                  "path": "workflow/rules/7.2_fst.smk"
+                },
+                {
+                  "path": "workflow/rules/7.3_heterozygosity.smk"
+                },
+                {
+                  "path": "workflow/rules/8.0_inbreeding.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/calc_endocont.sh"
+                },
+                {
+                  "path": "workflow/scripts/ngsF-HMM.sh"
+                },
+                {
+                  "path": "workflow/scripts/ngsadmix.sh"
+                },
+                {
+                  "path": "workflow/scripts/plot_evaladmix.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 46,
+            "title": "Allow multiple target depths for depth subsampling",
+            "state": "MERGED",
+            "createdAt": "2024-07-03T14:38:55Z",
+            "mergedAt": "2024-07-05T11:31:44Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "docs/config.md"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 45,
+            "title": "Make it so IBS based IBSrelate can work sample pairs in parallel",
+            "state": "OPEN",
+            "createdAt": "2024-06-28T14:24:44Z",
+            "mergedAt": null,
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".test/config/samples.tsv"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/config.md"
+                },
+                {
+                  "path": "workflow/rules/5.0_relatedness.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/kinship_ibs.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 44,
+            "title": "Add ref bias calculation",
+            "state": "MERGED",
+            "createdAt": "2024-06-25T12:10:05Z",
+            "mergedAt": "2024-06-25T13:09:30Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "docs/config.md"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/2.1_sample_qc.smk"
+                },
+                {
+                  "path": "workflow/scripts/plot_ref_bias.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 40,
+            "title": "Allow removal of individuals from dataset when subsampling",
+            "state": "MERGED",
+            "createdAt": "2024-04-19T15:40:57Z",
+            "mergedAt": "2024-06-24T09:39:04Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "docs/config.md"
+                },
+                {
+                  "path": "docs/getting-started.md"
+                },
+                {
+                  "path": "docs/index.md"
+                },
+                {
+                  "path": "environment.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/0.2_ref_filt.smk"
+                },
+                {
+                  "path": "workflow/rules/2.0_mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/2.1_sample_qc.smk"
+                },
+                {
+                  "path": "workflow/rules/3.0_genotype_likelihoods.smk"
+                },
+                {
+                  "path": "workflow/rules/3.2_beagles.smk"
+                },
+                {
+                  "path": "workflow/rules/5.0_relatedness.smk"
+                },
+                {
+                  "path": "workflow/rules/6.0_pca.smk"
+                },
+                {
+                  "path": "workflow/rules/6.1_admixture.smk"
+                },
+                {
+                  "path": "workflow/rules/7.0_SFS.smk"
+                },
+                {
+                  "path": "workflow/rules/7.3_heterozygosity.smk"
+                },
+                {
+                  "path": "workflow/rules/8.0_inbreeding.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 39,
+            "title": "Add in ability to remove transitions easily from config",
+            "state": "MERGED",
+            "createdAt": "2024-03-29T14:48:26Z",
+            "mergedAt": "2024-03-29T17:13:07Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "docs/config.md"
+                },
+                {
+                  "path": "workflow/rules/3.1_safs.smk"
+                },
+                {
+                  "path": "workflow/rules/3.2_beagles.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 38,
+            "title": "Allow filtering with -minInd in ANGSD",
+            "state": "MERGED",
+            "createdAt": "2024-03-29T14:20:55Z",
+            "mergedAt": "2024-03-29T17:06:59Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "docs/config.md"
+                },
+                {
+                  "path": "docs/index.md"
+                },
+                {
+                  "path": "workflow/rules/0.2_ref_filt.smk"
+                },
+                {
+                  "path": "workflow/rules/3.1_safs.smk"
+                },
+                {
+                  "path": "workflow/rules/3.2_beagles.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 37,
+            "title": "Fix: Ensure libraries are deduped separately in historical samples",
+            "state": "MERGED",
+            "createdAt": "2024-03-22T15:22:44Z",
+            "mergedAt": "2024-03-29T17:06:42Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/units.tsv"
+                },
+                {
+                  "path": "workflow/rules/2.0_mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/calc_endocont.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 36,
+            "title": "Samtools subsample is done only on reads passing mapQ",
+            "state": "MERGED",
+            "createdAt": "2024-02-23T11:15:10Z",
+            "mergedAt": "2024-02-23T12:34:56Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/2.0_mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/2.1_sample_qc.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 35,
+            "title": "Allow generating bootstrapped SFS. Includes estimating confidence intervals for heterozygosity",
+            "state": "MERGED",
+            "createdAt": "2024-02-15T12:26:11Z",
+            "mergedAt": "2024-02-16T11:05:12Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/7.0_SFS.smk"
+                },
+                {
+                  "path": "workflow/rules/7.3_heterozygosity.smk"
+                },
+                {
+                  "path": "workflow/scripts/plot_heterozygosity.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 34,
+            "title": "ngsF-HMM implementation improvements",
+            "state": "MERGED",
+            "createdAt": "2024-02-14T16:36:25Z",
+            "mergedAt": "2024-02-15T11:05:23Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/4.1_linkage_pruning.smk"
+                },
+                {
+                  "path": "workflow/rules/5.0_relatedness.smk"
+                },
+                {
+                  "path": "workflow/rules/6.0_pca.smk"
+                },
+                {
+                  "path": "workflow/rules/6.1_admixture.smk"
+                },
+                {
+                  "path": "workflow/rules/8.0_inbreeding.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/plot_Froh.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 32,
+            "title": "Enable changing -doMajorMinor and -doMaf in Beagle (and maf file) calculation",
+            "state": "MERGED",
+            "createdAt": "2024-02-14T09:18:45Z",
+            "mergedAt": "2024-02-14T16:25:33Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/3.2_beagles.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 31,
+            "title": "Allow polarizing SFS to ancestral states",
+            "state": "MERGED",
+            "createdAt": "2024-02-13T14:35:03Z",
+            "mergedAt": "2024-02-13T20:03:35Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/0.1_ref_prep.smk"
+                },
+                {
+                  "path": "workflow/rules/3.1_safs.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 30,
+            "title": "Move from prune_ngsLD.py to prune_graph for pruning",
+            "state": "MERGED",
+            "createdAt": "2024-02-13T13:02:23Z",
+            "mergedAt": "2024-02-13T14:35:17Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/4.1_linkage_pruning.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 26,
+            "title": "Enable subsampling to lower depth",
+            "state": "MERGED",
+            "createdAt": "2024-02-09T16:09:40Z",
+            "mergedAt": "2024-02-12T10:46:02Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/2.0_mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/2.1_sample_qc.smk"
+                },
+                {
+                  "path": "workflow/rules/3.1_safs.smk"
+                },
+                {
+                  "path": "workflow/rules/3.2_beagles.smk"
+                },
+                {
+                  "path": "workflow/rules/5.0_relatedness.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 25,
+            "title": "Make it so reads are only collapsed for historical samples",
+            "state": "MERGED",
+            "createdAt": "2024-02-01T17:51:05Z",
+            "mergedAt": "2024-02-02T16:34:38Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/1.0_preprocessing.smk"
+                },
+                {
+                  "path": "workflow/rules/2.0_mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/2.1_sample_qc.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/calc_endocont.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 24,
+            "title": "Enable download of FASTQ files from NCBI/ENA when an SRA accession is supplied",
+            "state": "MERGED",
+            "createdAt": "2024-01-31T12:44:31Z",
+            "mergedAt": "2024-01-31T13:54:11Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".test/config/samples_testSRA.tsv"
+                },
+                {
+                  "path": ".test/config/units.tsv"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/units.tsv"
+                },
+                {
+                  "path": "workflow/rules/1.0_preprocessing.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 23,
+            "title": "Allow user input repeat bed files",
+            "state": "MERGED",
+            "createdAt": "2024-01-17T22:50:06Z",
+            "mergedAt": "2024-01-17T23:24:37Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/0.2_ref_filt.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 22,
+            "title": "Prepare version 0.3.0",
+            "state": "MERGED",
+            "createdAt": "2024-01-12T15:50:08Z",
+            "mergedAt": "2024-09-18T14:05:18Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/devel-docs.yaml"
+                },
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".github/workflows/release-docs.yaml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": ".test/config/samples_testSRA.tsv"
+                },
+                {
+                  "path": ".test/config/units.tsv"
+                },
+                {
+                  "path": ".test/data/bam/mod2.bam"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/units.tsv"
+                },
+                {
+                  "path": "docs/config.md"
+                },
+                {
+                  "path": "docs/getting-started.md"
+                },
+                {
+                  "path": "docs/high-memory-rules.md"
+                },
+                {
+                  "path": "docs/index.md"
+                },
+                {
+                  "path": "docs/tutorial.md"
+                },
+                {
+                  "path": "environment.yaml"
+                },
+                {
+                  "path": "mkdocs.yml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/bamutil.yaml"
+                },
+                {
+                  "path": "workflow/envs/bedops.yaml"
+                },
+                {
+                  "path": "workflow/envs/python.yaml"
+                },
+                {
+                  "path": "workflow/rules/0.1_ref_prep.smk"
+                },
+                {
+                  "path": "workflow/rules/0.2_ref_filt.smk"
+                },
+                {
+                  "path": "workflow/rules/1.0_preprocessing.smk"
+                },
+                {
+                  "path": "workflow/rules/2.0_mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/2.1_sample_qc.smk"
+                },
+                {
+                  "path": "workflow/rules/2.2_dna_damage.smk"
+                },
+                {
+                  "path": "workflow/rules/3.0_genotype_likelihoods.smk"
+                },
+                {
+                  "path": "workflow/rules/3.1_safs.smk"
+                },
+                {
+                  "path": "workflow/rules/3.2_beagles.smk"
+                },
+                {
+                  "path": "workflow/rules/4.1_linkage_pruning.smk"
+                },
+                {
+                  "path": "workflow/rules/4.2_linkage_decay.smk"
+                },
+                {
+                  "path": "workflow/rules/5.0_relatedness.smk"
+                },
+                {
+                  "path": "workflow/rules/6.0_pca.smk"
+                },
+                {
+                  "path": "workflow/rules/6.1_admixture.smk"
+                },
+                {
+                  "path": "workflow/rules/7.0_SFS.smk"
+                },
+                {
+                  "path": "workflow/rules/7.1_thetas.smk"
+                },
+                {
+                  "path": "workflow/rules/7.2_fst.smk"
+                },
+                {
+                  "path": "workflow/rules/7.3_heterozygosity.smk"
+                },
+                {
+                  "path": "workflow/rules/8.0_inbreeding.smk"
+                },
+                {
+                  "path": "workflow/rules/9.0_IBS.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/calc_endocont.sh"
+                },
+                {
+                  "path": "workflow/scripts/depth_extremes.R"
+                },
+                {
+                  "path": "workflow/scripts/kinship_ibs.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_Froh.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_PCA.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_admix.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_evaladmix.Rmd"
+                },
+                {
+                  "path": "workflow/scripts/plot_heterozygosity.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_ref_bias.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 21,
+            "title": "Set up so workflow can start with bam files and only perform popgen analyses",
+            "state": "MERGED",
+            "createdAt": "2024-01-12T15:22:53Z",
+            "mergedAt": "2024-01-12T19:19:14Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": ".test/config/units.tsv"
+                },
+                {
+                  "path": ".test/data/bam/mod2.bam"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/units.tsv"
+                },
+                {
+                  "path": "environment.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/2.0_mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/2.1_sample_qc.smk"
+                },
+                {
+                  "path": "workflow/rules/2.2_dna_damage.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 4
+                }
+              ]
+            }
+          },
+          {
+            "number": 20,
+            "title": "Switch default aligner for historical samples from bwa mem to aln",
+            "state": "MERGED",
+            "createdAt": "2023-12-12T16:12:42Z",
+            "mergedAt": "2024-01-15T09:13:10Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/2.0_mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 19,
+            "title": "Pileup mappability",
+            "state": "MERGED",
+            "createdAt": "2023-12-08T10:24:30Z",
+            "mergedAt": "2023-12-12T16:08:12Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/envs/bedops.yaml"
+                },
+                {
+                  "path": "workflow/rules/0.2_ref_filt.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 18,
+            "title": "Update depth filters",
+            "state": "MERGED",
+            "createdAt": "2023-11-23T12:21:48Z",
+            "mergedAt": "2023-11-24T10:39:39Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/0.2_ref_filt.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/depth_extremes.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 17,
+            "title": "Change overlap clipping method (fgbio -> bamutil)",
+            "state": "MERGED",
+            "createdAt": "2023-11-14T16:07:05Z",
+            "mergedAt": "2023-11-16T14:10:21Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/envs/bamutil.yaml"
+                },
+                {
+                  "path": "workflow/rules/1.0_preprocessing.smk"
+                },
+                {
+                  "path": "workflow/rules/2.0_mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/2.1_sample_qc.smk"
+                },
+                {
+                  "path": "workflow/rules/2.2_dna_damage.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/calc_endocont.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 15,
+            "title": "Add IBSrelate IBS method",
+            "state": "MERGED",
+            "createdAt": "2023-10-23T09:40:36Z",
+            "mergedAt": "2023-10-23T11:20:20Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/5.0_relatedness.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/kinship_ibs.R"
+                },
+                {
+                  "path": "workflow/scripts/kinship_sfs.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 13,
+            "title": "Get ready for 0.2",
+            "state": "MERGED",
+            "createdAt": "2023-09-18T15:56:18Z",
+            "mergedAt": "2023-11-07T09:49:35Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "dag.svg"
+                },
+                {
+                  "path": "images/rulegraph.svg"
+                },
+                {
+                  "path": "rackham/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/0.2_ref_filt.smk"
+                },
+                {
+                  "path": "workflow/rules/1.0_preprocessing.smk"
+                },
+                {
+                  "path": "workflow/rules/2.0_mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/2.1_sample_qc.smk"
+                },
+                {
+                  "path": "workflow/rules/3.0_genotype_likelihoods.smk"
+                },
+                {
+                  "path": "workflow/rules/3.1_safs.smk"
+                },
+                {
+                  "path": "workflow/rules/3.2_beagles.smk"
+                },
+                {
+                  "path": "workflow/rules/4.1_linkage_pruning.smk"
+                },
+                {
+                  "path": "workflow/rules/5.0_relatedness.smk"
+                },
+                {
+                  "path": "workflow/rules/6.0_pca.smk"
+                },
+                {
+                  "path": "workflow/rules/6.1_admixture.smk"
+                },
+                {
+                  "path": "workflow/rules/7.0_SFS.smk"
+                },
+                {
+                  "path": "workflow/rules/8.0_inbreeding.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/depth_extremes.R"
+                },
+                {
+                  "path": "workflow/scripts/kinship_ibs.R"
+                },
+                {
+                  "path": "workflow/scripts/kinship_sfs.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_thetas.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 12,
+            "title": "Calculating GLs on SAF and beagle generation",
+            "state": "MERGED",
+            "createdAt": "2023-09-18T15:37:34Z",
+            "mergedAt": "2023-09-18T15:38:40Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/3.0_genotype_likelihoods.smk"
+                },
+                {
+                  "path": "workflow/rules/3.1_safs.smk"
+                },
+                {
+                  "path": "workflow/rules/3.2_beagles.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 11,
+            "title": "Convert depth filter to be median based",
+            "state": "MERGED",
+            "createdAt": "2023-09-18T13:08:00Z",
+            "mergedAt": "2023-09-18T15:26:46Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/0.2_ref_filt.smk"
+                },
+                {
+                  "path": "workflow/scripts/depth_extremes.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 10,
+            "title": "Merge in full changes for v0.1",
+            "state": "MERGED",
+            "createdAt": "2023-09-14T09:01:49Z",
+            "mergedAt": "2023-09-14T11:06:16Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/units.tsv"
+                },
+                {
+                  "path": ".test/data/fastq/hist1.unit2.r1.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/hist1.unit2.r2.fastq.gz"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/units.tsv"
+                },
+                {
+                  "path": "workflow/envs/fastp.yaml"
+                },
+                {
+                  "path": "workflow/envs/gatk.yaml"
+                },
+                {
+                  "path": "workflow/envs/mapping.yaml"
+                },
+                {
+                  "path": "workflow/envs/picard.yaml"
+                },
+                {
+                  "path": "workflow/envs/qualimap.yaml"
+                },
+                {
+                  "path": "workflow/rules/0.1_ref_prep.smk"
+                },
+                {
+                  "path": "workflow/rules/1.0_preprocessing.smk"
+                },
+                {
+                  "path": "workflow/rules/2.0_mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/2.1_sample_qc.smk"
+                },
+                {
+                  "path": "workflow/rules/2.2_dna_damage.smk"
+                },
+                {
+                  "path": "workflow/rules/3.2_beagles.smk"
+                },
+                {
+                  "path": "workflow/rules/4.0_estimate_LD.smk"
+                },
+                {
+                  "path": "workflow/rules/4.1_linkage_pruning.smk"
+                },
+                {
+                  "path": "workflow/rules/8.0_inbreeding.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/prune_ngsLD.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 9,
+            "title": "Allow processing of multiple sequencing runs per sample",
+            "state": "MERGED",
+            "createdAt": "2023-09-12T21:18:38Z",
+            "mergedAt": "2023-09-14T08:55:52Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/units.tsv"
+                },
+                {
+                  "path": ".test/data/fastq/hist1.unit2.r1.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/hist1.unit2.r2.fastq.gz"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/units.tsv"
+                },
+                {
+                  "path": "workflow/rules/1.0_preprocessing.smk"
+                },
+                {
+                  "path": "workflow/rules/2.0_mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 8,
+            "title": "Migrate to using prune_graph for LD pruning",
+            "state": "MERGED",
+            "createdAt": "2023-08-28T14:08:40Z",
+            "mergedAt": "2023-09-12T11:50:19Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "workflow/rules/4.0_estimate_LD.smk"
+                },
+                {
+                  "path": "workflow/rules/4.1_linkage_pruning.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/prune_ngsLD.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 7,
+            "title": "Performing SNP calling and linkage pruning per pop before ngsF-HMM",
+            "state": "MERGED",
+            "createdAt": "2023-08-25T16:01:49Z",
+            "mergedAt": "2023-08-25T17:23:15Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/3.2_beagles.smk"
+                },
+                {
+                  "path": "workflow/rules/4.1_linkage_pruning.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6,
+            "title": "Convert rules to wrappers where possible",
+            "state": "MERGED",
+            "createdAt": "2023-08-25T15:34:18Z",
+            "mergedAt": "2023-08-25T18:11:23Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/envs/fastp.yaml"
+                },
+                {
+                  "path": "workflow/envs/gatk.yaml"
+                },
+                {
+                  "path": "workflow/envs/mapping.yaml"
+                },
+                {
+                  "path": "workflow/envs/picard.yaml"
+                },
+                {
+                  "path": "workflow/envs/qualimap.yaml"
+                },
+                {
+                  "path": "workflow/rules/0.1_ref_prep.smk"
+                },
+                {
+                  "path": "workflow/rules/1.0_preprocessing.smk"
+                },
+                {
+                  "path": "workflow/rules/2.0_mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/2.1_sample_qc.smk"
+                },
+                {
+                  "path": "workflow/rules/2.2_dna_damage.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3,
+            "title": "Attempt to fix Github actions failing due to space",
+            "state": "MERGED",
+            "createdAt": "2023-08-16T13:45:25Z",
+            "mergedAt": "2023-08-23T15:49:58Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "workflow/rules/3.0_genotype_likelihoods.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1,
+            "title": "Implement major pipeline features for initial alpha release",
+            "state": "MERGED",
+            "createdAt": "2023-05-16T14:40:12Z",
+            "mergedAt": "2023-08-15T14:02:02Z",
+            "author": {
+              "login": "zjnolen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".snakemake-workflow-catalog.yml"
+                },
+                {
+                  "path": ".test/config/badexample-filt.bed"
+                },
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": ".test/config/example-filt.bed"
+                },
+                {
+                  "path": ".test/config/samples.tsv"
+                },
+                {
+                  "path": ".test/config/units.tsv"
+                },
+                {
+                  "path": ".test/data/fastq/hist1.r1.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/hist1.r2.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/hist2.r1.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/hist2.r2.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/hist3.r1.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/hist3.r2.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/mod1.r1.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/mod1.r2.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/mod2.r1.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/mod2.r2.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/mod3.r1.fastq.gz"
+                },
+                {
+                  "path": ".test/data/fastq/mod3.r2.fastq.gz"
+                },
+                {
+                  "path": ".test/data/ref/testref.fa"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/examples/config_csemiargus.yaml"
+                },
+                {
+                  "path": "config/examples/config_pargus.yaml"
+                },
+                {
+                  "path": "config/examples/config_picarus.yaml"
+                },
+                {
+                  "path": "config/samples.tsv"
+                },
+                {
+                  "path": "environment.yaml"
+                },
+                {
+                  "path": "rackham/config.yaml"
+                },
+                {
+                  "path": "slurm/CookieCutter.py"
+                },
+                {
+                  "path": "slurm/config.yaml"
+                },
+                {
+                  "path": "slurm/settings.json"
+                },
+                {
+                  "path": "slurm/slurm-jobscript.sh"
+                },
+                {
+                  "path": "slurm/slurm-status.py"
+                },
+                {
+                  "path": "slurm/slurm-submit.py"
+                },
+                {
+                  "path": "slurm/slurm_utils.py"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/angsd.yaml"
+                },
+                {
+                  "path": "workflow/envs/bedtools.yaml"
+                },
+                {
+                  "path": "workflow/envs/dedup.yaml"
+                },
+                {
+                  "path": "workflow/envs/fgbio.yaml"
+                },
+                {
+                  "path": "workflow/envs/mapping.yaml"
+                },
+                {
+                  "path": "workflow/envs/picard.yaml"
+                },
+                {
+                  "path": "workflow/envs/plink.yaml"
+                },
+                {
+                  "path": "workflow/envs/pruning.yaml"
+                },
+                {
+                  "path": "workflow/envs/python.yaml"
+                },
+                {
+                  "path": "workflow/envs/r-rectable.yaml"
+                },
+                {
+                  "path": "workflow/envs/r.yaml"
+                },
+                {
+                  "path": "workflow/envs/samtools.yaml"
+                },
+                {
+                  "path": "workflow/envs/shell.yaml"
+                },
+                {
+                  "path": "workflow/rules/0.1_ref_prep.smk"
+                },
+                {
+                  "path": "workflow/rules/0.2_ref_filt.smk"
+                },
+                {
+                  "path": "workflow/rules/1.0_preprocessing.smk"
+                },
+                {
+                  "path": "workflow/rules/2.0_mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/2.1_mapping_qc.smk"
+                },
+                {
+                  "path": "workflow/rules/2.1_sample_qc.smk"
+                },
+                {
+                  "path": "workflow/rules/2.2_dna_damage.smk"
+                },
+                {
+                  "path": "workflow/rules/3.0_genotype_likelihoods.smk"
+                },
+                {
+                  "path": "workflow/rules/3.0_genotyping.smk"
+                },
+                {
+                  "path": "workflow/rules/3.1_linkage_pruning.smk"
+                },
+                {
+                  "path": "workflow/rules/3.1_safs.smk"
+                },
+                {
+                  "path": "workflow/rules/3.2_beagles.smk"
+                },
+                {
+                  "path": "workflow/rules/3.2_sample_filt.smk"
+                },
+                {
+                  "path": "workflow/rules/4.0_estimate_LD.smk"
+                },
+                {
+                  "path": "workflow/rules/4.1_linkage_pruning.smk"
+                },
+                {
+                  "path": "workflow/rules/4.2_linkage_decay.smk"
+                },
+                {
+                  "path": "workflow/rules/4_pca.smk"
+                },
+                {
+                  "path": "workflow/rules/5.0_relatedness.smk"
+                },
+                {
+                  "path": "workflow/rules/5_admixture.smk"
+                },
+                {
+                  "path": "workflow/rules/6.0_SFS.smk"
+                },
+                {
+                  "path": "workflow/rules/6.0_pca.smk"
+                },
+                {
+                  "path": "workflow/rules/6.1_admixture.smk"
+                },
+                {
+                  "path": "workflow/rules/6.1_thetas.smk"
+                },
+                {
+                  "path": "workflow/rules/6.2_fst.smk"
+                },
+                {
+                  "path": "workflow/rules/7.0_SFS.smk"
+                },
+                {
+                  "path": "workflow/rules/7.1_thetas.smk"
+                },
+                {
+                  "path": "workflow/rules/7.2_fst.smk"
+                },
+                {
+                  "path": "workflow/rules/7.3_heterozygosity.smk"
+                },
+                {
+                  "path": "workflow/rules/7_inbreeding.smk"
+                },
+                {
+                  "path": "workflow/rules/8.0_inbreeding.smk"
+                },
+                {
+                  "path": "workflow/rules/9.0_IBS.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/gone.smk"
+                },
+                {
+                  "path": "workflow/rules/plink.smk"
+                },
+                {
+                  "path": "workflow/scripts/calc_depth.R"
+                },
+                {
+                  "path": "workflow/scripts/depth_extremes.R"
+                },
+                {
+                  "path": "workflow/scripts/kinship.R"
+                },
+                {
+                  "path": "workflow/scripts/make_popfile.py"
+                },
+                {
+                  "path": "workflow/scripts/ngsF-HMM.sh"
+                },
+                {
+                  "path": "workflow/scripts/ngsadmix.sh"
+                },
+                {
+                  "path": "workflow/scripts/plot_Froh.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_PCA.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_admix.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_evaladmix.Rmd"
+                },
+                {
+                  "path": "workflow/scripts/plot_fst.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_heterozygosity.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_thetas.R"
+                },
+                {
+                  "path": "workflow/scripts/prune_ngsLD.py"
+                },
+                {
+                  "path": "workflow/scripts/tsv2html.Rmd"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

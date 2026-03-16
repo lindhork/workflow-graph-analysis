@@ -1,0 +1,42 @@
+## Rule index for lasso regression deconv
+##
+## @zgr2788
+##
+##
+## Description:
+## This file includes the rule to run lasso regression with C1 reference.
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+
+rule lasso_run:
+    input:
+        getC2(getC1(getBulks('{sample}'), '{sample}'),'{sample}')
+
+    output:
+        "Output/{sample}_res_lasso.rds"
+
+    conda:
+        "env.yaml"
+
+    benchmark:
+        "Benchmarks/{sample}_lasso_benchmark.txt"
+
+    resources:
+        mem_mb=getMB(config['mem_gb']['minorOps'])
+    
+    params: 
+        markers=config['markers']
+
+    shell:
+        "Rscript Modules/lasso/lasso_run.R {input} {params.markers} {output}"

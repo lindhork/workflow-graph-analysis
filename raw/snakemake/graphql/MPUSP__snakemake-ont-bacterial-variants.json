@@ -1,0 +1,204 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 9,
+            "title": "update GH actions workflows, particularly superlinter -> v8",
+            "state": "OPEN",
+            "createdAt": "2026-02-12T12:06:15Z",
+            "closedAt": null,
+            "author": {
+              "login": "m-jahn"
+            }
+          },
+          {
+            "number": 6,
+            "title": "License question",
+            "state": "CLOSED",
+            "createdAt": "2024-10-22T11:33:50Z",
+            "closedAt": "2025-01-24T14:13:50Z",
+            "author": {
+              "login": "meono"
+            }
+          },
+          {
+            "number": 3,
+            "title": "remove `defaults` channel from conda envs",
+            "state": "CLOSED",
+            "createdAt": "2024-09-11T07:14:37Z",
+            "closedAt": "2024-09-24T06:14:22Z",
+            "author": {
+              "login": "m-jahn"
+            }
+          },
+          {
+            "number": 2,
+            "title": "add singularity container as alternative to conda",
+            "state": "OPEN",
+            "createdAt": "2024-08-21T14:16:26Z",
+            "closedAt": null,
+            "author": {
+              "login": "m-jahn"
+            }
+          },
+          {
+            "number": 1,
+            "title": "suggestions for initial release",
+            "state": "CLOSED",
+            "createdAt": "2024-05-21T10:25:12Z",
+            "closedAt": "2024-08-21T14:15:18Z",
+            "author": {
+              "login": "m-jahn"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 8,
+            "title": "fix: update actions workflows",
+            "state": "OPEN",
+            "createdAt": "2026-02-11T07:59:58Z",
+            "mergedAt": null,
+            "author": {
+              "login": "m-jahn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/conventional-prs.yml"
+                },
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".github/workflows/release-please.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 7,
+            "title": "fix: license and documentation update",
+            "state": "MERGED",
+            "createdAt": "2025-01-21T12:15:02Z",
+            "mergedAt": "2025-01-24T14:13:48Z",
+            "author": {
+              "login": "m-jahn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".github/workflows/release-please.yml"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 5,
+            "title": "chore: release 1.1.0",
+            "state": "MERGED",
+            "createdAt": "2024-09-24T06:14:46Z",
+            "mergedAt": "2024-09-26T10:11:24Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4,
+            "title": "fix: various small fixes for linting and formatting errors",
+            "state": "MERGED",
+            "createdAt": "2024-09-23T13:42:54Z",
+            "mergedAt": "2024-09-24T06:14:21Z",
+            "author": {
+              "login": "m-jahn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "workflow/envs/basic.yml"
+                },
+                {
+                  "path": "workflow/envs/bcftools.yml"
+                },
+                {
+                  "path": "workflow/envs/clair3.yml"
+                },
+                {
+                  "path": "workflow/envs/cutesv.yml"
+                },
+                {
+                  "path": "workflow/envs/filtlong.yml"
+                },
+                {
+                  "path": "workflow/envs/igv-reports.yml"
+                },
+                {
+                  "path": "workflow/envs/medaka.yml"
+                },
+                {
+                  "path": "workflow/envs/multiqc.yml"
+                },
+                {
+                  "path": "workflow/envs/nanoplot.yml"
+                },
+                {
+                  "path": "workflow/envs/ngmlr.yml"
+                },
+                {
+                  "path": "workflow/envs/sniffles2.yml"
+                },
+                {
+                  "path": "workflow/envs/vcftools.yml"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

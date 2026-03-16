@@ -1,0 +1,206 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 17,
+            "title": "For a sample with multiple input file pairs, is the order preserved?",
+            "state": "OPEN",
+            "createdAt": "2025-04-18T18:35:51Z",
+            "closedAt": null,
+            "author": {
+              "login": "bentyeh"
+            }
+          },
+          {
+            "number": 16,
+            "title": "Not all scripts use the temporary directory specified in config.yaml",
+            "state": "CLOSED",
+            "createdAt": "2025-02-22T11:43:19Z",
+            "closedAt": "2025-05-07T10:17:31Z",
+            "author": {
+              "login": "bentyeh"
+            }
+          },
+          {
+            "number": 15,
+            "title": "Support Snakemake profiles",
+            "state": "CLOSED",
+            "createdAt": "2025-02-12T20:04:18Z",
+            "closedAt": "2025-05-07T01:31:18Z",
+            "author": {
+              "login": "bentyeh"
+            }
+          },
+          {
+            "number": 14,
+            "title": "Pipe output of FASTQ chunking step directly into re-compressing command?",
+            "state": "CLOSED",
+            "createdAt": "2025-02-11T03:49:09Z",
+            "closedAt": "2025-02-11T03:49:13Z",
+            "author": {
+              "login": "bentyeh"
+            }
+          },
+          {
+            "number": 13,
+            "title": "Launch separate jobs for fastqsplitter on R1 and R2 to speed up processing [Branch:Develop, Label:Feature Request]",
+            "state": "CLOSED",
+            "createdAt": "2024-05-16T19:06:46Z",
+            "closedAt": "2025-02-11T03:11:00Z",
+            "author": {
+              "login": "mrblanco"
+            }
+          },
+          {
+            "number": 12,
+            "title": "develop branch add fastqsplitter to conda environment",
+            "state": "CLOSED",
+            "createdAt": "2024-05-16T18:39:41Z",
+            "closedAt": "2025-02-11T03:11:38Z",
+            "author": {
+              "login": "mrblanco"
+            }
+          },
+          {
+            "number": 10,
+            "title": "Additional resources for ChIP-DIP and split-pool barcoding",
+            "state": "OPEN",
+            "createdAt": "2024-04-27T01:45:31Z",
+            "closedAt": null,
+            "author": {
+              "login": "bentyeh"
+            }
+          },
+          {
+            "number": 9,
+            "title": "More consistent rule/script/file names",
+            "state": "OPEN",
+            "createdAt": "2024-04-27T01:41:13Z",
+            "closedAt": null,
+            "author": {
+              "login": "bentyeh"
+            }
+          },
+          {
+            "number": 8,
+            "title": "Improve flexibility and performance of tag / barcode identification via splitcode",
+            "state": "OPEN",
+            "createdAt": "2024-04-27T01:38:45Z",
+            "closedAt": null,
+            "author": {
+              "login": "bentyeh"
+            }
+          },
+          {
+            "number": 7,
+            "title": "Validate all input/configuration files before the bulk of the pipeline to catch errors early",
+            "state": "OPEN",
+            "createdAt": "2024-04-27T01:36:52Z",
+            "closedAt": null,
+            "author": {
+              "login": "bentyeh"
+            }
+          },
+          {
+            "number": 6,
+            "title": "Parallelize bigWig generation",
+            "state": "CLOSED",
+            "createdAt": "2024-04-27T01:34:39Z",
+            "closedAt": "2025-02-08T10:15:54Z",
+            "author": {
+              "login": "bentyeh"
+            }
+          },
+          {
+            "number": 5,
+            "title": "Support paired-end alignment",
+            "state": "OPEN",
+            "createdAt": "2024-04-25T08:10:18Z",
+            "closedAt": null,
+            "author": {
+              "login": "bentyeh"
+            }
+          },
+          {
+            "number": 4,
+            "title": "assets missing bowtie2_index files",
+            "state": "CLOSED",
+            "createdAt": "2024-04-23T17:10:12Z",
+            "closedAt": "2024-04-23T17:16:59Z",
+            "author": {
+              "login": "albertY9367"
+            }
+          },
+          {
+            "number": 3,
+            "title": "cannot create splitfq folder",
+            "state": "CLOSED",
+            "createdAt": "2024-04-22T22:07:12Z",
+            "closedAt": "2025-02-08T12:53:23Z",
+            "author": {
+              "login": "albertY9367"
+            }
+          },
+          {
+            "number": 2,
+            "title": "LICENSE",
+            "state": "CLOSED",
+            "createdAt": "2023-04-30T07:25:15Z",
+            "closedAt": "2023-04-30T19:41:50Z",
+            "author": {
+              "login": "bentyeh"
+            }
+          },
+          {
+            "number": 1,
+            "title": "Purpose of CONFIG variable in Snakefile?",
+            "state": "CLOSED",
+            "createdAt": "2023-03-21T22:29:31Z",
+            "closedAt": "2023-03-21T22:59:30Z",
+            "author": {
+              "login": "bentyeh"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 11,
+            "title": "Adding the option to toggle a format file on or off.",
+            "state": "CLOSED",
+            "createdAt": "2024-04-29T22:33:04Z",
+            "mergedAt": null,
+            "author": {
+              "login": "albertY9367"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "scripts/python/split_dpm_bpm_fq.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

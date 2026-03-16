@@ -1,0 +1,18 @@
+import snakemake.utils
+
+snakemake.utils.min_version("8.0.0")
+
+
+rule all:
+    input:
+        expand("output/{iteration}.txt", iteration=range(100)),
+
+
+rule sleeper:
+    output:
+        "output/{iteration}.txt",
+    shell:
+        """
+        sleep 180
+        touch {output}
+        """

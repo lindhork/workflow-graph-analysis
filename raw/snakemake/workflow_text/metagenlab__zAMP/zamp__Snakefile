@@ -1,0 +1,199 @@
+from Bio.Seq import Seq
+
+
+# config file
+include: os.path.join("rules", "0_preprocessing", "functions.smk")
+
+
+configfile: os.path.join(workflow.basedir, "config", "config.yaml")
+
+
+config = AttrMap(config)
+config = au.convert_state(config, read_only=True)
+
+
+include: os.path.join("rules", "0_preprocessing", "directories.smk")
+
+
+onsuccess:
+    copy_log_file()
+
+
+onerror:
+    copy_log_file()
+
+
+wildcard_constraints:
+    sample="[^/.]+",
+
+
+# Common args
+OUTPUT = config.args.output
+LOG = os.path.join(OUTPUT, "zamp.log")
+
+
+# Read run args
+## Inputs args
+INPUT = config.args.input
+LOCAL = config.args.local
+METADATA = config.args.metadata
+if os.path.isdir(INPUT) and METADATA:
+
+    reads_df = (
+        pd.DataFrame.from_dict(fastq_finder.parse_samples_to_dictionary(INPUT))
+        .T.reset_index()
+        .rename(columns={"index": "fastq"})
+    )
+    meta_df = pd.read_csv(METADATA, sep="\t")
+    SAMPLES = reads_df.merge(meta_df, on="fastq")
+    SAMPLES.set_index("sample", inplace=True)
+elif os.path.isfile(INPUT) and not METADATA:
+    SAMPLES = pd.read_csv(INPUT, sep="\t", index_col="sample")
+    METADATA = INPUT
+
+
+# Add read pairing
+if not "paired" in SAMPLES.columns:
+    SAMPLES["paired"] = [True if R2 else False for R2 in SAMPLES.R2]
+PAIRING = {
+    sample: ("paired" if SAMPLES.loc[sample, "paired"] else "single")
+    for sample in SAMPLES.index
+}
+## Denoiser
+DENOISER = config.args.denoiser
+## Primers args
+TRIM = config.args.trim
+OVERLAP = config.args.min_overlap
+FW_PRIMER = config.args.fw_primer
+RV_PRIMER = config.args.rv_primer
+RV_PRIMER_COMPL = Seq.reverse_complement(Seq(RV_PRIMER))
+
+## Merged sequences args
+MINLEN = config.args.minlen
+MAXLEN = config.args.maxlen
+
+## Denoising args
+FW_TRIM = config.args.fw_trim
+RV_TRIM = config.args.rv_trim
+FW_ERRORS = config.args.fw_errors
+RV_ERRORS = config.args.rv_errors
+
+## Database args
+DBPATH = os.path.abspath(config.args.database)
+if config.args.name:
+    DBNAME = config.args.name.split(",")
+
+else:
+    DBNAME = os.path.basename(os.path.normpath(DBPATH))
+    DBPATH = os.path.dirname(DBPATH)
+
+## Classifier
+CLASSIFIER = config.args.classifier.split(",")
+RANKS = config.args.ranks
+
+## Post-processing args
+RAREFACTION = config.args.rarefaction.split(",")
+MIN_PREV = config.args.min_prev
+MIN_COUNT = config.args.min_count
+NORM = config.args.normalization.split(",")
+REPL_EMPTY = config.args.replace_empty
+KEEP_RANK = config.args.keep_rank
+KEEP_TAXA = config.args.keep_taxa.split(",")
+EXCL_RANK = config.args.exclude_rank.split(",")
+EXCL_TAXA = config.args.exclude_taxa.split(",")
+
+## Special out args
+MELTED = config.args.melted
+PHYSEQ_RANK = config.args.physeq_rank.split(",")
+TRANSPOSED = config.args.transposed
+QIIME_VIZ = config.args.qiime_viz
+
+## When using singularity
+if "--use-singularity" in sys.argv:
+    ### Mount Database input file directory, database and basedir to containers.
+    paths = [
+        os.path.dirname(os.path.realpath(config.args.input)),
+        os.path.realpath(config.args.database),
+        workflow.basedir,
+    ]
+    for path in paths:
+        workflow.deployment_settings.apptainer_args += f" -B {path}:{path}"
+
+    # Mount qiime2 temp dirs to containers
+    workflow.deployment_settings.apptainer_args += (
+        f" -B /tmp:/home/qiime2/q2cli,/tmp:/home/qiime2/matplotlib"
+    )
+    #### Load a dictionnary of singularity containers that will be called from each rule
+singularity_envs = yaml.safe_load(
+    open(os.path.join(workflow.basedir, dir.envs, "singularity", "sing_envs.yml"), "r")
+)
+
+
+## Include the pipeline rules
+### List of output:
+include: os.path.join("rules", "0_preprocessing", "scripts", "make_output_lists.py")
+### Snakemake rules to do the job:
+include: os.path.join("rules", "0_preprocessing", "get_inputs.rules")
+include: os.path.join("rules", "0_preprocessing", "QC_raw_reads.rules")
+include: os.path.join("rules", "1_2_DADA2_ASVs", "1_cutadapt_trim.rules")
+include: os.path.join("rules", "1_2_DADA2_ASVs", "2_DADA2_denoising.rules")
+include: os.path.join("rules", "1_2_vsearch_OTUs", "1_PANDAseq_trim_filter_merge.rules")
+include: os.path.join("rules", "1_2_vsearch_OTUs", "2_vsearch_denoising.rules")
+include: os.path.join("rules", "3_tax_assignment", "tax_assign.rules")
+include: os.path.join("rules", "4_post_processing", "physeq_processing.rules")
+include: os.path.join("rules", "4_post_processing", "TreeShrink.rules")
+include: os.path.join("rules", "5_visualization", "General_plotting.rules")
+include: os.path.join("rules", "5_visualization", "QIIME2_import.rules")
+include: os.path.join("rules", "PICRUSt2", "picrust.rules")
+
+
+report: "workflow.rst"
+
+
+## Rules to call defined sets of output. For each, we first generate a function calling the combined list of output. Then its is integrated in a easily callable rule
+### Defaul rule all. Include all but PICRUSt2
+rule all:
+    input:
+        rule_all_list(),
+
+
+### Only QC of the reads
+rule QC:
+    input:
+        MultiQC,
+    priority: 50
+
+
+### Light output, including count table, consensus sequences and taxonomic assignement
+rule light_output:
+    input:
+        light_output_list(),
+    priority: 49
+
+
+### Basic output, generated plots numbers, KRONA plots and rarefaction curve
+rule basic_output:
+    input:
+        basic_plots_list(),
+    priority: 48
+
+
+### Qiime2 outputs
+rule Qiime2_output:
+    input:
+        Qiime2_output_list(),
+    priority: 47
+
+
+### Complete set of phyloseq, in option including transposed count table and metadata (wide to long)
+rule phyloseq_output:
+    input:
+        phyloseq_output_list(),
+    priority: 46
+
+
+### PICRUSt2 outputs
+rule PICRUSt2_output:
+    input:
+        PICRUSt2_list(),
+    priority: 0

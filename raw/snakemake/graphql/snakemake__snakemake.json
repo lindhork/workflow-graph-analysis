@@ -1,0 +1,2128 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 4042,
+            "title": "docs: Data-dependent conditional execution is not a complete example",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T17:24:31Z",
+            "closedAt": null,
+            "author": {
+              "login": "clelange"
+            }
+          },
+          {
+            "number": 4041,
+            "title": "Inconsistent plugin contribution docs between catalog and Snakemake",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T16:17:29Z",
+            "closedAt": null,
+            "author": {
+              "login": "jonasfreimuth"
+            }
+          },
+          {
+            "number": 4040,
+            "title": "Conda tests fail on Apple silicon",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T16:06:50Z",
+            "closedAt": null,
+            "author": {
+              "login": "edbennett"
+            }
+          },
+          {
+            "number": 4039,
+            "title": "runtime values from CLI/profile are silently interpreted as seconds instead of minutes since 9.16.3",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T15:25:33Z",
+            "closedAt": null,
+            "author": {
+              "login": "cndewey"
+            }
+          },
+          {
+            "number": 4034,
+            "title": "Add option for executors to handle file transfer in case of `shared-fs-usage: none`",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T14:40:37Z",
+            "closedAt": null,
+            "author": {
+              "login": "lukavom"
+            }
+          },
+          {
+            "number": 4027,
+            "title": "Add a method to declare and make available software to the workflow that is not pre-packaged",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T13:22:48Z",
+            "closedAt": null,
+            "author": {
+              "login": "OlvrBu"
+            }
+          },
+          {
+            "number": 4021,
+            "title": "RFC more \"tolerant\" scatter-gather",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T08:47:17Z",
+            "closedAt": null,
+            "author": {
+              "login": "tiborsimko"
+            }
+          },
+          {
+            "number": 4017,
+            "title": "docs: Documentation Setup not working",
+            "state": "CLOSED",
+            "createdAt": "2026-03-09T16:30:00Z",
+            "closedAt": "2026-03-10T08:28:10Z",
+            "author": {
+              "login": "schnea"
+            }
+          },
+          {
+            "number": 4016,
+            "title": "Allow optional input files so workflows can continue and produce partial results",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T16:21:43Z",
+            "closedAt": null,
+            "author": {
+              "login": "hooloobooroodkoo"
+            }
+          },
+          {
+            "number": 4013,
+            "title": "docs: How-to guide for debugging",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T15:33:37Z",
+            "closedAt": null,
+            "author": {
+              "login": "mrmattuschka"
+            }
+          },
+          {
+            "number": 4011,
+            "title": "docs: tracking issue for documentation improvements at the Snakemake Hackathon 2026",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T15:09:27Z",
+            "closedAt": null,
+            "author": {
+              "login": "dlaehnemann"
+            }
+          },
+          {
+            "number": 4008,
+            "title": "feat: cli refactor with subcommands",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T13:49:09Z",
+            "closedAt": null,
+            "author": {
+              "login": "cademirch"
+            }
+          },
+          {
+            "number": 4006,
+            "title": "feat: new default profile file name `profiles.yaml`, also allow specifying a yaml file instead of a directory",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T11:10:23Z",
+            "closedAt": null,
+            "author": {
+              "login": "dlaehnemann"
+            }
+          },
+          {
+            "number": 4005,
+            "title": "np.nan not evaluated as None in branch function",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T11:00:37Z",
+            "closedAt": null,
+            "author": {
+              "login": "GaspardR"
+            }
+          },
+          {
+            "number": 4004,
+            "title": "Be able to open a shell in a managed environment",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T10:33:27Z",
+            "closedAt": null,
+            "author": {
+              "login": "edbennett"
+            }
+          },
+          {
+            "number": 4003,
+            "title": "Helper function to be able to call a Python script by its module name (`python -m`)",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T10:18:02Z",
+            "closedAt": null,
+            "author": {
+              "login": "edbennett"
+            }
+          },
+          {
+            "number": 4002,
+            "title": "pandas.NA not working with branch function",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T10:04:09Z",
+            "closedAt": null,
+            "author": {
+              "login": "GaspardR"
+            }
+          },
+          {
+            "number": 4001,
+            "title": "Lookup function not working as intended with branch function",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T09:54:25Z",
+            "closedAt": null,
+            "author": {
+              "login": "GaspardR"
+            }
+          },
+          {
+            "number": 4000,
+            "title": "Dont build entrie DAG when flags liek --unlock are set",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T09:52:50Z",
+            "closedAt": null,
+            "author": {
+              "login": "KaiHabermann"
+            }
+          },
+          {
+            "number": 3999,
+            "title": "Inline reporting of basic metrics (e.g. rule runtime)",
+            "state": "CLOSED",
+            "createdAt": "2026-03-09T09:09:29Z",
+            "closedAt": "2026-03-09T12:06:15Z",
+            "author": {
+              "login": "edbennett"
+            }
+          },
+          {
+            "number": 3996,
+            "title": "storage(retrieve=False) input files are deleted from remote storage after job completion",
+            "state": "OPEN",
+            "createdAt": "2026-03-08T11:06:04Z",
+            "closedAt": null,
+            "author": {
+              "login": "cclienti"
+            }
+          },
+          {
+            "number": 3994,
+            "title": "Workflow profile selection broken in 9.16.3",
+            "state": "OPEN",
+            "createdAt": "2026-03-05T15:10:16Z",
+            "closedAt": null,
+            "author": {
+              "login": "zwets"
+            }
+          },
+          {
+            "number": 3992,
+            "title": "Numeric Slurm Partition Names Summed in Snakemake Group Jobs",
+            "state": "OPEN",
+            "createdAt": "2026-03-02T22:13:43Z",
+            "closedAt": null,
+            "author": {
+              "login": "andynu"
+            }
+          },
+          {
+            "number": 3991,
+            "title": "`replace_prefix` with module breaks on `PosixPath`s",
+            "state": "OPEN",
+            "createdAt": "2026-03-02T15:36:10Z",
+            "closedAt": null,
+            "author": {
+              "login": "mschilli87"
+            }
+          },
+          {
+            "number": 3990,
+            "title": "Determine location of the .snakemake folder",
+            "state": "OPEN",
+            "createdAt": "2026-03-02T09:06:54Z",
+            "closedAt": null,
+            "author": {
+              "login": "KasperThystrup"
+            }
+          },
+          {
+            "number": 3989,
+            "title": "Generalize the --containerize functionality to be able to not only generate Dockerfile but also other formats like apptainer definitions",
+            "state": "OPEN",
+            "createdAt": "2026-03-02T09:06:07Z",
+            "closedAt": null,
+            "author": {
+              "login": "johanneskoester"
+            }
+          },
+          {
+            "number": 3988,
+            "title": "Add quarto script",
+            "state": "OPEN",
+            "createdAt": "2026-02-27T18:56:55Z",
+            "closedAt": null,
+            "author": {
+              "login": "GaspardR"
+            }
+          },
+          {
+            "number": 3987,
+            "title": "Migrate Snakemake code quality checks to ruff and pyrefly",
+            "state": "OPEN",
+            "createdAt": "2026-02-27T15:51:00Z",
+            "closedAt": null,
+            "author": {
+              "login": "johanneskoester"
+            }
+          },
+          {
+            "number": 3986,
+            "title": "Measure test coverage of main Snakemake using pytest-cov",
+            "state": "OPEN",
+            "createdAt": "2026-02-27T15:48:50Z",
+            "closedAt": null,
+            "author": {
+              "login": "johanneskoester"
+            }
+          },
+          {
+            "number": 3985,
+            "title": "Increase the test coverage of all plugins to ideally 100%",
+            "state": "OPEN",
+            "createdAt": "2026-02-27T15:46:58Z",
+            "closedAt": null,
+            "author": {
+              "login": "johanneskoester"
+            }
+          },
+          {
+            "number": 3984,
+            "title": "`--max-jobs-per-timespan` only accepts integer numbers",
+            "state": "OPEN",
+            "createdAt": "2026-02-27T10:42:01Z",
+            "closedAt": null,
+            "author": {
+              "login": "brynpickering"
+            }
+          },
+          {
+            "number": 3981,
+            "title": "Too many calls to input functions when using checkpoints and wildcards",
+            "state": "OPEN",
+            "createdAt": "2026-02-20T05:18:40Z",
+            "closedAt": null,
+            "author": {
+              "login": "tkchouaki"
+            }
+          },
+          {
+            "number": 3980,
+            "title": "Show compatibility with Snakemake version in plugin catalog and show latest commit",
+            "state": "OPEN",
+            "createdAt": "2026-02-19T16:06:45Z",
+            "closedAt": null,
+            "author": {
+              "login": "johanneskoester"
+            }
+          },
+          {
+            "number": 3979,
+            "title": "Visualize forks of plugins in the Snakemake plugin catalog (hopefully encouraging more work on bringing forks back to the main plugin)",
+            "state": "OPEN",
+            "createdAt": "2026-02-19T16:03:14Z",
+            "closedAt": null,
+            "author": {
+              "login": "johanneskoester"
+            }
+          },
+          {
+            "number": 3973,
+            "title": "The `--dry-run` flag validates workflow against `dryrun` executor instead of intended executor",
+            "state": "OPEN",
+            "createdAt": "2026-02-16T22:33:53Z",
+            "closedAt": null,
+            "author": {
+              "login": "jhiemstrawisc"
+            }
+          },
+          {
+            "number": 3972,
+            "title": "Missing `pytz` depencency causes breaks during DAG generation",
+            "state": "OPEN",
+            "createdAt": "2026-02-16T16:14:03Z",
+            "closedAt": null,
+            "author": {
+              "login": "irm-codebase"
+            }
+          },
+          {
+            "number": 3970,
+            "title": "dynamic resources breaking change in snakemake 9.16.3",
+            "state": "OPEN",
+            "createdAt": "2026-02-13T10:00:19Z",
+            "closedAt": null,
+            "author": {
+              "login": "LukaP-BB"
+            }
+          },
+          {
+            "number": 3967,
+            "title": "Add official API for DAG construction completion signal to plugins",
+            "state": "OPEN",
+            "createdAt": "2026-02-09T12:27:34Z",
+            "closedAt": null,
+            "author": {
+              "login": "cclienti"
+            }
+          },
+          {
+            "number": 3963,
+            "title": "Documentation inconsistency with `referencing` package concerning validation via schemas",
+            "state": "OPEN",
+            "createdAt": "2026-02-05T10:02:41Z",
+            "closedAt": null,
+            "author": {
+              "login": "sof202"
+            }
+          },
+          {
+            "number": 3959,
+            "title": "Switch dependency `reretry`",
+            "state": "OPEN",
+            "createdAt": "2026-02-04T19:26:24Z",
+            "closedAt": null,
+            "author": {
+              "login": "fgvieira"
+            }
+          },
+          {
+            "number": 3958,
+            "title": "Rules fail when both using singularity/apptainer and storage plugins",
+            "state": "OPEN",
+            "createdAt": "2026-02-04T18:16:07Z",
+            "closedAt": null,
+            "author": {
+              "login": "BEFH"
+            }
+          },
+          {
+            "number": 3955,
+            "title": "Excessive stat() calls cause 100% CPU with large SLURM workflows",
+            "state": "CLOSED",
+            "createdAt": "2026-02-01T05:28:28Z",
+            "closedAt": "2026-02-03T18:59:50Z",
+            "author": {
+              "login": "jhall"
+            }
+          },
+          {
+            "number": 3954,
+            "title": "The dry run should handle the environments also based on actual execution flow like it handles the rules",
+            "state": "OPEN",
+            "createdAt": "2026-01-31T11:23:55Z",
+            "closedAt": null,
+            "author": {
+              "login": "rohan-ibn-tariq"
+            }
+          },
+          {
+            "number": 3953,
+            "title": "InputFunctionException silently ignored",
+            "state": "OPEN",
+            "createdAt": "2026-01-30T21:28:42Z",
+            "closedAt": null,
+            "author": {
+              "login": "victorlin"
+            }
+          },
+          {
+            "number": 3951,
+            "title": "Local imports incompatible with submodules",
+            "state": "OPEN",
+            "createdAt": "2026-01-30T18:43:24Z",
+            "closedAt": null,
+            "author": {
+              "login": "coroa"
+            }
+          },
+          {
+            "number": 3950,
+            "title": "PULP_CBC_CMD as default solver when only COIN_CMD is available",
+            "state": "CLOSED",
+            "createdAt": "2026-01-30T10:21:24Z",
+            "closedAt": "2026-02-03T13:22:04Z",
+            "author": {
+              "login": "Nodd"
+            }
+          },
+          {
+            "number": 3943,
+            "title": "--cleanup-metadadta does not work outside of pre-determined snakefile paths",
+            "state": "OPEN",
+            "createdAt": "2026-01-28T09:53:06Z",
+            "closedAt": null,
+            "author": {
+              "login": "taehyounpark"
+            }
+          },
+          {
+            "number": 3939,
+            "title": "test_1331 is hanging on Darwin (MacOS)",
+            "state": "OPEN",
+            "createdAt": "2026-01-26T19:11:40Z",
+            "closedAt": null,
+            "author": {
+              "login": "sarahec"
+            }
+          },
+          {
+            "number": 3938,
+            "title": "Allow `envvars` on rule specification level",
+            "state": "OPEN",
+            "createdAt": "2026-01-26T16:49:42Z",
+            "closedAt": null,
+            "author": {
+              "login": "euronion"
+            }
+          },
+          {
+            "number": 3937,
+            "title": "Error when refering to a meta-wrapper on a custom gitlab instance",
+            "state": "OPEN",
+            "createdAt": "2026-01-22T11:55:53Z",
+            "closedAt": null,
+            "author": {
+              "login": "julienpontabry"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 4043,
+            "title": "fix(docs): make Data-dependent conditional execution a complete example",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T17:26:44Z",
+            "mergedAt": null,
+            "author": {
+              "login": "clelange"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/snakefiles/rules.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 4042
+                }
+              ]
+            }
+          },
+          {
+            "number": 4038,
+            "title": "fix: regression in dynamic resource handling",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T15:12:43Z",
+            "mergedAt": null,
+            "author": {
+              "login": "cademirch"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/resources.py"
+                },
+                {
+                  "path": "tests/test_issue3970/Snakefile"
+                },
+                {
+                  "path": "tests/tests.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 3970
+                }
+              ]
+            }
+          },
+          {
+            "number": 4037,
+            "title": "docs: fixed wrong code example for collect() function",
+            "state": "MERGED",
+            "createdAt": "2026-03-10T15:01:43Z",
+            "mergedAt": "2026-03-10T15:42:11Z",
+            "author": {
+              "login": "SrPeter128"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/snakefiles/rules.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 3541
+                }
+              ]
+            }
+          },
+          {
+            "number": 4036,
+            "title": "docs: Correct workflow.source_path() description in documentation",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T14:53:14Z",
+            "mergedAt": null,
+            "author": {
+              "login": "LKress"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/snakefiles/deployment.rst"
+                },
+                {
+                  "path": "docs/snakefiles/rules.rst"
+                },
+                {
+                  "path": "tests/test_source_path_parent/expected-results/test.out"
+                },
+                {
+                  "path": "tests/test_source_path_parent/nest/subdir/Snakefile"
+                },
+                {
+                  "path": "tests/test_source_path_parent/resources/test.txt"
+                },
+                {
+                  "path": "tests/test_source_path_rerun/Snakefile"
+                },
+                {
+                  "path": "tests/test_source_path_rerun/expected-results/test.out"
+                },
+                {
+                  "path": "tests/test_source_path_rerun/resources/test.txt"
+                },
+                {
+                  "path": "tests/tests.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4035,
+            "title": "feat: add support for typed output in checkpoints and rules",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T14:49:31Z",
+            "mergedAt": null,
+            "author": {
+              "login": "Hocnonsense"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/snakefiles/rules.rst"
+                },
+                {
+                  "path": "docs/tutorial/additional_features.rst"
+                },
+                {
+                  "path": "src/snakemake/checkpoints.py"
+                },
+                {
+                  "path": "src/snakemake/dag.py"
+                },
+                {
+                  "path": "src/snakemake/io/__init__.py"
+                },
+                {
+                  "path": "src/snakemake/io/typed.py"
+                },
+                {
+                  "path": "src/snakemake/rules.py"
+                },
+                {
+                  "path": "src/snakemake/workflow.py"
+                },
+                {
+                  "path": "tests/test_checkpoint_open/Snakefile"
+                },
+                {
+                  "path": "tests/test_checkpoints/Snakefile"
+                },
+                {
+                  "path": "tests/test_flag_typed/Snakefile"
+                },
+                {
+                  "path": "tests/test_flag_typed/expected-results/direct1.txt"
+                },
+                {
+                  "path": "tests/test_flag_typed/expected-results/reduced2.txt"
+                },
+                {
+                  "path": "tests/test_github_issue261/Snakefile"
+                },
+                {
+                  "path": "tests/test_github_issue806/Snakefile"
+                },
+                {
+                  "path": "tests/test_module_checkpoint/module-test/Snakefile"
+                },
+                {
+                  "path": "tests/test_temp_checkpoint/Snakefile"
+                },
+                {
+                  "path": "tests/tests.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 3482
+                }
+              ]
+            }
+          },
+          {
+            "number": 4033,
+            "title": "fix: reduce number of tests leaving temporary files behind",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T14:38:00Z",
+            "mergedAt": null,
+            "author": {
+              "login": "edbennett"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/common.py"
+                },
+                {
+                  "path": "tests/tests.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4032,
+            "title": "perf: switch reretry with tenacity",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T14:35:01Z",
+            "mergedAt": null,
+            "author": {
+              "login": "fgvieira"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "src/snakemake/sourcecache.py"
+                },
+                {
+                  "path": "tests/test_singularity/Snakefile"
+                },
+                {
+                  "path": "tests/tests_using_conda.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 3959
+                }
+              ]
+            }
+          },
+          {
+            "number": 4031,
+            "title": "fix: add better none handling to branch",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T14:34:13Z",
+            "mergedAt": null,
+            "author": {
+              "login": "GaspardR"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/ioutils/branch.py"
+                },
+                {
+                  "path": "tests/test_ioutils/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 4002
+                },
+                {
+                  "number": 4005
+                }
+              ]
+            }
+          },
+          {
+            "number": 4030,
+            "title": "fix: allow \"--containerize apptainer\" to output apptainer format instead of dockerfile",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T14:33:14Z",
+            "mergedAt": null,
+            "author": {
+              "login": "ManarRashad"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/snakefiles/deployment.rst"
+                },
+                {
+                  "path": "src/snakemake/api.py"
+                },
+                {
+                  "path": "src/snakemake/cli.py"
+                },
+                {
+                  "path": "src/snakemake/deployment/containerize.py"
+                },
+                {
+                  "path": "src/snakemake/workflow.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 3989
+                }
+              ]
+            }
+          },
+          {
+            "number": 4029,
+            "title": "docs: Added guide on debugging workflows (#4028)",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T14:20:42Z",
+            "mergedAt": null,
+            "author": {
+              "login": "mrmattuschka"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/index.rst"
+                },
+                {
+                  "path": "docs/snakefiles/debugging_workflows.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 4013
+                }
+              ]
+            }
+          },
+          {
+            "number": 4028,
+            "title": "docs: Added guide on debugging workflows",
+            "state": "MERGED",
+            "createdAt": "2026-03-10T14:15:57Z",
+            "mergedAt": "2026-03-10T14:18:21Z",
+            "author": {
+              "login": "mrmattuschka"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/index.rst"
+                },
+                {
+                  "path": "docs/snakefiles/debugging_workflows.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4026,
+            "title": "fix: issue 3815",
+            "state": "MERGED",
+            "createdAt": "2026-03-10T13:04:03Z",
+            "mergedAt": "2026-03-10T15:44:31Z",
+            "author": {
+              "login": "fgvieira"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/scheduling/job_scheduler.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 3815
+                }
+              ]
+            }
+          },
+          {
+            "number": 4025,
+            "title": "docs: update installation instuctions",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T10:43:32Z",
+            "mergedAt": null,
+            "author": {
+              "login": "schnea"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/getting_started/installation.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4024,
+            "title": "docs: typo in the migration table breaking a pip install command",
+            "state": "MERGED",
+            "createdAt": "2026-03-10T09:58:48Z",
+            "mergedAt": "2026-03-10T15:45:25Z",
+            "author": {
+              "login": "SrPeter128"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/getting_started/migration.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 3827
+                }
+              ]
+            }
+          },
+          {
+            "number": 4023,
+            "title": "docs: typo in migration table ",
+            "state": "CLOSED",
+            "createdAt": "2026-03-10T09:49:18Z",
+            "mergedAt": null,
+            "author": {
+              "login": "SrPeter128"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/getting_started/migration.rst"
+                },
+                {
+                  "path": "src/snakemake/dag.py"
+                },
+                {
+                  "path": "tests/test_issue3922/Snakefile"
+                },
+                {
+                  "path": "tests/tests.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 3827
+                }
+              ]
+            }
+          },
+          {
+            "number": 4022,
+            "title": "fix: avoid freeing resources that were never allocated; fix #3913",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T09:28:34Z",
+            "mergedAt": null,
+            "author": {
+              "login": "edbennett"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/scheduling/job_scheduler.py"
+                },
+                {
+                  "path": "tests/test_github_issue3913/Snakefile"
+                },
+                {
+                  "path": "tests/test_github_issue3913/expected-results/common"
+                },
+                {
+                  "path": "tests/test_github_issue3913/expected-results/file1"
+                },
+                {
+                  "path": "tests/test_github_issue3913/expected-results/file2"
+                },
+                {
+                  "path": "tests/tests.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 3913
+                }
+              ]
+            }
+          },
+          {
+            "number": 4020,
+            "title": "feat: cli refactor and add subcommands",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T08:36:30Z",
+            "mergedAt": null,
+            "author": {
+              "login": "cademirch"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "src/snakemake/__main__.py"
+                },
+                {
+                  "path": "src/snakemake/cli.py"
+                },
+                {
+                  "path": "src/snakemake/cli_click.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4019,
+            "title": "build(deps): bump docker/setup-buildx-action from 2 to 4",
+            "state": "MERGED",
+            "createdAt": "2026-03-09T17:11:22Z",
+            "mergedAt": "2026-03-10T15:59:08Z",
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/docker-publish.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4018,
+            "title": "feat: job table orderd topological when run is started",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T17:10:15Z",
+            "mergedAt": null,
+            "author": {
+              "login": "SrPeter128"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/dag.py"
+                },
+                {
+                  "path": "tests/test_issue3922/Snakefile"
+                },
+                {
+                  "path": "tests/tests.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 1767
+                },
+                {
+                  "number": 3922
+                }
+              ]
+            }
+          },
+          {
+            "number": 4015,
+            "title": "fix: fix checkpoint handling corner cases (#3870 and #3559)",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T16:19:26Z",
+            "mergedAt": null,
+            "author": {
+              "login": "Hocnonsense"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/dag.py"
+                },
+                {
+                  "path": "tests/test_checkpoint_rerun/Snakefile"
+                },
+                {
+                  "path": "tests/test_uncreatable_checkpoint_input/Snakefile"
+                },
+                {
+                  "path": "tests/test_uncreatable_checkpoint_input/expected-results/file/b"
+                },
+                {
+                  "path": "tests/tests.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 3559
+                },
+                {
+                  "number": 3870
+                }
+              ]
+            }
+          },
+          {
+            "number": 4014,
+            "title": "test: add test for running a script with Conda managing dependencies; fix #1266",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T15:37:01Z",
+            "mergedAt": null,
+            "author": {
+              "login": "edbennett"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/test_github_issue1266/Snakefile"
+                },
+                {
+                  "path": "tests/test_github_issue1266/expected-results/foo.txt"
+                },
+                {
+                  "path": "tests/test_github_issue1266/test.py"
+                },
+                {
+                  "path": "tests/test_github_issue1266/test.yml"
+                },
+                {
+                  "path": "tests/tests_using_conda.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4012,
+            "title": "feat: Allow storing snakemake metadata in files or databases",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T15:15:59Z",
+            "mergedAt": null,
+            "author": {
+              "login": "tedil"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "src/snakemake/cli.py"
+                },
+                {
+                  "path": "src/snakemake/persistence.py"
+                },
+                {
+                  "path": "src/snakemake/persistence/__init__.py"
+                },
+                {
+                  "path": "src/snakemake/persistence/db.py"
+                },
+                {
+                  "path": "src/snakemake/persistence/file.py"
+                },
+                {
+                  "path": "src/snakemake/settings/types.py"
+                },
+                {
+                  "path": "src/snakemake/workflow.py"
+                },
+                {
+                  "path": "tests/common.py"
+                },
+                {
+                  "path": "tests/test_persistence.py"
+                },
+                {
+                  "path": "tests/tests.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 2969
+                }
+              ]
+            }
+          },
+          {
+            "number": 4010,
+            "title": "fix: apptainer command not recognized when singularity is absent ",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T14:23:49Z",
+            "mergedAt": null,
+            "author": {
+              "login": "ManarRashad"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/deployment/singularity.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 3860
+                }
+              ]
+            }
+          },
+          {
+            "number": 4009,
+            "title": "fix: change lookup return value when one col selected",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T13:57:53Z",
+            "mergedAt": null,
+            "author": {
+              "login": "GaspardR"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/snakefiles/rules.rst"
+                },
+                {
+                  "path": "src/snakemake/ioutils/lookup.py"
+                },
+                {
+                  "path": "tests/test_ioutils/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 4001
+                }
+              ]
+            }
+          },
+          {
+            "number": 4007,
+            "title": "fix: don't build the DAG when running unlock. Fixes #4000 and #198",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T13:00:22Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dkoppstein"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/workflow.py"
+                },
+                {
+                  "path": "tests/test_unlock/Snakefile"
+                },
+                {
+                  "path": "tests/test_unlock/expected-results/output.txt"
+                },
+                {
+                  "path": "tests/tests.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 4000
+                }
+              ]
+            }
+          },
+          {
+            "number": 3998,
+            "title": "feat: add shell completion for cli",
+            "state": "OPEN",
+            "createdAt": "2026-03-08T16:48:22Z",
+            "mergedAt": null,
+            "author": {
+              "login": "jsquaredosquared"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "src/snakemake/cli.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3997,
+            "title": "feat: add shell completion for cli",
+            "state": "CLOSED",
+            "createdAt": "2026-03-08T12:10:16Z",
+            "mergedAt": null,
+            "author": {
+              "login": "jsquaredosquared"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "src/snakemake/cli.py"
+                },
+                {
+                  "path": "src/snakemake/common/argparse.py"
+                },
+                {
+                  "path": "src/snakemake/workflow.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3995,
+            "title": "fix: capture stderr when tests fail",
+            "state": "OPEN",
+            "createdAt": "2026-03-08T07:13:41Z",
+            "mergedAt": null,
+            "author": {
+              "login": "fgvieira"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/unit_tests/templates/common.py.jinja2"
+                },
+                {
+                  "path": "src/snakemake/unit_tests/templates/ruletest.py.jinja2"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3993,
+            "title": "feat: normalize code before comparing for change detection",
+            "state": "OPEN",
+            "createdAt": "2026-03-05T00:34:34Z",
+            "mergedAt": null,
+            "author": {
+              "login": "radusuciu"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/persistence.py"
+                },
+                {
+                  "path": "tests/test_persistence.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3983,
+            "title": "fix: handle missing paths in mtime retrieval of git sources",
+            "state": "OPEN",
+            "createdAt": "2026-02-26T16:29:37Z",
+            "mergedAt": null,
+            "author": {
+              "login": "johanneskoester"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/sourcecache.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3982,
+            "title": "fix: avoiding useless input expand during checkpoint update",
+            "state": "OPEN",
+            "createdAt": "2026-02-20T09:38:44Z",
+            "mergedAt": null,
+            "author": {
+              "login": "tkchouaki"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/dag.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3978,
+            "title": "fix: reporting remote nodes number",
+            "state": "OPEN",
+            "createdAt": "2026-02-19T14:06:49Z",
+            "mergedAt": null,
+            "author": {
+              "login": "cmeesters"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/workflow.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3977,
+            "title": "chore(main): release 9.17.0",
+            "state": "OPEN",
+            "createdAt": "2026-02-18T19:01:46Z",
+            "mergedAt": null,
+            "author": {
+              "login": "snakemake-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3976,
+            "title": "docs: switch to sphinx_design for tabs",
+            "state": "MERGED",
+            "createdAt": "2026-02-18T14:37:11Z",
+            "mergedAt": "2026-02-18T19:00:47Z",
+            "author": {
+              "login": "johanneskoester"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/conf.py"
+                },
+                {
+                  "path": "docs/tutorial/setup.rst"
+                },
+                {
+                  "path": "pyproject.toml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3975,
+            "title": "fix: Use intended executor for workflow validation in 'dryrun/touch' modes",
+            "state": "OPEN",
+            "createdAt": "2026-02-17T16:53:06Z",
+            "mergedAt": null,
+            "author": {
+              "login": "jhiemstrawisc"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/api.py"
+                },
+                {
+                  "path": "src/snakemake/cli.py"
+                },
+                {
+                  "path": "tests/test_api.py"
+                },
+                {
+                  "path": "tests/test_dryrun_executor_validation/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 3973
+                }
+              ]
+            }
+          },
+          {
+            "number": 3974,
+            "title": "chore: prepare for internal Rust modules by migrating to maturin as build backend",
+            "state": "OPEN",
+            "createdAt": "2026-02-17T08:51:26Z",
+            "mergedAt": null,
+            "author": {
+              "login": "seneschall"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "rust/Cargo.lock"
+                },
+                {
+                  "path": "rust/Cargo.toml"
+                },
+                {
+                  "path": "rust/src/lib.rs"
+                },
+                {
+                  "path": "src/snakemake/__init__.py"
+                },
+                {
+                  "path": "src/snakemake/common/__init__.py"
+                },
+                {
+                  "path": "src/snakemake/report/html_reporter/data/packages.py"
+                },
+                {
+                  "path": "tests/tests.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3971,
+            "title": "fix: raise meaningful error for wrong resource definitions",
+            "state": "OPEN",
+            "createdAt": "2026-02-16T14:28:49Z",
+            "mergedAt": null,
+            "author": {
+              "login": "cmeesters"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/resources.py"
+                },
+                {
+                  "path": "tests/tests.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3969,
+            "title": "fix: resolve pathvars before constructing storage queries",
+            "state": "OPEN",
+            "createdAt": "2026-02-12T22:16:39Z",
+            "mergedAt": null,
+            "author": {
+              "login": "koen-vg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/path_modifier.py"
+                },
+                {
+                  "path": "tests/test_pathvars_storage/Snakefile"
+                },
+                {
+                  "path": "tests/test_pathvars_storage/expected-results/storage/output/result.txt"
+                },
+                {
+                  "path": "tests/test_pathvars_storage/storage/input.txt"
+                },
+                {
+                  "path": "tests/tests.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3968,
+            "title": "fix: implement Resources.setdefault",
+            "state": "OPEN",
+            "createdAt": "2026-02-11T21:32:03Z",
+            "mergedAt": null,
+            "author": {
+              "login": "victorlin"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/resources.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3966,
+            "title": "chore(main): release 9.16.3",
+            "state": "MERGED",
+            "createdAt": "2026-02-05T12:12:54Z",
+            "mergedAt": "2026-02-05T16:14:50Z",
+            "author": {
+              "login": "snakemake-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3965,
+            "title": "fix: use validator_for() for dynamic JSON configuration schema validation",
+            "state": "OPEN",
+            "createdAt": "2026-02-05T11:34:08Z",
+            "mergedAt": null,
+            "author": {
+              "login": "sof202"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/snakefiles/configuration.rst"
+                },
+                {
+                  "path": "src/snakemake/utils.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 3963
+                }
+              ]
+            }
+          },
+          {
+            "number": 3964,
+            "title": "docs: correct json-schema to http url to mirror referencing (0.37.0)",
+            "state": "CLOSED",
+            "createdAt": "2026-02-05T10:13:43Z",
+            "mergedAt": null,
+            "author": {
+              "login": "sof202"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/snakefiles/configuration.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 3963
+                }
+              ]
+            }
+          },
+          {
+            "number": 3962,
+            "title": "fix: issue 3958 relative path for storage prefix breaks apptainer",
+            "state": "OPEN",
+            "createdAt": "2026-02-04T21:10:00Z",
+            "mergedAt": null,
+            "author": {
+              "login": "BEFH"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/workflow.py"
+                },
+                {
+                  "path": "tests/test_issue3958/Snakefile"
+                },
+                {
+                  "path": "tests/test_issue3958/expected-results/out.txt"
+                },
+                {
+                  "path": "tests/tests.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3961,
+            "title": "Storage absolute",
+            "state": "CLOSED",
+            "createdAt": "2026-02-04T21:04:36Z",
+            "mergedAt": null,
+            "author": {
+              "login": "BEFH"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/workflow.py"
+                },
+                {
+                  "path": "tests/test_issue3958/Snakefile"
+                },
+                {
+                  "path": "tests/test_issue3958/expected-results/out.txt"
+                },
+                {
+                  "path": "tests/tests.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3960,
+            "title": "fix: local_storage_prefix path in container",
+            "state": "CLOSED",
+            "createdAt": "2026-02-04T20:26:51Z",
+            "mergedAt": null,
+            "author": {
+              "login": "GaspardR"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/workflow.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 3958
+                }
+              ]
+            }
+          },
+          {
+            "number": 3957,
+            "title": "build(deps): bump prefix-dev/setup-pixi from 0.9.3 to 0.9.4",
+            "state": "OPEN",
+            "createdAt": "2026-02-02T18:09:11Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/docs.yml"
+                },
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".github/workflows/release-please.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3956,
+            "title": "feat: Allow to specify comparison command per-unit test",
+            "state": "MERGED",
+            "createdAt": "2026-02-02T10:02:13Z",
+            "mergedAt": "2026-02-24T16:49:12Z",
+            "author": {
+              "login": "fgvieira"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/snakefiles/testing.rst"
+                },
+                {
+                  "path": "src/snakemake/unit_tests/templates/common.py.jinja2"
+                },
+                {
+                  "path": "src/snakemake/unit_tests/templates/ruletest.py.jinja2"
+                },
+                {
+                  "path": "tests/test_generate_unit_tests/expected-results/.tests/unit/a/config/config/config.json"
+                },
+                {
+                  "path": "tests/test_generate_unit_tests/expected-results/.tests/unit/a/data/input.csv"
+                },
+                {
+                  "path": "tests/test_generate_unit_tests/expected-results/.tests/unit/a/expected/test/0.tmp"
+                },
+                {
+                  "path": "tests/test_generate_unit_tests/expected-results/.tests/unit/a/expected/test/0.txt"
+                },
+                {
+                  "path": "tests/test_generate_unit_tests/expected-results/.tests/unit/b/config/config/config.json"
+                },
+                {
+                  "path": "tests/test_generate_unit_tests/expected-results/.tests/unit/b/data/test/0.txt"
+                },
+                {
+                  "path": "tests/test_generate_unit_tests/expected-results/.tests/unit/b/expected/test/0.tsv"
+                },
+                {
+                  "path": "tests/test_generate_unit_tests/expected-results/.tests/unit/common.py"
+                },
+                {
+                  "path": "tests/test_generate_unit_tests/expected-results/.tests/unit/conftest.py"
+                },
+                {
+                  "path": "tests/test_generate_unit_tests/expected-results/.tests/unit/test_a.py"
+                },
+                {
+                  "path": "tests/test_generate_unit_tests/expected-results/.tests/unit/test_b.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3952,
+            "title": "fix: allow relative imports from modules",
+            "state": "OPEN",
+            "createdAt": "2026-01-30T19:49:24Z",
+            "mergedAt": null,
+            "author": {
+              "login": "coroa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakemake/modules.py"
+                },
+                {
+                  "path": "src/snakemake/workflow.py"
+                },
+                {
+                  "path": "tests/test_modules_local_import/Snakefile"
+                },
+                {
+                  "path": "tests/test_modules_local_import/bar.py"
+                },
+                {
+                  "path": "tests/test_modules_local_import/expected-results/inner.txt"
+                },
+                {
+                  "path": "tests/test_modules_local_import/expected-results/outer.txt"
+                },
+                {
+                  "path": "tests/test_modules_local_import/module-test/Snakefile"
+                },
+                {
+                  "path": "tests/test_modules_local_import/module-test/bar.py"
+                },
+                {
+                  "path": "tests/test_modules_local_import/module-test/foo.py"
+                },
+                {
+                  "path": "tests/tests.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 3951
+                }
+              ]
+            }
+          },
+          {
+            "number": 3949,
+            "title": "feat: Make scheduler work gracefully with hash collisions of cached jobs",
+            "state": "OPEN",
+            "createdAt": "2026-01-29T17:34:55Z",
+            "mergedAt": null,
+            "author": {
+              "login": "coroa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "cache/a479746dbd17f4089193762007ecd7247a274d8419d9c183eecd8291224a7357_output_{i}.txt"
+                },
+                {
+                  "path": "docs/executing/caching.rst"
+                },
+                {
+                  "path": "src/snakemake/caching/__init__.py"
+                },
+                {
+                  "path": "src/snakemake/caching/local.py"
+                },
+                {
+                  "path": "src/snakemake/caching/storage.py"
+                },
+                {
+                  "path": "src/snakemake/scheduling/job_scheduler.py"
+                },
+                {
+                  "path": "src/snakemake/workflow.py"
+                },
+                {
+                  "path": "tests/test_cache_multioutput/Snakefile"
+                },
+                {
+                  "path": "tests/test_cache_multioutput/cache/.gitkeep"
+                },
+                {
+                  "path": "tests/test_cache_multioutput/expected-results/1.txt"
+                },
+                {
+                  "path": "tests/test_cache_multioutput/expected-results/2.txt"
+                },
+                {
+                  "path": "tests/test_cache_multioutput/expected-results/cache/.gitkeep"
+                },
+                {
+                  "path": "tests/test_cache_multioutput/expected-results/cache/d5281ea3cbea5533581d362bf3375f0d61f076708f54dee5360dba560de33b1b_1.txt"
+                },
+                {
+                  "path": "tests/test_cache_multioutput/expected-results/cache/d5281ea3cbea5533581d362bf3375f0d61f076708f54dee5360dba560de33b1b_2.txt"
+                },
+                {
+                  "path": "tests/test_cache_provenance_hash_collisions/Snakefile"
+                },
+                {
+                  "path": "tests/test_cache_provenance_hash_collisions/cache/.gitkeep"
+                },
+                {
+                  "path": "tests/test_cache_provenance_hash_collisions/expected-results/cache/da41f77ea046d58be32c41c7058d463614fa4799f1bfef7201a2a1f33fcdf53e_output_{i}.txt"
+                },
+                {
+                  "path": "tests/test_cache_provenance_hash_collisions/expected-results/output_0.txt"
+                },
+                {
+                  "path": "tests/test_cache_provenance_hash_collisions/expected-results/output_1.txt"
+                },
+                {
+                  "path": "tests/test_cache_provenance_hash_collisions/expected-results/output_2.txt"
+                },
+                {
+                  "path": "tests/test_output_file_cache/Snakefile"
+                },
+                {
+                  "path": "tests/test_output_file_cache/expected-results/cache/6250074792e6b1aa4d9fbd820673cc22fe30525099db88b6918fa513fb003a66_test3.{w}.out"
+                },
+                {
+                  "path": "tests/test_output_file_cache/expected-results/cache/695af872f8dc47c9acd2dd3ebec1caad623f7348dca2c38ef81df8acef58b4eb_test2.out"
+                },
+                {
+                  "path": "tests/test_output_file_cache/expected-results/cache/695af872f8dc47c9acd2dd3ebec1caad623f7348dca2c38ef81df8acef58b4eb_test2_out2"
+                },
+                {
+                  "path": "tests/test_output_file_cache/expected-results/cache/fa466047205bfd2dc7fe1fcbd5ec3591e3c1c5f73e8c7112493092191af2bee8_test.out"
+                },
+                {
+                  "path": "tests/tests.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3948,
+            "title": "feat: enable caching for arbitrary multi output rules",
+            "state": "OPEN",
+            "createdAt": "2026-01-29T16:00:43Z",
+            "mergedAt": null,
+            "author": {
+              "login": "coroa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/executing/caching.rst"
+                },
+                {
+                  "path": "src/snakemake/caching/__init__.py"
+                },
+                {
+                  "path": "src/snakemake/caching/local.py"
+                },
+                {
+                  "path": "src/snakemake/caching/storage.py"
+                },
+                {
+                  "path": "src/snakemake/workflow.py"
+                },
+                {
+                  "path": "tests/test_cache_multioutput/Snakefile"
+                },
+                {
+                  "path": "tests/test_cache_multioutput/cache/.gitkeep"
+                },
+                {
+                  "path": "tests/test_cache_multioutput/expected-results/1.txt"
+                },
+                {
+                  "path": "tests/test_cache_multioutput/expected-results/2.txt"
+                },
+                {
+                  "path": "tests/test_cache_multioutput/expected-results/cache/.gitkeep"
+                },
+                {
+                  "path": "tests/test_cache_multioutput/expected-results/cache/d5281ea3cbea5533581d362bf3375f0d61f076708f54dee5360dba560de33b1b_1.txt"
+                },
+                {
+                  "path": "tests/test_cache_multioutput/expected-results/cache/d5281ea3cbea5533581d362bf3375f0d61f076708f54dee5360dba560de33b1b_2.txt"
+                },
+                {
+                  "path": "tests/test_output_file_cache/Snakefile"
+                },
+                {
+                  "path": "tests/test_output_file_cache/expected-results/cache/6250074792e6b1aa4d9fbd820673cc22fe30525099db88b6918fa513fb003a66_test3.{w}.out"
+                },
+                {
+                  "path": "tests/test_output_file_cache/expected-results/cache/695af872f8dc47c9acd2dd3ebec1caad623f7348dca2c38ef81df8acef58b4eb_test2.out"
+                },
+                {
+                  "path": "tests/test_output_file_cache/expected-results/cache/695af872f8dc47c9acd2dd3ebec1caad623f7348dca2c38ef81df8acef58b4eb_test2_out2"
+                },
+                {
+                  "path": "tests/test_output_file_cache/expected-results/cache/fa466047205bfd2dc7fe1fcbd5ec3591e3c1c5f73e8c7112493092191af2bee8_test.out"
+                },
+                {
+                  "path": "tests/tests.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

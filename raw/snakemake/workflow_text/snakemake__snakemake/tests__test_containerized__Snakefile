@@ -1,0 +1,9 @@
+containerized: "docker://snakemake/containerize-testimage:1.2"
+
+rule a:
+    output:
+        "test.out"
+    conda:
+        "env.yaml"
+    shell:
+        "bcftools 2> {output} || true"

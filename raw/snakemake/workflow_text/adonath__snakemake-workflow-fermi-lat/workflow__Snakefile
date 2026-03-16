@@ -1,0 +1,335 @@
+from snakemake.utils import min_version
+from astropy.coordinates import SkyCoord, Angle
+from astropy import units as u
+from astropy.time import Time
+from pydantic import BaseModel, validator, FilePath
+from enum import Enum
+from typing import List, Optional, Literal
+
+
+
+# set minimum snakemake version
+min_version("6.4.1")
+
+# setup config file
+configfile: "config/config.yaml"
+
+# TODO: this is work in progress. Add more event clases, config arguments etc. from fermitools
+TIME_REF_FERMI = Time("2001-01-01T00:00:00")
+
+FERMI_IRF_EVCLASS = {
+    128: "P8R3_SOURCE_V3",
+}
+
+EVENT_TYPES = [2 ** idx for idx in range(10)]
+EVENT_CLASSES = [2 ** idx for idx in range(3, 12)]
+
+class EventClassEnum(str, Enum):
+    p8r3_sourceveto_v3 = "P8R3_SOURCEVETO_V3"
+    p8r3_ultracleanveto_v3 = "P8R3_ULTRACLEANVETO_V3"
+    p8r3_ultraclean_v3 = "P8R3_ULTRACLEAN_V3"
+    p8r3_clean_v3 = "P8R3_CLEAN_V3"
+    p8r3_source_v3 = "P8R3_SOURCE_V3"
+
+# P8R3_TRANSIENT010_V3
+# P8R3_TRANSIENT020_V3
+# P8R3_TRANSIENT010E_V3
+# P8R3_TRANSIENT020E_V3
+
+
+class EventTypeEnum(str, Enum):
+    front = "front"
+    back = "back"
+    psf_0 = "psf0"
+    psf_1 = "psf1"
+    psf_2 = "psf2"
+    psf_3 = "psf3"
+    edisp_0 = "edisp0"
+    edisp_1 = "edisp1"
+    edisp_2 = "edisp2"
+    edisp_3 = "edisp3"
+
+
+EVENT_TYPE_TO_INT = {key.value: value  for key, value in zip(EventTypeEnum, EVENT_TYPES)}
+EVENT_CLASS_TO_INT = {key.value: value  for key, value in zip(EventClassEnum, EVENT_CLASSES[::-1])}
+
+
+class BoolEnum(str, Enum):
+    yes = "yes"
+    no = "no"
+
+
+class CoordsysEnum(str, Enum):
+    gal = "GAL"
+    cel = "CEL"
+
+
+class EbinalgEnum(str, Enum):
+    lin = "LIN"
+    log = "LOG"
+
+
+class ProjEnum(str, Enum):
+    ait = "AIT"
+    car = "CAR"
+    tab = "TAN"
+
+
+class AlgorithmEnum(str, Enum):
+    ccube = "CCUBE"
+
+class BinCalcEnum(str, Enum):
+    center = "CENTER"
+    edges = "EDGE"
+
+
+class BaseConfig(BaseModel):
+    """Gt base config"""
+    mode: str = "h"
+    chatter: int = 2
+    clobber: Literal["yes", "no"] = "yes"
+    debug: Literal["no", "yes"] = "no"
+
+    class Config:
+        validate_all = True
+        validate_assignment = True
+        extra = "forbid"
+
+    def to_cmd_args(self):
+        """To cmd args"""
+        data = self.dict()
+        data.pop("evtype", None)
+        return " ".join([f"{key}={value}" for key, value in data.items()])
+
+
+class GtSelectConfig(BaseConfig):
+    ra: float = 0
+    dec: float = 0
+    rad: float = 3
+    tmin: float = 239557417.0
+    tmax: float = 697768627.0
+    emin: float = 1000.0
+    emax: float = 500000.0
+    zmax: float = 105.0
+    evclass: int = 128
+    evtype: int = 2
+
+    @validator("ra", "dec", "zmax", "rad", pre=True)
+    def validate_angle(cls, value):
+        """Validate angle"""
+        return Angle(value, "deg").deg
+
+    @validator("tmin", "tmax", pre=True)
+    def validate_time(cls, value):
+        """Validate time"""
+        if isinstance(value, float):
+            return value
+
+        return (Time(value) - TIME_REF_FERMI).to_value("s")
+
+    @validator("emin", "emax", pre=True)
+    def validate_energy(cls, value):
+        """Validate energy"""
+        return u.Quantity(value, "MeV").to_value("MeV")
+
+    @validator("evclass")
+    def validate_event_class(cls, value):
+        """Validate event class"""
+        if not value in EVENT_CLASSES:
+            raise ValueError(f"Not a valid event class {value}, choose from {EVENT_CLASSES}")
+
+        return value
+
+    @validator("evtype")
+    def validate_event_type(cls, value):
+        """Validate event type"""
+        if not value in EVENT_TYPES:
+            raise ValueError(f"Not a valid event type {value}, choose from {EVENT_TYPES}")
+
+        return value
+
+    @property
+    def center_skydir(self):
+        """Center sky dir"""
+        return SkyCoord(self.ra, self.dec, unit="deg", frame="icrs")
+
+    @property
+    def width(self):
+        """Width"""
+        return Angle(self.rad, "deg")
+
+
+class GtMkTimeConfig(BaseConfig):
+    filter: str = "(DATA_QUAL>0)&&(LAT_CONFIG==1)"
+    roicut: BoolEnum = "yes"
+
+
+class GtBinConfig(BaseConfig):
+    algorithm: AlgorithmEnum = "CCUBE"
+    nxpix: int = 200
+    nypix: int = 200
+    xref: float = 0 
+    yref: float = 0
+    proj: ProjEnum = "CAR"
+    binsz: float = 0.02
+    coordsys: CoordsysEnum = "GAL"
+    ebinalg: EbinalgEnum = "LOG"
+    enumbins: int = 1
+    axisrot: float = 0
+    emin: float = 1000.0
+    emax: float = 500000.0
+
+    class Config:  
+        use_enum_values = True
+
+    @validator("emin", "emax", pre=True)
+    def validate_energy(cls, value):
+        """Validate energy"""
+        return u.Quantity(value, "MeV").to_value("MeV")
+
+    @validator("binsz", "axisrot", pre=True)
+    def validate_angle(cls, value):
+        """Validate angle"""
+        return Angle(value, "deg").deg
+
+
+class GtLtCubeConfig(BaseConfig):
+    dcostheta: float = 0.025
+    binsz: float = 1.
+    tmin: float = 239557417.0
+    tmax: float = 697768627.0
+    zmax: float = 105.0
+
+    @validator("zmax", "binsz", pre=True)
+    def validate_angle(cls, value):
+        """Validate angle"""
+        return Angle(value, "deg").deg
+
+    @validator("tmin", "tmax", pre=True)
+    def validate_time(cls, value):
+        """Validate time"""
+        if isinstance(value, float):
+            return value
+
+        return (Time(value) - TIME_REF_FERMI).to_value("s")
+
+
+class GtExpCube2Config(BaseConfig):
+    coordsys: CoordsysEnum = "GAL"
+    irfs: EventClassEnum = "P8R3_SOURCE_V3"
+    nxpix: int = 200
+    nypix: int = 200
+    xref: float = 266.25888553
+    yref: float = -1.21964555
+    proj: ProjEnum = "CAR"
+    binsz: float = 0.02
+    ebinalg: EbinalgEnum = "LOG"
+    cmap: str = "none"
+    emin: float = 1000.0
+    emax: float = 500000.0
+    enumbins: int = 17
+    axisrot: float = 0
+    bincalc: BinCalcEnum = "EDGE"
+
+    @validator("emin", "emax", pre=True)
+    def validate_energy(cls, value):
+        """Validate energy"""
+        return u.Quantity(value, "MeV").to_value("MeV")
+
+    @validator("binsz", "axisrot", "xref", "yref", pre=True)
+    def validate_angle(cls, value):
+        """Validate angle"""
+        return Angle(value, "deg").deg
+
+
+class GtPsfConfig(BaseConfig):
+    thetamax: float = 10
+    ntheta: int = 300
+    ra: float = 0
+    dec: float = 0
+    emin: float = 1000.0
+    emax: float = 500000.0
+    nenergies: int = 17
+    irfs: EventClassEnum = "P8R3_SOURCE_V3"
+
+    @validator("ra", "dec", "thetamax", pre=True)
+    def validate_angle(cls, value):
+        """Validate angle"""
+        return Angle(value, "deg").deg
+
+    @validator("emin", "emax", pre=True)
+    def validate_energy(cls, value):
+        """Validate energy"""
+        return u.Quantity(value, "MeV").to_value("MeV")
+
+class GtDrmConfig(BaseConfig):
+    irfs: EventClassEnum = "P8R3_SOURCE_V3"
+    evtype: int = 2
+    edisp_bins: int = 1
+
+    @validator("evtype")
+    def validate_event_type(cls, value):
+        """Validate event type"""
+        if not value in EVENT_TYPES:
+            raise ValueError(f"Not a valid event type {value}, choose from {EVENT_TYPES}")
+
+        return value
+
+
+class FermiToolsConfig(BaseConfig):
+    gtselect: GtSelectConfig = GtSelectConfig()
+    gtmktime: GtMkTimeConfig = GtMkTimeConfig()
+    gtbin: GtBinConfig = GtBinConfig()
+    gtltcube: GtLtCubeConfig = GtLtCubeConfig()
+    gtexpcube2: GtExpCube2Config = GtExpCube2Config()
+    gtpsf: GtPsfConfig = GtPsfConfig()
+    gtdrm: GtDrmConfig = GtDrmConfig()
+
+
+class SnakeMakeFermiLATConfig(BaseConfig):
+    name: str = "my-config"
+    scfile: str
+    path_data: str = "data"
+    path_results: str = "results"
+    gal_diffuse: str = "gll_iem_v07.fits"
+    catalog: str = "3fhl"
+    event_types: List[EventTypeEnum] = ["FRONT", "BACK"]
+    ltcube: Optional[str] = None
+    fermitools = FermiToolsConfig = FermiToolsConfig()
+
+
+config_obj = SnakeMakeFermiLATConfig(**config)
+
+gtselect = config_obj.fermitools.gtselect
+gtmktime = config_obj.fermitools.gtmktime
+gtbin = config_obj.fermitools.gtbin
+gtltcube = config_obj.fermitools.gtltcube
+gtexpcube2 = config_obj.fermitools.gtexpcube2
+gtpsf = config_obj.fermitools.gtpsf
+gtdrm = config_obj.fermitools.gtdrm
+
+report: "report/workflow.rst"
+
+# load rules
+include: "rules/gather.smk"
+include: "rules/gtselect.smk"
+include: "rules/gtmktime.smk"
+include: "rules/gtbin.smk"
+include: "rules/gtexpcube2.smk"
+include: "rules/gtltcube.smk"
+include: "rules/gtpsf.smk"
+include: "rules/gtdrm.smk"
+include: "rules/prepare-gp-dataset.smk"
+include: "rules/prepare-gp-datasets-yaml.smk"
+include: "rules/prepare-gp-model.smk"
+include: "rules/summarize-gp-datasets.smk"
+include: "rules/summarize-gp-spectra.smk"
+
+# all rule 
+rule all:
+    input:
+        expand("{path_results}/{config_name}/datasets/{config_name}-{event_type}-dataset.fits", path_results=config_obj.path_results, config_name=config_obj.name, event_type=config_obj.event_types),
+        expand("{path_results}/{config_name}/datasets/{config_name}-datasets-all.yaml",  path_results=config_obj.path_results, config_name=config_obj.name),
+        expand("{path_results}/{config_name}/model/{config_name}-model.yaml",  path_results=config_obj.path_results, config_name=config_obj.name),
+        expand("{path_results}/{config_name}/summary/images/{event_type}/{config_name}-{event_type}-counts-image.png",  path_results=config_obj.path_results, config_name=config_obj.name, event_type=config_obj.event_types),
+        expand("{path_results}/{config_name}/summary/images/{config_name}-counts-spectra.png", path_results=config_obj.path_results, config_name=config_obj.name),

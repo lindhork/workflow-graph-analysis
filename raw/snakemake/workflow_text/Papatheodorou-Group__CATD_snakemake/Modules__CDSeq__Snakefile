@@ -1,0 +1,44 @@
+## Rule index for CDSeq deconv
+##
+## @zgr2788
+##
+##
+## Description:
+## This file includes the rule to run CDSeq with C1 reference.
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+
+rule CDSeq_run:
+    input:
+        getC2(getC1(getBulks('{sample}'), '{sample}'),'{sample}')
+
+    output:
+        "Output/{sample}_res_CDSeq.rds"
+
+    conda:
+        "env.yaml"
+
+    threads: config['cores']['CDSeq']
+
+    benchmark:
+        "Benchmarks/{sample}_CDSeq_benchmark.txt"
+    
+    params: 
+        markers=config['markers']
+
+    resources:
+        mem_mb=getMB(config['mem_gb']['CDSeq'])
+
+    shell:
+        "Rscript Modules/CDSeq/CDSeq_run.R {input} {threads} {params.markers}  {output}"

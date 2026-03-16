@@ -1,0 +1,4669 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 767,
+            "title": "Use the nf-core Gens preprocessing module",
+            "state": "OPEN",
+            "createdAt": "2026-01-22T09:02:49Z",
+            "closedAt": null,
+            "author": {
+              "login": "Jakob37"
+            }
+          },
+          {
+            "number": 765,
+            "title": "Use topic channels in local modules to capture versions",
+            "state": "CLOSED",
+            "createdAt": "2026-01-07T13:59:36Z",
+            "closedAt": "2026-02-17T14:29:52Z",
+            "author": {
+              "login": "ramprasadn"
+            }
+          },
+          {
+            "number": 761,
+            "title": "Remove haplocheck from the pipeline",
+            "state": "OPEN",
+            "createdAt": "2025-12-17T14:58:15Z",
+            "closedAt": null,
+            "author": {
+              "login": "ramprasadn"
+            }
+          },
+          {
+            "number": 740,
+            "title": "Restrict variant calling and annotations to certain regions",
+            "state": "OPEN",
+            "createdAt": "2025-11-14T09:19:15Z",
+            "closedAt": null,
+            "author": {
+              "login": "jemten"
+            }
+          },
+          {
+            "number": 739,
+            "title": "Mismatches between VCF and ROH files when running with multiple samples",
+            "state": "CLOSED",
+            "createdAt": "2025-11-12T11:40:26Z",
+            "closedAt": "2026-02-17T14:32:30Z",
+            "author": {
+              "login": "fellen31"
+            }
+          },
+          {
+            "number": 736,
+            "title": "ERROR: genmod.commands.score_variants",
+            "state": "OPEN",
+            "createdAt": "2025-10-28T10:01:51Z",
+            "closedAt": null,
+            "author": {
+              "login": "karlaarz"
+            }
+          },
+          {
+            "number": 735,
+            "title": "Incomplete gens output for references with `chr` prefix",
+            "state": "CLOSED",
+            "createdAt": "2025-10-22T06:50:29Z",
+            "closedAt": "2025-12-03T16:44:11Z",
+            "author": {
+              "login": "maehler"
+            }
+          },
+          {
+            "number": 731,
+            "title": "Missing env-file",
+            "state": "CLOSED",
+            "createdAt": "2025-10-09T16:13:24Z",
+            "closedAt": "2025-11-03T09:01:09Z",
+            "author": {
+              "login": "higoress"
+            }
+          },
+          {
+            "number": 730,
+            "title": "Running Multiple Singleton Samples with once CSV file",
+            "state": "OPEN",
+            "createdAt": "2025-10-04T13:02:29Z",
+            "closedAt": null,
+            "author": {
+              "login": "bioinformaticsguy"
+            }
+          },
+          {
+            "number": 729,
+            "title": "Empty bed files not caught",
+            "state": "OPEN",
+            "createdAt": "2025-10-01T13:05:15Z",
+            "closedAt": null,
+            "author": {
+              "login": "islean"
+            }
+          },
+          {
+            "number": 728,
+            "title": "Replace local subworkflow generate_clinical_set with nf-core version",
+            "state": "CLOSED",
+            "createdAt": "2025-10-01T07:12:34Z",
+            "closedAt": "2025-11-03T09:02:22Z",
+            "author": {
+              "login": "peterpru"
+            }
+          },
+          {
+            "number": 726,
+            "title": "Bug Report: SNV and SV annotations missing without errors",
+            "state": "OPEN",
+            "createdAt": "2025-10-01T06:41:21Z",
+            "closedAt": null,
+            "author": {
+              "login": "bioinformaticsguy"
+            }
+          },
+          {
+            "number": 725,
+            "title": "haplogrep3 fails for some samples while other samples run without any error!",
+            "state": "OPEN",
+            "createdAt": "2025-10-01T06:23:24Z",
+            "closedAt": null,
+            "author": {
+              "login": "bioinformaticsguy"
+            }
+          },
+          {
+            "number": 723,
+            "title": "CADD for chr? chromosome names",
+            "state": "OPEN",
+            "createdAt": "2025-09-18T19:43:24Z",
+            "closedAt": null,
+            "author": {
+              "login": "fa2k"
+            }
+          },
+          {
+            "number": 721,
+            "title": "Missing mt variants in the clinical list",
+            "state": "CLOSED",
+            "createdAt": "2025-09-15T07:02:21Z",
+            "closedAt": "2025-11-03T09:04:28Z",
+            "author": {
+              "login": "peterpru"
+            }
+          },
+          {
+            "number": 720,
+            "title": "Same case_id and sample causes crash in SVDB_MERGE_ME",
+            "state": "OPEN",
+            "createdAt": "2025-09-05T10:52:46Z",
+            "closedAt": null,
+            "author": {
+              "login": "fa2k"
+            }
+          },
+          {
+            "number": 719,
+            "title": "No variant calling jobs if bait_padding is set to zero",
+            "state": "CLOSED",
+            "createdAt": "2025-09-05T10:47:48Z",
+            "closedAt": "2025-12-15T12:09:56Z",
+            "author": {
+              "login": "fa2k"
+            }
+          },
+          {
+            "number": 711,
+            "title": "The MT vcf file contains multi allelic variants",
+            "state": "OPEN",
+            "createdAt": "2025-07-02T12:52:50Z",
+            "closedAt": null,
+            "author": {
+              "login": "jemten"
+            }
+          },
+          {
+            "number": 710,
+            "title": "Skipped tool germlinecnvcaller but still get missing params error",
+            "state": "OPEN",
+            "createdAt": "2025-06-24T07:48:40Z",
+            "closedAt": null,
+            "author": {
+              "login": "bioinformaticsguy"
+            }
+          },
+          {
+            "number": 698,
+            "title": "Runs with multiple case_id",
+            "state": "OPEN",
+            "createdAt": "2025-04-24T08:43:59Z",
+            "closedAt": null,
+            "author": {
+              "login": "HudoGriz"
+            }
+          },
+          {
+            "number": 691,
+            "title": "JSON schema: Raredisease",
+            "state": "CLOSED",
+            "createdAt": "2025-03-24T18:36:01Z",
+            "closedAt": "2025-04-09T14:37:58Z",
+            "author": {
+              "login": "ShimiraOleg"
+            }
+          },
+          {
+            "number": 685,
+            "title": "Fixed file configurations for VEP plugins",
+            "state": "OPEN",
+            "createdAt": "2025-03-04T13:07:41Z",
+            "closedAt": null,
+            "author": {
+              "login": "kubranarci"
+            }
+          },
+          {
+            "number": 681,
+            "title": "test config igenome configurations are wrong",
+            "state": "OPEN",
+            "createdAt": "2025-02-25T14:03:41Z",
+            "closedAt": null,
+            "author": {
+              "login": "kubranarci"
+            }
+          },
+          {
+            "number": 676,
+            "title": "bwa-mem2 Container Issue due to old CPU instructions",
+            "state": "CLOSED",
+            "createdAt": "2025-02-06T12:45:13Z",
+            "closedAt": "2025-02-12T15:17:47Z",
+            "author": {
+              "login": "pnolabs"
+            }
+          },
+          {
+            "number": 663,
+            "title": "To fix before next releases",
+            "state": "OPEN",
+            "createdAt": "2025-01-15T09:58:10Z",
+            "closedAt": null,
+            "author": {
+              "login": "maxulysse"
+            }
+          },
+          {
+            "number": 650,
+            "title": "Order of samples in family SNV and SV VCFs is different",
+            "state": "OPEN",
+            "createdAt": "2024-11-30T14:00:53Z",
+            "closedAt": null,
+            "author": {
+              "login": "sitems"
+            }
+          },
+          {
+            "number": 645,
+            "title": "Mosdepth coverage report of WES regions",
+            "state": "OPEN",
+            "createdAt": "2024-11-10T12:59:54Z",
+            "closedAt": null,
+            "author": {
+              "login": "sitems"
+            }
+          },
+          {
+            "number": 642,
+            "title": "Error in UPD on single sample",
+            "state": "CLOSED",
+            "createdAt": "2024-10-29T18:51:56Z",
+            "closedAt": "2024-11-03T16:20:38Z",
+            "author": {
+              "login": "fa2k"
+            }
+          },
+          {
+            "number": 641,
+            "title": "Germline or somatic",
+            "state": "CLOSED",
+            "createdAt": "2024-10-24T08:55:58Z",
+            "closedAt": "2024-11-03T16:22:35Z",
+            "author": {
+              "login": "beginner984"
+            }
+          },
+          {
+            "number": 640,
+            "title": "VEP 113",
+            "state": "CLOSED",
+            "createdAt": "2024-10-22T09:24:39Z",
+            "closedAt": "2024-10-25T07:21:18Z",
+            "author": {
+              "login": "dnil"
+            }
+          },
+          {
+            "number": 634,
+            "title": "GATK gCNV calls are not merged into a family VCF",
+            "state": "CLOSED",
+            "createdAt": "2024-10-16T09:56:05Z",
+            "closedAt": "2024-10-20T14:48:11Z",
+            "author": {
+              "login": "jemten"
+            }
+          },
+          {
+            "number": 631,
+            "title": "Some SNV genome variants were found outside of --target_bed file with --bait_padding",
+            "state": "CLOSED",
+            "createdAt": "2024-10-13T09:33:44Z",
+            "closedAt": "2024-11-03T16:27:28Z",
+            "author": {
+              "login": "sitems"
+            }
+          },
+          {
+            "number": 626,
+            "title": "mosdepth error on dev branch",
+            "state": "CLOSED",
+            "createdAt": "2024-10-07T17:42:16Z",
+            "closedAt": "2025-09-03T10:07:32Z",
+            "author": {
+              "login": "fa2k"
+            }
+          },
+          {
+            "number": 615,
+            "title": "gnomAD v4.1 SV database contains mix of SV and CNV - svdb problem",
+            "state": "OPEN",
+            "createdAt": "2024-09-20T13:23:31Z",
+            "closedAt": null,
+            "author": {
+              "login": "fa2k"
+            }
+          },
+          {
+            "number": 614,
+            "title": "Split deepvariant pipeline",
+            "state": "OPEN",
+            "createdAt": "2024-09-20T08:36:47Z",
+            "closedAt": null,
+            "author": {
+              "login": "fa2k"
+            }
+          },
+          {
+            "number": 613,
+            "title": "Empty VCF file fails in genmod score",
+            "state": "CLOSED",
+            "createdAt": "2024-09-20T08:09:12Z",
+            "closedAt": "2024-09-20T10:30:07Z",
+            "author": {
+              "login": "fa2k"
+            }
+          },
+          {
+            "number": 612,
+            "title": "Help with figuring out if error is pipeline or HPC related",
+            "state": "OPEN",
+            "createdAt": "2024-09-18T12:33:38Z",
+            "closedAt": null,
+            "author": {
+              "login": "hrydbeck"
+            }
+          },
+          {
+            "number": 611,
+            "title": "Test+Docker profile fails: Can't locate object method \"cdna_coords\"",
+            "state": "CLOSED",
+            "createdAt": "2024-09-13T21:12:03Z",
+            "closedAt": "2024-10-25T07:52:38Z",
+            "author": {
+              "login": "Oliversinn"
+            }
+          },
+          {
+            "number": 604,
+            "title": "Allow multiple unrelated cases/families in samplesheet.csv",
+            "state": "OPEN",
+            "createdAt": "2024-08-22T06:12:16Z",
+            "closedAt": null,
+            "author": {
+              "login": "sitems"
+            }
+          },
+          {
+            "number": 603,
+            "title": "ERROR ~ while scanning a simple key",
+            "state": "CLOSED",
+            "createdAt": "2024-08-21T11:25:06Z",
+            "closedAt": "2024-09-30T10:01:33Z",
+            "author": {
+              "login": "sitems"
+            }
+          },
+          {
+            "number": 602,
+            "title": "Option to publish GVCFs",
+            "state": "OPEN",
+            "createdAt": "2024-08-20T10:48:10Z",
+            "closedAt": null,
+            "author": {
+              "login": "sitems"
+            }
+          },
+          {
+            "number": 599,
+            "title": "filter_vep broken with hg38",
+            "state": "CLOSED",
+            "createdAt": "2024-08-15T11:37:24Z",
+            "closedAt": "2025-11-03T10:47:05Z",
+            "author": {
+              "login": "fellen31"
+            }
+          },
+          {
+            "number": 596,
+            "title": "Add default support for haploid variant calls",
+            "state": "CLOSED",
+            "createdAt": "2024-08-14T09:35:18Z",
+            "closedAt": "2024-08-15T11:53:27Z",
+            "author": {
+              "login": "jemten"
+            }
+          },
+          {
+            "number": 593,
+            "title": "`vep_plugin_files` listed as optional parameter but pipeline won't run without it",
+            "state": "CLOSED",
+            "createdAt": "2024-08-13T11:22:39Z",
+            "closedAt": "2024-08-14T13:07:09Z",
+            "author": {
+              "login": "fellen31"
+            }
+          },
+          {
+            "number": 592,
+            "title": "Test+Docker profile fails: \"ValueError: `call_variants_outputs` did not pass sanity check.\"",
+            "state": "OPEN",
+            "createdAt": "2024-08-12T12:47:47Z",
+            "closedAt": null,
+            "author": {
+              "login": "sitems"
+            }
+          },
+          {
+            "number": 591,
+            "title": "Allow 'lane' in samplesheet.csv to be String type (as in e.g. sarek)",
+            "state": "CLOSED",
+            "createdAt": "2024-08-12T08:09:04Z",
+            "closedAt": "2024-08-15T11:36:10Z",
+            "author": {
+              "login": "sitems"
+            }
+          },
+          {
+            "number": 590,
+            "title": "Test+Docker profile fails: \"The TensorFlow library was compiled to use AVX instructions, but these aren't available on your machine.\"",
+            "state": "OPEN",
+            "createdAt": "2024-08-12T07:37:29Z",
+            "closedAt": null,
+            "author": {
+              "login": "sitems"
+            }
+          },
+          {
+            "number": 583,
+            "title": "publishDir mode missing in raredisease.config for processes FASTQC and CREATE_PEDIGREE_FILE",
+            "state": "CLOSED",
+            "createdAt": "2024-07-25T12:38:12Z",
+            "closedAt": "2024-08-02T14:01:51Z",
+            "author": {
+              "login": "irliampa"
+            }
+          },
+          {
+            "number": 575,
+            "title": " bash: singularity: command not found",
+            "state": "CLOSED",
+            "createdAt": "2024-06-25T09:52:51Z",
+            "closedAt": "2024-07-03T14:41:26Z",
+            "author": {
+              "login": "hrydbeck"
+            }
+          },
+          {
+            "number": 568,
+            "title": "Mismatch with new DNAScope ML model format",
+            "state": "OPEN",
+            "createdAt": "2024-06-13T11:54:08Z",
+            "closedAt": null,
+            "author": {
+              "login": "Jakob37"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 783,
+            "title": "Refactor and add tests for subworkflow -III",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T13:43:29Z",
+            "mergedAt": null,
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules/annotate_rhocallviz.config"
+                },
+                {
+                  "path": "conf/modules/call_snv_sentieon.config"
+                },
+                {
+                  "path": "subworkflows/local/annotate_genome_snvs/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_genome_snvs/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/annotate_mt_snvs/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_mt_snvs/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/annotate_mt_snvs/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/annotate_mt_snvs/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/annotate_rhocallviz/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_rhocallviz/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/annotate_rhocallviz/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/annotate_structural_variants/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/annotate_structural_variants/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/annotate_structural_variants/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_sentieon/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_sentieon/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_sentieon/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_MT/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_MT/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_MT/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/generate_cytosure_files/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/generate_cytosure_files/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/gens/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/gens/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/gens/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/postprocess_MT_calls/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/postprocess_MT_calls/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/variant_evaluation/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/variant_evaluation/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/variant_evaluation/tests/rtg_truthvcfs.csv"
+                },
+                {
+                  "path": "tests/test_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_singleton.nf.test.snap"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 782,
+            "title": "Add tests for subworkflows -II",
+            "state": "MERGED",
+            "createdAt": "2026-03-05T13:44:12Z",
+            "mergedAt": "2026-03-10T12:54:05Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules/annotate_cadd.config"
+                },
+                {
+                  "path": "conf/modules/call_snv_deepvariant.config"
+                },
+                {
+                  "path": "conf/modules/call_snv_sentieon.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/tests/bcf.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/tests/vcf.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/tests/vcf_gz_index.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/tests/vcf_gz_index_csi.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/tests/vcf_gz_index_tbi.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/bcf.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/bcf_gz.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/nextflow.gvcf.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/vcf.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/vcf_gz.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/vcf_gz_index.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/vcf_gz_index_csi.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/vcf_gz_index_tbi.config"
+                },
+                {
+                  "path": "modules/nf-core/cadd/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/cadd/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/cadd/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/cadd/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/cadd/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/cadd/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/gawk/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gawk/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gawk/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gawk/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/samtools/merge/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/merge/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/merge/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/align_bwa_bwamem2_bwameme/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align_sentieon/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_cadd/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_cadd/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/annotate_cadd/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/annotate_cadd/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/annotate_genome_snvs/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/annotate_genome_snvs/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/annotate_genome_snvs/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/annotate_mobile_elements/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/annotate_mobile_elements/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/annotate_mobile_elements/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/call_snv/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_MT/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_deepvariant/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_deepvariant/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_deepvariant/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_sentieon/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_structural_variants/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/postprocess_MT_calls/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/rank_variants/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/rank_variants/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_singleton.nf.test.snap"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 781,
+            "title": "Update svdb module",
+            "state": "MERGED",
+            "createdAt": "2026-03-04T12:49:20Z",
+            "mergedAt": "2026-03-05T07:56:23Z",
+            "author": {
+              "login": "sofiademmou"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/svdb/merge/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/svdb/merge/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/svdb/merge/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/svdb/query/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/svdb/query/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/svdb/query/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_singleton.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 780,
+            "title": "Refactor subworkflows and add tests",
+            "state": "MERGED",
+            "createdAt": "2026-03-03T19:51:04Z",
+            "mergedAt": "2026-03-05T12:48:50Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "subworkflows/local/annotate_consequence_pli/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_consequence_pli/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/annotate_consequence_pli/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/annotate_consequence_pli/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/annotate_genome_snvs/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_mobile_elements/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_mt_snvs/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_structural_variants/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_mobile_elements/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_mobile_elements/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/call_mobile_elements/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/call_snv/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/call_snv/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_MT/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_MT/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_deepvariant/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_deepvariant/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/call_structural_variants/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_structural_variants/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/call_structural_variants/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_cnvnator/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_cnvnator/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_cnvnator/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_germlinecnvcaller/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_germlinecnvcaller/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_germlinecnvcaller/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_germlinecnvcaller/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_manta/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_manta/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_manta/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_tiddit/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_tiddit/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_tiddit/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/convert_mt_bam_to_fastq/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/convert_mt_bam_to_fastq/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/generate_cytosure_files/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/gens/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/rank_variants/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/subsample_mt_frac/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/subsample_mt_frac/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/subsample_mt_reads/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/subsample_mt_reads/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/variant_evaluation/main.nf"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 779,
+            "title": "Remove hmtnote annotate",
+            "state": "MERGED",
+            "createdAt": "2026-03-03T15:35:47Z",
+            "mergedAt": "2026-03-04T12:04:15Z",
+            "author": {
+              "login": "sofiademmou"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/hmtnote/annotate/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/hmtnote/annotate/hmtnote-annotate.diff"
+                },
+                {
+                  "path": "modules/nf-core/hmtnote/annotate/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/hmtnote/annotate/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/annotate_mt_snvs.nf"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_singleton.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 778,
+            "title": "Remove haplocheck ",
+            "state": "MERGED",
+            "createdAt": "2026-03-03T09:39:05Z",
+            "mergedAt": "2026-03-03T14:19:03Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "conf/modules/call_snv_MT.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/haplocheck/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/haplocheck/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/haplocheck/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/haplocheck/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/haplocheck/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/call_snv.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_MT/main.nf"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_singleton.nf.test.snap"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 777,
+            "title": "Integrate mivmir for gms dev",
+            "state": "OPEN",
+            "createdAt": "2026-03-02T14:11:01Z",
+            "mergedAt": null,
+            "author": {
+              "login": "torbjorgen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/rank_model_mivmir.ini"
+                },
+                {
+                  "path": "conf/modules/rank_variants.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_sentieon.config"
+                },
+                {
+                  "path": "conf/test_singleton.config"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/local/gicam/main.nf"
+                },
+                {
+                  "path": "modules/local/mivmir/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/annotate_cadd/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/prepare_references/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/rank_variants.nf"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 776,
+            "title": "Update modules",
+            "state": "MERGED",
+            "createdAt": "2026-02-25T10:52:13Z",
+            "mergedAt": "2026-03-03T12:24:47Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_bam.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_sentieon.config"
+                },
+                {
+                  "path": "conf/test_singleton.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/index/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/mem/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/mem/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/mem/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/mem/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/mem/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwamem2/mem/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameme/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameme/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwameme/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameme/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwameme/index/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameme/mem/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameme/mem/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwameme/mem/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameme/mem/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwameme/mem/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwameme/mem/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/cadd/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/cadd/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/cadd/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/cadd/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/cadd/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/cnvnator/convert2vcf/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/cnvnator/convert2vcf/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/cnvnator/convert2vcf/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostsevereconsequence/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostsevereconsequence/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostsevereconsequence/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostsevereconsequence/resources/usr/bin/add_most_severe_consequence.py"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostsevereconsequence/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostsevereconsequence/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostsevereconsequence/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostseverepli/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostseverepli/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostseverepli/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostseverepli/resources/usr/bin/add_most_severe_pli.py"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostseverepli/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostseverepli/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostseverepli/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/tests/tab.gz.config"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/tests/vcf.config"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/vep/ensemblvep-vep.diff"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/vep/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/vep/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/vep/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/vep/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/vep/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/vep/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/vep/tests/tab.gz.config"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/vep/tests/vcf.config"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/collectreadcounts/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/collectreadcounts/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/collectreadcounts/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/collectreadcounts/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/createsequencedictionary/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/createsequencedictionary/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/createsequencedictionary/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/denoisereadcounts/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/denoisereadcounts/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/denoisereadcounts/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/denoisereadcounts/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/determinegermlinecontigploidy/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/determinegermlinecontigploidy/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/determinegermlinecontigploidy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/filtermutectcalls/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/filtermutectcalls/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/filtermutectcalls/tests/main.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 775,
+            "title": "add saltshaker modules ",
+            "state": "OPEN",
+            "createdAt": "2026-02-24T12:14:32Z",
+            "mergedAt": null,
+            "author": {
+              "login": "ieduba"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "conf/modules/call_sv_MT.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "modules/local/mitosalt/main.nf"
+                },
+                {
+                  "path": "modules/local/mitosalt/resources/usr/bin/MitoSAlt1.1.1.pl"
+                },
+                {
+                  "path": "modules/local/prep_mitosalt/main.nf"
+                },
+                {
+                  "path": "modules/local/saltshaker/call/environment.yaml"
+                },
+                {
+                  "path": "modules/local/saltshaker/call/main.nf"
+                },
+                {
+                  "path": "modules/local/saltshaker/classify/environment.yaml"
+                },
+                {
+                  "path": "modules/local/saltshaker/classify/main.nf"
+                },
+                {
+                  "path": "modules/local/saltshaker/plot/environment.yaml"
+                },
+                {
+                  "path": "modules/local/saltshaker/plot/main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_MT/main.nf"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_singleton.nf.test.snap"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 774,
+            "title": "Add topic versions to local modules",
+            "state": "MERGED",
+            "createdAt": "2026-02-09T23:47:21Z",
+            "mergedAt": "2026-02-17T08:57:12Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules/scatter_genome.config"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/local/add_varcallername_to_bed/environment.yml"
+                },
+                {
+                  "path": "modules/local/add_varcallername_to_bed/main.nf"
+                },
+                {
+                  "path": "modules/local/calculate_seed_fraction/environment.yml"
+                },
+                {
+                  "path": "modules/local/calculate_seed_fraction/main.nf"
+                },
+                {
+                  "path": "modules/local/create_bed_from_fai/main.nf"
+                },
+                {
+                  "path": "modules/local/create_hgncids_file/environment.yml"
+                },
+                {
+                  "path": "modules/local/create_hgncids_file/main.nf"
+                },
+                {
+                  "path": "modules/local/create_hgncids_file/resources/usr/bin/create_hgncids_file.py"
+                },
+                {
+                  "path": "modules/local/create_pedigree_file/environment.yml"
+                },
+                {
+                  "path": "modules/local/create_pedigree_file/main.nf"
+                },
+                {
+                  "path": "modules/local/gens/main.nf"
+                },
+                {
+                  "path": "modules/local/get_chrom_sizes/environment.yml"
+                },
+                {
+                  "path": "modules/local/get_chrom_sizes/main.nf"
+                },
+                {
+                  "path": "modules/local/mt_deletion_script/environment.yml"
+                },
+                {
+                  "path": "modules/local/mt_deletion_script/main.nf"
+                },
+                {
+                  "path": "modules/local/rename_align_files/environment.yml"
+                },
+                {
+                  "path": "modules/local/rename_align_files/main.nf"
+                },
+                {
+                  "path": "modules/local/replace_spaces_in_vcfinfo/environment.yml"
+                },
+                {
+                  "path": "modules/local/replace_spaces_in_vcfinfo/main.nf"
+                },
+                {
+                  "path": "modules/local/replace_spaces_in_vcfinfo/resources/usr/bin/replace_spaces_in_vcfinfo.py"
+                },
+                {
+                  "path": "modules/local/retroseq/call/main.nf"
+                },
+                {
+                  "path": "modules/local/retroseq/discover/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_mt_snvs.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_mobile_elements.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_deepvariant/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_sentieon/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_MT/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/gens.nf"
+                },
+                {
+                  "path": "subworkflows/local/postprocess_MT_calls/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/prepare_references/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/prepare_references/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/scatter_genome/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/scatter_genome/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/subsample_mt_frac/main.nf"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_singleton.nf.test.snap"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 773,
+            "title": "Update modules",
+            "state": "MERGED",
+            "createdAt": "2026-02-06T15:22:31Z",
+            "mergedAt": "2026-02-09T08:27:34Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/chromograph/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/chromograph/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/chromograph/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/chromograph/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/chromograph/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/cnvnator/cnvnator/cnvnator-cnvnator.diff"
+                },
+                {
+                  "path": "modules/nf-core/cnvnator/cnvnator/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/cnvnator/cnvnator/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/cnvnator/cnvnator/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/cnvnator/cnvnator/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/cnvnator/cnvnator/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/cnvnator/cnvnator/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/cnvnator/convert2vcf/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/cnvnator/convert2vcf/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/cnvnator/convert2vcf/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/cnvnator/convert2vcf/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/cnvnator/convert2vcf/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/cnvnator/convert2vcf/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/deepvariant/rundeepvariant/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/deepvariant/rundeepvariant/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/deepvariant/rundeepvariant/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/deepvariant/rundeepvariant/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/deepvariant/rundeepvariant/tests/nextflow-intervals.config"
+                },
+                {
+                  "path": "modules/nf-core/deepvariant/rundeepvariant/tests/nextflow-non-autosomal-calling.config"
+                },
+                {
+                  "path": "modules/nf-core/deepvariant/rundeepvariant/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/deepvariant/rundeepvariant/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/expansionhunter/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/expansionhunter/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/expansionhunter/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/expansionhunter/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/bedtointervallist/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/bedtointervallist/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/bedtointervallist/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/bedtointervallist/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/bedtointervallist/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/bedtointervallist/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/collectreadcounts/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/collectreadcounts/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/collectreadcounts/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/collectreadcounts/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/createsequencedictionary/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/createsequencedictionary/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/createsequencedictionary/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/createsequencedictionary/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/createsequencedictionary/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/denoisereadcounts/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/denoisereadcounts/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/denoisereadcounts/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/denoisereadcounts/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/denoisereadcounts/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/denoisereadcounts/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/determinegermlinecontigploidy/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/determinegermlinecontigploidy/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/determinegermlinecontigploidy/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/determinegermlinecontigploidy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/filtermutectcalls/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/filtermutectcalls/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/filtermutectcalls/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/filtermutectcalls/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/filtermutectcalls/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/filtermutectcalls/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/germlinecnvcaller/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/germlinecnvcaller/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/germlinecnvcaller/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/germlinecnvcaller/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/intervallisttools/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/intervallisttools/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/intervallisttools/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/intervallisttools/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/intervallisttools/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mergebamalignment/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mergebamalignment/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mergebamalignment/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mergebamalignment/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mergebamalignment/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mergevcfs/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mergevcfs/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mergevcfs/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mergevcfs/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mergevcfs/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mergevcfs/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mutect2/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mutect2/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mutect2/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mutect2/tests/f1r2.config"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mutect2/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mutect2/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mutect2/tests/mito.config"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mutect2/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mutect2/tests/pair.config"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/mutect2/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/postprocessgermlinecnvcalls/README.md"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/postprocessgermlinecnvcalls/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/postprocessgermlinecnvcalls/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/postprocessgermlinecnvcalls/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/postprocessgermlinecnvcalls/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/postprocessgermlinecnvcalls/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/postprocessgermlinecnvcalls/tests/nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 772,
+            "title": "Nfdata updates",
+            "state": "CLOSED",
+            "createdAt": "2026-01-29T10:32:06Z",
+            "mergedAt": null,
+            "author": {
+              "login": "karlaarz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules/rank_variants.config"
+                },
+                {
+                  "path": "modules/local/create_hgncids_file/main.nf"
+                },
+                {
+                  "path": "modules/local/fix_expansionhunter_header/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_repeat_expansions.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 771,
+            "title": "Update modules (topics)",
+            "state": "MERGED",
+            "createdAt": "2026-01-26T14:54:16Z",
+            "mergedAt": "2026-02-04T17:29:07Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules/annotate_genome_snvs.config"
+                },
+                {
+                  "path": "conf/modules/qc_bam.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/concat/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/concat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/concat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/concat/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/concat/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/concat/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/concat/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/concat/tests/vcf_gz_index.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/concat/tests/vcf_gz_index_csi.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/concat/tests/vcf_gz_index_tbi.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/filter/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/filter/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/filter/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/filter/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/filter/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/filter/tests/region_filter.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/filter/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/norm/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/norm/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/norm/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/norm/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/norm/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/reheader/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/reheader/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/reheader/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/reheader/tests/bcf.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/reheader/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/reheader/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/reheader/tests/vcf.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/reheader/tests/vcf.gz.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/roh/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/roh/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/roh/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/roh/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/roh/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/sort/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/sort/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/sort/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/sort/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/sort/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/sort/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/view/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/genomecov/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/genomecov/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/genomecov/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/genomecov/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/genomecov/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/slop/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/slop/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/slop/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/slop/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/tests/nextflow_unzipped_zipped.config"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/tests/nextflow_zipped_unzipped.config"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/tests/tab.gz.config"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/tests/vcf.config"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/vep/ensemblvep-vep.diff"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/vep/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastp/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastp/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastp/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastp/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastp/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fastp/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 770,
+            "title": "Add option to set genotypes of MT SNVs and sambamba duplicate filtering",
+            "state": "MERGED",
+            "createdAt": "2026-01-24T22:55:21Z",
+            "mergedAt": "2026-02-02T09:35:16Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules/annotate_mt_snvs.config"
+                },
+                {
+                  "path": "conf/modules/qc_bam.config"
+                },
+                {
+                  "path": "conf/modules/vcf_filter_bcftools_ensemblvep.config"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/pluginsetgt/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/pluginsetgt/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/pluginsetgt/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/pluginsetgt/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/pluginsetgt/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/pluginsetgt/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/pluginsetgt/tests/vcf_gz_index.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/pluginsetgt/tests/vcf_gz_index_csi.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/pluginsetgt/tests/vcf_gz_index_tbi.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/annotate_mt_snvs.nf"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 769,
+            "title": "remove redundant .first() operations",
+            "state": "MERGED",
+            "createdAt": "2026-01-22T15:33:27Z",
+            "mergedAt": "2026-01-24T00:23:31Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "subworkflows/local/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/align_MT/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align_MT/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/align_bwa_bwamem2_bwameme/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align_sentieon/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_cadd/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_genome_snvs.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_rhocallviz/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_mobile_elements.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_repeat_expansions/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_MT/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_deepvariant/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_sentieon/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_MT/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_tiddit/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/convert_mt_bam_to_fastq/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/generate_cytosure_files.nf"
+                },
+                {
+                  "path": "subworkflows/local/gens.nf"
+                },
+                {
+                  "path": "subworkflows/local/postprocess_MT_calls/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/qc_bam/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/qc_bam/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/subsample_mt_frac/main.nf"
+                },
+                {
+                  "path": "tests/test_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_singleton.nf.test.snap"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 768,
+            "title": "Refactor main-nf -II",
+            "state": "MERGED",
+            "createdAt": "2026-01-22T12:54:41Z",
+            "mergedAt": "2026-01-22T15:21:30Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_raredisease_pipeline/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 766,
+            "title": "Refactor main.nf",
+            "state": "MERGED",
+            "createdAt": "2026-01-21T10:09:08Z",
+            "mergedAt": "2026-01-22T10:41:55Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_mobile_elements.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 764,
+            "title": "Updates to multiqc",
+            "state": "MERGED",
+            "createdAt": "2025-12-22T13:19:53Z",
+            "mergedAt": "2026-01-07T08:46:58Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/align/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align/tests/main.nf.test"
+                },
+                {
+                  "path": "tests/nextflow.config"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 763,
+            "title": "Remove option to run bwamem as fallback aligner",
+            "state": "MERGED",
+            "createdAt": "2025-12-18T19:16:08Z",
+            "mergedAt": "2025-12-19T09:17:50Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/align_bwa_bwamem2_bwameme/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 762,
+            "title": "Remove ext.when logic from prepare references workflow - 3",
+            "state": "MERGED",
+            "createdAt": "2025-12-18T14:20:21Z",
+            "mergedAt": "2025-12-18T18:50:04Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules/qc_bam.config"
+                },
+                {
+                  "path": "conf/modules/rank_variants.config"
+                },
+                {
+                  "path": "conf/modules/variant_evaluation.config"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "subworkflows/local/qc_bam/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/qc_bam/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/rank_variants.nf"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_singleton.nf.test.snap"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 760,
+            "title": " Remove ext.when logic from prepare references workflow - 2",
+            "state": "MERGED",
+            "createdAt": "2025-12-17T10:55:50Z",
+            "mergedAt": "2025-12-18T14:18:26Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules/prepare_references.config"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/prepare_references/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/prepare_references/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/prepare_references/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/prepare_references/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_singleton.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 759,
+            "title": "Remove ext.when logic from prepare references workflow - I ",
+            "state": "MERGED",
+            "createdAt": "2025-12-15T15:02:34Z",
+            "mergedAt": "2025-12-17T09:27:22Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules/prepare_references.config"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "subworkflows/local/prepare_references/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/prepare_references/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/prepare_references/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/prepare_references/tests/nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 758,
+            "title": "Add GATK contamination check to complement VerifyBamID2",
+            "state": "OPEN",
+            "createdAt": "2025-12-15T13:47:09Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dorotejavujinovic"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "conf/modules/align_bwa_bwamem2_bwameme.config"
+                },
+                {
+                  "path": "conf/modules/contamination.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/parse_contamination/environment.yml"
+                },
+                {
+                  "path": "modules/local/parse_contamination/main.nf"
+                },
+                {
+                  "path": "modules/local/parse_contamination/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/calculatecontamination/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/calculatecontamination/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/calculatecontamination/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/calculatecontamination/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/calculatecontamination/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/calculatecontamination/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/getpileupsummaries/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/getpileupsummaries/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/getpileupsummaries/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/getpileupsummaries/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/getpileupsummaries/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/svdb/merge/main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/contamination_check/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/contamination_check/meta.yml"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 757,
+            "title": "Fix issue 719: Allow bait padding zero",
+            "state": "MERGED",
+            "createdAt": "2025-12-12T12:33:52Z",
+            "mergedAt": "2025-12-15T12:08:49Z",
+            "author": {
+              "login": "peterpru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules/prepare_references.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 719
+                }
+              ]
+            }
+          },
+          {
+            "number": 756,
+            "title": "Remove ext.when logic from configs - I",
+            "state": "MERGED",
+            "createdAt": "2025-12-11T22:41:06Z",
+            "mergedAt": "2025-12-15T09:37:47Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules/annotate_genome_snvs.config"
+                },
+                {
+                  "path": "conf/modules/annotate_structural_variants.config"
+                },
+                {
+                  "path": "conf/modules/call_snv_deepvariant.config"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_genome_snvs.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_structural_variants.nf"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 755,
+            "title": "Fix issue 739",
+            "state": "MERGED",
+            "createdAt": "2025-12-11T16:22:02Z",
+            "mergedAt": "2025-12-11T22:17:54Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "subworkflows/local/annotate_rhocallviz/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 754,
+            "title": "Move reference preparation to main.nf",
+            "state": "MERGED",
+            "createdAt": "2025-12-10T13:53:10Z",
+            "mergedAt": "2025-12-11T16:13:28Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_bam.config"
+                },
+                {
+                  "path": "conf/test_sentieon.config"
+                },
+                {
+                  "path": "conf/test_singleton.config"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align_sentieon/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_raredisease_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/nextflow.config"
+                },
+                {
+                  "path": "tests/test_bam.nf.test"
+                },
+                {
+                  "path": "tests/test_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_singleton.nf.test"
+                },
+                {
+                  "path": "tests/test_singleton.nf.test.snap"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 753,
+            "title": "Remove the usage of parameters in subworkflows",
+            "state": "MERGED",
+            "createdAt": "2025-12-05T11:21:09Z",
+            "mergedAt": "2025-12-10T10:02:34Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules/align_bwa_bwamem2_bwameme.config"
+                },
+                {
+                  "path": "conf/modules/qc_bam.config"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/replace_spaces_in_vcfinfo/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/haplogrep3/classify/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/haplogrep3/classify/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/haplogrep3/classify/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/haplogrep3/classify/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/align/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/align/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/align_MT/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align_MT/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/align_bwa_bwamem2_bwameme/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align_bwa_bwamem2_bwameme/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/align_bwa_bwamem2_bwameme/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/annotate_mt_snvs.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_deepvariant/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_structural_variants.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_MT/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_manta/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/qc_bam/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/qc_bam/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/qc_bam/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/qc_bam/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_singleton.nf.test.snap"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 752,
+            "title": "add sambamba",
+            "state": "MERGED",
+            "createdAt": "2025-12-05T09:05:45Z",
+            "mergedAt": "2025-12-08T08:53:26Z",
+            "author": {
+              "login": "rannick"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules/qc_bam.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/sambamba/depth/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/sambamba/depth/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/sambamba/depth/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/sambamba/depth/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/sambamba/depth/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/qc_bam/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/qc_bam/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/qc_bam/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 751,
+            "title": "Refactor - 3 ",
+            "state": "MERGED",
+            "createdAt": "2025-12-01T08:57:32Z",
+            "mergedAt": "2025-12-08T18:07:52Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/calculate_seed_fraction/main.nf"
+                },
+                {
+                  "path": "modules/local/retroseq/call/main.nf"
+                },
+                {
+                  "path": "modules/local/retroseq/discover/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_genome_snvs.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_mt_snvs.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_structural_variants.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_MT/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_sentieon/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_germlinecnvcaller/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/generate_cytosure_files.nf"
+                },
+                {
+                  "path": "subworkflows/local/prepare_references/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/qc_bam/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/subsample_mt_reads/main.nf"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 750,
+            "title": "Refactor 2",
+            "state": "MERGED",
+            "createdAt": "2025-11-28T14:32:42Z",
+            "mergedAt": "2025-11-28T19:04:47Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "subworkflows/local/align_MT/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align_bwa_bwamem2_bwameme/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align_sentieon/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_mt_snvs.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_rhocallviz/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_mobile_elements.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_repeat_expansions/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_MT/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_deepvariant/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_sentieon/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_structural_variants.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_cnvnator/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_germlinecnvcaller/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_manta/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_tiddit/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/generate_cytosure_files.nf"
+                },
+                {
+                  "path": "subworkflows/local/gens.nf"
+                },
+                {
+                  "path": "subworkflows/local/postprocess_MT_calls/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/prepare_references/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/qc_bam/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/qc_bam/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/scatter_genome/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/subsample_mt_frac/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/variant_evaluation.nf"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 749,
+            "title": "Refactor 1",
+            "state": "MERGED",
+            "createdAt": "2025-11-28T10:05:47Z",
+            "mergedAt": "2025-11-28T11:12:44Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "subworkflows/local/align/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/align_MT/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align_MT/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/align_bwa_bwamem2_bwameme/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align_bwa_bwamem2_bwameme/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/align_sentieon/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align_sentieon/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/annotate_consequence_pli.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_mobile_elements.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_rhocallviz/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_structural_variants.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_mobile_elements.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_repeat_expansions/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_repeat_expansions/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/call_snv.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_MT/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_deepvariant/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_sentieon/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_structural_variants.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_MT/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_cnvnator/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_germlinecnvcaller/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/convert_mt_bam_to_fastq/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/generate_cytosure_files.nf"
+                },
+                {
+                  "path": "subworkflows/local/postprocess_MT_calls/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/prepare_references/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/prepare_references/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/qc_bam/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/qc_bam/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/rank_variants.nf"
+                },
+                {
+                  "path": "subworkflows/local/scatter_genome/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/scatter_genome/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/subsample_mt_frac/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_raredisease_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/variant_evaluation.nf"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 748,
+            "title": "Add option to subsample mitochondria by number of reads",
+            "state": "MERGED",
+            "createdAt": "2025-11-27T12:52:26Z",
+            "mergedAt": "2025-11-28T09:53:47Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules/align.config"
+                },
+                {
+                  "path": "conf/modules/call_repeat_expansions.config"
+                },
+                {
+                  "path": "conf/modules/subsample_mt_frac.config"
+                },
+                {
+                  "path": "conf/modules/subsample_mt_reads.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/samtools/collate/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/collate/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/collate/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/collate/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/samtools/collate/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/samtools/view/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/view/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/view/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/view/tests/bam.config"
+                },
+                {
+                  "path": "modules/nf-core/samtools/view/tests/bam_index.config"
+                },
+                {
+                  "path": "modules/nf-core/samtools/view/tests/cram_index.config"
+                },
+                {
+                  "path": "modules/nf-core/samtools/view/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/samtools/view/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/samtools/view/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/align/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/align/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/align_MT/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align_MT/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/align_bwa_bwamem2_bwameme/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align_sentieon/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_mobile_elements.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_repeat_expansions/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/subsample_mt_frac/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/subsample_mt_reads/main.nf"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_singleton.nf.test.snap"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 747,
+            "title": "upate gens",
+            "state": "MERGED",
+            "createdAt": "2025-11-26T09:51:47Z",
+            "mergedAt": "2025-11-28T08:00:47Z",
+            "author": {
+              "login": "rannick"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules/gens.config"
+                },
+                {
+                  "path": "modules/local/gens/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/gens.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 746,
+            "title": "GATK4 germlinecnvcaller / determinegermlinecontigploidy",
+            "state": "MERGED",
+            "createdAt": "2025-11-26T09:06:17Z",
+            "mergedAt": "2025-11-27T13:50:47Z",
+            "author": {
+              "login": "rannick"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/determinegermlinecontigploidy/README.md"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/determinegermlinecontigploidy/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/determinegermlinecontigploidy/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/determinegermlinecontigploidy/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/determinegermlinecontigploidy/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/determinegermlinecontigploidy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/determinegermlinecontigploidy/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/germlinecnvcaller/README.md"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/germlinecnvcaller/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/germlinecnvcaller/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/germlinecnvcaller/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/germlinecnvcaller/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/germlinecnvcaller/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/germlinecnvcaller/tests/nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 745,
+            "title": "CADD annotation update to support chr prefix",
+            "state": "MERGED",
+            "createdAt": "2025-11-26T08:38:09Z",
+            "mergedAt": "2025-11-28T08:51:12Z",
+            "author": {
+              "login": "rannick"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules/annotate_cadd.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/annotate/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/gawk/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gawk/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gawk/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gawk/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gawk/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gawk/tests/nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/annotate_cadd/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_genome_snvs.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotate_mt_snvs.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_deepvariant/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_sentieon/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/postprocess_MT_calls/main.nf"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_singleton.nf.test.snap"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 744,
+            "title": "Important! Template update for nf-core/tools v3.5.1",
+            "state": "MERGED",
+            "createdAt": "2025-11-20T09:32:02Z",
+            "mergedAt": "2025-11-21T14:37:03Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_raredisease_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 743,
+            "title": "mitosalt test",
+            "state": "MERGED",
+            "createdAt": "2025-11-18T09:36:45Z",
+            "mergedAt": "2026-02-17T08:08:00Z",
+            "author": {
+              "login": "ieduba"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules/call_sv_MT.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/mitosalt/environment.yml"
+                },
+                {
+                  "path": "modules/local/mitosalt/main.nf"
+                },
+                {
+                  "path": "modules/local/mitosalt/resources/usr/bin/MitoSAlt1.1.1.pl"
+                },
+                {
+                  "path": "modules/local/prep_mitosalt/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/eklipse/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/eklipse/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/eklipse/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/eklipse/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/eklipse/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/eklipse/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/hisat2/build/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/hisat2/build/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/hisat2/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/hisat2/build/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/hisat2/build/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/last/lastdb/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/last/lastdb/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/last/lastdb/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/last/lastdb/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/last/lastdb/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/last/lastdb/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/seqtk/sample/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqtk/sample/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/seqtk/sample/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqtk/sample/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/seqtk/sample/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/seqtk/sample/tests/standard.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/call_structural_variants.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_sv_MT/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/prepare_references/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/prepare_references/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/nextflow.config"
+                },
+                {
+                  "path": "tests/test_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_singleton.nf.test.snap"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 742,
+            "title": "Call SVs in mitochondria using mitochondrial alignments from genome alignment",
+            "state": "MERGED",
+            "createdAt": "2025-11-15T12:03:22Z",
+            "mergedAt": "2025-11-26T16:32:47Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "subworkflows/local/align/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/call_structural_variants.nf"
+                },
+                {
+                  "path": "subworkflows/local/convert_mt_bam_to_fastq/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/qc_bam/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_singleton.nf.test.snap"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 741,
+            "title": "Turn off ME calling for mitochondria",
+            "state": "MERGED",
+            "createdAt": "2025-11-14T14:39:59Z",
+            "mergedAt": "2025-11-14T16:29:42Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "subworkflows/local/call_mobile_elements.nf"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 738,
+            "title": "Update ROH usage docs",
+            "state": "MERGED",
+            "createdAt": "2025-11-10T07:15:19Z",
+            "mergedAt": "2025-11-14T13:55:05Z",
+            "author": {
+              "login": "fellen31"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/usage.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 737,
+            "title": "Update to new runner size syntax",
+            "state": "MERGED",
+            "createdAt": "2025-11-03T15:40:44Z",
+            "mergedAt": "2025-11-04T08:25:48Z",
+            "author": {
+              "login": "mashehu"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 734,
+            "title": "Important! Template update for nf-core/tools v3.4.1",
+            "state": "MERGED",
+            "createdAt": "2025-10-16T13:39:50Z",
+            "mergedAt": "2025-10-27T16:01:11Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".devcontainer/setup.sh"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_raredisease_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 733,
+            "title": "fix missing env-file issue in a local module",
+            "state": "MERGED",
+            "createdAt": "2025-10-14T12:20:13Z",
+            "mergedAt": "2025-10-27T13:41:41Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules/local/add_varcallername_to_bed/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 732,
+            "title": "Switch local most severe consequence & pli scripts for the nf-core ones",
+            "state": "MERGED",
+            "createdAt": "2025-10-10T11:44:17Z",
+            "mergedAt": "2025-10-14T06:55:26Z",
+            "author": {
+              "login": "ramprasadn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules/annotate_consequence_pli.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/add_most_severe_consequence/main.nf"
+                },
+                {
+                  "path": "modules/local/add_most_severe_pli/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostsevereconsequence/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostsevereconsequence/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostsevereconsequence/resources/usr/bin/add_most_severe_consequence.py"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostseverepli/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostseverepli/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/addmostseverepli/resources/usr/bin/add_most_severe_pli.py"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/annotate_consequence_pli.nf"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_singleton.nf.test.snap"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 727,
+            "title": "Replace local subworkflow generate_clinical_set with nf-core VCF_FILTER_BCFTOOLS_ENSEMBLVEP",
+            "state": "MERGED",
+            "createdAt": "2025-10-01T07:07:47Z",
+            "mergedAt": "2025-10-29T09:34:03Z",
+            "author": {
+              "login": "peterpru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules/vcf_filter_bcftools_ensemblvep.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/create_hgncids_file/main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/generate_clinical_set.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/vcf_filter_bcftools_ensemblvep/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/vcf_filter_bcftools_ensemblvep/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/vcf_filter_bcftools_ensemblvep/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/vcf_filter_bcftools_ensemblvep/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/vcf_filter_bcftools_ensemblvep/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/vcf_filter_bcftools_ensemblvep/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_singleton.nf.test.snap"
+                },
+                {
+                  "path": "workflows/raredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 721
+                },
+                {
+                  "number": 728
+                }
+              ]
+            }
+          },
+          {
+            "number": 724,
+            "title": "Add Parabricks DeepVariant module",
+            "state": "OPEN",
+            "createdAt": "2025-09-19T06:32:13Z",
+            "mergedAt": null,
+            "author": {
+              "login": "HudoGriz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules/call_snv_deepvariant_parabricks.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/deepvariant/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/deepvariant/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/deepvariant/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/deepvariant/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/deepvariant/tests/nextflow.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/call_snv.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_snv_deepvariant_parabricks/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 722,
+            "title": "skip HGNC ID filtering for mt clinical set",
+            "state": "CLOSED",
+            "createdAt": "2025-09-15T10:22:44Z",
+            "mergedAt": null,
+            "author": {
+              "login": "peterpru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "subworkflows/local/generate_clinical_set.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 718,
+            "title": "Skip HGNC ID filtering for clinical MT files",
+            "state": "CLOSED",
+            "createdAt": "2025-08-28T09:04:07Z",
+            "mergedAt": null,
+            "author": {
+              "login": "peterpru"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "conf/modules/postprocess_MT_calls.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/annotate_mt_snvs.nf"
+                },
+                {
+                  "path": "subworkflows/local/generate_clinical_set.nf"
+                },
+                {
+                  "path": "subworkflows/local/postprocess_MT_calls/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 717,
+            "title": "Add interval parameter to RetroSeq",
+            "state": "MERGED",
+            "createdAt": "2025-08-20T13:34:51Z",
+            "mergedAt": "2025-10-10T12:18:15Z",
+            "author": {
+              "login": "alexiandra97"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules/call_mobile_elements.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+//
+// MODULE IMPORT BLOCK
+//
+include { GET_KMER_COUNTS                       } from '../../../modules/local/get/kmer_counts/main'
+include { REFORMAT_NPY_2_CSV                    } from '../../../modules/local/reformat/npy_2_csv/main'
+include { KMER_COUNT_DIM_REDUCTION              } from '../../../modules/local/kmer_count/dim_reduction/main'
+include { KMER_COUNT_DIM_REDUCTION_COMBINE_CSV  } from '../../../modules/local/kmer_count/dim_reduction_combine_csv/main'
+
+workflow GET_KMERS_PROFILE {
+    take:
+    assembly_fasta                      // channel [ val(meta), path(file) ]
+    kmer_size                           // channel [ val(integer) ]
+    _dimensionality_reduction_methods    // channel [ val(string) ]
+    autoencoder_epochs_count            // channel [ val(integer) ]
+
+    main:
+    ch_versions     = channel.empty()
+
+
+    //
+    // LOGIC: REFACTORING REFERENCE TUPLE
+    //
+    assembly_fasta
+        .map{ meta, file ->
+            [[id: meta.id, single_end: true], file]
+        }
+        .set { modified_input }
+
+
+    //
+    // MODULE: PRODUCE KMER COUNTS (USING KMER-COUNTER)
+    //
+    GET_KMER_COUNTS (
+        modified_input,      // val(meta), path(reads)
+        kmer_size            // val kmer_size
+    )
+    ch_versions = ch_versions.mix(GET_KMER_COUNTS.out.versions)
+
+
+    //
+    // MODULE: CONVERT NPY TO CSV FORMAT
+    //
+    REFORMAT_NPY_2_CSV (
+        GET_KMER_COUNTS.out.npy,  // val(meta), path(fasta), path(npy)
+        kmer_size                  // val kmer_size
+    )
+    ch_versions = ch_versions.mix(REFORMAT_NPY_2_CSV.out.versions)
+
+
+    //
+    // LOGIC: CREATE CHANNEL OF LIST OF SELECTED METHODS
+    //
+    channel.fromList(params.dimensionality_reduction_methods)
+        .set{dim_methods}
+
+    channel.from(params.n_neighbours)
+        .set{hey_neighbour}
+
+    dim_methods
+        .combine(REFORMAT_NPY_2_CSV.out.csv)
+        .combine(autoencoder_epochs_count.first())
+        .combine(hey_neighbour)
+        .multiMap { dr_method, csv_meta, csv_file, epochs, n_neighbours ->
+            method_name: dr_method
+            kmer_csv: [csv_meta, csv_file]
+            epoch_count: epochs
+            n_neighbors_setting: n_neighbours
+
+        }
+        .set{ dim_reduction }
+
+
+    //
+    // MODULE: DIMENSIONALITY REDUCTION OF KMER COUNTS, USING SPECIFIED METHODS
+    //
+    KMER_COUNT_DIM_REDUCTION (
+        dim_reduction.kmer_csv,             // val(meta), path(kmer_counts)
+        dim_reduction.method_name,          // val dimensionality_reduction_method
+        dim_reduction.n_neighbors_setting,  // val n_neighbors_setting
+        dim_reduction.epoch_count           // val autoencoder_epochs_count
+    )
+    ch_versions = ch_versions.mix(KMER_COUNT_DIM_REDUCTION.out.versions)
+
+
+    //
+    // LOGIC: PREPARING INPUT TO COMBINE OUTPUT CSV FOR EACH METHOD
+    //
+    KMER_COUNT_DIM_REDUCTION.out.kmers_dim_reduction_dir
+        .filter{_meta, file -> !file.toString().contains("EMPTY")}
+        .groupTuple(by: [0])
+        .set { collected_files_for_combine }
+
+    kmers_results = collected_files_for_combine
+        .map { meta, file -> [[ id: meta.id ], file]  }
+        .ifEmpty { [[:],[]] }
+
+
+    //
+    // LOGIC: Collect the results directories from KMER_COUNT_DIM_REDUCTION
+    //
+    // TODO: Why is this here?
+    KMER_COUNT_DIM_REDUCTION.out.results_dir
+        .filter{_meta, dir -> !dir.toString().contains("EMPTY")}
+        .groupTuple(by: [0])
+        .set { collected_results_dirs }
+
+
+    //
+    // MODULE: COMBINE OUTPUTS OF MULTIPLE METHODS
+    //
+    KMER_COUNT_DIM_REDUCTION_COMBINE_CSV (
+        collected_files_for_combine
+    )
+    ch_versions     = ch_versions.mix(KMER_COUNT_DIM_REDUCTION_COMBINE_CSV.out.versions)
+    combined_csv    = KMER_COUNT_DIM_REDUCTION_COMBINE_CSV.out.csv
+                        .map { meta, file -> [[ id: meta.id ], file] }
+                        .ifEmpty { [[:],[]] }
+
+    emit:
+    combined_csv
+    collected_dirs = collected_results_dirs
+    kmers_results
+    versions      = ch_versions
+}

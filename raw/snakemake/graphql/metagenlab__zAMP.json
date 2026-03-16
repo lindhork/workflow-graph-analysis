@@ -1,0 +1,4145 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 78,
+            "title": "Several issues with zamp versions",
+            "state": "OPEN",
+            "createdAt": "2026-01-28T09:30:59Z",
+            "closedAt": null,
+            "author": {
+              "login": "vicasze"
+            }
+          },
+          {
+            "number": 76,
+            "title": "Confusing table format",
+            "state": "OPEN",
+            "createdAt": "2025-07-14T12:22:25Z",
+            "closedAt": null,
+            "author": {
+              "login": "Agandeli"
+            }
+          },
+          {
+            "number": 72,
+            "title": "Optional and configurable rarefaction threshold",
+            "state": "OPEN",
+            "createdAt": "2025-06-17T13:18:15Z",
+            "closedAt": null,
+            "author": {
+              "login": "farchaab"
+            }
+          },
+          {
+            "number": 69,
+            "title": "Running zamp with just the configfile",
+            "state": "OPEN",
+            "createdAt": "2025-01-22T14:02:22Z",
+            "closedAt": null,
+            "author": {
+              "login": "vicasze"
+            }
+          },
+          {
+            "number": 61,
+            "title": "Convergent taxa with greengenes2 2024.09",
+            "state": "CLOSED",
+            "createdAt": "2024-11-14T14:00:32Z",
+            "closedAt": "2024-12-09T08:28:02Z",
+            "author": {
+              "login": "farchaab"
+            }
+          },
+          {
+            "number": 50,
+            "title": "KRONA plots not grouped by samples",
+            "state": "CLOSED",
+            "createdAt": "2024-08-23T12:28:29Z",
+            "closedAt": "2024-08-26T12:38:15Z",
+            "author": {
+              "login": "daulet-a"
+            }
+          },
+          {
+            "number": 44,
+            "title": "NameError in make_input_lists.py",
+            "state": "CLOSED",
+            "createdAt": "2024-05-30T12:36:30Z",
+            "closedAt": "2024-06-04T13:37:45Z",
+            "author": {
+              "login": "farchaab"
+            }
+          },
+          {
+            "number": 43,
+            "title": "Add tool versions and references",
+            "state": "OPEN",
+            "createdAt": "2024-05-30T06:46:51Z",
+            "closedAt": null,
+            "author": {
+              "login": "farchaab"
+            }
+          },
+          {
+            "number": 42,
+            "title": "Database processing with latest SILVA and greengenes versions",
+            "state": "CLOSED",
+            "createdAt": "2024-05-29T08:20:48Z",
+            "closedAt": "2024-07-18T12:21:39Z",
+            "author": {
+              "login": "farchaab"
+            }
+          },
+          {
+            "number": 41,
+            "title": "Use cli wrapper",
+            "state": "CLOSED",
+            "createdAt": "2024-05-29T08:19:08Z",
+            "closedAt": "2024-07-29T08:57:51Z",
+            "author": {
+              "login": "farchaab"
+            }
+          },
+          {
+            "number": 39,
+            "title": "Key error with DADA2",
+            "state": "CLOSED",
+            "createdAt": "2024-04-11T11:20:51Z",
+            "closedAt": "2024-04-11T11:21:53Z",
+            "author": {
+              "login": "valscherz"
+            }
+          },
+          {
+            "number": 38,
+            "title": "Key error when running the pipeline from SRA samples + SRA toolkits outdated",
+            "state": "CLOSED",
+            "createdAt": "2024-04-10T11:13:27Z",
+            "closedAt": "2024-04-13T22:45:11Z",
+            "author": {
+              "login": "valscherz"
+            }
+          },
+          {
+            "number": 36,
+            "title": "AttributeError with snakemake <7.32.4",
+            "state": "CLOSED",
+            "createdAt": "2024-03-27T16:33:52Z",
+            "closedAt": "2024-04-13T22:44:58Z",
+            "author": {
+              "login": "farchaab"
+            }
+          },
+          {
+            "number": 31,
+            "title": "config file",
+            "state": "CLOSED",
+            "createdAt": "2020-11-20T15:45:46Z",
+            "closedAt": "2020-11-20T18:14:29Z",
+            "author": {
+              "login": "da2798"
+            }
+          },
+          {
+            "number": 29,
+            "title": "Copy reference databases hash codes for traceability. ",
+            "state": "OPEN",
+            "createdAt": "2020-11-16T17:04:16Z",
+            "closedAt": null,
+            "author": {
+              "login": "valscherz"
+            }
+          },
+          {
+            "number": 22,
+            "title": "Reads in the wrong direction are going through the DADA2 pipeline",
+            "state": "OPEN",
+            "createdAt": "2020-05-01T14:55:54Z",
+            "closedAt": null,
+            "author": {
+              "login": "valscherz"
+            }
+          },
+          {
+            "number": 21,
+            "title": "Aldex2 transformed clr counts are not giving the expected output",
+            "state": "OPEN",
+            "createdAt": "2020-04-26T12:29:06Z",
+            "closedAt": null,
+            "author": {
+              "login": "valscherz"
+            }
+          },
+          {
+            "number": 19,
+            "title": "Dereplication of the V1V2 region of ref DB EzBioCloud",
+            "state": "OPEN",
+            "createdAt": "2020-03-10T14:38:28Z",
+            "closedAt": null,
+            "author": {
+              "login": "valscherz"
+            }
+          },
+          {
+            "number": 8,
+            "title": "Sample with less reads than the rarefaction cut-off are dropped",
+            "state": "CLOSED",
+            "createdAt": "2018-12-18T17:20:53Z",
+            "closedAt": "2018-12-19T08:42:22Z",
+            "author": {
+              "login": "valscherz"
+            }
+          },
+          {
+            "number": 7,
+            "title": "alpha diversity plot is looping over all facors several times",
+            "state": "CLOSED",
+            "createdAt": "2018-12-10T09:47:04Z",
+            "closedAt": "2018-12-18T17:18:22Z",
+            "author": {
+              "login": "valscherz"
+            }
+          },
+          {
+            "number": 6,
+            "title": "Database processing",
+            "state": "OPEN",
+            "createdAt": "2018-12-06T10:36:13Z",
+            "closedAt": null,
+            "author": {
+              "login": "valscherz"
+            }
+          },
+          {
+            "number": 5,
+            "title": "Generate a sequence length plot with assignment for QC purpose",
+            "state": "OPEN",
+            "createdAt": "2018-12-06T10:25:38Z",
+            "closedAt": null,
+            "author": {
+              "login": "valscherz"
+            }
+          },
+          {
+            "number": 4,
+            "title": "Improve alpha diversity plots",
+            "state": "CLOSED",
+            "createdAt": "2018-12-06T09:29:39Z",
+            "closedAt": "2019-06-19T15:32:07Z",
+            "author": {
+              "login": "valscherz"
+            }
+          },
+          {
+            "number": 3,
+            "title": "Improve DADA2 script",
+            "state": "CLOSED",
+            "createdAt": "2018-12-06T09:26:26Z",
+            "closedAt": "2019-01-04T17:13:17Z",
+            "author": {
+              "login": "valscherz"
+            }
+          },
+          {
+            "number": 2,
+            "title": "A \"Rplots.pdf\" at the root of the project directory",
+            "state": "CLOSED",
+            "createdAt": "2018-12-06T08:01:32Z",
+            "closedAt": "2019-01-04T18:09:52Z",
+            "author": {
+              "login": "valscherz"
+            }
+          },
+          {
+            "number": 1,
+            "title": "Can't open /miniconda3/622b4111/lib/R/etc/ldpaths",
+            "state": "CLOSED",
+            "createdAt": "2018-12-06T07:54:59Z",
+            "closedAt": "2019-06-19T15:31:48Z",
+            "author": {
+              "login": "valscherz"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 77,
+            "title": "Fix mounts and improve R scripts formatting ",
+            "state": "MERGED",
+            "createdAt": "2025-10-06T08:02:30Z",
+            "mergedAt": "2025-10-06T08:03:16Z",
+            "author": {
+              "login": "farchaab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "zamp/Snakefile"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/1_DADA2_q_filtering_paired.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/2a_big_data_DADA2_learn_errors_paired.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/2d_big_data_DADA2_merge_chimera.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 75,
+            "title": "Merge back new classifiers and in-silico ",
+            "state": "MERGED",
+            "createdAt": "2025-06-26T08:33:39Z",
+            "mergedAt": "2025-06-26T08:34:10Z",
+            "author": {
+              "login": "farchaab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "zamp/DBprocess.Snakefile"
+                },
+                {
+                  "path": "zamp/Insilico_taxa_assign.Snakefile"
+                },
+                {
+                  "path": "zamp/Snakefile"
+                },
+                {
+                  "path": "zamp/envs/QIIME1.yml"
+                },
+                {
+                  "path": "zamp/envs/QIIME2-2020.02.yml"
+                },
+                {
+                  "path": "zamp/envs/conifer.yml"
+                },
+                {
+                  "path": "zamp/envs/cutadapt.yml"
+                },
+                {
+                  "path": "zamp/envs/kraken2.yml"
+                },
+                {
+                  "path": "zamp/envs/qiime2.yml"
+                },
+                {
+                  "path": "zamp/envs/seqkit.yml"
+                },
+                {
+                  "path": "zamp/envs/singularity/sing_envs.yml"
+                },
+                {
+                  "path": "zamp/envs/taxonkit.yml"
+                },
+                {
+                  "path": "zamp/envs/vsearch.yml"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/functions.smk"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/1_cutadapt_trim.rules"
+                },
+                {
+                  "path": "zamp/rules/3_tax_assignment/scripts/dada2_tax_assign.R"
+                },
+                {
+                  "path": "zamp/rules/3_tax_assignment/scripts/format_RDP_output.py"
+                },
+                {
+                  "path": "zamp/rules/3_tax_assignment/tax_assign.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/DB_preprocessing.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/DB_skip_preprocessing.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/format_n_train_classifiers.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/scripts/addFullLineage.py"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/scripts/clean_tax.py"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/scripts/lineage2taxTrain.py"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/scripts/tax_formatting.py"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/trace_n_log_DB.rules"
+                },
+                {
+                  "path": "zamp/rules/In_silico/insilico_validation.rules"
+                },
+                {
+                  "path": "zamp/rules/In_silico/scripts/get_f1_scores.py"
+                },
+                {
+                  "path": "zamp/rules/In_silico/scripts/tax_compare.py"
+                },
+                {
+                  "path": "zamp/utils.py"
+                },
+                {
+                  "path": "zamp/zamp.VERSION"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 74,
+            "title": "Fix dada2 trainsets, update paths and remove hard-coded ranks",
+            "state": "MERGED",
+            "createdAt": "2025-06-26T08:18:07Z",
+            "mergedAt": "2025-06-26T08:34:39Z",
+            "author": {
+              "login": "farchaab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "zamp/Snakefile"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/scripts/make_output_lists.py"
+                },
+                {
+                  "path": "zamp/rules/4_post_processing/TreeShrink.rules"
+                },
+                {
+                  "path": "zamp/rules/4_post_processing/physeq_processing.rules"
+                },
+                {
+                  "path": "zamp/rules/4_post_processing/scripts/physeq_initial_import.R"
+                },
+                {
+                  "path": "zamp/rules/5_visualization/General_plotting.rules"
+                },
+                {
+                  "path": "zamp/rules/5_visualization/QIIME2_import.rules"
+                },
+                {
+                  "path": "zamp/rules/5_visualization/scripts/KRONA_plots.R"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/format_n_train_classifiers.rules"
+                },
+                {
+                  "path": "zamp/utils.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 73,
+            "title": "Revert \"New classifiers and in-silico update\"",
+            "state": "MERGED",
+            "createdAt": "2025-06-19T12:05:15Z",
+            "mergedAt": "2025-06-19T12:05:45Z",
+            "author": {
+              "login": "farchaab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "zamp/DBprocess.Snakefile"
+                },
+                {
+                  "path": "zamp/Insilico_taxa_assign.Snakefile"
+                },
+                {
+                  "path": "zamp/Snakefile"
+                },
+                {
+                  "path": "zamp/envs/QIIME1.yml"
+                },
+                {
+                  "path": "zamp/envs/QIIME2-2020.02.yml"
+                },
+                {
+                  "path": "zamp/envs/conifer.yml"
+                },
+                {
+                  "path": "zamp/envs/cutadapt.yml"
+                },
+                {
+                  "path": "zamp/envs/kraken2.yml"
+                },
+                {
+                  "path": "zamp/envs/qiime2.yml"
+                },
+                {
+                  "path": "zamp/envs/seqkit.yml"
+                },
+                {
+                  "path": "zamp/envs/singularity/sing_envs.yml"
+                },
+                {
+                  "path": "zamp/envs/taxonkit.yml"
+                },
+                {
+                  "path": "zamp/envs/vsearch.yml"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/functions.smk"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/1_cutadapt_trim.rules"
+                },
+                {
+                  "path": "zamp/rules/3_tax_assignment/scripts/dada2_tax_assign.R"
+                },
+                {
+                  "path": "zamp/rules/3_tax_assignment/scripts/format_RDP_output.py"
+                },
+                {
+                  "path": "zamp/rules/3_tax_assignment/tax_assign.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/DB_preprocessing.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/DB_skip_preprocessing.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/format_n_train_classifiers.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/scripts/addFullLineage.py"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/scripts/clean_tax.py"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/scripts/lineage2taxTrain.py"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/scripts/tax_formatting.py"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/trace_n_log_DB.rules"
+                },
+                {
+                  "path": "zamp/rules/In_silico/insilico_validation.rules"
+                },
+                {
+                  "path": "zamp/rules/In_silico/scripts/get_f1_scores.py"
+                },
+                {
+                  "path": "zamp/rules/In_silico/scripts/tax_compare.py"
+                },
+                {
+                  "path": "zamp/utils.py"
+                },
+                {
+                  "path": "zamp/zamp.VERSION"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 71,
+            "title": "New classifiers and in-silico update",
+            "state": "MERGED",
+            "createdAt": "2025-05-20T13:00:58Z",
+            "mergedAt": "2025-06-17T09:52:11Z",
+            "author": {
+              "login": "farchaab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "zamp/DBprocess.Snakefile"
+                },
+                {
+                  "path": "zamp/Insilico_taxa_assign.Snakefile"
+                },
+                {
+                  "path": "zamp/Snakefile"
+                },
+                {
+                  "path": "zamp/envs/QIIME1.yml"
+                },
+                {
+                  "path": "zamp/envs/QIIME2-2020.02.yml"
+                },
+                {
+                  "path": "zamp/envs/conifer.yml"
+                },
+                {
+                  "path": "zamp/envs/cutadapt.yml"
+                },
+                {
+                  "path": "zamp/envs/kraken2.yml"
+                },
+                {
+                  "path": "zamp/envs/qiime2.yml"
+                },
+                {
+                  "path": "zamp/envs/seqkit.yml"
+                },
+                {
+                  "path": "zamp/envs/singularity/sing_envs.yml"
+                },
+                {
+                  "path": "zamp/envs/taxonkit.yml"
+                },
+                {
+                  "path": "zamp/envs/vsearch.yml"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/functions.smk"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/1_cutadapt_trim.rules"
+                },
+                {
+                  "path": "zamp/rules/3_tax_assignment/scripts/dada2_tax_assign.R"
+                },
+                {
+                  "path": "zamp/rules/3_tax_assignment/scripts/format_RDP_output.py"
+                },
+                {
+                  "path": "zamp/rules/3_tax_assignment/tax_assign.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/DB_preprocessing.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/DB_skip_preprocessing.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/format_n_train_classifiers.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/scripts/addFullLineage.py"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/scripts/clean_tax.py"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/scripts/lineage2taxTrain.py"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/scripts/tax_formatting.py"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/trace_n_log_DB.rules"
+                },
+                {
+                  "path": "zamp/rules/In_silico/insilico_validation.rules"
+                },
+                {
+                  "path": "zamp/rules/In_silico/scripts/get_f1_scores.py"
+                },
+                {
+                  "path": "zamp/rules/In_silico/scripts/tax_compare.py"
+                },
+                {
+                  "path": "zamp/utils.py"
+                },
+                {
+                  "path": "zamp/zamp.VERSION"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 70,
+            "title": "Deal with read or ASV counts dropping to 0 for some samples",
+            "state": "MERGED",
+            "createdAt": "2025-03-20T14:11:19Z",
+            "mergedAt": "2025-05-20T12:49:09Z",
+            "author": {
+              "login": "tpillone"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/1_DADA2_q_filtering_paired.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/2a_big_data_DADA2_learn_errors_paired.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/2b_big_data_DADA2_infer_ASV_paired.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/2c_big_data_DADA2_merge_ASV.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 68,
+            "title": "Clean repo files",
+            "state": "MERGED",
+            "createdAt": "2024-12-09T13:44:23Z",
+            "mergedAt": "2024-12-09T13:50:42Z",
+            "author": {
+              "login": "farchaab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/pull_request_template.md"
+                },
+                {
+                  "path": "DBprocess.Md"
+                },
+                {
+                  "path": "ressources/old/Dockerfile"
+                },
+                {
+                  "path": "ressources/old/Dockerfile.validation"
+                },
+                {
+                  "path": "ressources/old/barplots.yml"
+                },
+                {
+                  "path": "ressources/old/build_n_validate_docker.sh"
+                },
+                {
+                  "path": "ressources/pipeline_visualization/DADA2_dag.pdf"
+                },
+                {
+                  "path": "ressources/pipeline_visualization/DADA2_rule_graph.pdf"
+                },
+                {
+                  "path": "ressources/pipeline_visualization/both_rule_graph.pdf"
+                },
+                {
+                  "path": "ressources/pipeline_visualization/vsearch_dag.pdf"
+                },
+                {
+                  "path": "ressources/pipeline_visualization/vsearch_rule_graph.pdf"
+                },
+                {
+                  "path": "ressources/r_scripts/importation/create_phyloseq_from_metadata.R"
+                },
+                {
+                  "path": "ressources/r_scripts/importation/dada2_to_R.R"
+                },
+                {
+                  "path": "ressources/r_scripts/importation/merge_at_given_taxa_rank.R"
+                },
+                {
+                  "path": "ressources/r_scripts/importation/reads_counts_df_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/importation/reorder_metadata_levels.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/1_Reads/dna_quant_barplots_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/1_Reads/qPCR_dna_quant_barplots_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/1_Reads/reads_counts_barplot_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/2_Barplots/adapted_KRONA_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/2_Barplots/barplots_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/2_Barplots/barplots_fct_filtration_at_tax_levels.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/3_Heatmaps/201901_WIP_heatmap.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/3_Heatmaps/comparative_heatmap_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/3_Heatmaps/comparative_heatmap_fct_serie1_2019_WIP.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/3_Heatmaps/merge_variants_heatmap_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/3_Heatmaps/sequence_variants_heatmap_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/4_Diversity/modif_plot_richness_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/app.R"
+                },
+                {
+                  "path": "ressources/template_files/16S_input_table_insilico.tsv"
+                },
+                {
+                  "path": "ressources/template_files/16S_validation_set.tsv"
+                },
+                {
+                  "path": "ressources/template_files/DB_snakemake_bash_command.sh"
+                },
+                {
+                  "path": "ressources/template_files/ITS_output_example.tsv"
+                },
+                {
+                  "path": "ressources/template_files/ITS_validation_set.tsv"
+                },
+                {
+                  "path": "ressources/template_files/basic_snakemake_bash_command copy.sh"
+                },
+                {
+                  "path": "ressources/template_files/cluster.json"
+                },
+                {
+                  "path": "ressources/template_files/config.yaml"
+                },
+                {
+                  "path": "ressources/template_files/config_DB.yaml"
+                },
+                {
+                  "path": "ressources/template_files/config_in_silico_validation.yaml"
+                },
+                {
+                  "path": "ressources/template_files/example_local_samples.tsv"
+                },
+                {
+                  "path": "ressources/template_files/example_sra_samples.tsv"
+                },
+                {
+                  "path": "ressources/template_files/insilico_ITS_input_taxID.tsv"
+                },
+                {
+                  "path": "setup.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 67,
+            "title": "Fix convergent taxa in Greengenes 2024.09",
+            "state": "MERGED",
+            "createdAt": "2024-12-06T13:34:56Z",
+            "mergedAt": "2024-12-09T08:28:00Z",
+            "author": {
+              "login": "farchaab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "zamp/DBprocess.Snakefile"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/functions.smk"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/DB_preprocessing.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/format_n_train_classifiers.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/scripts/tax_formatting.py"
+                },
+                {
+                  "path": "zamp/utils.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 61
+                }
+              ]
+            }
+          },
+          {
+            "number": 66,
+            "title": "Add mermaid sphinx extension",
+            "state": "MERGED",
+            "createdAt": "2024-12-05T08:33:40Z",
+            "mergedAt": "2024-12-05T08:35:19Z",
+            "author": {
+              "login": "farchaab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".readthedocs.yaml"
+                },
+                {
+                  "path": "docs/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 65,
+            "title": "Update docs",
+            "state": "MERGED",
+            "createdAt": "2024-11-28T15:50:00Z",
+            "mergedAt": "2024-12-04T14:11:10Z",
+            "author": {
+              "login": "farchaab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/_build/doctrees/environment.pickle"
+                },
+                {
+                  "path": "docs/_build/doctrees/index.doctree"
+                },
+                {
+                  "path": "docs/_build/html/.buildinfo"
+                },
+                {
+                  "path": "docs/_build/html/.buildinfo.bak"
+                },
+                {
+                  "path": "docs/_build/html/.doctrees/environment.pickle"
+                },
+                {
+                  "path": "docs/_build/html/.doctrees/index.doctree"
+                },
+                {
+                  "path": "docs/_build/html/.doctrees/pages/FAQ.doctree"
+                },
+                {
+                  "path": "docs/_build/html/.doctrees/pages/downstream_analysis.doctree"
+                },
+                {
+                  "path": "docs/_build/html/.doctrees/pages/execution.doctree"
+                },
+                {
+                  "path": "docs/_build/html/.doctrees/pages/insilico_validation.doctree"
+                },
+                {
+                  "path": "docs/_build/html/.doctrees/pages/output.doctree"
+                },
+                {
+                  "path": "docs/_build/html/.doctrees/pages/overall_description.doctree"
+                },
+                {
+                  "path": "docs/_build/html/.doctrees/pages/ref_DB_preprocessing.doctree"
+                },
+                {
+                  "path": "docs/_build/html/.doctrees/pages/setup.doctree"
+                },
+                {
+                  "path": "docs/_build/html/.doctrees/pages/under_the_hood.doctree"
+                },
+                {
+                  "path": "docs/_build/html/_sources/index.rst.txt"
+                },
+                {
+                  "path": "docs/_build/html/_sources/pages/FAQ.rst.txt"
+                },
+                {
+                  "path": "docs/_build/html/_sources/pages/downstream_analysis.rst.txt"
+                },
+                {
+                  "path": "docs/_build/html/_sources/pages/execution.rst.txt"
+                },
+                {
+                  "path": "docs/_build/html/_sources/pages/insilico_validation.rst.txt"
+                },
+                {
+                  "path": "docs/_build/html/_sources/pages/output.rst.txt"
+                },
+                {
+                  "path": "docs/_build/html/_sources/pages/overall_description.rst.txt"
+                },
+                {
+                  "path": "docs/_build/html/_sources/pages/ref_DB_preprocessing.rst.txt"
+                },
+                {
+                  "path": "docs/_build/html/_sources/pages/setup.rst.txt"
+                },
+                {
+                  "path": "docs/_build/html/_sources/pages/under_the_hood.rst.txt"
+                },
+                {
+                  "path": "docs/_build/html/_static/alabaster.css"
+                },
+                {
+                  "path": "docs/_build/html/_static/basic.css"
+                },
+                {
+                  "path": "docs/_build/html/_static/css/badge_only.css"
+                },
+                {
+                  "path": "docs/_build/html/_static/css/fonts/Roboto-Slab-Bold.woff"
+                },
+                {
+                  "path": "docs/_build/html/_static/css/fonts/Roboto-Slab-Bold.woff2"
+                },
+                {
+                  "path": "docs/_build/html/_static/css/fonts/Roboto-Slab-Regular.woff"
+                },
+                {
+                  "path": "docs/_build/html/_static/css/fonts/Roboto-Slab-Regular.woff2"
+                },
+                {
+                  "path": "docs/_build/html/_static/css/fonts/fontawesome-webfont.eot"
+                },
+                {
+                  "path": "docs/_build/html/_static/css/fonts/fontawesome-webfont.svg"
+                },
+                {
+                  "path": "docs/_build/html/_static/css/fonts/fontawesome-webfont.ttf"
+                },
+                {
+                  "path": "docs/_build/html/_static/css/fonts/fontawesome-webfont.woff"
+                },
+                {
+                  "path": "docs/_build/html/_static/css/fonts/fontawesome-webfont.woff2"
+                },
+                {
+                  "path": "docs/_build/html/_static/css/fonts/lato-bold-italic.woff"
+                },
+                {
+                  "path": "docs/_build/html/_static/css/fonts/lato-bold-italic.woff2"
+                },
+                {
+                  "path": "docs/_build/html/_static/css/fonts/lato-bold.woff"
+                },
+                {
+                  "path": "docs/_build/html/_static/css/fonts/lato-bold.woff2"
+                },
+                {
+                  "path": "docs/_build/html/_static/css/fonts/lato-normal-italic.woff"
+                },
+                {
+                  "path": "docs/_build/html/_static/css/fonts/lato-normal-italic.woff2"
+                },
+                {
+                  "path": "docs/_build/html/_static/css/fonts/lato-normal.woff"
+                },
+                {
+                  "path": "docs/_build/html/_static/css/fonts/lato-normal.woff2"
+                },
+                {
+                  "path": "docs/_build/html/_static/css/theme.css"
+                },
+                {
+                  "path": "docs/_build/html/_static/doctools.js"
+                },
+                {
+                  "path": "docs/_build/html/_static/documentation_options.js"
+                },
+                {
+                  "path": "docs/_build/html/_static/github-banner.svg"
+                },
+                {
+                  "path": "docs/_build/html/_static/jquery-3.5.1.js"
+                },
+                {
+                  "path": "docs/_build/html/_static/jquery.js"
+                },
+                {
+                  "path": "docs/_build/html/_static/js/badge_only.js"
+                },
+                {
+                  "path": "docs/_build/html/_static/js/html5shiv-printshiv.min.js"
+                },
+                {
+                  "path": "docs/_build/html/_static/js/html5shiv.min.js"
+                },
+                {
+                  "path": "docs/_build/html/_static/js/theme.js"
+                },
+                {
+                  "path": "docs/_build/html/_static/language_data.js"
+                },
+                {
+                  "path": "docs/_build/html/_static/pygments.css"
+                },
+                {
+                  "path": "docs/_build/html/_static/searchtools.js"
+                },
+                {
+                  "path": "docs/_build/html/_static/sphinx_highlight.js"
+                },
+                {
+                  "path": "docs/_build/html/_static/underscore-1.3.1.js"
+                },
+                {
+                  "path": "docs/_build/html/_static/underscore.js"
+                },
+                {
+                  "path": "docs/_build/html/genindex.html"
+                },
+                {
+                  "path": "docs/_build/html/index.html"
+                },
+                {
+                  "path": "docs/_build/html/objects.inv"
+                },
+                {
+                  "path": "docs/_build/html/pages/FAQ.html"
+                },
+                {
+                  "path": "docs/_build/html/pages/downstream_analysis.html"
+                },
+                {
+                  "path": "docs/_build/html/pages/execution.html"
+                },
+                {
+                  "path": "docs/_build/html/pages/insilico_validation.html"
+                },
+                {
+                  "path": "docs/_build/html/pages/output.html"
+                },
+                {
+                  "path": "docs/_build/html/pages/overall_description.html"
+                },
+                {
+                  "path": "docs/_build/html/pages/ref_DB_preprocessing.html"
+                },
+                {
+                  "path": "docs/_build/html/pages/setup.html"
+                },
+                {
+                  "path": "docs/_build/html/pages/under_the_hood.html"
+                },
+                {
+                  "path": "docs/_build/html/search.html"
+                },
+                {
+                  "path": "docs/_build/html/searchindex.js"
+                },
+                {
+                  "path": "docs/conf.py"
+                },
+                {
+                  "path": "docs/index.rst"
+                },
+                {
+                  "path": "docs/pages/FAQ.rst"
+                },
+                {
+                  "path": "docs/pages/downstream_analysis.rst"
+                },
+                {
+                  "path": "docs/pages/execution.rst"
+                },
+                {
+                  "path": "docs/pages/insilico_validation.rst"
+                },
+                {
+                  "path": "docs/pages/ref_DB_preprocessing.rst"
+                },
+                {
+                  "path": "docs/pages/setup.rst"
+                },
+                {
+                  "path": "docs/pages/under_the_hood.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 64,
+            "title": "update readthedocs",
+            "state": "MERGED",
+            "createdAt": "2024-11-27T10:56:40Z",
+            "mergedAt": "2024-11-27T10:56:58Z",
+            "author": {
+              "login": "vicasze"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/pages/insilico_validation.rst"
+                },
+                {
+                  "path": "docs/pages/ref_DB_preprocessing.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 63,
+            "title": "update readthedocs",
+            "state": "MERGED",
+            "createdAt": "2024-11-27T10:23:05Z",
+            "mergedAt": "2024-11-27T10:23:13Z",
+            "author": {
+              "login": "vicasze"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/pages/insilico_validation.rst"
+                },
+                {
+                  "path": "docs/pages/ref_DB_preprocessing.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 62,
+            "title": "Vcs docu",
+            "state": "MERGED",
+            "createdAt": "2024-11-18T15:01:15Z",
+            "mergedAt": "2024-11-18T15:01:32Z",
+            "author": {
+              "login": "vicasze"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/pages/insilico_validation.rst"
+                },
+                {
+                  "path": "docs/pages/ref_DB_preprocessing.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 60,
+            "title": "Vcs docu",
+            "state": "MERGED",
+            "createdAt": "2024-11-14T08:50:20Z",
+            "mergedAt": "2024-11-14T08:50:55Z",
+            "author": {
+              "login": "vicasze"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/pages/insilico_validation.rst"
+                },
+                {
+                  "path": "docs/pages/ref_DB_preprocessing.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 59,
+            "title": "Add docker container",
+            "state": "MERGED",
+            "createdAt": "2024-11-14T08:40:14Z",
+            "mergedAt": "2024-11-14T08:46:20Z",
+            "author": {
+              "login": "farchaab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/docker-publish.yml"
+                },
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "env.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 58,
+            "title": "Added example slurm profile",
+            "state": "MERGED",
+            "createdAt": "2024-11-11T10:50:00Z",
+            "mergedAt": "2024-11-11T10:50:12Z",
+            "author": {
+              "login": "farchaab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "zamp/profiles/slurm/config.yaml"
+                },
+                {
+                  "path": "zamp/zamp.VERSION"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 57,
+            "title": "Added compatibilty with SLURM profiles",
+            "state": "MERGED",
+            "createdAt": "2024-11-07T15:59:54Z",
+            "mergedAt": "2024-11-07T16:01:21Z",
+            "author": {
+              "login": "farchaab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "setup.py"
+                },
+                {
+                  "path": "zamp/utils.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 56,
+            "title": "Updated cutadapt parameters",
+            "state": "MERGED",
+            "createdAt": "2024-10-30T15:04:06Z",
+            "mergedAt": "2024-11-04T15:52:28Z",
+            "author": {
+              "login": "vicasze"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "zamp/DBprocess.Snakefile"
+                },
+                {
+                  "path": "zamp/Insilico_taxa_assign.Snakefile"
+                },
+                {
+                  "path": "zamp/Snakefile"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/1_cutadapt_trim.rules"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/1_cutadapt_paired.py"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/1_cutadapt_single.py"
+                },
+                {
+                  "path": "zamp/utils.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 55,
+            "title": "Insilico docu",
+            "state": "MERGED",
+            "createdAt": "2024-10-23T13:23:29Z",
+            "mergedAt": "2024-10-24T12:36:10Z",
+            "author": {
+              "login": "vicasze"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "zamp/rules/In_silico/scripts/In_silico_tax_comparison.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 54,
+            "title": "Bioconda recipe",
+            "state": "MERGED",
+            "createdAt": "2024-10-08T14:40:38Z",
+            "mergedAt": "2024-10-08T14:40:52Z",
+            "author": {
+              "login": "vicasze"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "MANIFEST.in"
+                },
+                {
+                  "path": "zamp/zamp.LICENSE"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 53,
+            "title": "Updated SRA download ",
+            "state": "MERGED",
+            "createdAt": "2024-10-03T09:54:54Z",
+            "mergedAt": "2024-10-03T10:02:21Z",
+            "author": {
+              "login": "farchaab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitmodules"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "ressources/old/Dockerfile"
+                },
+                {
+                  "path": "ressources/old/Dockerfile.validation"
+                },
+                {
+                  "path": "ressources/old/barplots.yml"
+                },
+                {
+                  "path": "ressources/old/build_n_validate_docker.sh"
+                },
+                {
+                  "path": "ressources/pipeline_visualization/DADA2_dag.pdf"
+                },
+                {
+                  "path": "ressources/pipeline_visualization/DADA2_rule_graph.pdf"
+                },
+                {
+                  "path": "ressources/pipeline_visualization/both_rule_graph.pdf"
+                },
+                {
+                  "path": "ressources/pipeline_visualization/vsearch_dag.pdf"
+                },
+                {
+                  "path": "ressources/pipeline_visualization/vsearch_rule_graph.pdf"
+                },
+                {
+                  "path": "ressources/r_scripts/importation/create_phyloseq_from_metadata.R"
+                },
+                {
+                  "path": "ressources/r_scripts/importation/dada2_to_R.R"
+                },
+                {
+                  "path": "ressources/r_scripts/importation/merge_at_given_taxa_rank.R"
+                },
+                {
+                  "path": "ressources/r_scripts/importation/reads_counts_df_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/importation/reorder_metadata_levels.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/1_Reads/dna_quant_barplots_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/1_Reads/qPCR_dna_quant_barplots_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/1_Reads/reads_counts_barplot_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/2_Barplots/adapted_KRONA_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/2_Barplots/barplots_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/2_Barplots/barplots_fct_filtration_at_tax_levels.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/3_Heatmaps/201901_WIP_heatmap.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/3_Heatmaps/comparative_heatmap_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/3_Heatmaps/comparative_heatmap_fct_serie1_2019_WIP.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/3_Heatmaps/merge_variants_heatmap_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/3_Heatmaps/sequence_variants_heatmap_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/4_Diversity/modif_plot_richness_fct.R"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/app.R"
+                },
+                {
+                  "path": "ressources/template_files/16S_input_table_insilico.tsv"
+                },
+                {
+                  "path": "ressources/template_files/16S_validation_set.tsv"
+                },
+                {
+                  "path": "ressources/template_files/DB_snakemake_bash_command.sh"
+                },
+                {
+                  "path": "ressources/template_files/ITS_output_example.tsv"
+                },
+                {
+                  "path": "ressources/template_files/ITS_validation_set.tsv"
+                },
+                {
+                  "path": "ressources/template_files/basic_snakemake_bash_command copy.sh"
+                },
+                {
+                  "path": "ressources/template_files/cluster.json"
+                },
+                {
+                  "path": "ressources/template_files/config.yaml"
+                },
+                {
+                  "path": "ressources/template_files/config_DB.yaml"
+                },
+                {
+                  "path": "ressources/template_files/config_in_silico_validation.yaml"
+                },
+                {
+                  "path": "ressources/template_files/example_local_samples.tsv"
+                },
+                {
+                  "path": "ressources/template_files/example_sra_samples.tsv"
+                },
+                {
+                  "path": "ressources/template_files/insilico_ITS_input_taxID.tsv"
+                },
+                {
+                  "path": "rules/DB_processing/scripts/cutadapt_DB.py"
+                },
+                {
+                  "path": "rules/In_silico/insilico_validation.rules"
+                },
+                {
+                  "path": "setup.py"
+                },
+                {
+                  "path": "zamp/DBprocess.Snakefile"
+                },
+                {
+                  "path": "zamp/Insilico_taxa_assign.Snakefile"
+                },
+                {
+                  "path": "zamp/Snakefile"
+                },
+                {
+                  "path": "zamp/config/config.yaml"
+                },
+                {
+                  "path": "zamp/data/insilico.tsv"
+                },
+                {
+                  "path": "zamp/data/sra-samples.tsv"
+                },
+                {
+                  "path": "zamp/envs/singularity/sing_envs.yml"
+                },
+                {
+                  "path": "zamp/envs/sra_tools.yml"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/QC_raw_reads.rules"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/functions.smk"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/get_inputs.rules"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/1_cutadapt_trim.rules"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/2_DADA2_denoising.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/DB_preprocessing.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/DB_skip_preprocessing.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/RDP_validation.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/format_n_train_classifiers.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/trace_n_log_DB.rules"
+                },
+                {
+                  "path": "zamp/rules/In_silico/insilico_validation.rules"
+                },
+                {
+                  "path": "zamp/utils.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 52,
+            "title": "merge in-silico module branches",
+            "state": "MERGED",
+            "createdAt": "2024-09-09T06:53:49Z",
+            "mergedAt": "2024-09-09T09:35:00Z",
+            "author": {
+              "login": "farchaab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "DBprocess.Snakefile"
+                },
+                {
+                  "path": "Insilico_taxa_assign.Snakefile"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "assembly_finder"
+                },
+                {
+                  "path": "envs/dicey.yml"
+                },
+                {
+                  "path": "envs/rdp_tools.yml"
+                },
+                {
+                  "path": "ressources/template_files/16S_input_table_insilico.tsv"
+                },
+                {
+                  "path": "ressources/template_files/ITS_output_example.tsv"
+                },
+                {
+                  "path": "ressources/template_files/insilico_ITS_input_taxID.tsv"
+                },
+                {
+                  "path": "rules/0_preprocessing/QC_raw_reads.rules"
+                },
+                {
+                  "path": "rules/0_preprocessing/get_inputs.rules"
+                },
+                {
+                  "path": "rules/0_preprocessing/scripts/make_output_lists.py"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/1_cutadapt_trim.rules"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/2_DADA2_denoising.rules"
+                },
+                {
+                  "path": "rules/1_2_vsearch_OTUs/1_PANDAseq_trim_filter_merge.rules"
+                },
+                {
+                  "path": "rules/3_tax_assignment/tax_assign.rules"
+                },
+                {
+                  "path": "rules/4_post_processing/TreeShrink.rules"
+                },
+                {
+                  "path": "rules/4_post_processing/physeq_processing.rules"
+                },
+                {
+                  "path": "rules/5_visualization/General_plotting.rules"
+                },
+                {
+                  "path": "rules/5_visualization/QIIME2_import.rules"
+                },
+                {
+                  "path": "rules/DB_processing/scripts/DB_tax_formatting.R"
+                },
+                {
+                  "path": "rules/DB_processing/scripts/addFullLineage.py"
+                },
+                {
+                  "path": "rules/DB_processing/scripts/lineage2taxTrain.py"
+                },
+                {
+                  "path": "rules/In_silico/scripts/In_silico_tax_comparison.R"
+                },
+                {
+                  "path": "rules/In_silico/scripts/create_count_table_from_insilico.R"
+                },
+                {
+                  "path": "rules/In_silico/scripts/cutadapt_amplicons.py"
+                },
+                {
+                  "path": "setup.py"
+                },
+                {
+                  "path": "zamp/DBprocess.Snakefile"
+                },
+                {
+                  "path": "zamp/Insilico_quality_control.Snakefile"
+                },
+                {
+                  "path": "zamp/Insilico_taxa_assign.Snakefile"
+                },
+                {
+                  "path": "zamp/Snakefile"
+                },
+                {
+                  "path": "zamp/__init__.py"
+                },
+                {
+                  "path": "zamp/__main__.py"
+                },
+                {
+                  "path": "zamp/config/config.yaml"
+                },
+                {
+                  "path": "zamp/envs/DADA2_in_R.yml"
+                },
+                {
+                  "path": "zamp/envs/FastQC.yml"
+                },
+                {
+                  "path": "zamp/envs/MultiQC.yml"
+                },
+                {
+                  "path": "zamp/envs/PANDAseq.yml"
+                },
+                {
+                  "path": "zamp/envs/QIIME1.yml"
+                },
+                {
+                  "path": "zamp/envs/QIIME2-2020.02.yml"
+                },
+                {
+                  "path": "zamp/envs/TreeShrink.yml"
+                },
+                {
+                  "path": "zamp/envs/amplicons_r_utils.yml"
+                },
+                {
+                  "path": "zamp/envs/assembly_finder.yml"
+                },
+                {
+                  "path": "zamp/envs/cutadapt.yml"
+                },
+                {
+                  "path": "zamp/envs/decipher.yml"
+                },
+                {
+                  "path": "zamp/envs/pandas.yml"
+                },
+                {
+                  "path": "zamp/envs/picrust2.yml"
+                },
+                {
+                  "path": "zamp/envs/python.yml"
+                },
+                {
+                  "path": "zamp/envs/rdp_classifier.yml"
+                },
+                {
+                  "path": "zamp/envs/singularity/amplicons_DADA2.Dockerfile"
+                },
+                {
+                  "path": "zamp/envs/singularity/amplicons_cutadapt.Dockerfile"
+                },
+                {
+                  "path": "zamp/envs/singularity/amplicons_decipher.Dockerfile"
+                },
+                {
+                  "path": "zamp/envs/singularity/amplicons_qiime1_rdp.Dockerfile"
+                },
+                {
+                  "path": "zamp/envs/singularity/amplicons_r_utils.Dockerfile"
+                },
+                {
+                  "path": "zamp/envs/singularity/amplicons_simluatepcr.Dockerfile"
+                },
+                {
+                  "path": "zamp/envs/singularity/amplicons_sratoolkit.Dockerfile"
+                },
+                {
+                  "path": "zamp/envs/singularity/amplicons_treeshrink.Dockerfile"
+                },
+                {
+                  "path": "zamp/envs/singularity/sing_envs.yml"
+                },
+                {
+                  "path": "zamp/envs/sra-tools.yml"
+                },
+                {
+                  "path": "zamp/envs/vsearch.yml"
+                },
+                {
+                  "path": "zamp/ressources/old/Dockerfile"
+                },
+                {
+                  "path": "zamp/ressources/old/Dockerfile.validation"
+                },
+                {
+                  "path": "zamp/ressources/old/barplots.yml"
+                },
+                {
+                  "path": "zamp/ressources/old/build_n_validate_docker.sh"
+                },
+                {
+                  "path": "zamp/ressources/pipeline_visualization/DADA2_dag.pdf"
+                },
+                {
+                  "path": "zamp/ressources/pipeline_visualization/DADA2_rule_graph.pdf"
+                },
+                {
+                  "path": "zamp/ressources/pipeline_visualization/both_rule_graph.pdf"
+                },
+                {
+                  "path": "zamp/ressources/pipeline_visualization/vsearch_dag.pdf"
+                },
+                {
+                  "path": "zamp/ressources/pipeline_visualization/vsearch_rule_graph.pdf"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/importation/create_phyloseq_from_metadata.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/importation/dada2_to_R.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/importation/merge_at_given_taxa_rank.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/importation/reads_counts_df_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/importation/reorder_metadata_levels.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/1_Reads/dna_quant_barplots_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/1_Reads/qPCR_dna_quant_barplots_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/1_Reads/reads_counts_barplot_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/2_Barplots/adapted_KRONA_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/2_Barplots/barplots_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/2_Barplots/barplots_fct_filtration_at_tax_levels.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/3_Heatmaps/201901_WIP_heatmap.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/3_Heatmaps/comparative_heatmap_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/3_Heatmaps/comparative_heatmap_fct_serie1_2019_WIP.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/3_Heatmaps/merge_variants_heatmap_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/3_Heatmaps/sequence_variants_heatmap_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/4_Diversity/modif_plot_richness_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/app.R"
+                },
+                {
+                  "path": "zamp/ressources/template_files/16S_input_table_insilico.tsv"
+                },
+                {
+                  "path": "zamp/ressources/template_files/16S_validation_set.tsv"
+                },
+                {
+                  "path": "zamp/ressources/template_files/DB_snakemake_bash_command.sh"
+                },
+                {
+                  "path": "zamp/ressources/template_files/ITS_validation_set.tsv"
+                },
+                {
+                  "path": "zamp/ressources/template_files/basic_snakemake_bash_command copy.sh"
+                },
+                {
+                  "path": "zamp/ressources/template_files/cluster.json"
+                },
+                {
+                  "path": "zamp/ressources/template_files/config.yaml"
+                },
+                {
+                  "path": "zamp/ressources/template_files/config_DB.yaml"
+                },
+                {
+                  "path": "zamp/ressources/template_files/config_in_silico_validation.yaml"
+                },
+                {
+                  "path": "zamp/ressources/template_files/example_local_samples.tsv"
+                },
+                {
+                  "path": "zamp/ressources/template_files/example_sra_samples.tsv"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 51,
+            "title": "PR to fix krona plots",
+            "state": "MERGED",
+            "createdAt": "2024-08-23T14:47:21Z",
+            "mergedAt": "2024-08-26T12:38:14Z",
+            "author": {
+              "login": "daulet-a"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "zamp/Snakefile"
+                },
+                {
+                  "path": "zamp/rules/5_visualization/General_plotting.rules"
+                },
+                {
+                  "path": "zamp/rules/5_visualization/scripts/KRONA_plots.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 50
+                }
+              ]
+            }
+          },
+          {
+            "number": 49,
+            "title": "updating in silico module",
+            "state": "MERGED",
+            "createdAt": "2024-08-21T07:01:20Z",
+            "mergedAt": "2024-09-24T08:38:51Z",
+            "author": {
+              "login": "vicasze"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/pages/insilico_validation.rst"
+                },
+                {
+                  "path": "rules/DB_processing/scripts/cutadapt_DB.py"
+                },
+                {
+                  "path": "rules/In_silico/insilico_validation.rules"
+                },
+                {
+                  "path": "setup.py"
+                },
+                {
+                  "path": "zamp/DBprocess.Snakefile"
+                },
+                {
+                  "path": "zamp/Insilico_taxa_assign.Snakefile"
+                },
+                {
+                  "path": "zamp/Snakefile"
+                },
+                {
+                  "path": "zamp/__main__.py"
+                },
+                {
+                  "path": "zamp/envs/assembly_finder.yml"
+                },
+                {
+                  "path": "zamp/envs/pandas.yml"
+                },
+                {
+                  "path": "zamp/envs/perl.yml"
+                },
+                {
+                  "path": "zamp/envs/singularity/sing_envs.yml"
+                },
+                {
+                  "path": "zamp/ressources/template_files/16S_input_table_insilico.tsv"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/functions.smk"
+                },
+                {
+                  "path": "zamp/rules/5_visualization/scripts/KRONA_plots.R"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/scripts/clean_tax.py"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/scripts/tax_formatting.py"
+                },
+                {
+                  "path": "zamp/rules/In_silico/insilico_validation.rules"
+                },
+                {
+                  "path": "zamp/rules/In_silico/scripts/In_silico_tax_comparison.R"
+                },
+                {
+                  "path": "zamp/rules/In_silico/scripts/create_count_table_from_insilico.R"
+                },
+                {
+                  "path": "zamp/rules/In_silico/scripts/in_silico_PCR.pl"
+                },
+                {
+                  "path": "zamp/utils.py"
+                },
+                {
+                  "path": "zamp/zamp.VERSION"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 48,
+            "title": "Add working run command",
+            "state": "MERGED",
+            "createdAt": "2024-08-02T15:14:16Z",
+            "mergedAt": "2024-08-02T15:37:26Z",
+            "author": {
+              "login": "farchaab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "setup.py"
+                },
+                {
+                  "path": "zamp/Insilico_quality_control.Snakefile"
+                },
+                {
+                  "path": "zamp/Insilico_taxa_assign.Snakefile"
+                },
+                {
+                  "path": "zamp/Snakefile"
+                },
+                {
+                  "path": "zamp/__main__.py"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/QC_raw_reads.rules"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/directories.smk"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/functions.smk"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/get_inputs.rules"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/scripts/make_output_fcts.py"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/scripts/make_output_lists.py"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/1_cutadapt_trim.rules"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/2_DADA2_denoising.rules"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/1_DADA2_q_filtering_paired.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/1_DADA2_q_filtering_single.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/2b_big_data_DADA2_infer_ASV_paired.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/2b_big_data_DADA2_infer_ASV_single.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/2c_big_data_DADA2_merge_ASV.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/2d_big_data_DADA2_merge_chimera.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/2e_big_data_DADA2_filtering_stats.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_vsearch_OTUs/1_PANDAseq_trim_filter_merge.rules"
+                },
+                {
+                  "path": "zamp/rules/1_2_vsearch_OTUs/2_vsearch_denoising.rules"
+                },
+                {
+                  "path": "zamp/rules/1_2_vsearch_OTUs/scripts/create_count_table_from_vsearch.R"
+                },
+                {
+                  "path": "zamp/rules/3_tax_assignment/tax_assign.rules"
+                },
+                {
+                  "path": "zamp/rules/4_post_processing/TreeShrink.rules"
+                },
+                {
+                  "path": "zamp/rules/4_post_processing/physeq_processing.rules"
+                },
+                {
+                  "path": "zamp/rules/4_post_processing/scripts/physeq_export.R"
+                },
+                {
+                  "path": "zamp/rules/4_post_processing/scripts/physeq_initial_import.R"
+                },
+                {
+                  "path": "zamp/rules/5_visualization/General_plotting.rules"
+                },
+                {
+                  "path": "zamp/rules/5_visualization/QIIME2_import.rules"
+                },
+                {
+                  "path": "zamp/rules/5_visualization/scripts/KRONA_plots.R"
+                },
+                {
+                  "path": "zamp/rules/5_visualization/scripts/rarefaction_curve.R"
+                },
+                {
+                  "path": "zamp/rules/5_visualization/scripts/raw_to_processed_reads_plot.R"
+                },
+                {
+                  "path": "zamp/rules/5_visualization/scripts/raw_to_processed_reads_stats.R"
+                },
+                {
+                  "path": "zamp/rules/5_visualization/scripts/raw_to_tax_filtered_reads_stats.R"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/DB_preprocessing.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/DB_skip_preprocessing.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/RDP_validation.rules"
+                },
+                {
+                  "path": "zamp/rules/DB_processing/format_n_train_classifiers.rules"
+                },
+                {
+                  "path": "zamp/rules/In_silico/amplicons_reference.rules"
+                },
+                {
+                  "path": "zamp/rules/In_silico/insilico_validation.rules"
+                },
+                {
+                  "path": "zamp/rules/In_silico/scripts/abundance_to_mismatches.R"
+                },
+                {
+                  "path": "zamp/rules/In_silico/scripts/compare_all_mismatches.R"
+                },
+                {
+                  "path": "zamp/rules/In_silico/scripts/compare_mismatches.R"
+                },
+                {
+                  "path": "zamp/rules/In_silico/scripts/create_count_table_from_insilico.R"
+                },
+                {
+                  "path": "zamp/rules/PICRUSt2/picrust.rules"
+                },
+                {
+                  "path": "zamp/utils.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 47,
+            "title": "Add cli wrapper and species names collapsing",
+            "state": "MERGED",
+            "createdAt": "2024-07-18T12:20:26Z",
+            "mergedAt": "2024-07-29T08:57:50Z",
+            "author": {
+              "login": "farchaab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "DBprocess.Snakefile"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assembly_finder"
+                },
+                {
+                  "path": "rules/DB_processing/scripts/cutadapt_DB.py"
+                },
+                {
+                  "path": "setup.py"
+                },
+                {
+                  "path": "zamp/DBprocess.Snakefile"
+                },
+                {
+                  "path": "zamp/Insilico_quality_control.Snakefile"
+                },
+                {
+                  "path": "zamp/Insilico_taxa_assign.Snakefile"
+                },
+                {
+                  "path": "zamp/Snakefile"
+                },
+                {
+                  "path": "zamp/__init__.py"
+                },
+                {
+                  "path": "zamp/__main__.py"
+                },
+                {
+                  "path": "zamp/config/config.yaml"
+                },
+                {
+                  "path": "zamp/envs/DADA2_in_R.yml"
+                },
+                {
+                  "path": "zamp/envs/FastQC.yml"
+                },
+                {
+                  "path": "zamp/envs/MultiQC.yml"
+                },
+                {
+                  "path": "zamp/envs/PANDAseq.yml"
+                },
+                {
+                  "path": "zamp/envs/QIIME1.yml"
+                },
+                {
+                  "path": "zamp/envs/QIIME2-2020.02.yml"
+                },
+                {
+                  "path": "zamp/envs/TreeShrink.yml"
+                },
+                {
+                  "path": "zamp/envs/amplicons_r_utils.yml"
+                },
+                {
+                  "path": "zamp/envs/cutadapt.yml"
+                },
+                {
+                  "path": "zamp/envs/decipher.yml"
+                },
+                {
+                  "path": "zamp/envs/pandas.yml"
+                },
+                {
+                  "path": "zamp/envs/picrust2.yml"
+                },
+                {
+                  "path": "zamp/envs/python.yml"
+                },
+                {
+                  "path": "zamp/envs/rdp_classifier.yml"
+                },
+                {
+                  "path": "zamp/envs/singularity/amplicons_DADA2.Dockerfile"
+                },
+                {
+                  "path": "zamp/envs/singularity/amplicons_cutadapt.Dockerfile"
+                },
+                {
+                  "path": "zamp/envs/singularity/amplicons_decipher.Dockerfile"
+                },
+                {
+                  "path": "zamp/envs/singularity/amplicons_qiime1_rdp.Dockerfile"
+                },
+                {
+                  "path": "zamp/envs/singularity/amplicons_r_utils.Dockerfile"
+                },
+                {
+                  "path": "zamp/envs/singularity/amplicons_simluatepcr.Dockerfile"
+                },
+                {
+                  "path": "zamp/envs/singularity/amplicons_sratoolkit.Dockerfile"
+                },
+                {
+                  "path": "zamp/envs/singularity/amplicons_treeshrink.Dockerfile"
+                },
+                {
+                  "path": "zamp/envs/singularity/sing_envs.yml"
+                },
+                {
+                  "path": "zamp/envs/sra-tools.yml"
+                },
+                {
+                  "path": "zamp/envs/vsearch.yml"
+                },
+                {
+                  "path": "zamp/ressources/old/Dockerfile"
+                },
+                {
+                  "path": "zamp/ressources/old/Dockerfile.validation"
+                },
+                {
+                  "path": "zamp/ressources/old/barplots.yml"
+                },
+                {
+                  "path": "zamp/ressources/old/build_n_validate_docker.sh"
+                },
+                {
+                  "path": "zamp/ressources/pipeline_visualization/DADA2_dag.pdf"
+                },
+                {
+                  "path": "zamp/ressources/pipeline_visualization/DADA2_rule_graph.pdf"
+                },
+                {
+                  "path": "zamp/ressources/pipeline_visualization/both_rule_graph.pdf"
+                },
+                {
+                  "path": "zamp/ressources/pipeline_visualization/vsearch_dag.pdf"
+                },
+                {
+                  "path": "zamp/ressources/pipeline_visualization/vsearch_rule_graph.pdf"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/importation/create_phyloseq_from_metadata.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/importation/dada2_to_R.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/importation/merge_at_given_taxa_rank.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/importation/reads_counts_df_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/importation/reorder_metadata_levels.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/1_Reads/dna_quant_barplots_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/1_Reads/qPCR_dna_quant_barplots_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/1_Reads/reads_counts_barplot_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/2_Barplots/adapted_KRONA_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/2_Barplots/barplots_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/2_Barplots/barplots_fct_filtration_at_tax_levels.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/3_Heatmaps/201901_WIP_heatmap.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/3_Heatmaps/comparative_heatmap_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/3_Heatmaps/comparative_heatmap_fct_serie1_2019_WIP.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/3_Heatmaps/merge_variants_heatmap_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/3_Heatmaps/sequence_variants_heatmap_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/4_Diversity/modif_plot_richness_fct.R"
+                },
+                {
+                  "path": "zamp/ressources/r_scripts/visualization/app.R"
+                },
+                {
+                  "path": "zamp/ressources/template_files/16S_input_table_insilico.tsv"
+                },
+                {
+                  "path": "zamp/ressources/template_files/16S_validation_set.tsv"
+                },
+                {
+                  "path": "zamp/ressources/template_files/DB_snakemake_bash_command.sh"
+                },
+                {
+                  "path": "zamp/ressources/template_files/ITS_validation_set.tsv"
+                },
+                {
+                  "path": "zamp/ressources/template_files/basic_snakemake_bash_command copy.sh"
+                },
+                {
+                  "path": "zamp/ressources/template_files/cluster.json"
+                },
+                {
+                  "path": "zamp/ressources/template_files/config.yaml"
+                },
+                {
+                  "path": "zamp/ressources/template_files/config_DB.yaml"
+                },
+                {
+                  "path": "zamp/ressources/template_files/config_in_silico_validation.yaml"
+                },
+                {
+                  "path": "zamp/ressources/template_files/example_local_samples.tsv"
+                },
+                {
+                  "path": "zamp/ressources/template_files/example_sra_samples.tsv"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/QC_raw_reads.rules"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/get_inputs.rules"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/report/MultiQC.rst"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/scripts/logging.py"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/scripts/make_input_lists.py"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/scripts/make_output_fcts.py"
+                },
+                {
+                  "path": "zamp/rules/0_preprocessing/scripts/make_output_lists.py"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/1_cutadapt_trim.rules"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/2_DADA2_denoising.rules"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/report/DADA2_error_profile.rst"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/report/DADA2_output.rst"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/1_DADA2_q_filtering_paired.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/1_DADA2_q_filtering_single.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/1_cutadapt_paired.py"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/1_cutadapt_single.py"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/2a_big_data_DADA2_learn_errors_paired.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/2a_big_data_DADA2_learn_errors_single.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/2b_big_data_DADA2_infer_ASV_paired.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/2b_big_data_DADA2_infer_ASV_single.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/2c_big_data_DADA2_merge_ASV.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/2d_big_data_DADA2_merge_chimera.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_DADA2_ASVs/scripts/2e_big_data_DADA2_filtering_stats.R"
+                },
+                {
+                  "path": "zamp/rules/1_2_vsearch_OTUs/1_PANDAseq_trim_filter_merge.rules"
+                },
+                {
+                  "path": "zamp/rules/1_2_vsearch_OTUs/2_vsearch_denoising.rules"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 41
+                }
+              ]
+            }
+          },
+          {
+            "number": 46,
+            "title": "Database processing update",
+            "state": "MERGED",
+            "createdAt": "2024-06-11T14:53:05Z",
+            "mergedAt": "2024-07-18T10:32:12Z",
+            "author": {
+              "login": "farchaab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "envs/pandas.yml"
+                },
+                {
+                  "path": "envs/python.yml"
+                },
+                {
+                  "path": "envs/rdp_classifier.yml"
+                },
+                {
+                  "path": "envs/rdp_tools.yml"
+                },
+                {
+                  "path": "envs/singularity/sing_envs.yml"
+                },
+                {
+                  "path": "rules/3_tax_assignment/tax_assign.rules"
+                },
+                {
+                  "path": "rules/DB_processing/DB_preprocessing.rules"
+                },
+                {
+                  "path": "rules/DB_processing/DB_skip_preprocessing.rules"
+                },
+                {
+                  "path": "rules/DB_processing/RDP_validation.rules"
+                },
+                {
+                  "path": "rules/DB_processing/format_n_train_classifiers.rules"
+                },
+                {
+                  "path": "rules/DB_processing/scripts/DB_tax_formatting.R"
+                },
+                {
+                  "path": "rules/DB_processing/scripts/addFullLineage.py"
+                },
+                {
+                  "path": "rules/DB_processing/scripts/clean_tax.py"
+                },
+                {
+                  "path": "rules/DB_processing/scripts/lineage2taxTrain.py"
+                },
+                {
+                  "path": "rules/DB_processing/scripts/tax_formatting.py"
+                },
+                {
+                  "path": "rules/DB_processing/trace_n_log_DB.rules"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 45,
+            "title": "Fix formatting and NameError",
+            "state": "MERGED",
+            "createdAt": "2024-06-04T07:20:21Z",
+            "mergedAt": "2024-06-04T13:37:44Z",
+            "author": {
+              "login": "farchaab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/pull_request_template.md"
+                },
+                {
+                  "path": "DBprocess.Snakefile"
+                },
+                {
+                  "path": "Insilico_quality_control.Snakefile"
+                },
+                {
+                  "path": "Insilico_taxa_assign.Snakefile"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "rules/0_preprocessing/QC_raw_reads.rules"
+                },
+                {
+                  "path": "rules/0_preprocessing/get_inputs.rules"
+                },
+                {
+                  "path": "rules/0_preprocessing/scripts/make_input_lists.py"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/1_cutadapt_trim.rules"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/2_DADA2_denoising.rules"
+                },
+                {
+                  "path": "rules/1_2_vsearch_OTUs/1_PANDAseq_trim_filter_merge.rules"
+                },
+                {
+                  "path": "rules/1_2_vsearch_OTUs/2_vsearch_denoising.rules"
+                },
+                {
+                  "path": "rules/3_tax_assignment/tax_assign.rules"
+                },
+                {
+                  "path": "rules/4_post_processing/TreeShrink.rules"
+                },
+                {
+                  "path": "rules/4_post_processing/physeq_processing.rules"
+                },
+                {
+                  "path": "rules/5_visualization/General_plotting.rules"
+                },
+                {
+                  "path": "rules/5_visualization/QIIME2_import.rules"
+                },
+                {
+                  "path": "rules/DB_processing/DB_preprocessing.rules"
+                },
+                {
+                  "path": "rules/DB_processing/DB_skip_preprocessing.rules"
+                },
+                {
+                  "path": "rules/DB_processing/RDP_validation.rules"
+                },
+                {
+                  "path": "rules/DB_processing/format_n_train_classifiers.rules"
+                },
+                {
+                  "path": "rules/DB_processing/trace_n_log_DB.rules"
+                },
+                {
+                  "path": "rules/In_silico/amplicons_reference.rules"
+                },
+                {
+                  "path": "rules/In_silico/insilico_validation.rules"
+                },
+                {
+                  "path": "rules/PICRUSt2/picrust.rules"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 44
+                }
+              ]
+            }
+          },
+          {
+            "number": 40,
+            "title": "Release 0.9.19",
+            "state": "MERGED",
+            "createdAt": "2024-05-29T08:14:27Z",
+            "mergedAt": "2024-05-30T20:06:22Z",
+            "author": {
+              "login": "farchaab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "DBprocess.Snakefile"
+                },
+                {
+                  "path": "Insilico_taxa_assign.Snakefile"
+                },
+                {
+                  "path": "README.Md"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "envs/DADA2_in_R.yml"
+                },
+                {
+                  "path": "envs/FastQC.yml"
+                },
+                {
+                  "path": "envs/MultiQC.yml"
+                },
+                {
+                  "path": "envs/cutadapt.yml"
+                },
+                {
+                  "path": "envs/picrust2.yml"
+                },
+                {
+                  "path": "envs/singularity/amplicons_DADA2.Dockerfile"
+                },
+                {
+                  "path": "envs/singularity/amplicons_cutadapt.Dockerfile"
+                },
+                {
+                  "path": "envs/singularity/amplicons_sratoolkit.Dockerfile"
+                },
+                {
+                  "path": "envs/singularity/sing_envs.yml"
+                },
+                {
+                  "path": "envs/sra-tools.yml"
+                },
+                {
+                  "path": "ressources/template_files/16S_input_table_insilico.tsv"
+                },
+                {
+                  "path": "rules/0_preprocessing/QC_raw_reads.rules"
+                },
+                {
+                  "path": "rules/0_preprocessing/get_inputs.rules"
+                },
+                {
+                  "path": "rules/0_preprocessing/scripts/make_input_lists.py"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/2_DADA2_denoising.rules"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/scripts/1_cutadapt_paired.py"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/scripts/1_cutadapt_single.py"
+                },
+                {
+                  "path": "rules/1_2_vsearch_OTUs/scripts/create_count_table_from_vsearch.R"
+                },
+                {
+                  "path": "rules/4_post_processing/physeq_processing.rules"
+                },
+                {
+                  "path": "rules/4_post_processing/scripts/transf_norm.R"
+                },
+                {
+                  "path": "rules/5_visualization/scripts/raw_to_processed_reads_stats.R"
+                },
+                {
+                  "path": "rules/DB_processing/format_n_train_classifiers.rules"
+                },
+                {
+                  "path": "rules/DB_processing/scripts/DB_tax_formatting.R"
+                },
+                {
+                  "path": "rules/DB_processing/scripts/cutadapt_DB.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 37,
+            "title": "Update under_the_hood.rst",
+            "state": "MERGED",
+            "createdAt": "2024-04-09T18:56:44Z",
+            "mergedAt": "2024-04-09T18:56:51Z",
+            "author": {
+              "login": "valscherz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/pages/under_the_hood.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 35,
+            "title": "Update KRONA_plots.R",
+            "state": "MERGED",
+            "createdAt": "2022-02-05T12:41:41Z",
+            "mergedAt": "2022-02-07T19:13:49Z",
+            "author": {
+              "login": "Sedreh"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "rules/5_visualization/scripts/KRONA_plots.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 34,
+            "title": "Update make_input_lists.py",
+            "state": "MERGED",
+            "createdAt": "2021-04-14T09:20:19Z",
+            "mergedAt": "2021-06-23T12:21:59Z",
+            "author": {
+              "login": "Sedreh"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assembly_finder"
+                },
+                {
+                  "path": "rules/0_preprocessing/scripts/make_input_lists.py"
+                },
+                {
+                  "path": "rules/0_preprocessing/scripts/make_output_fcts.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 33,
+            "title": "Sedreh",
+            "state": "MERGED",
+            "createdAt": "2021-04-12T12:58:58Z",
+            "mergedAt": "2021-04-12T17:30:46Z",
+            "author": {
+              "login": "Sedreh"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/pages/execution.rst"
+                },
+                {
+                  "path": "docs/pages/ref_DB_preprocessing.rst"
+                },
+                {
+                  "path": "docs/pages/setup.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 32,
+            "title": "DAJ's corrections",
+            "state": "MERGED",
+            "createdAt": "2020-11-20T18:29:39Z",
+            "mergedAt": "2020-11-20T18:29:56Z",
+            "author": {
+              "login": "valscherz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/pages/execution.rst"
+                },
+                {
+                  "path": "docs/pages/ref_DB_preprocessing.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 30,
+            "title": "Dev",
+            "state": "CLOSED",
+            "createdAt": "2020-11-19T08:50:59Z",
+            "mergedAt": null,
+            "author": {
+              "login": "valscherz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "docs/_build/html/.doctrees/environment.pickle"
+                },
+                {
+                  "path": "docs/_build/html/.doctrees/index.doctree"
+                },
+                {
+                  "path": "docs/_build/html/.doctrees/pages/execution.doctree"
+                },
+                {
+                  "path": "docs/_build/html/.doctrees/pages/setup.doctree"
+                },
+                {
+                  "path": "docs/_build/html/.doctrees/pages/under_the_hood.doctree"
+                },
+                {
+                  "path": "docs/_build/html/_sources/index.rst.txt"
+                },
+                {
+                  "path": "docs/_build/html/_sources/pages/execution.rst.txt"
+                },
+                {
+                  "path": "docs/_build/html/_sources/pages/setup.rst.txt"
+                },
+                {
+                  "path": "docs/_build/html/_sources/pages/under_the_hood.rst.txt"
+                },
+                {
+                  "path": "docs/_build/html/objects.inv"
+                },
+                {
+                  "path": "docs/_build/html/pages/FAQ.html"
+                },
+                {
+                  "path": "docs/_build/html/pages/downstream_analysis.html"
+                },
+                {
+                  "path": "docs/_build/html/pages/execution.html"
+                },
+                {
+                  "path": "docs/_build/html/pages/insilico_validation.html"
+                },
+                {
+                  "path": "docs/_build/html/pages/output.html"
+                },
+                {
+                  "path": "docs/_build/html/pages/setup.html"
+                },
+                {
+                  "path": "docs/_build/html/pages/under_the_hood.html"
+                },
+                {
+                  "path": "docs/_build/html/searchindex.js"
+                },
+                {
+                  "path": "docs/conf.py"
+                },
+                {
+                  "path": "docs/index.rst"
+                },
+                {
+                  "path": "docs/pages/execution.rst"
+                },
+                {
+                  "path": "docs/pages/under_the_hood.rst"
+                },
+                {
+                  "path": "rules/0_preprocessing/get_reads.rules"
+                },
+                {
+                  "path": "rules/0_preprocessing/get_sras.rules"
+                },
+                {
+                  "path": "rules/0_preprocessing/logging.rules"
+                },
+                {
+                  "path": "rules/0_preprocessing/make_input_list.rules"
+                },
+                {
+                  "path": "rules/0_preprocessing/make_output_list_fcts.rules"
+                },
+                {
+                  "path": "rules/0_preprocessing/make_output_list_files.rules"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 28,
+            "title": "Manage single and paired-end paths",
+            "state": "MERGED",
+            "createdAt": "2020-11-10T16:03:10Z",
+            "mergedAt": "2020-11-10T16:06:32Z",
+            "author": {
+              "login": "valscherz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "rules/0_preprocessing/get_reads.rules"
+                },
+                {
+                  "path": "rules/0_preprocessing/make_output_list_fcts.rules"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/2_DADA2_denoising.rules"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/scripts/1_cutadapt_single.py"
+                },
+                {
+                  "path": "rules/1_2_vsearch_OTUs/1_PANDAseq_trim_filter_merge.rules"
+                },
+                {
+                  "path": "rules/1_2_vsearch_OTUs/2_vsearch_denoising.rules"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 27,
+            "title": "Single pair new try",
+            "state": "MERGED",
+            "createdAt": "2020-07-06T08:48:58Z",
+            "mergedAt": "2020-07-06T08:49:13Z",
+            "author": {
+              "login": "valscherz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "ressources/r_scripts/importation/create_phyloseq_from_metadata.R"
+                },
+                {
+                  "path": "rules/0_preprocessing/QC_raw_reads.rules"
+                },
+                {
+                  "path": "rules/0_preprocessing/get_reads.rules"
+                },
+                {
+                  "path": "rules/0_preprocessing/get_sras.rules"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/1_cutadapt_trim.rules"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/2_DADA2_denoising.rules"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/scripts/1_DADA2_q_filtering_paired.R"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/scripts/1_DADA2_q_filtering_single.R"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/scripts/1_cutadapt_paired.py"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/scripts/1_cutadapt_single.py"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/scripts/2a_big_data_DADA2_learn_errors_paired.R"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/scripts/2a_big_data_DADA2_learn_errors_single.R"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/scripts/2b_big_data_DADA2_infer_ASV_paired.R"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/scripts/2b_big_data_DADA2_infer_ASV_single.R"
+                },
+                {
+                  "path": "rules/4_post_processing/scripts/physeq_export.R"
+                },
+                {
+                  "path": "rules/4_post_processing/scripts/physeq_melt_table.R"
+                },
+                {
+                  "path": "rules/4_post_processing/scripts/transpose_and_add_meta_count_table.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 26,
+            "title": "correct txt to tsv",
+            "state": "MERGED",
+            "createdAt": "2020-05-25T15:08:02Z",
+            "mergedAt": "2020-05-25T15:08:11Z",
+            "author": {
+              "login": "valscherz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "rules/1_2_DADA2_ASVs/2_DADA2_denoising.rules"
+                },
+                {
+                  "path": "rules/1_2_vsearch_OTUs/2_vsearch_denoising.rules"
+                },
+                {
+                  "path": "rules/4_post_processing/physeq_processing.rules"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 25,
+            "title": "Update snakemake",
+            "state": "MERGED",
+            "createdAt": "2020-05-22T20:06:04Z",
+            "mergedAt": "2020-05-22T20:06:58Z",
+            "author": {
+              "login": "valscherz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "Insilico_taxa_assign.Snakefile"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "report.rst"
+                },
+                {
+                  "path": "ressources/r_scripts/visualization/app.R"
+                },
+                {
+                  "path": "rules/0_preprocessing/QC_raw_reads.rules"
+                },
+                {
+                  "path": "rules/0_preprocessing/get_sras.rules"
+                },
+                {
+                  "path": "rules/0_preprocessing/logging.rules"
+                },
+                {
+                  "path": "rules/0_preprocessing/make_output_list_files.rules"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/1_cutadapt_trim.rules"
+                },
+                {
+                  "path": "rules/1_2_DADA2_ASVs/2_DADA2_denoising.rules"
+                },
+                {
+                  "path": "rules/1_2_vsearch_OTUs/1_PANDAseq_trim_filter_merge.rules"
+                },
+                {
+                  "path": "rules/1_2_vsearch_OTUs/2_vsearch_denoising.rules"
+                },
+                {
+                  "path": "rules/1_2_vsearch_OTUs/scripts/create_count_table_from_vsearch.R"
+                },
+                {
+                  "path": "rules/3_tax_assignment/scripts/format_RDP_output.R"
+                },
+                {
+                  "path": "rules/3_tax_assignment/tax_assign.rules"
+                },
+                {
+                  "path": "rules/4_post_processing/physeq_processing.rules"
+                },
+                {
+                  "path": "rules/5_visualization/General_plotting.rules"
+                },
+                {
+                  "path": "rules/5_visualization/QIIME2_import.rules"
+                },
+                {
+                  "path": "rules/DB_processing/DB_preprocessing.rules"
+                },
+                {
+                  "path": "rules/DB_processing/RDP_validation.rules"
+                },
+                {
+                  "path": "rules/In_silico/amplicons_reference.rules"
+                },
+                {
+                  "path": "rules/In_silico/insilico_validation.rules"
+                },
+                {
+                  "path": "rules/In_silico/scripts/create_count_table_from_insilico.R"
+                },
+                {
+                  "path": "rules/PICRUSt2/picrust.rules"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 24,
+            "title": "Singularity container",
+            "state": "MERGED",
+            "createdAt": "2020-05-08T13:03:24Z",
+            "mergedAt": "2020-05-08T13:04:08Z",
+            "author": {
+              "login": "valscherz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitattributes"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "Snakefile.DB"
+                },
+                {
+                  "path": "Snakefile.insilico_validation"
+                },
+                {
+                  "path": "data/Silva132.201908/.snakemake/log/2019-08-26T153541.235032.snakemake.log"
+                },
+                {
+                  "path": "data/Silva132.201908/.snakemake/metadata/L2hvbWUvdmFsZW50aW5zY2hlcnovYmluL21pY3JvYmlvbWUxNlNfcGlwZWxpbmUvZGF0YS9TaWx2YTEzMi4yMDE5MDgvREJfYW1wLmZhc3Rh"
+                },
+                {
+                  "path": "data/Silva132.201908/.snakemake/metadata/L2hvbWUvdmFsZW50aW5zY2hlcnovYmluL21pY3JvYmlvbWUxNlNfcGlwZWxpbmUvZGF0YS9TaWx2YTEzMi4yMDE5MDgvREJfYW1wX2FsbF90YXhvbm9teS50eHQ="
+                },
+                {
+                  "path": "data/Silva132.201908/.snakemake/metadata/L2hvbWUvdmFsZW50aW5zY2hlcnovYmluL21pY3JvYmlvbWUxNlNfcGlwZWxpbmUvZGF0YS9TaWx2YTEzMi4yMDE5MDgvREJfYW1wX3NlcS5xemE="
+                },
+                {
+                  "path": "data/Silva132.201908/.snakemake/metadata/L2hvbWUvdmFsZW50aW5zY2hlcnovYmluL21pY3JvYmlvbWUxNlNfcGlwZWxpbmUvZGF0YS9TaWx2YTEzMi4yMDE5MDgvREJfYW1wX3RheG9ub215LnR4dA=="
+                },
+                {
+                  "path": "data/Silva132.201908/.snakemake/metadata/L2hvbWUvdmFsZW50aW5zY2hlcnovYmluL21pY3JvYmlvbWUxNlNfcGlwZWxpbmUvZGF0YS9TaWx2YTEzMi4yMDE5MDgvREJfc2VxLnF6YQ=="
+                },
+                {
+                  "path": "data/Silva132.201908/.snakemake/metadata/L2hvbWUvdmFsZW50aW5zY2hlcnovYmluL21pY3JvYmlvbWUxNlNfcGlwZWxpbmUvZGF0YS9TaWx2YTEzMi4yMDE5MDgvZG5hLXNlcXVlbmNlcy5mYXN0YQ=="
+                },
+                {
+                  "path": "data/Silva132.201908/.snakemake/metadata/L2hvbWUvdmFsZW50aW5zY2hlcnovYmluL21pY3JvYmlvbWUxNlNfcGlwZWxpbmUvZGF0YS9TaWx2YTEzMi4yMDE5MDgvbG9nL0RCX2FtcC51Yw=="
+                },
+                {
+                  "path": "data/Silva132.201908/.snakemake/metadata/L2hvbWUvdmFsZW50aW5zY2hlcnovYmluL21pY3JvYmlvbWUxNlNfcGlwZWxpbmUvZGF0YS9TaWx2YTEzMi4yMDE5MDgvbG9nL3Byb2JlbWF0aWNfdGF4YS50eHQ="
+                },
+                {
+                  "path": "data/Silva132.201908/DADA2_DB_amp_taxonomy_Genus_species.txt"
+                },
+                {
+                  "path": "data/Silva132.201908/DADA2_DB_amp_taxonomy_King_to_Genus.txt"
+                },
+                {
+                  "path": "data/Silva132.201908/DADA2_DB_amp_taxonomy_King_to_Species.txt"
+                },
+                {
+                  "path": "data/Silva132.201908/DB_amp.fasta"
+                },
+                {
+                  "path": "data/Silva132.201908/DB_amp_all_taxonomy.txt"
+                },
+                {
+                  "path": "data/Silva132.201908/DB_amp_taxonomy.txt"
+                },
+                {
+                  "path": "data/Silva132.201908/Decipher_DB_amp_taxonomy_decipher.fasta"
+                },
+                {
+                  "path": "data/Silva132.201908/Decipher_DB_amp_taxonomy_decipher_trained_plot.pdf"
+                },
+                {
+                  "path": "data/Silva132.201908/Decipher_DB_amp_taxonomy_decipher_trained_tax.rds"
+                },
+                {
+                  "path": "data/Silva132.201908/Readme.Md"
+                },
+                {
+                  "path": "data/Silva132.201908/config_db_silva_20190826.yaml"
+                },
+                {
+                  "path": "data/Silva132.201908/log/DB_amp.log"
+                },
+                {
+                  "path": "data/Silva132.201908/log/DB_amp.uc"
+                },
+                {
+                  "path": "data/Silva132.201908/log/DB_amp_taxonomy.log"
+                },
+                {
+                  "path": "data/Silva132.201908/log/probematic_taxa.txt"
+                },
+                {
+                  "path": "data/Silva132.dada2/DADA2_DB_amp_taxonomy_Genus_species.txt"
+                },
+                {
+                  "path": "data/Silva132.dada2/DADA2_DB_amp_taxonomy_King_to_Genus.txt"
+                },
+                {
+                  "path": "data/Silva132.dada2/DADA2_DB_amp_taxonomy_King_to_Species.txt"
+                },
+                {
+                  "path": "data/ezbiocloud.marta/DB_amp.fasta"
+                },
+                {
+                  "path": "data/ezbiocloud.marta/DB_amp_taxonomy.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201905/DADA2_DB_amp_taxonomy_Genus_species.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201905/DADA2_DB_amp_taxonomy_King_to_Genus.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201905/DADA2_DB_amp_taxonomy_King_to_Species.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201905/DB_amp.fasta"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201905/DB_amp_taxonomy.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201905/log/EzBioCloud_V3V4.log"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201905/log/EzBioCloud_V3V4_taxonomy.log"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201905/temp/EzBioCloud_V3V4.uc"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201905/temp/EzBioCloud_V3V4_all_taxonomy.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201909/DADA2_DB_amp_taxonomy_Genus_species.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201909/DADA2_DB_amp_taxonomy_King_to_Genus.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201909/DADA2_DB_amp_taxonomy_King_to_Species.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201909/DB_amp.fasta"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201909/DB_amp_all_taxonomy.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201909/DB_amp_taxonomy.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201909/Decipher_DB_amp_taxonomy_decipher.fasta"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201909/Readme.Md"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201909/config_db_ezbiocloud20190913.yaml"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201909/log/DB_amp.log"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201909/log/DB_amp.uc"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201909/log/DB_amp_taxonomy.log"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201909/log/probematic_taxa.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201909/original_files/EzBioCloud_16S_database_for_QIIME.zip"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201909/original_files/EzBioCloud_16S_database_for_QIIME/ezbiocloud_id_taxonomy.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201909/original_files/EzBioCloud_16S_database_for_QIIME/ezbiocloud_qiime_full.fasta"
+                },
+                {
+                  "path": "data/ezbiocloud201805/DADA2_DB_amp_taxonomy_Genus_species.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805/DADA2_DB_amp_taxonomy_King_to_Genus.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805/DADA2_DB_amp_taxonomy_King_to_Species.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805/DB_amp.fasta"
+                },
+                {
+                  "path": "data/ezbiocloud201805/DB_amp.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805/DB_amp_taxonomy.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805/Decipher_DB_amp_taxonomy_decipher.fasta"
+                },
+                {
+                  "path": "data/ezbiocloud201805/Decipher_DB_amp_taxonomy_decipher_trained_plot.pdf"
+                },
+                {
+                  "path": "data/ezbiocloud201805/Decipher_DB_amp_taxonomy_decipher_trained_tax.rds"
+                },
+                {
+                  "path": "data/unite201902/DADA2_DB_amp_taxonomy_Genus_species.txt"
+                },
+                {
+                  "path": "data/unite201902/DADA2_DB_amp_taxonomy_King_to_Genus.txt"
+                },
+                {
+                  "path": "data/unite201902/DADA2_DB_amp_taxonomy_King_to_Species.txt"
+                },
+                {
+                  "path": "data/unite201902/DB_amp.fasta"
+                },
+                {
+                  "path": "data/unite201902/DB_amp_taxonomy.txt"
+                },
+                {
+                  "path": "data/unite201902/Decipher_DB_amp_taxonomy_decipher.fasta"
+                },
+                {
+                  "path": "data/unite201902/Decipher_DB_amp_taxonomy_decipher_trained_plot.pdf"
+                },
+                {
+                  "path": "data/unite201902/Decipher_DB_amp_taxonomy_decipher_trained_tax.rds"
+                },
+                {
+                  "path": "data/unite201902/QIIME_ITS_readme_02.02.2019.pdf"
+                },
+                {
+                  "path": "data/unite201902/Readme.Md"
+                },
+                {
+                  "path": "envs/DADA2_in_R.yml"
+                },
+                {
+                  "path": "envs/FastQC.yml"
+                },
+                {
+                  "path": "envs/Python2.yml"
+                },
+                {
+                  "path": "envs/QIIME1.yml"
+                },
+                {
+                  "path": "envs/R_DB_processing.yml"
+                },
+                {
+                  "path": "envs/amplicons_r_utils.yml"
+                },
+                {
+                  "path": "envs/decipher.yml"
+                },
+                {
+                  "path": "envs/physeq.yml"
+                },
+                {
+                  "path": "envs/r_visualization.yml"
+                },
+                {
+                  "path": "envs/singularity/amplicons_cutadapt.Dockerfile"
+                },
+                {
+                  "path": "envs/singularity/amplicons_decipher.Dockerfile"
+                },
+                {
+                  "path": "envs/singularity/amplicons_qiime1_rdp.Dockerfile"
+                },
+                {
+                  "path": "envs/singularity/amplicons_r_utils.Dockerfile"
+                },
+                {
+                  "path": "envs/singularity/amplicons_simluatepcr.Dockerfile"
+                },
+                {
+                  "path": "envs/singularity/sing_envs.yml"
+                },
+                {
+                  "path": "envs/sra-tools.yml"
+                },
+                {
+                  "path": "envs/vsearch.yml"
+                },
+                {
+                  "path": "old/Dockerfile"
+                },
+                {
+                  "path": "old/Dockerfile.validation"
+                },
+                {
+                  "path": "old/barplots.yml"
+                },
+                {
+                  "path": "old/build_n_validate_docker.sh"
+                },
+                {
+                  "path": "ressources/template_files/config_DB.yaml"
+                },
+                {
+                  "path": "ressources/template_files/config_in_silico_validation.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 23,
+            "title": "RDP",
+            "state": "MERGED",
+            "createdAt": "2020-05-03T18:15:55Z",
+            "mergedAt": "2020-05-03T18:16:04Z",
+            "author": {
+              "login": "valscherz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "build_n_validate_docker.sh"
+                },
+                {
+                  "path": "envs/Python2.yml"
+                },
+                {
+                  "path": "envs/rdp_tools.yml"
+                },
+                {
+                  "path": "rules/3_tax_assignment/scripts/addFullLineage.py"
+                },
+                {
+                  "path": "rules/3_tax_assignment/scripts/format_RDP_output.R"
+                },
+                {
+                  "path": "rules/3_tax_assignment/scripts/lineage2taxTrain.py"
+                },
+                {
+                  "path": "rules/3_tax_assignment/scripts/rdp_prep_tax.R"
+                },
+                {
+                  "path": "rules/3_tax_assignment/tax_assign.rules"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 20,
+            "title": "Light",
+            "state": "MERGED",
+            "createdAt": "2020-03-12T17:03:59Z",
+            "mergedAt": "2020-03-12T17:04:34Z",
+            "author": {
+              "login": "valscherz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "data/validation_datasets/16S_config.yml"
+                },
+                {
+                  "path": "data/validation_datasets/ITS_config.yml"
+                },
+                {
+                  "path": "envs/QIIME2-2019.07.yml"
+                },
+                {
+                  "path": "envs/QIIME2-2020.02.yml"
+                },
+                {
+                  "path": "envs/picrust2.yml"
+                },
+                {
+                  "path": "ressources/template_files/config.yaml"
+                },
+                {
+                  "path": "rules/0_preprocessing/make_output_list_fcts.rules"
+                },
+                {
+                  "path": "rules/0_preprocessing/make_output_list_files.rules"
+                },
+                {
+                  "path": "rules/1_2_vsearch_OTUs/2_vsearch_denoising.rules"
+                },
+                {
+                  "path": "rules/5_visualization/General_plotting.rules"
+                },
+                {
+                  "path": "rules/5_visualization/QIIME2_import.rules"
+                },
+                {
+                  "path": "rules/5_visualization/scripts/alpha_diversity.R"
+                },
+                {
+                  "path": "rules/5_visualization/scripts/barplot.R"
+                },
+                {
+                  "path": "rules/5_visualization/scripts/heatmap.R"
+                },
+                {
+                  "path": "rules/5_visualization/scripts/heatmap2.R"
+                },
+                {
+                  "path": "rules/5_visualization/scripts/ordination_constrained.R"
+                },
+                {
+                  "path": "rules/5_visualization/scripts/ordination_distance_based.R"
+                },
+                {
+                  "path": "rules/5_visualization/scripts/ordination_unconstrained.R"
+                },
+                {
+                  "path": "rules/5_visualization/scripts/rarefaction_curve.R"
+                },
+                {
+                  "path": "rules/DB_processing/DB_preprocessing.rules"
+                },
+                {
+                  "path": "rules/In_silico/amplicons_reference.rules"
+                },
+                {
+                  "path": "rules/In_silico/insilico_validation.rules"
+                },
+                {
+                  "path": "rules/In_silico/old.rules"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 18,
+            "title": "Transform",
+            "state": "MERGED",
+            "createdAt": "2019-09-16T17:58:30Z",
+            "mergedAt": "2019-09-16T18:00:32Z",
+            "author": {
+              "login": "valscherz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "README_DB_preprocessing.Md"
+                },
+                {
+                  "path": "Snakefile.DB"
+                },
+                {
+                  "path": "Snakefile.insilico_validation"
+                },
+                {
+                  "path": "data/validation_datasets/16S_config.yml"
+                },
+                {
+                  "path": "data/validation_datasets/ITS_config.yml"
+                },
+                {
+                  "path": "envs/r_visualization.yml"
+                },
+                {
+                  "path": "ressources/template_files/config.yaml"
+                },
+                {
+                  "path": "ressources/template_files/config_in_silico_validation.yaml"
+                },
+                {
+                  "path": "rules/0_preprocessing/make_output_list_files.rules"
+                },
+                {
+                  "path": "rules/4_post_processing/physeq_processing.rules"
+                },
+                {
+                  "path": "rules/4_post_processing/scripts/physeq_rarefy.R"
+                },
+                {
+                  "path": "rules/4_post_processing/scripts/transf_norm.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 17,
+            "title": "working decipher dada2 rdp tax assign",
+            "state": "MERGED",
+            "createdAt": "2019-08-29T14:42:22Z",
+            "mergedAt": "2019-08-29T14:42:36Z",
+            "author": {
+              "login": "valscherz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README_DB_preprocessing.Md"
+                },
+                {
+                  "path": "Snakefile_DB"
+                },
+                {
+                  "path": "build_n_validate_docker.sh"
+                },
+                {
+                  "path": "data/ezbiocloud.marta/EzBioCloud_V3V4.fasta"
+                },
+                {
+                  "path": "data/ezbiocloud.marta/EzBioCloud_V3V4_taxonomy.txt"
+                },
+                {
+                  "path": "data/ezbiocloud.valentin/EzBioCloud_V3V4.fasta"
+                },
+                {
+                  "path": "data/ezbiocloud.valentin/EzBioCloud_V3V4_taxonomy.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201905/EzBioCloud_V3V4.fasta"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201905/EzBioCloud_V3V4_taxonomy.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201908/Readme.Md"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201908/config_db_ezbiocloud20190826.yaml"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201908/log/DB_amp.log"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201908/log/DB_amp.uc"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201908/log/DB_amp_taxonomy.log"
+                },
+                {
+                  "path": "data/ezbiocloud201805.201908/log/probematic_taxa.txt"
+                },
+                {
+                  "path": "data/ezbiocloud201805/EzBioCloud_V3V4.fasta"
+                },
+                {
+                  "path": "data/ezbiocloud201805/EzBioCloud_V3V4_taxonomy.txt"
+                },
+                {
+                  "path": "data/validation_datasets/config.yml"
+                },
+                {
+                  "path": "data/validation_datasets/config_in_silico.yml"
+                },
+                {
+                  "path": "envs/DADA2_in_R.yml"
+                },
+                {
+                  "path": "envs/QIIME2-2019.07.yml"
+                },
+                {
+                  "path": "envs/R_DB_processing.yml"
+                },
+                {
+                  "path": "envs/barplots.yml"
+                },
+                {
+                  "path": "envs/cutadapt.yml"
+                },
+                {
+                  "path": "envs/decipher.yml"
+                },
+                {
+                  "path": "envs/physeq.yml"
+                },
+                {
+                  "path": "envs/r_visualization.yml"
+                },
+                {
+                  "path": "ressources/template_files/config.yaml"
+                },
+                {
+                  "path": "ressources/template_files/config_DB.yaml"
+                },
+                {
+                  "path": "ressources/template_files/config_validation.yaml"
+                },
+                {
+                  "path": "rules/0_preprocessing/make_output_list_fcts.rules"
+                },
+                {
+                  "path": "rules/3_tax_assignment/scripts/dada2_prep_tax.R"
+                },
+                {
+                  "path": "rules/3_tax_assignment/scripts/dada2_rdp_tax_assign.R"
+                },
+                {
+                  "path": "rules/3_tax_assignment/scripts/decipher_assign_tax.R"
+                },
+                {
+                  "path": "rules/3_tax_assignment/scripts/decipher_train_tax.R"
+                },
+                {
+                  "path": "rules/3_tax_assignment/tax_assign.rules"
+                },
+                {
+                  "path": "rules/4_post_processing/physeq_processing.rules"
+                },
+                {
+                  "path": "rules/4_post_processing/scripts/physeq_initial_import.R"
+                },
+                {
+                  "path": "rules/5_visualization/QIIME2_import.rules"
+                },
+                {
+                  "path": "rules/5_visualization/scripts/barplot.R"
+                },
+                {
+                  "path": "rules/DB_processing/EzBioCloud.rules"
+                },
+                {
+                  "path": "rules/DB_processing/scripts/DB_EzBioCloud_processing.R"
+                },
+                {
+                  "path": "rules/In_silico/amplicons_reference.rules"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 16,
+            "title": "In silico validation",
+            "state": "CLOSED",
+            "createdAt": "2019-08-02T19:38:16Z",
+            "mergedAt": null,
+            "author": {
+              "login": "valscherz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "Snakefile_validation"
+                },
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "config_validation.yaml"
+                },
+                {
+                  "path": "envs/PCR_in_silico.yml"
+                },
+                {
+                  "path": "envs/barplots.yml"
+                },
+                {
+                  "path": "envs/simulate_PCR.yml"
+                },
+                {
+                  "path": "rules/4_post_processing/scripts/physeq_initial_import.R"
+                },
+                {
+                  "path": "rules/5_visualization/scripts/heatmap2.R"
+                },
+                {
+                  "path": "rules/Qiime_QualityControl/amplicons_reference.rules"
+                },
+                {
+                  "path": "rules/Qiime_QualityControl/insilico_validation.rules"
+                },
+                {
+                  "path": "rules/Qiime_QualityControl/scripts/In_silico_tax_comparison.R"
+                },
+                {
+                  "path": "rules/Qiime_QualityControl/scripts/create_count_table_from_insilico.R"
+                },
+                {
+                  "path": "rules/Qiime_QualityControl/scripts/create_file_DADA2.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 15,
+            "title": "New merge",
+            "state": "MERGED",
+            "createdAt": "2019-08-02T18:49:22Z",
+            "mergedAt": "2019-08-02T18:49:53Z",
+            "author": {
+              "login": "valscherz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "envs/barplots.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 14,
+            "title": "In silico validation",
+            "state": "MERGED",
+            "createdAt": "2019-08-02T18:32:08Z",
+            "mergedAt": "2019-08-02T18:38:27Z",
+            "author": {
+              "login": "valscherz"
+            },
+            "files": {
+              "nodes": []
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 13,
+            "title": "Merge DB process to Dev",
+            "state": "MERGED",
+            "createdAt": "2019-05-19T07:53:41Z",
+            "mergedAt": "2019-05-19T07:55:23Z",
+            "author": {
+              "login": "valscherz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "DB_processing"
+                },
+                {
+                  "path": "Snakefile_DB"
+                },
+                {
+                  "path": "config_DB.yaml"
+                },
+                {
+                  "path": "data/ezbiocloud/ezbiocloud_id_taxonomy.txt"
+                },
+                {
+                  "path": "data/ezbiocloud/ezbiocloud_qiime-full.fasta"
+                },
+                {
+                  "path": "data/ezbiocloud_charlotte/EzBioCloud_V3V4.fasta"
+                },
+                {
+                  "path": "data/ezbiocloud_charlotte/EzBioCloud_V3V4_taxonomy.txt"
+                },
+                {
+                  "path": "data/ezbiocloud_charlotte/log/EzBioCloud_V3V4.log"
+                },
+                {
+                  "path": "data/ezbiocloud_charlotte/log/EzBioCloud_V3V4_taxonomy.log"
+                },
+                {
+                  "path": "data/ezbiocloud_charlotte/temp/EzBioCloud_V3V4.uc"
+                },
+                {
+                  "path": "data/ezbiocloud_charlotte/temp/EzBioCloud_V3V4_all_taxonomy.txt"
+                },
+                {
+                  "path": "envs/R_DB_processing.yml"
+                },
+                {
+                  "path": "rules/DB_processing/EzBioCloud.rules"
+                },
+                {
+                  "path": "rules/DB_processing/scripts/DB_EzBioCloud_processing.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 12,
+            "title": "Dev",
+            "state": "MERGED",
+            "createdAt": "2019-04-11T16:40:43Z",
+            "mergedAt": "2019-04-11T16:40:50Z",
+            "author": {
+              "login": "valscherz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".idea/inspectionProfiles/Project_Default.xml"
+                },
+                {
+                  "path": "Ressource_R_scripts/visualization/2_Barplots/barplots_fct_filtration_at_tax_levels.R"
+                },
+                {
+                  "path": "Ressource_R_scripts/visualization/3_Heatmaps/merge_variants_heatmap_fct.R"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "rules/DADA2_ASV/DADA2_denoising.rules"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 11,
+            "title": "picrust from rarefied data too",
+            "state": "MERGED",
+            "createdAt": "2019-03-29T19:04:58Z",
+            "mergedAt": "2019-03-29T19:05:04Z",
+            "author": {
+              "login": "valscherz"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

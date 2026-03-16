@@ -1,0 +1,42 @@
+## Rule index for NNLS deconv
+##
+## @zgr2788
+##
+##
+## Description:
+## This file includes the rule to run NNLS with C1 reference.
+## Can be parallelized but not advised as the runtime is slower.
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+
+rule NNLS_run:
+    input:
+        getC2(getC1(getBulks('{sample}'), '{sample}'),'{sample}')
+
+    output:
+        "Output/{sample}_res_NNLS.rds"
+
+    conda:
+        "env.yaml"
+
+    benchmark:
+        "Benchmarks/{sample}_NNLS_benchmark.txt"
+    
+    params: 
+        markers=config['markers']
+
+    resources:
+        mem_mb=getMB(config['mem_gb']['minorOps'])
+
+    shell:
+        "Rscript Modules/NNLS/NNLS_run.R {input} {params.markers} {output}"

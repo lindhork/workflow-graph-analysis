@@ -1,0 +1,38 @@
+import time
+
+
+rule all:
+    input:
+        "test.benchmark_shell.txt",
+        "test.benchmark_script.txt",
+        "test.benchmark_run.txt",
+        "test.benchmark_run_shell.txt",
+
+
+rule bench_shell:
+    benchmark:
+        repeat("test.benchmark_shell.txt", 2)
+    threads: 2
+    params:
+        timeout = 4
+    shell:
+        "stress-ng --cpu {threads} --timeout {params.timeout}s"
+
+
+rule bench_script:
+    benchmark:
+        "test.benchmark_script.txt"
+    script: 'script.py'
+
+
+rule bench_run:
+    benchmark:
+        "test.benchmark_run.txt"
+    run:
+        time.sleep(1)
+
+rule bench_run_shell:
+    benchmark:
+        "test.benchmark_run_shell.txt"
+    run:
+        shell("sleep 1")

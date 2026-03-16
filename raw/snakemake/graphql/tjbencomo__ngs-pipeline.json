@@ -1,0 +1,1515 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 77,
+            "title": "License lacking",
+            "state": "CLOSED",
+            "createdAt": "2024-05-03T07:14:43Z",
+            "closedAt": "2024-05-07T06:37:46Z",
+            "author": {
+              "login": "votti"
+            }
+          },
+          {
+            "number": 76,
+            "title": "Add somalier QC",
+            "state": "OPEN",
+            "createdAt": "2021-11-09T20:46:51Z",
+            "closedAt": null,
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 75,
+            "title": "See if cluster logs support wildcards in title",
+            "state": "CLOSED",
+            "createdAt": "2021-07-12T21:53:04Z",
+            "closedAt": "2021-07-20T19:49:12Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 74,
+            "title": "Re-examine WES resource allocations",
+            "state": "CLOSED",
+            "createdAt": "2021-07-12T21:02:13Z",
+            "closedAt": "2021-07-12T21:06:02Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 73,
+            "title": "Parallelize BQSR + Mutect2 PoN",
+            "state": "OPEN",
+            "createdAt": "2021-07-12T20:36:03Z",
+            "closedAt": null,
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 71,
+            "title": "Update count_depths.py",
+            "state": "CLOSED",
+            "createdAt": "2021-07-12T18:04:19Z",
+            "closedAt": "2021-07-12T20:21:45Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 70,
+            "title": "Fix resources in cluster.wgs.json",
+            "state": "OPEN",
+            "createdAt": "2021-07-09T21:36:39Z",
+            "closedAt": null,
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 69,
+            "title": "Document behavior from split intervals with more than 24 workers",
+            "state": "CLOSED",
+            "createdAt": "2021-07-09T17:29:11Z",
+            "closedAt": "2021-07-20T19:49:28Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 68,
+            "title": "Update schema for latest fields",
+            "state": "CLOSED",
+            "createdAt": "2021-07-09T17:20:54Z",
+            "closedAt": "2021-07-12T20:22:21Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 67,
+            "title": "Major pipeline update",
+            "state": "CLOSED",
+            "createdAt": "2021-07-06T20:39:25Z",
+            "closedAt": "2021-07-12T20:22:20Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 66,
+            "title": "Switch to singularity containers completely",
+            "state": "CLOSED",
+            "createdAt": "2021-07-06T20:36:03Z",
+            "closedAt": "2021-07-12T20:22:20Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 65,
+            "title": "Add stringent variant filtering option",
+            "state": "CLOSED",
+            "createdAt": "2021-01-29T18:47:43Z",
+            "closedAt": "2021-01-29T18:55:42Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 64,
+            "title": "Make mutect2 vcf interval files temporary",
+            "state": "CLOSED",
+            "createdAt": "2020-11-17T08:22:03Z",
+            "closedAt": "2021-07-12T20:22:20Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 63,
+            "title": "Add cluster.json info for split_intervals rule",
+            "state": "CLOSED",
+            "createdAt": "2020-11-17T06:59:56Z",
+            "closedAt": "2021-07-12T20:22:20Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 62,
+            "title": "Create separate cluster.json files for exome vs whole genome",
+            "state": "CLOSED",
+            "createdAt": "2020-11-14T07:03:26Z",
+            "closedAt": "2021-07-12T20:21:22Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 61,
+            "title": "Keep filtering stats file",
+            "state": "CLOSED",
+            "createdAt": "2020-08-21T23:04:32Z",
+            "closedAt": "2020-11-14T07:01:24Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 60,
+            "title": "Add cluster specs for merge_vcfs, merge_stats, and orientation_bias",
+            "state": "CLOSED",
+            "createdAt": "2020-08-20T06:05:45Z",
+            "closedAt": "2021-07-12T20:22:20Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 59,
+            "title": "Parallelize BQSR and MarkDups + SortSam",
+            "state": "CLOSED",
+            "createdAt": "2020-08-18T03:43:51Z",
+            "closedAt": "2021-07-12T20:22:20Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 57,
+            "title": "Remove --use-original-qualities from bqsr?",
+            "state": "CLOSED",
+            "createdAt": "2020-08-10T03:51:31Z",
+            "closedAt": "2020-08-10T04:51:47Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 53,
+            "title": "Add script to calculate average depth for each sample",
+            "state": "CLOSED",
+            "createdAt": "2020-04-30T20:53:48Z",
+            "closedAt": "2020-05-04T07:23:07Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 52,
+            "title": "Add report generation",
+            "state": "OPEN",
+            "createdAt": "2020-03-22T07:22:25Z",
+            "closedAt": null,
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 51,
+            "title": "Annotation issues",
+            "state": "CLOSED",
+            "createdAt": "2020-03-20T09:27:12Z",
+            "closedAt": "2020-03-22T04:15:54Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 49,
+            "title": "Add workflow to create Panel of Normals",
+            "state": "CLOSED",
+            "createdAt": "2020-03-07T09:52:58Z",
+            "closedAt": "2020-03-19T03:54:03Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 48,
+            "title": "Add logging to each rule",
+            "state": "CLOSED",
+            "createdAt": "2020-03-07T08:42:34Z",
+            "closedAt": "2021-07-20T19:49:41Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 47,
+            "title": "Sort units index before accessing indices to increase performance",
+            "state": "CLOSED",
+            "createdAt": "2020-03-07T07:46:10Z",
+            "closedAt": "2020-03-23T22:10:03Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 46,
+            "title": "Allow naming of either upper or lower case Normal/Tumor sample types",
+            "state": "OPEN",
+            "createdAt": "2020-03-07T07:42:43Z",
+            "closedAt": null,
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 44,
+            "title": "Update Mutect2 Calling Workflow",
+            "state": "CLOSED",
+            "createdAt": "2020-03-03T07:59:47Z",
+            "closedAt": "2020-08-03T23:42:31Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 43,
+            "title": "Add more Variant Callers",
+            "state": "OPEN",
+            "createdAt": "2020-03-03T06:56:43Z",
+            "closedAt": null,
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 42,
+            "title": "Handle multiple FASTQs from different lanes for same sample",
+            "state": "CLOSED",
+            "createdAt": "2020-03-01T23:43:36Z",
+            "closedAt": "2020-03-03T19:03:58Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 39,
+            "title": "Change naming conventions",
+            "state": "CLOSED",
+            "createdAt": "2020-02-29T00:47:18Z",
+            "closedAt": "2020-03-01T08:43:16Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 38,
+            "title": "Add ability for user to specify custom names for control and tumor types",
+            "state": "OPEN",
+            "createdAt": "2020-01-31T00:28:41Z",
+            "closedAt": null,
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 37,
+            "title": "Run BQSR twice to get pre and post calibration tables",
+            "state": "CLOSED",
+            "createdAt": "2020-01-27T21:11:20Z",
+            "closedAt": "2020-03-01T07:33:28Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 35,
+            "title": "Add ability to handle custom read groups",
+            "state": "CLOSED",
+            "createdAt": "2020-01-23T19:18:41Z",
+            "closedAt": "2020-03-03T19:03:13Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 34,
+            "title": "Look into Snakemake not realizing SLURM job timed out",
+            "state": "OPEN",
+            "createdAt": "2020-01-23T08:31:11Z",
+            "closedAt": null,
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 33,
+            "title": "Implement changes from test run",
+            "state": "CLOSED",
+            "createdAt": "2020-01-23T08:30:54Z",
+            "closedAt": "2020-01-23T23:13:59Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 32,
+            "title": "Add section on singularity + Conda vs Conda alone",
+            "state": "CLOSED",
+            "createdAt": "2020-01-21T23:09:24Z",
+            "closedAt": "2020-01-22T01:34:46Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 30,
+            "title": "Add VCF consolidation into multi-sample file",
+            "state": "CLOSED",
+            "createdAt": "2020-01-18T00:56:14Z",
+            "closedAt": "2020-01-20T01:39:18Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 28,
+            "title": "Add bwa index step",
+            "state": "CLOSED",
+            "createdAt": "2020-01-17T18:02:12Z",
+            "closedAt": "2020-01-18T00:40:28Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 25,
+            "title": "Remove -bamout from Mutect2 call",
+            "state": "CLOSED",
+            "createdAt": "2020-01-03T07:13:21Z",
+            "closedAt": "2020-01-09T23:25:29Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 24,
+            "title": "Add support for email notification once workflow is complete",
+            "state": "CLOSED",
+            "createdAt": "2020-01-03T03:32:40Z",
+            "closedAt": "2020-01-20T01:39:46Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 23,
+            "title": "Add WGS support",
+            "state": "CLOSED",
+            "createdAt": "2020-01-02T07:26:23Z",
+            "closedAt": "2020-08-03T23:42:31Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 22,
+            "title": "Modify SLURM command line to write out/error files to user location",
+            "state": "CLOSED",
+            "createdAt": "2020-01-02T07:05:56Z",
+            "closedAt": "2020-01-10T00:48:36Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 21,
+            "title": "Check that fq1 and fq2 are specified before running",
+            "state": "CLOSED",
+            "createdAt": "2020-01-02T05:43:33Z",
+            "closedAt": "2020-01-10T00:28:18Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 20,
+            "title": "Set default af-freq for Mutect2 and allow users to specify alternate values in config.yml",
+            "state": "OPEN",
+            "createdAt": "2020-01-02T05:28:33Z",
+            "closedAt": null,
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 18,
+            "title": "Implement schema rules to dictate config.yaml, samples.csv, and units.csv format",
+            "state": "CLOSED",
+            "createdAt": "2019-12-28T22:39:39Z",
+            "closedAt": "2020-01-10T00:31:49Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 16,
+            "title": "Look into --immediate-submit option for clusters",
+            "state": "CLOSED",
+            "createdAt": "2019-12-28T07:17:59Z",
+            "closedAt": "2020-01-20T01:40:45Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 15,
+            "title": "Complete Setup Instructions",
+            "state": "CLOSED",
+            "createdAt": "2019-12-27T08:26:46Z",
+            "closedAt": "2020-01-20T01:40:58Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 13,
+            "title": "Accept multiple known-sites for BaseRecalibration",
+            "state": "CLOSED",
+            "createdAt": "2019-12-27T07:57:49Z",
+            "closedAt": "2019-12-28T22:31:34Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 11,
+            "title": "Split workflow into distinct modules",
+            "state": "CLOSED",
+            "createdAt": "2019-12-27T07:25:09Z",
+            "closedAt": "2019-12-27T07:47:18Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          },
+          {
+            "number": 10,
+            "title": "Add citation info",
+            "state": "CLOSED",
+            "createdAt": "2019-12-27T07:24:27Z",
+            "closedAt": "2020-05-04T03:34:25Z",
+            "author": {
+              "login": "tjbencomo"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 78,
+            "title": "feat: QC on alignment , depth analysis, readme update",
+            "state": "CLOSED",
+            "createdAt": "2026-02-19T14:41:11Z",
+            "mergedAt": null,
+            "author": {
+              "login": "danilotat"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/testing.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".test/Snakefile"
+                },
+                {
+                  "path": ".test/config/config.yaml"
+                },
+                {
+                  "path": ".test/data/pat01_1.fastq.gz"
+                },
+                {
+                  "path": ".test/data/pat01_2.fastq.gz"
+                },
+                {
+                  "path": ".test/patients.csv"
+                },
+                {
+                  "path": ".test/ref/1000G_phase1.snps.high_confidence.hg38.vcf.gz"
+                },
+                {
+                  "path": ".test/ref/1000G_phase1.snps.high_confidence.hg38.vcf.gz.tbi"
+                },
+                {
+                  "path": ".test/ref/1000g_pon_hg38.vcf.gz"
+                },
+                {
+                  "path": ".test/ref/1000g_pon_hg38.vcf.gz.tbi"
+                },
+                {
+                  "path": ".test/ref/GRCh38_chr22.dict"
+                },
+                {
+                  "path": ".test/ref/GRCh38_chr22.fasta"
+                },
+                {
+                  "path": ".test/ref/GRCh38_chr22.fasta.fai"
+                },
+                {
+                  "path": ".test/ref/Homo_sapiens_assembly38.known_indels.vcf.gz"
+                },
+                {
+                  "path": ".test/ref/Homo_sapiens_assembly38.known_indels.vcf.gz.tbi"
+                },
+                {
+                  "path": ".test/ref/af-only-gnomad.hg38.vcf.gz"
+                },
+                {
+                  "path": ".test/ref/af-only-gnomad.hg38.vcf.gz.tbi"
+                },
+                {
+                  "path": ".test/ref/dbsnp_146.hg38.vcf.gz"
+                },
+                {
+                  "path": ".test/ref/dbsnp_146.hg38.vcf.gz.tbi"
+                },
+                {
+                  "path": ".test/ref/hg38_chr22_targets.bed"
+                },
+                {
+                  "path": ".test/ref/small_exac_common_3.hg38.vcf.gz"
+                },
+                {
+                  "path": ".test/ref/small_exac_common_3.hg38.vcf.gz.tbi"
+                },
+                {
+                  "path": ".test/rules/common.smk"
+                },
+                {
+                  "path": ".test/units.csv"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "cluster.json"
+                },
+                {
+                  "path": "cluster.wes.json"
+                },
+                {
+                  "path": "cluster.wgs.json"
+                },
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "config/config_main.yaml"
+                },
+                {
+                  "path": "data/hg38/contam_short.vcf.gz"
+                },
+                {
+                  "path": "data/hg38/contam_short.vcf.gz.tbi"
+                },
+                {
+                  "path": "data/hg38/dbsnp.vcf.gz"
+                },
+                {
+                  "path": "data/hg38/dbsnp.vcf.gz.tbi"
+                },
+                {
+                  "path": "data/hg38/genome.chr21.dict"
+                },
+                {
+                  "path": "data/hg38/genome.chr21.fa.fai"
+                },
+                {
+                  "path": "data/hg38/gnomad_short.vcf.gz"
+                },
+                {
+                  "path": "data/hg38/gnomad_short.vcf.gz.tbi"
+                },
+                {
+                  "path": "data/hg38/hg38.chr21.exons.bed"
+                },
+                {
+                  "path": "data/tcrb-data/TCRBOA1-N-WEX.R1.fq"
+                },
+                {
+                  "path": "data/tcrb-data/TCRBOA1-N-WEX.R2.fq"
+                },
+                {
+                  "path": "data/tcrb-data/TCRBOA1-T-WEX.R1.fq"
+                },
+                {
+                  "path": "data/tcrb-data/TCRBOA1-T-WEX.R2.fq"
+                },
+                {
+                  "path": "envs/annotation.yml"
+                },
+                {
+                  "path": "envs/depths.yml"
+                },
+                {
+                  "path": "envs/gatk.yml"
+                },
+                {
+                  "path": "envs/pandas.yml"
+                },
+                {
+                  "path": "gather_runtimes.py"
+                },
+                {
+                  "path": "parseJobID.sh"
+                },
+                {
+                  "path": "patients.csv"
+                },
+                {
+                  "path": "resources.md"
+                },
+                {
+                  "path": "rules/calling.smk"
+                },
+                {
+                  "path": "rules/common.smk"
+                },
+                {
+                  "path": "rules/preprocessing.smk"
+                },
+                {
+                  "path": "run_pipeline.sh"
+                },
+                {
+                  "path": "schemas/config.schema.yaml"
+                },
+                {
+                  "path": "schemas/samples.schema.yaml"
+                },
+                {
+                  "path": "scripts/combine_mafs.py"
+                },
+                {
+                  "path": "scripts/gather_depths.py"
+                },
+                {
+                  "path": "scripts/plot_depth.R"
+                },
+                {
+                  "path": "units.csv"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/bcftools.yml"
+                },
+                {
+                  "path": "workflow/envs/gatk4.yml"
+                },
+                {
+                  "path": "workflow/envs/qc.yml"
+                },
+                {
+                  "path": "workflow/envs/vep.yml"
+                },
+                {
+                  "path": "workflow/profile/slurm/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/alignment.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/deepsomatic.smk"
+                },
+                {
+                  "path": "workflow/rules/pon.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocessing.smk"
+                },
+                {
+                  "path": "workflow/rules/qc.smk"
+                },
+                {
+                  "path": "workflow/rules/somatic.smk"
+                },
+                {
+                  "path": "workflow/schemas/config.schema.yaml"
+                },
+                {
+                  "path": "workflow/schemas/units.schema.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 72,
+            "title": "V2.0",
+            "state": "MERGED",
+            "createdAt": "2021-07-12T20:21:12Z",
+            "mergedAt": "2021-07-12T20:21:22Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "cluster.json"
+                },
+                {
+                  "path": "cluster.wes.json"
+                },
+                {
+                  "path": "cluster.wgs.json"
+                },
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "patients.csv"
+                },
+                {
+                  "path": "rules/calling.smk"
+                },
+                {
+                  "path": "rules/common.smk"
+                },
+                {
+                  "path": "rules/pon.smk"
+                },
+                {
+                  "path": "rules/preprocessing.smk"
+                },
+                {
+                  "path": "run_pipeline.sh"
+                },
+                {
+                  "path": "schemas/config.schema.yaml"
+                },
+                {
+                  "path": "schemas/units.schema.yaml"
+                },
+                {
+                  "path": "scripts/combine_mafs.py"
+                },
+                {
+                  "path": "scripts/gather_depths.py"
+                },
+                {
+                  "path": "scripts/plot_depth.R"
+                },
+                {
+                  "path": "units.csv"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 62
+                }
+              ]
+            }
+          },
+          {
+            "number": 58,
+            "title": "Parallel mutect2",
+            "state": "MERGED",
+            "createdAt": "2020-08-18T03:41:50Z",
+            "mergedAt": "2020-08-18T03:42:12Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "cluster.json"
+                },
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "rules/calling.smk"
+                },
+                {
+                  "path": "rules/common.smk"
+                },
+                {
+                  "path": "rules/preprocessing.smk"
+                },
+                {
+                  "path": "scripts/combine_mafs.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 56,
+            "title": "Tumor only",
+            "state": "MERGED",
+            "createdAt": "2020-08-03T23:42:13Z",
+            "mergedAt": "2020-08-03T23:42:31Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "cluster.json"
+                },
+                {
+                  "path": "envs/gatk.yml"
+                },
+                {
+                  "path": "rules/calling.smk"
+                },
+                {
+                  "path": "rules/common.smk"
+                },
+                {
+                  "path": "rules/preprocessing.smk"
+                },
+                {
+                  "path": "schemas/config.schema.yaml"
+                },
+                {
+                  "path": "schemas/units.schema.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 23
+                },
+                {
+                  "number": 44
+                }
+              ]
+            }
+          },
+          {
+            "number": 55,
+            "title": "Add rules for plot-depths",
+            "state": "MERGED",
+            "createdAt": "2020-05-04T07:42:08Z",
+            "mergedAt": "2020-05-04T07:42:17Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "cluster.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 54,
+            "title": "Plot depth",
+            "state": "MERGED",
+            "createdAt": "2020-05-04T07:22:57Z",
+            "mergedAt": "2020-05-04T07:23:07Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "envs/depths.yml"
+                },
+                {
+                  "path": "rules/calling.smk"
+                },
+                {
+                  "path": "rules/common.smk"
+                },
+                {
+                  "path": "rules/preprocessing.smk"
+                },
+                {
+                  "path": "scripts/count_depth.py"
+                },
+                {
+                  "path": "scripts/plot_depth.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 53
+                }
+              ]
+            }
+          },
+          {
+            "number": 50,
+            "title": "Add Panel of Normals Creation Workflow",
+            "state": "MERGED",
+            "createdAt": "2020-03-19T03:53:18Z",
+            "mergedAt": "2020-03-19T03:53:37Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "patients.csv"
+                },
+                {
+                  "path": "rules/calling.smk"
+                },
+                {
+                  "path": "rules/common.smk"
+                },
+                {
+                  "path": "rules/pon.smk"
+                },
+                {
+                  "path": "schemas/config.schema.yaml"
+                },
+                {
+                  "path": "units.csv"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 45,
+            "title": "Multiplexed samples",
+            "state": "MERGED",
+            "createdAt": "2020-03-03T19:03:04Z",
+            "mergedAt": "2020-03-03T19:03:13Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "patients.csv"
+                },
+                {
+                  "path": "rules/common.smk"
+                },
+                {
+                  "path": "rules/preprocessing.smk"
+                },
+                {
+                  "path": "schemas/units.schema.yaml"
+                },
+                {
+                  "path": "units.csv"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 35
+                }
+              ]
+            }
+          },
+          {
+            "number": 41,
+            "title": "Change naming",
+            "state": "MERGED",
+            "createdAt": "2020-03-01T08:43:06Z",
+            "mergedAt": "2020-03-01T08:43:15Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "patients.csv"
+                },
+                {
+                  "path": "rules/calling.smk"
+                },
+                {
+                  "path": "rules/common.smk"
+                },
+                {
+                  "path": "rules/preprocessing.smk"
+                },
+                {
+                  "path": "samples.csv"
+                },
+                {
+                  "path": "schemas/config.schema.yaml"
+                },
+                {
+                  "path": "schemas/samples.schema.yaml"
+                },
+                {
+                  "path": "schemas/units.schema.yaml"
+                },
+                {
+                  "path": "units.csv"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 39
+                }
+              ]
+            }
+          },
+          {
+            "number": 40,
+            "title": "Remove bqsr report from MultiQC inputs",
+            "state": "MERGED",
+            "createdAt": "2020-03-01T07:58:45Z",
+            "mergedAt": "2020-03-01T07:59:07Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "rules/preprocessing.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 36,
+            "title": "V1.0.1",
+            "state": "MERGED",
+            "createdAt": "2020-01-23T23:13:51Z",
+            "mergedAt": "2020-01-23T23:13:58Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "cluster.json"
+                },
+                {
+                  "path": "environment.yml"
+                },
+                {
+                  "path": "rules/calling.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 33
+                }
+              ]
+            }
+          },
+          {
+            "number": 31,
+            "title": "Add var annot",
+            "state": "MERGED",
+            "createdAt": "2020-01-21T23:06:22Z",
+            "mergedAt": "2020-01-21T23:06:36Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "envs/annotation.yml"
+                },
+                {
+                  "path": "envs/gatk.yml"
+                },
+                {
+                  "path": "envs/qc.yml"
+                },
+                {
+                  "path": "rules/calling.smk"
+                },
+                {
+                  "path": "rules/common.smk"
+                },
+                {
+                  "path": "rules/preprocessing.smk"
+                },
+                {
+                  "path": "schemas/config.schema.yaml"
+                },
+                {
+                  "path": "scripts/combine_mafs.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 9
+                }
+              ]
+            }
+          },
+          {
+            "number": 29,
+            "title": "Finished creating shrunk ref files for end-to-end testing. Added all …",
+            "state": "MERGED",
+            "createdAt": "2020-01-17T23:52:42Z",
+            "mergedAt": "2020-01-17T23:52:52Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "data/hg38/contam_short.vcf.gz"
+                },
+                {
+                  "path": "data/hg38/contam_short.vcf.gz.tbi"
+                },
+                {
+                  "path": "data/hg38/dbsnp.vcf.gz"
+                },
+                {
+                  "path": "data/hg38/dbsnp.vcf.gz.tbi"
+                },
+                {
+                  "path": "data/hg38/genome.chr21.dict"
+                },
+                {
+                  "path": "data/hg38/genome.chr21.fa"
+                },
+                {
+                  "path": "data/hg38/genome.chr21.fa.fai"
+                },
+                {
+                  "path": "data/hg38/gnomad_short.vcf.gz"
+                },
+                {
+                  "path": "data/hg38/gnomad_short.vcf.gz.tbi"
+                },
+                {
+                  "path": "data/hg38/hg38.chr21.exons.bed"
+                },
+                {
+                  "path": "data/tcrb-data/TCRBOA1-N-WEX.R1.fq"
+                },
+                {
+                  "path": "data/tcrb-data/TCRBOA1-N-WEX.R2.fq"
+                },
+                {
+                  "path": "data/tcrb-data/TCRBOA1-T-WEX.R1.fq"
+                },
+                {
+                  "path": "data/tcrb-data/TCRBOA1-T-WEX.R2.fq"
+                },
+                {
+                  "path": "samples.csv"
+                },
+                {
+                  "path": "units.csv"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 8
+                }
+              ]
+            }
+          },
+          {
+            "number": 27,
+            "title": "Add schema files and implement schema checks for config.yaml and unit…",
+            "state": "MERGED",
+            "createdAt": "2020-01-10T00:25:24Z",
+            "mergedAt": "2020-01-10T00:26:02Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "cluster.json"
+                },
+                {
+                  "path": "rules/common.smk"
+                },
+                {
+                  "path": "schemas/config.schema.yaml"
+                },
+                {
+                  "path": "schemas/samples.schema.yaml"
+                },
+                {
+                  "path": "schemas/units.schema.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 26,
+            "title": "Remove bamout",
+            "state": "MERGED",
+            "createdAt": "2020-01-09T23:24:51Z",
+            "mergedAt": "2020-01-09T23:25:29Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "rules/calling.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 25
+                }
+              ]
+            }
+          },
+          {
+            "number": 19,
+            "title": "Add bash script to parse job ID from Sherlock's sbatch command for sl…",
+            "state": "MERGED",
+            "createdAt": "2020-01-02T05:14:07Z",
+            "mergedAt": "2020-01-02T05:14:15Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "parseJobID.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 17,
+            "title": "Variant calling",
+            "state": "MERGED",
+            "createdAt": "2019-12-28T22:22:20Z",
+            "mergedAt": "2019-12-28T22:22:34Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "rules/calling.smk"
+                },
+                {
+                  "path": "rules/common.smk"
+                },
+                {
+                  "path": "rules/preprocessing.smk"
+                },
+                {
+                  "path": "samples.csv"
+                },
+                {
+                  "path": "units.csv"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 7
+                }
+              ]
+            }
+          },
+          {
+            "number": 14,
+            "title": "Remove redundant code that is now in preprocessing.smk and common.smk",
+            "state": "MERGED",
+            "createdAt": "2019-12-27T08:20:32Z",
+            "mergedAt": "2019-12-27T08:20:45Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 12,
+            "title": "Modularize workflow",
+            "state": "MERGED",
+            "createdAt": "2019-12-27T07:46:44Z",
+            "mergedAt": "2019-12-27T07:47:17Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "rules/common.smk"
+                },
+                {
+                  "path": "rules/preprocessing.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6,
+            "title": "Fastqc tmpdir",
+            "state": "MERGED",
+            "createdAt": "2019-12-24T08:49:15Z",
+            "mergedAt": "2019-12-24T08:49:45Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 4
+                }
+              ]
+            }
+          },
+          {
+            "number": 1,
+            "title": "Working on qc and finished.",
+            "state": "MERGED",
+            "createdAt": "2019-11-17T09:07:43Z",
+            "mergedAt": "2019-11-17T09:08:00Z",
+            "author": {
+              "login": "tjbencomo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "details.csv"
+                },
+                {
+                  "path": "rules/preprocessing.smk"
+                },
+                {
+                  "path": "rules/qc.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

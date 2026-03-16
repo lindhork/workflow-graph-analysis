@@ -1,0 +1,4516 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 131,
+            "title": "Create an output samplesheet that can be used as input in nf-core/proteinfold",
+            "state": "CLOSED",
+            "createdAt": "2025-10-28T15:18:04Z",
+            "closedAt": "2025-12-18T13:09:14Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 125,
+            "title": "Add cmaple to the pipeline",
+            "state": "CLOSED",
+            "createdAt": "2025-10-13T13:40:07Z",
+            "closedAt": "2025-12-18T13:08:54Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 122,
+            "title": "Update the update_families subworkflow to also output the FASTA files of families",
+            "state": "OPEN",
+            "createdAt": "2025-10-03T08:05:27Z",
+            "closedAt": null,
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 121,
+            "title": "Make re-alignment after sequence redundancy removal skippable",
+            "state": "OPEN",
+            "createdAt": "2025-10-03T07:57:13Z",
+            "closedAt": null,
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 120,
+            "title": "Report rare cases of discarded families where hmmsearch does not recruit any sequence",
+            "state": "OPEN",
+            "createdAt": "2025-10-03T07:47:13Z",
+            "closedAt": null,
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 119,
+            "title": "Recalculate sequence slice coordinates after gap clipping",
+            "state": "OPEN",
+            "createdAt": "2025-10-03T07:27:27Z",
+            "closedAt": null,
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 82,
+            "title": "default pipeline nf-test",
+            "state": "CLOSED",
+            "createdAt": "2025-06-11T08:48:21Z",
+            "closedAt": "2025-06-11T13:13:28Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 66,
+            "title": "Non redundant family alignments are not published properly, if intra-family redundancy removal mechanism is switched off",
+            "state": "CLOSED",
+            "createdAt": "2025-04-29T11:59:01Z",
+            "closedAt": "2025-05-09T11:11:41Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 64,
+            "title": "CHUNK_CLUSTERS throws an error, if no clusters pass the minimum membership filter threshold",
+            "state": "CLOSED",
+            "createdAt": "2025-04-29T11:14:13Z",
+            "closedAt": "2025-04-29T12:03:32Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 63,
+            "title": "Nail module",
+            "state": "OPEN",
+            "createdAt": "2025-04-10T07:49:15Z",
+            "closedAt": null,
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 62,
+            "title": "Trimal module",
+            "state": "OPEN",
+            "createdAt": "2025-04-10T07:48:08Z",
+            "closedAt": null,
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 61,
+            "title": "Extra QC module to discard very small or very large families (in length)",
+            "state": "OPEN",
+            "createdAt": "2025-04-10T07:46:58Z",
+            "closedAt": null,
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 60,
+            "title": "Input fasta QC subworkflow",
+            "state": "CLOSED",
+            "createdAt": "2025-04-10T07:43:24Z",
+            "closedAt": "2025-09-25T10:02:11Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 59,
+            "title": "Unable to download pipeline",
+            "state": "CLOSED",
+            "createdAt": "2025-04-04T15:39:33Z",
+            "closedAt": "2025-04-05T07:04:15Z",
+            "author": {
+              "login": "juanjo255"
+            }
+          },
+          {
+            "number": 52,
+            "title": "JSON schema: Proteinfamilies",
+            "state": "CLOSED",
+            "createdAt": "2025-03-25T00:12:35Z",
+            "closedAt": "2025-03-26T15:56:00Z",
+            "author": {
+              "login": "jen-reeve"
+            }
+          },
+          {
+            "number": 50,
+            "title": "nf-test local subworkflow UPDATE_FAMILIES",
+            "state": "CLOSED",
+            "createdAt": "2025-03-21T08:51:52Z",
+            "closedAt": "2025-06-13T12:45:58Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 49,
+            "title": "nf-test local subworkflow REMOVE_REDUNDANCY",
+            "state": "CLOSED",
+            "createdAt": "2025-03-21T08:51:26Z",
+            "closedAt": "2025-06-13T12:45:58Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 48,
+            "title": "nf-test local subworkflow GENERATE_FAMILIES",
+            "state": "CLOSED",
+            "createdAt": "2025-03-21T08:51:06Z",
+            "closedAt": "2025-06-12T09:52:25Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 47,
+            "title": "nf-test local subworkflow EXECUTE_CLUSTERING",
+            "state": "CLOSED",
+            "createdAt": "2025-03-21T08:50:42Z",
+            "closedAt": "2025-03-25T15:38:36Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 46,
+            "title": "nf-test local subworkflow ALIGN_SEQUENCES",
+            "state": "CLOSED",
+            "createdAt": "2025-03-21T08:50:14Z",
+            "closedAt": "2025-03-25T14:53:40Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 45,
+            "title": "nf-test local module REMOVE_REDUNDANT_SEQS",
+            "state": "CLOSED",
+            "createdAt": "2025-03-21T08:49:38Z",
+            "closedAt": "2025-03-26T15:55:50Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 44,
+            "title": "nf-test local module REMOVE_REDUNDANT_FAMS",
+            "state": "CLOSED",
+            "createdAt": "2025-03-21T08:49:16Z",
+            "closedAt": "2025-06-12T09:52:14Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 43,
+            "title": "nf-test local module FILTER_RECRUITED",
+            "state": "CLOSED",
+            "createdAt": "2025-03-21T08:48:46Z",
+            "closedAt": "2025-03-26T13:11:29Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 42,
+            "title": "nf-test local module FILTER_NON_REDUNDANT_HMMS",
+            "state": "CLOSED",
+            "createdAt": "2025-03-21T08:48:20Z",
+            "closedAt": "2025-06-12T09:52:14Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 41,
+            "title": "nf-test local module EXTRACT_FAMILY_REPS",
+            "state": "CLOSED",
+            "createdAt": "2025-03-21T08:47:55Z",
+            "closedAt": "2025-06-12T09:52:14Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 40,
+            "title": "nf-test local module CHUNK_CLUSTERS",
+            "state": "CLOSED",
+            "createdAt": "2025-03-21T08:47:32Z",
+            "closedAt": "2025-03-26T12:53:23Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 39,
+            "title": "nf-test local module CALCULATE_CLUSTER_DISTRIBUTION",
+            "state": "CLOSED",
+            "createdAt": "2025-03-21T08:47:05Z",
+            "closedAt": "2025-03-25T14:53:13Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 38,
+            "title": "nf-test local module BRANCH_HITS_FASTA",
+            "state": "CLOSED",
+            "createdAt": "2025-03-21T08:46:34Z",
+            "closedAt": "2025-06-12T09:52:13Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 37,
+            "title": "nf-tests for local modules and subworkflows",
+            "state": "CLOSED",
+            "createdAt": "2025-03-21T06:44:04Z",
+            "closedAt": "2025-06-16T08:02:16Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 28,
+            "title": "The FILTER_RECRUITED module must not produce an empty file output if no sequences remain to be written, because it makes HMMER_HMMALIGN crash",
+            "state": "CLOSED",
+            "createdAt": "2025-02-10T12:27:50Z",
+            "closedAt": "2025-02-17T10:24:49Z",
+            "author": {
+              "login": "vagkaratzas"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 153,
+            "title": "typo fixes",
+            "state": "MERGED",
+            "createdAt": "2026-03-04T11:16:13Z",
+            "mergedAt": "2026-03-04T11:24:11Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_proteinfamilies_pipeline/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 152,
+            "title": "minor bug fix for reporting",
+            "state": "MERGED",
+            "createdAt": "2026-03-04T09:36:25Z",
+            "mergedAt": "2026-03-04T09:51:26Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 151,
+            "title": "Linting warning fixes",
+            "state": "MERGED",
+            "createdAt": "2026-02-27T15:17:31Z",
+            "mergedAt": "2026-02-27T15:43:46Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/mafft/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/cluster/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/cluster/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/cluster/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/cluster/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createdb/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createdb/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createdb/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createdb/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/linclust/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/linclust/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/linclust/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/linclust/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/untar/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/untar/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/untar/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/untar/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/update_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/update_families/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/faa_seqfu_seqkit/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/faa_seqfu_seqkit/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/faa_seqfu_seqkit/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 150,
+            "title": "logos updated",
+            "state": "MERGED",
+            "createdAt": "2026-02-13T13:18:55Z",
+            "mergedAt": "2026-02-15T16:08:16Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "docs/images/nf-core-proteinfamilies_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-proteinfamilies_logo_light.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_dark.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_dark.svg"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_light.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_light.svg"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 149,
+            "title": "citation update",
+            "state": "MERGED",
+            "createdAt": "2026-01-29T09:53:46Z",
+            "mergedAt": "2026-01-29T09:57:05Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 148,
+            "title": "Fix strict syntax help",
+            "state": "MERGED",
+            "createdAt": "2026-01-22T19:29:59Z",
+            "mergedAt": "2026-01-23T08:37:53Z",
+            "author": {
+              "login": "ewels"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 147,
+            "title": "Strict syntax updates",
+            "state": "MERGED",
+            "createdAt": "2026-01-20T10:46:16Z",
+            "mergedAt": "2026-01-20T11:25:31Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/hhsuite/reformat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/hhsuite/reformat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/hhsuite/reformat/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/hhsuite/reformat/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/mafft/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/mafft/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/mafft/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/mafft/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/align_sequences/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align_sequences/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/generate_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_proteinfamilies_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/faa_seqfu_seqkit/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/faa_seqfu_seqkit/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/faa_seqfu_seqkit/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 146,
+            "title": "post-release version bump",
+            "state": "MERGED",
+            "createdAt": "2025-12-19T10:20:19Z",
+            "mergedAt": "2025-12-19T10:29:46Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 145,
+            "title": "Dev",
+            "state": "MERGED",
+            "createdAt": "2025-12-18T13:32:04Z",
+            "mergedAt": "2025-12-19T09:56:52Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_dark.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_dark.svg"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_light.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_light.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/filter_non_redundant_fams/main.nf"
+                },
+                {
+                  "path": "modules/local/filter_non_redundant_fams/test/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/cmaple/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/cmaple/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/cmaple/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/cmaple/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/cmaple/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/align_sequences/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/generate_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/merge_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/update_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_proteinfamilies_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 144,
+            "title": "pre-release version bump",
+            "state": "MERGED",
+            "createdAt": "2025-12-18T13:16:23Z",
+            "mergedAt": "2025-12-18T13:30:24Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 143,
+            "title": "Add cmaple",
+            "state": "MERGED",
+            "createdAt": "2025-12-17T13:50:18Z",
+            "mergedAt": "2025-12-18T12:46:58Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_dark.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_dark.svg"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_light.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_light.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/filter_non_redundant_fams/main.nf"
+                },
+                {
+                  "path": "modules/local/filter_non_redundant_fams/test/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/cmaple/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/cmaple/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/cmaple/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/cmaple/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/cmaple/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_proteinfamilies_pipeline/main.nf"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 142,
+            "title": "multiqc version bump",
+            "state": "MERGED",
+            "createdAt": "2025-12-12T15:20:09Z",
+            "mergedAt": "2025-12-12T15:35:09Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 141,
+            "title": "align output syntax and publish dir dirs",
+            "state": "MERGED",
+            "createdAt": "2025-12-11T15:41:59Z",
+            "mergedAt": "2025-12-11T15:48:32Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 140,
+            "title": "Minor fixes",
+            "state": "MERGED",
+            "createdAt": "2025-12-08T10:46:17Z",
+            "mergedAt": "2025-12-08T17:00:59Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_dark.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_dark.svg"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_light.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_light.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/align_sequences/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/generate_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/merge_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/update_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_proteinfamilies_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 139,
+            "title": "version-bump 2.2.0dev",
+            "state": "MERGED",
+            "createdAt": "2025-11-25T10:54:54Z",
+            "mergedAt": "2025-11-25T11:03:58Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 138,
+            "title": "Release 2.1.0",
+            "state": "MERGED",
+            "createdAt": "2025-11-25T10:13:11Z",
+            "mergedAt": "2025-11-25T10:40:25Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_merge.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "conf/test_multi_sample_with_gz.config"
+                },
+                {
+                  "path": "conf/test_update.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/mafft/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/cluster/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/cluster/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/cluster/mmseqs-cluster.diff"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/cluster/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createdb/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createdb/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createdb/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/linclust/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/linclust/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/linclust/mmseqs-linclust.diff"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/linclust/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/custom_prefix.config"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/tests/main.nf.test"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/update_families/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_proteinfamilies_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 137,
+            "title": "pre-release version bump",
+            "state": "MERGED",
+            "createdAt": "2025-11-25T10:01:29Z",
+            "mergedAt": "2025-11-25T10:09:48Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 136,
+            "title": "Update nf-core modules and subworkflows to latest",
+            "state": "MERGED",
+            "createdAt": "2025-11-24T12:51:53Z",
+            "mergedAt": "2025-11-24T13:24:52Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_merge.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "conf/test_multi_sample_with_gz.config"
+                },
+                {
+                  "path": "conf/test_update.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/mafft/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/cluster/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/cluster/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/cluster/mmseqs-cluster.diff"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/cluster/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createdb/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createdb/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createdb/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/linclust/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/linclust/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/linclust/mmseqs-linclust.diff"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/linclust/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/custom_prefix.config"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/tests/main.nf.test"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/update_families/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 135,
+            "title": "Important! Template update for nf-core/tools v3.5.1",
+            "state": "MERGED",
+            "createdAt": "2025-11-20T09:32:20Z",
+            "mergedAt": "2025-11-24T08:50:44Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_proteinfamilies_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 134,
+            "title": "Output syntax",
+            "state": "MERGED",
+            "createdAt": "2025-11-14T11:26:19Z",
+            "mergedAt": "2025-11-17T10:14:23Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/local/create_proteinfold_samplesheet/environment.yml"
+                },
+                {
+                  "path": "modules/local/create_proteinfold_samplesheet/main.nf"
+                },
+                {
+                  "path": "modules/local/create_proteinfold_samplesheet/meta.yml"
+                },
+                {
+                  "path": "modules/local/create_proteinfold_samplesheet/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/create_proteinfold_samplesheet/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/split_fasta/environment.yml"
+                },
+                {
+                  "path": "modules/local/split_fasta/main.nf"
+                },
+                {
+                  "path": "modules/local/split_fasta/meta.yml"
+                },
+                {
+                  "path": "modules/local/split_fasta/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/split_fasta/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 133,
+            "title": "Proteinfold samplesheet creation",
+            "state": "MERGED",
+            "createdAt": "2025-11-04T08:04:09Z",
+            "mergedAt": "2025-11-18T16:17:10Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 132,
+            "title": "Resource optimization (memory and time) for test and test_full profiles.",
+            "state": "MERGED",
+            "createdAt": "2025-11-03T14:32:14Z",
+            "mergedAt": "2025-11-03T15:19:56Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 130,
+            "title": "template bug fixed",
+            "state": "MERGED",
+            "createdAt": "2025-10-22T09:04:52Z",
+            "mergedAt": "2025-10-22T09:07:47Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 129,
+            "title": "post-release version bump",
+            "state": "MERGED",
+            "createdAt": "2025-10-17T13:51:43Z",
+            "mergedAt": "2025-10-17T13:58:16Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 128,
+            "title": "Important! Template update for nf-core/tools v3.4.1",
+            "state": "MERGED",
+            "createdAt": "2025-10-16T13:38:04Z",
+            "mergedAt": "2025-10-17T09:13:08Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".devcontainer/setup.sh"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_proteinfamilies_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 127,
+            "title": "version bump",
+            "state": "MERGED",
+            "createdAt": "2025-10-14T11:44:58Z",
+            "mergedAt": "2025-10-14T11:55:53Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 126,
+            "title": "proteinfamilies v2.0.0 release PR",
+            "state": "MERGED",
+            "createdAt": "2025-10-14T11:34:39Z",
+            "mergedAt": "2025-10-17T13:29:59Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".devcontainer/setup.sh"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/samplesheet.csv"
+                },
+                {
+                  "path": "bin/chunk_clusters.py"
+                },
+                {
+                  "path": "bin/extract_family_members.py"
+                },
+                {
+                  "path": "bin/extract_family_reps.py"
+                },
+                {
+                  "path": "bin/identify_redundant_fams.py"
+                },
+                {
+                  "path": "bin/merge_seeds.py"
+                },
+                {
+                  "path": "bin/pool_similar_components.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_merge.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "conf/test_multi_sample_with_gz.config"
+                },
+                {
+                  "path": "conf/test_update.config"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow.svg"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_dark.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_dark.svg"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_light.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_light.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/branch_hits_fasta/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/chunk_clusters/meta.yml"
+                },
+                {
+                  "path": "modules/local/chunk_clusters/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/chunk_clusters/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/extract_family_members/environment.yml"
+                },
+                {
+                  "path": "modules/local/extract_family_members/main.nf"
+                },
+                {
+                  "path": "modules/local/extract_family_members/meta.yml"
+                },
+                {
+                  "path": "modules/local/extract_family_members/test/main.nf.test"
+                },
+                {
+                  "path": "modules/local/extract_family_members/test/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/filter_non_redundant_fams/main.nf"
+                },
+                {
+                  "path": "modules/local/filter_recruited/test/main.nf.test"
+                },
+                {
+                  "path": "modules/local/identify_redundant_fams/main.nf"
+                },
+                {
+                  "path": "modules/local/identify_redundant_fams/meta.yml"
+                },
+                {
+                  "path": "modules/local/identify_redundant_fams/test/main.nf.test"
+                },
+                {
+                  "path": "modules/local/identify_redundant_fams/test/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/merge_seeds/environment.yml"
+                },
+                {
+                  "path": "modules/local/merge_seeds/main.nf"
+                },
+                {
+                  "path": "modules/local/merge_seeds/meta.yml"
+                },
+                {
+                  "path": "modules/local/merge_seeds/test/main.nf.test"
+                },
+                {
+                  "path": "modules/local/merge_seeds/test/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/pool_similar_components/environment.yml"
+                },
+                {
+                  "path": "modules/local/pool_similar_components/main.nf"
+                },
+                {
+                  "path": "modules/local/pool_similar_components/meta.yml"
+                },
+                {
+                  "path": "modules/local/pool_similar_components/test/main.nf.test"
+                },
+                {
+                  "path": "modules/local/pool_similar_components/test/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/remove_redundant_seqs/meta.yml"
+                },
+                {
+                  "path": "modules/local/remove_redundant_seqs/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/main.nf"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/meta.yml"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/famsa/align/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/famsa/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/famsa/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/famsa/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/tests/replace.config"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/tests/uncomp.config"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/rmdup/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/rmdup/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/rmdup/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/rmdup/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/rmdup/tests/main.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 124,
+            "title": "new subworkflow - merge_families",
+            "state": "MERGED",
+            "createdAt": "2025-10-07T08:34:15Z",
+            "mergedAt": "2025-10-14T11:29:49Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/samplesheet.csv"
+                },
+                {
+                  "path": "bin/chunk_clusters.py"
+                },
+                {
+                  "path": "bin/extract_family_members.py"
+                },
+                {
+                  "path": "bin/extract_family_reps.py"
+                },
+                {
+                  "path": "bin/identify_redundant_fams.py"
+                },
+                {
+                  "path": "bin/merge_seeds.py"
+                },
+                {
+                  "path": "bin/pool_similar_components.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_merge.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "conf/test_multi_sample_with_gz.config"
+                },
+                {
+                  "path": "conf/test_update.config"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_dark.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_dark.svg"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_light.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_light.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules/local/branch_hits_fasta/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/chunk_clusters/meta.yml"
+                },
+                {
+                  "path": "modules/local/chunk_clusters/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/chunk_clusters/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/filter_recruited/test/main.nf.test"
+                },
+                {
+                  "path": "modules/local/identify_redundant_fams/main.nf"
+                },
+                {
+                  "path": "modules/local/identify_redundant_fams/meta.yml"
+                },
+                {
+                  "path": "modules/local/identify_redundant_fams/test/main.nf.test"
+                },
+                {
+                  "path": "modules/local/identify_redundant_fams/test/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/merge_seeds/environment.yml"
+                },
+                {
+                  "path": "modules/local/merge_seeds/main.nf"
+                },
+                {
+                  "path": "modules/local/merge_seeds/meta.yml"
+                },
+                {
+                  "path": "modules/local/merge_seeds/test/main.nf.test"
+                },
+                {
+                  "path": "modules/local/merge_seeds/test/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/pool_similar_components/environment.yml"
+                },
+                {
+                  "path": "modules/local/pool_similar_components/main.nf"
+                },
+                {
+                  "path": "modules/local/pool_similar_components/meta.yml"
+                },
+                {
+                  "path": "modules/local/pool_similar_components/test/main.nf.test"
+                },
+                {
+                  "path": "modules/local/pool_similar_components/test/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/remove_redundant_seqs/meta.yml"
+                },
+                {
+                  "path": "modules/local/remove_redundant_seqs/tests/main.nf.test"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/align_sequences/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/align_sequences/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/align_sequences/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/generate_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/generate_families/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/generate_families/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/generate_families/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/merge_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/merge_families/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/merge_families/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/merge_families/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/update_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/update_families/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/update_families/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_proteinfamilies_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 123,
+            "title": "Merge families subworkflow",
+            "state": "MERGED",
+            "createdAt": "2025-10-07T08:32:57Z",
+            "mergedAt": "2025-10-09T13:00:41Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "bin/identify_redundant_fams.py"
+                },
+                {
+                  "path": "bin/merge_seeds.py"
+                },
+                {
+                  "path": "bin/pool_similar_components.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_dark.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_dark.svg"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_light.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_light.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules/local/identify_redundant_fams/main.nf"
+                },
+                {
+                  "path": "modules/local/identify_redundant_fams/meta.yml"
+                },
+                {
+                  "path": "modules/local/identify_redundant_fams/test/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/merge_seeds/environment.yml"
+                },
+                {
+                  "path": "modules/local/merge_seeds/main.nf"
+                },
+                {
+                  "path": "modules/local/merge_seeds/meta.yml"
+                },
+                {
+                  "path": "modules/local/merge_seeds/test/main.nf.test"
+                },
+                {
+                  "path": "modules/local/merge_seeds/test/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/pool_similar_components/environment.yml"
+                },
+                {
+                  "path": "modules/local/pool_similar_components/main.nf"
+                },
+                {
+                  "path": "modules/local/pool_similar_components/meta.yml"
+                },
+                {
+                  "path": "modules/local/pool_similar_components/test/main.nf.test"
+                },
+                {
+                  "path": "modules/local/pool_similar_components/test/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/align_sequences/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/generate_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/generate_families/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/generate_families/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/generate_families/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/merge_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/merge_families/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/merge_families/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/merge_families/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/update_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/update_families/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/update_families/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_proteinfamilies_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 118,
+            "title": "Misc updates - nf-core QC subworkflow, preprint, metromaps, new output module",
+            "state": "MERGED",
+            "createdAt": "2025-09-29T11:59:29Z",
+            "mergedAt": "2025-09-30T10:05:55Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "bin/extract_family_members.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_minimal.config"
+                },
+                {
+                  "path": "conf/test_multi_sample_with_gz.config"
+                },
+                {
+                  "path": "conf/test_update.config"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow.svg"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_dark.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_dark.svg"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_light.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow_light.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/extract_family_members/environment.yml"
+                },
+                {
+                  "path": "modules/local/extract_family_members/main.nf"
+                },
+                {
+                  "path": "modules/local/extract_family_members/meta.yml"
+                },
+                {
+                  "path": "modules/local/extract_family_members/test/main.nf.test"
+                },
+                {
+                  "path": "modules/local/extract_family_members/test/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/famsa/align/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/famsa/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/famsa/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/famsa/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/untar/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/align_sequences/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/check_quality/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/generate_families/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/update_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/update_families/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_proteinfamilies_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/faa_seqfu_seqkit/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/faa_seqfu_seqkit/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/faa_seqfu_seqkit/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/faa_seqfu_seqkit/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/faa_seqfu_seqkit/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 117,
+            "title": "QC subworkflow added",
+            "state": "MERGED",
+            "createdAt": "2025-09-24T15:43:35Z",
+            "mergedAt": "2025-09-25T10:01:08Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/main.nf"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/meta.yml"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/tests/replace.config"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/tests/uncomp.config"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/rmdup/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/rmdup/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/rmdup/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/rmdup/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/rmdup/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/stats/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/stats/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/check_quality/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/check_quality/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/check_quality/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/check_quality/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/check_quality/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_proteinfamilies_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 116,
+            "title": "Qc subworkflow",
+            "state": "CLOSED",
+            "createdAt": "2025-09-24T15:42:15Z",
+            "mergedAt": null,
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/main.nf"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/meta.yml"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/seqfu/stats/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/tests/replace.config"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/tests/uncomp.config"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/rmdup/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/rmdup/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/rmdup/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/rmdup/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/rmdup/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/stats/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/stats/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/check_quality/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/check_quality/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/check_quality/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/check_quality/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/check_quality/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_proteinfamilies_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 60
+                }
+              ]
+            }
+          },
+          {
+            "number": 115,
+            "title": "post release version bump",
+            "state": "MERGED",
+            "createdAt": "2025-09-23T20:21:09Z",
+            "mergedAt": "2025-09-24T06:43:29Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 114,
+            "title": "patch release",
+            "state": "MERGED",
+            "createdAt": "2025-09-22T14:23:41Z",
+            "mergedAt": "2025-09-23T15:18:04Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "bin/extract_family_reps.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/test/main.nf.test"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/test/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/clipkit/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/mmseqs-createtsv.diff"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/tests/taxonomy.nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/execute_clustering/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/update_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/update_families/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 113,
+            "title": "version bump",
+            "state": "MERGED",
+            "createdAt": "2025-09-22T14:06:36Z",
+            "mergedAt": "2025-09-22T14:19:36Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 112,
+            "title": "extract_family_reps -appending all sequences in one- bug fixed",
+            "state": "MERGED",
+            "createdAt": "2025-09-22T13:46:20Z",
+            "mergedAt": "2025-09-22T13:59:37Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "bin/extract_family_reps.py"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/test/main.nf.test"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/test/main.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 111,
+            "title": "Bug fix extract family reps",
+            "state": "CLOSED",
+            "createdAt": "2025-09-22T13:44:20Z",
+            "mergedAt": null,
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "bin/extract_family_reps.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/test/main.nf.test"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/test/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/clipkit/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/mmseqs-createtsv.diff"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/tests/taxonomy.nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/execute_clustering/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/update_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/update_families/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 110,
+            "title": "mmseqs_fasta_cluster",
+            "state": "MERGED",
+            "createdAt": "2025-08-27T12:32:57Z",
+            "mergedAt": "2025-08-27T13:44:01Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/mmseqs-createtsv.diff"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/tests/taxonomy.nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/execute_clustering/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/update_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/update_families/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/mmseqs_fasta_cluster/tests/nextflow.config"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 109,
+            "title": "Modules update -> nonbuggy-conda MultiQC 1.30",
+            "state": "MERGED",
+            "createdAt": "2025-08-07T07:40:24Z",
+            "mergedAt": "2025-08-07T07:50:56Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/clipkit/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 108,
+            "title": "version bump 1.4.0dev",
+            "state": "MERGED",
+            "createdAt": "2025-08-06T14:58:51Z",
+            "mergedAt": "2025-08-06T15:08:06Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 107,
+            "title": "Release 1.3.0",
+            "state": "MERGED",
+            "createdAt": "2025-08-04T08:45:06Z",
+            "mergedAt": "2025-08-06T14:30:16Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "bin/extract_family_reps.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/branch_hits_fasta/meta.yml"
+                },
+                {
+                  "path": "modules/local/calculate_cluster_distribution/meta.yml"
+                },
+                {
+                  "path": "modules/local/chunk_clusters/meta.yml"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/environment.yml"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/main.nf"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/meta.yml"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/test/main.nf.test"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/test/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/filter_non_redundant_fams/meta.yml"
+                },
+                {
+                  "path": "modules/local/filter_recruited/meta.yml"
+                },
+                {
+                  "path": "modules/local/identify_redundant_fams/meta.yml"
+                },
+                {
+                  "path": "modules/local/remove_redundant_seqs/main.nf"
+                },
+                {
+                  "path": "modules/local/remove_redundant_seqs/meta.yml"
+                },
+                {
+                  "path": "modules/local/remove_redundant_seqs/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/environment.yml"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/main.nf"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/meta.yml"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/clipkit/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/famsa/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/tests/nextflow_unzipped_zipped.config"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/tests/nextflow_zipped_unzipped.config"
+                },
+                {
+                  "path": "modules/nf-core/hhsuite/reformat/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/hhsuite/reformat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/hhsuite/reformat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/hhsuite/reformat/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/hhsuite/reformat/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/hmmer/hmmalign/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/hmmer/hmmbuild/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/hmmer/hmmsearch/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/mafft/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/cluster/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createdb/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/linclust/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/seq/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/stats/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/stats/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/stats/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/stats/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/stats/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/untar/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/check_quality/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/check_quality/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/check_quality/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/check_quality/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/execute_clustering/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/generate_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/generate_families/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/update_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/update_families/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/update_families/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 106,
+            "title": "pre-release version bump",
+            "state": "MERGED",
+            "createdAt": "2025-08-04T08:25:29Z",
+            "mergedAt": "2025-08-04T08:42:26Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 105,
+            "title": "New check quality subworkflow - added seqkit/stats and custom script that generates MultiQC report",
+            "state": "MERGED",
+            "createdAt": "2025-08-01T15:29:02Z",
+            "mergedAt": "2025-08-04T07:47:48Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow.png"
+                },
+                {
+                  "path": "docs/images/proteinfamilies_workflow.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/branch_hits_fasta/meta.yml"
+                },
+                {
+                  "path": "modules/local/calculate_cluster_distribution/meta.yml"
+                },
+                {
+                  "path": "modules/local/chunk_clusters/meta.yml"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/meta.yml"
+                },
+                {
+                  "path": "modules/local/filter_non_redundant_fams/meta.yml"
+                },
+                {
+                  "path": "modules/local/filter_recruited/meta.yml"
+                },
+                {
+                  "path": "modules/local/identify_redundant_fams/meta.yml"
+                },
+                {
+                  "path": "modules/local/remove_redundant_seqs/meta.yml"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/environment.yml"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/main.nf"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/meta.yml"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/seqkit_stats_to_mqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/stats/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/stats/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/stats/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/stats/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/stats/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/check_quality/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/check_quality/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/check_quality/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/check_quality/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 104,
+            "title": "Pulling params from subworkflows into main workflow",
+            "state": "MERGED",
+            "createdAt": "2025-08-01T10:25:11Z",
+            "mergedAt": "2025-08-01T12:10:34Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "subworkflows/local/execute_clustering/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/generate_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/generate_families/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/update_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/update_families/tests/main.nf.test"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 103,
+            "title": "Parallelize rep extraction",
+            "state": "MERGED",
+            "createdAt": "2025-07-29T13:03:50Z",
+            "mergedAt": "2025-08-01T09:10:42Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "bin/extract_family_reps.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/environment.yml"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/main.nf"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/test/main.nf.test"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/test/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/remove_redundant_seqs/main.nf"
+                },
+                {
+                  "path": "modules/local/remove_redundant_seqs/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/update_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/update_families/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 102,
+            "title": "Reps from fasta",
+            "state": "MERGED",
+            "createdAt": "2025-07-29T13:01:31Z",
+            "mergedAt": "2025-07-29T13:01:37Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/extract_family_reps.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/environment.yml"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/main.nf"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/test/main.nf.test"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/test/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/remove_redundant_seqs/main.nf"
+                },
+                {
+                  "path": "modules/local/remove_redundant_seqs/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/update_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/update_families/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "workflows/proteinfamilies.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 101,
+            "title": "Lint fix module updates",
+            "state": "MERGED",
+            "createdAt": "2025-07-22T15:24:59Z",
+            "mergedAt": "2025-07-23T10:46:22Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/clipkit/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/famsa/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/hhsuite/reformat/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/hhsuite/reformat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/hhsuite/reformat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/hhsuite/reformat/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/hhsuite/reformat/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/hmmer/hmmalign/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/hmmer/hmmbuild/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/hmmer/hmmsearch/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/mafft/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/cluster/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createdb/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/createtsv/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/mmseqs/linclust/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/seq/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/untar/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 100,
+            "title": "FIND_CONCATENATE module instead of CAT_CAT",
+            "state": "MERGED",
+            "createdAt": "2025-07-16T10:24:05Z",
+            "mergedAt": "2025-07-16T10:45:01Z",
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/tests/nextflow_unzipped_zipped.config"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/tests/nextflow_zipped_unzipped.config"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/update_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/update_families/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 99,
+            "title": "Replace cat with find",
+            "state": "CLOSED",
+            "createdAt": "2025-07-16T10:19:15Z",
+            "mergedAt": null,
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/tests/nextflow_unzipped_zipped.config"
+                },
+                {
+                  "path": "modules/nf-core/find/concatenate/tests/nextflow_zipped_unzipped.config"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/remove_redundancy/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/update_families/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/update_families/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 98,
+            "title": "Important! Template update for nf-core/tools v3.3.2",
+            "state": "MERGED",
+            "createdAt": "2025-07-08T11:40:19Z",
+            "mergedAt": "2025-07-14T15:14:11Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/test/main.nf.test"
+                },
+                {
+                  "path": "modules/local/extract_family_reps/test/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/update_families/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/update_families/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

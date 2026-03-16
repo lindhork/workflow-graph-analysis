@@ -1,0 +1,47 @@
+# Main entrypoint of the workflow.
+# Please follow the best practices:
+# https://snakemake.readthedocs.io/en/stable/snakefiles/best_practices.html,
+# in particular regarding the standardized folder structure mentioned there.
+
+
+from snakemake.utils import min_version
+
+min_version("6.3.0")
+
+
+configfile: "config/config.yaml"
+
+
+# this container defines the underlying OS for each job when using the workflow
+# with --use-conda --use-singularity
+containerized: "docker://davidebrex/spikeflow:latest"
+
+
+if config["output_path"] != "":
+    if os.path.exists(config["output_path"]):
+        if config["output_path"][-1] != "/":
+            outdir = config["output_path"] + "/"
+        else:
+            outdir = config["output_path"]
+    else:
+        raise FileNotFoundError(
+            "The provided path to the output folder does not exist \nPlease check that the folder is present"
+        )
+else:
+    outdir = ""
+
+
+include: "rules/references.smk"
+include: "rules/common.smk"
+include: "rules/trim.smk"
+include: "rules/align.smk"
+include: "rules/createBigWigs.smk"
+include: "rules/callPeaks.smk"
+include: "rules/qc.smk"
+include: "rules/mergeAndAnnotatePeaks.smk"
+include: "rules/differentialPeaks.smk"
+
+
+rule all:
+    input:
+        input_toget(),

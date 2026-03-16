@@ -1,0 +1,885 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 75,
+            "title": "implement Independent Component Analysis (ICA)",
+            "state": "OPEN",
+            "createdAt": "2025-10-14T09:20:14Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 72,
+            "title": "Error in plot_umap_connectivity: hammer_bundle operation requires dask and scikit-image.",
+            "state": "CLOSED",
+            "createdAt": "2025-07-02T11:46:47Z",
+            "closedAt": "2025-07-02T14:59:36Z",
+            "author": {
+              "login": "bednarsky"
+            }
+          },
+          {
+            "number": 70,
+            "title": "Consider implementation of torque clustering",
+            "state": "OPEN",
+            "createdAt": "2025-02-15T11:30:17Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 69,
+            "title": "double check if we control all stochastic components using a fixed random seed of 42",
+            "state": "CLOSED",
+            "createdAt": "2024-12-02T09:28:19Z",
+            "closedAt": "2025-03-04T15:03:10Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 68,
+            "title": "ggrepel text for labelling of categorical Metadata in 2D plots",
+            "state": "OPEN",
+            "createdAt": "2024-11-26T14:15:59Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 66,
+            "title": "Make default scatterplot markersize smaller",
+            "state": "CLOSED",
+            "createdAt": "2024-11-19T15:04:35Z",
+            "closedAt": "2025-03-04T14:27:55Z",
+            "author": {
+              "login": "bednarsky"
+            }
+          },
+          {
+            "number": 61,
+            "title": "validation_external.py: Index mismatch between clustering results and metadata introduces NaNs",
+            "state": "CLOSED",
+            "createdAt": "2024-11-18T12:44:32Z",
+            "closedAt": "2025-03-04T14:31:51Z",
+            "author": {
+              "login": "bednarsky"
+            }
+          },
+          {
+            "number": 60,
+            "title": "Error: No columns to parse from file Snakefile\", line 25",
+            "state": "CLOSED",
+            "createdAt": "2024-11-16T12:07:03Z",
+            "closedAt": "2024-11-19T09:17:03Z",
+            "author": {
+              "login": "bednarsky"
+            }
+          },
+          {
+            "number": 59,
+            "title": "plot_heatmap Error: cannot take a sample larger than the population when 'replace = FALSE'",
+            "state": "CLOSED",
+            "createdAt": "2024-11-16T11:40:42Z",
+            "closedAt": "2025-03-04T14:22:27Z",
+            "author": {
+              "login": "bednarsky"
+            }
+          },
+          {
+            "number": 58,
+            "title": "distance_matrix.py - avoid that config:heatmap:n_observations default causes error ",
+            "state": "CLOSED",
+            "createdAt": "2024-11-15T21:24:21Z",
+            "closedAt": "2025-03-04T14:21:10Z",
+            "author": {
+              "login": "bednarsky"
+            }
+          },
+          {
+            "number": 57,
+            "title": "plot_indices Error: libicui18n.so.58: cannot open shared object file",
+            "state": "CLOSED",
+            "createdAt": "2024-11-15T20:54:20Z",
+            "closedAt": "2025-03-04T14:19:41Z",
+            "author": {
+              "login": "bednarsky"
+            }
+          },
+          {
+            "number": 56,
+            "title": "Clustification slow since updating to snakemake 8 version of pipeline",
+            "state": "CLOSED",
+            "createdAt": "2024-11-12T20:49:58Z",
+            "closedAt": "2024-11-13T14:16:39Z",
+            "author": {
+              "login": "bednarsky"
+            }
+          },
+          {
+            "number": 55,
+            "title": "improve interactive plots for numerical metadata",
+            "state": "CLOSED",
+            "createdAt": "2024-10-09T07:34:00Z",
+            "closedAt": "2025-06-23T12:23:16Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 54,
+            "title": "clustification v1",
+            "state": "OPEN",
+            "createdAt": "2024-06-22T13:01:42Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 53,
+            "title": "Segmentation fault bug with UMAP diagnostic step",
+            "state": "CLOSED",
+            "createdAt": "2024-06-16T04:51:43Z",
+            "closedAt": "2024-06-22T14:34:39Z",
+            "author": {
+              "login": "JakeLehle"
+            }
+          },
+          {
+            "number": 51,
+            "title": "enhance Snakemake report using labels",
+            "state": "CLOSED",
+            "createdAt": "2024-05-25T14:24:59Z",
+            "closedAt": "2024-06-21T12:04:32Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 49,
+            "title": "provide PCA configurations, eg % of variance to keep, to speed up for large data",
+            "state": "CLOSED",
+            "createdAt": "2024-05-14T12:00:06Z",
+            "closedAt": "2024-06-25T14:07:02Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 48,
+            "title": "clustification: train/predict on approximated manifold instead of original space",
+            "state": "OPEN",
+            "createdAt": "2024-05-11T08:47:36Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 47,
+            "title": "clustification: implement XGBoost",
+            "state": "OPEN",
+            "createdAt": "2024-05-11T08:45:45Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 46,
+            "title": "make cluster validation using indices optional",
+            "state": "CLOSED",
+            "createdAt": "2024-03-04T11:19:14Z",
+            "closedAt": "2024-06-22T15:39:12Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 45,
+            "title": "Error plot_dimred_metadata",
+            "state": "CLOSED",
+            "createdAt": "2024-02-29T11:20:22Z",
+            "closedAt": "2024-06-22T14:46:52Z",
+            "author": {
+              "login": "bednarsky"
+            }
+          },
+          {
+            "number": 44,
+            "title": "UMAP diagnostics bug - numba intersect1d",
+            "state": "CLOSED",
+            "createdAt": "2024-02-29T08:50:30Z",
+            "closedAt": "2024-06-22T14:34:28Z",
+            "author": {
+              "login": "bednarsky"
+            }
+          },
+          {
+            "number": 43,
+            "title": "snakemake找不到srcdir函数",
+            "state": "CLOSED",
+            "createdAt": "2024-02-05T08:05:31Z",
+            "closedAt": "2024-05-27T11:32:55Z",
+            "author": {
+              "login": "summersohot"
+            }
+          },
+          {
+            "number": 42,
+            "title": "consider adding CartoGRAPHs for visualization and DataDiVR export for VR based analysis",
+            "state": "OPEN",
+            "createdAt": "2024-01-27T10:58:22Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 41,
+            "title": "diagnostic plot of all aggregated clustering results",
+            "state": "OPEN",
+            "createdAt": "2023-12-20T14:37:41Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 40,
+            "title": "fix job selection for cluster indices without clusterings",
+            "state": "CLOSED",
+            "createdAt": "2023-12-18T14:25:08Z",
+            "closedAt": "2023-12-18T14:49:37Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 38,
+            "title": "fix PCA pairplot by limiting legend exist only when less than X classes eg 10?",
+            "state": "CLOSED",
+            "createdAt": "2023-12-18T14:16:23Z",
+            "closedAt": "2024-06-21T12:04:41Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 37,
+            "title": "improve data loading speed with Dask or NumPy",
+            "state": "OPEN",
+            "createdAt": "2023-12-15T17:31:40Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 36,
+            "title": "improve scatter plot speed",
+            "state": "CLOSED",
+            "createdAt": "2023-12-15T17:07:58Z",
+            "closedAt": "2024-06-23T15:03:05Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 35,
+            "title": "Gene program/marker expression score as metadata",
+            "state": "CLOSED",
+            "createdAt": "2023-12-05T06:45:22Z",
+            "closedAt": "2023-12-05T20:04:27Z",
+            "author": {
+              "login": "bednarsky"
+            }
+          },
+          {
+            "number": 34,
+            "title": "PCA fails for large dataset",
+            "state": "CLOSED",
+            "createdAt": "2023-11-08T12:19:23Z",
+            "closedAt": "2023-11-15T16:44:46Z",
+            "author": {
+              "login": "kvetab"
+            }
+          },
+          {
+            "number": 33,
+            "title": "reimplement internal cluster indices supporting different metrics and to improve performance",
+            "state": "OPEN",
+            "createdAt": "2023-10-03T08:21:12Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 32,
+            "title": "utilize metadata of interest config field as list for multiple analyses",
+            "state": "CLOSED",
+            "createdAt": "2023-09-30T15:20:20Z",
+            "closedAt": "2023-10-01T13:45:59Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 31,
+            "title": "add Variation of Information (VI) and Split/Join as external indices",
+            "state": "OPEN",
+            "createdAt": "2023-09-27T11:51:24Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 30,
+            "title": "implement Manifold trustworthiness",
+            "state": "OPEN",
+            "createdAt": "2023-09-22T14:53:29Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 29,
+            "title": "implement significance analysis for clustering",
+            "state": "OPEN",
+            "createdAt": "2023-09-18T09:32:56Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 28,
+            "title": "clustification: add visualization/diagnostics of performance/convergence over time",
+            "state": "OPEN",
+            "createdAt": "2023-09-13T11:40:51Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 27,
+            "title": "Resampling to evaluate clustering stability",
+            "state": "OPEN",
+            "createdAt": "2023-09-13T08:53:09Z",
+            "closedAt": null,
+            "author": {
+              "login": "bednarsky"
+            }
+          },
+          {
+            "number": 26,
+            "title": "investigate PCA OOM error with Lee2020NatGenet data",
+            "state": "CLOSED",
+            "createdAt": "2023-09-11T12:35:49Z",
+            "closedAt": "2023-09-27T14:04:31Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 25,
+            "title": "clustification: test simultaneous merging",
+            "state": "CLOSED",
+            "createdAt": "2023-09-07T11:35:08Z",
+            "closedAt": "2023-09-26T15:46:28Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 24,
+            "title": "clustree: investigate and implement automatic sc3 stability scoring",
+            "state": "OPEN",
+            "createdAt": "2023-09-06T09:00:39Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 23,
+            "title": "change storing and aggregation of clustering results",
+            "state": "CLOSED",
+            "createdAt": "2023-09-02T08:34:13Z",
+            "closedAt": "2023-09-04T14:06:16Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 22,
+            "title": "implement consensus cluster calling",
+            "state": "OPEN",
+            "createdAt": "2023-08-29T14:17:43Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 21,
+            "title": "rank all clustering results according to all internal cluster indices using MCDM algorithm",
+            "state": "CLOSED",
+            "createdAt": "2023-08-29T14:13:34Z",
+            "closedAt": "2023-09-26T16:21:40Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 19,
+            "title": "test & document",
+            "state": "CLOSED",
+            "createdAt": "2023-08-27T14:48:10Z",
+            "closedAt": "2023-10-03T16:51:25Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 18,
+            "title": "PCA: additional/complementary visualization of top loadings per PC",
+            "state": "CLOSED",
+            "createdAt": "2023-08-27T09:23:51Z",
+            "closedAt": "2024-06-23T14:38:59Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 17,
+            "title": "release version 1.0.0",
+            "state": "CLOSED",
+            "createdAt": "2023-08-26T13:03:11Z",
+            "closedAt": "2023-10-04T08:35:28Z",
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 16,
+            "title": "implement meta visualization as an aggregation of all methods (PCA, densMAP, UMAP, …)",
+            "state": "OPEN",
+            "createdAt": "2023-08-26T12:58:39Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 15,
+            "title": "add Dynamic visualization of high-dimensional data",
+            "state": "OPEN",
+            "createdAt": "2023-08-26T12:56:05Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          },
+          {
+            "number": 14,
+            "title": "implement partition based clustering",
+            "state": "OPEN",
+            "createdAt": "2023-08-26T12:44:52Z",
+            "closedAt": null,
+            "author": {
+              "login": "sreichl"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 76,
+            "title": "Apply best practices",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T15:18:39Z",
+            "mergedAt": null,
+            "author": {
+              "login": "hoferand"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/lint.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".prettierrc.yml"
+                },
+                {
+                  "path": "CITATION.cff"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "_config.yml"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/ComplexHeatmap.yaml"
+                },
+                {
+                  "path": "workflow/envs/clusterCrit.yaml"
+                },
+                {
+                  "path": "workflow/envs/clustree.yaml"
+                },
+                {
+                  "path": "workflow/envs/ggplot.yaml"
+                },
+                {
+                  "path": "workflow/envs/global.yaml"
+                },
+                {
+                  "path": "workflow/envs/plotly.yaml"
+                },
+                {
+                  "path": "workflow/envs/pymcdm.yaml"
+                },
+                {
+                  "path": "workflow/envs/umap_leiden.yaml"
+                },
+                {
+                  "path": "workflow/profiles/default/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/cluster_validation.smk"
+                },
+                {
+                  "path": "workflow/rules/clustering.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/dimred.smk"
+                },
+                {
+                  "path": "workflow/rules/envs_export.smk"
+                },
+                {
+                  "path": "workflow/rules/visualization.smk"
+                },
+                {
+                  "path": "workflow/scripts/clustification.py"
+                },
+                {
+                  "path": "workflow/scripts/clustree.R"
+                },
+                {
+                  "path": "workflow/scripts/distance_matrix.py"
+                },
+                {
+                  "path": "workflow/scripts/leiden_cluster.py"
+                },
+                {
+                  "path": "workflow/scripts/mcdm_topsis.py"
+                },
+                {
+                  "path": "workflow/scripts/pca.py"
+                },
+                {
+                  "path": "workflow/scripts/plot_2d.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_heatmap.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_indices.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_interactive.py"
+                },
+                {
+                  "path": "workflow/scripts/plot_pca.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_umap_connectivity.py"
+                },
+                {
+                  "path": "workflow/scripts/plot_umap_diagnostics.py"
+                },
+                {
+                  "path": "workflow/scripts/subset_data.py"
+                },
+                {
+                  "path": "workflow/scripts/umap_embed.py"
+                },
+                {
+                  "path": "workflow/scripts/umap_graph.py"
+                },
+                {
+                  "path": "workflow/scripts/validation_external.py"
+                },
+                {
+                  "path": "workflow/scripts/validation_internal.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 74,
+            "title": "Fix bug: umap not imported but used",
+            "state": "MERGED",
+            "createdAt": "2025-08-24T15:58:56Z",
+            "mergedAt": "2025-09-12T07:48:11Z",
+            "author": {
+              "login": "bednarsky"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "workflow/scripts/leiden_cluster.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 73,
+            "title": "Update environment to avoid bug #72",
+            "state": "MERGED",
+            "createdAt": "2025-07-02T13:02:58Z",
+            "mergedAt": "2025-07-02T14:59:35Z",
+            "author": {
+              "login": "bednarsky"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/envs/umap_leiden.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 72
+                }
+              ]
+            }
+          },
+          {
+            "number": 71,
+            "title": "improve-umap-colors-for-only-positive-values",
+            "state": "MERGED",
+            "createdAt": "2025-06-07T16:35:42Z",
+            "mergedAt": "2025-06-10T13:38:25Z",
+            "author": {
+              "login": "bednarsky"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/scripts/plot_2d.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 67,
+            "title": "Recommend smaller marker size for many datapoints",
+            "state": "CLOSED",
+            "createdAt": "2024-11-23T16:39:55Z",
+            "mergedAt": null,
+            "author": {
+              "login": "bednarsky"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/ggplot.yaml"
+                },
+                {
+                  "path": "workflow/scripts/distance_matrix.py"
+                },
+                {
+                  "path": "workflow/scripts/plot_heatmap.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 66
+                }
+              ]
+            }
+          },
+          {
+            "number": 65,
+            "title": "61 sanity check absence of special characters to make r happy",
+            "state": "CLOSED",
+            "createdAt": "2024-11-19T10:15:54Z",
+            "mergedAt": null,
+            "author": {
+              "login": "bednarsky"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 61
+                }
+              ]
+            }
+          },
+          {
+            "number": 64,
+            "title": "Give plot_heatmap always enough colors",
+            "state": "MERGED",
+            "createdAt": "2024-11-19T10:09:12Z",
+            "mergedAt": "2025-03-04T14:22:26Z",
+            "author": {
+              "login": "bednarsky"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/scripts/plot_heatmap.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 59
+                }
+              ]
+            }
+          },
+          {
+            "number": 63,
+            "title": "Avoid heatmap config default causing error",
+            "state": "MERGED",
+            "createdAt": "2024-11-19T10:02:44Z",
+            "mergedAt": "2025-03-04T14:21:09Z",
+            "author": {
+              "login": "bednarsky"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/scripts/distance_matrix.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 58
+                }
+              ]
+            }
+          },
+          {
+            "number": 62,
+            "title": "Fix stringi version",
+            "state": "MERGED",
+            "createdAt": "2024-11-19T09:59:06Z",
+            "mergedAt": "2025-03-04T14:19:40Z",
+            "author": {
+              "login": "bednarsky"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/envs/ggplot.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 57
+                }
+              ]
+            }
+          },
+          {
+            "number": 52,
+            "title": "Update leiden.yaml",
+            "state": "CLOSED",
+            "createdAt": "2024-06-16T04:32:10Z",
+            "mergedAt": null,
+            "author": {
+              "login": "JakeLehle"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/envs/leiden.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

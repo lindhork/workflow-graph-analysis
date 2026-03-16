@@ -1,0 +1,4463 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 243,
+            "title": "Error: Missing input files for rule all",
+            "state": "OPEN",
+            "createdAt": "2025-04-04T10:30:12Z",
+            "closedAt": null,
+            "author": {
+              "login": "SamueldelaCamaraFuentes"
+            }
+          },
+          {
+            "number": 240,
+            "title": "Error in rule setup_transfer_mods",
+            "state": "OPEN",
+            "createdAt": "2024-04-03T21:28:28Z",
+            "closedAt": null,
+            "author": {
+              "login": "trom2"
+            }
+          },
+          {
+            "number": 239,
+            "title": "Enable running Spritz with singularity",
+            "state": "OPEN",
+            "createdAt": "2023-09-13T21:27:23Z",
+            "closedAt": null,
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 237,
+            "title": "Error in rule make_gene_quant_dataframe_ref",
+            "state": "OPEN",
+            "createdAt": "2023-09-01T09:39:40Z",
+            "closedAt": null,
+            "author": {
+              "login": "animesh"
+            }
+          },
+          {
+            "number": 236,
+            "title": "Error in rule reorder_genome_fasta",
+            "state": "CLOSED",
+            "createdAt": "2023-08-29T17:36:51Z",
+            "closedAt": "2023-08-30T20:43:55Z",
+            "author": {
+              "login": "animesh"
+            }
+          },
+          {
+            "number": 232,
+            "title": "Error response from daemon: No such container: spritz-615926720",
+            "state": "CLOSED",
+            "createdAt": "2023-07-04T13:49:11Z",
+            "closedAt": "2023-08-12T23:18:26Z",
+            "author": {
+              "login": "animesh"
+            }
+          },
+          {
+            "number": 226,
+            "title": "Update uniprot URLs to rest.uniprot from legacy.uniprot",
+            "state": "OPEN",
+            "createdAt": "2022-09-06T00:35:20Z",
+            "closedAt": null,
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 224,
+            "title": "Using Arabidopsis sequences for tests instead of yeast",
+            "state": "OPEN",
+            "createdAt": "2022-02-19T00:27:20Z",
+            "closedAt": null,
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 222,
+            "title": "Conda/dotnet not properly detecting openssl within minimamba docker container; probable conda issue",
+            "state": "CLOSED",
+            "createdAt": "2021-10-06T13:51:15Z",
+            "closedAt": "2022-02-19T00:03:46Z",
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 221,
+            "title": "FragPipe-ready fasta headers and redundancy reduction",
+            "state": "OPEN",
+            "createdAt": "2021-08-24T08:59:41Z",
+            "closedAt": null,
+            "author": {
+              "login": "MiguelCos"
+            }
+          },
+          {
+            "number": 220,
+            "title": "Slight discrepancy in number of targets and decoys in `withdecoys.fasta` after mzLib decoy generation",
+            "state": "OPEN",
+            "createdAt": "2021-08-17T12:47:55Z",
+            "closedAt": null,
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 219,
+            "title": "Integration into snakepipes",
+            "state": "CLOSED",
+            "createdAt": "2021-08-09T11:15:30Z",
+            "closedAt": "2021-09-03T12:07:46Z",
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 218,
+            "title": "Simplifying version checks",
+            "state": "CLOSED",
+            "createdAt": "2021-08-06T10:53:15Z",
+            "closedAt": "2022-02-19T00:03:56Z",
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 216,
+            "title": "Option to generate separate databases for each input",
+            "state": "OPEN",
+            "createdAt": "2021-07-30T19:30:35Z",
+            "closedAt": null,
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 215,
+            "title": "Spritz crashing after command line execution (Ubuntu). Step 10.",
+            "state": "CLOSED",
+            "createdAt": "2021-07-30T08:42:57Z",
+            "closedAt": "2021-08-06T08:57:58Z",
+            "author": {
+              "login": "MiguelCos"
+            }
+          },
+          {
+            "number": 214,
+            "title": "gatk MarkDuplicates Exception in thread \"main\" java.lang.OutOfMemoryError: GC overhead limit exceeded",
+            "state": "CLOSED",
+            "createdAt": "2021-07-21T15:21:40Z",
+            "closedAt": "2021-08-17T15:18:57Z",
+            "author": {
+              "login": "Stanley80"
+            }
+          },
+          {
+            "number": 213,
+            "title": "Same issue as #199 with updated mzLib",
+            "state": "CLOSED",
+            "createdAt": "2021-05-28T01:05:17Z",
+            "closedAt": "2021-08-03T10:44:06Z",
+            "author": {
+              "login": "stsour"
+            }
+          },
+          {
+            "number": 212,
+            "title": "(1) \"Error waiting for container: invalid character 'u' looking for beginning of value\" (2) \"Could not execute because the application was not found or a compatible .NET SDK is not installed.\"",
+            "state": "CLOSED",
+            "createdAt": "2021-03-26T12:15:29Z",
+            "closedAt": "2021-08-10T14:22:28Z",
+            "author": {
+              "login": "animesh"
+            }
+          },
+          {
+            "number": 210,
+            "title": "Still running after five days of computation ",
+            "state": "CLOSED",
+            "createdAt": "2021-03-22T10:17:20Z",
+            "closedAt": "2021-04-06T09:55:51Z",
+            "author": {
+              "login": "Stanley80"
+            }
+          },
+          {
+            "number": 206,
+            "title": "Missing input files for rule fastp_fq",
+            "state": "CLOSED",
+            "createdAt": "2021-03-09T11:59:02Z",
+            "closedAt": "2021-03-09T13:33:29Z",
+            "author": {
+              "login": "puva"
+            }
+          },
+          {
+            "number": 205,
+            "title": "Worflow processing time",
+            "state": "CLOSED",
+            "createdAt": "2021-02-25T18:41:18Z",
+            "closedAt": "2021-03-18T15:52:18Z",
+            "author": {
+              "login": "mwfoster"
+            }
+          },
+          {
+            "number": 204,
+            "title": "Spritz execution stopped without error messages at step 15/47",
+            "state": "CLOSED",
+            "createdAt": "2021-02-15T10:29:01Z",
+            "closedAt": "2021-03-18T16:12:55Z",
+            "author": {
+              "login": "llniu"
+            }
+          },
+          {
+            "number": 203,
+            "title": "Error in rule build_transfer_mods",
+            "state": "CLOSED",
+            "createdAt": "2021-02-12T14:39:59Z",
+            "closedAt": "2021-02-15T10:29:39Z",
+            "author": {
+              "login": "llniu"
+            }
+          },
+          {
+            "number": 202,
+            "title": "Docker vs Nextflow",
+            "state": "OPEN",
+            "createdAt": "2021-02-01T16:21:58Z",
+            "closedAt": null,
+            "author": {
+              "login": "DrDee79"
+            }
+          },
+          {
+            "number": 201,
+            "title": "Error in rule reference_protein_xml",
+            "state": "CLOSED",
+            "createdAt": "2021-01-27T08:01:08Z",
+            "closedAt": "2021-03-18T16:15:10Z",
+            "author": {
+              "login": "animesh"
+            }
+          },
+          {
+            "number": 199,
+            "title": "Aborted execution on dotnet TransferUniProtModifications",
+            "state": "CLOSED",
+            "createdAt": "2021-01-14T14:43:53Z",
+            "closedAt": "2021-08-03T10:36:59Z",
+            "author": {
+              "login": "Stanley80"
+            }
+          },
+          {
+            "number": 198,
+            "title": "Aborted  snakemake execution  on command  dotnet TransferUniProtModifications/TransferUniProtModifications/bin/Release/netcoreapp3.1/TransferUniProtModifications.dll -x data/uniprot/Homo_sapiens.protein.xml.gz -y /mnt/datasets/spritz/variants/Homo_sapiens.GRCh38.100.protein.xml",
+            "state": "CLOSED",
+            "createdAt": "2021-01-14T14:42:55Z",
+            "closedAt": "2021-01-15T16:05:33Z",
+            "author": {
+              "login": "Stanley80"
+            }
+          },
+          {
+            "number": 195,
+            "title": "How to run Spritz on HPC environment and how to analyze single End RNAseqs",
+            "state": "CLOSED",
+            "createdAt": "2020-11-11T11:18:01Z",
+            "closedAt": "2021-04-06T09:58:34Z",
+            "author": {
+              "login": "okendojo"
+            }
+          },
+          {
+            "number": 194,
+            "title": "Allow RefSeq references to be used",
+            "state": "OPEN",
+            "createdAt": "2020-10-09T13:55:05Z",
+            "closedAt": null,
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 193,
+            "title": "Implement reference-free proteome generation",
+            "state": "OPEN",
+            "createdAt": "2020-10-09T13:29:57Z",
+            "closedAt": null,
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 192,
+            "title": "Use other delimiter for combining accessions, etc",
+            "state": "OPEN",
+            "createdAt": "2020-09-11T03:41:06Z",
+            "closedAt": null,
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 191,
+            "title": "Add support for single-end reads",
+            "state": "CLOSED",
+            "createdAt": "2020-08-27T22:00:42Z",
+            "closedAt": "2020-11-15T13:50:59Z",
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 190,
+            "title": "Possible to obtain the SnpEff version used in Spritz?",
+            "state": "CLOSED",
+            "createdAt": "2020-08-27T21:26:42Z",
+            "closedAt": "2021-03-18T16:19:33Z",
+            "author": {
+              "login": "finnbenned"
+            }
+          },
+          {
+            "number": 186,
+            "title": "Implement variant finding for species without reference VCF",
+            "state": "OPEN",
+            "createdAt": "2020-08-25T03:26:44Z",
+            "closedAt": null,
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 185,
+            "title": "Generating proteogenomic database for Pseudomonas with VCF called from WGS (or exome seq) data",
+            "state": "OPEN",
+            "createdAt": "2020-08-23T15:36:49Z",
+            "closedAt": null,
+            "author": {
+              "login": "animesh"
+            }
+          },
+          {
+            "number": 181,
+            "title": "Error running workflow",
+            "state": "CLOSED",
+            "createdAt": "2020-08-11T12:42:18Z",
+            "closedAt": "2020-08-14T15:07:07Z",
+            "author": {
+              "login": "finnbenned"
+            }
+          },
+          {
+            "number": 180,
+            "title": "Error running Spritz workflow (solved)",
+            "state": "CLOSED",
+            "createdAt": "2020-08-04T15:49:15Z",
+            "closedAt": "2021-03-18T16:19:45Z",
+            "author": {
+              "login": "MiguelCos"
+            }
+          },
+          {
+            "number": 178,
+            "title": "Images for wiki",
+            "state": "CLOSED",
+            "createdAt": "2020-06-26T17:44:31Z",
+            "closedAt": "2020-06-26T17:44:34Z",
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 172,
+            "title": "Fix SnpEff build in Docker container",
+            "state": "CLOSED",
+            "createdAt": "2020-05-29T19:06:40Z",
+            "closedAt": "2020-06-18T20:21:03Z",
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 171,
+            "title": "Update genomes.csv for Ensembl versions 98 and 99",
+            "state": "OPEN",
+            "createdAt": "2020-05-29T18:44:13Z",
+            "closedAt": null,
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 170,
+            "title": "Use multiqc to summarize FASTQC results",
+            "state": "CLOSED",
+            "createdAt": "2020-05-01T20:53:57Z",
+            "closedAt": "2020-08-25T17:17:21Z",
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 164,
+            "title": "Should we check for different codon tables in SnpEff when choosing a nonhuman species?",
+            "state": "OPEN",
+            "createdAt": "2019-11-16T01:50:25Z",
+            "closedAt": null,
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 163,
+            "title": "Need to allow for multiple species in download_uniprot_xml.py",
+            "state": "CLOSED",
+            "createdAt": "2019-11-16T01:49:41Z",
+            "closedAt": "2019-11-16T19:38:00Z",
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 158,
+            "title": " Could not find file common_all_20170710GRCh38.vcf",
+            "state": "CLOSED",
+            "createdAt": "2019-10-23T08:34:31Z",
+            "closedAt": "2020-07-09T09:43:38Z",
+            "author": {
+              "login": "animesh"
+            }
+          },
+          {
+            "number": 156,
+            "title": "Dependencies are wrong image type after changing to netstandard2.0",
+            "state": "CLOSED",
+            "createdAt": "2019-03-14T03:08:42Z",
+            "closedAt": "2019-08-04T04:12:39Z",
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 153,
+            "title": "Implement quantification at the end of the lncRNA discovery workflow",
+            "state": "CLOSED",
+            "createdAt": "2018-11-14T22:15:01Z",
+            "closedAt": "2020-04-27T18:05:08Z",
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 152,
+            "title": "Warn user that a UniProt XML makes the SampleSpecificDatabaseFlow more useful before saving",
+            "state": "CLOSED",
+            "createdAt": "2018-11-14T21:59:29Z",
+            "closedAt": "2020-06-11T04:51:01Z",
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 151,
+            "title": "Killing GUI should kill CMD process being run by EverythingRunner",
+            "state": "CLOSED",
+            "createdAt": "2018-11-14T09:46:28Z",
+            "closedAt": "2020-06-11T04:48:09Z",
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 150,
+            "title": "Remove Bio.VCF",
+            "state": "CLOSED",
+            "createdAt": "2018-11-14T09:27:34Z",
+            "closedAt": "2020-04-27T18:05:30Z",
+            "author": {
+              "login": "acesnik"
+            }
+          },
+          {
+            "number": 149,
+            "title": "TOML naming and save location",
+            "state": "CLOSED",
+            "createdAt": "2018-11-14T01:23:24Z",
+            "closedAt": "2020-06-11T04:47:45Z",
+            "author": {
+              "login": "acesnik"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 242,
+            "title": "update both versions",
+            "state": "MERGED",
+            "createdAt": "2024-06-19T17:14:55Z",
+            "mergedAt": "2024-06-19T17:15:03Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Spritz/SpritzBackend/RunnerEngine.cs"
+                },
+                {
+                  "path": "Spritz/SpritzInstaller/Product.wxs"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 241,
+            "title": "Update RunnerEngine.cs",
+            "state": "MERGED",
+            "createdAt": "2024-06-19T17:04:49Z",
+            "mergedAt": "2024-06-19T17:05:06Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Spritz/SpritzBackend/RunnerEngine.cs"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 238,
+            "title": "Update SummarizeQuantTab.py",
+            "state": "MERGED",
+            "createdAt": "2023-09-11T20:31:11Z",
+            "mergedAt": "2024-06-19T17:00:26Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Spritz/workflow/scripts/SummarizeQuantTab.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 235,
+            "title": "Fix version",
+            "state": "MERGED",
+            "createdAt": "2023-08-12T22:55:36Z",
+            "mergedAt": "2023-08-12T22:56:25Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Spritz/SpritzBackend/RunnerEngine.cs"
+                },
+                {
+                  "path": "Spritz/SpritzInstaller/Product.wxs"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 234,
+            "title": "Fix downloads (versioning fix)",
+            "state": "MERGED",
+            "createdAt": "2023-08-12T22:47:03Z",
+            "mergedAt": "2023-08-12T22:47:18Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Spritz/SpritzInstaller/Product.wxs"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 233,
+            "title": "Fix downloads",
+            "state": "MERGED",
+            "createdAt": "2023-08-12T21:04:19Z",
+            "mergedAt": "2023-08-12T21:31:31Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Spritz/SpritzBackend/EnsemblRelease.cs"
+                },
+                {
+                  "path": "Spritz/SpritzBackend/RunnerEngine.cs"
+                },
+                {
+                  "path": "Spritz/SpritzModifications/SpritzModifications.csproj"
+                },
+                {
+                  "path": "Spritz/SpritzTest/SpritzTest.csproj"
+                },
+                {
+                  "path": "Spritz/workflow/scripts/download_uniprot.py"
+                },
+                {
+                  "path": "Spritz/workflow/scripts/get_proteome.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 231,
+            "title": "Update actions versions",
+            "state": "MERGED",
+            "createdAt": "2023-03-11T01:11:58Z",
+            "mergedAt": "2023-03-11T01:51:09Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/build.yml"
+                },
+                {
+                  "path": ".github/workflows/release.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 230,
+            "title": "Update some version info",
+            "state": "CLOSED",
+            "createdAt": "2023-01-10T03:06:08Z",
+            "mergedAt": null,
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Spritz/SpritzBackend/SpritzBackend.csproj"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/SpritzGUI.csproj"
+                },
+                {
+                  "path": "Spritz/SpritzTest/SpritzTest.csproj"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 229,
+            "title": "Bump Newtonsoft.Json from 13.0.1 to 13.0.2 in /Spritz/SpritzGUI",
+            "state": "CLOSED",
+            "createdAt": "2022-12-08T15:46:58Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Spritz/SpritzBackend/SpritzBackend.csproj"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/SpritzGUI.csproj"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 228,
+            "title": "Bump Newtonsoft.Json from 13.0.1 to 13.0.2 in /Spritz/SpritzBackend",
+            "state": "CLOSED",
+            "createdAt": "2022-12-08T15:46:55Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Spritz/SpritzBackend/SpritzBackend.csproj"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 227,
+            "title": "use httpclient",
+            "state": "MERGED",
+            "createdAt": "2022-09-21T02:58:54Z",
+            "mergedAt": "2022-09-21T04:14:08Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Spritz/SpritzBackend/RunnerEngine.cs"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/SpritzUpdater.xaml.cs"
+                },
+                {
+                  "path": "Spritz/SpritzInstaller/Product.wxs"
+                },
+                {
+                  "path": "Spritz/SpritzTest/SpritzVersionTests.cs"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 225,
+            "title": "Update mzLib to fix issue downloading psimod",
+            "state": "MERGED",
+            "createdAt": "2022-09-05T22:24:47Z",
+            "mergedAt": "2022-09-06T00:33:52Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/build.yml"
+                },
+                {
+                  "path": ".github/workflows/release.yml"
+                },
+                {
+                  "path": "Spritz/Dockerfile"
+                },
+                {
+                  "path": "Spritz/SpritzBackend/RunnerEngine.cs"
+                },
+                {
+                  "path": "Spritz/SpritzBackend/SpritzBackend.csproj"
+                },
+                {
+                  "path": "Spritz/SpritzCMD/SpritzCMD.csproj"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/SpritzGUI.csproj"
+                },
+                {
+                  "path": "Spritz/SpritzInstaller/Product.wxs"
+                },
+                {
+                  "path": "Spritz/SpritzModifications/SpritzModifications.csproj"
+                },
+                {
+                  "path": "Spritz/SpritzTest/SpritzTest.csproj"
+                },
+                {
+                  "path": "Spritz/workflow/envs/dotnet_building.yaml"
+                },
+                {
+                  "path": "Spritz/workflow/envs/proteogenomics.yaml"
+                },
+                {
+                  "path": "Spritz/workflow/envs/spritzbase.yaml"
+                },
+                {
+                  "path": "Spritz/workflow/rules/common.smk"
+                },
+                {
+                  "path": "Spritz/workflow/scripts/download_uniprot.py"
+                },
+                {
+                  "path": "Spritz/workflow/scripts/get_proteome.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 223,
+            "title": "Fix docker build",
+            "state": "MERGED",
+            "createdAt": "2021-10-06T14:45:48Z",
+            "mergedAt": "2022-02-19T00:03:03Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/build.yml"
+                },
+                {
+                  "path": ".github/workflows/release.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "Spritz/Dockerfile"
+                },
+                {
+                  "path": "Spritz/SpritzBackend/RunnerEngine.cs"
+                },
+                {
+                  "path": "Spritz/SpritzTest/SpritzVersionTests.cs"
+                },
+                {
+                  "path": "Spritz/workflow/Snakefile"
+                },
+                {
+                  "path": "Spritz/workflow/config/config.yaml"
+                },
+                {
+                  "path": "Spritz/workflow/envs/proteogenomics.yaml"
+                },
+                {
+                  "path": "Spritz/workflow/envs/spritzbase.yaml"
+                },
+                {
+                  "path": "Spritz/workflow/rules/common.smk"
+                },
+                {
+                  "path": "Spritz/workflow/rules/proteogenomics.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 217,
+            "title": "Add quotes and equals characters to spritzmods commands",
+            "state": "MERGED",
+            "createdAt": "2021-08-04T19:04:03Z",
+            "mergedAt": "2021-08-04T19:38:32Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Spritz/SpritzBackend/RunnerEngine.cs"
+                },
+                {
+                  "path": "Spritz/workflow/config/config.yaml"
+                },
+                {
+                  "path": "Spritz/workflow/rules/common.smk"
+                },
+                {
+                  "path": "Spritz/workflow/rules/proteogenomics.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 211,
+            "title": "Isoform quantification & restructuring",
+            "state": "MERGED",
+            "createdAt": "2021-03-22T18:31:54Z",
+            "mergedAt": "2021-08-02T15:04:30Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/build.yml"
+                },
+                {
+                  "path": ".github/workflows/periodic.yml"
+                },
+                {
+                  "path": ".github/workflows/release.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".gitmodules"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Spritz/.dockerignore"
+                },
+                {
+                  "path": "Spritz/Dockerfile"
+                },
+                {
+                  "path": "Spritz/GUI/EverythingRunnerEngine.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Options.cs"
+                },
+                {
+                  "path": "Spritz/GUI/TreeViews/InRunTask.cs"
+                },
+                {
+                  "path": "Spritz/Snakefile"
+                },
+                {
+                  "path": "Spritz/SnpEff"
+                },
+                {
+                  "path": "Spritz/Spritz.sln"
+                },
+                {
+                  "path": "Spritz/SpritzBackend/EnsemblRelease.cs"
+                },
+                {
+                  "path": "Spritz/SpritzBackend/RunnerEngine.cs"
+                },
+                {
+                  "path": "Spritz/SpritzBackend/SpritzBackend.csproj"
+                },
+                {
+                  "path": "Spritz/SpritzBackend/SpritzException.cs"
+                },
+                {
+                  "path": "Spritz/SpritzBackend/SpritzOptionStrings.cs"
+                },
+                {
+                  "path": "Spritz/SpritzBackend/SpritzOptions.cs"
+                },
+                {
+                  "path": "Spritz/SpritzBackend/SpritzVersion.cs"
+                },
+                {
+                  "path": "Spritz/SpritzBackend/genomes.csv"
+                },
+                {
+                  "path": "Spritz/SpritzCMD/Properties/launchSettings.json"
+                },
+                {
+                  "path": "Spritz/SpritzCMD/Spritz.cs"
+                },
+                {
+                  "path": "Spritz/SpritzCMD/SpritzCMD.csproj"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/App.config"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/App.xaml"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/App.xaml.cs"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/DataGrids/RNASeqFastqDataGrid.cs"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/DataGrids/SRADataGrid.cs"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/MainWindow.xaml"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/MainWindow.xaml.cs"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/Properties/launchSettings.json"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/Spritz.ico"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/SpritzGUI.csproj"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/SpritzUpdater.xaml"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/SpritzUpdater.xaml.cs"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/TreeViews/CollectionForTreeView.cs"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/TreeViews/ForTreeView.cs"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/TreeViews/InRunTask.cs"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/TreeViews/OutputFileForTreeView.cs"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/TreeViews/PreRunTask.cs"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/WorkFlow.xaml"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/WorkFlow.xaml.cs"
+                },
+                {
+                  "path": "Spritz/SpritzGUI/packages.config"
+                },
+                {
+                  "path": "Spritz/SpritzInstaller/Product.wxs"
+                },
+                {
+                  "path": "Spritz/SpritzInstaller/Spritz.ico"
+                },
+                {
+                  "path": "Spritz/SpritzInstaller/SpritzInstaller.wixproj"
+                },
+                {
+                  "path": "Spritz/SpritzModifications/Properties/launchSettings.json"
+                },
+                {
+                  "path": "Spritz/SpritzModifications/ProteinAnnotation.cs"
+                },
+                {
+                  "path": "Spritz/SpritzModifications/SpritzModifications.cs"
+                },
+                {
+                  "path": "Spritz/SpritzModifications/SpritzModifications.csproj"
+                },
+                {
+                  "path": "Spritz/SpritzModifications/SpritzModsAppArguments.cs"
+                },
+                {
+                  "path": "Spritz/SpritzTest/SpritzModificationsTests.cs"
+                },
+                {
+                  "path": "Spritz/SpritzTest/SpritzTest.csproj"
+                },
+                {
+                  "path": "Spritz/SpritzTest/SpritzVersionTests.cs"
+                },
+                {
+                  "path": "Spritz/TransferUniProtModifications/TransferUniProtModifications.sln"
+                },
+                {
+                  "path": "Spritz/TransferUniProtModifications/TransferUniProtModifications/TransferUniProtModifications.csproj"
+                },
+                {
+                  "path": "Spritz/config.yaml"
+                },
+                {
+                  "path": "Spritz/configs/config.yaml"
+                },
+                {
+                  "path": "Spritz/environment.yaml"
+                },
+                {
+                  "path": "Spritz/rules/common.smk"
+                },
+                {
+                  "path": "Spritz/rules/downloads.smk"
+                },
+                {
+                  "path": "Spritz/rules/fusion.smk"
+                },
+                {
+                  "path": "Spritz/rules/quant.smk"
+                },
+                {
+                  "path": "Spritz/rules/testing.smk"
+                },
+                {
+                  "path": "Spritz/scripts/fix_gff3_for_rsem.py"
+                },
+                {
+                  "path": "Spritz/scripts/make_rsem_dataframe.py"
+                },
+                {
+                  "path": "Spritz/scripts/reorderFASTA.R"
+                },
+                {
+                  "path": "Spritz/start.sh"
+                },
+                {
+                  "path": "Spritz/workflow/Snakefile"
+                },
+                {
+                  "path": "Spritz/workflow/config/config.yaml"
+                },
+                {
+                  "path": "Spritz/workflow/envs/align.yaml"
+                },
+                {
+                  "path": "Spritz/workflow/envs/default.yaml"
+                },
+                {
+                  "path": "Spritz/workflow/envs/dotnet_building.yaml"
+                },
+                {
+                  "path": "Spritz/workflow/envs/downloads.yaml"
+                },
+                {
+                  "path": "Spritz/workflow/envs/isoforms.yaml"
+                },
+                {
+                  "path": "Spritz/workflow/envs/proteogenomics.yaml"
+                },
+                {
+                  "path": "Spritz/workflow/envs/quant.yaml"
+                },
+                {
+                  "path": "Spritz/workflow/envs/spritzbase.yaml"
+                },
+                {
+                  "path": "Spritz/workflow/envs/sra.yaml"
+                },
+                {
+                  "path": "Spritz/workflow/envs/variants.yaml"
+                },
+                {
+                  "path": "Spritz/workflow/rules/align.smk"
+                },
+                {
+                  "path": "Spritz/workflow/rules/common.smk"
+                },
+                {
+                  "path": "Spritz/workflow/rules/downloads.smk"
+                },
+                {
+                  "path": "Spritz/workflow/rules/isoforms.smk"
+                },
+                {
+                  "path": "Spritz/workflow/rules/proteogenomics.smk"
+                },
+                {
+                  "path": "Spritz/workflow/rules/quant.smk"
+                },
+                {
+                  "path": "Spritz/workflow/rules/variants.smk"
+                },
+                {
+                  "path": "Spritz/workflow/scripts/SummarizeQuantGtf.py"
+                },
+                {
+                  "path": "Spritz/workflow/scripts/SummarizeQuantTab.py"
+                },
+                {
+                  "path": "Spritz/workflow/scripts/clean_vcf.py"
+                },
+                {
+                  "path": "Spritz/workflow/scripts/convert_ensembl2ucsc.py"
+                },
+                {
+                  "path": "Spritz/workflow/scripts/convert_ucsc2ensembl.py"
+                },
+                {
+                  "path": "Spritz/workflow/scripts/download_uniprot.py"
+                },
+                {
+                  "path": "Spritz/workflow/scripts/filter_fasta.py"
+                },
+                {
+                  "path": "Spritz/workflow/scripts/get_proteome.py"
+                },
+                {
+                  "path": "Spritz/workflow/scripts/karyotypic_order.py"
+                },
+                {
+                  "path": "Spritz/workflow/scripts/prose.py"
+                },
+                {
+                  "path": "Spritz/workflow/scripts/simplify_gff3.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 209,
+            "title": "Use sra-tools 2.10.1 for prefetch/fastq-dump",
+            "state": "MERGED",
+            "createdAt": "2021-03-18T18:05:34Z",
+            "mergedAt": "2021-03-18T18:05:42Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Spritz/environment.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 208,
+            "title": "Add openssh to environment",
+            "state": "MERGED",
+            "createdAt": "2021-03-18T16:44:13Z",
+            "mergedAt": "2021-03-18T16:44:18Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Spritz/environment.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 207,
+            "title": "Improving download speed and setup",
+            "state": "MERGED",
+            "createdAt": "2021-03-18T15:49:30Z",
+            "mergedAt": "2021-03-18T15:51:13Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Spritz/Snakefile"
+                },
+                {
+                  "path": "Spritz/TransferUniProtModifications/TransferUniProtModifications/Properties/launchSettings.json"
+                },
+                {
+                  "path": "Spritz/TransferUniProtModifications/TransferUniProtModifications/TransferUniProtModifications.cs"
+                },
+                {
+                  "path": "Spritz/environment.yaml"
+                },
+                {
+                  "path": "Spritz/rules/align.smk"
+                },
+                {
+                  "path": "Spritz/rules/proteogenomics.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 200,
+            "title": "Update mzLib package",
+            "state": "MERGED",
+            "createdAt": "2021-01-21T19:00:37Z",
+            "mergedAt": "2021-01-31T20:09:48Z",
+            "author": {
+              "login": "rfellers"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Spritz/TransferUniProtModifications/TransferUniProtModifications/TransferUniProtModifications.cs"
+                },
+                {
+                  "path": "Spritz/TransferUniProtModifications/TransferUniProtModifications/TransferUniProtModifications.csproj"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 197,
+            "title": "Improve setup for restricted access servers",
+            "state": "MERGED",
+            "createdAt": "2020-11-16T19:07:46Z",
+            "mergedAt": "2020-11-16T19:19:01Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Spritz/Snakefile"
+                },
+                {
+                  "path": "Spritz/config.yaml"
+                },
+                {
+                  "path": "Spritz/environments/setup.yaml"
+                },
+                {
+                  "path": "Spritz/rules/common.smk"
+                },
+                {
+                  "path": "Spritz/rules/downloads.smk"
+                },
+                {
+                  "path": "Spritz/rules/proteogenomics.smk"
+                },
+                {
+                  "path": "Spritz/scripts/prose.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 196,
+            "title": "Improvements for deploying on HPC clusters; single-end sequencing support",
+            "state": "MERGED",
+            "createdAt": "2020-11-12T19:07:49Z",
+            "mergedAt": "2020-11-15T13:53:39Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Spritz/.dockerignore"
+                },
+                {
+                  "path": "Spritz/Dockerfile"
+                },
+                {
+                  "path": "Spritz/GUI/DataGrids/RNASeqFastqDataGrid.cs"
+                },
+                {
+                  "path": "Spritz/GUI/DataGrids/SRADataGrid.cs"
+                },
+                {
+                  "path": "Spritz/GUI/EverythingRunnerEngine.cs"
+                },
+                {
+                  "path": "Spritz/GUI/MainWindow.xaml"
+                },
+                {
+                  "path": "Spritz/GUI/MainWindow.xaml.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Options.cs"
+                },
+                {
+                  "path": "Spritz/GUI/SpritzUpdater.xaml.cs"
+                },
+                {
+                  "path": "Spritz/GUI/WorkFlow.xaml"
+                },
+                {
+                  "path": "Spritz/GUI/WorkFlow.xaml.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/GtfSharp.sln"
+                },
+                {
+                  "path": "Spritz/GtfSharp/GtfSharp/GtfSharp.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/GtfSharp/GtfSharp.csproj"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/CodonExtensions.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/CodonsStandard.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/CodonsVertebrateMitochondrial.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/FastqProperties.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/GeneModel.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/IntervalTree/IntervalForest.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/IntervalTree/IntervalNode.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/IntervalTree/IntervalTree.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/CDS.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Chromosome.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Downstream.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Exon.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Gene.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Genome.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Intergenic.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Interval.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/IntervalSequence.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Intron.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Transcript.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/UTR.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/UTR3Prime.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/UTR5Prime.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Upstream.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Proteogenomics.csproj"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/ProteogenomicsUtility.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Translation.cs"
+                },
+                {
+                  "path": "Spritz/Snakefile"
+                },
+                {
+                  "path": "Spritz/TransferUniProtModifications/TransferUniProtModifications/TransferUniProtModifications.csproj"
+                },
+                {
+                  "path": "Spritz/config.yaml"
+                },
+                {
+                  "path": "Spritz/environment.yaml"
+                },
+                {
+                  "path": "Spritz/rules/align.smk"
+                },
+                {
+                  "path": "Spritz/rules/common.smk"
+                },
+                {
+                  "path": "Spritz/rules/downloads.smk"
+                },
+                {
+                  "path": "Spritz/rules/fusion.smk"
+                },
+                {
+                  "path": "Spritz/rules/isoforms.smk"
+                },
+                {
+                  "path": "Spritz/rules/proteogenomics.smk"
+                },
+                {
+                  "path": "Spritz/rules/quant.smk"
+                },
+                {
+                  "path": "Spritz/rules/testing.smk"
+                },
+                {
+                  "path": "Spritz/rules/variants.smk"
+                },
+                {
+                  "path": "Spritz/scripts/prose.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 189,
+            "title": "Autoupdaterfix",
+            "state": "MERGED",
+            "createdAt": "2020-08-26T02:59:54Z",
+            "mergedAt": "2020-08-26T03:00:18Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Spritz/GUI/MainWindow.xaml.cs"
+                },
+                {
+                  "path": "Spritz/GUI/SpritzUpdater.xaml.cs"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 188,
+            "title": "Installer fix",
+            "state": "MERGED",
+            "createdAt": "2020-08-26T02:43:09Z",
+            "mergedAt": "2020-08-26T02:46:47Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Spritz/GUI/MainWindow.xaml.cs"
+                },
+                {
+                  "path": "Spritz/SpritzInstaller/Product.wxs"
+                },
+                {
+                  "path": "Spritz/rules/proteogenomics.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 187,
+            "title": "Add Installer, Stability Improvements for GUI, Use Speedier Tools",
+            "state": "MERGED",
+            "createdAt": "2020-08-25T06:39:54Z",
+            "mergedAt": "2020-08-25T17:16:39Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Spritz/Dockerfile"
+                },
+                {
+                  "path": "Spritz/GUI/App.xaml"
+                },
+                {
+                  "path": "Spritz/GUI/DataGrids/RNASeqFastqDataGrid.cs"
+                },
+                {
+                  "path": "Spritz/GUI/DataGrids/SRADataGrid.cs"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblRelease.cs"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-81.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-82.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-83.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-84.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-85.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-86.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-87.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-88.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-89.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-90.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-91.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-92.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-93.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-94.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-95.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-96.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-97.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EverythingRunnerEngine.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Fastq2ProteinsWFWindows.xaml"
+                },
+                {
+                  "path": "Spritz/GUI/Fastq2ProteinsWFWindows.xaml.cs"
+                },
+                {
+                  "path": "Spritz/GUI/MainWindow.xaml"
+                },
+                {
+                  "path": "Spritz/GUI/MainWindow.xaml.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Options.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Properties/AssemblyInfo.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Properties/Resources.Designer.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Properties/Resources.resx"
+                },
+                {
+                  "path": "Spritz/GUI/Properties/Settings.Designer.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Properties/Settings.settings"
+                },
+                {
+                  "path": "Spritz/GUI/Spritz.csproj"
+                },
+                {
+                  "path": "Spritz/GUI/SpritzException.cs"
+                },
+                {
+                  "path": "Spritz/GUI/SpritzGUI.csproj"
+                },
+                {
+                  "path": "Spritz/GUI/SpritzUpdater.xaml"
+                },
+                {
+                  "path": "Spritz/GUI/SpritzUpdater.xaml.cs"
+                },
+                {
+                  "path": "Spritz/GUI/TreeViews/CollectionForTreeView.cs"
+                },
+                {
+                  "path": "Spritz/GUI/TreeViews/ForTreeView.cs"
+                },
+                {
+                  "path": "Spritz/GUI/TreeViews/InRunTask.cs"
+                },
+                {
+                  "path": "Spritz/GUI/TreeViews/OutputFileForTreeView.cs"
+                },
+                {
+                  "path": "Spritz/GUI/TreeViews/PreRunTask.cs"
+                },
+                {
+                  "path": "Spritz/GUI/WorkFlow.xaml"
+                },
+                {
+                  "path": "Spritz/GUI/WorkFlow.xaml.cs"
+                },
+                {
+                  "path": "Spritz/GUI/genomes.csv"
+                },
+                {
+                  "path": "Spritz/GUI/packages.config"
+                },
+                {
+                  "path": "Spritz/Snakefile"
+                },
+                {
+                  "path": "Spritz/Spritz.sln"
+                },
+                {
+                  "path": "Spritz/SpritzInstaller/Maintenance.wxs"
+                },
+                {
+                  "path": "Spritz/SpritzInstaller/Product.wxs"
+                },
+                {
+                  "path": "Spritz/SpritzInstaller/ShortcutOptions.wxs"
+                },
+                {
+                  "path": "Spritz/SpritzInstaller/SpritzInstaller.wixproj"
+                },
+                {
+                  "path": "Spritz/TransferUniProtModifications/TransferUniProtModifications/Properties/launchSettings.json"
+                },
+                {
+                  "path": "Spritz/TransferUniProtModifications/TransferUniProtModifications/ProteinAnnotation.cs"
+                },
+                {
+                  "path": "Spritz/TransferUniProtModifications/TransferUniProtModifications/TransferUniProtModifications.cs"
+                },
+                {
+                  "path": "Spritz/config.yaml"
+                },
+                {
+                  "path": "Spritz/environment.yaml"
+                },
+                {
+                  "path": "Spritz/rules/align.smk"
+                },
+                {
+                  "path": "Spritz/rules/downloads.smk"
+                },
+                {
+                  "path": "Spritz/rules/isoforms.smk"
+                },
+                {
+                  "path": "Spritz/rules/proteogenomics.smk"
+                },
+                {
+                  "path": "Spritz/rules/qc.smk"
+                },
+                {
+                  "path": "Spritz/rules/testing.smk"
+                },
+                {
+                  "path": "Spritz/rules/variants.smk"
+                },
+                {
+                  "path": "Spritz/scripts/__pycache__/get_proteome.cpython-36.pyc"
+                },
+                {
+                  "path": "Spritz/scripts/convert_ensembl2ucsc.py"
+                },
+                {
+                  "path": "Spritz/scripts/convert_ucsc2ensembl.py"
+                },
+                {
+                  "path": "Spritz/scripts/download_ensembl.py"
+                },
+                {
+                  "path": "Spritz/scripts/download_protein_xml.py"
+                },
+                {
+                  "path": "Spritz/scripts/download_uniprot.py"
+                },
+                {
+                  "path": "Spritz/scripts/prose.py"
+                },
+                {
+                  "path": "Spritz/scripts/reorderFASTA.R"
+                },
+                {
+                  "path": "Spritz/scripts/simplify_gff3.py"
+                },
+                {
+                  "path": "Spritz/start.sh"
+                },
+                {
+                  "path": "Spritz/validate.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 184,
+            "title": "remove maven and add unzip",
+            "state": "MERGED",
+            "createdAt": "2020-08-13T17:37:07Z",
+            "mergedAt": "2020-08-13T17:56:05Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Spritz/environment.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 183,
+            "title": "Simplify custom SnpEff installation",
+            "state": "MERGED",
+            "createdAt": "2020-08-12T20:29:36Z",
+            "mergedAt": "2020-08-12T20:30:47Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Spritz/rules/variants.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 182,
+            "title": "Installer, stability improvements, speedup",
+            "state": "CLOSED",
+            "createdAt": "2020-08-12T04:26:15Z",
+            "mergedAt": null,
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Spritz/Dockerfile"
+                },
+                {
+                  "path": "Spritz/GUI/App.xaml"
+                },
+                {
+                  "path": "Spritz/GUI/DataGrids/RNASeqFastqDataGrid.cs"
+                },
+                {
+                  "path": "Spritz/GUI/DataGrids/SRADataGrid.cs"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblRelease.cs"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-81.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-82.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-83.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-84.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-85.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-86.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-87.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-88.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-89.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-90.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-91.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-92.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-93.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-94.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-95.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-96.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-97.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EverythingRunnerEngine.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Fastq2ProteinsWFWindows.xaml"
+                },
+                {
+                  "path": "Spritz/GUI/Fastq2ProteinsWFWindows.xaml.cs"
+                },
+                {
+                  "path": "Spritz/GUI/MainWindow.xaml"
+                },
+                {
+                  "path": "Spritz/GUI/MainWindow.xaml.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Options.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Properties/AssemblyInfo.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Properties/Resources.Designer.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Properties/Resources.resx"
+                },
+                {
+                  "path": "Spritz/GUI/Properties/Settings.Designer.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Properties/Settings.settings"
+                },
+                {
+                  "path": "Spritz/GUI/Spritz.csproj"
+                },
+                {
+                  "path": "Spritz/GUI/SpritzException.cs"
+                },
+                {
+                  "path": "Spritz/GUI/SpritzGUI.csproj"
+                },
+                {
+                  "path": "Spritz/GUI/SpritzUpdater.xaml"
+                },
+                {
+                  "path": "Spritz/GUI/SpritzUpdater.xaml.cs"
+                },
+                {
+                  "path": "Spritz/GUI/TreeViews/CollectionForTreeView.cs"
+                },
+                {
+                  "path": "Spritz/GUI/TreeViews/ForTreeView.cs"
+                },
+                {
+                  "path": "Spritz/GUI/TreeViews/InRunTask.cs"
+                },
+                {
+                  "path": "Spritz/GUI/TreeViews/OutputFileForTreeView.cs"
+                },
+                {
+                  "path": "Spritz/GUI/TreeViews/PreRunTask.cs"
+                },
+                {
+                  "path": "Spritz/GUI/WorkFlow.xaml"
+                },
+                {
+                  "path": "Spritz/GUI/WorkFlow.xaml.cs"
+                },
+                {
+                  "path": "Spritz/GUI/genomes.csv"
+                },
+                {
+                  "path": "Spritz/GUI/packages.config"
+                },
+                {
+                  "path": "Spritz/Snakefile"
+                },
+                {
+                  "path": "Spritz/Spritz.sln"
+                },
+                {
+                  "path": "Spritz/SpritzInstaller/Maintenance.wxs"
+                },
+                {
+                  "path": "Spritz/SpritzInstaller/Product.wxs"
+                },
+                {
+                  "path": "Spritz/SpritzInstaller/ShortcutOptions.wxs"
+                },
+                {
+                  "path": "Spritz/SpritzInstaller/SpritzInstaller.wixproj"
+                },
+                {
+                  "path": "Spritz/TransferUniProtModifications/TransferUniProtModifications/Properties/launchSettings.json"
+                },
+                {
+                  "path": "Spritz/TransferUniProtModifications/TransferUniProtModifications/ProteinAnnotation.cs"
+                },
+                {
+                  "path": "Spritz/TransferUniProtModifications/TransferUniProtModifications/TransferUniProtModifications.cs"
+                },
+                {
+                  "path": "Spritz/config.yaml"
+                },
+                {
+                  "path": "Spritz/environment.yaml"
+                },
+                {
+                  "path": "Spritz/rules/align.smk"
+                },
+                {
+                  "path": "Spritz/rules/downloads.smk"
+                },
+                {
+                  "path": "Spritz/rules/isoforms.smk"
+                },
+                {
+                  "path": "Spritz/rules/proteogenomics.smk"
+                },
+                {
+                  "path": "Spritz/rules/qc.smk"
+                },
+                {
+                  "path": "Spritz/rules/testing.smk"
+                },
+                {
+                  "path": "Spritz/rules/variants.smk"
+                },
+                {
+                  "path": "Spritz/scripts/__pycache__/get_proteome.cpython-36.pyc"
+                },
+                {
+                  "path": "Spritz/scripts/convert_ensembl2ucsc.py"
+                },
+                {
+                  "path": "Spritz/scripts/convert_ucsc2ensembl.py"
+                },
+                {
+                  "path": "Spritz/scripts/download_ensembl.py"
+                },
+                {
+                  "path": "Spritz/scripts/download_protein_xml.py"
+                },
+                {
+                  "path": "Spritz/scripts/download_uniprot.py"
+                },
+                {
+                  "path": "Spritz/scripts/prose.py"
+                },
+                {
+                  "path": "Spritz/scripts/reorderFASTA.R"
+                },
+                {
+                  "path": "Spritz/scripts/simplify_gff3.py"
+                },
+                {
+                  "path": "Spritz/start.sh"
+                },
+                {
+                  "path": "Spritz/validate.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 179,
+            "title": "Improvements to output monitoring",
+            "state": "MERGED",
+            "createdAt": "2020-06-28T21:11:21Z",
+            "mergedAt": "2020-06-28T21:11:36Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Spritz/.dockerignore"
+                },
+                {
+                  "path": "Spritz/Dockerfile"
+                },
+                {
+                  "path": "Spritz/GUI/App.config"
+                },
+                {
+                  "path": "Spritz/GUI/App.xaml"
+                },
+                {
+                  "path": "Spritz/GUI/App.xaml.cs"
+                },
+                {
+                  "path": "Spritz/GUI/DataGrids/RNASeqFastqDataGrid.cs"
+                },
+                {
+                  "path": "Spritz/GUI/DataGrids/SRADataGrid.cs"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-81.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-82.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-83.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-84.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-85.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-86.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-87.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-88.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-89.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-90.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-91.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-92.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-93.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-94.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-95.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-96.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EnsemblReleases/release-97.txt"
+                },
+                {
+                  "path": "Spritz/GUI/EverythingRunnerEngine.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Fastq2ProteinsWFWindows.xaml"
+                },
+                {
+                  "path": "Spritz/GUI/Fastq2ProteinsWFWindows.xaml.cs"
+                },
+                {
+                  "path": "Spritz/GUI/MainWindow.xaml"
+                },
+                {
+                  "path": "Spritz/GUI/MainWindow.xaml.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Options.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Properties/AssemblyInfo.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Properties/Resources.Designer.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Properties/Resources.resx"
+                },
+                {
+                  "path": "Spritz/GUI/Properties/Settings.Designer.cs"
+                },
+                {
+                  "path": "Spritz/GUI/Properties/Settings.settings"
+                },
+                {
+                  "path": "Spritz/GUI/Spritz.ico"
+                },
+                {
+                  "path": "Spritz/GUI/SpritzGUI.csproj"
+                },
+                {
+                  "path": "Spritz/GUI/TreeViews/CollectionForTreeView.cs"
+                },
+                {
+                  "path": "Spritz/GUI/TreeViews/ForTreeView.cs"
+                },
+                {
+                  "path": "Spritz/GUI/TreeViews/InRunTask.cs"
+                },
+                {
+                  "path": "Spritz/GUI/TreeViews/OutputFileForTreeView.cs"
+                },
+                {
+                  "path": "Spritz/GUI/TreeViews/PreRunTask.cs"
+                },
+                {
+                  "path": "Spritz/GUI/WorkFlow.xaml"
+                },
+                {
+                  "path": "Spritz/GUI/WorkFlow.xaml.cs"
+                },
+                {
+                  "path": "Spritz/GUI/genomes.csv"
+                },
+                {
+                  "path": "Spritz/GUI/packages.config"
+                },
+                {
+                  "path": "Spritz/GtfSharp/GtfSharp.sln"
+                },
+                {
+                  "path": "Spritz/GtfSharp/GtfSharp/GtfSharp.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/GtfSharp/GtfSharp.csproj"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/CodonExtensions.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/CodonsStandard.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/CodonsVertebrateMitochondrial.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/FastqProperties.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/GeneModel.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/IntervalTree/IntervalForest.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/IntervalTree/IntervalNode.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/IntervalTree/IntervalTree.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/CDS.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Chromosome.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Downstream.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Exon.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Gene.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Genome.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Intergenic.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Interval.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/IntervalSequence.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Intron.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Transcript.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/UTR.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/UTR3Prime.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/UTR5Prime.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Intervals/Upstream.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Proteogenomics.csproj"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/ProteogenomicsUtility.cs"
+                },
+                {
+                  "path": "Spritz/GtfSharp/Proteogenomics/Translation.cs"
+                },
+                {
+                  "path": "Spritz/Snakefile"
+                },
+                {
+                  "path": "Spritz/Spritz.sln"
+                },
+                {
+                  "path": "Spritz/TransferUniProtModifications/TransferUniProtModifications.sln"
+                },
+                {
+                  "path": "Spritz/TransferUniProtModifications/TransferUniProtModifications/ProteinAnnotation.cs"
+                },
+                {
+                  "path": "Spritz/TransferUniProtModifications/TransferUniProtModifications/TransferUniProtModifications.cs"
+                },
+                {
+                  "path": "Spritz/TransferUniProtModifications/TransferUniProtModifications/TransferUniProtModifications.csproj"
+                },
+                {
+                  "path": "Spritz/config.yaml"
+                },
+                {
+                  "path": "Spritz/configs/config.yaml"
+                },
+                {
+                  "path": "Spritz/environment.yaml"
+                },
+                {
+                  "path": "Spritz/rules/align.smk"
+                },
+                {
+                  "path": "Spritz/rules/downloads.smk"
+                },
+                {
+                  "path": "Spritz/rules/fusion.smk"
+                },
+                {
+                  "path": "Spritz/rules/isoforms.smk"
+                },
+                {
+                  "path": "Spritz/rules/proteogenomics.smk"
+                },
+                {
+                  "path": "Spritz/rules/qc.smk"
+                },
+                {
+                  "path": "Spritz/rules/quant.smk"
+                },
+                {
+                  "path": "Spritz/rules/variants.smk"
+                },
+                {
+                  "path": "Spritz/scripts/__pycache__/get_proteome.cpython-36.pyc"
+                },
+                {
+                  "path": "Spritz/scripts/clean_vcf.py"
+                },
+                {
+                  "path": "Spritz/scripts/convert_ucsc2ensembl.py"
+                },
+                {
+                  "path": "Spritz/scripts/download_ensembl.py"
+                },
+                {
+                  "path": "Spritz/scripts/download_protein_xml.py"
+                },
+                {
+                  "path": "Spritz/scripts/download_xml.py"
+                },
+                {
+                  "path": "Spritz/scripts/filter_fasta.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 177,
+            "title": "change to using http for downloads",
+            "state": "MERGED",
+            "createdAt": "2020-06-25T19:34:55Z",
+            "mergedAt": "2020-06-25T19:35:04Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "rules/downloads.smk"
+                },
+                {
+                  "path": "scripts/download_ensembl.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 176,
+            "title": "Fix #2 for fastqs",
+            "state": "MERGED",
+            "createdAt": "2020-06-18T19:44:24Z",
+            "mergedAt": "2020-06-18T19:46:23Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "rules/qc.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 175,
+            "title": "simplify vcf cleanup",
+            "state": "MERGED",
+            "createdAt": "2020-06-10T17:47:57Z",
+            "mergedAt": "2020-06-10T17:48:18Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "rules/downloads.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 174,
+            "title": "add icon and stop container after run",
+            "state": "MERGED",
+            "createdAt": "2020-06-09T21:43:33Z",
+            "mergedAt": "2020-06-09T21:43:45Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "GUI/EverythingRunnerEngine.cs"
+                },
+                {
+                  "path": "GUI/MainWindow.xaml.cs"
+                },
+                {
+                  "path": "GUI/Spritz.ico"
+                },
+                {
+                  "path": "GUI/SpritzGUI.csproj"
+                },
+                {
+                  "path": "GUI/WorkFlow.xaml"
+                },
+                {
+                  "path": "GUI/WorkFlow.xaml.cs"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 173,
+            "title": "snpeff issue and other bugs",
+            "state": "MERGED",
+            "createdAt": "2020-06-01T16:41:23Z",
+            "mergedAt": "2020-06-03T19:02:12Z",
+            "author": {
+              "login": "bintiibrahim"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "GUI/EnsemblReleases/release-98.txt"
+                },
+                {
+                  "path": "GUI/EverythingRunnerEngine.cs"
+                },
+                {
+                  "path": "GUI/MainWindow.xaml.cs"
+                },
+                {
+                  "path": "GUI/SpritzGUI.csproj"
+                },
+                {
+                  "path": "GUI/WorkFlow.xaml"
+                },
+                {
+                  "path": "rules/downloads.smk"
+                },
+                {
+                  "path": "rules/qc.smk"
+                },
+                {
+                  "path": "rules/variants.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 169,
+            "title": "Organism Annotation Bug Fix",
+            "state": "MERGED",
+            "createdAt": "2020-02-07T16:55:14Z",
+            "mergedAt": "2020-02-07T23:43:14Z",
+            "author": {
+              "login": "rmmiller22"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "TransferUniProtModifications/TransferUniProtModifications/ProteinAnnotation.cs"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 168,
+            "title": "fixed some bugs when merged conflicts",
+            "state": "MERGED",
+            "createdAt": "2019-11-21T22:02:11Z",
+            "mergedAt": "2020-05-11T22:15:57Z",
+            "author": {
+              "login": "bintiibrahim"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitattributes"
+                },
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "GUI/EverythingRunnerEngine.cs"
+                },
+                {
+                  "path": "GUI/MainWindow.xaml.cs"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "clean.sh"
+                },
+                {
+                  "path": "rules/downloads.smk"
+                },
+                {
+                  "path": "rules/isoforms.smk"
+                },
+                {
+                  "path": "rules/proteogenomics.smk"
+                },
+                {
+                  "path": "rules/variants.smk"
+                },
+                {
+                  "path": "scripts/clean_vcf.py"
+                },
+                {
+                  "path": "scripts/convert_ucsc2ensembl.py"
+                },
+                {
+                  "path": "start.sh"
+                },
+                {
+                  "path": "validate.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 167,
+            "title": "typos in docheck",
+            "state": "MERGED",
+            "createdAt": "2019-11-21T20:57:45Z",
+            "mergedAt": "2019-11-21T21:07:02Z",
+            "author": {
+              "login": "bintiibrahim"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "rules/align.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 166,
+            "title": "add dockerfile and edited fusion and quant",
+            "state": "MERGED",
+            "createdAt": "2019-11-19T22:40:32Z",
+            "mergedAt": "2019-11-19T23:24:37Z",
+            "author": {
+              "login": "bintiibrahim"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "rules/fusion.smk"
+                },
+                {
+                  "path": "rules/isoforms.smk"
+                },
+                {
+                  "path": "rules/quant.smk"
+                },
+                {
+                  "path": "rules/variants.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 165,
+            "title": "clean up the C# code",
+            "state": "MERGED",
+            "createdAt": "2019-11-16T01:57:48Z",
+            "mergedAt": "2019-11-20T00:09:19Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CMD/CMD.csproj"
+                },
+                {
+                  "path": "CMD/Spritz.cs"
+                },
+                {
+                  "path": "CMDOptions/CMDOptions.csproj"
+                },
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "GUI/EnsemblReleases/release-81.txt"
+                },
+                {
+                  "path": "GUI/EnsemblReleases/release-82.txt"
+                },
+                {
+                  "path": "GUI/EnsemblReleases/release-83.txt"
+                },
+                {
+                  "path": "GUI/EnsemblReleases/release-84.txt"
+                },
+                {
+                  "path": "GUI/EnsemblReleases/release-85.txt"
+                },
+                {
+                  "path": "GUI/EnsemblReleases/release-86.txt"
+                },
+                {
+                  "path": "GUI/EnsemblReleases/release-87.txt"
+                },
+                {
+                  "path": "GUI/EnsemblReleases/release-88.txt"
+                },
+                {
+                  "path": "GUI/EnsemblReleases/release-89.txt"
+                },
+                {
+                  "path": "GUI/EnsemblReleases/release-90.txt"
+                },
+                {
+                  "path": "GUI/EnsemblReleases/release-91.txt"
+                },
+                {
+                  "path": "GUI/EnsemblReleases/release-92.txt"
+                },
+                {
+                  "path": "GUI/EnsemblReleases/release-93.txt"
+                },
+                {
+                  "path": "GUI/EnsemblReleases/release-94.txt"
+                },
+                {
+                  "path": "GUI/EnsemblReleases/release-95.txt"
+                },
+                {
+                  "path": "GUI/EnsemblReleases/release-96.txt"
+                },
+                {
+                  "path": "GUI/EnsemblReleases/release-97.txt"
+                },
+                {
+                  "path": "GUI/EnsemblReleases/release-98.txt"
+                },
+                {
+                  "path": "GUI/EverythingRunnerEngine.cs"
+                },
+                {
+                  "path": "GUI/InstallWindow.xaml"
+                },
+                {
+                  "path": "GUI/InstallWindow.xaml.cs"
+                },
+                {
+                  "path": "GUI/MainWindow.xaml"
+                },
+                {
+                  "path": "GUI/MainWindow.xaml.cs"
+                },
+                {
+                  "path": "GUI/Options.cs"
+                },
+                {
+                  "path": "GUI/SpritzGUI.csproj"
+                },
+                {
+                  "path": "GUI/TreeViews/InRunTask.cs"
+                },
+                {
+                  "path": "GUI/TreeViews/PreRunTask.cs"
+                },
+                {
+                  "path": "GUI/WorkFlow.xaml.cs"
+                },
+                {
+                  "path": "GUI/genomes.csv"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "Spritz.sln"
+                },
+                {
+                  "path": "Test/A549_sample.vcf"
+                },
+                {
+                  "path": "Test/IndependentWrapperTests.cs"
+                },
+                {
+                  "path": "Test/Properties/AssemblyInfo.cs"
+                },
+                {
+                  "path": "Test/ProteinAnnotationTests.cs"
+                },
+                {
+                  "path": "Test/Test.csproj"
+                },
+                {
+                  "path": "Test/TestData/Homo_sapiens_202022.xml.gz"
+                },
+                {
+                  "path": "Test/TestData/SRR791578_hg19_Chimeric.out.junction"
+                },
+                {
+                  "path": "Test/TestData/UtrProblem/gene.gtf"
+                },
+                {
+                  "path": "Test/TestData/UtrProblem/vcf.vcf"
+                },
+                {
+                  "path": "Test/TestData/chr1_one_fake_transcript.gtf"
+                },
+                {
+                  "path": "Test/TestData/chr1_one_fake_transcript_little_exon.gtf"
+                },
+                {
+                  "path": "Test/TestData/chr1_one_transcript.gtf"
+                },
+                {
+                  "path": "Test/TestData/chr1_one_transcript_reverse.gtf"
+                },
+                {
+                  "path": "Test/TestData/chr1_sample.fa"
+                },
+                {
+                  "path": "Test/TestData/headersShort.fa"
+                },
+                {
+                  "path": "Test/TestData/paired_end.bam"
+                },
+                {
+                  "path": "Test/TestData/read1-trimmed-pair1_STARtmp/Chimeric.out.junction.thread0"
+                },
+                {
+                  "path": "Test/TestData/read1-trimmed-pair1_STARtmp/Chimeric.out.junction.thread1"
+                },
+                {
+                  "path": "Test/TestData/read1-trimmed-pair1_STARtmp/Chimeric.out.junction.thread2"
+                },
+                {
+                  "path": "Test/TestData/read1-trimmed-pair1_STARtmp/Chimeric.out.junction.thread3"
+                },
+                {
+                  "path": "Test/TestData/read1-trimmed-pair1_STARtmp/Chimeric.out.sam.thread0"
+                },
+                {
+                  "path": "Test/TestData/read1-trimmed-pair1_STARtmp/Chimeric.out.sam.thread1"
+                },
+                {
+                  "path": "Test/TestData/read1-trimmed-pair1_STARtmp/Chimeric.out.sam.thread2"
+                },
+                {
+                  "path": "Test/TestData/read1-trimmed-pair1_STARtmp/Chimeric.out.sam.thread3"
+                },
+                {
+                  "path": "Test/TestData/sample_gff.gff3"
+                },
+                {
+                  "path": "Test/TestData/sample_gtf.gtf"
+                },
+                {
+                  "path": "Test/TestData/sample_gtf_strandProblem.gtf"
+                },
+                {
+                  "path": "Test/TestData/sample_pacbio.gff3"
+                },
+                {
+                  "path": "Test/TestData/test_ensembl.pep.all.fasta"
+                },
+                {
+                  "path": "Test/TestData/xml2.xml"
+                },
+                {
+                  "path": "Test/TestFastqs/2000reads_1.fastq"
+                },
+                {
+                  "path": "Test/TestFastqs/2000reads_2.fastq"
+                },
+                {
+                  "path": "Test/TestFastqs/mapper0.fastq"
+                },
+                {
+                  "path": "Test/TestFastqs/mapper1.fastq"
+                },
+                {
+                  "path": "Test/TestFastqs/mapper2.fastq"
+                },
+                {
+                  "path": "Test/TestFastqs/mapper3.fastq"
+                },
+                {
+                  "path": "Test/TestFastqs/mapperCompressed.fastq.gz"
+                },
+                {
+                  "path": "Test/TestFastqs/mapper_chr22indelRegion.fastq"
+                },
+                {
+                  "path": "Test/TestFastqs/read1.fastq"
+                },
+                {
+                  "path": "Test/TestFastqs/read1.fastq.gz"
+                },
+                {
+                  "path": "Test/TestFastqs/read2.fastq"
+                },
+                {
+                  "path": "Test/TestFastqs/read2.fastq.gz"
+                },
+                {
+                  "path": "Test/TestVcfs/aFewNearby.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/chr1Ucsc.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/chr_1_one_100000.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/chr_1_one_100001.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/chr_1_one_400000.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/chr_1_one_400001.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/chr_1_one_99999.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/coding1.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/coding2.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/frameshift1.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/inframe1.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/inframe2.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/tonsFarApart.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/tonsNearby.vcf"
+                },
+                {
+                  "path": "Test/WrapperIntegrationTests.cs"
+                },
+                {
+                  "path": "Test/chr_1_one_heterozygous_missense - Copy.vcf"
+                },
+                {
+                  "path": "Test/chr_1_one_heterozygous_synonymous - Copy.vcf"
+                },
+                {
+                  "path": "Test/chr_1_one_homozygous_missense - Copy.vcf"
+                },
+                {
+                  "path": "Test/chr_1_one_homozygous_synonymous - Copy.vcf"
+                },
+                {
+                  "path": "Test/packages.config"
+                },
+                {
+                  "path": "ToolWrapperLayer/BEDOPSWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/BLASTWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/BedtoolsWrapper.cs"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 162,
+            "title": "Species",
+            "state": "MERGED",
+            "createdAt": "2019-11-16T01:17:08Z",
+            "mergedAt": "2019-11-16T01:24:48Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CMDOptions/Options.cs"
+                },
+                {
+                  "path": "GUI/EverythingRunnerEngine.cs"
+                },
+                {
+                  "path": "GUI/MainWindow.xaml.cs"
+                },
+                {
+                  "path": "GUI/SpritzGUI.csproj"
+                },
+                {
+                  "path": "GUI/WorkFlow.xaml"
+                },
+                {
+                  "path": "GUI/WorkFlow.xaml.cs"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "TransferUniProtModifications/TransferUniProtModifications/TransferUniProtModifications.cs"
+                },
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "environment.yaml"
+                },
+                {
+                  "path": "genomes.csv"
+                },
+                {
+                  "path": "releases/release-81.txt"
+                },
+                {
+                  "path": "releases/release-82.txt"
+                },
+                {
+                  "path": "releases/release-83.txt"
+                },
+                {
+                  "path": "releases/release-84.txt"
+                },
+                {
+                  "path": "releases/release-85.txt"
+                },
+                {
+                  "path": "releases/release-86.txt"
+                },
+                {
+                  "path": "releases/release-87.txt"
+                },
+                {
+                  "path": "releases/release-88.txt"
+                },
+                {
+                  "path": "releases/release-89.txt"
+                },
+                {
+                  "path": "releases/release-90.txt"
+                },
+                {
+                  "path": "releases/release-91.txt"
+                },
+                {
+                  "path": "releases/release-92.txt"
+                },
+                {
+                  "path": "releases/release-93.txt"
+                },
+                {
+                  "path": "releases/release-94.txt"
+                },
+                {
+                  "path": "releases/release-95.txt"
+                },
+                {
+                  "path": "releases/release-96.txt"
+                },
+                {
+                  "path": "releases/release-97.txt"
+                },
+                {
+                  "path": "releases/release-98.txt"
+                },
+                {
+                  "path": "rules/align.smk"
+                },
+                {
+                  "path": "rules/downloads.smk"
+                },
+                {
+                  "path": "rules/fusion.smk"
+                },
+                {
+                  "path": "rules/isoforms.smk"
+                },
+                {
+                  "path": "rules/proteogenomics.smk"
+                },
+                {
+                  "path": "rules/qc.smk"
+                },
+                {
+                  "path": "rules/quant.smk"
+                },
+                {
+                  "path": "rules/variants.smk"
+                },
+                {
+                  "path": "scripts/convert_ucsc2ensembl.py"
+                },
+                {
+                  "path": "scripts/download_ensembl.py"
+                },
+                {
+                  "path": "scripts/download_protein_xml.py"
+                },
+                {
+                  "path": "scripts/download_xml.py"
+                },
+                {
+                  "path": "scripts/filter_fasta.py"
+                },
+                {
+                  "path": "scripts/get_proteome.py"
+                },
+                {
+                  "path": "scripts/karyotypic_order.py"
+                },
+                {
+                  "path": "start.sh"
+                },
+                {
+                  "path": "validate.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 161,
+            "title": "Add SpritzSnake",
+            "state": "MERGED",
+            "createdAt": "2019-11-15T23:59:00Z",
+            "mergedAt": "2019-11-15T23:59:18Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".dockerignore"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "GtfSharp/GtfSharp.sln"
+                },
+                {
+                  "path": "GtfSharp/GtfSharp/GtfSharp.cs"
+                },
+                {
+                  "path": "GtfSharp/GtfSharp/GtfSharp.csproj"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/CodonExtensions.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/CodonsStandard.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/CodonsVertebrateMitochondrial.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/FastqProperties.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/GeneModel.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/IntervalTree/IntervalForest.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/IntervalTree/IntervalNode.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/IntervalTree/IntervalTree.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/CDS.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Chromosome.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Downstream.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Exon.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Gene.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Genome.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Intergenic.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Interval.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/IntervalSequence.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Intron.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Transcript.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/UTR.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/UTR3Prime.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/UTR5Prime.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Upstream.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Proteogenomics.csproj"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/ProteogenomicsUtility.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Translation.cs"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "TransferUniProtModifications/TransferUniProtModifications.sln"
+                },
+                {
+                  "path": "TransferUniProtModifications/TransferUniProtModifications/ProteinAnnotation.cs"
+                },
+                {
+                  "path": "TransferUniProtModifications/TransferUniProtModifications/TransferUniProtModifications.cs"
+                },
+                {
+                  "path": "TransferUniProtModifications/TransferUniProtModifications/TransferUniProtModifications.csproj"
+                },
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "environment.yaml"
+                },
+                {
+                  "path": "rules/align.smk"
+                },
+                {
+                  "path": "rules/downloads.smk"
+                },
+                {
+                  "path": "rules/fusion.smk"
+                },
+                {
+                  "path": "rules/isoforms.smk"
+                },
+                {
+                  "path": "rules/proteogenomics.smk"
+                },
+                {
+                  "path": "rules/qc.smk"
+                },
+                {
+                  "path": "rules/quant.smk"
+                },
+                {
+                  "path": "rules/variants.smk"
+                },
+                {
+                  "path": "scripts/convert_ucsc2ensembl.py"
+                },
+                {
+                  "path": "scripts/download_protein_xml.py"
+                },
+                {
+                  "path": "scripts/filter_fasta.py"
+                },
+                {
+                  "path": "scripts/fix_gff3_for_rsem.py"
+                },
+                {
+                  "path": "scripts/karyotypic_order.py"
+                },
+                {
+                  "path": "scripts/make_rsem_dataframe.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 160,
+            "title": "latest spritz gui and snakemake",
+            "state": "CLOSED",
+            "createdAt": "2019-11-06T23:09:00Z",
+            "mergedAt": null,
+            "author": {
+              "login": "bintiibrahim"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CMDOptions/Options.cs"
+                },
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "GUI/EverythingRunnerEngine.cs"
+                },
+                {
+                  "path": "GUI/MainWindow.xaml.cs"
+                },
+                {
+                  "path": "GUI/SpritzGUI.csproj"
+                },
+                {
+                  "path": "GUI/WorkFlow.xaml"
+                },
+                {
+                  "path": "GUI/WorkFlow.xaml.cs"
+                },
+                {
+                  "path": "GtfSharp/GtfSharp.sln"
+                },
+                {
+                  "path": "GtfSharp/GtfSharp/GtfSharp.cs"
+                },
+                {
+                  "path": "GtfSharp/GtfSharp/GtfSharp.csproj"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/CodonExtensions.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/CodonsStandard.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/CodonsVertebrateMitochondrial.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/FastqProperties.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/GeneModel.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/IntervalTree/IntervalForest.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/IntervalTree/IntervalNode.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/IntervalTree/IntervalTree.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/CDS.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Chromosome.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Downstream.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Exon.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Gene.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Genome.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Intergenic.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Interval.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/IntervalSequence.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Intron.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Transcript.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/UTR.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/UTR3Prime.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/UTR5Prime.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Intervals/Upstream.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Proteogenomics.csproj"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/ProteogenomicsUtility.cs"
+                },
+                {
+                  "path": "GtfSharp/Proteogenomics/Translation.cs"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "TransferUniProtModifications/TransferUniProtModifications.sln"
+                },
+                {
+                  "path": "TransferUniProtModifications/TransferUniProtModifications/ProteinAnnotation.cs"
+                },
+                {
+                  "path": "TransferUniProtModifications/TransferUniProtModifications/TransferUniProtModifications.cs"
+                },
+                {
+                  "path": "TransferUniProtModifications/TransferUniProtModifications/TransferUniProtModifications.csproj"
+                },
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "environment.yaml"
+                },
+                {
+                  "path": "genomes.csv"
+                },
+                {
+                  "path": "releases/release-81.txt"
+                },
+                {
+                  "path": "releases/release-82.txt"
+                },
+                {
+                  "path": "releases/release-83.txt"
+                },
+                {
+                  "path": "releases/release-84.txt"
+                },
+                {
+                  "path": "releases/release-85.txt"
+                },
+                {
+                  "path": "releases/release-86.txt"
+                },
+                {
+                  "path": "releases/release-87.txt"
+                },
+                {
+                  "path": "releases/release-88.txt"
+                },
+                {
+                  "path": "releases/release-89.txt"
+                },
+                {
+                  "path": "releases/release-90.txt"
+                },
+                {
+                  "path": "releases/release-91.txt"
+                },
+                {
+                  "path": "releases/release-92.txt"
+                },
+                {
+                  "path": "releases/release-93.txt"
+                },
+                {
+                  "path": "releases/release-94.txt"
+                },
+                {
+                  "path": "releases/release-95.txt"
+                },
+                {
+                  "path": "releases/release-96.txt"
+                },
+                {
+                  "path": "releases/release-97.txt"
+                },
+                {
+                  "path": "releases/release-98.txt"
+                },
+                {
+                  "path": "rules/align.smk"
+                },
+                {
+                  "path": "rules/downloads.smk"
+                },
+                {
+                  "path": "rules/fusion.smk"
+                },
+                {
+                  "path": "rules/isoforms.smk"
+                },
+                {
+                  "path": "rules/proteogenomics.smk"
+                },
+                {
+                  "path": "rules/qc.smk"
+                },
+                {
+                  "path": "rules/quant.smk"
+                },
+                {
+                  "path": "rules/variants.smk"
+                },
+                {
+                  "path": "scripts/convert_ucsc2ensembl.py"
+                },
+                {
+                  "path": "scripts/download_ensembl.py"
+                },
+                {
+                  "path": "scripts/download_protein_xml.py"
+                },
+                {
+                  "path": "scripts/download_xml.py"
+                },
+                {
+                  "path": "scripts/filter_fasta.py"
+                },
+                {
+                  "path": "scripts/fix_gff3_for_rsem.py"
+                },
+                {
+                  "path": "scripts/get_proteome.py"
+                },
+                {
+                  "path": "scripts/karyotypic_order.py"
+                },
+                {
+                  "path": "scripts/make_rsem_dataframe.py"
+                },
+                {
+                  "path": "start.sh"
+                },
+                {
+                  "path": "validate.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 159,
+            "title": "snakemake rewrite",
+            "state": "CLOSED",
+            "createdAt": "2019-10-28T16:18:04Z",
+            "mergedAt": null,
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".dockerignore"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "CMD/CMD.csproj"
+                },
+                {
+                  "path": "CMD/Spritz.cs"
+                },
+                {
+                  "path": "CMDOptions/CMDOptions.csproj"
+                },
+                {
+                  "path": "CMDOptions/Options.cs"
+                },
+                {
+                  "path": "GUI/SpritzGUI.csproj"
+                },
+                {
+                  "path": "Spritz.sln"
+                },
+                {
+                  "path": "Test/A549_sample.vcf"
+                },
+                {
+                  "path": "Test/IndependentWrapperTests.cs"
+                },
+                {
+                  "path": "Test/Properties/AssemblyInfo.cs"
+                },
+                {
+                  "path": "Test/ProteinAnnotationTests.cs"
+                },
+                {
+                  "path": "Test/Test.csproj"
+                },
+                {
+                  "path": "Test/TestData/Homo_sapiens_202022.xml.gz"
+                },
+                {
+                  "path": "Test/TestData/SRR791578_hg19_Chimeric.out.junction"
+                },
+                {
+                  "path": "Test/TestData/UtrProblem/gene.gtf"
+                },
+                {
+                  "path": "Test/TestData/UtrProblem/vcf.vcf"
+                },
+                {
+                  "path": "Test/TestData/chr1_one_fake_transcript.gtf"
+                },
+                {
+                  "path": "Test/TestData/chr1_one_fake_transcript_little_exon.gtf"
+                },
+                {
+                  "path": "Test/TestData/chr1_one_transcript.gtf"
+                },
+                {
+                  "path": "Test/TestData/chr1_one_transcript_reverse.gtf"
+                },
+                {
+                  "path": "Test/TestData/chr1_sample.fa"
+                },
+                {
+                  "path": "Test/TestData/headersShort.fa"
+                },
+                {
+                  "path": "Test/TestData/paired_end.bam"
+                },
+                {
+                  "path": "Test/TestData/read1-trimmed-pair1_STARtmp/Chimeric.out.junction.thread0"
+                },
+                {
+                  "path": "Test/TestData/read1-trimmed-pair1_STARtmp/Chimeric.out.junction.thread1"
+                },
+                {
+                  "path": "Test/TestData/read1-trimmed-pair1_STARtmp/Chimeric.out.junction.thread2"
+                },
+                {
+                  "path": "Test/TestData/read1-trimmed-pair1_STARtmp/Chimeric.out.junction.thread3"
+                },
+                {
+                  "path": "Test/TestData/read1-trimmed-pair1_STARtmp/Chimeric.out.sam.thread0"
+                },
+                {
+                  "path": "Test/TestData/read1-trimmed-pair1_STARtmp/Chimeric.out.sam.thread1"
+                },
+                {
+                  "path": "Test/TestData/read1-trimmed-pair1_STARtmp/Chimeric.out.sam.thread2"
+                },
+                {
+                  "path": "Test/TestData/read1-trimmed-pair1_STARtmp/Chimeric.out.sam.thread3"
+                },
+                {
+                  "path": "Test/TestData/sample_gff.gff3"
+                },
+                {
+                  "path": "Test/TestData/sample_gtf.gtf"
+                },
+                {
+                  "path": "Test/TestData/sample_gtf_strandProblem.gtf"
+                },
+                {
+                  "path": "Test/TestData/sample_pacbio.gff3"
+                },
+                {
+                  "path": "Test/TestData/test_ensembl.pep.all.fasta"
+                },
+                {
+                  "path": "Test/TestData/xml2.xml"
+                },
+                {
+                  "path": "Test/TestFastqs/2000reads_1.fastq"
+                },
+                {
+                  "path": "Test/TestFastqs/2000reads_2.fastq"
+                },
+                {
+                  "path": "Test/TestFastqs/mapper0.fastq"
+                },
+                {
+                  "path": "Test/TestFastqs/mapper1.fastq"
+                },
+                {
+                  "path": "Test/TestFastqs/mapper2.fastq"
+                },
+                {
+                  "path": "Test/TestFastqs/mapper3.fastq"
+                },
+                {
+                  "path": "Test/TestFastqs/mapperCompressed.fastq.gz"
+                },
+                {
+                  "path": "Test/TestFastqs/mapper_chr22indelRegion.fastq"
+                },
+                {
+                  "path": "Test/TestFastqs/read1.fastq"
+                },
+                {
+                  "path": "Test/TestFastqs/read1.fastq.gz"
+                },
+                {
+                  "path": "Test/TestFastqs/read2.fastq"
+                },
+                {
+                  "path": "Test/TestFastqs/read2.fastq.gz"
+                },
+                {
+                  "path": "Test/TestVcfs/aFewNearby.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/chr1Ucsc.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/chr_1_one_100000.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/chr_1_one_100001.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/chr_1_one_400000.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/chr_1_one_400001.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/chr_1_one_99999.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/coding1.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/coding2.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/frameshift1.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/inframe1.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/inframe2.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/tonsFarApart.vcf"
+                },
+                {
+                  "path": "Test/TestVcfs/tonsNearby.vcf"
+                },
+                {
+                  "path": "Test/WrapperIntegrationTests.cs"
+                },
+                {
+                  "path": "Test/chr_1_one_heterozygous_missense - Copy.vcf"
+                },
+                {
+                  "path": "Test/chr_1_one_heterozygous_synonymous - Copy.vcf"
+                },
+                {
+                  "path": "Test/chr_1_one_homozygous_missense - Copy.vcf"
+                },
+                {
+                  "path": "Test/chr_1_one_homozygous_synonymous - Copy.vcf"
+                },
+                {
+                  "path": "Test/packages.config"
+                },
+                {
+                  "path": "ToolWrapperLayer/BEDOPSWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/BLASTWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/BedtoolsWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/CufflinksWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/EnsemblDownloadsWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/ExperimentType.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/GATKWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/HISAT2Wrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/IInstallable.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/LastzWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/MeltingWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/MfoldWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/NanonetWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/RMatsWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/RSEMWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/RSeQCWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/SRAToolkitWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/STARFusionWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/STARGenomeLoadOption.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/STARWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/SamtoolsWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/ScalpelWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/SkewerWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/SlnckyWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/SnpEffWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/StringTieWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/ToolWrapperLayer.csproj"
+                },
+                {
+                  "path": "ToolWrapperLayer/TopHatWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/TrinityWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/UCSCDownloadsWrapper.cs"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 157,
+            "title": "spritz/snakemake GUI",
+            "state": "MERGED",
+            "createdAt": "2019-06-03T20:37:57Z",
+            "mergedAt": "2019-08-04T04:11:35Z",
+            "author": {
+              "login": "bintiibrahim"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CMDOptions/Options.cs"
+                },
+                {
+                  "path": "GUI/EverythingRunnerEngine.cs"
+                },
+                {
+                  "path": "GUI/MainWindow.xaml"
+                },
+                {
+                  "path": "GUI/MainWindow.xaml.cs"
+                },
+                {
+                  "path": "GUI/SpritzGUI.csproj"
+                },
+                {
+                  "path": "GUI/WorkFlow.xaml"
+                },
+                {
+                  "path": "GUI/WorkFlow.xaml.cs"
+                },
+                {
+                  "path": "GUI/packages.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 155,
+            "title": "fix tzdata hang in build; bx-python fail",
+            "state": "MERGED",
+            "createdAt": "2019-03-13T01:38:38Z",
+            "mergedAt": "2019-03-13T01:39:41Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "WorkflowLayer/ManageToolsFlow.cs"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 154,
+            "title": "Dockerize it",
+            "state": "MERGED",
+            "createdAt": "2019-03-12T23:34:07Z",
+            "mergedAt": "2019-03-12T23:34:37Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".dockerignore"
+                },
+                {
+                  "path": "CMD/App.config"
+                },
+                {
+                  "path": "CMD/CMD.csproj"
+                },
+                {
+                  "path": "CMD/Properties/AssemblyInfo.cs"
+                },
+                {
+                  "path": "CMD/Spritz.cs"
+                },
+                {
+                  "path": "CMD/packages.config"
+                },
+                {
+                  "path": "CMDOptions/CMDOptions.csproj"
+                },
+                {
+                  "path": "CMDOptions/Options.cs"
+                },
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "GUI/SpritzGUI.csproj"
+                },
+                {
+                  "path": "GUI/packages.config"
+                },
+                {
+                  "path": "Spritz.sln"
+                },
+                {
+                  "path": "Test/Test.csproj"
+                },
+                {
+                  "path": "Test/packages.config"
+                },
+                {
+                  "path": "ToolWrapperLayer/EnsemblDownloadsWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/GATKWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/Properties/AssemblyInfo.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/RSEMWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/STARWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/SamtoolsWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/SnpEffWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/ToolWrapperLayer.csproj"
+                },
+                {
+                  "path": "ToolWrapperLayer/WrapperUtility.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/packages.config"
+                },
+                {
+                  "path": "WorkflowLayer/AlignmentFlow.cs"
+                },
+                {
+                  "path": "WorkflowLayer/LncRNADiscoveryFlow.cs"
+                },
+                {
+                  "path": "WorkflowLayer/ManageToolsFlow.cs"
+                },
+                {
+                  "path": "WorkflowLayer/Properties/AssemblyInfo.cs"
+                },
+                {
+                  "path": "WorkflowLayer/ProteinAnnotation.cs"
+                },
+                {
+                  "path": "WorkflowLayer/SampleSpecificProteinDBFlow.cs"
+                },
+                {
+                  "path": "WorkflowLayer/WorkflowLayer.csproj"
+                },
+                {
+                  "path": "WorkflowLayer/packages.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 144,
+            "title": "don't download with download command, but just let it do it itself an…",
+            "state": "MERGED",
+            "createdAt": "2018-11-09T06:44:20Z",
+            "mergedAt": "2018-11-09T06:44:25Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ToolWrapperLayer/SnpEffWrapper.cs"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 143,
+            "title": "fetch databases before snpeff from reference",
+            "state": "MERGED",
+            "createdAt": "2018-11-09T05:20:24Z",
+            "mergedAt": "2018-11-09T05:20:31Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "WorkflowLayer/SampleSpecificProteinDBFlow.cs"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 142,
+            "title": "user feedback and recalibration indexing",
+            "state": "MERGED",
+            "createdAt": "2018-11-08T21:31:05Z",
+            "mergedAt": "2018-11-08T21:31:12Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CMD/Spritz.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/GATKWrapper.cs"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 141,
+            "title": "Choice of indel finder, enabling exome/wgs sequencing analysis, workers for parallelizing variant calling",
+            "state": "MERGED",
+            "createdAt": "2018-11-08T04:43:02Z",
+            "mergedAt": "2018-11-08T04:43:09Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CMD/CMD.csproj"
+                },
+                {
+                  "path": "CMD/Options.cs"
+                },
+                {
+                  "path": "CMD/Spritz.cs"
+                },
+                {
+                  "path": "CMD/packages.config"
+                },
+                {
+                  "path": "GUI/DataGrids/RNASeqFastqDataGrid.cs"
+                },
+                {
+                  "path": "GUI/EverythingRunnerEngine.cs"
+                },
+                {
+                  "path": "GUI/MainWindow.xaml"
+                },
+                {
+                  "path": "GUI/MainWindow.xaml.cs"
+                },
+                {
+                  "path": "GUI/WorkFlow.xaml"
+                },
+                {
+                  "path": "GUI/WorkFlow.xaml.cs"
+                },
+                {
+                  "path": "Test/Test.csproj"
+                },
+                {
+                  "path": "Test/WrapperIntegrationTests.cs"
+                },
+                {
+                  "path": "Test/packages.config"
+                },
+                {
+                  "path": "ToolWrapperLayer/BEDOPSWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/CufflinksWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/ExperimentType.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/GATKWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/RSEMWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/STARWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/SamtoolsWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/SnpEffWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/StringTieWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/ToolWrapperLayer.csproj"
+                },
+                {
+                  "path": "ToolWrapperLayer/TopHatWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/UCSCDownloadsWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/packages.config"
+                },
+                {
+                  "path": "WorkflowLayer/AlignmentFlow.cs"
+                },
+                {
+                  "path": "WorkflowLayer/LncRNADiscoveryFlow.cs"
+                },
+                {
+                  "path": "WorkflowLayer/ManageToolsFlow.cs"
+                },
+                {
+                  "path": "WorkflowLayer/Parameters/AlignmentParameters.cs"
+                },
+                {
+                  "path": "WorkflowLayer/Parameters/STARAlignmentParameters.cs"
+                },
+                {
+                  "path": "WorkflowLayer/Parameters/SampleSpecificProteinDBParameters.cs"
+                },
+                {
+                  "path": "WorkflowLayer/ProteinAnnotation.cs"
+                },
+                {
+                  "path": "WorkflowLayer/SampleSpecificProteinDBFlow.cs"
+                },
+                {
+                  "path": "WorkflowLayer/TransferModificationsFlow.cs"
+                },
+                {
+                  "path": "WorkflowLayer/VariantCallingFlow.cs"
+                },
+                {
+                  "path": "WorkflowLayer/WorkflowLayer.csproj"
+                },
+                {
+                  "path": "WorkflowLayer/packages.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 140,
+            "title": "Choose which indels to use (if any), create protein XML from ensembl reference directly",
+            "state": "MERGED",
+            "createdAt": "2018-10-17T19:33:44Z",
+            "mergedAt": "2018-10-17T19:33:52Z",
+            "author": {
+              "login": "acesnik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CMD/CMD.csproj"
+                },
+                {
+                  "path": "CMD/Options.cs"
+                },
+                {
+                  "path": "CMD/Spritz.cs"
+                },
+                {
+                  "path": "CMD/packages.config"
+                },
+                {
+                  "path": "GUI/EverythingRunnerEngine.cs"
+                },
+                {
+                  "path": "GUI/MainWindow.xaml"
+                },
+                {
+                  "path": "GUI/MainWindow.xaml.cs"
+                },
+                {
+                  "path": "GUI/SpritzGUI.csproj"
+                },
+                {
+                  "path": "GUI/TreeViews/CollectionForTreeView.cs"
+                },
+                {
+                  "path": "GUI/TreeViews/ForTreeView.cs"
+                },
+                {
+                  "path": "GUI/TreeViews/InRunTask.cs"
+                },
+                {
+                  "path": "GUI/TreeViews/OutputFileForTreeView.cs"
+                },
+                {
+                  "path": "GUI/TreeViews/PreRunTask.cs"
+                },
+                {
+                  "path": "GUI/WorkFlow.xaml"
+                },
+                {
+                  "path": "GUI/WorkFlow.xaml.cs"
+                },
+                {
+                  "path": "GUI/packages.config"
+                },
+                {
+                  "path": "Test/Test.csproj"
+                },
+                {
+                  "path": "Test/WrapperIntegrationTests.cs"
+                },
+                {
+                  "path": "Test/packages.config"
+                },
+                {
+                  "path": "ToolWrapperLayer/EnsemblDownloadsWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/STARWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/SkewerWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/SnpEffWrapper.cs"
+                },
+                {
+                  "path": "ToolWrapperLayer/ToolWrapperLayer.csproj"
+                },
+                {
+                  "path": "ToolWrapperLayer/packages.config"
+                },
+                {
+                  "path": "WorkflowLayer/Parameters/SampleSpecificProteinDBParameters.cs"
+                },
+                {
+                  "path": "WorkflowLayer/STARAlignmentFlow.cs"
+                },
+                {
+                  "path": "WorkflowLayer/SampleSpecificProteinDBFlow.cs"
+                },
+                {
+                  "path": "WorkflowLayer/VariantCallingFlow.cs"
+                },
+                {
+                  "path": "WorkflowLayer/WorkflowLayer.csproj"
+                },
+                {
+                  "path": "WorkflowLayer/packages.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

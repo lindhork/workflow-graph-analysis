@@ -1,0 +1,2113 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 8,
+            "title": "error in mask_alignment",
+            "state": "CLOSED",
+            "createdAt": "2023-07-14T08:33:10Z",
+            "closedAt": "2023-07-14T17:50:39Z",
+            "author": {
+              "login": "Paururo"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 40,
+            "title": "docs: update workflow graph images",
+            "state": "MERGED",
+            "createdAt": "2026-03-09T12:00:38Z",
+            "mergedAt": "2026-03-09T13:59:49Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".dag.png"
+                },
+                {
+                  "path": ".dag.svg"
+                },
+                {
+                  "path": ".rulegraph.png"
+                },
+                {
+                  "path": ".rulegraph.svg"
+                },
+                {
+                  "path": ".rulegraph_sv.svg"
+                },
+                {
+                  "path": "config/README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 39,
+            "title": "fix: catch errors on AF-time correlation test",
+            "state": "MERGED",
+            "createdAt": "2026-03-05T18:15:30Z",
+            "mergedAt": "2026-03-06T13:55:42Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/scripts/report/af_time_correlation_data.R"
+                },
+                {
+                  "path": "workflow/scripts/report/af_trajectory_panel_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/allele_freq_tree_plot.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 38,
+            "title": "fix: consider masked sites for dN and dS calculation",
+            "state": "MERGED",
+            "createdAt": "2026-03-05T18:07:07Z",
+            "mergedAt": "2026-03-06T13:51:44Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "config/design_plots.R"
+                },
+                {
+                  "path": "workflow/envs/bedtools.yaml"
+                },
+                {
+                  "path": "workflow/envs/renv.yaml"
+                },
+                {
+                  "path": "workflow/envs/tools.yaml"
+                },
+                {
+                  "path": "workflow/rules/evolution.smk"
+                },
+                {
+                  "path": "workflow/rules/sites.smk"
+                },
+                {
+                  "path": "workflow/scripts/calculate_dnds.R"
+                },
+                {
+                  "path": "workflow/scripts/n_s_sites_from_fasta.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 37,
+            "title": "fix: init missing columns",
+            "state": "MERGED",
+            "createdAt": "2026-02-11T12:02:38Z",
+            "mergedAt": "2026-02-11T12:27:36Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/scripts/report/af_time_correlation_data.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 36,
+            "title": "refactor: move data analysis rules to core snakefiles",
+            "state": "MERGED",
+            "createdAt": "2026-02-11T10:43:19Z",
+            "mergedAt": "2026-02-11T11:30:15Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/distances.smk"
+                },
+                {
+                  "path": "workflow/rules/report.smk"
+                },
+                {
+                  "path": "workflow/rules/vaf.smk"
+                },
+                {
+                  "path": "workflow/scripts/calculate_dnds.R"
+                },
+                {
+                  "path": "workflow/scripts/extract_afwdist_variants.py"
+                },
+                {
+                  "path": "workflow/scripts/report/time_signal_data.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 35,
+            "title": "refactor: update file names to avoid wildcard issues",
+            "state": "MERGED",
+            "createdAt": "2026-02-11T09:12:15Z",
+            "mergedAt": "2026-02-11T09:34:56Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/vaf.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 34,
+            "title": "refactor: rename REGION field to CHROM",
+            "state": "MERGED",
+            "createdAt": "2026-02-10T16:23:39Z",
+            "mergedAt": "2026-02-11T09:39:03Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/sites.smk"
+                },
+                {
+                  "path": "workflow/scripts/calculate_dnds.R"
+                },
+                {
+                  "path": "workflow/scripts/fill_all_sites.R"
+                },
+                {
+                  "path": "workflow/scripts/merge_annotation.R"
+                },
+                {
+                  "path": "workflow/scripts/report/af_time_correlation_data.R"
+                },
+                {
+                  "path": "workflow/scripts/report/nv_panel_data.R"
+                },
+                {
+                  "path": "workflow/scripts/report/polymorphic_sites_over_time_data.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 33,
+            "title": "feat: use site quality filter to calculate evolutionary rate",
+            "state": "MERGED",
+            "createdAt": "2026-02-10T10:54:05Z",
+            "mergedAt": "2026-02-10T12:02:07Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "template.qmd"
+                },
+                {
+                  "path": "workflow/core.smk"
+                },
+                {
+                  "path": "workflow/rules/distances.smk"
+                },
+                {
+                  "path": "workflow/rules/sites.smk"
+                },
+                {
+                  "path": "workflow/rules/vaf.smk"
+                },
+                {
+                  "path": "workflow/scripts/calculate_dnds.R"
+                },
+                {
+                  "path": "workflow/scripts/report/time_signal_data.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 32,
+            "title": "fix: deduplicate variants and handle missing annotation",
+            "state": "MERGED",
+            "createdAt": "2026-02-10T10:10:02Z",
+            "mergedAt": "2026-02-10T10:22:33Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/context.smk"
+                },
+                {
+                  "path": "workflow/scripts/format_vcf_fields_longer.R"
+                },
+                {
+                  "path": "workflow/scripts/report/pairwise_trajectory_correlation_data.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 31,
+            "title": "fix: pin setuptools version to avoid deprecation error",
+            "state": "MERGED",
+            "createdAt": "2026-02-09T13:11:40Z",
+            "mergedAt": "2026-02-09T16:48:19Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/install.yml"
+                },
+                {
+                  "path": ".test/Snakefile"
+                },
+                {
+                  "path": ".test/environment_v7.yaml"
+                },
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "workflow/envs/pangolin.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 30,
+            "title": "Remove demix module from rule core",
+            "state": "MERGED",
+            "createdAt": "2026-01-12T14:52:56Z",
+            "mergedAt": "2026-01-12T15:48:15Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/Snakefile"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/core.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 29,
+            "title": "chore(main): release 1.4.0",
+            "state": "OPEN",
+            "createdAt": "2026-01-02T15:34:52Z",
+            "mergedAt": null,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "version.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 28,
+            "title": "Use low-confidence site filtering for AF trajectory analyses",
+            "state": "MERGED",
+            "createdAt": "2025-12-23T18:36:36Z",
+            "mergedAt": "2026-01-02T15:34:28Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CITATION.cff"
+                },
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "template.qmd"
+                },
+                {
+                  "path": "workflow/envs/var_calling.yaml"
+                },
+                {
+                  "path": "workflow/rules/report.smk"
+                },
+                {
+                  "path": "workflow/rules/vaf.smk"
+                },
+                {
+                  "path": "workflow/scripts/fill_all_sites.R"
+                },
+                {
+                  "path": "workflow/scripts/report/af_time_correlation_data.R"
+                },
+                {
+                  "path": "workflow/scripts/report/pairwise_trajectory_correlation_data.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 27,
+            "title": "chore(main): release 1.3.1",
+            "state": "MERGED",
+            "createdAt": "2025-11-24T17:46:16Z",
+            "mergedAt": "2026-01-02T15:15:15Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "version.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 26,
+            "title": "Allow empty SnpEff flags field",
+            "state": "MERGED",
+            "createdAt": "2025-11-24T16:35:24Z",
+            "mergedAt": "2025-11-24T17:42:52Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/scripts/format_vcf_fields_longer.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 25,
+            "title": "Use Release Please action",
+            "state": "MERGED",
+            "createdAt": "2025-11-21T14:07:26Z",
+            "mergedAt": "2025-11-24T12:37:20Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/release-please.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "version.txt"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 24,
+            "title": "v1.3.0",
+            "state": "MERGED",
+            "createdAt": "2025-11-17T09:15:16Z",
+            "mergedAt": "2025-11-17T09:26:48Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".dag.png"
+                },
+                {
+                  "path": ".github/workflows/test_apptainer.yml"
+                },
+                {
+                  "path": ".github/workflows/test_v7.yml"
+                },
+                {
+                  "path": ".github/workflows/test_v8.yml"
+                },
+                {
+                  "path": ".github/workflows/test_v9.yml"
+                },
+                {
+                  "path": ".rulegraph.png"
+                },
+                {
+                  "path": ".rulegraph_sv.svg"
+                },
+                {
+                  "path": ".test/Snakefile"
+                },
+                {
+                  "path": ".test/targets.yaml"
+                },
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/design_plots.R"
+                },
+                {
+                  "path": "config/nsp_annotation.csv"
+                },
+                {
+                  "path": "config/report.styles.css"
+                },
+                {
+                  "path": "config/sarscov2_features.json"
+                },
+                {
+                  "path": "template.qmd"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/afwdist.yaml"
+                },
+                {
+                  "path": "workflow/envs/biopython.yaml"
+                },
+                {
+                  "path": "workflow/envs/freyja.yaml"
+                },
+                {
+                  "path": "workflow/envs/quarto_render.yaml"
+                },
+                {
+                  "path": "workflow/envs/renv.yaml"
+                },
+                {
+                  "path": "workflow/envs/snpeff.yaml"
+                },
+                {
+                  "path": "workflow/rules/asr.smk"
+                },
+                {
+                  "path": "workflow/rules/context.smk"
+                },
+                {
+                  "path": "workflow/rules/demix.smk"
+                },
+                {
+                  "path": "workflow/rules/distances.smk"
+                },
+                {
+                  "path": "workflow/rules/evolution.smk"
+                },
+                {
+                  "path": "workflow/rules/fetch.smk"
+                },
+                {
+                  "path": "workflow/rules/report.smk"
+                },
+                {
+                  "path": "workflow/rules/vaf.smk"
+                },
+                {
+                  "path": "workflow/scripts/N_S_sites_from_fasta.py"
+                },
+                {
+                  "path": "workflow/scripts/calculate_dnds.R"
+                },
+                {
+                  "path": "workflow/scripts/download_context.R"
+                },
+                {
+                  "path": "workflow/scripts/extract_afwdist_variants.py"
+                },
+                {
+                  "path": "workflow/scripts/filter_genbank_features.py"
+                },
+                {
+                  "path": "workflow/scripts/filter_tsv.R"
+                },
+                {
+                  "path": "workflow/scripts/format_afwdist_results.py"
+                },
+                {
+                  "path": "workflow/scripts/format_vcf_fields_longer.R"
+                },
+                {
+                  "path": "workflow/scripts/merge_annotation.R"
+                },
+                {
+                  "path": "workflow/scripts/n_s_sites_from_fasta.py"
+                },
+                {
+                  "path": "workflow/scripts/pairwise_trajectory_correlation.R"
+                },
+                {
+                  "path": "workflow/scripts/report/NV_description.R"
+                },
+                {
+                  "path": "workflow/scripts/report/af_time_correlation_data.R"
+                },
+                {
+                  "path": "workflow/scripts/report/af_time_correlation_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/af_trajectory_panel_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/allele_freq_tree_data.R"
+                },
+                {
+                  "path": "workflow/scripts/report/allele_freq_tree_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/context_phylogeny_data.R"
+                },
+                {
+                  "path": "workflow/scripts/report/context_phylogeny_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/demix_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/demix_plot_data.R"
+                },
+                {
+                  "path": "workflow/scripts/report/diversity_data.R"
+                },
+                {
+                  "path": "workflow/scripts/report/diversity_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/dnds_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/report/evo_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/report/extract_genbank_regions.py"
+                },
+                {
+                  "path": "workflow/scripts/report/freyja_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/get_annotation.py"
+                },
+                {
+                  "path": "workflow/scripts/report/heatmap.R"
+                },
+                {
+                  "path": "workflow/scripts/report/nv_panel_data.R"
+                },
+                {
+                  "path": "workflow/scripts/report/nv_panel_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/nv_panel_zoom_on_feature_data.py"
+                },
+                {
+                  "path": "workflow/scripts/report/phylo_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/report/polymorphic_sites_over_time_data.R"
+                },
+                {
+                  "path": "workflow/scripts/report/polymorphic_sites_over_time_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/snp_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/report/summary_table.R"
+                },
+                {
+                  "path": "workflow/scripts/report/time_signal_data.R"
+                },
+                {
+                  "path": "workflow/scripts/report/time_signal_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/window_data.py"
+                },
+                {
+                  "path": "workflow/scripts/report/window_zoom_on_feature_data.py"
+                },
+                {
+                  "path": "workflow/scripts/summarise_demix.R"
+                },
+                {
+                  "path": "workflow/scripts/tsv_to_vcf.py"
+                },
+                {
+                  "path": "workflow/scripts/vcf_to_tsv.R"
+                },
+                {
+                  "path": "workflow/scripts/weighted_distances.py"
+                },
+                {
+                  "path": "workflow/scripts/window.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 22,
+            "title": "Minor workflow revision",
+            "state": "MERGED",
+            "createdAt": "2023-10-11T14:57:19Z",
+            "mergedAt": "2023-10-16T09:43:06Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/targets.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "build_targets.py"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/sarscov2_features.json"
+                },
+                {
+                  "path": "config/standard_genetic_code.json"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/evolution.smk"
+                },
+                {
+                  "path": "workflow/rules/fetch.smk"
+                },
+                {
+                  "path": "workflow/rules/report.smk"
+                },
+                {
+                  "path": "workflow/rules/vaf.smk"
+                },
+                {
+                  "path": "workflow/scripts/N_S_sites_from_fasta.py"
+                },
+                {
+                  "path": "workflow/scripts/report/get_annotation.py"
+                },
+                {
+                  "path": "workflow/scripts/window.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 21,
+            "title": "Update reporting",
+            "state": "MERGED",
+            "createdAt": "2023-10-11T10:50:50Z",
+            "mergedAt": "2023-10-11T11:18:22Z",
+            "author": {
+              "login": "SeviJordi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/design_plots.R"
+                },
+                {
+                  "path": "config/report.styles.css"
+                },
+                {
+                  "path": "template.qmd"
+                },
+                {
+                  "path": "workflow/rules/fetch.smk"
+                },
+                {
+                  "path": "workflow/rules/report.smk"
+                },
+                {
+                  "path": "workflow/scripts/report/NV_description.R"
+                },
+                {
+                  "path": "workflow/scripts/report/diversity_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/evo_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/report/phylo_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/report/snp_plots.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 20,
+            "title": "Feature snpeff",
+            "state": "MERGED",
+            "createdAt": "2023-10-04T15:38:44Z",
+            "mergedAt": "2023-10-11T09:07:42Z",
+            "author": {
+              "login": "SeviJordi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".rulegraph.png"
+                },
+                {
+                  "path": "workflow/envs/snpeff.yaml"
+                },
+                {
+                  "path": "workflow/rules/vaf.smk"
+                },
+                {
+                  "path": "workflow/scripts/report/NV_description.R"
+                },
+                {
+                  "path": "workflow/scripts/report/evo_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/report/heatmap.R"
+                },
+                {
+                  "path": "workflow/scripts/report/snp_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/tsv_to_vcf.py"
+                },
+                {
+                  "path": "workflow/scripts/vcf_to_tsv.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 19,
+            "title": "Bug solving",
+            "state": "MERGED",
+            "createdAt": "2023-09-25T10:24:13Z",
+            "mergedAt": "2023-10-02T15:02:06Z",
+            "author": {
+              "login": "SeviJordi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/report.smk"
+                },
+                {
+                  "path": "workflow/rules/vaf.smk"
+                },
+                {
+                  "path": "workflow/scripts/filter_tsv.R"
+                },
+                {
+                  "path": "workflow/scripts/report/NV_description.R"
+                },
+                {
+                  "path": "workflow/scripts/report/get_annotation.py"
+                },
+                {
+                  "path": "workflow/scripts/report/heatmap.R"
+                },
+                {
+                  "path": "workflow/scripts/report/snp_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/window.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 18,
+            "title": "Clean conda envs",
+            "state": "MERGED",
+            "createdAt": "2023-09-15T10:57:18Z",
+            "mergedAt": "2023-09-15T11:12:55Z",
+            "author": {
+              "login": "SeviJordi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/envs/biopython.post-deploy.sh"
+                },
+                {
+                  "path": "workflow/envs/quarto_render.yaml"
+                },
+                {
+                  "path": "workflow/envs/renv.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 17,
+            "title": "Enhancement weighted distances",
+            "state": "MERGED",
+            "createdAt": "2023-09-13T09:46:47Z",
+            "mergedAt": "2023-09-15T09:59:34Z",
+            "author": {
+              "login": "SeviJordi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/distances.smk"
+                },
+                {
+                  "path": "workflow/scripts/weighted_distances.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 16,
+            "title": "Add logging and style to scripts, first try",
+            "state": "MERGED",
+            "createdAt": "2023-09-05T11:02:23Z",
+            "mergedAt": "2023-09-07T10:13:00Z",
+            "author": {
+              "login": "SeviJordi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/test.yml"
+                },
+                {
+                  "path": "template.qmd"
+                },
+                {
+                  "path": "workflow/envs/renv.yaml"
+                },
+                {
+                  "path": "workflow/scripts/N_S_sites_from_fasta.py"
+                },
+                {
+                  "path": "workflow/scripts/ancestor_fasta.py"
+                },
+                {
+                  "path": "workflow/scripts/download_context.R"
+                },
+                {
+                  "path": "workflow/scripts/filter_tsv.R"
+                },
+                {
+                  "path": "workflow/scripts/mask-aln.py"
+                },
+                {
+                  "path": "workflow/scripts/mask_tsv.py"
+                },
+                {
+                  "path": "workflow/scripts/plot_polymorphisms.R"
+                },
+                {
+                  "path": "workflow/scripts/polymorphic_sites.py"
+                },
+                {
+                  "path": "workflow/scripts/report/NV_description.R"
+                },
+                {
+                  "path": "workflow/scripts/report/diversity_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/evo_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/report/freyja_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/heatmap.R"
+                },
+                {
+                  "path": "workflow/scripts/report/phylo_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/report/snp_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/report/summary_table.R"
+                },
+                {
+                  "path": "workflow/scripts/summary_demixing.R"
+                },
+                {
+                  "path": "workflow/scripts/weighted_distances.py"
+                },
+                {
+                  "path": "workflow/scripts/window.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 15,
+            "title": "Post vacation tasks",
+            "state": "MERGED",
+            "createdAt": "2023-09-04T10:07:54Z",
+            "mergedAt": "2023-09-05T10:58:10Z",
+            "author": {
+              "login": "SeviJordi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".cosas_extra/Extra_things.R"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/design_plots.R"
+                },
+                {
+                  "path": "template.qmd"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/biopython.post-deploy.sh"
+                },
+                {
+                  "path": "workflow/envs/biopython.yaml"
+                },
+                {
+                  "path": "workflow/envs/quarto_render.yaml"
+                },
+                {
+                  "path": "workflow/envs/renv.yaml"
+                },
+                {
+                  "path": "workflow/rules/context.smk"
+                },
+                {
+                  "path": "workflow/rules/distances.smk"
+                },
+                {
+                  "path": "workflow/rules/evolution.smk"
+                },
+                {
+                  "path": "workflow/rules/fetch.smk"
+                },
+                {
+                  "path": "workflow/rules/report.smk"
+                },
+                {
+                  "path": "workflow/rules/vaf.smk"
+                },
+                {
+                  "path": "workflow/scripts/N_S_sites_from_fasta.py"
+                },
+                {
+                  "path": "workflow/scripts/download_context.R"
+                },
+                {
+                  "path": "workflow/scripts/report/NV_description.R"
+                },
+                {
+                  "path": "workflow/scripts/report/diversity_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/evo_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/report/freyja_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/heatmap.R"
+                },
+                {
+                  "path": "workflow/scripts/report/phylo_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/report/snp_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/window.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 14,
+            "title": "Improve robustness and clean file structure and style",
+            "state": "MERGED",
+            "createdAt": "2023-08-11T17:15:04Z",
+            "mergedAt": "2023-08-14T06:58:52Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".dag.png"
+                },
+                {
+                  "path": ".github/workflows/install.yml"
+                },
+                {
+                  "path": ".github/workflows/test.yml"
+                },
+                {
+                  "path": ".rulegraph.png"
+                },
+                {
+                  "path": ".test/targets.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/design_plots.R"
+                },
+                {
+                  "path": "config/problematic_sites_sarsCov2.vcf"
+                },
+                {
+                  "path": "config/report.styles.css"
+                },
+                {
+                  "path": "config/report.yaml"
+                },
+                {
+                  "path": "config/targets.yaml"
+                },
+                {
+                  "path": "data/bam_paths.txt"
+                },
+                {
+                  "path": "data/fasta_paths.txt"
+                },
+                {
+                  "path": "data/file_index.csv"
+                },
+                {
+                  "path": "data/report_files/ML_tree_freyja_lineajes.contree"
+                },
+                {
+                  "path": "template.qmd"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/biopython.yaml"
+                },
+                {
+                  "path": "workflow/envs/fetch.yaml"
+                },
+                {
+                  "path": "workflow/envs/freyja.yaml"
+                },
+                {
+                  "path": "workflow/envs/gisaidr.yaml"
+                },
+                {
+                  "path": "workflow/envs/nextalign.yaml"
+                },
+                {
+                  "path": "workflow/envs/renv.yaml"
+                },
+                {
+                  "path": "workflow/envs/var_calling.yaml"
+                },
+                {
+                  "path": "workflow/rules/asr.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/context.smk"
+                },
+                {
+                  "path": "workflow/rules/demix.smk"
+                },
+                {
+                  "path": "workflow/rules/distances.smk"
+                },
+                {
+                  "path": "workflow/rules/fasta.smk"
+                },
+                {
+                  "path": "workflow/rules/fetch.smk"
+                },
+                {
+                  "path": "workflow/rules/report.smk"
+                },
+                {
+                  "path": "workflow/rules/snps.smk"
+                },
+                {
+                  "path": "workflow/rules/tree.smk"
+                },
+                {
+                  "path": "workflow/rules/vaf.smk"
+                },
+                {
+                  "path": "workflow/scripts/mask-aln.py"
+                },
+                {
+                  "path": "workflow/scripts/mask_tsv.py"
+                },
+                {
+                  "path": "workflow/scripts/report/diversity_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/phylo_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/report/pylo.R"
+                },
+                {
+                  "path": "workflow/scripts/report/snp_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/report/summary_table.R"
+                },
+                {
+                  "path": "workflow/scripts/weighted_distances.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 13,
+            "title": "Add basic SLURM compatibility and logging",
+            "state": "MERGED",
+            "createdAt": "2023-08-07T12:56:25Z",
+            "mergedAt": "2023-08-07T15:41:16Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "fetch_data.sh"
+                },
+                {
+                  "path": "profile/default/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/asr.smk"
+                },
+                {
+                  "path": "workflow/rules/context.smk"
+                },
+                {
+                  "path": "workflow/rules/demix.smk"
+                },
+                {
+                  "path": "workflow/rules/distances.smk"
+                },
+                {
+                  "path": "workflow/rules/evolution.smk"
+                },
+                {
+                  "path": "workflow/rules/fasta.smk"
+                },
+                {
+                  "path": "workflow/rules/fetch.smk"
+                },
+                {
+                  "path": "workflow/rules/pangolin.smk"
+                },
+                {
+                  "path": "workflow/rules/report.smk"
+                },
+                {
+                  "path": "workflow/rules/snps.smk"
+                },
+                {
+                  "path": "workflow/rules/tree.smk"
+                },
+                {
+                  "path": "workflow/rules/vaf.smk"
+                },
+                {
+                  "path": "workflow/scripts/N_S_sites_from_fasta.py"
+                },
+                {
+                  "path": "workflow/scripts/ancestor_fasta.py"
+                },
+                {
+                  "path": "workflow/scripts/download_context.R"
+                },
+                {
+                  "path": "workflow/scripts/filter_tsv.R"
+                },
+                {
+                  "path": "workflow/scripts/mask-aln.py"
+                },
+                {
+                  "path": "workflow/scripts/mask_tsv.py"
+                },
+                {
+                  "path": "workflow/scripts/plot_polymorphisms.R"
+                },
+                {
+                  "path": "workflow/scripts/polymorphic_sites.py"
+                },
+                {
+                  "path": "workflow/scripts/report/NV_description.R"
+                },
+                {
+                  "path": "workflow/scripts/report/diversity_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/evo_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/report/freyja_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/pylo.R"
+                },
+                {
+                  "path": "workflow/scripts/report/snp_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/report/summary_table.R"
+                },
+                {
+                  "path": "workflow/scripts/summary_demixing.R"
+                },
+                {
+                  "path": "workflow/scripts/weighted_distances.py"
+                },
+                {
+                  "path": "workflow/scripts/window.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 12,
+            "title": "Feature GitHub actions",
+            "state": "MERGED",
+            "createdAt": "2023-07-25T14:42:00Z",
+            "mergedAt": "2023-07-26T09:33:15Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/install.yml"
+                },
+                {
+                  "path": ".github/workflows/test.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".test/data/bam/sample1.bam"
+                },
+                {
+                  "path": ".test/data/bam/sample2.bam"
+                },
+                {
+                  "path": ".test/data/bam/sample3.bam"
+                },
+                {
+                  "path": ".test/data/context.fasta"
+                },
+                {
+                  "path": ".test/data/fasta/sample1.fasta"
+                },
+                {
+                  "path": ".test/data/fasta/sample2.fasta"
+                },
+                {
+                  "path": ".test/data/fasta/sample3.fasta"
+                },
+                {
+                  "path": ".test/data/metadata.csv"
+                },
+                {
+                  "path": ".test/targets.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "case_study.report.qmd"
+                },
+                {
+                  "path": "config/MN908947.3.gff3"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/design_plots.R"
+                },
+                {
+                  "path": "config/report.yaml"
+                },
+                {
+                  "path": "workflow/rules/demix.smk"
+                },
+                {
+                  "path": "workflow/rules/fetch.smk"
+                },
+                {
+                  "path": "workflow/rules/report.smk"
+                },
+                {
+                  "path": "workflow/rules/vaf.smk"
+                },
+                {
+                  "path": "workflow/scripts/report/freyja_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/snp_plots.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 11,
+            "title": "Feature checkpoints",
+            "state": "MERGED",
+            "createdAt": "2023-07-21T14:10:04Z",
+            "mergedAt": "2023-07-24T12:50:07Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".dag.png"
+                },
+                {
+                  "path": ".rulegraph.png"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/context.smk"
+                },
+                {
+                  "path": "workflow/rules/demix.smk"
+                },
+                {
+                  "path": "workflow/rules/report.smk"
+                },
+                {
+                  "path": "workflow/rules/vaf.smk"
+                },
+                {
+                  "path": "workflow/scripts/download_context.R"
+                },
+                {
+                  "path": "workflow/scripts/summary_demixing.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 10,
+            "title": "Feature report asthetics",
+            "state": "MERGED",
+            "createdAt": "2023-07-20T15:30:38Z",
+            "mergedAt": "2023-07-24T10:36:19Z",
+            "author": {
+              "login": "SeviJordi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "case_study.report.qmd"
+                },
+                {
+                  "path": "config/logo_pathogenomics.png"
+                },
+                {
+                  "path": "config/report.styles.css"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/renv.yaml"
+                },
+                {
+                  "path": "workflow/rules/asr.smk"
+                },
+                {
+                  "path": "workflow/rules/fasta.smk"
+                },
+                {
+                  "path": "workflow/rules/report.smk"
+                },
+                {
+                  "path": "workflow/rules/vaf.smk"
+                },
+                {
+                  "path": "workflow/scripts/report/NV_description.R"
+                },
+                {
+                  "path": "workflow/scripts/report/pylo.R"
+                },
+                {
+                  "path": "workflow/scripts/report/summary_table.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 9,
+            "title": "Add demixing, diversity assessment, lineage assignment and reporting",
+            "state": "MERGED",
+            "createdAt": "2023-07-14T11:30:37Z",
+            "mergedAt": "2023-07-14T17:50:36Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".cosas_extra/Extra_things.R"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".rulegraph.png"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "case_study.report.qmd"
+                },
+                {
+                  "path": "config/MN908947.3.gff3"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/design_plots.R"
+                },
+                {
+                  "path": "config/report.yaml"
+                },
+                {
+                  "path": "config/targets.yaml"
+                },
+                {
+                  "path": "data/bam_paths.txt"
+                },
+                {
+                  "path": "data/fasta_paths.txt"
+                },
+                {
+                  "path": "data/report_files/JSF_COV_metadata_master.csv"
+                },
+                {
+                  "path": "data/report_files/ML_tree_freyja_lineajes.contree"
+                },
+                {
+                  "path": "data/report_files/nsp_annotation.csv"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/biopython.yaml"
+                },
+                {
+                  "path": "workflow/envs/gisaidr.post-deploy.sh"
+                },
+                {
+                  "path": "workflow/envs/gisaidr.yaml"
+                },
+                {
+                  "path": "workflow/envs/iqtree.yaml"
+                },
+                {
+                  "path": "workflow/envs/pangolin.yaml"
+                },
+                {
+                  "path": "workflow/envs/renv.yaml"
+                },
+                {
+                  "path": "workflow/envs/var_calling.yaml"
+                },
+                {
+                  "path": "workflow/rules/asr.smk"
+                },
+                {
+                  "path": "workflow/rules/context.smk"
+                },
+                {
+                  "path": "workflow/rules/demix.smk"
+                },
+                {
+                  "path": "workflow/rules/distances.smk"
+                },
+                {
+                  "path": "workflow/rules/evolution.smk"
+                },
+                {
+                  "path": "workflow/rules/fasta.smk"
+                },
+                {
+                  "path": "workflow/rules/pangolin.smk"
+                },
+                {
+                  "path": "workflow/rules/report.smk"
+                },
+                {
+                  "path": "workflow/rules/snps.smk"
+                },
+                {
+                  "path": "workflow/rules/vaf.smk"
+                },
+                {
+                  "path": "workflow/scripts/N_S_sites_from_fasta.py"
+                },
+                {
+                  "path": "workflow/scripts/download_context.R"
+                },
+                {
+                  "path": "workflow/scripts/filter_tsv.R"
+                },
+                {
+                  "path": "workflow/scripts/mask_tsv.py"
+                },
+                {
+                  "path": "workflow/scripts/report/NV_description.R"
+                },
+                {
+                  "path": "workflow/scripts/report/diversity_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/evo_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/report/freyja_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/pylo.R"
+                },
+                {
+                  "path": "workflow/scripts/report/snp_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/summary_demixing.R"
+                },
+                {
+                  "path": "workflow/scripts/weighted_distances.py"
+                },
+                {
+                  "path": "workflow/scripts/window.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 7,
+            "title": "Fix mltree context",
+            "state": "MERGED",
+            "createdAt": "2023-07-12T16:06:07Z",
+            "mergedAt": "2023-07-14T17:49:53Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/asr.smk"
+                },
+                {
+                  "path": "workflow/rules/context.smk"
+                },
+                {
+                  "path": "workflow/rules/report.smk"
+                },
+                {
+                  "path": "workflow/rules/vaf.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6,
+            "title": "Feature GISAID context",
+            "state": "MERGED",
+            "createdAt": "2023-07-12T09:01:32Z",
+            "mergedAt": "2023-07-12T14:30:06Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".rulegraph.png"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/report.yaml"
+                },
+                {
+                  "path": "config/targets.yaml"
+                },
+                {
+                  "path": "data/report_files/diversity_alignment.fasta"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/gisaidr.post-deploy.sh"
+                },
+                {
+                  "path": "workflow/envs/gisaidr.yaml"
+                },
+                {
+                  "path": "workflow/rules/context.smk"
+                },
+                {
+                  "path": "workflow/rules/report.smk"
+                },
+                {
+                  "path": "workflow/scripts/download_context.R"
+                },
+                {
+                  "path": "workflow/scripts/report/diversity_plot.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 5,
+            "title": "Feature report jordi",
+            "state": "MERGED",
+            "createdAt": "2023-07-12T08:22:18Z",
+            "mergedAt": "2023-07-12T08:22:27Z",
+            "author": {
+              "login": "SeviJordi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "case_study.report.qmd"
+                },
+                {
+                  "path": "workflow/rules/report.smk"
+                },
+                {
+                  "path": "workflow/scripts/report/snp_plots.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4,
+            "title": "Feature report jordi",
+            "state": "MERGED",
+            "createdAt": "2023-07-12T08:14:28Z",
+            "mergedAt": "2023-07-12T08:15:57Z",
+            "author": {
+              "login": "SeviJordi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".cosas_extra/Extra_things.R"
+                },
+                {
+                  "path": "case_study.report.Rmd"
+                },
+                {
+                  "path": "case_study.report.qmd"
+                },
+                {
+                  "path": "config/design_plots.R"
+                },
+                {
+                  "path": "config/targets.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/var_calling.yaml"
+                },
+                {
+                  "path": "workflow/rules/asr.smk"
+                },
+                {
+                  "path": "workflow/rules/report.smk"
+                },
+                {
+                  "path": "workflow/scripts/report/NV_description.R"
+                },
+                {
+                  "path": "workflow/scripts/report/diversity_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/evo_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/report/freyja_plot.R"
+                },
+                {
+                  "path": "workflow/scripts/report/pylo.R"
+                },
+                {
+                  "path": "workflow/scripts/report/snp_plots.R"
+                },
+                {
+                  "path": "workflow/scripts/summary_demixing.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3,
+            "title": "Añadir esqueleto de report automático",
+            "state": "MERGED",
+            "createdAt": "2023-06-20T10:01:02Z",
+            "mergedAt": "2023-06-20T16:00:41Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".rulegraph.png"
+                },
+                {
+                  "path": "workflow/envs/iqtree.yaml"
+                },
+                {
+                  "path": "workflow/envs/pangolin.yaml"
+                },
+                {
+                  "path": "workflow/rules/asr.smk"
+                },
+                {
+                  "path": "workflow/rules/demix.smk"
+                },
+                {
+                  "path": "workflow/rules/pangolin.smk"
+                },
+                {
+                  "path": "workflow/rules/report.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2,
+            "title": "Mejorar input de muestras",
+            "state": "MERGED",
+            "createdAt": "2023-06-15T16:03:59Z",
+            "mergedAt": "2023-06-16T07:32:13Z",
+            "author": {
+              "login": "ahmig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/report.yaml"
+                },
+                {
+                  "path": "config/targets.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/renv.yaml"
+                },
+                {
+                  "path": "workflow/envs/var_calling.yaml"
+                },
+                {
+                  "path": "workflow/rules/demix.smk"
+                },
+                {
+                  "path": "workflow/rules/distances.smk"
+                },
+                {
+                  "path": "workflow/rules/fasta.smk"
+                },
+                {
+                  "path": "workflow/rules/report.smk"
+                },
+                {
+                  "path": "workflow/rules/snps.smk"
+                },
+                {
+                  "path": "workflow/rules/vaf.smk"
+                },
+                {
+                  "path": "workflow/scripts/weighted_distances.py"
+                },
+                {
+                  "path": "workflow/scripts/window.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1,
+            "title": "Feature weighted distances",
+            "state": "MERGED",
+            "createdAt": "2023-05-31T19:43:21Z",
+            "mergedAt": "2023-05-31T19:43:31Z",
+            "author": {
+              "login": "SeviJordi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/biopython.yaml"
+                },
+                {
+                  "path": "workflow/envs/vcf-annotator.yaml"
+                },
+                {
+                  "path": "workflow/rules/distances.smk"
+                },
+                {
+                  "path": "workflow/rules/vaf.smk"
+                },
+                {
+                  "path": "workflow/scripts/weighted_distances.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

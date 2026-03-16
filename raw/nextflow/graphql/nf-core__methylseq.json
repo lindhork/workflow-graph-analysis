@@ -1,0 +1,5650 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 597,
+            "title": "bwa-mem aligner not using GPU",
+            "state": "OPEN",
+            "createdAt": "2026-03-03T18:10:32Z",
+            "closedAt": null,
+            "author": {
+              "login": "ruochiz"
+            }
+          },
+          {
+            "number": 596,
+            "title": "`PICARD_COLLECTHSMETRICS` process is skipped due to empty input channel",
+            "state": "OPEN",
+            "createdAt": "2026-02-26T05:22:29Z",
+            "closedAt": null,
+            "author": {
+              "login": "bounlu"
+            }
+          },
+          {
+            "number": 595,
+            "title": "Option --unmapped does not run Bismark with --unmapped argument",
+            "state": "OPEN",
+            "createdAt": "2026-01-20T15:41:17Z",
+            "closedAt": null,
+            "author": {
+              "login": "thomasbleazard"
+            }
+          },
+          {
+            "number": 594,
+            "title": "Resume function is re-doing alignments instead of resuming at methylation calls",
+            "state": "OPEN",
+            "createdAt": "2026-01-19T01:10:07Z",
+            "closedAt": null,
+            "author": {
+              "login": "kingakotulska"
+            }
+          },
+          {
+            "number": 591,
+            "title": "Inconsistent explanations about \"--zymo\" in methylseq v4.2.0 documentation",
+            "state": "OPEN",
+            "createdAt": "2025-12-18T16:31:10Z",
+            "closedAt": null,
+            "author": {
+              "login": "Winbuntu"
+            }
+          },
+          {
+            "number": 589,
+            "title": "Workflow exits after TrimGalore with “successful” status but no alignments produced",
+            "state": "OPEN",
+            "createdAt": "2025-12-09T19:49:09Z",
+            "closedAt": null,
+            "author": {
+              "login": "sansense"
+            }
+          },
+          {
+            "number": 588,
+            "title": "conflicting advice in usage document",
+            "state": "OPEN",
+            "createdAt": "2025-12-09T19:10:00Z",
+            "closedAt": null,
+            "author": {
+              "login": "sansense"
+            }
+          },
+          {
+            "number": 587,
+            "title": "[bug] - samplesheet schema for genome field too strict",
+            "state": "OPEN",
+            "createdAt": "2025-12-09T13:44:11Z",
+            "closedAt": null,
+            "author": {
+              "login": "feiloo"
+            }
+          },
+          {
+            "number": 580,
+            "title": "--aligner bwameth samtools sort bam incorrectly named with deduplicated prefix",
+            "state": "CLOSED",
+            "createdAt": "2025-11-29T13:53:00Z",
+            "closedAt": "2025-12-18T12:10:31Z",
+            "author": {
+              "login": "tylerstahl"
+            }
+          },
+          {
+            "number": 579,
+            "title": "--rrbs samtools sort bam incorrectly named with deduplicated prefix",
+            "state": "CLOSED",
+            "createdAt": "2025-11-28T16:25:34Z",
+            "closedAt": "2025-12-18T12:10:51Z",
+            "author": {
+              "login": "tylerstahl"
+            }
+          },
+          {
+            "number": 575,
+            "title": "—skip_deduplication flag does not activate duplication skipping",
+            "state": "CLOSED",
+            "createdAt": "2025-11-07T09:55:54Z",
+            "closedAt": "2025-12-18T12:11:31Z",
+            "author": {
+              "login": "kmkappa"
+            }
+          },
+          {
+            "number": 573,
+            "title": "Support multiple bed files for targeted sequencing analysis",
+            "state": "OPEN",
+            "createdAt": "2025-10-27T01:36:19Z",
+            "closedAt": null,
+            "author": {
+              "login": "bounlu"
+            }
+          },
+          {
+            "number": 571,
+            "title": "FATAL:   while preparing image: extraction failed: root filesystem extraction failed: extract command failed: WARNING: passwd file doesn't exist in container, not updating",
+            "state": "CLOSED",
+            "createdAt": "2025-10-04T15:01:09Z",
+            "closedAt": "2025-10-10T11:16:06Z",
+            "author": {
+              "login": "jazberna1"
+            }
+          },
+          {
+            "number": 570,
+            "title": "Udocker profile",
+            "state": "CLOSED",
+            "createdAt": "2025-10-04T12:37:29Z",
+            "closedAt": "2025-10-04T13:40:51Z",
+            "author": {
+              "login": "jazberna1"
+            }
+          },
+          {
+            "number": 568,
+            "title": "PARABRICKS OOM",
+            "state": "CLOSED",
+            "createdAt": "2025-09-22T21:51:02Z",
+            "closedAt": "2025-09-23T17:52:14Z",
+            "author": {
+              "login": "vanadiuz"
+            }
+          },
+          {
+            "number": 567,
+            "title": "...",
+            "state": "CLOSED",
+            "createdAt": "2025-09-01T09:52:03Z",
+            "closedAt": "2025-09-01T10:01:37Z",
+            "author": {
+              "login": "bounlu"
+            }
+          },
+          {
+            "number": 564,
+            "title": "Test run for `parabricks` `bwameth` fails",
+            "state": "CLOSED",
+            "createdAt": "2025-08-12T02:50:47Z",
+            "closedAt": "2025-08-12T07:20:19Z",
+            "author": {
+              "login": "bounlu"
+            }
+          },
+          {
+            "number": 563,
+            "title": "AWS Access Key Id",
+            "state": "CLOSED",
+            "createdAt": "2025-08-11T00:29:26Z",
+            "closedAt": "2025-09-29T01:34:24Z",
+            "author": {
+              "login": "liqingbioinfo"
+            }
+          },
+          {
+            "number": 550,
+            "title": "bwa-mem2 is not installed in the bwameth container",
+            "state": "CLOSED",
+            "createdAt": "2025-07-21T10:42:35Z",
+            "closedAt": "2025-08-06T12:34:35Z",
+            "author": {
+              "login": "mbeavitt"
+            }
+          },
+          {
+            "number": 547,
+            "title": "Link in README does not work properly",
+            "state": "CLOSED",
+            "createdAt": "2025-07-04T17:51:13Z",
+            "closedAt": "2025-08-10T14:34:37Z",
+            "author": {
+              "login": "fbnrst"
+            }
+          },
+          {
+            "number": 546,
+            "title": "FASTQC added to ch_multiqc_files twice",
+            "state": "CLOSED",
+            "createdAt": "2025-07-04T14:29:25Z",
+            "closedAt": "2025-08-10T14:34:48Z",
+            "author": {
+              "login": "fbnrst"
+            }
+          },
+          {
+            "number": 536,
+            "title": "Update fq2bammeth",
+            "state": "CLOSED",
+            "createdAt": "2025-05-24T09:09:03Z",
+            "closedAt": "2025-06-02T12:09:26Z",
+            "author": {
+              "login": "GallVp"
+            }
+          },
+          {
+            "number": 532,
+            "title": "GPU test on singularity fails",
+            "state": "CLOSED",
+            "createdAt": "2025-05-24T04:57:47Z",
+            "closedAt": "2025-06-02T12:09:26Z",
+            "author": {
+              "login": "sateeshperi"
+            }
+          },
+          {
+            "number": 531,
+            "title": "switch CI to runson",
+            "state": "CLOSED",
+            "createdAt": "2025-05-24T04:45:27Z",
+            "closedAt": "2025-06-02T12:09:26Z",
+            "author": {
+              "login": "sateeshperi"
+            }
+          },
+          {
+            "number": 529,
+            "title": "\"Permission denied\" error.",
+            "state": "CLOSED",
+            "createdAt": "2025-05-23T13:50:25Z",
+            "closedAt": "2025-06-02T12:09:25Z",
+            "author": {
+              "login": "edmundmiller"
+            }
+          },
+          {
+            "number": 528,
+            "title": "PARABRICKS_FQ2BAMMETH fails with CPU OOM",
+            "state": "CLOSED",
+            "createdAt": "2025-05-15T22:53:27Z",
+            "closedAt": "2025-06-02T12:09:25Z",
+            "author": {
+              "login": "GallVp"
+            }
+          },
+          {
+            "number": 527,
+            "title": "Running in `-stub` mode fails for BISMARK_SUMMARY",
+            "state": "OPEN",
+            "createdAt": "2025-05-09T02:57:04Z",
+            "closedAt": null,
+            "author": {
+              "login": "bounlu"
+            }
+          },
+          {
+            "number": 526,
+            "title": "Pixel distance in Picard mark duplicates",
+            "state": "CLOSED",
+            "createdAt": "2025-05-06T08:42:29Z",
+            "closedAt": "2025-09-29T01:37:36Z",
+            "author": {
+              "login": "trombitomi"
+            }
+          },
+          {
+            "number": 520,
+            "title": "Remove `--use_gpu` parameter",
+            "state": "CLOSED",
+            "createdAt": "2025-04-15T09:12:59Z",
+            "closedAt": "2025-06-02T12:09:25Z",
+            "author": {
+              "login": "GallVp"
+            }
+          },
+          {
+            "number": 514,
+            "title": "`--comprehensive` parameter",
+            "state": "CLOSED",
+            "createdAt": "2025-03-25T09:13:25Z",
+            "closedAt": "2025-03-25T09:55:55Z",
+            "author": {
+              "login": "dcarrillox"
+            }
+          },
+          {
+            "number": 513,
+            "title": "JSON schema: Methylseq",
+            "state": "CLOSED",
+            "createdAt": "2025-03-25T00:19:35Z",
+            "closedAt": "2025-07-02T15:23:24Z",
+            "author": {
+              "login": "jen-reeve"
+            }
+          },
+          {
+            "number": 512,
+            "title": "Fix test run methylseq (ERROR ~ Failed to publish file: multiqc_plots)",
+            "state": "CLOSED",
+            "createdAt": "2025-03-24T10:25:55Z",
+            "closedAt": "2025-03-25T08:31:58Z",
+            "author": {
+              "login": "MichalStachowiakArdigen"
+            }
+          },
+          {
+            "number": 511,
+            "title": "`--targeted` analysis",
+            "state": "CLOSED",
+            "createdAt": "2025-03-24T09:57:37Z",
+            "closedAt": "2025-07-02T15:23:49Z",
+            "author": {
+              "login": "dcarrillox"
+            }
+          },
+          {
+            "number": 510,
+            "title": "Help with Sample Sheet Preparation for Methyl-seq (S4 Illumina EM-seq)",
+            "state": "CLOSED",
+            "createdAt": "2025-03-19T06:15:27Z",
+            "closedAt": "2025-09-29T01:34:08Z",
+            "author": {
+              "login": "geekhriday"
+            }
+          },
+          {
+            "number": 507,
+            "title": "bismark align fails with \"java.net.SocketTimeoutException: Read timed out\"",
+            "state": "CLOSED",
+            "createdAt": "2025-02-07T01:13:55Z",
+            "closedAt": "2025-07-02T15:30:38Z",
+            "author": {
+              "login": "trum994"
+            }
+          },
+          {
+            "number": 501,
+            "title": "test command wrong in usage.md",
+            "state": "CLOSED",
+            "createdAt": "2024-12-23T11:11:52Z",
+            "closedAt": "2024-12-23T11:23:18Z",
+            "author": {
+              "login": "fbnrst"
+            }
+          },
+          {
+            "number": 500,
+            "title": "fix `bismark_hisat` `test_full` run",
+            "state": "CLOSED",
+            "createdAt": "2024-12-18T12:36:08Z",
+            "closedAt": "2025-07-28T13:37:48Z",
+            "author": {
+              "login": "sateeshperi"
+            }
+          },
+          {
+            "number": 498,
+            "title": "add `comprehensive` param tests",
+            "state": "CLOSED",
+            "createdAt": "2024-12-17T06:51:55Z",
+            "closedAt": "2025-08-02T06:37:34Z",
+            "author": {
+              "login": "sateeshperi"
+            }
+          },
+          {
+            "number": 487,
+            "title": "Update docs for `2.8.0`",
+            "state": "CLOSED",
+            "createdAt": "2024-12-12T08:10:08Z",
+            "closedAt": "2024-12-13T10:49:11Z",
+            "author": {
+              "login": "sateeshperi"
+            }
+          },
+          {
+            "number": 483,
+            "title": "Empty .bedGraph.gz and .bismark.cov.gz files",
+            "state": "CLOSED",
+            "createdAt": "2024-12-09T09:32:42Z",
+            "closedAt": "2024-12-17T03:57:17Z",
+            "author": {
+              "login": "geethavenk"
+            }
+          },
+          {
+            "number": 482,
+            "title": "Error when running `2.7.0` and `2.7.1`",
+            "state": "CLOSED",
+            "createdAt": "2024-12-05T16:18:28Z",
+            "closedAt": "2024-12-17T03:43:01Z",
+            "author": {
+              "login": "dcarrillox"
+            }
+          },
+          {
+            "number": 481,
+            "title": "Update the CI for pipeline-level bwameth GPU Tests",
+            "state": "CLOSED",
+            "createdAt": "2024-12-05T05:50:07Z",
+            "closedAt": "2024-12-12T04:21:40Z",
+            "author": {
+              "login": "sateeshperi"
+            }
+          },
+          {
+            "number": 480,
+            "title": "errors version???",
+            "state": "CLOSED",
+            "createdAt": "2024-12-02T23:12:07Z",
+            "closedAt": "2024-12-17T03:44:46Z",
+            "author": {
+              "login": "torres-HI"
+            }
+          },
+          {
+            "number": 477,
+            "title": "create a test for samplesheet with technical replicates",
+            "state": "CLOSED",
+            "createdAt": "2024-12-01T07:17:36Z",
+            "closedAt": "2024-12-12T08:02:52Z",
+            "author": {
+              "login": "sateeshperi"
+            }
+          },
+          {
+            "number": 473,
+            "title": "Update MetroMap for `2.8.0`",
+            "state": "CLOSED",
+            "createdAt": "2024-11-28T03:09:44Z",
+            "closedAt": "2024-12-12T04:21:39Z",
+            "author": {
+              "login": "sateeshperi"
+            }
+          },
+          {
+            "number": 472,
+            "title": "Bismark soft clip --local_alignment True keeps L,value,value",
+            "state": "OPEN",
+            "createdAt": "2024-11-27T18:46:22Z",
+            "closedAt": null,
+            "author": {
+              "login": "ioannagare"
+            }
+          },
+          {
+            "number": 467,
+            "title": "Install `fastq_align_dedup_bwameth` subworkflow from nf-core subworkflows",
+            "state": "CLOSED",
+            "createdAt": "2024-11-27T05:13:40Z",
+            "closedAt": "2024-12-12T04:21:29Z",
+            "author": {
+              "login": "sateeshperi"
+            }
+          },
+          {
+            "number": 466,
+            "title": "Install fasta_index_bismark_bwameth from nf-core subworkflows",
+            "state": "CLOSED",
+            "createdAt": "2024-11-27T04:47:30Z",
+            "closedAt": "2024-11-27T07:49:00Z",
+            "author": {
+              "login": "sateeshperi"
+            }
+          },
+          {
+            "number": 463,
+            "title": "Update multiqc output with bwameth metrics",
+            "state": "CLOSED",
+            "createdAt": "2024-11-22T08:06:14Z",
+            "closedAt": "2025-07-03T02:51:02Z",
+            "author": {
+              "login": "sateeshperi"
+            }
+          },
+          {
+            "number": 462,
+            "title": "fasta gunzip not working",
+            "state": "CLOSED",
+            "createdAt": "2024-11-22T07:20:26Z",
+            "closedAt": "2024-11-27T07:48:59Z",
+            "author": {
+              "login": "sateeshperi"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 593,
+            "title": "Preview: Record types",
+            "state": "OPEN",
+            "createdAt": "2026-01-13T03:37:29Z",
+            "mergedAt": null,
+            "author": {
+              "login": "bentsherman"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules/bedtools_intersect.config"
+                },
+                {
+                  "path": "conf/modules/bismark_align.config"
+                },
+                {
+                  "path": "conf/modules/bismark_coverage2cytosine.config"
+                },
+                {
+                  "path": "conf/modules/bismark_deduplicate.config"
+                },
+                {
+                  "path": "conf/modules/bismark_genomepreparation.config"
+                },
+                {
+                  "path": "conf/modules/bismark_methylationextractor.config"
+                },
+                {
+                  "path": "conf/modules/bismark_report.config"
+                },
+                {
+                  "path": "conf/modules/bismark_summary.config"
+                },
+                {
+                  "path": "conf/modules/bwameth_align.config"
+                },
+                {
+                  "path": "conf/modules/bwameth_index.config"
+                },
+                {
+                  "path": "conf/modules/fastqc.config"
+                },
+                {
+                  "path": "conf/modules/gunzip.config"
+                },
+                {
+                  "path": "conf/modules/methyldackel_extract.config"
+                },
+                {
+                  "path": "conf/modules/methyldackel_mbias.config"
+                },
+                {
+                  "path": "conf/modules/multiqc.config"
+                },
+                {
+                  "path": "conf/modules/parabricks_fq2bammeth.config"
+                },
+                {
+                  "path": "conf/modules/picard_bedtointervallist.config"
+                },
+                {
+                  "path": "conf/modules/picard_collecthsmetrics.config"
+                },
+                {
+                  "path": "conf/modules/picard_createsequencedictionary.config"
+                },
+                {
+                  "path": "conf/modules/picard_markduplicates.config"
+                },
+                {
+                  "path": "conf/modules/preseq_lcextrap.config"
+                },
+                {
+                  "path": "conf/modules/qualimap_bamqc.config"
+                },
+                {
+                  "path": "conf/modules/samtools_faidx.config"
+                },
+                {
+                  "path": "conf/modules/samtools_flagstat.config"
+                },
+                {
+                  "path": "conf/modules/samtools_index.config"
+                },
+                {
+                  "path": "conf/modules/samtools_sort.config"
+                },
+                {
+                  "path": "conf/modules/samtools_stats.config"
+                },
+                {
+                  "path": "conf/modules/trimgalore.config"
+                },
+                {
+                  "path": "conf/subworkflows/fasta_index_bismark_bwameth.config"
+                },
+                {
+                  "path": "conf/subworkflows/fastq_align_dedup_bismark.config"
+                },
+                {
+                  "path": "conf/subworkflows/fastq_align_dedup_bwameth.config"
+                },
+                {
+                  "path": "conf/subworkflows/targeted_sequencing.config"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/intersect/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/intersect/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/cat/fastq/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/extract/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/mbias/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bammeth/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/picard/bedtointervallist/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/picard/collecthsmetrics/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/picard/createsequencedictionary/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/picard/markduplicates/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/picard/markduplicates/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/preseq/lcextrap/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/qualimap/bamqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/qualimap/bamqccram/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/faidx/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/flagstat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/tests/nextflow_cram.config"
+                },
+                {
+                  "path": "modules/nf-core/samtools/stats/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/trimgalore/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/untar/main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/targeted_sequencing/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_methylseq_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bismark/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bismark/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "utils/types.nf"
+                },
+                {
+                  "path": "workflows/methylseq/main.nf"
+                },
+                {
+                  "path": "workflows/methylseq/nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 592,
+            "title": "Add fq2bam to methylseq",
+            "state": "OPEN",
+            "createdAt": "2025-12-18T20:21:49Z",
+            "mergedAt": null,
+            "author": {
+              "login": "eduard-watchmaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/modules/parabricks_fq2bam.config"
+                },
+                {
+                  "path": "conf/modules/parabricks_fq2bammeth.config"
+                },
+                {
+                  "path": "conf/subworkflows/fastq_align_dedup_bwamem.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bam/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bam/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bam/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bam/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bam/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwamem/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwamem/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwamem/tests/gpu.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwamem/tests/gpu.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwamem/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwamem/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwamem/tests/nextflow.config"
+                },
+                {
+                  "path": "workflows/methylseq/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 590,
+            "title": "chore: Update nf-core/methylseq to version 4.3.0dev",
+            "state": "MERGED",
+            "createdAt": "2025-12-12T10:56:15Z",
+            "mergedAt": "2025-12-12T11:56:41Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/bismark_hisat_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwamem_taps.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_use_gpu.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/index_downloads.nf.test.snap"
+                },
+                {
+                  "path": "tests/targeted_sequencing_variants.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 586,
+            "title": "fix: Added support for the `bwamem` aligner in the AWS full test work…",
+            "state": "MERGED",
+            "createdAt": "2025-12-09T03:57:43Z",
+            "mergedAt": "2025-12-09T05:34:46Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 585,
+            "title": "Dev -> Master v4.2.0",
+            "state": "MERGED",
+            "createdAt": "2025-12-08T05:56:01Z",
+            "mergedAt": "2025-12-12T10:45:15Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".devcontainer/setup.sh"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test-gpu.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".github/workflows/update-gpu-snapshot.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/dummy_file.txt"
+                },
+                {
+                  "path": "assets/genome_target_regions.bed"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-methylseq_logo_light.png"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules/bwa_index.config"
+                },
+                {
+                  "path": "conf/modules/bwamem_align.config"
+                },
+                {
+                  "path": "conf/modules/bwameth_align.config"
+                },
+                {
+                  "path": "conf/modules/gatk_removeduplicates.config"
+                },
+                {
+                  "path": "conf/modules/picard_addorreplacereadgroups.config"
+                },
+                {
+                  "path": "conf/modules/picard_bedtointervallist.config"
+                },
+                {
+                  "path": "conf/modules/picard_removeduplicates.config"
+                },
+                {
+                  "path": "conf/modules/rastair_call.config"
+                },
+                {
+                  "path": "conf/modules/rastair_mbias.config"
+                },
+                {
+                  "path": "conf/modules/rastair_mbiasparser.config"
+                },
+                {
+                  "path": "conf/modules/rastair_methylkit.config"
+                },
+                {
+                  "path": "conf/modules/samtools_idxstats.config"
+                },
+                {
+                  "path": "conf/modules/samtools_index.config"
+                },
+                {
+                  "path": "conf/modules/samtools_sort.config"
+                },
+                {
+                  "path": "conf/subworkflows/bam_methyldackel.config"
+                },
+                {
+                  "path": "conf/subworkflows/bam_taps_conversion.config"
+                },
+                {
+                  "path": "conf/subworkflows/fasta_index_methylseq.config"
+                },
+                {
+                  "path": "conf/subworkflows/fastq_align_dedup_bismark.config"
+                },
+                {
+                  "path": "conf/subworkflows/fastq_align_dedup_bwamem.config"
+                },
+                {
+                  "path": "conf/subworkflows/fastq_align_dedup_bwameth.config"
+                },
+                {
+                  "path": "docs/images/3.0.0_dag_fasta_index_bismark_bwameth.png"
+                },
+                {
+                  "path": "docs/images/3.0.0_dag_fastq_align_dedup_bismark.png"
+                },
+                {
+                  "path": "docs/images/3.0.0_dag_fastq_align_dedup_bwameth.png"
+                },
+                {
+                  "path": "docs/images/3.0.0_dag_methylseq.png"
+                },
+                {
+                  "path": "docs/images/4.0.0_metromap.png"
+                },
+                {
+                  "path": "docs/images/4.0.0_metromap.svg"
+                },
+                {
+                  "path": "docs/images/4.2.0_metromap.png"
+                },
+                {
+                  "path": "docs/images/4.2.0_metromap.svg"
+                },
+                {
+                  "path": "docs/images/methylseq_logo.png"
+                },
+                {
+                  "path": "docs/images/nf-core-methylseq_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-methylseq_logo_dark.svg"
+                },
+                {
+                  "path": "docs/images/nf-core-methylseq_logo_light.png"
+                },
+                {
+                  "path": "docs/images/nf-core-methylseq_logo_light.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 584,
+            "title": "chore: Update nf-core/methylseq to version 4.2.0",
+            "state": "MERGED",
+            "createdAt": "2025-12-08T02:00:16Z",
+            "mergedAt": "2025-12-08T05:54:21Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/bismark_hisat_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwamem_taps.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_use_gpu.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/index_downloads.nf.test.snap"
+                },
+                {
+                  "path": "tests/targeted_sequencing_variants.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 583,
+            "title": "Fix rrbs and skip_dedup publishing",
+            "state": "MERGED",
+            "createdAt": "2025-12-07T06:29:41Z",
+            "mergedAt": "2025-12-08T01:32:46Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules/bwa_index.config"
+                },
+                {
+                  "path": "conf/modules/picard_addorreplacereadgroups.config"
+                },
+                {
+                  "path": "conf/modules/samtools_idxstats.config"
+                },
+                {
+                  "path": "conf/modules/samtools_index.config"
+                },
+                {
+                  "path": "conf/modules/samtools_sort.config"
+                },
+                {
+                  "path": "conf/subworkflows/fasta_index_methylseq.config"
+                },
+                {
+                  "path": "conf/subworkflows/fastq_align_dedup_bismark.config"
+                },
+                {
+                  "path": "conf/subworkflows/fastq_align_dedup_bwamem.config"
+                },
+                {
+                  "path": "conf/subworkflows/fastq_align_dedup_bwameth.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "tests/bismark_hisat_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwamem_taps.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_use_gpu.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/targeted_sequencing_variants.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 579
+                }
+              ]
+            }
+          },
+          {
+            "number": 582,
+            "title": "Fix publishing",
+            "state": "CLOSED",
+            "createdAt": "2025-12-07T06:28:27Z",
+            "mergedAt": null,
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules/bwa_index.config"
+                },
+                {
+                  "path": "conf/modules/picard_addorreplacereadgroups.config"
+                },
+                {
+                  "path": "conf/modules/samtools_idxstats.config"
+                },
+                {
+                  "path": "conf/modules/samtools_index.config"
+                },
+                {
+                  "path": "conf/modules/samtools_sort.config"
+                },
+                {
+                  "path": "conf/subworkflows/fasta_index_methylseq.config"
+                },
+                {
+                  "path": "conf/subworkflows/fastq_align_dedup_bismark.config"
+                },
+                {
+                  "path": "conf/subworkflows/fastq_align_dedup_bwamem.config"
+                },
+                {
+                  "path": "conf/subworkflows/fastq_align_dedup_bwameth.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "tests/bismark_hisat_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwamem_taps.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/targeted_sequencing_variants.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 579
+                }
+              ]
+            }
+          },
+          {
+            "number": 581,
+            "title": "bwamem_index fix",
+            "state": "MERGED",
+            "createdAt": "2025-12-02T18:13:36Z",
+            "mergedAt": "2025-12-07T02:34:50Z",
+            "author": {
+              "login": "eduard-watchmaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/update-gpu-snapshot.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/nf-core-methylseq_logo_light.png"
+                },
+                {
+                  "path": "conf/modules/bwamem_align.config"
+                },
+                {
+                  "path": "conf/modules/bwameth_align.config"
+                },
+                {
+                  "path": "conf/modules/samtools_sort.config"
+                },
+                {
+                  "path": "conf/subworkflows/fastq_align_dedup_bismark.config"
+                },
+                {
+                  "path": "conf/subworkflows/fastq_align_dedup_bwamem.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/samtools/stats/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/stats/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/stats/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_methylseq_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_methyldackel/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_sort_stats_samtools/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_sort_stats_samtools/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_stats_samtools/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_stats_samtools/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_taps_conversion/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_methylseq/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_methylseq/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_methylseq/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_bwa/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bismark/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bismark/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bismark/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bismark/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwamem/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwamem/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwamem/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwamem/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwamem/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/tests/gpu.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/bismark_hisat_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwamem_taps.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_use_gpu.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/index_downloads.nf.test.snap"
+                },
+                {
+                  "path": "tests/targeted_sequencing_variants.nf.test.snap"
+                },
+                {
+                  "path": "workflows/methylseq/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 580
+                }
+              ]
+            }
+          },
+          {
+            "number": 578,
+            "title": "Doc updates taps",
+            "state": "MERGED",
+            "createdAt": "2025-11-27T13:15:50Z",
+            "mergedAt": "2025-12-02T11:39:04Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/dummy_file.txt"
+                },
+                {
+                  "path": "assets/genome_target_regions.bed"
+                },
+                {
+                  "path": "conf/modules/rastair_call.config"
+                },
+                {
+                  "path": "conf/modules/rastair_mbiasparser.config"
+                },
+                {
+                  "path": "conf/subworkflows/bam_taps_conversion.config"
+                },
+                {
+                  "path": "docs/images/3.0.0_dag_fasta_index_bismark_bwameth.png"
+                },
+                {
+                  "path": "docs/images/3.0.0_dag_fastq_align_dedup_bismark.png"
+                },
+                {
+                  "path": "docs/images/3.0.0_dag_fastq_align_dedup_bwameth.png"
+                },
+                {
+                  "path": "docs/images/3.0.0_dag_methylseq.png"
+                },
+                {
+                  "path": "docs/images/4.0.0_metromap.png"
+                },
+                {
+                  "path": "docs/images/4.0.0_metromap.svg"
+                },
+                {
+                  "path": "docs/images/4.2.0_metromap.png"
+                },
+                {
+                  "path": "docs/images/4.2.0_metromap.svg"
+                },
+                {
+                  "path": "docs/images/methylseq_logo.png"
+                },
+                {
+                  "path": "docs/images/nf-core-methylseq_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-methylseq_logo_dark.svg"
+                },
+                {
+                  "path": "docs/images/nf-core-methylseq_logo_light.png"
+                },
+                {
+                  "path": "docs/images/nf-core-methylseq_logo_light.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbias_parser/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbias_parser/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbias_parser/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbias_parser/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbias_parser/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/targeted_sequencing_variants.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 577,
+            "title": "Merging template updates 3.5.1",
+            "state": "MERGED",
+            "createdAt": "2025-11-26T05:59:39Z",
+            "mergedAt": "2025-11-26T11:23:50Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".devcontainer/setup.sh"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test-gpu.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/nf-core-methylseq_logo_light.png"
+                },
+                {
+                  "path": "docs/images/nf-core-methylseq_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-methylseq_logo_light.png"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/custom_prefix.config"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_methylseq_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/bismark_hisat_variants.nf.test"
+                },
+                {
+                  "path": "tests/bismark_hisat_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_variants.nf.test"
+                },
+                {
+                  "path": "tests/bismark_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwamem_taps.nf.test"
+                },
+                {
+                  "path": "tests/bwamem_taps.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_use_gpu.nf.test"
+                },
+                {
+                  "path": "tests/bwameth_use_gpu.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_variants.nf.test"
+                },
+                {
+                  "path": "tests/bwameth_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/index_downloads.nf.test"
+                },
+                {
+                  "path": "tests/index_downloads.nf.test.snap"
+                },
+                {
+                  "path": "tests/targeted_sequencing_variants.nf.test"
+                },
+                {
+                  "path": "tests/targeted_sequencing_variants.nf.test.snap"
+                },
+                {
+                  "path": "workflows/methylseq/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 576,
+            "title": "Important! Template update for nf-core/tools v3.5.1",
+            "state": "MERGED",
+            "createdAt": "2025-11-20T09:32:03Z",
+            "mergedAt": "2025-11-26T11:23:52Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".devcontainer/setup.sh"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_methylseq_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "workflows/methylseq.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 574,
+            "title": "Taps",
+            "state": "MERGED",
+            "createdAt": "2025-11-03T17:31:53Z",
+            "mergedAt": "2025-11-24T07:27:43Z",
+            "author": {
+              "login": "eduard-watchmaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/nf-core-methylseq_logo_light.png"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules/gatk_removeduplicates.config"
+                },
+                {
+                  "path": "conf/modules/picard_addorreplacereadgroups.config"
+                },
+                {
+                  "path": "conf/modules/picard_removeduplicates.config"
+                },
+                {
+                  "path": "conf/modules/rastair_call.config"
+                },
+                {
+                  "path": "conf/modules/rastair_mbias.config"
+                },
+                {
+                  "path": "conf/modules/rastair_mbias_parser.config"
+                },
+                {
+                  "path": "conf/modules/rastair_methylkit.config"
+                },
+                {
+                  "path": "conf/subworkflows/bam_methyldackel.config"
+                },
+                {
+                  "path": "conf/subworkflows/bam_taps_conversion.config"
+                },
+                {
+                  "path": "conf/subworkflows/fasta_index_methylseq.config"
+                },
+                {
+                  "path": "conf/subworkflows/fastq_align_dedup_bwamem.config"
+                },
+                {
+                  "path": "conf/subworkflows/fastq_align_dedup_bwameth.config"
+                },
+                {
+                  "path": "docs/images/nf-core-methylseq_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-methylseq_logo_light.png"
+                },
+                {
+                  "path": "docs/images/taps_metromap.png"
+                },
+                {
+                  "path": "docs/images/taps_metromap.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/extract/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/extract/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/extract/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/extract/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/mbias/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/mbias/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/mbias/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/mbias/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bammeth/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bammeth/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bammeth/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bammeth/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/picard/addorreplacereadgroups/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/addorreplacereadgroups/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/picard/addorreplacereadgroups/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/addorreplacereadgroups/tests/bam.config"
+                },
+                {
+                  "path": "modules/nf-core/picard/addorreplacereadgroups/tests/cram.config"
+                },
+                {
+                  "path": "modules/nf-core/picard/addorreplacereadgroups/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/picard/addorreplacereadgroups/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/picard/bedtointervallist/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/bedtointervallist/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/picard/bedtointervallist/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/picard/collecthsmetrics/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/collecthsmetrics/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/picard/collecthsmetrics/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/collecthsmetrics/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/picard/collecthsmetrics/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/picard/createsequencedictionary/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/createsequencedictionary/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/picard/createsequencedictionary/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/picard/markduplicates/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/markduplicates/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/picard/markduplicates/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/preseq/lcextrap/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/qualimap/bamqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/rastair/call/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/rastair/call/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/rastair/call/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/rastair/call/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/rastair/call/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbias/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbias/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbias/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbias/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbias/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbias_parser/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbias_parser/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbias_parser/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbias_parser/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbias_parser/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbiasparser/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbiasparser/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbiasparser/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbiasparser/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/rastair/mbiasparser/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/rastair/methylkit/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/rastair/methylkit/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/rastair/methylkit/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/rastair/methylkit/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/rastair/methylkit/tests/main.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 572,
+            "title": "Important! Template update for nf-core/tools v3.4.1",
+            "state": "MERGED",
+            "createdAt": "2025-10-16T13:40:30Z",
+            "mergedAt": "2025-11-26T11:23:52Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".devcontainer/setup.sh"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_methylseq_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 569,
+            "title": "bump default and bismark tests after modules update 0.25.1",
+            "state": "MERGED",
+            "createdAt": "2025-09-28T11:46:54Z",
+            "mergedAt": "2025-09-30T11:08:26Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_hisat_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/index_downloads.nf.test.snap"
+                },
+                {
+                  "path": "tests/targeted_sequencing_variants.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 566,
+            "title": "Fix error in picard_bedtointervallist.config",
+            "state": "MERGED",
+            "createdAt": "2025-09-01T08:13:21Z",
+            "mergedAt": "2025-09-04T04:00:59Z",
+            "author": {
+              "login": "bounlu"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules/picard_bedtointervallist.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 565,
+            "title": "Added TAPS to methylseq",
+            "state": "CLOSED",
+            "createdAt": "2025-08-27T22:23:48Z",
+            "mergedAt": null,
+            "author": {
+              "login": "eduard-watchmaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/samplesheet.csv"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules/gatk_removeduplicates.config"
+                },
+                {
+                  "path": "conf/modules/picard_addorreplacereadgroups.config"
+                },
+                {
+                  "path": "conf/modules/picard_removeduplicates.config"
+                },
+                {
+                  "path": "conf/modules/rastair_call.config"
+                },
+                {
+                  "path": "conf/modules/rastair_mbias.config"
+                },
+                {
+                  "path": "conf/modules/rastair_mbias_parser.config"
+                },
+                {
+                  "path": "conf/modules/rastair_methylkit.config"
+                },
+                {
+                  "path": "conf/subworkflows/fasta_index_bismark_bwameth_bwamem.config"
+                },
+                {
+                  "path": "conf/subworkflows/fastq_align_dedup_bwamem.config"
+                },
+                {
+                  "path": "conf/subworkflows/fastq_align_dedup_bwameth.config"
+                },
+                {
+                  "path": "conf/subworkflows/methyldackel.config"
+                },
+                {
+                  "path": "conf/subworkflows/taps_conversion.config"
+                },
+                {
+                  "path": "docs/images/nf-core-methylseq-taps.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/rastair/call/main.nf"
+                },
+                {
+                  "path": "modules/local/rastair/call/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/rastair/call/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/rastair/mbias/main.nf"
+                },
+                {
+                  "path": "modules/local/rastair/mbias/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/rastair/mbias/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/rastair/mbias_parser/main.nf"
+                },
+                {
+                  "path": "modules/local/rastair/methylkit/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bam/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bam/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bam/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bam/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bam/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/picard/addorreplacereadgroups/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/addorreplacereadgroups/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/picard/addorreplacereadgroups/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/addorreplacereadgroups/tests/bam.config"
+                },
+                {
+                  "path": "modules/nf-core/picard/addorreplacereadgroups/tests/cram.config"
+                },
+                {
+                  "path": "modules/nf-core/picard/addorreplacereadgroups/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/picard/addorreplacereadgroups/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/samtools/idxstats/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/idxstats/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/idxstats/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/idxstats/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/samtools/idxstats/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/tests/nextflow.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "nf-test.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/fasta_index_bismark_bwameth_bwamem/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/fasta_index_bismark_bwameth_bwamem/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/fasta_index_bismark_bwameth_bwamem/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/fasta_index_bismark_bwameth_bwamem/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/fasta_index_bismark_bwameth_bwamem/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/fastq_align_dedup_bwamem/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/fastq_align_dedup_bwamem/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/fastq_align_dedup_bwamem/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/fastq_align_dedup_bwamem/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/fastq_align_dedup_bwamem/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/methyldackel/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/methyldackel/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/taps_conversion/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/taps_conversion/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_sort_stats_samtools/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_sort_stats_samtools/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_sort_stats_samtools/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_sort_stats_samtools/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_stats_samtools/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_stats_samtools/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_stats_samtools/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_stats_samtools/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_bwa/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_bwa/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_bwa/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_bwa/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_bwa/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bismark/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bismark/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/tests/gpu.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/tests/main.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 562,
+            "title": "bump-version 4.2.0dev",
+            "state": "MERGED",
+            "createdAt": "2025-08-10T14:47:14Z",
+            "mergedAt": "2025-08-11T05:18:57Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/bismark_hisat_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_use_gpu.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/index_downloads.nf.test.snap"
+                },
+                {
+                  "path": "tests/targeted_sequencing_variants.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 561,
+            "title": "Feat use mem2 version bumps",
+            "state": "MERGED",
+            "createdAt": "2025-08-10T07:39:34Z",
+            "mergedAt": "2025-08-10T13:46:38Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_gpu.config"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "docs/usage/bs-seq-primer.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/align/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bammeth/tests/main.nf.test"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bismark/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bismark/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bismark/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/tests/gpu.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_hisat_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_use_gpu.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_variants.nf.test"
+                },
+                {
+                  "path": "tests/bwameth_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/index_downloads.nf.test.snap"
+                },
+                {
+                  "path": "tests/nextflow.config"
+                },
+                {
+                  "path": "tests/targeted_sequencing_variants.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 560,
+            "title": "ci: Try new launch action",
+            "state": "OPEN",
+            "createdAt": "2025-08-08T15:55:28Z",
+            "mergedAt": null,
+            "author": {
+              "login": "edmundmiller"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 559,
+            "title": "Update bismark to 0.25.0",
+            "state": "CLOSED",
+            "createdAt": "2025-08-04T15:29:28Z",
+            "mergedAt": null,
+            "author": {
+              "login": "SPPearce"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bammeth/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bismark/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bismark/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bismark/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/bismark_hisat_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_use_gpu.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/index_downloads.nf.test.snap"
+                },
+                {
+                  "path": "tests/targeted_sequencing_variants.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 558,
+            "title": "Dev -> Master 4.1.0",
+            "state": "MERGED",
+            "createdAt": "2025-07-31T12:53:42Z",
+            "mergedAt": "2025-08-10T14:26:38Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test-gpu.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/update-gpu-snapshot.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules/bismark_align.config"
+                },
+                {
+                  "path": "conf/modules/bismark_genomepreparation.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_gpu.config"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "docs/usage/bs-seq-primer.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/intersect/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/align/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/cat/fastq/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/extract/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/mbias/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bammeth/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bammeth/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/picard/bedtointervallist/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/collecthsmetrics/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/createsequencedictionary/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/markduplicates/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/preseq/lcextrap/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/qualimap/bamqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/qualimap/bamqccram/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/faidx/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/flagstat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/stats/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/trimgalore/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/untar/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "nf-test.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bismark/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bismark/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/tests/gpu.nf.test"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 557,
+            "title": "bump version 4.1.0",
+            "state": "MERGED",
+            "createdAt": "2025-07-31T12:50:17Z",
+            "mergedAt": "2025-07-31T12:53:01Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/bismark_hisat_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_use_gpu.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/index_downloads.nf.test.snap"
+                },
+                {
+                  "path": "tests/targeted_sequencing_variants.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 556,
+            "title": "Add wave to ARM Megatests",
+            "state": "MERGED",
+            "createdAt": "2025-07-28T18:56:34Z",
+            "mergedAt": "2025-07-29T02:23:29Z",
+            "author": {
+              "login": "edmundmiller"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 555,
+            "title": "Add GitHub Actions CI for automated GPU snapshot updates and update C…",
+            "state": "MERGED",
+            "createdAt": "2025-07-28T04:04:03Z",
+            "mergedAt": "2025-07-28T04:17:21Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/update-gpu-snapshot.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 554,
+            "title": "modules update + minor bug fix + doc link fix",
+            "state": "MERGED",
+            "createdAt": "2025-07-27T05:04:48Z",
+            "mergedAt": "2025-07-28T09:15:55Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/nf-test-gpu.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/modules/bismark_align.config"
+                },
+                {
+                  "path": "conf/modules/bismark_genomepreparation.config"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "docs/usage/bs-seq-primer.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/intersect/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/cat/fastq/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/extract/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/mbias/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bammeth/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/bedtointervallist/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/collecthsmetrics/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/createsequencedictionary/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/markduplicates/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/preseq/lcextrap/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/qualimap/bamqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/qualimap/bamqccram/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/faidx/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/flagstat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/stats/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/trimgalore/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/untar/meta.yml"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bismark/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/bismark_hisat_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_use_gpu.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/targeted_sequencing_variants.nf.test.snap"
+                },
+                {
+                  "path": "workflows/methylseq/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 547
+                }
+              ]
+            }
+          },
+          {
+            "number": 553,
+            "title": "ci: update AWS megatests workflow to use new CE org variables",
+            "state": "MERGED",
+            "createdAt": "2025-07-24T15:03:16Z",
+            "mergedAt": "2025-07-25T14:11:19Z",
+            "author": {
+              "login": "edmundmiller"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 552,
+            "title": "Container image version bump for bwameth",
+            "state": "CLOSED",
+            "createdAt": "2025-07-21T12:33:12Z",
+            "mergedAt": null,
+            "author": {
+              "login": "mbeavitt"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/meta.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 551,
+            "title": "Bumping bwameth container version",
+            "state": "CLOSED",
+            "createdAt": "2025-07-21T11:02:53Z",
+            "mergedAt": null,
+            "author": {
+              "login": "mbeavitt"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/nf-core/bwameth/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 549,
+            "title": "Important! Template update for nf-core/tools v3.3.2",
+            "state": "MERGED",
+            "createdAt": "2025-07-08T11:39:01Z",
+            "mergedAt": "2025-07-26T04:21:50Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nf-test.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 548,
+            "title": "Add FastQC to MultiQC just once",
+            "state": "CLOSED",
+            "createdAt": "2025-07-05T10:34:15Z",
+            "mergedAt": null,
+            "author": {
+              "login": "fbnrst"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/nf-test-gpu.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/bs-seq-primer.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/intersect/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/cat/fastq/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/extract/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/mbias/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bammeth/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/bedtointervallist/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/collecthsmetrics/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/createsequencedictionary/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/markduplicates/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/preseq/lcextrap/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/qualimap/bamqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/qualimap/bamqccram/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/faidx/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/flagstat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/stats/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/trimgalore/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/untar/meta.yml"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "workflows/methylseq/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 546
+                },
+                {
+                  "number": 547
+                }
+              ]
+            }
+          },
+          {
+            "number": 545,
+            "title": "bump v4.1.0dev",
+            "state": "MERGED",
+            "createdAt": "2025-07-04T11:20:23Z",
+            "mergedAt": "2025-07-04T11:57:07Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/bismark_hisat_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_use_gpu.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/index_downloads.nf.test.snap"
+                },
+                {
+                  "path": "tests/targeted_sequencing_variants.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 544,
+            "title": "add gpu test_full run to awsfulltest.yml",
+            "state": "CLOSED",
+            "createdAt": "2025-07-03T12:05:14Z",
+            "mergedAt": null,
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 543,
+            "title": "apply suggestions from code review",
+            "state": "MERGED",
+            "createdAt": "2025-07-03T08:31:00Z",
+            "mergedAt": "2025-07-03T08:53:48Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 542,
+            "title": "update metro map 4.0.0",
+            "state": "MERGED",
+            "createdAt": "2025-06-30T12:47:47Z",
+            "mergedAt": "2025-06-30T12:59:55Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/images/3.0.0_metromap.png"
+                },
+                {
+                  "path": "docs/images/4.0.0_metromap.png"
+                },
+                {
+                  "path": "docs/images/4.0.0_metromap.svg"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 541,
+            "title": "Dev -> Main `v4.0.0`",
+            "state": "MERGED",
+            "createdAt": "2025-06-30T11:12:53Z",
+            "mergedAt": "2025-07-04T06:25:08Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/actions/get-shards/action.yml"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test-gpu.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": ".prettierrc.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/genome_target_regions.bed"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-methylseq_logo_light.png"
+                },
+                {
+                  "path": "assets/samplesheet_single_gpu.csv"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules/bedtools_intersect.config"
+                },
+                {
+                  "path": "conf/modules/bismark_methylationextractor.config"
+                },
+                {
+                  "path": "conf/modules/methyldackel_extract.config"
+                },
+                {
+                  "path": "conf/modules/methyldackel_mbias.config"
+                },
+                {
+                  "path": "conf/modules/picard_bedtointervallist.config"
+                },
+                {
+                  "path": "conf/modules/picard_collecthsmetrics.config"
+                },
+                {
+                  "path": "conf/modules/picard_createsequencedictionary.config"
+                },
+                {
+                  "path": "conf/modules/trimgalore.config"
+                },
+                {
+                  "path": "conf/subworkflows/targeted_sequencing.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_gpu.config"
+                },
+                {
+                  "path": "conf/test_single_gpu.config"
+                },
+                {
+                  "path": "docs/images/3.0.0_metromap.png"
+                },
+                {
+                  "path": "docs/images/4.0.0_metromap.png"
+                },
+                {
+                  "path": "docs/images/4.0.0_metromap.svg"
+                },
+                {
+                  "path": "docs/images/nf-core-methylseq_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-methylseq_logo_light.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/intersect/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/intersect/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/intersect/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/intersect/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/intersect/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/intersect/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/align/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/cat/fastq/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/cat/fastq/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/cat/fastq/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/cat/fastq/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/cat/fastq/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/extract/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/mbias/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bammeth/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bammeth/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bammeth/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/picard/bedtointervallist/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/bedtointervallist/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/picard/bedtointervallist/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/bedtointervallist/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/picard/bedtointervallist/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/picard/collecthsmetrics/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/collecthsmetrics/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/picard/collecthsmetrics/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/collecthsmetrics/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/picard/collecthsmetrics/tests/main.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 327
+                },
+                {
+                  "number": 460
+                },
+                {
+                  "number": 511
+                }
+              ]
+            }
+          },
+          {
+            "number": 540,
+            "title": "bump-version 4.0.0",
+            "state": "MERGED",
+            "createdAt": "2025-06-30T11:00:27Z",
+            "mergedAt": "2025-06-30T11:08:47Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/bismark_hisat_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_use_gpu.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_variants.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/index_downloads.nf.test.snap"
+                },
+                {
+                  "path": "tests/targeted_sequencing_variants.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 539,
+            "title": "refactor-workflow-tests",
+            "state": "MERGED",
+            "createdAt": "2025-06-26T06:17:58Z",
+            "mergedAt": "2025-06-30T09:53:59Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/genome_target_regions.bed"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_gpu.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/intersect/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/coverage2cytosine/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/deduplicate/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/genomepreparation/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bismark/methylationextractor/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/report/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bismark/summary/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/align/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwameth/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/cat/fastq/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/cat/fastq/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/cat/fastq/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/cat/fastq/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/cat/fastq/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/extract/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/methyldackel/mbias/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/bedtointervallist/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/picard/bedtointervallist/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/bedtointervallist/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/picard/bedtointervallist/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/picard/collecthsmetrics/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/markduplicates/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/markduplicates/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/preseq/lcextrap/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/preseq/lcextrap/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/preseq/lcextrap/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/qualimap/bamqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/qualimap/bamqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/qualimap/bamqccram/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/qualimap/bamqccram/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/faidx/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/faidx/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/faidx/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/samtools/faidx/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/samtools/faidx/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/flagstat/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/index/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/stats/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/trimgalore/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/trimgalore/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/trimgalore/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/trimgalore/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/trimgalore/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/trimgalore/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/trimgalore/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/untar/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/untar/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/untar/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/untar/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/targeted_sequencing/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/targeted_sequencing/meta.yml"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_methylseq_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bismark/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/tests/gpu.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/bismark_cat_fastq_skip_trimming_skip_deduplication.nf.test"
+                },
+                {
+                  "path": "tests/bismark_cat_fastq_skip_trimming_skip_deduplication.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_cytosine_report.nf.test"
+                },
+                {
+                  "path": "tests/bismark_cytosine_report.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_emseq_clip_r1.nf.test"
+                },
+                {
+                  "path": "tests/bismark_emseq_clip_r1.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_hisat.nf.test"
+                },
+                {
+                  "path": "tests/bismark_hisat.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_hisat_rrbs.nf.test"
+                },
+                {
+                  "path": "tests/bismark_hisat_rrbs.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_hisat_save_reference_save_align_intermeds.nf.test"
+                },
+                {
+                  "path": "tests/bismark_hisat_save_reference_save_align_intermeds.nf.test.snap"
+                },
+                {
+                  "path": "tests/bismark_hisat_variants.nf.test"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 538,
+            "title": "Important! Template update for nf-core/tools v3.3.1",
+            "state": "MERGED",
+            "createdAt": "2025-06-03T11:03:44Z",
+            "mergedAt": "2025-06-05T11:13:08Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/actions/get-shards/action.yml"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierrc.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nf-test.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_methylseq_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 537,
+            "title": "Updated parabricks/fq2bammeth",
+            "state": "MERGED",
+            "createdAt": "2025-05-26T07:35:18Z",
+            "mergedAt": "2025-05-26T07:44:19Z",
+            "author": {
+              "login": "GallVp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bammeth/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bammeth/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/parabricks/fq2bammeth/tests/main.nf.test"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 536
+                }
+              ]
+            }
+          },
+          {
+            "number": 535,
+            "title": "Bumped PARABRICKS_FQ2BAMMETH memory to 100.GB",
+            "state": "MERGED",
+            "createdAt": "2025-05-24T09:01:45Z",
+            "mergedAt": "2025-05-25T01:02:14Z",
+            "author": {
+              "login": "GallVp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/base.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 528
+                }
+              ]
+            }
+          },
+          {
+            "number": 534,
+            "title": "Added CUDA test for runsOn",
+            "state": "MERGED",
+            "createdAt": "2025-05-24T08:41:30Z",
+            "mergedAt": "2025-05-24T16:44:39Z",
+            "author": {
+              "login": "GallVp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/nf-test-gpu.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": "tests/bwameth_use_gpu.nf.test"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 531
+                },
+                {
+                  "number": 532
+                }
+              ]
+            }
+          },
+          {
+            "number": 533,
+            "title": "Removed parameter use_gpu",
+            "state": "MERGED",
+            "createdAt": "2025-05-24T08:08:27Z",
+            "mergedAt": "2025-05-24T17:02:25Z",
+            "author": {
+              "login": "GallVp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/tests/gpu.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_dedup_bwameth/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/bwameth_use_gpu.nf.test"
+                },
+                {
+                  "path": "workflows/methylseq/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 520
+                }
+              ]
+            }
+          },
+          {
+            "number": 530,
+            "title": "Revert fix faix error",
+            "state": "MERGED",
+            "createdAt": "2025-05-24T04:38:16Z",
+            "mergedAt": "2025-05-25T02:54:27Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/main.nf"
+                },
+                {
+                  "path": "workflows/methylseq/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 525,
+            "title": "Important! Template update for nf-core/tools v3.2.1",
+            "state": "MERGED",
+            "createdAt": "2025-04-30T12:27:14Z",
+            "mergedAt": "2025-05-29T04:37:05Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 529
+                }
+              ]
+            }
+          },
+          {
+            "number": 524,
+            "title": "DO NOT MERGE: Test gpu runners singularity",
+            "state": "CLOSED",
+            "createdAt": "2025-04-17T11:18:51Z",
+            "mergedAt": null,
+            "author": {
+              "login": "mashehu"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/nf-test-gpu.yml"
+                },
+                {
+                  "path": "tests/bwameth_use_gpu.nf.test"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 523,
+            "title": "Fix faix notprovided error",
+            "state": "MERGED",
+            "createdAt": "2025-04-16T15:02:25Z",
+            "mergedAt": "2025-04-16T20:38:30Z",
+            "author": {
+              "login": "lpantano"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "subworkflows/nf-core/fasta_index_bismark_bwameth/main.nf"
+                },
+                {
+                  "path": "workflows/methylseq/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 522,
+            "title": "update ci runners to runson",
+            "state": "MERGED",
+            "createdAt": "2025-04-15T10:19:41Z",
+            "mergedAt": "2025-04-15T10:29:30Z",
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test-gpu.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 521,
+            "title": "update to runson runners",
+            "state": "CLOSED",
+            "createdAt": "2025-04-15T09:23:49Z",
+            "mergedAt": null,
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test-gpu.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules/trimgalore.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 519,
+            "title": "Ci runson",
+            "state": "CLOSED",
+            "createdAt": "2025-04-14T04:25:32Z",
+            "mergedAt": null,
+            "author": {
+              "login": "sateeshperi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/actions/nf-test-shard/action.yml"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test-gpu.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules/trimgalore.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

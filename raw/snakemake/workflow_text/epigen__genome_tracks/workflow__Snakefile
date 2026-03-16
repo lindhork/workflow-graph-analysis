@@ -1,0 +1,97 @@
+
+##### global workflow dependencies #####
+# conda: "envs/global.yaml"
+
+# libraries
+import pandas as pd
+import os
+import gzip
+import re # for regular expressions
+import numpy as np
+import json
+from snakemake.utils import min_version
+import hashlib # generating unique sample names for single-cell samples
+
+##### set minimum snakemake version #####
+min_version("8.20.1")
+
+module_name = "genome_tracks"
+
+##### setup report #####
+report: os.path.join("report", "workflow.rst")
+
+##### set & load config and sample annotation sheets #####
+configfile: os.path.join("config","config.yaml")
+
+annot = pd.read_csv(config['sample_annotation'])
+gene_dict = pd.read_csv(config['gene_list'], index_col="gene_region").to_dict('index')
+genes = list(gene_dict.keys())
+
+# extracts unique grouping values from the 2nd column of the single cell metadata TSV files listed in 'group' column of annotation file
+sc_file_group_dict = {}
+
+for index, row in annot.iterrows():
+    if row['group'].endswith('.tsv'):
+        # generate hash of the BAM file path as dictionary key
+        bam_hash = hashlib.md5(row['bam'].encode()).hexdigest()
+        sc_file_group_dict[bam_hash] = {"bam":row["bam"], "metadata":row['group'], "groups": pd.read_csv(row['group'], header=None, sep='\t')[1].unique().tolist()}
+
+sc_groups = list(set(group for data in sc_file_group_dict.values() for group in data['groups']))
+
+# groups for actual visualization
+plot_groups = sc_groups + list(set([group for group in annot['group'] if not group.endswith('.tsv')]))
+plot_groups.sort()
+
+result_path = os.path.join(config["result_path"], module_name)
+
+COORD_REGEX = re.compile('chr[0-9XY]+:[0-9]+-[0-9]+$')
+
+##### load rules #####
+include: os.path.join("rules", "common.smk")
+include: os.path.join("rules", "envs_export.smk")
+include: os.path.join("rules", "prepare.smk")
+include: os.path.join("rules", "visualization.smk")
+
+# find gtrack parameters for each gene and handle exception when gene is not found
+gene_annot_list = []
+remove_genes = []
+for gene in genes:
+    if COORD_REGEX.match(gene):
+        gene_annot_list.append((parse_region(gene) + (gene_dict[gene]["ymax"],)))
+    else:
+        tmp_val = parse_gene(gene)
+        if tmp_val==-1:
+            # drop gene, because not found
+            remove_genes.append(gene)
+        else:
+            gene_annot_list.append((tmp_val + (gene_dict[gene]["ymax"],)))
+
+# save text file containing genes that were not found in the provided genome BED file
+if len(remove_genes)>0:
+    if not os.path.exists(result_path):
+        os.makedirs(result_path)
+    pd.DataFrame(remove_genes).to_csv(os.path.join(result_path,'genes_not_found.csv'), index=False, header=False)
+    genes = [gene for gene in genes if gene not in remove_genes]
+
+genes = [gene.replace(':', '-') for gene in genes]
+gene_annot_df = pd.DataFrame(gene_annot_list, columns=['chr', 'start', 'end', 'count', 'ymax'], index=genes)
+
+##### target rule #####
+rule all:
+    input:
+        # genome tracks
+        genome_tracks = expand(os.path.join(result_path, 'tracks', '{gene}.'+config["file_type"]), gene=genes),
+        # UCSC genome browser track hub
+        trackdb_file = os.path.join(result_path, "bigWigs", config["genome"], "trackDb.txt"),
+        # IGV-report (temporarily deactivated)
+        # igv_report = os.path.join(result_path, "igv-report.html"),
+        # environments and configs
+        envs = expand(os.path.join(result_path,'envs','{env}.yaml'),env=['pygenometracks','igv_reports','sinto']),
+        gene_list = os.path.join(result_path,'configs','gene_list.csv'),
+        configs = os.path.join(result_path,'configs','{}_config.yaml'.format(config["project_name"])),
+        annotations = os.path.join(result_path,'configs','{}_annot.csv'.format(config["project_name"])),
+    resources:
+        mem_mb=config.get("mem", "4000"),
+    threads: config.get("threads", 1)
+    log:
+        os.path.join("logs","rules","all.log")

@@ -1,0 +1,1774 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 397,
+            "title": "Change naming scheme inside `results/calls`",
+            "state": "OPEN",
+            "createdAt": "2025-10-30T10:58:40Z",
+            "closedAt": null,
+            "author": {
+              "login": "schrins"
+            }
+          },
+          {
+            "number": 383,
+            "title": "rename `events:` under ` calling: fdr-control:`  to `call-set` or `variant-set`",
+            "state": "OPEN",
+            "createdAt": "2025-06-11T09:59:04Z",
+            "closedAt": null,
+            "author": {
+              "login": "dlaehnemann"
+            }
+          },
+          {
+            "number": 352,
+            "title": "feat: avoid freebayes runnning forever on high coverage low-complexity regions (and parallelize more smoothly)",
+            "state": "OPEN",
+            "createdAt": "2025-01-22T16:33:58Z",
+            "closedAt": null,
+            "author": {
+              "login": "dlaehnemann"
+            }
+          },
+          {
+            "number": 347,
+            "title": "Merge conding and noncoding variant tables",
+            "state": "OPEN",
+            "createdAt": "2024-12-16T07:49:21Z",
+            "closedAt": null,
+            "author": {
+              "login": "johanneskoester"
+            }
+          },
+          {
+            "number": 341,
+            "title": "Add protvar linkout for missense mutations",
+            "state": "OPEN",
+            "createdAt": "2024-11-27T07:58:00Z",
+            "closedAt": null,
+            "author": {
+              "login": "johanneskoester"
+            }
+          },
+          {
+            "number": 340,
+            "title": "Add per cohort/population gene summary plot",
+            "state": "OPEN",
+            "createdAt": "2024-11-26T10:31:55Z",
+            "closedAt": null,
+            "author": {
+              "login": "johanneskoester"
+            }
+          },
+          {
+            "number": 333,
+            "title": "Failure to extend header parameters from tables/output/annotation_fields for 'vembrane table --header \"{params.config[header]}\" \"{params.config[expr]}'",
+            "state": "OPEN",
+            "createdAt": "2024-10-22T14:27:57Z",
+            "closedAt": null,
+            "author": {
+              "login": "delpropo"
+            }
+          },
+          {
+            "number": 269,
+            "title": "Workflow fails due to multiqc",
+            "state": "CLOSED",
+            "createdAt": "2023-10-17T08:15:21Z",
+            "closedAt": "2023-10-26T09:07:31Z",
+            "author": {
+              "login": "FelixMoelder"
+            }
+          },
+          {
+            "number": 231,
+            "title": "Coding mutations in non-coding variants table",
+            "state": "OPEN",
+            "createdAt": "2023-05-05T08:41:36Z",
+            "closedAt": null,
+            "author": {
+              "login": "sci-kai"
+            }
+          },
+          {
+            "number": 216,
+            "title": "modify the rule filter_offtarget_variants or fix_delly_calls",
+            "state": "CLOSED",
+            "createdAt": "2023-03-11T16:32:06Z",
+            "closedAt": "2023-03-15T09:10:00Z",
+            "author": {
+              "login": "user-tq"
+            }
+          },
+          {
+            "number": 215,
+            "title": " may need to modify the rule mark_ duplicates",
+            "state": "CLOSED",
+            "createdAt": "2023-03-11T15:03:09Z",
+            "closedAt": "2023-03-14T09:13:42Z",
+            "author": {
+              "login": "user-tq"
+            }
+          },
+          {
+            "number": 169,
+            "title": "Revel download link does not work",
+            "state": "CLOSED",
+            "createdAt": "2022-11-04T14:49:02Z",
+            "closedAt": "2022-11-14T14:04:32Z",
+            "author": {
+              "login": "sci-kai"
+            }
+          },
+          {
+            "number": 155,
+            "title": "issues with cutadapt",
+            "state": "CLOSED",
+            "createdAt": "2022-07-26T08:50:15Z",
+            "closedAt": "2024-12-16T07:42:16Z",
+            "author": {
+              "login": "piecrivello"
+            }
+          },
+          {
+            "number": 131,
+            "title": "estimate TMB in tumor only variants",
+            "state": "CLOSED",
+            "createdAt": "2022-04-19T13:36:21Z",
+            "closedAt": "2024-12-16T07:41:28Z",
+            "author": {
+              "login": "yihancc"
+            }
+          },
+          {
+            "number": 122,
+            "title": "fail in render_scenario rule",
+            "state": "CLOSED",
+            "createdAt": "2022-03-22T13:50:12Z",
+            "closedAt": "2024-12-16T07:39:07Z",
+            "author": {
+              "login": "moeinzadeh"
+            }
+          },
+          {
+            "number": 102,
+            "title": "Usage link broken",
+            "state": "CLOSED",
+            "createdAt": "2022-01-04T15:05:06Z",
+            "closedAt": "2022-01-06T09:53:34Z",
+            "author": {
+              "login": "colindaven"
+            }
+          },
+          {
+            "number": 81,
+            "title": "Tumor only variant calling",
+            "state": "CLOSED",
+            "createdAt": "2021-06-24T21:36:03Z",
+            "closedAt": "2024-12-16T07:35:06Z",
+            "author": {
+              "login": "kokyriakidis"
+            }
+          },
+          {
+            "number": 53,
+            "title": "Allow choice of trimmer program",
+            "state": "OPEN",
+            "createdAt": "2020-09-17T11:58:19Z",
+            "closedAt": null,
+            "author": {
+              "login": "fgvieira"
+            }
+          },
+          {
+            "number": 16,
+            "title": "Building genome.dict fails at first try",
+            "state": "CLOSED",
+            "createdAt": "2020-03-27T08:29:10Z",
+            "closedAt": "2020-03-31T19:34:26Z",
+            "author": {
+              "login": "FelixMoelder"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 434,
+            "title": "chore(master): release 6.6.0",
+            "state": "MERGED",
+            "createdAt": "2026-03-06T11:32:21Z",
+            "mergedAt": "2026-03-06T11:55:44Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 433,
+            "title": "chore(master): release 6.5.2",
+            "state": "MERGED",
+            "createdAt": "2026-03-06T08:21:37Z",
+            "mergedAt": "2026-03-06T08:22:12Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 432,
+            "title": "chore(master): release 6.5.1",
+            "state": "MERGED",
+            "createdAt": "2026-02-27T15:04:11Z",
+            "mergedAt": "2026-02-27T15:06:13Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 431,
+            "title": "fix: integrate tabix indexing for CADD with generic tabix rule",
+            "state": "MERGED",
+            "createdAt": "2026-02-27T09:37:09Z",
+            "mergedAt": "2026-02-27T15:03:36Z",
+            "author": {
+              "login": "dlaehnemann"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": "workflow/rules/annotation.smk"
+                },
+                {
+                  "path": "workflow/rules/benchmarking.smk"
+                },
+                {
+                  "path": "workflow/rules/calling.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/fusion_calling.smk"
+                },
+                {
+                  "path": "workflow/rules/mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/mutational_signatures.smk"
+                },
+                {
+                  "path": "workflow/rules/plugins.smk"
+                },
+                {
+                  "path": "workflow/rules/trimming.smk"
+                },
+                {
+                  "path": "workflow/rules/utils.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 430,
+            "title": "chore(master): release 6.5.0",
+            "state": "MERGED",
+            "createdAt": "2026-02-26T10:52:41Z",
+            "mergedAt": "2026-02-26T16:00:12Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 429,
+            "title": "perf: Update datavzrd wrapper version to v9.2.0",
+            "state": "MERGED",
+            "createdAt": "2026-02-25T10:53:02Z",
+            "mergedAt": "2026-02-27T15:03:56Z",
+            "author": {
+              "login": "fxwiegand"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/datavzrd.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 428,
+            "title": "feat: Enable passing additional arguments to the get_sra rule",
+            "state": "MERGED",
+            "createdAt": "2026-02-24T13:39:18Z",
+            "mergedAt": "2026-02-26T10:52:10Z",
+            "author": {
+              "login": "benostendorf"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/trimming.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 427,
+            "title": "chore(master): release 6.4.2",
+            "state": "MERGED",
+            "createdAt": "2026-02-18T08:30:08Z",
+            "mergedAt": "2026-02-18T08:31:33Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 426,
+            "title": "fix: format pangenome url in multiple lines",
+            "state": "MERGED",
+            "createdAt": "2026-02-13T18:42:03Z",
+            "mergedAt": "2026-02-18T08:29:34Z",
+            "author": {
+              "login": "johanneskoester"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 425,
+            "title": "chore(master): release 6.4.1",
+            "state": "MERGED",
+            "createdAt": "2026-02-13T15:04:12Z",
+            "mergedAt": "2026-02-13T15:04:28Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 424,
+            "title": "fix: adapt mutational signature calling to latest changes and ensure that generalizations introduced in the configuration are properly considered",
+            "state": "MERGED",
+            "createdAt": "2026-01-28T09:26:59Z",
+            "mergedAt": "2026-02-26T15:59:20Z",
+            "author": {
+              "login": "johanneskoester"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/mutational_signatures.smk"
+                },
+                {
+                  "path": "workflow/scripts/annotate_mutational_signatures.R"
+                },
+                {
+                  "path": "workflow/scripts/create_mutational_context.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 423,
+            "title": "chore(master): release 6.4.0",
+            "state": "MERGED",
+            "createdAt": "2026-01-28T08:51:27Z",
+            "mergedAt": "2026-01-28T12:12:37Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 422,
+            "title": "chore(master): release 6.3.1",
+            "state": "MERGED",
+            "createdAt": "2026-01-21T10:09:59Z",
+            "mergedAt": "2026-01-21T12:31:27Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 421,
+            "title": "fix: fix CI",
+            "state": "MERGED",
+            "createdAt": "2026-01-21T09:11:57Z",
+            "mergedAt": "2026-01-21T10:09:23Z",
+            "author": {
+              "login": "FelixMoelder"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": "workflow/rules/mapping.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 420,
+            "title": "fix: change mutation signature VAF range from 0-100 to 5-100",
+            "state": "MERGED",
+            "createdAt": "2026-01-20T13:50:06Z",
+            "mergedAt": "2026-01-21T12:29:45Z",
+            "author": {
+              "login": "johanneskoester"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/mutational_signatures.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 419,
+            "title": "chore(master): release 6.3.0",
+            "state": "MERGED",
+            "createdAt": "2026-01-17T09:42:45Z",
+            "mergedAt": "2026-01-17T09:44:34Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 418,
+            "title": "feat: allow samples other than tumor to be used for mutational signature calling",
+            "state": "MERGED",
+            "createdAt": "2026-01-16T15:52:46Z",
+            "mergedAt": "2026-01-17T09:42:19Z",
+            "author": {
+              "login": "johanneskoester"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/mutational_signatures.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 417,
+            "title": "chore(master): release 6.2.7",
+            "state": "MERGED",
+            "createdAt": "2026-01-16T15:08:25Z",
+            "mergedAt": "2026-01-16T15:11:25Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 416,
+            "title": "feat: add CADD score plugin implementation to VEP annotation",
+            "state": "MERGED",
+            "createdAt": "2026-01-16T13:11:46Z",
+            "mergedAt": "2026-01-28T08:50:56Z",
+            "author": {
+              "login": "dlaehnemann"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".test/config-no-candidate-filtering/config.yaml"
+                },
+                {
+                  "path": ".test/config-simple/config.yaml"
+                },
+                {
+                  "path": ".test/config-sra/config.yaml"
+                },
+                {
+                  "path": ".test/config-target-regions/config.yaml"
+                },
+                {
+                  "path": ".test/config_primers/config.yaml"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/envs/download_cadd.yaml"
+                },
+                {
+                  "path": "workflow/envs/vembrane.yaml"
+                },
+                {
+                  "path": "workflow/rules/annotation.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/plugins.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 415,
+            "title": "chore(master): release 6.2.6",
+            "state": "MERGED",
+            "createdAt": "2026-01-16T08:55:46Z",
+            "mergedAt": "2026-01-16T08:56:19Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 414,
+            "title": "feat: add varpubs ",
+            "state": "OPEN",
+            "createdAt": "2026-01-16T08:47:41Z",
+            "mergedAt": null,
+            "author": {
+              "login": "FelixMoelder"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config-chm-eval/config.yaml"
+                },
+                {
+                  "path": ".test/config-giab/config.yaml"
+                },
+                {
+                  "path": ".test/config-no-candidate-filtering/config.yaml"
+                },
+                {
+                  "path": ".test/config-simple/config.yaml"
+                },
+                {
+                  "path": ".test/config-sra/config.yaml"
+                },
+                {
+                  "path": ".test/config-target-regions/config.yaml"
+                },
+                {
+                  "path": ".test/config-target-regions/config_multiple_beds.yaml"
+                },
+                {
+                  "path": ".test/config_primers/config.yaml"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "profiles/default/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/varpubs.yaml"
+                },
+                {
+                  "path": "workflow/resources/datavzrd/summary_formatter.js"
+                },
+                {
+                  "path": "workflow/resources/datavzrd/varpubs-template.datavzrd.yaml"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/datavzrd.smk"
+                },
+                {
+                  "path": "workflow/rules/varpubs.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 413,
+            "title": "chore(master): release 6.2.5",
+            "state": "MERGED",
+            "createdAt": "2026-01-14T12:19:01Z",
+            "mergedAt": "2026-01-14T12:20:12Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 412,
+            "title": "chore(master): release 6.2.4",
+            "state": "MERGED",
+            "createdAt": "2025-12-30T13:59:38Z",
+            "mergedAt": "2025-12-30T13:59:56Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 411,
+            "title": "chore(master): release 6.2.3",
+            "state": "MERGED",
+            "createdAt": "2025-12-15T15:16:06Z",
+            "mergedAt": "2025-12-19T12:28:24Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 410,
+            "title": "chore(master): release 6.2.2",
+            "state": "MERGED",
+            "createdAt": "2025-12-15T11:30:26Z",
+            "mergedAt": "2025-12-15T14:20:34Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 409,
+            "title": "chore(master): release 6.2.1",
+            "state": "MERGED",
+            "createdAt": "2025-12-11T17:29:26Z",
+            "mergedAt": "2025-12-13T11:58:38Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 408,
+            "title": "fix: fusion calling parameters and resources",
+            "state": "OPEN",
+            "createdAt": "2025-12-11T14:15:33Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dlaehnemann"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/profiles/default/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/calling.smk"
+                },
+                {
+                  "path": "workflow/rules/fusion_calling.smk"
+                },
+                {
+                  "path": "workflow/rules/mapping.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 407,
+            "title": "chore(master): release 6.2.0",
+            "state": "MERGED",
+            "createdAt": "2025-12-11T09:29:56Z",
+            "mergedAt": "2025-12-11T15:44:30Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 406,
+            "title": "feat: output cram instead bam",
+            "state": "OPEN",
+            "createdAt": "2025-12-08T13:44:41Z",
+            "mergedAt": null,
+            "author": {
+              "login": "FelixMoelder"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/envs/fgbio.yaml"
+                },
+                {
+                  "path": "workflow/envs/samtools.yaml"
+                },
+                {
+                  "path": "workflow/envs/umi_tools.yaml"
+                },
+                {
+                  "path": "workflow/rules/calling.smk"
+                },
+                {
+                  "path": "workflow/rules/candidate_calling.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/primers.smk"
+                },
+                {
+                  "path": "workflow/rules/qc.smk"
+                },
+                {
+                  "path": "workflow/rules/ref.smk"
+                },
+                {
+                  "path": "workflow/rules/regions.smk"
+                },
+                {
+                  "path": "workflow/rules/testcase.smk"
+                },
+                {
+                  "path": "workflow/rules/utils.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 405,
+            "title": "chore(master): release 6.1.2",
+            "state": "MERGED",
+            "createdAt": "2025-11-18T17:59:26Z",
+            "mergedAt": "2025-11-19T11:11:03Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 404,
+            "title": "chore(master): release 6.1.1",
+            "state": "MERGED",
+            "createdAt": "2025-11-18T10:23:15Z",
+            "mergedAt": "2025-11-18T10:40:23Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 403,
+            "title": "chore(master): release 6.1.0",
+            "state": "MERGED",
+            "createdAt": "2025-11-13T16:54:12Z",
+            "mergedAt": "2025-11-18T10:00:44Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 402,
+            "title": "fix: update vep wrappers to 8.0.0 to make env installable",
+            "state": "MERGED",
+            "createdAt": "2025-11-12T15:53:11Z",
+            "mergedAt": "2025-11-13T16:53:41Z",
+            "author": {
+              "login": "famosab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/annotation.smk"
+                },
+                {
+                  "path": "workflow/rules/ref.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 401,
+            "title": "perf: update vep wrappers",
+            "state": "MERGED",
+            "createdAt": "2025-11-07T13:43:50Z",
+            "mergedAt": "2025-11-07T14:52:13Z",
+            "author": {
+              "login": "johanneskoester"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/annotation.smk"
+                },
+                {
+                  "path": "workflow/rules/ref.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 400,
+            "title": "fix: various fixes for the fusions calling",
+            "state": "MERGED",
+            "createdAt": "2025-11-06T11:46:41Z",
+            "mergedAt": "2025-11-18T17:58:58Z",
+            "author": {
+              "login": "dlaehnemann"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": "workflow/resources/datavzrd/fusion-calls-template.datavzrd.yaml"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/datavzrd.smk"
+                },
+                {
+                  "path": "workflow/rules/fusion_calling.smk"
+                },
+                {
+                  "path": "workflow/scripts/create_fusions_table_per_group.py"
+                },
+                {
+                  "path": "workflow/scripts/join_fusion_partner.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 399,
+            "title": "ci: Enable cleanup in sra download step",
+            "state": "MERGED",
+            "createdAt": "2025-11-05T12:03:19Z",
+            "mergedAt": "2025-11-05T12:50:33Z",
+            "author": {
+              "login": "fxwiegand"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 398,
+            "title": "feat: split output files into subdirectories",
+            "state": "MERGED",
+            "createdAt": "2025-10-31T11:08:34Z",
+            "mergedAt": "2025-12-11T09:29:15Z",
+            "author": {
+              "login": "FelixMoelder"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/annotation.smk"
+                },
+                {
+                  "path": "workflow/rules/calling.smk"
+                },
+                {
+                  "path": "workflow/rules/candidate_calling.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/datavzrd.smk"
+                },
+                {
+                  "path": "workflow/rules/filtering.smk"
+                },
+                {
+                  "path": "workflow/rules/fusion_calling.smk"
+                },
+                {
+                  "path": "workflow/rules/maf.smk"
+                },
+                {
+                  "path": "workflow/rules/mutational_burden.smk"
+                },
+                {
+                  "path": "workflow/rules/population.smk"
+                },
+                {
+                  "path": "workflow/rules/table.smk"
+                },
+                {
+                  "path": "workflow/rules/testcase.smk"
+                },
+                {
+                  "path": "workflow/rules/trimming.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 396,
+            "title": "feat: Use alleles spell in Datavzrd report",
+            "state": "MERGED",
+            "createdAt": "2025-10-30T10:10:55Z",
+            "mergedAt": "2025-11-14T11:40:07Z",
+            "author": {
+              "login": "fxwiegand"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/resources/datavzrd/variant-calls-template.datavzrd.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 395,
+            "title": "perf: autobump conda envs",
+            "state": "OPEN",
+            "createdAt": "2025-10-12T00:45:08Z",
+            "mergedAt": null,
+            "author": {
+              "login": "johanneskoester"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/envs/arriba.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/arriba.yaml"
+                },
+                {
+                  "path": "workflow/envs/awk.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/awk.yaml"
+                },
+                {
+                  "path": "workflow/envs/awk_bedtools.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/awk_bedtools.yaml"
+                },
+                {
+                  "path": "workflow/envs/bcftools.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/bcftools.yaml"
+                },
+                {
+                  "path": "workflow/envs/bedtools.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/bedtools.yaml"
+                },
+                {
+                  "path": "workflow/envs/curl.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/curl.yaml"
+                },
+                {
+                  "path": "workflow/envs/download_cadd.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/download_cadd.yaml"
+                },
+                {
+                  "path": "workflow/envs/excel.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/excel.yaml"
+                },
+                {
+                  "path": "workflow/envs/fgbio.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/fgbio.yaml"
+                },
+                {
+                  "path": "workflow/envs/filter_reads.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/filter_reads.yaml"
+                },
+                {
+                  "path": "workflow/envs/htslib.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/htslib.yaml"
+                },
+                {
+                  "path": "workflow/envs/jannovar.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/jannovar.yaml"
+                },
+                {
+                  "path": "workflow/envs/kmc.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/kmc.yaml"
+                },
+                {
+                  "path": "workflow/envs/mark_duplicates.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/mark_duplicates.yaml"
+                },
+                {
+                  "path": "workflow/envs/mosdepth.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/mosdepth.yaml"
+                },
+                {
+                  "path": "workflow/envs/oncoprint.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/oncoprint.yaml"
+                },
+                {
+                  "path": "workflow/envs/pandas.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/pandas.yaml"
+                },
+                {
+                  "path": "workflow/envs/pysam.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/pysam.yaml"
+                },
+                {
+                  "path": "workflow/envs/pystats.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/pystats.yaml"
+                },
+                {
+                  "path": "workflow/envs/rbt.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/rbt.yaml"
+                },
+                {
+                  "path": "workflow/envs/samtools.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/samtools.yaml"
+                },
+                {
+                  "path": "workflow/envs/siglasso.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/siglasso.yaml"
+                },
+                {
+                  "path": "workflow/envs/snpsift.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/snpsift.yaml"
+                },
+                {
+                  "path": "workflow/envs/split_call_tables.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/split_call_tables.yaml"
+                },
+                {
+                  "path": "workflow/envs/tabix.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/tabix.yaml"
+                },
+                {
+                  "path": "workflow/envs/umi_tools.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/varlociraptor.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/varlociraptor.yaml"
+                },
+                {
+                  "path": "workflow/envs/vcf2maf.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/vcf2maf.yaml"
+                },
+                {
+                  "path": "workflow/envs/vega.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/vega.yaml"
+                },
+                {
+                  "path": "workflow/envs/vembrane.linux-64.pin.txt"
+                },
+                {
+                  "path": "workflow/envs/vembrane.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 394,
+            "title": "chore: add autobump actions",
+            "state": "MERGED",
+            "createdAt": "2025-10-06T14:52:41Z",
+            "mergedAt": "2025-10-06T14:52:55Z",
+            "author": {
+              "login": "johanneskoester"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/autobump-envs.yml"
+                },
+                {
+                  "path": ".github/workflows/autobump-wrappers.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 393,
+            "title": "perf: update all wrappers to latest wrapper versions with changes",
+            "state": "CLOSED",
+            "createdAt": "2025-10-06T14:17:25Z",
+            "mergedAt": null,
+            "author": {
+              "login": "johanneskoester"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/annotation.smk"
+                },
+                {
+                  "path": "workflow/rules/benchmarking.smk"
+                },
+                {
+                  "path": "workflow/rules/calling.smk"
+                },
+                {
+                  "path": "workflow/rules/candidate_calling.smk"
+                },
+                {
+                  "path": "workflow/rules/datavzrd.smk"
+                },
+                {
+                  "path": "workflow/rules/filtering.smk"
+                },
+                {
+                  "path": "workflow/rules/fusion_calling.smk"
+                },
+                {
+                  "path": "workflow/rules/maf.smk"
+                },
+                {
+                  "path": "workflow/rules/mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/primers.smk"
+                },
+                {
+                  "path": "workflow/rules/qc.smk"
+                },
+                {
+                  "path": "workflow/rules/ref.smk"
+                },
+                {
+                  "path": "workflow/rules/regions.smk"
+                },
+                {
+                  "path": "workflow/rules/testcase.smk"
+                },
+                {
+                  "path": "workflow/rules/trimming.smk"
+                },
+                {
+                  "path": "workflow/rules/utils.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 392,
+            "title": "chore: test on arm",
+            "state": "OPEN",
+            "createdAt": "2025-10-04T15:16:24Z",
+            "mergedAt": null,
+            "author": {
+              "login": "johanneskoester"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": "workflow/rules/annotation.smk"
+                },
+                {
+                  "path": "workflow/rules/benchmarking.smk"
+                },
+                {
+                  "path": "workflow/rules/calling.smk"
+                },
+                {
+                  "path": "workflow/rules/candidate_calling.smk"
+                },
+                {
+                  "path": "workflow/rules/datavzrd.smk"
+                },
+                {
+                  "path": "workflow/rules/filtering.smk"
+                },
+                {
+                  "path": "workflow/rules/fusion_calling.smk"
+                },
+                {
+                  "path": "workflow/rules/maf.smk"
+                },
+                {
+                  "path": "workflow/rules/mapping.smk"
+                },
+                {
+                  "path": "workflow/rules/primers.smk"
+                },
+                {
+                  "path": "workflow/rules/qc.smk"
+                },
+                {
+                  "path": "workflow/rules/ref.smk"
+                },
+                {
+                  "path": "workflow/rules/regions.smk"
+                },
+                {
+                  "path": "workflow/rules/testcase.smk"
+                },
+                {
+                  "path": "workflow/rules/trimming.smk"
+                },
+                {
+                  "path": "workflow/rules/utils.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 391,
+            "title": "feat: integrate hla typing with orthanq",
+            "state": "OPEN",
+            "createdAt": "2025-09-20T10:06:01Z",
+            "mergedAt": null,
+            "author": {
+              "login": "johanneskoester"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".test/config-chm-eval/config.yaml"
+                },
+                {
+                  "path": ".test/config-giab/config.yaml"
+                },
+                {
+                  "path": ".test/config-no-candidate-filtering/config.yaml"
+                },
+                {
+                  "path": ".test/config-simple/config.yaml"
+                },
+                {
+                  "path": ".test/config-sra/config.yaml"
+                },
+                {
+                  "path": ".test/config-target-regions/config.yaml"
+                },
+                {
+                  "path": ".test/config-target-regions/config_multiple_beds.yaml"
+                },
+                {
+                  "path": ".test/config_primers/config.yaml"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/orthanq.yaml"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/hla_typing.smk"
+                },
+                {
+                  "path": "workflow/rules/trimming.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 390,
+            "title": "chore(master): release 6.0.3",
+            "state": "MERGED",
+            "createdAt": "2025-09-18T09:49:51Z",
+            "mergedAt": "2025-11-07T15:45:32Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 389,
+            "title": "fix: Upgrade wrapper versions to v7.5.0",
+            "state": "MERGED",
+            "createdAt": "2025-09-17T13:54:21Z",
+            "mergedAt": "2025-09-18T09:49:14Z",
+            "author": {
+              "login": "fxwiegand"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/ref.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 388,
+            "title": "chore(master): release 6.0.2",
+            "state": "MERGED",
+            "createdAt": "2025-09-17T12:33:31Z",
+            "mergedAt": "2025-09-17T12:39:56Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 387,
+            "title": "fix: Upgrade wrappers from 7.2.0 to 7.3.0 with https update to vep-cache rule",
+            "state": "MERGED",
+            "createdAt": "2025-09-17T11:24:46Z",
+            "mergedAt": "2025-09-17T12:32:48Z",
+            "author": {
+              "login": "fxwiegand"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/ref.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 386,
+            "title": "perf: update Ensembl wrapper versions in reference rules",
+            "state": "MERGED",
+            "createdAt": "2025-09-17T07:26:03Z",
+            "mergedAt": "2025-09-17T08:21:30Z",
+            "author": {
+              "login": "johanneskoester"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/ref.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 385,
+            "title": "chore(master): release 6.0.1",
+            "state": "MERGED",
+            "createdAt": "2025-08-27T13:26:11Z",
+            "mergedAt": "2025-09-17T08:44:59Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 384,
+            "title": "fix: multiple minor fixes",
+            "state": "MERGED",
+            "createdAt": "2025-07-04T09:06:07Z",
+            "mergedAt": "2025-08-27T13:25:27Z",
+            "author": {
+              "login": "FelixMoelder"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/envs/arriba.post-deploy.sh"
+                },
+                {
+                  "path": "workflow/envs/arriba.yaml"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/fusion_calling.smk"
+                },
+                {
+                  "path": "workflow/scripts/split-call-tables.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

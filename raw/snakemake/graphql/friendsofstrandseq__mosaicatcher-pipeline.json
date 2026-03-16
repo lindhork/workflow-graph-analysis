@@ -1,0 +1,2869 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 70,
+            "title": "[Bug]: pipeline's checkpoints seem to be malfunctioning",
+            "state": "CLOSED",
+            "createdAt": "2024-11-18T03:06:02Z",
+            "closedAt": "2026-02-18T15:49:30Z",
+            "author": {
+              "login": "cachedpotato"
+            }
+          },
+          {
+            "number": 66,
+            "title": "[Bug]: Ploidy estimation issue",
+            "state": "OPEN",
+            "createdAt": "2024-07-26T12:25:03Z",
+            "closedAt": null,
+            "author": {
+              "login": "weber8thomas"
+            }
+          },
+          {
+            "number": 55,
+            "title": "[Bug]: Pipeline not working on Snakemake version 8, running without internet connection",
+            "state": "CLOSED",
+            "createdAt": "2024-01-26T16:32:07Z",
+            "closedAt": "2026-02-18T15:50:03Z",
+            "author": {
+              "login": "fawaz-dabbaghieh"
+            }
+          },
+          {
+            "number": 48,
+            "title": "[Bug]: workflow trying to install BSgenome into Singularity image and failing as a result",
+            "state": "CLOSED",
+            "createdAt": "2023-08-03T00:48:45Z",
+            "closedAt": "2023-08-10T18:15:05Z",
+            "author": {
+              "login": "oneillkza"
+            }
+          },
+          {
+            "number": 40,
+            "title": "[Bug]: Single segment chromosomes break calculation of to/from values for BPS in plot-sv-calls_dev.R",
+            "state": "CLOSED",
+            "createdAt": "2023-05-26T09:13:46Z",
+            "closedAt": "2023-08-09T08:51:31Z",
+            "author": {
+              "login": "p-smirnov"
+            }
+          },
+          {
+            "number": 39,
+            "title": "[Bug]: chrY assigned a cumulative bin count of 0 due to off by 1 indexing error",
+            "state": "CLOSED",
+            "createdAt": "2023-05-26T08:37:49Z",
+            "closedAt": "2023-08-09T08:51:46Z",
+            "author": {
+              "login": "p-smirnov"
+            }
+          },
+          {
+            "number": 23,
+            "title": "[Bug]: Dependency issues with Tabulate 9.0 causes Snakemake 7.14.0 to misbehave",
+            "state": "CLOSED",
+            "createdAt": "2022-12-02T16:39:46Z",
+            "closedAt": "2023-08-09T08:52:29Z",
+            "author": {
+              "login": "karen-Gg"
+            }
+          },
+          {
+            "number": 6,
+            "title": "[Bug]: plot-sv-calls.R error",
+            "state": "CLOSED",
+            "createdAt": "2022-07-13T13:56:32Z",
+            "closedAt": "2023-08-09T08:52:36Z",
+            "author": {
+              "login": "weber8thomas"
+            }
+          },
+          {
+            "number": 1,
+            "title": "Snakemake execution fails",
+            "state": "CLOSED",
+            "createdAt": "2022-04-25T15:24:17Z",
+            "closedAt": "2022-05-27T08:20:08Z",
+            "author": {
+              "login": "benedict909"
+            }
+          },
+          {
+            "number": 3,
+            "title": "samtools version change",
+            "state": "CLOSED",
+            "createdAt": "2020-09-16T07:43:10Z",
+            "closedAt": "2022-06-13T14:26:25Z",
+            "author": {
+              "login": "maryamghr"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 95,
+            "title": "chore(deps): bump docker/setup-buildx-action from 3 to 4",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T22:29:13Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/build-containers.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 94,
+            "title": "chore(deps): bump docker/metadata-action from 5 to 6",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T22:29:10Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/build-containers.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 93,
+            "title": "chore(deps): bump docker/login-action from 3 to 4",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T22:29:05Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/build-containers.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 92,
+            "title": "chore(deps): bump actions/upload-artifact from 4 to 7",
+            "state": "OPEN",
+            "createdAt": "2026-03-02T23:22:38Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/build-containers.yaml"
+                },
+                {
+                  "path": ".github/workflows/test-apptainer-action.yaml"
+                },
+                {
+                  "path": ".github/workflows/test-apptainer-validation.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 91,
+            "title": "chore(deps): bump actions/download-artifact from 4 to 8",
+            "state": "OPEN",
+            "createdAt": "2026-03-02T23:22:30Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/build-containers.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 90,
+            "title": "feat: add script to pull MosaiCatcher containers with hash-based naming",
+            "state": "OPEN",
+            "createdAt": "2026-02-18T17:02:13Z",
+            "mergedAt": null,
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/scripts/pull-apptainer-containers.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 89,
+            "title": "Fix/assertion mm genomes",
+            "state": "MERGED",
+            "createdAt": "2026-02-18T10:59:21Z",
+            "mergedAt": "2026-02-18T14:24:38Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/build-containers.yaml"
+                },
+                {
+                  "path": "VERSION"
+                },
+                {
+                  "path": "workflow/rules/external_data.smk"
+                },
+                {
+                  "path": "workflow/scripts/utils/pipeline_aesthetic_start.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 88,
+            "title": "chore(workflow): optimize Dockerfile generation and increase artifact…",
+            "state": "MERGED",
+            "createdAt": "2026-02-16T20:55:57Z",
+            "mergedAt": "2026-02-18T10:59:44Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/build-containers.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 87,
+            "title": "Chore/grouping",
+            "state": "MERGED",
+            "createdAt": "2026-02-13T22:05:12Z",
+            "mergedAt": "2026-02-16T16:47:27Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/advanced.yaml"
+                },
+                {
+                  "path": ".github/workflows/assemblies.yaml"
+                },
+                {
+                  "path": ".github/workflows/build-containers.yaml"
+                },
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".github/workflows/release_please.yaml"
+                },
+                {
+                  "path": ".github/workflows/test-apptainer-action.yaml"
+                },
+                {
+                  "path": ".github/workflows/test-apptainer-validation.yaml"
+                },
+                {
+                  "path": "dev/snakemake-v9-features/.gitignore"
+                },
+                {
+                  "path": "dev/snakemake-v9-features/README.md"
+                },
+                {
+                  "path": "dev/snakemake-v9-features/Snakefile"
+                },
+                {
+                  "path": "dev/snakemake-v9-features/config.yaml"
+                },
+                {
+                  "path": "dev/snakemake-v9-features/profile/config.yaml"
+                },
+                {
+                  "path": "docs/hpc-pipeline-optimization_ongoing.md"
+                },
+                {
+                  "path": "workflow/rules/ashleys/alignment.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/multiqc.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/qc.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/count.smk"
+                },
+                {
+                  "path": "workflow/rules/haplotagging.smk"
+                },
+                {
+                  "path": "workflow/rules/segmentation.smk"
+                },
+                {
+                  "path": "workflow/rules/strandphaser.smk"
+                },
+                {
+                  "path": "workflow/rules/utils.smk"
+                },
+                {
+                  "path": "workflow/scripts/utils/pipeline_aesthetic_start.py"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v9/HPC/slurm_EMBL_conda/config.v9+.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 86,
+            "title": "Chore/profiles update",
+            "state": "MERGED",
+            "createdAt": "2026-02-11T09:29:05Z",
+            "mergedAt": "2026-02-16T16:47:58Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v9/HPC/slurm_EMBL_apptainer/config.v9+.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 85,
+            "title": "feat(workflow): add initial Snakemake workflow and configuration for …",
+            "state": "MERGED",
+            "createdAt": "2026-02-11T09:28:58Z",
+            "mergedAt": "2026-02-16T08:56:48Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "dev/snakemake-v9-features/.gitignore"
+                },
+                {
+                  "path": "dev/snakemake-v9-features/README.md"
+                },
+                {
+                  "path": "dev/snakemake-v9-features/Snakefile"
+                },
+                {
+                  "path": "dev/snakemake-v9-features/config.yaml"
+                },
+                {
+                  "path": "dev/snakemake-v9-features/profile/config.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 84,
+            "title": "feat(docs): add comprehensive HPC pipeline optimization guide",
+            "state": "MERGED",
+            "createdAt": "2026-02-11T09:28:50Z",
+            "mergedAt": "2026-02-16T16:47:29Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/hpc-pipeline-optimization_ongoing.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 83,
+            "title": "chore(deps): bump docker/build-push-action from 5 to 6",
+            "state": "MERGED",
+            "createdAt": "2026-02-10T00:27:10Z",
+            "mergedAt": "2026-02-10T09:18:00Z",
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/build-containers.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 82,
+            "title": "chore(deps): bump prefix-dev/setup-pixi from 0.9.3 to 0.9.4",
+            "state": "MERGED",
+            "createdAt": "2026-02-10T00:27:02Z",
+            "mergedAt": "2026-02-10T09:18:14Z",
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/advanced.yaml"
+                },
+                {
+                  "path": ".github/workflows/assemblies.yaml"
+                },
+                {
+                  "path": ".github/workflows/build-containers.yaml"
+                },
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".github/workflows/test-apptainer-action.yaml"
+                },
+                {
+                  "path": ".github/workflows/test-apptainer-validation.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 81,
+            "title": "chore(deps): bump softprops/action-gh-release from 1 to 2",
+            "state": "MERGED",
+            "createdAt": "2026-02-10T00:26:55Z",
+            "mergedAt": "2026-02-10T09:18:22Z",
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/build-containers.yaml"
+                },
+                {
+                  "path": ".github/workflows/release_please.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 80,
+            "title": "Feat/optional ploidy estimation",
+            "state": "MERGED",
+            "createdAt": "2026-02-02T10:09:57Z",
+            "mergedAt": "2026-02-06T11:14:16Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/advanced.yaml"
+                },
+                {
+                  "path": ".github/workflows/assemblies.yaml"
+                },
+                {
+                  "path": ".github/workflows/build-containers.yaml"
+                },
+                {
+                  "path": ".tests"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "docs/MIGRATION_NOTES.md"
+                },
+                {
+                  "path": "docs/canfam-reference-generation.md"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/08d4368302a4bdf7eda6b536495efe7d_history.txt"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/08d4368302a4bdf7eda6b536495efe7d_packages.txt"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/1500b5655a7c1aa812aa710896ca7666_history.txt"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/1500b5655a7c1aa812aa710896ca7666_packages.txt"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/32c736a65a401b33605acfa7a0241299_history.txt"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/32c736a65a401b33605acfa7a0241299_packages.txt"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/5681728a49bd83ceed09ba194330c858_history.txt"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/5681728a49bd83ceed09ba194330c858_packages.txt"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/8b150c19ea62e29d0bbc47d682a8db8e_history.txt"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/8b150c19ea62e29d0bbc47d682a8db8e_packages.txt"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/905757e298f80370141afb02667ced2e_history.txt"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/905757e298f80370141afb02667ced2e_packages.txt"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/EASYBUILD_RECIPES_CREATED.md"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/SUMMARY.md"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/conda_vs_modules_comparison.md"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/e4c4fbc0d8d5fdeeb1f51bb8c0e86716_history.txt"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/e4c4fbc0d8d5fdeeb1f51bb8c0e86716_packages.txt"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/e5cbb476a12203f97f2a0bb44963061d_history.txt"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/e5cbb476a12203f97f2a0bb44963061d_packages.txt"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/f251d84cdc9f25d0e14b48e780261d66_history.txt"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/f251d84cdc9f25d0e14b48e780261d66_packages.txt"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/fc1f554e9ee82b99f4350430ee3ae0a0_history.txt"
+                },
+                {
+                  "path": "docs/conda_env_exports_2.3.5/fc1f554e9ee82b99f4350430ee3ae0a0_packages.txt"
+                },
+                {
+                  "path": "docs/mm39-notes.md"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/data"
+                },
+                {
+                  "path": "workflow/envs/mc_base.yaml"
+                },
+                {
+                  "path": "workflow/envs/mc_bioinfo_tools.yaml"
+                },
+                {
+                  "path": "workflow/envs/rtools.yaml"
+                },
+                {
+                  "path": "workflow/rules/aggregate_fct.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/aggregate_fct.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/alignment.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/common.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/count.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/multiqc.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/qc.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/count.smk"
+                },
+                {
+                  "path": "workflow/rules/external_data.smk"
+                },
+                {
+                  "path": "workflow/rules/haplotagging.smk"
+                },
+                {
+                  "path": "workflow/rules/ploidy.smk"
+                },
+                {
+                  "path": "workflow/rules/plots.smk"
+                },
+                {
+                  "path": "workflow/rules/postprocessing.smk"
+                },
+                {
+                  "path": "workflow/rules/regenotyping.smk"
+                },
+                {
+                  "path": "workflow/rules/segmentation.smk"
+                },
+                {
+                  "path": "workflow/rules/setup.smk"
+                },
+                {
+                  "path": "workflow/rules/stats.smk"
+                },
+                {
+                  "path": "workflow/rules/strandphaser.smk"
+                },
+                {
+                  "path": "workflow/rules/utils.smk"
+                },
+                {
+                  "path": "workflow/scripts/ashleys/plotting/plot_plate.R"
+                },
+                {
+                  "path": "workflow/scripts/ashleys/utils/dev_all_cells_correct.py"
+                },
+                {
+                  "path": "workflow/scripts/coverage_analysis_mm_samples/analyze_all_samples.sh"
+                },
+                {
+                  "path": "workflow/scripts/coverage_analysis_mm_samples/analyze_chrom_coverage.py"
+                },
+                {
+                  "path": "workflow/scripts/coverage_analysis_mm_samples/analyze_coverage.py"
+                },
+                {
+                  "path": "workflow/scripts/coverage_analysis_mm_samples/collect_coverage.sh"
+                },
+                {
+                  "path": "workflow/scripts/coverage_analysis_mm_samples/compare_all_mm_samples.py"
+                },
+                {
+                  "path": "workflow/scripts/coverage_analysis_mm_samples/compare_info_raw.py"
+                },
+                {
+                  "path": "workflow/scripts/coverage_analysis_mm_samples/compare_samples.py"
+                },
+                {
+                  "path": "workflow/scripts/mosaiclassifier_scripts/call-complex-regions.py"
+                },
+                {
+                  "path": "workflow/scripts/plotting/plot-clustering_dev.R"
+                },
+                {
+                  "path": "workflow/scripts/plotting/plot_clustering_dev_clean.R"
+                },
+                {
+                  "path": "workflow/scripts/plotting/plot_clustering_scale_clean.py"
+                },
+                {
+                  "path": "workflow/scripts/strandphaser_scripts/helper.convert_strandphaser_output.R"
+                },
+                {
+                  "path": "workflow/scripts/utils/filter_bad_cells.py"
+                },
+                {
+                  "path": "workflow/scripts/utils/install_R_package.R"
+                },
+                {
+                  "path": "workflow/scripts/utils/run_summary.py"
+                },
+                {
+                  "path": "workflow/snakemake_profiles"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 79,
+            "title": "Feat/mm39 test data",
+            "state": "MERGED",
+            "createdAt": "2026-01-30T16:43:07Z",
+            "mergedAt": "2026-02-06T11:14:18Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/assemblies.yaml"
+                },
+                {
+                  "path": ".github/workflows/build-containers.yaml"
+                },
+                {
+                  "path": ".tests"
+                },
+                {
+                  "path": "docs/canfam-reference-generation.md"
+                },
+                {
+                  "path": "docs/mm39-notes.md"
+                },
+                {
+                  "path": "workflow/data"
+                },
+                {
+                  "path": "workflow/envs/mc_base.yaml"
+                },
+                {
+                  "path": "workflow/envs/mc_bioinfo_tools.yaml"
+                },
+                {
+                  "path": "workflow/envs/rtools.yaml"
+                },
+                {
+                  "path": "workflow/rules/aggregate_fct.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/alignment.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/common.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/count.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/multiqc.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/count.smk"
+                },
+                {
+                  "path": "workflow/rules/haplotagging.smk"
+                },
+                {
+                  "path": "workflow/scripts/utils/filter_bad_cells.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 78,
+            "title": "feat: pin conda environment versions and replace fastqc wrapper",
+            "state": "MERGED",
+            "createdAt": "2026-01-29T09:48:20Z",
+            "mergedAt": "2026-02-06T11:14:18Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/envs/mc_base.yaml"
+                },
+                {
+                  "path": "workflow/envs/mc_bioinfo_tools.yaml"
+                },
+                {
+                  "path": "workflow/envs/rtools.yaml"
+                },
+                {
+                  "path": "workflow/rules/ashleys/alignment.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/count.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/multiqc.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 77,
+            "title": "chore(deps): bump actions/download-artifact from 4 to 7",
+            "state": "CLOSED",
+            "createdAt": "2026-01-13T02:20:38Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/build-containers.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 76,
+            "title": "chore(deps): bump actions/cache from 4 to 5",
+            "state": "CLOSED",
+            "createdAt": "2026-01-13T02:20:35Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/advanced.yaml"
+                },
+                {
+                  "path": ".github/workflows/assemblies.yaml"
+                },
+                {
+                  "path": ".github/workflows/build-containers.yaml"
+                },
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".github/workflows/test-apptainer-action.yaml"
+                },
+                {
+                  "path": ".github/workflows/test-apptainer-validation.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 75,
+            "title": "chore(deps): bump actions/upload-artifact from 4 to 6",
+            "state": "CLOSED",
+            "createdAt": "2026-01-13T02:20:29Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/build-containers.yaml"
+                },
+                {
+                  "path": ".github/workflows/test-apptainer-action.yaml"
+                },
+                {
+                  "path": ".github/workflows/test-apptainer-validation.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 74,
+            "title": "chore(deps): bump actions/checkout from 4 to 6",
+            "state": "CLOSED",
+            "createdAt": "2026-01-13T02:20:20Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/advanced.yaml"
+                },
+                {
+                  "path": ".github/workflows/assemblies.yaml"
+                },
+                {
+                  "path": ".github/workflows/build-containers.yaml"
+                },
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".github/workflows/main_v9.yaml"
+                },
+                {
+                  "path": ".github/workflows/release_please.yaml"
+                },
+                {
+                  "path": ".github/workflows/test-apptainer-action.yaml"
+                },
+                {
+                  "path": ".github/workflows/test-apptainer-validation.yaml"
+                },
+                {
+                  "path": ".github/workflows/validate-conda-hashes.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 73,
+            "title": "Refactor/genome registry system",
+            "state": "MERGED",
+            "createdAt": "2026-01-09T22:06:22Z",
+            "mergedAt": "2026-02-11T09:05:51Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".claude/settings.json"
+                },
+                {
+                  "path": ".github/scripts/sync_ai_docs.sh"
+                },
+                {
+                  "path": ".github/workflows/assemblies.yaml"
+                },
+                {
+                  "path": ".github/workflows/validate-conda-hashes.yaml"
+                },
+                {
+                  "path": ".gitmodules"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "GEMINI.md"
+                },
+                {
+                  "path": "QWEN.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "docs/IMPLEMENTATION_SUMMARY.md"
+                },
+                {
+                  "path": "docs/README.md"
+                },
+                {
+                  "path": "docs/genome-registry-refactoring-plan.md"
+                },
+                {
+                  "path": "docs/genome-registry-scripts-audit.md"
+                },
+                {
+                  "path": "docs/images/mosaic_logo.png"
+                },
+                {
+                  "path": "docs/migration-notes.md"
+                },
+                {
+                  "path": "docs/snakemake-caching-migration.md"
+                },
+                {
+                  "path": "pixi.lock"
+                },
+                {
+                  "path": "pixi.toml"
+                },
+                {
+                  "path": "run_debug.sh"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/aggregate_fct.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/aggregate_fct.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/alignment.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/common.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/count.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/gc.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/qc.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/count.smk"
+                },
+                {
+                  "path": "workflow/rules/external_data.smk"
+                },
+                {
+                  "path": "workflow/rules/gc.smk"
+                },
+                {
+                  "path": "workflow/rules/haplotagging.smk"
+                },
+                {
+                  "path": "workflow/rules/plots.smk"
+                },
+                {
+                  "path": "workflow/rules/regenotyping.smk"
+                },
+                {
+                  "path": "workflow/rules/resources.smk"
+                },
+                {
+                  "path": "workflow/rules/segmentation.smk"
+                },
+                {
+                  "path": "workflow/rules/setup.smk"
+                },
+                {
+                  "path": "workflow/rules/utils.smk"
+                },
+                {
+                  "path": "workflow/scripts/ashleys/plotting/plot_plate.R"
+                },
+                {
+                  "path": "workflow/scripts/ashleys/plotting/qc.R"
+                },
+                {
+                  "path": "workflow/scripts/plotting/plot-clustering-scale.py"
+                },
+                {
+                  "path": "workflow/scripts/plotting/plot-clustering.R"
+                },
+                {
+                  "path": "workflow/scripts/plotting/plot-clustering.snakemake.R"
+                },
+                {
+                  "path": "workflow/scripts/plotting/plot-clustering_bak.R"
+                },
+                {
+                  "path": "workflow/scripts/plotting/plot-clustering_dev.R"
+                },
+                {
+                  "path": "workflow/scripts/plotting/plot-clustering_dev.snakemake.R"
+                },
+                {
+                  "path": "workflow/scripts/plotting/plot-sv-calls.R"
+                },
+                {
+                  "path": "workflow/scripts/plotting/plot-sv-calls_dev.R"
+                },
+                {
+                  "path": "workflow/scripts/plotting/plot_clustering_dev_clean.R"
+                },
+                {
+                  "path": "workflow/scripts/plotting/plot_clustering_dev_flat.R"
+                },
+                {
+                  "path": "workflow/scripts/plotting/qc.R"
+                },
+                {
+                  "path": "workflow/scripts/plotting/qc_dev.R"
+                },
+                {
+                  "path": "workflow/scripts/utils/generate_bin_bed.sh"
+                },
+                {
+                  "path": "workflow/scripts/utils/generate_gc_matrix.py"
+                },
+                {
+                  "path": "workflow/scripts/utils/pipeline_aesthetic_start.py"
+                },
+                {
+                  "path": "workflow/scripts/utils/run_summary.py"
+                },
+                {
+                  "path": "workflow/snakemake_profiles"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/.gitignore"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/README.md"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v7/HPC/dev/slurm_EMBL/config.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v7/HPC/dev/slurm_EMBL/status-sacct.sh"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v7/HPC/dev/slurm_legacy_conda/config.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v7/HPC/dev/slurm_legacy_conda/status-sacct.sh"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v7/HPC/dev/slurm_update_conda/config.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v7/HPC/dev/slurm_update_conda/status-sacct.sh"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v7/HPC/lsf_generic/config.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v7/HPC/slurm_BIH/config.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v7/HPC/slurm_EMBL/config.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v7/HPC/slurm_generic/config.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v7/local/conda/config.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v7/local/conda_singularity/config.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v8/HPC/slurm_BIH/config.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v8/HPC/slurm_EMBL_apptainer/config.v8+.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v8/HPC/slurm_EMBL_conda/config.v8+.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v8/HPC/slurm_generic/config.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v8/local/apptainer/config.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v8/local/conda/config.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v9/HPC/slurm_BIH/config.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v9/HPC/slurm_EMBL_apptainer/MULTI_USER_SETUP.md"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v9/HPC/slurm_EMBL_apptainer/README.md"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v9/HPC/slurm_EMBL_apptainer/config.v9+.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v9/HPC/slurm_EMBL_apptainer/setup_cache.sh"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v9/HPC/slurm_EMBL_conda/config.v9+.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v9/HPC/slurm_generic/config.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v9/local/apptainer/config.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles/mosaicatcher-pipeline/v9/local/conda/config.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 72,
+            "title": "Feat/conda validation workflow",
+            "state": "MERGED",
+            "createdAt": "2026-01-07T23:04:43Z",
+            "mergedAt": "2026-01-07T23:07:13Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".bumpversion.cfg"
+                },
+                {
+                  "path": ".github/workflows/build-containers.yaml"
+                },
+                {
+                  "path": "CLAUDE.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "VERSION"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "pixi.toml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 71,
+            "title": "Weber8thomas/clean conda envs",
+            "state": "MERGED",
+            "createdAt": "2026-01-06T10:34:49Z",
+            "mergedAt": "2026-01-07T11:23:52Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".bumpversion.cfg"
+                },
+                {
+                  "path": ".claude/settings.json"
+                },
+                {
+                  "path": ".github/scripts/changelog_generator.sh"
+                },
+                {
+                  "path": ".github/workflows/advanced.yaml"
+                },
+                {
+                  "path": ".github/workflows/assemblies.yaml"
+                },
+                {
+                  "path": ".github/workflows/build-containers.yaml"
+                },
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".github/workflows/release_please.yaml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CLAUDE.md"
+                },
+                {
+                  "path": "MIGRATION_NOTES.md"
+                },
+                {
+                  "path": "VERSION"
+                },
+                {
+                  "path": "afac/DL_scNOVA.dev.py"
+                },
+                {
+                  "path": "afac/Untitled.ipynb"
+                },
+                {
+                  "path": "afac/Untitled1.ipynb"
+                },
+                {
+                  "path": "afac/compare_tf1_tf2_results.py"
+                },
+                {
+                  "path": "afac/convert_tf_model.py"
+                },
+                {
+                  "path": "afac/input_data.npy"
+                },
+                {
+                  "path": "afac/load_model_tf2.py"
+                },
+                {
+                  "path": "afac/mosaicatcher_storage.py.ipynb"
+                },
+                {
+                  "path": "afac/quota_korbel.py"
+                },
+                {
+                  "path": "afac/tf1_prediction.npy"
+                },
+                {
+                  "path": "afac/tf2_prediction.npy"
+                },
+                {
+                  "path": "afac/update_sm_tag.sh"
+                },
+                {
+                  "path": "afac/update_sm_tag_pipeline/Snakefile"
+                },
+                {
+                  "path": "afac/update_sm_tag_pipeline/config.yaml"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/config_metadata.yaml"
+                },
+                {
+                  "path": "docs/pre-commit.md"
+                },
+                {
+                  "path": "docs/release-workflow.md"
+                },
+                {
+                  "path": "docs/version-management.md"
+                },
+                {
+                  "path": "pixi.lock"
+                },
+                {
+                  "path": "pixi.toml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/containers/Dockerfile.T2T"
+                },
+                {
+                  "path": "workflow/containers/Dockerfile.base"
+                },
+                {
+                  "path": "workflow/containers/Dockerfile.generated"
+                },
+                {
+                  "path": "workflow/containers/Dockerfile.hg19"
+                },
+                {
+                  "path": "workflow/containers/Dockerfile.hg38"
+                },
+                {
+                  "path": "workflow/containers/Dockerfile.mm10"
+                },
+                {
+                  "path": "workflow/containers/Dockerfile.mm39"
+                },
+                {
+                  "path": "workflow/containers/README.md"
+                },
+                {
+                  "path": "workflow/data"
+                },
+                {
+                  "path": "workflow/envs/BAK/ashleys.yaml"
+                },
+                {
+                  "path": "workflow/envs/BAK/mc_base.yaml"
+                },
+                {
+                  "path": "workflow/envs/BAK/mc_bioinfo_tools.yaml"
+                },
+                {
+                  "path": "workflow/envs/BAK/python_plots.yaml"
+                },
+                {
+                  "path": "workflow/envs/BAK/rtools.yaml"
+                },
+                {
+                  "path": "workflow/envs/BAK/snakemake.yaml"
+                },
+                {
+                  "path": "workflow/envs/BAK/strandphaser.yaml"
+                },
+                {
+                  "path": "workflow/envs/BAK/sv_heatmap.yaml"
+                },
+                {
+                  "path": "workflow/envs/BAK_PIN/mc_base.yaml"
+                },
+                {
+                  "path": "workflow/envs/BAK_PIN/mc_bioinfo_tools.yaml"
+                },
+                {
+                  "path": "workflow/envs/BAK_PIN/python_plots.yaml"
+                },
+                {
+                  "path": "workflow/envs/BAK_PIN/rtools.yaml"
+                },
+                {
+                  "path": "workflow/envs/dev/GC.yaml"
+                },
+                {
+                  "path": "workflow/envs/dev/arbigent/mc_base.yaml"
+                },
+                {
+                  "path": "workflow/envs/dev/ashleys.yaml"
+                },
+                {
+                  "path": "workflow/envs/dev/cpp.yaml"
+                },
+                {
+                  "path": "workflow/envs/dev/cpp_copy.yaml"
+                },
+                {
+                  "path": "workflow/envs/dev/debug.yaml"
+                },
+                {
+                  "path": "workflow/envs/dev/mc_bioinfo_tools.yaml"
+                },
+                {
+                  "path": "workflow/envs/dev/plot_sv_calls.yaml"
+                },
+                {
+                  "path": "workflow/envs/dev/rtools.yaml"
+                },
+                {
+                  "path": "workflow/envs/dev/rtools_enhanced.yaml"
+                },
+                {
+                  "path": "workflow/envs/dev/strandphaser.yaml"
+                },
+                {
+                  "path": "workflow/envs/dev/sv_heatmap_dev.yaml"
+                },
+                {
+                  "path": "workflow/envs/dev/test_env_mc.yaml"
+                },
+                {
+                  "path": "workflow/envs/dev/test_env_mc_ashleys.yaml"
+                },
+                {
+                  "path": "workflow/envs/mc_base.yaml"
+                },
+                {
+                  "path": "workflow/envs/mc_bioinfo_tools.yaml"
+                },
+                {
+                  "path": "workflow/envs/rtools.yaml"
+                },
+                {
+                  "path": "workflow/envs/scNOVA/scNOVA_bioinfo_tools.yaml"
+                },
+                {
+                  "path": "workflow/rules/aggregate_fct.smk"
+                },
+                {
+                  "path": "workflow/rules/arbigent_rules.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/aggregate_fct.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/alignment.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/common.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/count.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/gc.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/multiqc.smk"
+                },
+                {
+                  "path": "workflow/rules/ashleys/qc.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/count.smk"
+                },
+                {
+                  "path": "workflow/rules/debug.smk"
+                },
+                {
+                  "path": "workflow/rules/external_data.smk"
+                },
+                {
+                  "path": "workflow/rules/plots.smk"
+                },
+                {
+                  "path": "workflow/rules/scNOVA.smk"
+                },
+                {
+                  "path": "workflow/rules/setup.smk"
+                },
+                {
+                  "path": "workflow/rules/utils.smk"
+                },
+                {
+                  "path": "workflow/scripts/arbigent_utils/create_hdf.py"
+                },
+                {
+                  "path": "workflow/scripts/arbigent_utils/watson_crick.py"
+                },
+                {
+                  "path": "workflow/scripts/ashleys/GC/GC_correction.R"
+                },
+                {
+                  "path": "workflow/scripts/ashleys/GC/GC_correction_dev.R.ipynb"
+                },
+                {
+                  "path": "workflow/scripts/ashleys/GC/VST_dev.R"
+                },
+                {
+                  "path": "workflow/scripts/ashleys/GC/gc.R"
+                },
+                {
+                  "path": "workflow/scripts/ashleys/GC/library_size_normalisation.R"
+                },
+                {
+                  "path": "workflow/scripts/ashleys/GC/variance_stabilizing_transformation.R"
+                },
+                {
+                  "path": "workflow/scripts/ashleys/housekeeping/scripts/add_containers_to_rules.py"
+                },
+                {
+                  "path": "workflow/scripts/ashleys/housekeeping/scripts/update_rules_containers.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 69,
+            "title": "Bump github/super-linter from 4 to 7",
+            "state": "CLOSED",
+            "createdAt": "2024-09-02T21:09:37Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 68,
+            "title": "Weber8thomas/clean conda envs",
+            "state": "MERGED",
+            "createdAt": "2024-07-30T13:53:27Z",
+            "mergedAt": "2024-07-30T13:53:33Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/envs/scNOVA/scNOVA_DL.yaml"
+                },
+                {
+                  "path": "workflow/rules/plots.smk"
+                },
+                {
+                  "path": "workflow/scripts/plotting/generate_IGV_session.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 67,
+            "title": "Weber8thomas/clean conda envs",
+            "state": "MERGED",
+            "createdAt": "2024-07-30T09:18:33Z",
+            "mergedAt": "2024-07-30T09:52:05Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".tests"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "github-actions-runner/Dockerfile-2.3.5.dockerfile"
+                },
+                {
+                  "path": "workflow/data"
+                },
+                {
+                  "path": "workflow/envs/global.yaml"
+                },
+                {
+                  "path": "workflow/envs/mc_base.yaml"
+                },
+                {
+                  "path": "workflow/envs/rtools.yaml"
+                },
+                {
+                  "path": "workflow/envs/scNOVA/scNOVA_DL.yaml"
+                },
+                {
+                  "path": "workflow/envs/scNOVA/scNOVA_R.yaml"
+                },
+                {
+                  "path": "workflow/envs/scNOVA/scNOVA_bioinfo_tools.yaml"
+                },
+                {
+                  "path": "workflow/snakemake_profiles"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 65,
+            "title": "fix: clean conda envs",
+            "state": "MERGED",
+            "createdAt": "2024-07-11T13:43:55Z",
+            "mergedAt": "2024-07-11T13:44:02Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 64,
+            "title": "fix(common): Fix missing publishdir fct in common.smk",
+            "state": "MERGED",
+            "createdAt": "2024-07-02T07:57:45Z",
+            "mergedAt": "2024-07-11T13:44:03Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 63,
+            "title": "fix(config): Fix config version",
+            "state": "MERGED",
+            "createdAt": "2024-07-01T12:32:00Z",
+            "mergedAt": "2024-07-01T12:32:07Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 62,
+            "title": "weber8thomas/fix slurm time issue",
+            "state": "MERGED",
+            "createdAt": "2024-07-01T08:00:13Z",
+            "mergedAt": "2024-07-01T12:20:19Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/advanced.yaml"
+                },
+                {
+                  "path": ".github/workflows/assemblies.yaml"
+                },
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".github/workflows/main_v8.yaml"
+                },
+                {
+                  "path": "afac/reorganise_landsdorp_data.py"
+                },
+                {
+                  "path": "github-actions-runner/Dockerfile-2.3.3.dockerfile"
+                },
+                {
+                  "path": "github-actions-runner/Dockerfile-2.3.4.dockerfile"
+                },
+                {
+                  "path": "workflow/rules/breakpointr.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 61,
+            "title": "2.3.3",
+            "state": "MERGED",
+            "createdAt": "2024-06-25T09:39:45Z",
+            "mergedAt": "2024-06-27T08:11:06Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/advanced.yaml"
+                },
+                {
+                  "path": ".github/workflows/assemblies.yaml"
+                },
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".github/workflows/main_test.yaml"
+                },
+                {
+                  "path": ".github/workflows/main_v8.yaml"
+                },
+                {
+                  "path": ".github/workflows/release_please.yaml"
+                },
+                {
+                  "path": ".gitmodules"
+                },
+                {
+                  "path": ".tests"
+                },
+                {
+                  "path": "afac/reorganise_dkfz_data.py"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/config_metadata.yaml"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/.gitattributes"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/.gitignore"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/README.md"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/config/simple_config_ashleys.yaml"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/config/simple_config_mosaicatcher.yaml"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/config/slurm_config/config.yaml"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/data_CHR17/RPE-BM510/bam/BM510x04_PE20301.sort.mdup.bam"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/data_CHR17/RPE-BM510/bam/BM510x04_PE20302.sort.mdup.bam"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/data_CHR17/RPE-BM510/bam/BM510x04_PE20303.sort.mdup.bam"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/data_CHR17/RPE-BM510/bam/BM510x04_PE20304.sort.mdup.bam"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/data_CHR17/RPE-BM510/bam/BM510x04_PE20305.sort.mdup.bam"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/data_CHR17/RPE-BM510/bam/BM510x04_PE20306.sort.mdup.bam"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/data_CHR17/RPE-BM510/bam/BM510x04_PE20307.sort.mdup.bam"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/data_CHR17/RPE-BM510/bam/BM510x04_PE20308.sort.mdup.bam"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/data_CHR17/RPE-BM510/bam/BM510x04_PE20309.sort.mdup.bam"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/data_CHR17/RPE-BM510/bam/BM510x04_PE20310.sort.mdup.bam"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/data_CHR17/RPE-BM510/bam/BM510x04_PE20311.sort.mdup.bam"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/data_CHR17/RPE-BM510/bam/BM510x04_PE20312.sort.mdup.bam"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/data_CHR17/RPE-BM510/bam/BM510x04_PE20313.sort.mdup.bam"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/data_CHR17/RPE-BM510/bam/BM510x04_PE20314.sort.mdup.bam"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/data_CHR17/RPE-BM510/bam/BM510x04_PE20316.sort.mdup.bam"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/data_CHR17/RPE-BM510/bam/BM510x04_PE20317.sort.mdup.bam"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/data_CHR17/RPE-BM510/bam/BM510x04_PE20318.sort.mdup.bam"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/data_CHR17/RPE-BM510/bam/BM510x04_PE20319.sort.mdup.bam"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/external_data/chr17.fa"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/external_data/chr17.fa.amb"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/external_data/chr17.fa.ann"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/external_data/chr17.fa.bwt"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/external_data/chr17.fa.fai"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/external_data/chr17.fa.gzi"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/external_data/chr17.fa.log"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/external_data/chr17.fa.pac"
+                },
+                {
+                  "path": "github-actions-runner/.tests-mock/external_data/chr17.fa.sa"
+                },
+                {
+                  "path": "watchdog_pipeline/excluded_samples.yaml"
+                },
+                {
+                  "path": "watchdog_pipeline/watchdog_pipeline.py"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/rtools.yaml"
+                },
+                {
+                  "path": "workflow/rules/aggregate_fct.smk"
+                },
+                {
+                  "path": "workflow/rules/breakpointr.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/count.smk"
+                },
+                {
+                  "path": "workflow/rules/external_data_v7.smk"
+                },
+                {
+                  "path": "workflow/rules/external_data_v8.smk"
+                },
+                {
+                  "path": "workflow/rules/strandphaser.smk"
+                },
+                {
+                  "path": "workflow/rules/utils.smk"
+                },
+                {
+                  "path": "workflow/scripts/breakpointr_scripts/breakpointR_pipeline.R"
+                },
+                {
+                  "path": "workflow/scripts/breakpointr_scripts/prepare_breakpointr.py"
+                },
+                {
+                  "path": "workflow/scripts/utils/generate_exclude_file.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 60,
+            "title": "Bump actions/checkout from 3.2.0 to 4.1.7",
+            "state": "MERGED",
+            "createdAt": "2024-06-24T21:43:49Z",
+            "mergedAt": "2024-06-25T08:30:33Z",
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main_test.yaml"
+                },
+                {
+                  "path": ".github/workflows/release_please.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 59,
+            "title": "Bump github/super-linter from 4 to 6",
+            "state": "CLOSED",
+            "createdAt": "2024-06-24T21:43:40Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 58,
+            "title": "Bump mathieudutour/github-tag-action from 6.1 to 6.2",
+            "state": "MERGED",
+            "createdAt": "2024-06-24T21:43:32Z",
+            "mergedAt": "2024-06-25T08:30:42Z",
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/release_please.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 57,
+            "title": "Merge remote-tracking branch 'origin/master' into dev_tmp",
+            "state": "MERGED",
+            "createdAt": "2024-06-22T15:42:04Z",
+            "mergedAt": "2024-06-22T15:42:16Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 56,
+            "title": "Small fixes & update to 2.3.1",
+            "state": "MERGED",
+            "createdAt": "2024-06-22T09:55:38Z",
+            "mergedAt": "2024-06-22T10:04:00Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/assemblies.yaml.bak"
+                },
+                {
+                  "path": ".github/workflows/conda.yaml.bak"
+                },
+                {
+                  "path": ".github/workflows/main.yaml.bak"
+                },
+                {
+                  "path": ".github/workflows/main_test.yaml"
+                },
+                {
+                  "path": ".tests"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/images/figure_pipeline.png"
+                },
+                {
+                  "path": "github-actions-runner/Dockerfile-2.3.1.dockerfile"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/global.yaml"
+                },
+                {
+                  "path": "workflow/envs/mc_base.yaml"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/plots.smk"
+                },
+                {
+                  "path": "workflow/snakemake_profiles"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 54,
+            "title": "2.2.5 with Dockerfile",
+            "state": "MERGED",
+            "createdAt": "2024-01-10T15:57:50Z",
+            "mergedAt": "2024-01-10T16:20:53Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/workshop.md"
+                },
+                {
+                  "path": "github-actions-runner/Dockerfile-2.2.5.dockerfile"
+                },
+                {
+                  "path": "workflow/envs/scNOVA/scNOVA_DL.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 53,
+            "title": "2.2.5",
+            "state": "MERGED",
+            "createdAt": "2024-01-10T09:50:09Z",
+            "mergedAt": "2024-01-10T09:50:19Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".tests/config/simple_config.yaml"
+                },
+                {
+                  "path": "config/config.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 52,
+            "title": "Watchdog update, jbrowse mode",
+            "state": "MERGED",
+            "createdAt": "2024-01-02T22:03:29Z",
+            "mergedAt": "2024-01-10T09:40:01Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/config_metadata.yaml"
+                },
+                {
+                  "path": "docs/workshop.md"
+                },
+                {
+                  "path": "envs/global.yaml"
+                },
+                {
+                  "path": "watchdog_pipeline/excluded_samples.yaml"
+                },
+                {
+                  "path": "watchdog_pipeline/watchdog_pipeline.py"
+                },
+                {
+                  "path": "workflow/envs/global.yaml"
+                },
+                {
+                  "path": "workflow/rules/aggregate_fct.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/count.smk"
+                },
+                {
+                  "path": "workflow/rules/plots.smk"
+                },
+                {
+                  "path": "workflow/scripts/genome_browsing/generate_jbrowse_tracks.py"
+                },
+                {
+                  "path": "workflow/scripts/scNOVA_scripts/assert_list_of_cells.py"
+                },
+                {
+                  "path": "workflow/scripts/strandphaser_scripts/prepare_strandphaser.py"
+                },
+                {
+                  "path": "workflow/scripts/utils/pipeline_aesthetic_start.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 51,
+            "title": "2.2.4: minor fixes for scNOVA new container mode",
+            "state": "MERGED",
+            "createdAt": "2023-12-05T10:40:31Z",
+            "mergedAt": "2023-12-05T10:44:16Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".tests/config/simple_config.yaml"
+                },
+                {
+                  "path": "afac/update_timestamps.py"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/config_metadata.yaml"
+                },
+                {
+                  "path": "github-actions-runner/Dockerfile-2.2.2.dockerfile"
+                },
+                {
+                  "path": "github-actions-runner/Dockerfile-2.2.3.dockerfile"
+                },
+                {
+                  "path": "github-actions-runner/Dockerfile-2.2.4.dockerfile"
+                },
+                {
+                  "path": "github-actions-runner/add_T2T_part_to_Dockerfile.sh"
+                },
+                {
+                  "path": "watchdog_pipeline/watchdog_pipeline.py"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/scNOVA/scNOVA_DL.yaml"
+                },
+                {
+                  "path": "workflow/rules/aggregate_fct.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/count.smk"
+                },
+                {
+                  "path": "workflow/rules/external_data.smk"
+                },
+                {
+                  "path": "workflow/rules/plots.smk"
+                },
+                {
+                  "path": "workflow/rules/regenotyping.smk"
+                },
+                {
+                  "path": "workflow/rules/scNOVA.smk"
+                },
+                {
+                  "path": "workflow/rules/setup.smk"
+                },
+                {
+                  "path": "workflow/rules/utils.smk"
+                },
+                {
+                  "path": "workflow/scripts/normalization/merge-blacklist.py"
+                },
+                {
+                  "path": "workflow/scripts/scNOVA_scripts/assert_list_of_cells.py"
+                },
+                {
+                  "path": "workflow/scripts/scNOVA_scripts/filter_input_subclonality.py"
+                },
+                {
+                  "path": "workflow/scripts/scNOVA_scripts/filter_sv_calls.py"
+                },
+                {
+                  "path": "workflow/scripts/utils/dump_config.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 50,
+            "title": "2.2.2: IGV genome browsing & fixes",
+            "state": "MERGED",
+            "createdAt": "2023-09-13T21:26:14Z",
+            "mergedAt": "2023-09-22T16:09:56Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".tests/config/simple_config.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "afac/alice_binning.ipynb"
+                },
+                {
+                  "path": "afac/umap.R.ipynb"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/config_metadata.yaml"
+                },
+                {
+                  "path": "docs/images/figure_pipeline.png"
+                },
+                {
+                  "path": "docs/images/figure_pipeline_old2.png"
+                },
+                {
+                  "path": "docs/images/plots/clustering.png"
+                },
+                {
+                  "path": "docs/images/plots/clustering_sv.png"
+                },
+                {
+                  "path": "docs/images/plots/genome_browsing.png"
+                },
+                {
+                  "path": "docs/images/plots/scTRIP_multiplot.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/parameters.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "github-actions-runner/docker_procedure.md"
+                },
+                {
+                  "path": "watchdog_pipeline/watchdog_pipeline.py"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/dev/debug.yaml"
+                },
+                {
+                  "path": "workflow/report/workflow.rst"
+                },
+                {
+                  "path": "workflow/rules/aggregate_fct.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/count.smk"
+                },
+                {
+                  "path": "workflow/rules/debug.smk"
+                },
+                {
+                  "path": "workflow/rules/external_data.smk"
+                },
+                {
+                  "path": "workflow/rules/gc.smk"
+                },
+                {
+                  "path": "workflow/rules/plots.smk"
+                },
+                {
+                  "path": "workflow/rules/setup.smk"
+                },
+                {
+                  "path": "workflow/scripts/plotting/generate_IGV_session.sh"
+                },
+                {
+                  "path": "workflow/scripts/plotting/scTRIP_multiplot/scTRIP_multiplot_run.R"
+                },
+                {
+                  "path": "workflow/scripts/plotting/split_ucsc_file.sh"
+                },
+                {
+                  "path": "workflow/scripts/scNOVA_scripts/infer_diff_gene_expression.R"
+                },
+                {
+                  "path": "workflow/scripts/utils/install_R_package.R"
+                },
+                {
+                  "path": "workflow/scripts/utils/populated_counts_for_qc_plot.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 49,
+            "title": "2.2.1: fixes",
+            "state": "MERGED",
+            "createdAt": "2023-08-22T11:24:46Z",
+            "mergedAt": "2023-08-22T14:17:41Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".gitpod.Dockerfile"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".gitpod.yml.bak"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".tests/config/simple_config.yaml"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/config_metadata.yaml"
+                },
+                {
+                  "path": "github-actions-runner/Dockerfile-2.2.1.dockerfile"
+                },
+                {
+                  "path": "github-actions-runner/docker_procedure.md"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/rtools.yaml"
+                },
+                {
+                  "path": "workflow/report/workflow.rst"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/GC/GC_correction.R"
+                },
+                {
+                  "path": "workflow/scripts/GC/counts_scaling.R"
+                },
+                {
+                  "path": "workflow/scripts/GC/gc.R"
+                },
+                {
+                  "path": "workflow/scripts/GC/library_size_normalisation.R"
+                },
+                {
+                  "path": "workflow/scripts/GC/variance_stabilizing_transformation.R"
+                },
+                {
+                  "path": "workflow/scripts/utils/make_log_useful.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 47,
+            "title": "Version 2.2.0",
+            "state": "MERGED",
+            "createdAt": "2023-07-29T18:45:58Z",
+            "mergedAt": "2023-08-09T10:18:40Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/docker.dev"
+                },
+                {
+                  "path": ".github/workflows/conda.yaml"
+                },
+                {
+                  "path": ".tests/config/simple_config.yaml"
+                },
+                {
+                  "path": "afac/dev.py.ipynb"
+                },
+                {
+                  "path": "afac/filter_bad_cells.py"
+                },
+                {
+                  "path": "afac/plate_plot.dev.ipynb"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/config_metadata.yaml"
+                },
+                {
+                  "path": "docs/parameters.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "github-actions-runner/Dockerfile-2.2.0.dockerfile"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/aggregate_fct.smk"
+                },
+                {
+                  "path": "workflow/rules/arbigent.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/count.smk"
+                },
+                {
+                  "path": "workflow/rules/external_data.smk"
+                },
+                {
+                  "path": "workflow/rules/gc.smk"
+                },
+                {
+                  "path": "workflow/rules/plots.smk"
+                },
+                {
+                  "path": "workflow/rules/scNOVA.smk"
+                },
+                {
+                  "path": "workflow/rules/setup.smk"
+                },
+                {
+                  "path": "workflow/rules/strandphaser.smk"
+                },
+                {
+                  "path": "workflow/rules/utils.smk"
+                },
+                {
+                  "path": "workflow/scripts/arbigent_utils/create_hdf.py"
+                },
+                {
+                  "path": "workflow/scripts/utils/filter_bad_cells.py"
+                },
+                {
+                  "path": "workflow/scripts/utils/install_R_package.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 46,
+            "title": "2.1.3",
+            "state": "MERGED",
+            "createdAt": "2023-07-04T08:03:40Z",
+            "mergedAt": "2023-07-06T08:29:03Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/assemblies.yaml"
+                },
+                {
+                  "path": ".github/workflows/conda.yaml"
+                },
+                {
+                  "path": ".github/workflows/docker.yaml"
+                },
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".github/workflows/two_steps.dev"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".tests/config/simple_config.yaml"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/parameters.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "github-actions-runner/Dockerfile-2.1.3.dockerfile"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/external_data.smk"
+                },
+                {
+                  "path": "workflow/rules/scNOVA.smk"
+                },
+                {
+                  "path": "workflow/scripts/utils/generate_exclude_file.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 45,
+            "title": "Revert 36 arbi debug",
+            "state": "MERGED",
+            "createdAt": "2023-07-03T16:38:08Z",
+            "mergedAt": "2023-07-03T17:27:52Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/output.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 44,
+            "title": "2.1.2: fix docker memory space limit",
+            "state": "MERGED",
+            "createdAt": "2023-06-28T20:00:01Z",
+            "mergedAt": "2023-06-29T08:41:21Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/docker.yaml"
+                },
+                {
+                  "path": "github-actions-runner/Dockerfile-2.1.2.dockerfile"
+                },
+                {
+                  "path": "workflow/envs/rtools.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 43,
+            "title": "2.1.2: Docker fix",
+            "state": "MERGED",
+            "createdAt": "2023-06-28T13:52:36Z",
+            "mergedAt": "2023-06-28T13:58:18Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".tests/config/simple_config.yaml"
+                },
+                {
+                  "path": "afac/ucsc_vizu.py"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "docs/images/figure_pipeline.png"
+                },
+                {
+                  "path": "docs/images/plots/alfred_devi.png"
+                },
+                {
+                  "path": "docs/images/plots/alfred_dist.png"
+                },
+                {
+                  "path": "github-actions-runner/Dockerfile-2.1.1.dockerfile"
+                },
+                {
+                  "path": "github-actions-runner/Dockerfile-2.1.2.dockerfile"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/rtools.yaml"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/plots.smk"
+                },
+                {
+                  "path": "workflow/scripts/plotting/ucsc_vizu.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 42,
+            "title": "2.1.1",
+            "state": "MERGED",
+            "createdAt": "2023-06-06T09:18:26Z",
+            "mergedAt": "2023-06-06T09:18:35Z",
+            "author": {
+              "login": "weber8thomas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

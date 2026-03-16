@@ -1,0 +1,11 @@
+shell.executable("bash")
+
+rule all:
+    input:
+        "foo.txt"
+
+rule a:
+    output:
+        "{test}.txt"
+    shell:
+        "echo {rule} {wildcards} > {output}"

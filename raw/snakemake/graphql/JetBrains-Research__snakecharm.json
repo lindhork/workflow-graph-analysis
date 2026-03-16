@@ -1,0 +1,3505 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 567,
+            "title": "Improve indent at the end of snakemake file on \"Enter\" action.",
+            "state": "OPEN",
+            "createdAt": "2025-08-14T16:01:09Z",
+            "closedAt": null,
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 565,
+            "title": "Tests fail on CI with error: File accessed outside allowed roots erorr for project testdata",
+            "state": "CLOSED",
+            "createdAt": "2025-08-08T16:40:55Z",
+            "closedAt": "2025-08-12T19:06:34Z",
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 564,
+            "title": "Wrappers docs url is invalid for wrappers version >= 6.x",
+            "state": "CLOSED",
+            "createdAt": "2025-08-07T16:14:09Z",
+            "closedAt": "2025-08-08T16:37:38Z",
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 563,
+            "title": "2025.2 support",
+            "state": "CLOSED",
+            "createdAt": "2025-08-07T12:15:35Z",
+            "closedAt": "2025-08-12T19:06:44Z",
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 562,
+            "title": "Pythonid.pyAnnotator is deprecated",
+            "state": "OPEN",
+            "createdAt": "2025-07-16T12:42:29Z",
+            "closedAt": null,
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 561,
+            "title": "API change: Use  `PyReturnYieldAnnotatorVisitor ` instead of `ReturnAnnotator`",
+            "state": "OPEN",
+            "createdAt": "2025-07-16T12:40:49Z",
+            "closedAt": null,
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 560,
+            "title": "Add compatibility with PyCharm / IntelliJ Platform IDEs 2025.1",
+            "state": "CLOSED",
+            "createdAt": "2025-04-17T16:59:52Z",
+            "closedAt": "2025-04-18T06:18:39Z",
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 559,
+            "title": "Some code insight features stopped working with Snakemake 9.x release",
+            "state": "CLOSED",
+            "createdAt": "2025-04-17T16:58:56Z",
+            "closedAt": "2025-04-18T06:18:33Z",
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 558,
+            "title": "Inconvenient indent after typing '\\n' symbol in a single line sections in the end of file",
+            "state": "OPEN",
+            "createdAt": "2024-11-05T17:51:10Z",
+            "closedAt": null,
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 557,
+            "title": "Wildcard not properly defined false warning when typing first input, then output section",
+            "state": "CLOSED",
+            "createdAt": "2024-10-28T13:18:27Z",
+            "closedAt": "2024-11-05T18:25:51Z",
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 556,
+            "title": "Code completion for standard resources keys (mem_mb, etc.) + resource_scopes",
+            "state": "OPEN",
+            "createdAt": "2024-10-21T17:10:46Z",
+            "closedAt": null,
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 555,
+            "title": "Support for Global workflow dependencies [8.0.0] syntax",
+            "state": "CLOSED",
+            "createdAt": "2024-10-21T16:40:21Z",
+            "closedAt": "2024-10-22T16:17:49Z",
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 554,
+            "title": "Support for `storage` directive",
+            "state": "CLOSED",
+            "createdAt": "2024-10-21T14:20:09Z",
+            "closedAt": "2024-10-22T16:19:04Z",
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 553,
+            "title": "Inject some modules in Snakefile file resolve scope w/o import declaration, e.g. os, sys,..",
+            "state": "CLOSED",
+            "createdAt": "2024-10-21T14:17:07Z",
+            "closedAt": "2024-10-22T18:51:24Z",
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 552,
+            "title": "Unresolved `output` in rule imported from module",
+            "state": "CLOSED",
+            "createdAt": "2024-10-21T14:16:07Z",
+            "closedAt": "2024-10-21T14:43:00Z",
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 551,
+            "title": "Support for `scattergather` directive",
+            "state": "OPEN",
+            "createdAt": "2024-10-21T14:14:19Z",
+            "closedAt": null,
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 550,
+            "title": "Inspection False Positive: Unresolved reference: 'storage', 'github', 'gitfile', 'gitlab'",
+            "state": "CLOSED",
+            "createdAt": "2024-10-21T13:53:21Z",
+            "closedAt": "2024-10-22T14:31:15Z",
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 549,
+            "title": "Inspection False Positive: Unresolved reference 'log'",
+            "state": "OPEN",
+            "createdAt": "2024-10-21T12:41:29Z",
+            "closedAt": null,
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 548,
+            "title": "[8.3.0] Inspeciton False Positive: Unresolved reference for: lookup, evaluate, branch, collect, exists ",
+            "state": "CLOSED",
+            "createdAt": "2024-10-21T12:37:47Z",
+            "closedAt": "2024-10-22T11:07:54Z",
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 547,
+            "title": "Parsing error in : input: '{ds}.bam'.format(ds=ds) for ds in DATASETS",
+            "state": "OPEN",
+            "createdAt": "2024-10-21T12:36:20Z",
+            "closedAt": null,
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 546,
+            "title": "Inspection False Positive: Unresolved reference 'snakemake'",
+            "state": "CLOSED",
+            "createdAt": "2024-10-21T12:33:39Z",
+            "closedAt": "2024-10-22T18:46:07Z",
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 545,
+            "title": "Allow access to module name obj through local variable:",
+            "state": "OPEN",
+            "createdAt": "2024-10-21T12:29:54Z",
+            "closedAt": null,
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 544,
+            "title": "Fix token debug name in PyUnresolvedReferencesInspection warning: Cannot find reference 'input' in 'Py:USE_KEYWORD mod1_*'",
+            "state": "OPEN",
+            "createdAt": "2024-10-21T12:25:19Z",
+            "closedAt": null,
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 543,
+            "title": "Inspection False Positive: Rule or Checkpoint name 'check1' has not been defined yet ",
+            "state": "OPEN",
+            "createdAt": "2024-10-21T11:55:37Z",
+            "closedAt": null,
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 542,
+            "title": "Inspection Error False Positive: Unresolved reference for `version` local function",
+            "state": "OPEN",
+            "createdAt": "2024-10-21T11:53:39Z",
+            "closedAt": null,
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 541,
+            "title": "Inspection Error False Positive: Unresolved output for output local var",
+            "state": "OPEN",
+            "createdAt": "2024-10-21T11:52:59Z",
+            "closedAt": null,
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 540,
+            "title": "Inspection error false positive: This rule name is already used by another rule declaration.",
+            "state": "OPEN",
+            "createdAt": "2024-10-21T11:49:05Z",
+            "closedAt": null,
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 539,
+            "title": "Undeclared section threads warning should not be shown here",
+            "state": "CLOSED",
+            "createdAt": "2024-10-21T11:44:10Z",
+            "closedAt": "2024-10-22T19:46:54Z",
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 538,
+            "title": "Inspections: Warn if snakemake expects sections args to be on next line for multi line arguments",
+            "state": "OPEN",
+            "createdAt": "2024-10-18T11:25:40Z",
+            "closedAt": null,
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 537,
+            "title": "Revise snakemake.io flags in 8.0",
+            "state": "CLOSED",
+            "createdAt": "2024-10-16T18:00:24Z",
+            "closedAt": "2024-10-21T11:41:12Z",
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 536,
+            "title": "Improve API in `snakemake_api.yaml` to remove some keywords behaviour hardcoded in the plugin",
+            "state": "CLOSED",
+            "createdAt": "2024-10-11T16:16:52Z",
+            "closedAt": "2024-10-21T11:41:45Z",
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 535,
+            "title": "For section keywords show 'since' version and deprecation notice in completion list. Do not suggest already removed keywords.",
+            "state": "CLOSED",
+            "createdAt": "2024-10-10T19:19:51Z",
+            "closedAt": "2024-10-11T10:44:34Z",
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 534,
+            "title": "SlowOperations workaround in SmkFrameworkSettingsPanel",
+            "state": "OPEN",
+            "createdAt": "2024-10-10T14:52:11Z",
+            "closedAt": null,
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 533,
+            "title": "SlowOperations workaround in ImplicitPySymbolsProvider",
+            "state": "OPEN",
+            "createdAt": "2024-10-08T11:59:36Z",
+            "closedAt": null,
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 532,
+            "title": "SnakeCharm not compatible with PyCharm version 2024.2",
+            "state": "CLOSED",
+            "createdAt": "2024-08-22T10:18:28Z",
+            "closedAt": "2024-10-09T18:56:08Z",
+            "author": {
+              "login": "LottePronk"
+            }
+          },
+          {
+            "number": 528,
+            "title": "Improve target rules support",
+            "state": "OPEN",
+            "createdAt": "2024-04-29T14:31:26Z",
+            "closedAt": null,
+            "author": {
+              "login": "Xewar313"
+            }
+          },
+          {
+            "number": 527,
+            "title": "Snakecharm marks error on comment in last line",
+            "state": "CLOSED",
+            "createdAt": "2024-04-29T13:36:38Z",
+            "closedAt": "2024-10-10T15:55:32Z",
+            "author": {
+              "login": "Xewar313"
+            }
+          },
+          {
+            "number": 526,
+            "title": "Multiple functions are not recognized by snakecharm",
+            "state": "CLOSED",
+            "createdAt": "2024-04-29T13:29:28Z",
+            "closedAt": "2024-10-21T15:07:09Z",
+            "author": {
+              "login": "Xewar313"
+            }
+          },
+          {
+            "number": 525,
+            "title": "Inspection: Cache and bechmark are not reported as an error",
+            "state": "OPEN",
+            "createdAt": "2024-04-29T13:13:20Z",
+            "closedAt": null,
+            "author": {
+              "login": "Xewar313"
+            }
+          },
+          {
+            "number": 524,
+            "title": "Snakecharm does not recognize localrule directive",
+            "state": "CLOSED",
+            "createdAt": "2024-04-29T13:03:47Z",
+            "closedAt": "2024-10-22T09:00:09Z",
+            "author": {
+              "login": "Xewar313"
+            }
+          },
+          {
+            "number": 523,
+            "title": "Gitfile command is not recognized by snakecharm",
+            "state": "CLOSED",
+            "createdAt": "2024-04-29T12:58:53Z",
+            "closedAt": "2024-10-24T10:56:52Z",
+            "author": {
+              "login": "Xewar313"
+            }
+          },
+          {
+            "number": 522,
+            "title": "Importing rules using github function does not work",
+            "state": "CLOSED",
+            "createdAt": "2024-04-26T11:34:32Z",
+            "closedAt": "2024-10-22T19:47:30Z",
+            "author": {
+              "login": "Xewar313"
+            }
+          },
+          {
+            "number": 521,
+            "title": "After using import, fuctions from other smk files are not detected",
+            "state": "OPEN",
+            "createdAt": "2024-04-24T15:10:13Z",
+            "closedAt": null,
+            "author": {
+              "login": "Xewar313"
+            }
+          },
+          {
+            "number": 520,
+            "title": "Section names cannot be resolved for rules after inheritance using use",
+            "state": "OPEN",
+            "createdAt": "2024-04-23T15:50:43Z",
+            "closedAt": null,
+            "author": {
+              "login": "Xewar313"
+            }
+          },
+          {
+            "number": 517,
+            "title": "Completion for wrapper names rarely works ",
+            "state": "CLOSED",
+            "createdAt": "2024-04-19T22:43:45Z",
+            "closedAt": "2024-04-19T22:53:19Z",
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 515,
+            "title": "Improve parser error message when rule/module is declared with name but lacks ':'",
+            "state": "CLOSED",
+            "createdAt": "2024-04-19T12:11:01Z",
+            "closedAt": "2024-04-23T17:28:56Z",
+            "author": {
+              "login": "Xewar313"
+            }
+          },
+          {
+            "number": 513,
+            "title": "PyCharm 2024.1 support",
+            "state": "CLOSED",
+            "createdAt": "2024-04-04T19:03:01Z",
+            "closedAt": "2024-04-20T19:48:11Z",
+            "author": {
+              "login": "iromeo"
+            }
+          },
+          {
+            "number": 512,
+            "title": "Wildcard not defined in output of Target Rule",
+            "state": "OPEN",
+            "createdAt": "2024-01-29T19:16:56Z",
+            "closedAt": null,
+            "author": {
+              "login": "JoshLoecker"
+            }
+          },
+          {
+            "number": 511,
+            "title": "Unresolved reference 'snakemake'",
+            "state": "CLOSED",
+            "createdAt": "2024-01-26T09:25:30Z",
+            "closedAt": "2024-10-22T18:53:41Z",
+            "author": {
+              "login": "iquasere"
+            }
+          },
+          {
+            "number": 510,
+            "title": "[7.11] Resources scopes support",
+            "state": "CLOSED",
+            "createdAt": "2023-11-17T16:03:34Z",
+            "closedAt": "2024-10-21T19:34:42Z",
+            "author": {
+              "login": "iromeo"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 566,
+            "title": "Features/563 2025.2 support",
+            "state": "MERGED",
+            "createdAt": "2025-08-12T19:05:12Z",
+            "mergedAt": "2025-08-12T19:06:01Z",
+            "author": {
+              "login": "iromeo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "DEVELOPER.md"
+                },
+                {
+                  "path": "build.gradle.kts"
+                },
+                {
+                  "path": "gradle.properties"
+                },
+                {
+                  "path": "gradle/libs.versions.toml"
+                },
+                {
+                  "path": "qodana.yaml"
+                },
+                {
+                  "path": "snakemake_api.yaml"
+                },
+                {
+                  "path": "src/main/java/com/jetbrains/snakecharm/framework/SmkFrameworkSettingsPanel.java"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/SmkImplicitPySymbolsProvider.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/documentation/SmkWrapperDocumentation.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/test/kotlin/com/jetbrains/python/PythonMockSdk.kt"
+                },
+                {
+                  "path": "src/test/kotlin/com/jetbrains/snakecharm/SnakeFileTypeTest.kt"
+                },
+                {
+                  "path": "src/test/kotlin/com/jetbrains/snakecharm/SnakemakeTestCase.kt"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/ActionsSteps.kt"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/CompletionResolveSteps.kt"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/FilesSteps.kt"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/StepDefs.kt"
+                },
+                {
+                  "path": "src/test/resources/features/controlflow/snakemake_controlflow.feature"
+                },
+                {
+                  "path": "src/test/resources/features/documentation/wrapper_section_documentation.feature"
+                },
+                {
+                  "path": "src/test/resources/features/ensure_smk_api_function_fqn.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/py_argument_list_inspection.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/unexpected_callable_args_inspection.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/smkl_in_section_resolve.feature"
+                },
+                {
+                  "path": "src/test/resources/features/stringLanguage/string_language_injection.feature"
+                },
+                {
+                  "path": "testData/psi/RuleParamsListArgsIndentationInsideBraces.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 531,
+            "title": "Features/#500 add version warning",
+            "state": "MERGED",
+            "createdAt": "2024-05-27T14:57:58Z",
+            "mergedAt": "2024-10-10T15:00:11Z",
+            "author": {
+              "login": "Xewar313"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/main/java/com/jetbrains/snakecharm/framework/SmkFrameworkConfigurable.java"
+                },
+                {
+                  "path": "src/main/java/com/jetbrains/snakecharm/framework/SmkFrameworkSettingsPanel.form"
+                },
+                {
+                  "path": "src/main/java/com/jetbrains/snakecharm/framework/SmkFrameworkSettingsPanel.java"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/SnakemakeAPI.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/wrapper/SnakemakeStartupActivity.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/framework/SmkFrameworkConfigurableProvider.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/framework/SmkFrameworkDeprecationProvider.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/framework/SmkFrameworkProjectSettings.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkDepreciatedKeywordsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkMinVersionWarningInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/SmkLanguageVersion.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/refs/SmkPyReferenceImpl.kt"
+                },
+                {
+                  "path": "src/main/resources/DeprecationData.yaml"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/main/resources/inspectionDescriptions/SmkDepreciatedKeywordsInspection.html"
+                },
+                {
+                  "path": "src/main/resources/inspectionDescriptions/SmkMinVersionWarningInspection.html"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/FilesSteps.kt"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/StepDefs.kt"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/min_version_warning.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/section_depreciation_inspection.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 530,
+            "title": "Features/#527 last line comment error",
+            "state": "MERGED",
+            "createdAt": "2024-05-27T09:12:07Z",
+            "mergedAt": "2024-10-10T15:55:31Z",
+            "author": {
+              "login": "Xewar313"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkFileEndsWithCommentInspection.kt"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/comment_as_last_token_in_file.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 529,
+            "title": "Features/#508 deprecation inspection",
+            "state": "MERGED",
+            "createdAt": "2024-05-24T14:01:36Z",
+            "mergedAt": "2024-10-10T15:00:11Z",
+            "author": {
+              "login": "Xewar313"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/main/java/com/jetbrains/snakecharm/framework/SmkFrameworkConfigurable.java"
+                },
+                {
+                  "path": "src/main/java/com/jetbrains/snakecharm/framework/SmkFrameworkSettingsPanel.form"
+                },
+                {
+                  "path": "src/main/java/com/jetbrains/snakecharm/framework/SmkFrameworkSettingsPanel.java"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/wrapper/SnakemakeStartupActivity.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/framework/SmkFrameworkConfigurableProvider.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/framework/SmkFrameworkDeprecationProvider.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/framework/SmkFrameworkProjectSettings.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkDepreciatedKeywordsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/SmkLanguageVersion.kt"
+                },
+                {
+                  "path": "src/main/resources/DeprecationData.yaml"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/main/resources/inspectionDescriptions/SmkDepreciatedKeywordsInspection.html"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/FilesSteps.kt"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/StepDefs.kt"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/section_depreciation_inspection.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 519,
+            "title": "Features/#515 improve rule declaration message",
+            "state": "MERGED",
+            "createdAt": "2024-04-22T12:22:14Z",
+            "mergedAt": "2024-04-23T17:28:55Z",
+            "author": {
+              "login": "Xewar313"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/parser/SmkStatementParsing.kt"
+                },
+                {
+                  "path": "testData/psi/ModuleIncomplete.txt"
+                },
+                {
+                  "path": "testData/psi/RuleIncomplete2.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 515
+                }
+              ]
+            }
+          },
+          {
+            "number": 518,
+            "title": "Fix/#515 improve rule declaration message",
+            "state": "CLOSED",
+            "createdAt": "2024-04-22T11:21:03Z",
+            "mergedAt": null,
+            "author": {
+              "login": "Xewar313"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/parser/SmkStatementParsing.kt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 515
+                }
+              ]
+            }
+          },
+          {
+            "number": 516,
+            "title": "Fix/don't mention identifier when it was already defined",
+            "state": "CLOSED",
+            "createdAt": "2024-04-19T12:11:34Z",
+            "mergedAt": null,
+            "author": {
+              "login": "Xewar313"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/parser/SmkStatementParsing.kt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 514,
+            "title": "Features/#513 pc 2024.1",
+            "state": "MERGED",
+            "createdAt": "2024-04-18T16:45:40Z",
+            "mergedAt": "2024-04-18T16:48:44Z",
+            "author": {
+              "login": "iromeo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "build.gradle.kts"
+                },
+                {
+                  "path": "gradle.properties"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/ImplicitPySymbolsProvider.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/wrapper/SmkWrapperCrawler.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/wrapper/SmkWrapperStorage.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/framework/SmkFrameworkConfigurableProvider.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkCheckPointImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkModuleArgsSectionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkModuleImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkRuleImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkRuleOrCheckpointArgsSectionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkRunSectionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkSubworkflowArgsSectionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkSubworkflowImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkUseArgsSectionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkUseImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkWorkflowArgsSectionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkWorkflowLocalrulesSectionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkWorkflowPythonBlockSectionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkWorkflowRuleorderSectionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/SmkSLReferenceExpression.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/SmkSLReferenceExpressionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/SmkSLSubscriptionExpression.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/SmkSLSubscriptionExpressionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/SmkSLSubscriptionIndexKeyExpressionImpl.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/test/kotlin/com/jetbrains/python/PythonMockSdk.kt"
+                },
+                {
+                  "path": "src/test/kotlin/com/jetbrains/python/fixtures/PyLightProjectDescriptor.kt"
+                },
+                {
+                  "path": "src/test/kotlin/com/jetbrains/snakecharm/SnakemakeTestCase.kt"
+                },
+                {
+                  "path": "src/test/kotlin/com/jetbrains/snakecharm/lang/parser/SnakemakeParsingTest.kt"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/StepDefs.kt"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/WrappersSteps.kt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 488,
+            "title": "Features/#487 2022.1",
+            "state": "MERGED",
+            "createdAt": "2022-04-20T18:10:50Z",
+            "mergedAt": "2022-04-20T18:12:06Z",
+            "author": {
+              "login": "iromeo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "build.gradle.kts"
+                },
+                {
+                  "path": "gradle.properties"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/SmkRulesAndCheckpointsCompletionContributor.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkLocalrulesRuleorderConfusingReferenceInspection.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/main/resources/inspectionDescriptions/SmkLocalrulesRuleorderConfusingReferenceInspection.html"
+                },
+                {
+                  "path": "src/test/resources/features/completion/localrules_and_ruleorder_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/confusing_localrule_ruleorder_reference.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 487
+                }
+              ]
+            }
+          },
+          {
+            "number": 466,
+            "title": "Features/#464 module resolve",
+            "state": "OPEN",
+            "createdAt": "2022-01-29T16:53:43Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/SnakemakeRuleInheritanceMarkerProvider.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/parser/SmkStatementParsing.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkPsiElements.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/elementTypes/SmkElementTypes.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkUseImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkUseNameIdentifierImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/refs/SmkRuleOrCheckpointNameReference.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/stubs/SmkRuleDescendantElementType.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/stubs/SmkRuleLikeStubImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/stubs/SmkUseElementType.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/stubs/RuleDescendantStub.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/stubs/SmkStubs.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/stubs/SmkUseInheritedRulesIndex.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/types/AbstractSmkRuleOrCheckpointType.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/ActionsSteps.kt"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/CompletionResolveSteps.kt"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/unused_log_section_inspection.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/rule_inheritance_marker_provider.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/uses_and_modules_name_resolve.feature"
+                },
+                {
+                  "path": "testData/psi/Use.txt"
+                },
+                {
+                  "path": "testData/psi/UseIncomplete.txt"
+                },
+                {
+                  "path": "testData/psi/UseInvalid.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 465,
+            "title": "Features/#462 gutter icons module case",
+            "state": "OPEN",
+            "createdAt": "2022-01-29T16:47:26Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/readme/JBResearch_SnakeCharm_Plugin_logo.png"
+                },
+                {
+                  "path": ".github/readme/JBResearch_SnakeCharm_Plugin_logo.svg"
+                },
+                {
+                  "path": ".github/readme/JBResearch_SnakeCharm_Plugin_white_logo.png"
+                },
+                {
+                  "path": ".github/readme/JBResearch_SnakeCharm_Plugin_white_logo.svg"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "DEVELOPER.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "build.gradle.kts"
+                },
+                {
+                  "path": "detekt-config.yml"
+                },
+                {
+                  "path": "gradle.properties"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/SnakemakeIcons.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/SnakemakeRuleInheritanceMarkerProvider.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/SMKShadowSettingsCompletionContributor.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/SmkRulesAndCheckpointsCompletionContributor.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkIgnorePyInspectionExtension.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkNotSameWildcardsSetInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSeveralRulesAreOverriddenAsOneInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkUnresolvedImportedRuleNameInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkUnusedLogFileInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/documentation/SmkShadowSettingsDocumentation.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/highlighter/SmkSyntaxAnnotator.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/parser/SmkStatementParsing.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkPsiElements.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkWildcardsCollector.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/elementTypes/SmkElementTypes.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkImportedRulesNamesListImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkUseImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkUseNewNamePatternImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/refs/SmkRuleOrCheckpointNameReference.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/stubs/SmkRuleDescendantElementType.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/stubs/SmkRuleLikeStubImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/stubs/SmkUseElementType.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/stubs/SmkStubs.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/stubs/SmkUseInheritedRulesIndex.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/types/AbstractSmkRuleOrCheckpointType.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/types/SmkWildcardsType.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/main/resources/META-INF/pluginIcon.svg"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/main/resources/icons/snakeCharm_16x16.svg"
+                },
+                {
+                  "path": "src/main/resources/icons/snakeCharm_16x16_opacity60.svg"
+                },
+                {
+                  "path": "src/main/resources/icons/snakeCharm_40x40.svg"
+                },
+                {
+                  "path": "src/main/resources/icons/snakeCharm_fileType.svg"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/ActionsSteps.kt"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/CompletionResolveSteps.kt"
+                },
+                {
+                  "path": "src/test/resources/features/completion/rules_and_checkpoints_names_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/completion/shadow_settings_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/documentation/shadow_settings_documentation.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/shadow_section.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/unused_log_section_inspection.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/rule_inheritance_marker_provider.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/rules_and_checkpoints_names_resolve.feature"
+                },
+                {
+                  "path": "testData/psi/EmptySections.txt"
+                },
+                {
+                  "path": "testData/psi/Use.txt"
+                },
+                {
+                  "path": "testData/psi/UseIncomplete.txt"
+                },
+                {
+                  "path": "testData/psi/UseInvalid.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 461,
+            "title": "Features/#429 override gutter icon for use",
+            "state": "MERGED",
+            "createdAt": "2022-01-13T15:18:06Z",
+            "mergedAt": "2022-02-04T19:03:42Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/SnakemakeRuleInheritanceMarkerProvider.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSeveralRulesAreOverriddenAsOneInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkUnresolvedImportedRuleNameInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/highlighter/SmkSyntaxAnnotator.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/parser/SmkStatementParsing.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkPsiElements.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/elementTypes/SmkElementTypes.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkUseImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkUseNewNamePatternImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/refs/SmkRuleOrCheckpointNameReference.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/types/AbstractSmkRuleOrCheckpointType.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/ActionsSteps.kt"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/CompletionResolveSteps.kt"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/rule_inheritance_marker_provider.feature"
+                },
+                {
+                  "path": "testData/psi/EmptySections.txt"
+                },
+                {
+                  "path": "testData/psi/Use.txt"
+                },
+                {
+                  "path": "testData/psi/UseIncomplete.txt"
+                },
+                {
+                  "path": "testData/psi/UseInvalid.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 460,
+            "title": "Features/#455 unresolved rule names in use rule section",
+            "state": "MERGED",
+            "createdAt": "2021-12-30T16:43:11Z",
+            "mergedAt": "2022-01-15T16:22:37Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkFile.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/refs/SmkRuleOrCheckpointNameReference.kt"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/uses_and_modules_name_resolve.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 459,
+            "title": "Features/#262 checkpoints resolve/completion after rules keyword",
+            "state": "MERGED",
+            "createdAt": "2021-12-30T16:40:10Z",
+            "mergedAt": "2022-02-04T15:20:06Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/SmkRulesAndCheckpointsCompletionContributor.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/types/AbstractSmkRuleOrCheckpointType.kt"
+                },
+                {
+                  "path": "src/test/resources/features/completion/rules_and_checkpoints_names_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/rules_and_checkpoints_names_resolve.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 458,
+            "title": "Features/#454 keywords arguments highlighting",
+            "state": "MERGED",
+            "createdAt": "2021-12-30T16:36:05Z",
+            "mergedAt": "2022-01-14T16:50:59Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/highlighter/SmkSyntaxAnnotator.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/highlighter/SnakemakeSyntaxHighlighterFactory.kt"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/smk_syntax_annotator.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 457,
+            "title": "Features/#341 ignored docstrings inspection",
+            "state": "MERGED",
+            "createdAt": "2021-12-30T16:32:59Z",
+            "mergedAt": "2022-01-17T11:07:16Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkDocstringsWillBeIgnoredInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkRuleLike.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkRuleLikeImpl.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/main/resources/inspectionDescriptions/SmkDocstringsWillBeIgnoredInspection.html"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/docstrings_will_be_ignored.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 456,
+            "title": "Features/#140 workdir multiple arguments",
+            "state": "MERGED",
+            "createdAt": "2021-12-30T16:31:46Z",
+            "mergedAt": "2022-01-15T15:58:40Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/SnakemakeAPI.kt"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/multiple_args_inspection.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 453,
+            "title": "Features/#452 quick fix in unused log file inspection",
+            "state": "MERGED",
+            "createdAt": "2021-12-24T14:27:44Z",
+            "mergedAt": "2022-02-04T15:16:39Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkUnusedLogFileInspection.kt"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/unused_log_section_inspection.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 451,
+            "title": "Features/#359 rules unresolved",
+            "state": "MERGED",
+            "createdAt": "2021-12-18T12:47:09Z",
+            "mergedAt": "2021-12-23T07:33:31Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/ImplicitPySymbolsProvider.kt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 450,
+            "title": "Features/#448 use rule in localrules and ruleorder",
+            "state": "MERGED",
+            "createdAt": "2021-12-18T10:41:16Z",
+            "mergedAt": "2022-01-14T16:58:58Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkLocalrulesRuleorderConfusingReference.kt"
+                },
+                {
+                  "path": "src/test/resources/features/completion/localrules_and_ruleorder_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/confusing_localrule_ruleorder_reference.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/localrules_and_ruleorder_resolve.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 446,
+            "title": "Features/2021.3 compatibility",
+            "state": "MERGED",
+            "createdAt": "2021-12-03T10:48:26Z",
+            "mergedAt": "2021-12-06T14:03:09Z",
+            "author": {
+              "login": "iromeo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "build.gradle.kts"
+                },
+                {
+                  "path": "gradle.properties"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/wrapper/SmkWrapperCrawler.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/wrapper/SmkWrapperStorage.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/wrapper/SnakemakeStartupActivity.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkAvoidTabWhitespace.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkCondaSectionNotAllowedWithRun.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkEnvmodulesNotAllowedSectionInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkExecutionSubsectionInUseSectionInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkFileEndsWithCommentInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkLambdaRuleParamsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkLocalrulesRuleorderConfusingReference.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkLocalrulesRuleorderRepeatedRuleInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkMisuseUsageIOFlagMethodsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkModuleRedeclarationInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkMultilineFunctionCallInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkNotSameWildcardsSetInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkPyUnboundLocalVariableInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkRedundantCommaInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkResourcesKeywordArgsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkRuleOrCheckpointNameYetUndefinedInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkRuleRedeclarationInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkRuleSectionAfterExecutionInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSectionDuplicatedArgsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSectionMultilineStringArgsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSectionMultipleArgsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSectionRedeclarationInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSectionUnexpectedCallableArgsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSectionUnexpectedKeywordArgsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSectionUnspecifiedFieldArgsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSectionVariableRequiresLambdaAccessInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSeveralRulesAreOverriddenAsOneInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkShadowSettingsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSubscriptionIndexOutOfBoundsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSubworkflowRedeclarationInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkUndeclaredSectionInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkUnrecognizedSectionInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkUnresolvedImportedRuleNameInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkUnusedLogFileInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkWrapperMissedArgumentsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SnakemakeInspectionVisitor.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/smksl/SmkSLInspectionVisitor.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/smksl/SmkSLMissingWildcardsAccessorPrefixInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/smksl/SmkSLQuotingMisuseInGetAccessorInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/smksl/SmkSLSubscriptionIndexOutOfBoundsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/smksl/SmkSLUndeclaredSectionInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/smksl/SmkSLWildcardNameIsConfusingInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/smksl/SmkWildcardNotDefinedInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/highlighter/SnakemakeVisitorFilter.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/references/SmkSectionNameArgInPySubscriptionLikeReference.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/SmkSLSubscriptionExpressionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/references/SmkSLSubscriptionKeyReference.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/references/SmkSLWildcardReference.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/main/resources/inspectionDescriptions/SmkPyUnboundLocalVariableInspection.html"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/WrappersSteps.kt"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/unbound_variable.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 445,
+            "title": "Features/#277 create missing env file",
+            "state": "MERGED",
+            "createdAt": "2021-12-02T17:26:42Z",
+            "mergedAt": "2022-01-15T15:46:48Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/SmkNotifier.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkUnresolvedReferenceInspectionExtension.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/quickfix/CreateMissedFileQuickFix.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/quickfix/CreateMissedFileUndoableAction.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkFileReference.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/unresolved_reference_extension.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 443,
+            "title": "Features/#109 sdk config warning",
+            "state": "MERGED",
+            "createdAt": "2021-12-02T15:52:11Z",
+            "mergedAt": "2021-12-23T07:31:21Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/framework/SmkFrameworkProjectSettings.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/framework/SmkSupportDisabledBanner.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 442,
+            "title": "Features/#426 resolve, completion for script and notebook sections",
+            "state": "MERGED",
+            "createdAt": "2021-11-27T07:53:37Z",
+            "mergedAt": "2021-12-04T07:20:51Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkFileReference.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkRuleOrCheckpointArgsSectionImpl.kt"
+                },
+                {
+                  "path": "src/test/resources/features/completion/path_in_section_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/path_in_section_resolve.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 441,
+            "title": "Features/#365 end of file inspection",
+            "state": "MERGED",
+            "createdAt": "2021-11-18T14:58:50Z",
+            "mergedAt": "2021-11-20T08:07:06Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkFileEndsWithCommentInspection.kt"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/comment_as_last_token_in_file.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 440,
+            "title": "Features/#407 duplicated arguments inspection",
+            "state": "MERGED",
+            "createdAt": "2021-11-18T14:44:14Z",
+            "mergedAt": "2021-11-20T08:03:38Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSectionDuplicatedArgsInspection.kt"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/duplicated_args_inspection.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 439,
+            "title": "Features/#423 revision for severity types",
+            "state": "MERGED",
+            "createdAt": "2021-11-18T13:53:14Z",
+            "mergedAt": "2021-11-20T08:02:25Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkRuleRedeclarationInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkRuleSectionAfterExecutionInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/smksl/SmkSLWildcardNameIsConfusingInspection.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 438,
+            "title": "Features/#428 module snakefile completion",
+            "state": "MERGED",
+            "createdAt": "2021-11-18T13:26:07Z",
+            "mergedAt": "2021-11-20T07:59:39Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkFileReference.kt"
+                },
+                {
+                  "path": "src/test/resources/features/completion/path_in_section_completion.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 437,
+            "title": "Features/#431 color settings page",
+            "state": "MERGED",
+            "createdAt": "2021-11-18T12:13:42Z",
+            "mergedAt": "2021-11-20T12:25:01Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/highlighter/SmkColorSettingsPage.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/highlighter/SmkSyntaxAnnotator.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/highlighter/SmkWildcardsAnnotator.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/highlighter/SnakemakeSyntaxHighlighterFactory.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/highlighter/SmkSLSyntaxHighlighter.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/highlighter/SmkSLWildcardsAnnotator.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/ActionsSteps.kt"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/FilesSteps.kt"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/color_settings_page.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/smk_syntax_annotator.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/wildcards_annotator.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 436,
+            "title": "Features/#411 FP was fixed",
+            "state": "MERGED",
+            "createdAt": "2021-11-04T09:58:54Z",
+            "mergedAt": "2021-11-20T11:58:48Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSeveralRulesAreOverriddenAsOneInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkPsiElements.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkUseImpl.kt"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/several_rules_are_overridden_as_one.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 432,
+            "title": "Features/#411 several rules to one inspection",
+            "state": "MERGED",
+            "createdAt": "2021-10-30T09:47:52Z",
+            "mergedAt": "2021-10-30T15:44:57Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSeveralRulesAreOverriddenAsOneInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/parser/SmkStatementParsing.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkPsiElements.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkUseImpl.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/main/resources/inspectionDescriptions/SmkSeveralRulesAreOverriddenAsOneInspection.html"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/several_rules_are_overridden_as_one.feature"
+                },
+                {
+                  "path": "testData/psi/UseInvalid.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 425,
+            "title": "Features/#418 collecting wildcards from overridden rules",
+            "state": "MERGED",
+            "createdAt": "2021-08-17T15:52:53Z",
+            "mergedAt": "2021-12-04T06:57:49Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/refactoring/SmkAndSmkSLFindUsagesProvider.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkIgnorePyInspectionExtension.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkNotSameWildcardsSetInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSeveralRulesAreOverriddenAsOneInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkUnresolvedImportedRuleNameInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkUnusedLogFileInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkWildcardInNotOverriddenSectionInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/smksl/SmkSLMissingWildcardsAccessorPrefixInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/smksl/SmkSLQuotingMisuseInGetAccessorInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/smksl/SmkSLSubscriptionIndexOutOfBoundsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/smksl/SmkSLUndeclaredSectionInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/smksl/SmkSLWildcardNameIsConfusingInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/smksl/SmkWildcardNotDefinedInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkPsiElements.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkSection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkWildcardsCollector.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/elementTypes/SmkElementTypes.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkUseImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkUseNameIdentifier.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/refs/SmkRuleOrCheckpointNameReference.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/types/AbstractSmkRuleOrCheckpointType.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/types/SmkWildcardsType.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/SmkSLElementVisitor.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/highlighter/SmkSLWildcardsAnnotator.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/SmkSLReferenceExpression.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/SmkSLReferenceExpressionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/SmkSLSubscriptionIndexKeyExpression.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/SmkSLSubscriptionIndexKeyExpressionImpl.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/main/resources/inspectionDescriptions/SmkWildcardInNotOverriddenSectionInspection.html"
+                },
+                {
+                  "path": "src/test/resources/features/completion/wildcards_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/findUsages/wildcards_find_usages.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/wildcard_in_not_overridden_section_inspection.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/wildcard_not_defined_inpection.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/wildcards_not_same_set_inspection.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/rules_and_checkpoints_names_resolve.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/uses_and_modules_name_resolve.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/wildcards_resolve.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 424,
+            "title": "Features/#360, #433 PEPs configuration support",
+            "state": "MERGED",
+            "createdAt": "2021-08-16T15:22:59Z",
+            "mergedAt": "2021-10-31T16:27:12Z",
+            "author": {
+              "login": "KrGolovin"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "gradle.properties"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/ImplicitPySymbolsCache.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/ImplicitPySymbolsProvider.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/SmkCodeInsightScope.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/SmkTypeProvider.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/SnakemakeAPI.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/SMKImplicitPySymbolsCompletionContributor.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/SmkCompletionContributorUtils.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkIgnorePyInspectionExtension.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/SnakemakeNames.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkFile.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkFileReference.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkPepConfigCollector.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/YamlKeysCollector.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkWorkflowArgsSectionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/references/SmkPepConfigReference.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/references/SmkPepReferenceContributor.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/types/SmkPepConfigType.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/main/resources/com/jetbrains/snakecharm/spellchecker/snakemake.dic"
+                },
+                {
+                  "path": "src/main/resources/inspectionDescriptions/SmkSectionUnexpectedKeywordArgsInspection.html"
+                },
+                {
+                  "path": "src/test/kotlin/com/jetbrains/python/PythonMockSdk.kt"
+                },
+                {
+                  "path": "src/test/resources/features/completion/after_pep_config_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/completion/after_pep_object_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/completion/implicit_py_symbols_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/completion/keywords_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/completion/path_in_workflow_sections_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/unresolve_element.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/weak_warning_for_pep_without_pepfile.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/after_pep_config_resolve.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/after_pep_object_resolve.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/implicit_py_symbols_resolve.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/workflow_file_resolve.feature"
+                },
+                {
+                  "path": "testData/MockPackages3/peppy/project.py"
+                },
+                {
+                  "path": "testData/MockPackages3/peppy/vers.peppy.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 422,
+            "title": "Features/#414 unused log file in use section",
+            "state": "MERGED",
+            "createdAt": "2021-08-13T14:57:52Z",
+            "mergedAt": "2021-08-18T14:51:50Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkUnusedLogFileInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkSLReferencesTargetLookupVisitor.kt"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/unused_log_section_inspection.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 421,
+            "title": "Features/#420 empty rule statement",
+            "state": "MERGED",
+            "createdAt": "2021-08-13T14:49:25Z",
+            "mergedAt": "2021-08-13T18:15:03Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/parser/SmkStatementParsing.kt"
+                },
+                {
+                  "path": "src/test/kotlin/com/jetbrains/snakecharm/lang/parser/SnakemakeParsingTest.kt"
+                },
+                {
+                  "path": "testData/psi/EmptySections.smk"
+                },
+                {
+                  "path": "testData/psi/EmptySections.txt"
+                },
+                {
+                  "path": "testData/psi/KeywordIdentifierWithNoIndent.txt"
+                },
+                {
+                  "path": "testData/psi/ModuleIncomplete.txt"
+                },
+                {
+                  "path": "testData/psi/RuleIncomplete1.txt"
+                },
+                {
+                  "path": "testData/psi/RuleIncomplete2.txt"
+                },
+                {
+                  "path": "testData/psi/RuleIncomplete3.smk"
+                },
+                {
+                  "path": "testData/psi/RuleIncomplete3.txt"
+                },
+                {
+                  "path": "testData/psi/RuleIncomplete4.smk"
+                },
+                {
+                  "path": "testData/psi/RuleIncomplete4.txt"
+                },
+                {
+                  "path": "testData/psi/RuleIncomplete5.smk"
+                },
+                {
+                  "path": "testData/psi/RuleIncomplete5.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 417,
+            "title": "Features/#408 unexpected sections",
+            "state": "MERGED",
+            "createdAt": "2021-08-11T08:02:13Z",
+            "mergedAt": "2021-08-16T13:30:50Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkExecutionSubsectionInUseSectionInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkUnrecognizedSectionInspection.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/main/resources/inspectionDescriptions/SmkExecutionSubsectionInUseSectionInspection.html"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/execution_subsection_in_use_section_inspection.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/unrecognized_section_inspection.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 416,
+            "title": "Features/#406 modules and use in statement mover",
+            "state": "MERGED",
+            "createdAt": "2021-08-11T08:00:31Z",
+            "mergedAt": "2021-08-13T16:49:59Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/actions/SmkStatementMover.kt"
+                },
+                {
+                  "path": "src/test/resources/features/actions/line_mover.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 415,
+            "title": "Features/#413 use completion",
+            "state": "MERGED",
+            "createdAt": "2021-08-09T15:18:38Z",
+            "mergedAt": "2021-08-16T13:18:56Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/SmkKeywordCompletionContributor.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/SmkRulesAndCheckpointsCompletionContributor.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkIgnorePyInspectionExtension.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkUnresolvedImportedRuleNameInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkFile.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkPsiElements.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkModuleArgsSectionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkModuleImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkRuleLikeImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkUseImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/refs/SmkRuleOrCheckpointNameReference.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/stubs/SmkModuleElementType.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/stubs/SmkModuleNameIndex.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/types/AbstractSmkRuleOrCheckpointType.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/types/SmkCheckpointType.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/types/SmkUsesType.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/main/resources/inspectionDescriptions/SmkUnresolvedImportedRuleNameInspection.html"
+                },
+                {
+                  "path": "src/test/resources/features/completion/path_in_section_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/completion/rules_and_checkpoints_names_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/completion/uses_and_modules_name_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/unresolved_use_reference_inspection.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/rules_and_checkpoints_names_resolve.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/uses_and_modules_name_resolve.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 412,
+            "title": "Features/#300 unused log section",
+            "state": "MERGED",
+            "createdAt": "2021-07-30T07:10:09Z",
+            "mergedAt": "2021-08-05T17:03:16Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/SnakemakeAPI.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkUnusedLogSectionInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkSLReferencesTargetLookupVisitor.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/SmkSLSubscriptionExpression.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/SmkSLSubscriptionExpressionImpl.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/main/resources/inspectionDescriptions/SmkUnusedLogSectionInspection.html"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/unused_log_section_inspection.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 405,
+            "title": "Features/#373 Allow any section name on toplevel",
+            "state": "MERGED",
+            "createdAt": "2021-07-27T17:47:45Z",
+            "mergedAt": "2021-08-09T22:33:20Z",
+            "author": {
+              "login": "KrGolovin"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/actions/SmkStatementMover.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/SnakemakeAPI.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/SmkKeywordCompletionContributor.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/refactoring/SmkAndSmkSLFindUsagesProvider.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/highlighter/SnakemakeHighlightingLexer.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/parser/SmkStatementParsing.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/parser/SmkTokenTypes.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/parser/SnakemakeLexer.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkRuleLikeImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkWorkflowArgsSectionImpl.kt"
+                },
+                {
+                  "path": "src/test/kotlin/com/jetbrains/snakecharm/lang/parser/SnakemakeParsingTest.kt"
+                },
+                {
+                  "path": "testData/psi/FormattedStringAfterToplevelSection.txt"
+                },
+                {
+                  "path": "testData/psi/Issue130.txt"
+                },
+                {
+                  "path": "testData/psi/Issue202.txt"
+                },
+                {
+                  "path": "testData/psi/KeywordLikeIdentifiersAsKeywords.txt"
+                },
+                {
+                  "path": "testData/psi/RuleMultipleSingleLineWithRuleSectionIndent.txt"
+                },
+                {
+                  "path": "testData/psi/RuleParamsListArgsIncorrectIndentation.txt"
+                },
+                {
+                  "path": "testData/psi/UnbalancedBracesRecovery.txt"
+                },
+                {
+                  "path": "testData/psi/UnexpectedSectionKeyword.txt"
+                },
+                {
+                  "path": "testData/psi/WorkflowContainer.txt"
+                },
+                {
+                  "path": "testData/psi/WorkflowEnvvars.txt"
+                },
+                {
+                  "path": "testData/psi/WorkflowParamsListArgsKeywords.txt"
+                },
+                {
+                  "path": "testData/psi/WorkflowUnknownSections.smk"
+                },
+                {
+                  "path": "testData/psi/WorkflowUnknownSections.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 403,
+            "title": "Features/#355 module use support",
+            "state": "MERGED",
+            "createdAt": "2021-07-27T09:27:50Z",
+            "mergedAt": "2021-08-05T13:55:30Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/java/com/jetbrains/snakecharm/lang/psi/elementTypes/SmkStubElementTypes.java"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/SnakemakeAPI.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/SmkKeywordCompletionContributor.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkModuleRedeclarationInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkRuleRedeclarationInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSectionMultipleArgsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSectionRedeclarationInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSectionUnexpectedKeywordArgsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkUnrecognizedSectionInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/SmkTokenSetContributor.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/SnakemakeNames.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/highlighter/SmkSyntaxAnnotator.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/parser/SmkStatementParsing.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/parser/SmkTokenTypes.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/parser/SnakemakeLexer.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkElementVisitor.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkFile.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkPsiElements.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/elementTypes/SmkElementTypes.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkModuleArgsSectionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkModuleImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkUseArgsSectionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkUseImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkUseNameIdentifier.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/refs/SmkRuleOrCheckpointNameReference.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/stubs/SmkModuleElementType.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/stubs/SmkRuleLikeStubImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/stubs/SmkUseElementType.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/stubs/SmkStubs.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/stubs/SmkUseNameIndex.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/types/AbstractSmkRuleOrCheckpointType.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/types/SmkUsesType.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/SmkDSInjector.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/main/resources/inspectionDescriptions/SmkModuleRedeclarationInspection.html"
+                },
+                {
+                  "path": "src/test/kotlin/com/jetbrains/snakecharm/lang/parser/SnakemakeLexerTest.kt"
+                },
+                {
+                  "path": "src/test/kotlin/com/jetbrains/snakecharm/lang/parser/SnakemakeParsingTest.kt"
+                },
+                {
+                  "path": "src/test/resources/features/completion/keywords_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/module_redeclaration.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/multiple_args_inspection.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/rule_redeclaration.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/section_redeclaration.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/unexpected_keyword_args_inspection.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/unrecognized_section_inspection.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/smk_syntax_annotator.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/uses_and_modules_name_resolve.feature"
+                },
+                {
+                  "path": "testData/psi/Module.smk"
+                },
+                {
+                  "path": "testData/psi/Module.txt"
+                },
+                {
+                  "path": "testData/psi/ModuleIncomplete.smk"
+                },
+                {
+                  "path": "testData/psi/ModuleIncomplete.txt"
+                },
+                {
+                  "path": "testData/psi/Use.smk"
+                },
+                {
+                  "path": "testData/psi/Use.txt"
+                },
+                {
+                  "path": "testData/psi/UseIncomplete.smk"
+                },
+                {
+                  "path": "testData/psi/UseIncomplete.txt"
+                },
+                {
+                  "path": "testData/psi/UseInvalid.smk"
+                },
+                {
+                  "path": "testData/psi/UseInvalid.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 355
+                }
+              ]
+            }
+          },
+          {
+            "number": 392,
+            "title": "Features/#148 multiline function call in a single-line declared section",
+            "state": "MERGED",
+            "createdAt": "2021-07-26T09:02:55Z",
+            "mergedAt": "2021-07-29T13:58:05Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkMultilineFunctionCallInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkPsiElements.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/impl/SmkRuleOrCheckpointArgsSectionImpl.kt"
+                },
+                {
+                  "path": "src/main/resources/META-INF/plugin.xml"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/main/resources/inspectionDescriptions/SmkMultilineFunctionCallInspection.html"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/multiline_function_call_inspection.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 391,
+            "title": "Features/#384 inspections are enabled for workflows",
+            "state": "MERGED",
+            "createdAt": "2021-07-22T08:29:57Z",
+            "mergedAt": "2021-07-27T16:46:40Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/SnakemakeAPI.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSectionMultipleArgsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkSectionUnexpectedKeywordArgsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/SnakemakeNames.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/validation/SmkSyntaxErrorAnnotator.kt"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/multiple_args_inspection.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/unexpected_keyword_args_inspection.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/smk_syntax_error_annotator.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 389,
+            "title": "Features/#380 soe unused local",
+            "state": "MERGED",
+            "createdAt": "2021-07-15T21:32:43Z",
+            "mergedAt": "2021-07-15T21:33:29Z",
+            "author": {
+              "login": "iromeo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkIgnorePyInspectionExtension.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/smksl/SmkSLQuotingMisuseInGetAccessorInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/smksl/SmkSLSubscriptionIndexOutOfBoundsInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/highlighter/SnakemakeVisitorFilter.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkPsiElements.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkWildcardsCollector.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/SmkSLElementVisitor.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/parser/SmkSLParser.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/parser/SmkSLParserDefinition.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/SmkSLElement.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/SmkSLLanguageElement.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/SmkSLReferenceExpression.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/SmkSLReferenceExpressionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/SmkSLSubscriptionExpression.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/SmkSLSubscriptionExpressionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/SmkSLSubscriptionIndexKeyExpressionImpl.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/elementTypes/SmkSLElementTypes.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/references/SmkSLInitialReference.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/references/SmkSLSubscriptionKeyReference.kt"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/OnetimeUsedSteps.kt"
+                },
+                {
+                  "path": "src/test/resources/features/stringLanguage/issue380.feature"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/BadIdentifierName.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/BracesAndComma.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/DotsInsteadOfIdentifiers.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/FormatSpecifier.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/InjectionWithSpaceInside.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/LbraceAndComma.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/LbraceIdentifier.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/LbraceIdentifierDot.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/LbraceIncompleteSubscription1.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/LbraceIncompleteSubscription2.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/LbraceSubscription.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/MissingDot.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/MissingIdentifier.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/MultipleAccess.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/MultipleLanguageSections.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/NoIdentifier.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/OrdinaryRegexp.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/RbracketInName.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/RegexpOnly.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/SpacesInIdentifierName.txt"
+                },
+                {
+                  "path": "testData/stringLanguagePsi/Subscription.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 383,
+            "title": "Features/#372 sections memorizing",
+            "state": "MERGED",
+            "createdAt": "2021-07-13T13:13:55Z",
+            "mergedAt": "2021-07-14T15:07:08Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/SmkKeywordCompletionContributor.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/SmkUnrecognizedSectionInspection.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/inspections/quickfix/AddIgnoredElementQuickFix.kt"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/ActionsSteps.kt"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/Hooks.kt"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/StepDefs.kt"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/unrecognized_section_inspection.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 381,
+            "title": "features/#361-containerized-keyword-support",
+            "state": "MERGED",
+            "createdAt": "2021-07-12T09:53:01Z",
+            "mergedAt": "2021-07-13T14:35:26Z",
+            "author": {
+              "login": "KrGolovin"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/SnakemakeAPI.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/SnakemakeNames.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/parser/SmkTokenTypes.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/parser/SnakemakeLexer.kt"
+                },
+                {
+                  "path": "src/test/resources/features/completion/keywords_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/multiple_args_inspection.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/unexpected_callable_args_inspection.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/unexpected_keyword_args_inspection.feature"
+                },
+                {
+                  "path": "src/test/resources/features/stringLanguage/string_language_injection.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 379,
+            "title": "Features/#378 positional arg index preview",
+            "state": "MERGED",
+            "createdAt": "2021-07-09T19:55:51Z",
+            "mergedAt": "2021-07-09T20:49:42Z",
+            "author": {
+              "login": "iromeo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/SmkCompletionUtil.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/completion/SmkDictionaryTypesCompletionContributor.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/types/SmkAvailableForSubscriptionType.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/types/SmkRuleLikeSectionArgsType.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/types/SmkWildcardsType.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/stringLanguage/lang/psi/references/SmkSLSubscriptionKeyReference.kt"
+                },
+                {
+                  "path": "src/main/resources/SnakemakeBundle.properties"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/CompletionResolveSteps.kt"
+                },
+                {
+                  "path": "src/test/kotlin/features/glue/SnakemakeWorld.kt"
+                },
+                {
+                  "path": "src/test/resources/features/completion/section_args_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/section_args_resolve.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 377,
+            "title": "features/#363 Adding support for default path on configfile",
+            "state": "MERGED",
+            "createdAt": "2021-07-09T10:08:12Z",
+            "mergedAt": "2021-07-14T15:46:06Z",
+            "author": {
+              "login": "KrGolovin"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkFileReference.kt"
+                },
+                {
+                  "path": "src/test/resources/features/completion/path_in_workflow_sections_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/workflow_file_resolve.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 363
+                }
+              ]
+            }
+          },
+          {
+            "number": 376,
+            "title": "fix: Adding support for default path of configfile #363",
+            "state": "CLOSED",
+            "createdAt": "2021-07-09T09:23:45Z",
+            "mergedAt": null,
+            "author": {
+              "login": "KrGolovin"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/psi/SmkFileReference.kt"
+                },
+                {
+                  "path": "src/test/resources/features/completion/path_in_workflow_sections_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/workflow_file_resolve.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 371,
+            "title": "Features/#362 handover support",
+            "state": "MERGED",
+            "createdAt": "2021-07-09T06:51:03Z",
+            "mergedAt": "2021-07-09T11:40:11Z",
+            "author": {
+              "login": "dakochik"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/codeInsight/SnakemakeAPI.kt"
+                },
+                {
+                  "path": "src/main/kotlin/com/jetbrains/snakecharm/lang/SnakemakeNames.kt"
+                },
+                {
+                  "path": "src/test/resources/features/completion/after_rule_or_checkpoint_name_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/completion/keywords_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/completion/smkl_in_section_completion.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/multiple_args_inspection.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/inspections/unexpected_keyword_args_inspection.feature"
+                },
+                {
+                  "path": "src/test/resources/features/highlighting/smk_syntax_annotator.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/after_rule_or_checkpoint_name_resolve.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/rules_and_checkpoints_sections_names_resolve.feature"
+                },
+                {
+                  "path": "src/test/resources/features/resolve/smkl_in_section_resolve.feature"
+                },
+                {
+                  "path": "src/test/resources/features/stringLanguage/string_language_injection.feature"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

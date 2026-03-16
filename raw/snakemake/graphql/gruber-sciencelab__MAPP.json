@@ -1,0 +1,2168 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 35,
+            "title": "Downstream analysis after PAQR2",
+            "state": "OPEN",
+            "createdAt": "2024-04-23T09:58:45Z",
+            "closedAt": null,
+            "author": {
+              "login": "grexor"
+            }
+          },
+          {
+            "number": 33,
+            "title": "Config parameters ignored while using precomputed shared resources",
+            "state": "OPEN",
+            "createdAt": "2024-01-15T20:53:12Z",
+            "closedAt": null,
+            "author": {
+              "login": "AngryMaciek"
+            }
+          },
+          {
+            "number": 23,
+            "title": "refactor: include new cool repo mechanisms",
+            "state": "OPEN",
+            "createdAt": "2023-04-04T16:52:11Z",
+            "closedAt": null,
+            "author": {
+              "login": "AngryMaciek"
+            }
+          },
+          {
+            "number": 15,
+            "title": "feat: add sge singularity profile",
+            "state": "OPEN",
+            "createdAt": "2022-07-21T21:09:27Z",
+            "closedAt": null,
+            "author": {
+              "login": "AngryMaciek"
+            }
+          },
+          {
+            "number": 14,
+            "title": "feat: support use of shared conda envs / singularity containers",
+            "state": "CLOSED",
+            "createdAt": "2022-07-01T15:39:04Z",
+            "closedAt": "2022-09-18T12:36:56Z",
+            "author": {
+              "login": "AngryMaciek"
+            }
+          },
+          {
+            "number": 12,
+            "title": "feat: experimental macOS support",
+            "state": "OPEN",
+            "createdAt": "2022-04-30T00:20:29Z",
+            "closedAt": null,
+            "author": {
+              "login": "AngryMaciek"
+            }
+          },
+          {
+            "number": 11,
+            "title": "Minor comments",
+            "state": "CLOSED",
+            "createdAt": "2022-04-29T09:27:17Z",
+            "closedAt": "2022-09-18T09:11:00Z",
+            "author": {
+              "login": "AngryMaciek"
+            }
+          },
+          {
+            "number": 7,
+            "title": "refactor the final HTML report",
+            "state": "OPEN",
+            "createdAt": "2021-12-14T19:36:02Z",
+            "closedAt": null,
+            "author": {
+              "login": "AngryMaciek"
+            }
+          },
+          {
+            "number": 6,
+            "title": "refactor impact maps",
+            "state": "OPEN",
+            "createdAt": "2021-12-14T19:29:43Z",
+            "closedAt": null,
+            "author": {
+              "login": "AngryMaciek"
+            }
+          },
+          {
+            "number": 4,
+            "title": "ci: add GH Actions CI mechanism",
+            "state": "CLOSED",
+            "createdAt": "2021-12-14T17:47:25Z",
+            "closedAt": "2021-12-15T20:37:41Z",
+            "author": {
+              "login": "AngryMaciek"
+            }
+          },
+          {
+            "number": 2,
+            "title": "Code Owner specification",
+            "state": "CLOSED",
+            "createdAt": "2021-12-14T17:14:49Z",
+            "closedAt": "2021-12-14T19:18:44Z",
+            "author": {
+              "login": "AngryMaciek"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 34,
+            "title": "refactor: adjust final report; add full region scanning in CSM",
+            "state": "MERGED",
+            "createdAt": "2024-03-20T16:21:14Z",
+            "mergedAt": "2024-03-20T17:43:05Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/integration/module_CSM/config1_kmers.yml"
+                },
+                {
+                  "path": ".test/integration/module_CSM/config2_pwms.yml"
+                },
+                {
+                  "path": ".test/integration/module_CSM/full_region.bed"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/Snakefile"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/configs/config.yml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/scripts/extract-window-information.py"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/images/rulegraph.svg"
+                },
+                {
+                  "path": "scripts/create-main-config-file.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 32,
+            "title": "fix: correct the scaling variable for pwms in the report",
+            "state": "MERGED",
+            "createdAt": "2024-01-11T20:05:13Z",
+            "mergedAt": "2024-01-11T20:12:48Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "scripts/generate-final-report.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 31,
+            "title": "refactor: final refactoring of the pipeline",
+            "state": "MERGED",
+            "createdAt": "2024-01-10T17:53:09Z",
+            "mergedAt": "2024-01-11T13:22:25Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "resources/activities-3ss.html"
+                },
+                {
+                  "path": "resources/activities-5ss.html"
+                },
+                {
+                  "path": "resources/activities-pas.html"
+                },
+                {
+                  "path": "resources/exon-inclusion.html"
+                },
+                {
+                  "path": "resources/gene-expression.html"
+                },
+                {
+                  "path": "resources/pas-expression.html"
+                },
+                {
+                  "path": "resources/transcript-expression.html"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 30,
+            "title": "refactor: update the HTML report",
+            "state": "MERGED",
+            "createdAt": "2024-01-10T15:11:45Z",
+            "mergedAt": "2024-01-10T15:22:06Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "resources/activities-3ss.html"
+                },
+                {
+                  "path": "resources/activities-5ss.html"
+                },
+                {
+                  "path": "resources/activities-pas.html"
+                },
+                {
+                  "path": "resources/exon-inclusion.html"
+                },
+                {
+                  "path": "resources/gene-expression.html"
+                },
+                {
+                  "path": "resources/mapp_logo.png"
+                },
+                {
+                  "path": "resources/pas-expression.html"
+                },
+                {
+                  "path": "resources/template.html"
+                },
+                {
+                  "path": "resources/transcript-expression.html"
+                },
+                {
+                  "path": "scripts/generate-final-report.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 29,
+            "title": "Update suppa.yml",
+            "state": "CLOSED",
+            "createdAt": "2023-07-04T07:29:57Z",
+            "mergedAt": null,
+            "author": {
+              "login": "ajgruber"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/env/suppa.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 28,
+            "title": "docs: fix README typos",
+            "state": "MERGED",
+            "createdAt": "2023-07-03T16:35:58Z",
+            "mergedAt": "2023-07-03T16:51:17Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 27,
+            "title": "refactor: clarify README description",
+            "state": "MERGED",
+            "createdAt": "2023-07-02T19:04:28Z",
+            "mergedAt": "2023-07-02T21:21:15Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "examples/paired_end_sequencing_design_table.tsv"
+                },
+                {
+                  "path": "examples/single_end_sequencing_design_table.tsv"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 26,
+            "title": "refactor: update README",
+            "state": "MERGED",
+            "createdAt": "2023-06-30T12:21:46Z",
+            "mergedAt": "2023-07-02T14:00:20Z",
+            "author": {
+              "login": "ajgruber"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "VERSION"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 25,
+            "title": "docs: replace scheme for a new one",
+            "state": "MERGED",
+            "createdAt": "2023-05-05T13:14:23Z",
+            "mergedAt": "2023-05-05T13:28:53Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "images/mapp_scheme.png"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 24,
+            "title": "refactor: update zenodo link to example dataset",
+            "state": "MERGED",
+            "createdAt": "2023-04-08T07:44:50Z",
+            "mergedAt": "2023-04-08T07:58:33Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "scripts/download-and-run-on-example-data.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 22,
+            "title": "feat: add TPM averaging flag to MAEI",
+            "state": "MERGED",
+            "createdAt": "2023-04-04T10:08:37Z",
+            "mergedAt": "2023-04-04T15:14:10Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/integration.yml"
+                },
+                {
+                  "path": ".test/integration/MAPP/config_template_1.yml"
+                },
+                {
+                  "path": ".test/integration/MAPP/config_template_2.yml"
+                },
+                {
+                  "path": ".test/integration/module_ASE/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_CSM/config1_kmers.yml"
+                },
+                {
+                  "path": ".test/integration/module_CSM/config2_pwms.yml"
+                },
+                {
+                  "path": ".test/integration/module_KPC/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_MAE/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_PAQ/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_PQA/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_QEI/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_RES/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_TPA/config.yml"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "configs/config_template.yml"
+                },
+                {
+                  "path": "env/bash.yml"
+                },
+                {
+                  "path": "env/environment.yml"
+                },
+                {
+                  "path": "env/python.yml"
+                },
+                {
+                  "path": "env/tar.yml"
+                },
+                {
+                  "path": "execution/run.sh"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/Snakefile"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/configs/config.yml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/env/bash.yml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/env/motevo.yml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/env/python.yml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/execution/run.sh"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/scripts/create-kmers-sitecount-matrix.py"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/scripts/extract-window-information.py"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/scripts/merge-motevo-results.py"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/Snakefile"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/configs/config.yml"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/env/bash.yml"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/env/python.yml"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/env/samtools.yml"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/env/suppa.yml"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/execution/run.sh"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/scripts/cluster-events.py"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/scripts/convert-to-bed.py"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/scripts/filter-exons.py"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/scripts/select-cluster-representatives.py"
+                },
+                {
+                  "path": "modules/KAPAC/Snakefile"
+                },
+                {
+                  "path": "modules/KAPAC/configs/config.yml"
+                },
+                {
+                  "path": "modules/KAPAC/env/Perl.yml"
+                },
+                {
+                  "path": "modules/KAPAC/env/R.yml"
+                },
+                {
+                  "path": "modules/KAPAC/env/bash.yml"
+                },
+                {
+                  "path": "modules/KAPAC/env/python.yml"
+                },
+                {
+                  "path": "modules/KAPAC/execution/run.sh"
+                },
+                {
+                  "path": "modules/KAPAC/scripts/calculate_Zscores_statistical_significancy.R"
+                },
+                {
+                  "path": "modules/KAPAC/scripts/collapse-scores.py"
+                },
+                {
+                  "path": "modules/KAPAC/scripts/extend-tables.py"
+                },
+                {
+                  "path": "modules/KAPAC/scripts/filter-pas-table.py"
+                },
+                {
+                  "path": "modules/MAEI/Snakefile"
+                },
+                {
+                  "path": "modules/MAEI/configs/config.yml"
+                },
+                {
+                  "path": "modules/MAEI/env/R.yml"
+                },
+                {
+                  "path": "modules/MAEI/env/bash.yml"
+                },
+                {
+                  "path": "modules/MAEI/env/python.yml"
+                },
+                {
+                  "path": "modules/MAEI/execution/run.sh"
+                },
+                {
+                  "path": "modules/MAEI/scripts/calculate-Zscores.py"
+                },
+                {
+                  "path": "modules/MAEI/scripts/calculate_Zscores_statistical_significancy.R"
+                },
+                {
+                  "path": "modules/MAEI/scripts/collapse-scores.py"
+                },
+                {
+                  "path": "modules/MAEI/scripts/extend-tables.py"
+                },
+                {
+                  "path": "modules/MAEI/scripts/model.cpp"
+                },
+                {
+                  "path": "modules/MAEI/scripts/optim.c"
+                },
+                {
+                  "path": "modules/MAEI/scripts/optimize-MARA-model-parameters.R"
+                },
+                {
+                  "path": "modules/MAEI/scripts/prepare-inclusion-table.py"
+                },
+                {
+                  "path": "modules/MAEI/scripts/zeroin.c"
+                },
+                {
+                  "path": "modules/PAQR/Snakefile"
+                },
+                {
+                  "path": "modules/PAQR/configs/config.yml"
+                },
+                {
+                  "path": "modules/PAQR/env/bash.yml"
+                },
+                {
+                  "path": "modules/PAQR/env/python.yml"
+                },
+                {
+                  "path": "modules/PAQR/execution/run.sh"
+                },
+                {
+                  "path": "modules/PAQR/scripts/filter-tables.py"
+                },
+                {
+                  "path": "modules/PAQR/scripts/normalize-pas-expression.py"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/Snakefile"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/configs/config.yml"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/env/Perl.yml"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/env/bash.yml"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/execution/run.sh"
+                },
+                {
+                  "path": "modules/PREPROCESSING/Snakefile"
+                },
+                {
+                  "path": "modules/PREPROCESSING/configs/config.yml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/env/STAR.yml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/env/bash.yml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/env/cutadapt.yml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/env/fastqc.yml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/env/python.yml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/env/rnaseqc.yml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/env/rseqc.yml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/env/samtools.yml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/env/tin.yml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/env/zgtf.yml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/execution/run.sh"
+                },
+                {
+                  "path": "modules/PREPROCESSING/scripts/filter-design-table.py"
+                },
+                {
+                  "path": "modules/PREPROCESSING/scripts/tin-score-merge.py"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/Snakefile"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/configs/config.yml"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/env/bash.yml"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/env/cufflinks.yml"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/env/python.yml"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/env/salmon.yml"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/execution/run.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 21,
+            "title": "docs: specify env activation outside a script",
+            "state": "MERGED",
+            "createdAt": "2023-03-03T08:51:30Z",
+            "mergedAt": "2023-03-07T13:38:17Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "scripts/download-and-run-on-example-data.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 20,
+            "title": "refactor: adjust `--cores` settings for profiles",
+            "state": "MERGED",
+            "createdAt": "2022-12-11T23:18:45Z",
+            "mergedAt": "2022-12-13T18:46:44Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "env/environment.yml"
+                },
+                {
+                  "path": "execution/run.sh"
+                },
+                {
+                  "path": "profiles/sge-conda/config.yaml"
+                },
+                {
+                  "path": "profiles/sge-singularity/config.yaml"
+                },
+                {
+                  "path": "profiles/slurm-conda/config.yaml"
+                },
+                {
+                  "path": "profiles/slurm-singularity/config.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 19,
+            "title": "feat: specify options for precomputed env/containers top-lvl",
+            "state": "MERGED",
+            "createdAt": "2022-09-18T12:08:38Z",
+            "mergedAt": "2022-09-18T12:36:55Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "execution/run.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 14
+                }
+              ]
+            }
+          },
+          {
+            "number": 18,
+            "title": "refactor: fix minor comments collected along the way",
+            "state": "MERGED",
+            "createdAt": "2022-09-17T22:23:57Z",
+            "mergedAt": "2022-09-18T09:10:59Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CONTRIBUTING.md"
+                },
+                {
+                  "path": "PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "configs/sge-config.yaml"
+                },
+                {
+                  "path": "configs/slurm-config.json"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/execution/run.sh"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/local-conda/config.yaml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/local-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/sge-conda/config.yaml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/sge-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/slurm-conda/config.yaml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/slurm-conda/slurm-status.py"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/slurm-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/slurm-singularity/slurm-status.py"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/execution/run.sh"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/profiles/local-conda/config.yaml"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/profiles/local-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/profiles/sge-conda/config.yaml"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/profiles/sge-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/profiles/slurm-conda/config.yaml"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/profiles/slurm-conda/slurm-status.py"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/profiles/slurm-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/profiles/slurm-singularity/slurm-status.py"
+                },
+                {
+                  "path": "modules/KAPAC/execution/run.sh"
+                },
+                {
+                  "path": "modules/KAPAC/profiles/local-conda/config.yaml"
+                },
+                {
+                  "path": "modules/KAPAC/profiles/local-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/KAPAC/profiles/sge-conda/config.yaml"
+                },
+                {
+                  "path": "modules/KAPAC/profiles/sge-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/KAPAC/profiles/slurm-conda/config.yaml"
+                },
+                {
+                  "path": "modules/KAPAC/profiles/slurm-conda/slurm-status.py"
+                },
+                {
+                  "path": "modules/KAPAC/profiles/slurm-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/KAPAC/profiles/slurm-singularity/slurm-status.py"
+                },
+                {
+                  "path": "modules/MAEI/execution/run.sh"
+                },
+                {
+                  "path": "modules/MAEI/profiles/local-conda/config.yaml"
+                },
+                {
+                  "path": "modules/MAEI/profiles/local-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/MAEI/profiles/sge-conda/config.yaml"
+                },
+                {
+                  "path": "modules/MAEI/profiles/sge-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/MAEI/profiles/slurm-conda/config.yaml"
+                },
+                {
+                  "path": "modules/MAEI/profiles/slurm-conda/slurm-status.py"
+                },
+                {
+                  "path": "modules/MAEI/profiles/slurm-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/MAEI/profiles/slurm-singularity/slurm-status.py"
+                },
+                {
+                  "path": "modules/PAQR/execution/run.sh"
+                },
+                {
+                  "path": "modules/PAQR/profiles/local-conda/config.yaml"
+                },
+                {
+                  "path": "modules/PAQR/profiles/local-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/PAQR/profiles/sge-conda/config.yaml"
+                },
+                {
+                  "path": "modules/PAQR/profiles/sge-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/PAQR/profiles/slurm-conda/config.yaml"
+                },
+                {
+                  "path": "modules/PAQR/profiles/slurm-conda/slurm-status.py"
+                },
+                {
+                  "path": "modules/PAQR/profiles/slurm-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/PAQR/profiles/slurm-singularity/slurm-status.py"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/execution/run.sh"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/profiles/local-conda/config.yaml"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/profiles/local-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/profiles/sge-conda/config.yaml"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/profiles/sge-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/profiles/slurm-conda/config.yaml"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/profiles/slurm-conda/slurm-status.py"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/profiles/slurm-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/profiles/slurm-singularity/slurm-status.py"
+                },
+                {
+                  "path": "modules/PREPROCESSING/configs/sge-config.yaml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/configs/slurm-config.json"
+                },
+                {
+                  "path": "modules/PREPROCESSING/execution/run.sh"
+                },
+                {
+                  "path": "modules/PREPROCESSING/profiles/local-conda/config.yaml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/profiles/local-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/profiles/sge-conda/config.yaml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/profiles/sge-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/profiles/slurm-conda/config.yaml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/profiles/slurm-conda/slurm-status.py"
+                },
+                {
+                  "path": "modules/PREPROCESSING/profiles/slurm-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/profiles/slurm-singularity/slurm-status.py"
+                },
+                {
+                  "path": "modules/PREPROCESSING/scripts/filter-design-table.py"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/execution/run.sh"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/profiles/local-conda/config.yaml"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/profiles/local-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/profiles/sge-conda/config.yaml"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/profiles/sge-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/profiles/slurm-conda/config.yaml"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/profiles/slurm-conda/slurm-status.py"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/profiles/slurm-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/profiles/slurm-singularity/slurm-status.py"
+                },
+                {
+                  "path": "modules/REPORT_RESULTS/execution/run.sh"
+                },
+                {
+                  "path": "modules/REPORT_RESULTS/profiles/local-conda/config.yaml"
+                },
+                {
+                  "path": "modules/REPORT_RESULTS/profiles/local-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/REPORT_RESULTS/profiles/sge-conda/config.yaml"
+                },
+                {
+                  "path": "modules/REPORT_RESULTS/profiles/sge-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/REPORT_RESULTS/profiles/slurm-conda/config.yaml"
+                },
+                {
+                  "path": "modules/REPORT_RESULTS/profiles/slurm-conda/slurm-status.py"
+                },
+                {
+                  "path": "modules/REPORT_RESULTS/profiles/slurm-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/REPORT_RESULTS/profiles/slurm-singularity/slurm-status.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 11
+                }
+              ]
+            }
+          },
+          {
+            "number": 17,
+            "title": "feat: add Sun Grid Engine support",
+            "state": "MERGED",
+            "createdAt": "2022-08-04T09:31:45Z",
+            "mergedAt": "2022-08-04T09:48:38Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/integration/module_ASE/config.yml"
+                },
+                {
+                  "path": "configs/sge-config.yaml"
+                },
+                {
+                  "path": "configs/slurm-config.json"
+                },
+                {
+                  "path": "execution/run.sh"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/configs/sge-config.yaml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/execution/run.sh"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/sge-conda/config.yaml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/sge-conda/sge-cancel.py"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/sge-conda/sge-jobscript.sh"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/sge-conda/sge-status.py"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/sge-conda/sge-submit.py"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/sge-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/sge-singularity/sge-cancel.py"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/sge-singularity/sge-jobscript.sh"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/sge-singularity/sge-status.py"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/sge-singularity/sge-submit.py"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/Snakefile"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/configs/config.yml"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/configs/sge-config.yaml"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/execution/run.sh"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/profiles/sge-conda/config.yaml"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/profiles/sge-conda/sge-cancel.py"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/profiles/sge-conda/sge-jobscript.sh"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/profiles/sge-conda/sge-status.py"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/profiles/sge-conda/sge-submit.py"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/profiles/sge-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/profiles/sge-singularity/sge-cancel.py"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/profiles/sge-singularity/sge-jobscript.sh"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/profiles/sge-singularity/sge-status.py"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/profiles/sge-singularity/sge-submit.py"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/scripts/filter-exons.py"
+                },
+                {
+                  "path": "modules/KAPAC/Snakefile"
+                },
+                {
+                  "path": "modules/KAPAC/configs/sge-config.yaml"
+                },
+                {
+                  "path": "modules/KAPAC/execution/run.sh"
+                },
+                {
+                  "path": "modules/KAPAC/profiles/sge-conda/config.yaml"
+                },
+                {
+                  "path": "modules/KAPAC/profiles/sge-conda/sge-cancel.py"
+                },
+                {
+                  "path": "modules/KAPAC/profiles/sge-conda/sge-jobscript.sh"
+                },
+                {
+                  "path": "modules/KAPAC/profiles/sge-conda/sge-status.py"
+                },
+                {
+                  "path": "modules/KAPAC/profiles/sge-conda/sge-submit.py"
+                },
+                {
+                  "path": "modules/KAPAC/profiles/sge-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/KAPAC/profiles/sge-singularity/sge-cancel.py"
+                },
+                {
+                  "path": "modules/KAPAC/profiles/sge-singularity/sge-jobscript.sh"
+                },
+                {
+                  "path": "modules/KAPAC/profiles/sge-singularity/sge-status.py"
+                },
+                {
+                  "path": "modules/KAPAC/profiles/sge-singularity/sge-submit.py"
+                },
+                {
+                  "path": "modules/MAEI/Snakefile"
+                },
+                {
+                  "path": "modules/MAEI/configs/sge-config.yaml"
+                },
+                {
+                  "path": "modules/MAEI/execution/run.sh"
+                },
+                {
+                  "path": "modules/MAEI/profiles/sge-conda/config.yaml"
+                },
+                {
+                  "path": "modules/MAEI/profiles/sge-conda/sge-cancel.py"
+                },
+                {
+                  "path": "modules/MAEI/profiles/sge-conda/sge-jobscript.sh"
+                },
+                {
+                  "path": "modules/MAEI/profiles/sge-conda/sge-status.py"
+                },
+                {
+                  "path": "modules/MAEI/profiles/sge-conda/sge-submit.py"
+                },
+                {
+                  "path": "modules/MAEI/profiles/sge-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/MAEI/profiles/sge-singularity/sge-cancel.py"
+                },
+                {
+                  "path": "modules/MAEI/profiles/sge-singularity/sge-jobscript.sh"
+                },
+                {
+                  "path": "modules/MAEI/profiles/sge-singularity/sge-status.py"
+                },
+                {
+                  "path": "modules/MAEI/profiles/sge-singularity/sge-submit.py"
+                },
+                {
+                  "path": "modules/PAQR/configs/sge-config.yaml"
+                },
+                {
+                  "path": "modules/PAQR/execution/run.sh"
+                },
+                {
+                  "path": "modules/PAQR/profiles/sge-conda/config.yaml"
+                },
+                {
+                  "path": "modules/PAQR/profiles/sge-conda/sge-cancel.py"
+                },
+                {
+                  "path": "modules/PAQR/profiles/sge-conda/sge-jobscript.sh"
+                },
+                {
+                  "path": "modules/PAQR/profiles/sge-conda/sge-status.py"
+                },
+                {
+                  "path": "modules/PAQR/profiles/sge-conda/sge-submit.py"
+                },
+                {
+                  "path": "modules/PAQR/profiles/sge-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/PAQR/profiles/sge-singularity/sge-cancel.py"
+                },
+                {
+                  "path": "modules/PAQR/profiles/sge-singularity/sge-jobscript.sh"
+                },
+                {
+                  "path": "modules/PAQR/profiles/sge-singularity/sge-status.py"
+                },
+                {
+                  "path": "modules/PAQR/profiles/sge-singularity/sge-submit.py"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/configs/sge-config.yaml"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/execution/run.sh"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/profiles/sge-conda/config.yaml"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/profiles/sge-conda/sge-cancel.py"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/profiles/sge-conda/sge-jobscript.sh"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/profiles/sge-conda/sge-status.py"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/profiles/sge-conda/sge-submit.py"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/profiles/sge-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/profiles/sge-singularity/sge-cancel.py"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/profiles/sge-singularity/sge-jobscript.sh"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/profiles/sge-singularity/sge-status.py"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/profiles/sge-singularity/sge-submit.py"
+                },
+                {
+                  "path": "modules/PREPROCESSING/configs/sge-config.yaml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/configs/slurm-config.json"
+                },
+                {
+                  "path": "modules/PREPROCESSING/execution/run.sh"
+                },
+                {
+                  "path": "modules/PREPROCESSING/profiles/sge-conda/config.yaml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/profiles/sge-conda/sge-cancel.py"
+                },
+                {
+                  "path": "modules/PREPROCESSING/profiles/sge-conda/sge-jobscript.sh"
+                },
+                {
+                  "path": "modules/PREPROCESSING/profiles/sge-conda/sge-status.py"
+                },
+                {
+                  "path": "modules/PREPROCESSING/profiles/sge-conda/sge-submit.py"
+                },
+                {
+                  "path": "modules/PREPROCESSING/profiles/sge-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/profiles/sge-singularity/sge-cancel.py"
+                },
+                {
+                  "path": "modules/PREPROCESSING/profiles/sge-singularity/sge-jobscript.sh"
+                },
+                {
+                  "path": "modules/PREPROCESSING/profiles/sge-singularity/sge-status.py"
+                },
+                {
+                  "path": "modules/PREPROCESSING/profiles/sge-singularity/sge-submit.py"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/configs/sge-config.yaml"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/execution/run.sh"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/profiles/sge-conda/config.yaml"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/profiles/sge-conda/sge-cancel.py"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/profiles/sge-conda/sge-jobscript.sh"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/profiles/sge-conda/sge-status.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 16,
+            "title": "refactor: fix ASE cassette exon selection",
+            "state": "MERGED",
+            "createdAt": "2022-07-23T08:38:16Z",
+            "mergedAt": "2022-07-23T09:05:06Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".test/integration/MAPP/config_template_1.yml"
+                },
+                {
+                  "path": ".test/integration/MAPP/config_template_2.yml"
+                },
+                {
+                  "path": ".test/integration/module_ASE/config.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "configs/config_template.yml"
+                },
+                {
+                  "path": "configs/slurm-config.json"
+                },
+                {
+                  "path": "images/mapp_workflow.png"
+                },
+                {
+                  "path": "images/rulegraph.png"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/Snakefile"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/configs/config.yml"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/scripts/filter-exons.py"
+                },
+                {
+                  "path": "modules/PAQR/Snakefile"
+                },
+                {
+                  "path": "modules/PAQR/configs/slurm-config.json"
+                },
+                {
+                  "path": "modules/PAQR/images/rulegraph.svg"
+                },
+                {
+                  "path": "modules/PAQR/scripts/filter-tables.py"
+                },
+                {
+                  "path": "profiles/slurm-conda/slurm-status.py"
+                },
+                {
+                  "path": "scripts/create-conda-environment.sh"
+                },
+                {
+                  "path": "scripts/create-main-config-file.py"
+                },
+                {
+                  "path": "scripts/delete-results.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 13,
+            "title": "refactor: collect minor comments",
+            "state": "MERGED",
+            "createdAt": "2022-05-30T19:01:15Z",
+            "mergedAt": "2022-05-30T19:31:29Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "configs/slurm-config.json"
+                },
+                {
+                  "path": "images/mapp_workflow.png"
+                },
+                {
+                  "path": "images/rulegraph.png"
+                },
+                {
+                  "path": "modules/PAQR/Snakefile"
+                },
+                {
+                  "path": "modules/PAQR/configs/slurm-config.json"
+                },
+                {
+                  "path": "modules/PAQR/images/rulegraph.svg"
+                },
+                {
+                  "path": "modules/PAQR/scripts/filter-tables.py"
+                },
+                {
+                  "path": "profiles/slurm-conda/slurm-status.py"
+                },
+                {
+                  "path": "scripts/create-conda-environment.sh"
+                },
+                {
+                  "path": "scripts/create-main-config-file.py"
+                },
+                {
+                  "path": "scripts/delete-results.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 10,
+            "title": "refactor: add minor collected changes",
+            "state": "MERGED",
+            "createdAt": "2022-04-29T07:17:41Z",
+            "mergedAt": "2022-04-30T00:22:08Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/integration.yml"
+                },
+                {
+                  "path": ".test/integration/MAPP/config_template_1.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "env/environment.yml"
+                },
+                {
+                  "path": "env/tar.yml"
+                },
+                {
+                  "path": "execution/run.sh"
+                },
+                {
+                  "path": "profiles/local-conda/config.yaml"
+                },
+                {
+                  "path": "profiles/local-singularity/config.yaml"
+                },
+                {
+                  "path": "profiles/slurm-conda/config.yaml"
+                },
+                {
+                  "path": "profiles/slurm-singularity/config.yaml"
+                },
+                {
+                  "path": "profiles/slurm-singularity/slurm-status.py"
+                },
+                {
+                  "path": "scripts/create-main-config-file.py"
+                },
+                {
+                  "path": "scripts/download-and-run-on-example-data.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 9,
+            "title": "bugfix: change compression format to tar.gz",
+            "state": "MERGED",
+            "createdAt": "2022-04-08T12:51:22Z",
+            "mergedAt": "2022-04-08T13:30:42Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 8,
+            "title": "ci: move from GitLab CI to GitHub Actions",
+            "state": "MERGED",
+            "createdAt": "2021-12-15T20:21:17Z",
+            "mergedAt": "2021-12-15T20:37:41Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/integration.yml"
+                },
+                {
+                  "path": ".gitlab-ci.yml"
+                },
+                {
+                  "path": ".test/integration/MAPP/config_template_1.yml"
+                },
+                {
+                  "path": ".test/integration/MAPP/config_template_2.yml"
+                },
+                {
+                  "path": ".test/integration/MAPP/design_table.tsv"
+                },
+                {
+                  "path": ".test/integration/module_ASE/Homo_sapiens.GRCh38.102.gtf"
+                },
+                {
+                  "path": ".test/integration/module_ASE/Homo_sapiens.GRCh38.dna.primary_assembly.fa"
+                },
+                {
+                  "path": ".test/integration/module_ASE/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_CSM/Homo_sapiens.GRCh38.dna.primary_assembly.fa"
+                },
+                {
+                  "path": ".test/integration/module_CSM/config1_kmers.yml"
+                },
+                {
+                  "path": ".test/integration/module_CSM/config2_pwms.yml"
+                },
+                {
+                  "path": ".test/integration/module_KPC/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_KPC/design_table.tsv"
+                },
+                {
+                  "path": ".test/integration/module_MAE/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_MAE/design_table.tsv"
+                },
+                {
+                  "path": ".test/integration/module_PAQ/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_PAQ/design_table.tsv"
+                },
+                {
+                  "path": ".test/integration/module_PQA/Homo_sapiens.GRCh38.102.gtf"
+                },
+                {
+                  "path": ".test/integration/module_PQA/Homo_sapiens.GRCh38.dna.primary_assembly.fa"
+                },
+                {
+                  "path": ".test/integration/module_PQA/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_PQA/design_table.tsv"
+                },
+                {
+                  "path": ".test/integration/module_QEI/Homo_sapiens.GRCh38.102.gtf"
+                },
+                {
+                  "path": ".test/integration/module_QEI/Homo_sapiens.GRCh38.dna.primary_assembly.fa"
+                },
+                {
+                  "path": ".test/integration/module_QEI/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_QEI/design_table.tsv"
+                },
+                {
+                  "path": ".test/integration/module_RES/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_RES/design_table.tsv"
+                },
+                {
+                  "path": ".test/integration/module_TPA/Homo_sapiens.GRCh38.102.gtf"
+                },
+                {
+                  "path": ".test/integration/module_TPA/clean-atlas.bed"
+                },
+                {
+                  "path": ".test/integration/module_TPA/config.yml"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 4
+                }
+              ]
+            }
+          },
+          {
+            "number": 5,
+            "title": "feat: add github issues templates, CoC, CODEOWNERS",
+            "state": "MERGED",
+            "createdAt": "2021-12-14T19:14:13Z",
+            "mergedAt": "2021-12-14T19:18:44Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/CODEOWNERS"
+                },
+                {
+                  "path": ".github/CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/feature_request.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 2
+                }
+              ]
+            }
+          },
+          {
+            "number": 3,
+            "title": "feat: include bzip2 in conda envs, adjust logo",
+            "state": "MERGED",
+            "createdAt": "2021-12-14T17:33:00Z",
+            "mergedAt": "2021-12-14T17:40:52Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "env/bash.yml"
+                },
+                {
+                  "path": "env/python.yml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/env/bash.yml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/env/python.yml"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/env/bash.yml"
+                },
+                {
+                  "path": "modules/EXTRACT_AS_EXONS/env/python.yml"
+                },
+                {
+                  "path": "modules/KAPAC/env/bash.yml"
+                },
+                {
+                  "path": "modules/KAPAC/env/python.yml"
+                },
+                {
+                  "path": "modules/MAEI/env/bash.yml"
+                },
+                {
+                  "path": "modules/MAEI/env/python.yml"
+                },
+                {
+                  "path": "modules/PAQR/env/bash.yml"
+                },
+                {
+                  "path": "modules/PAQR/env/python.yml"
+                },
+                {
+                  "path": "modules/PREPARE_TANDEM_PAS/env/bash.yml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/env/bash.yml"
+                },
+                {
+                  "path": "modules/PREPROCESSING/env/python.yml"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/env/bash.yml"
+                },
+                {
+                  "path": "modules/QUANTIFICATION/env/python.yml"
+                },
+                {
+                  "path": "modules/REPORT_RESULTS/env/bash.yml"
+                },
+                {
+                  "path": "modules/REPORT_RESULTS/env/python.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1,
+            "title": "git: add clean version from GitLab",
+            "state": "MERGED",
+            "createdAt": "2021-12-14T16:51:42Z",
+            "mergedAt": "2021-12-14T16:52:29Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".gitlab-ci.yml"
+                },
+                {
+                  "path": ".test/integration/MAPP/3ss.bed"
+                },
+                {
+                  "path": ".test/integration/MAPP/3ss/u0to0.d0to50/matrix.tsv"
+                },
+                {
+                  "path": ".test/integration/MAPP/3ss/u50to0.d0to0/matrix.tsv"
+                },
+                {
+                  "path": ".test/integration/MAPP/5ss.bed"
+                },
+                {
+                  "path": ".test/integration/MAPP/5ss/u0to0.d0to50/matrix.tsv"
+                },
+                {
+                  "path": ".test/integration/MAPP/5ss/u50to0.d0to0/matrix.tsv"
+                },
+                {
+                  "path": ".test/integration/MAPP/Homo_sapiens.GRCh38.index/index"
+                },
+                {
+                  "path": ".test/integration/MAPP/PWM/motif1"
+                },
+                {
+                  "path": ".test/integration/MAPP/PWM/motif2"
+                },
+                {
+                  "path": ".test/integration/MAPP/PWM/motif3"
+                },
+                {
+                  "path": ".test/integration/MAPP/config_template_1.yml"
+                },
+                {
+                  "path": ".test/integration/MAPP/config_template_2.yml"
+                },
+                {
+                  "path": ".test/integration/MAPP/design_table.tsv"
+                },
+                {
+                  "path": ".test/integration/MAPP/events_SE_selected.tsv"
+                },
+                {
+                  "path": ".test/integration/MAPP/fastq/sample_A_1.fastq.gz"
+                },
+                {
+                  "path": ".test/integration/MAPP/fastq/sample_A_2.fastq.gz"
+                },
+                {
+                  "path": ".test/integration/MAPP/fastq/sample_B_1.fastq.gz"
+                },
+                {
+                  "path": ".test/integration/MAPP/fastq/sample_B_2.fastq.gz"
+                },
+                {
+                  "path": ".test/integration/MAPP/pas/u0to0.d0to50/matrix.tsv"
+                },
+                {
+                  "path": ".test/integration/MAPP/pas/u50to0.d0to0/matrix.tsv"
+                },
+                {
+                  "path": ".test/integration/MAPP/seqlogos/motif1.png"
+                },
+                {
+                  "path": ".test/integration/MAPP/seqlogos/motif2.png"
+                },
+                {
+                  "path": ".test/integration/MAPP/seqlogos/motif3.png"
+                },
+                {
+                  "path": ".test/integration/MAPP/tandem_pas.terminal_exons.clean.bed"
+                },
+                {
+                  "path": ".test/integration/MAPP/tandem_pas.terminal_exons.representative_sites.bed"
+                },
+                {
+                  "path": ".test/integration/module_ASE/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_CSM/3ss.bed"
+                },
+                {
+                  "path": ".test/integration/module_CSM/5ss.bed"
+                },
+                {
+                  "path": ".test/integration/module_CSM/PWM/motif1"
+                },
+                {
+                  "path": ".test/integration/module_CSM/PWM/motif2"
+                },
+                {
+                  "path": ".test/integration/module_CSM/PWM/motif3"
+                },
+                {
+                  "path": ".test/integration/module_CSM/config1_kmers.yml"
+                },
+                {
+                  "path": ".test/integration/module_CSM/config2_pwms.yml"
+                },
+                {
+                  "path": ".test/integration/module_CSM/tandem_pas.terminal_exons.clean.bed"
+                },
+                {
+                  "path": ".test/integration/module_KPC/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_KPC/design_table.tsv"
+                },
+                {
+                  "path": ".test/integration/module_KPC/filtered_pas_expression.tsv"
+                },
+                {
+                  "path": ".test/integration/module_KPC/u0to0.d0to50/matrix.tsv"
+                },
+                {
+                  "path": ".test/integration/module_KPC/u50to0.d0to0/matrix.tsv"
+                },
+                {
+                  "path": ".test/integration/module_MAE/3ss/u0to0.d0to50/matrix.tsv"
+                },
+                {
+                  "path": ".test/integration/module_MAE/3ss/u50to0.d0to0/matrix.tsv"
+                },
+                {
+                  "path": ".test/integration/module_MAE/5ss/u0to0.d0to50/matrix.tsv"
+                },
+                {
+                  "path": ".test/integration/module_MAE/5ss/u50to0.d0to0/matrix.tsv"
+                },
+                {
+                  "path": ".test/integration/module_MAE/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_MAE/design_table.tsv"
+                },
+                {
+                  "path": ".test/integration/module_MAE/inclusion_table.tsv"
+                },
+                {
+                  "path": ".test/integration/module_PAQ/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_PAQ/design_table.tsv"
+                },
+                {
+                  "path": ".test/integration/module_PAQ/sample_A.bam"
+                },
+                {
+                  "path": ".test/integration/module_PAQ/sample_A.bam.bai"
+                },
+                {
+                  "path": ".test/integration/module_PAQ/sample_B.bam"
+                },
+                {
+                  "path": ".test/integration/module_PAQ/sample_B.bam.bai"
+                },
+                {
+                  "path": ".test/integration/module_PAQ/tandem_pas.terminal_exons.clean.bed"
+                },
+                {
+                  "path": ".test/integration/module_PQA/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_PQA/design_table.tsv"
+                },
+                {
+                  "path": ".test/integration/module_PQA/fastq/sample_A_1.fastq.gz"
+                },
+                {
+                  "path": ".test/integration/module_PQA/fastq/sample_A_2.fastq.gz"
+                },
+                {
+                  "path": ".test/integration/module_PQA/fastq/sample_B_1.fastq.gz"
+                },
+                {
+                  "path": ".test/integration/module_PQA/fastq/sample_B_2.fastq.gz"
+                },
+                {
+                  "path": ".test/integration/module_QEI/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_QEI/design_table.tsv"
+                },
+                {
+                  "path": ".test/integration/module_QEI/events_SE_selected.tsv"
+                },
+                {
+                  "path": ".test/integration/module_QEI/sample_A.bam"
+                },
+                {
+                  "path": ".test/integration/module_QEI/sample_B.bam"
+                },
+                {
+                  "path": ".test/integration/module_RES/config.yml"
+                },
+                {
+                  "path": ".test/integration/module_RES/design_table.tsv"
+                },
+                {
+                  "path": ".test/integration/module_RES/polyadenylation_results.tsv"
+                },
+                {
+                  "path": ".test/integration/module_RES/splicing_3ss_results.tsv"
+                },
+                {
+                  "path": ".test/integration/module_RES/splicing_5ss_results.tsv"
+                },
+                {
+                  "path": ".test/integration/module_TPA/config.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "configs/config_template.yml"
+                },
+                {
+                  "path": "configs/slurm-config.json"
+                },
+                {
+                  "path": "env/bash.yml"
+                },
+                {
+                  "path": "env/environment.yml"
+                },
+                {
+                  "path": "env/python.yml"
+                },
+                {
+                  "path": "env/tar.yml"
+                },
+                {
+                  "path": "execution/run.sh"
+                },
+                {
+                  "path": "images/logo.128px.png"
+                },
+                {
+                  "path": "images/mapp_logo.png"
+                },
+                {
+                  "path": "images/mapp_scheme.png"
+                },
+                {
+                  "path": "images/mapp_workflow.png"
+                },
+                {
+                  "path": "images/rulegraph.png"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/Snakefile"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/configs/config.yml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/configs/slurm-config.json"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/env/bash.yml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/env/motevo.yml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/env/python.yml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/execution/cleanup.sh"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/execution/run.sh"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/images/rulegraph_kmers.svg"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/images/rulegraph_pwms.svg"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/local-conda/config.yaml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/local-singularity/config.yaml"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/slurm-conda/CookieCutter.py"
+                },
+                {
+                  "path": "modules/CREATE_SITECOUNT_MATRICES/profiles/slurm-conda/config.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

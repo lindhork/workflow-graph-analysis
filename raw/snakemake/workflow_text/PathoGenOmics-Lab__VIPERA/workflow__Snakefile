@@ -1,0 +1,25 @@
+import sys
+import re
+from pathlib import Path
+from snakemake.utils import min_version
+import subprocess
+
+min_version("7.19")
+
+with open(Path(workflow.basedir).parent / "version.txt") as f:
+    __version__ = f.read()
+
+containerized: "docker://ahmig/vipera:v" + __version__
+
+configfile: "config/config.yaml"
+configfile: "config/targets.yaml"
+
+include: "core.smk"
+include: "rules/context.smk"
+include: "rules/demix.smk"
+include: "rules/pangolin.smk"
+include: "rules/report.smk"
+
+rule all:
+    input:
+        OUTDIR/f"{OUTPUT_NAME}.report.html"

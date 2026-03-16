@@ -1,0 +1,26 @@
+# Load configuration dicts
+import pandas as pd
+import yaml
+
+# Import configuration files
+params = yaml.load(open("config/params.yml", "r"), Loader=yaml.SafeLoader)
+features = yaml.load(open("config/features.yml", "r"), Loader=yaml.SafeLoader)
+samples = pd.read_table("config/samples.tsv", comment="#", dtype="str")
+
+SAMPLES = samples[["sample_id"]].values.flatten()
+
+
+# Import subworkflows
+include: "rules/folders.smk"
+include: "rules/clean.smk"
+include: "rules/raw.smk"
+include: "rules/map.smk"
+include: "rules/call.smk"
+
+
+rule all:
+    """
+    Execute the entire pipeline
+    """
+    input:
+        CALL + "all.vcf",

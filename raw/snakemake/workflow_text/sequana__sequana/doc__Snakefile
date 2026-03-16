@@ -1,0 +1,17 @@
+# Do not edit; line number are used in the doc
+# Minimalist example to count number of reads in fastq files
+from sequana import sequana_data
+filename = sequana_data("Hm2_GTGAAA_L005_R1_001.fastq.gz", "data")
+
+rule count:
+    input: filename
+    output: "count.txt"
+    run:
+        from sequana import FastQ
+        def count(fastq):
+            return len(FastQ(fastq))
+        results = dict([(filename, count(filename)) for filename in input])
+
+        with open(output[0], "w") as fout:
+            fout.write("%s" % results)
+

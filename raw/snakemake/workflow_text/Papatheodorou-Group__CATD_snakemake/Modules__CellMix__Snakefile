@@ -1,0 +1,124 @@
+## Rule index for CellMix based deconv
+##
+## @zgr2788
+##
+##
+## Description:
+## This file includes all the rules to run deconvolution methods in CellMix.
+##
+##
+##      1- DSA
+##      2- deconf
+##      3- ssKL
+##      4- ssFrobenius
+##
+##
+##
+##
+##
+##
+##
+
+#Pre-installer check
+rule CellmixInstall:
+    input:
+        
+
+    output:
+        "Modules/CellMix/Installed_correctly.txt"
+
+    conda:
+        "env.yaml"
+
+    shell:
+        """
+        Rscript Modules/CellMix/Install.R
+        touch {output}
+        """
+
+
+#1- DSA
+rule DSA_run:
+    input:
+        "Modules/CellMix/Installed_correctly.txt",
+        main = getC2(getBulks('{sample}'), '{sample}')
+
+    output:
+        "Output/{sample}_res_DSA.rds"
+
+    conda:
+        "env.yaml"
+
+    benchmark:
+        "Benchmarks/{sample}_DSA_benchmark.txt"
+
+    resources:
+        mem_mb=getMB(config['mem_gb']['minorOps'])
+
+    shell:
+        "Rscript Modules/CellMix/DSA_run.R {input.main} {output}"
+
+#2- deconf
+rule deconf_run:
+    input:
+        "Modules/CellMix/Installed_correctly.txt",
+        main = getC2(getBulks('{sample}'), '{sample}')
+
+    output:
+        "Output/{sample}_res_deconf.rds"
+
+    conda:
+        "env.yaml"
+
+    benchmark:
+        "Benchmarks/{sample}_deconf_benchmark.txt"
+
+    resources:
+        mem_mb=getMB(config['mem_gb']['minorOps'])
+
+    shell:
+        "Rscript Modules/CellMix/deconf_run.R {input.main} {output}"
+
+
+#3- ssKL
+rule ssKL_run:
+    input:
+        "Modules/CellMix/Installed_correctly.txt",
+        main = getC2(getBulks('{sample}'), '{sample}')
+
+    output:
+        "Output/{sample}_res_ssKL.rds"
+
+    conda:
+        "env.yaml"
+
+    benchmark:
+        "Benchmarks/{sample}_ssKL_benchmark.txt"
+
+    resources:
+        mem_mb=getMB(config['mem_gb']['minorOps'])
+
+    shell:
+        "Rscript Modules/CellMix/ssKL_run.R {input.main} {output}"
+
+
+#4- ssFrobenius
+rule ssFrobenius_run:
+    input:
+        "Modules/CellMix/Installed_correctly.txt",
+        main = getC2(getBulks('{sample}'), '{sample}')
+
+    output:
+        "Output/{sample}_res_ssFrobenius.rds"
+
+    conda:
+        "env.yaml"
+
+    benchmark:
+        "Benchmarks/{sample}_ssFrobenius_benchmark.txt"
+
+    resources:
+        mem_mb=getMB(config['mem_gb']['minorOps'])
+
+    shell:
+        "Rscript Modules/CellMix/ssFrobenius_run.R {input.main} {output}"

@@ -1,0 +1,119 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 1,
+            "title": "common_ids.smk",
+            "state": "OPEN",
+            "createdAt": "2024-04-23T13:04:07Z",
+            "closedAt": null,
+            "author": {
+              "login": "deyuanyang"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 2,
+            "title": "Ponomarev pull request",
+            "state": "OPEN",
+            "createdAt": "2025-05-19T18:39:55Z",
+            "mergedAt": null,
+            "author": {
+              "login": "Zubiriguitar"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "config/default.yaml"
+                },
+                {
+                  "path": "input/genomes/DESCRIPTION"
+                },
+                {
+                  "path": "profile/slurm/config.yaml"
+                },
+                {
+                  "path": "workflow/envs/ete3.yaml"
+                },
+                {
+                  "path": "workflow/envs/gatk.yaml"
+                },
+                {
+                  "path": "workflow/envs/main.yaml"
+                },
+                {
+                  "path": "workflow/rules/alignment.smk"
+                },
+                {
+                  "path": "workflow/rules/astral.smk"
+                },
+                {
+                  "path": "workflow/rules/busco.smk"
+                },
+                {
+                  "path": "workflow/rules/common_ids.smk"
+                },
+                {
+                  "path": "workflow/rules/concat_alignments.smk"
+                },
+                {
+                  "path": "workflow/rules/filtration.smk"
+                },
+                {
+                  "path": "workflow/rules/iqtree.smk"
+                },
+                {
+                  "path": "workflow/rules/phylip.smk"
+                },
+                {
+                  "path": "workflow/rules/quastcore.smk"
+                },
+                {
+                  "path": "workflow/rules/rapidnj.smk"
+                },
+                {
+                  "path": "workflow/rules/raxml.smk"
+                },
+                {
+                  "path": "workflow/rules/vcf_reconstruct.smk"
+                },
+                {
+                  "path": "workflow/rules/visualization.smk"
+                },
+                {
+                  "path": "workflow/scripts/draw_phylotrees.py"
+                },
+                {
+                  "path": "workflow/scripts/draw_phylotrees_from_astral.py"
+                },
+                {
+                  "path": "workflow/scripts/draw_phylotrees_from_astral_extended.py"
+                },
+                {
+                  "path": "workflow/scripts/vcf2phylip.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

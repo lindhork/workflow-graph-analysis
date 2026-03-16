@@ -1,0 +1,229 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 18,
+            "title": "get error when creating conda environments",
+            "state": "OPEN",
+            "createdAt": "2024-03-14T10:18:11Z",
+            "closedAt": null,
+            "author": {
+              "login": "wangmhan"
+            }
+          },
+          {
+            "number": 15,
+            "title": "KeyError: 'balance_options'",
+            "state": "CLOSED",
+            "createdAt": "2023-05-17T23:47:34Z",
+            "closedAt": "2024-03-06T10:41:28Z",
+            "author": {
+              "login": "gibcus"
+            }
+          },
+          {
+            "number": 14,
+            "title": "save the uniquely mapped non-rescued chimeric alignments in a flexible format",
+            "state": "OPEN",
+            "createdAt": "2017-04-24T16:05:46Z",
+            "closedAt": null,
+            "author": {
+              "login": "golobor"
+            }
+          },
+          {
+            "number": 13,
+            "title": "samtools missing from environment.yml",
+            "state": "CLOSED",
+            "createdAt": "2017-04-24T14:23:15Z",
+            "closedAt": "2017-04-24T16:24:49Z",
+            "author": {
+              "login": "nvictus"
+            }
+          },
+          {
+            "number": 12,
+            "title": "optimize for the case when pairsamtools merge is performed on a single file",
+            "state": "CLOSED",
+            "createdAt": "2017-04-24T02:44:32Z",
+            "closedAt": "2023-04-17T12:20:58Z",
+            "author": {
+              "login": "golobor"
+            }
+          },
+          {
+            "number": 11,
+            "title": "use wget/curl to download SRA when not using ?start=...&end=...",
+            "state": "OPEN",
+            "createdAt": "2017-04-24T01:48:44Z",
+            "closedAt": null,
+            "author": {
+              "login": "golobor"
+            }
+          },
+          {
+            "number": 10,
+            "title": "add option to download from http/https/ftp",
+            "state": "OPEN",
+            "createdAt": "2017-04-23T00:49:30Z",
+            "closedAt": null,
+            "author": {
+              "login": "golobor"
+            }
+          },
+          {
+            "number": 9,
+            "title": "add SRA+SRA chunking",
+            "state": "CLOSED",
+            "createdAt": "2017-04-17T23:30:15Z",
+            "closedAt": "2017-04-23T00:48:41Z",
+            "author": {
+              "login": "golobor"
+            }
+          },
+          {
+            "number": 8,
+            "title": "specify number of cores for the whole pipeline and individual tasks",
+            "state": "OPEN",
+            "createdAt": "2017-04-17T19:04:15Z",
+            "closedAt": null,
+            "author": {
+              "login": "golobor"
+            }
+          },
+          {
+            "number": 7,
+            "title": "add option to drop sequences/phreds",
+            "state": "OPEN",
+            "createdAt": "2017-04-17T18:01:31Z",
+            "closedAt": null,
+            "author": {
+              "login": "golobor"
+            }
+          },
+          {
+            "number": 6,
+            "title": "add docs",
+            "state": "OPEN",
+            "createdAt": "2017-04-17T18:01:11Z",
+            "closedAt": null,
+            "author": {
+              "login": "golobor"
+            }
+          },
+          {
+            "number": 5,
+            "title": "add custom /tmp folders",
+            "state": "OPEN",
+            "createdAt": "2017-04-17T18:00:54Z",
+            "closedAt": null,
+            "author": {
+              "login": "golobor"
+            }
+          },
+          {
+            "number": 4,
+            "title": "add fastq_chunking",
+            "state": "CLOSED",
+            "createdAt": "2017-04-17T18:00:32Z",
+            "closedAt": "2017-04-17T23:29:59Z",
+            "author": {
+              "login": "golobor"
+            }
+          },
+          {
+            "number": 3,
+            "title": "add stats, merge_stats",
+            "state": "CLOSED",
+            "createdAt": "2017-04-17T18:00:11Z",
+            "closedAt": "2017-04-17T20:01:46Z",
+            "author": {
+              "login": "golobor"
+            }
+          },
+          {
+            "number": 2,
+            "title": "add merge_coolers",
+            "state": "CLOSED",
+            "createdAt": "2017-04-17T17:59:58Z",
+            "closedAt": "2017-04-18T05:21:09Z",
+            "author": {
+              "login": "golobor"
+            }
+          },
+          {
+            "number": 1,
+            "title": "add make_coolers",
+            "state": "CLOSED",
+            "createdAt": "2017-04-17T17:59:29Z",
+            "closedAt": "2017-04-17T19:06:16Z",
+            "author": {
+              "login": "golobor"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 17,
+            "title": "Add scaling from pairs",
+            "state": "MERGED",
+            "createdAt": "2024-03-06T10:38:35Z",
+            "mergedAt": "2024-03-06T10:40:04Z",
+            "author": {
+              "login": "Phlya"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/config.yml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/resgen_python.yml"
+                },
+                {
+                  "path": "workflow/profiles/default/config.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 16,
+            "title": "urls' update in setup_test.sh and adding sra-tools to environment.yml",
+            "state": "MERGED",
+            "createdAt": "2023-09-14T16:18:14Z",
+            "mergedAt": "2024-03-06T10:24:24Z",
+            "author": {
+              "login": "PSmaruj"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "setup_test.sh"
+                },
+                {
+                  "path": "workflow/envs/environment.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

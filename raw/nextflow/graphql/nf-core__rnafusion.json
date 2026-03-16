@@ -1,0 +1,3473 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 792,
+            "title": "Wrong calculation of FII",
+            "state": "OPEN",
+            "createdAt": "2026-02-12T13:35:08Z",
+            "closedAt": null,
+            "author": {
+              "login": "colsen"
+            }
+          },
+          {
+            "number": 791,
+            "title": "Mounting issues",
+            "state": "CLOSED",
+            "createdAt": "2026-02-10T23:29:56Z",
+            "closedAt": "2026-02-11T01:25:16Z",
+            "author": {
+              "login": "gitMakeCoffee"
+            }
+          },
+          {
+            "number": 787,
+            "title": "Transcript annotations in VCF are lost when data isn't found by FusionInspector",
+            "state": "OPEN",
+            "createdAt": "2026-01-19T15:40:26Z",
+            "closedAt": null,
+            "author": {
+              "login": "nvnieuwk"
+            }
+          },
+          {
+            "number": 785,
+            "title": "Single-end analysis not working",
+            "state": "OPEN",
+            "createdAt": "2025-12-30T03:55:16Z",
+            "closedAt": null,
+            "author": {
+              "login": "ahwanpandey"
+            }
+          },
+          {
+            "number": 784,
+            "title": "create index on \"markduplicates\" output BAM",
+            "state": "OPEN",
+            "createdAt": "2025-12-30T02:29:04Z",
+            "closedAt": null,
+            "author": {
+              "login": "ahwanpandey"
+            }
+          },
+          {
+            "number": 780,
+            "title": "When running a BAM input, ARRIBA_VISUALISATION and FUSIONINSPECTOR modules do not run",
+            "state": "OPEN",
+            "createdAt": "2025-11-17T14:46:51Z",
+            "closedAt": null,
+            "author": {
+              "login": "preethabalakrishnan"
+            }
+          },
+          {
+            "number": 778,
+            "title": "IOError: [Errno 2] No such file or directory: 'assets/organism.txt'",
+            "state": "CLOSED",
+            "createdAt": "2025-10-21T22:14:34Z",
+            "closedAt": "2025-10-27T10:10:27Z",
+            "author": {
+              "login": "colsen"
+            }
+          },
+          {
+            "number": 777,
+            "title": "Process `RNAFUSION:FASTQ_ALIGN_STAR:STAR_ALIGN (test)` terminated with an error exit status (137)",
+            "state": "OPEN",
+            "createdAt": "2025-10-21T15:25:39Z",
+            "closedAt": null,
+            "author": {
+              "login": "kaischmid"
+            }
+          },
+          {
+            "number": 776,
+            "title": "Question about fastp trimming",
+            "state": "OPEN",
+            "createdAt": "2025-10-20T13:45:10Z",
+            "closedAt": null,
+            "author": {
+              "login": "KevinMer"
+            }
+          },
+          {
+            "number": 774,
+            "title": "When using --genomes_base the function exists_not_empty does not work properly",
+            "state": "OPEN",
+            "createdAt": "2025-10-10T10:18:29Z",
+            "closedAt": null,
+            "author": {
+              "login": "Proton-NTA"
+            }
+          },
+          {
+            "number": 773,
+            "title": "`FUSIONCATCHER` fails with out of memory error",
+            "state": "OPEN",
+            "createdAt": "2025-09-24T08:59:15Z",
+            "closedAt": null,
+            "author": {
+              "login": "bounlu"
+            }
+          },
+          {
+            "number": 761,
+            "title": "Fusioncatcher non-operative on AWS (or other contexts not allowing hard links)",
+            "state": "CLOSED",
+            "createdAt": "2025-09-05T10:24:49Z",
+            "closedAt": "2025-09-12T12:45:29Z",
+            "author": {
+              "login": "pinin4fjords"
+            }
+          },
+          {
+            "number": 760,
+            "title": "`GATK4_BEDTOINTERVALLIST` fails during reference building",
+            "state": "CLOSED",
+            "createdAt": "2025-09-05T08:29:00Z",
+            "closedAt": "2025-09-09T14:42:25Z",
+            "author": {
+              "login": "bounlu"
+            }
+          },
+          {
+            "number": 755,
+            "title": "Reintegrate `QC_WORKFLOW` subworkflow into pipeline after migration to nf-core/subworkflows",
+            "state": "OPEN",
+            "createdAt": "2025-08-26T19:31:21Z",
+            "closedAt": null,
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 754,
+            "title": "Reintegrate `FUSIONINSPECTOR` subworkflow into pipeline after migration to `nf-core/subworkflows`",
+            "state": "OPEN",
+            "createdAt": "2025-08-26T19:27:55Z",
+            "closedAt": null,
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 747,
+            "title": "Handle `transcript_type` Instead of `transcript_biotype` in GTF",
+            "state": "CLOSED",
+            "createdAt": "2025-08-14T14:05:10Z",
+            "closedAt": "2025-08-21T12:32:01Z",
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 739,
+            "title": "Replace `GENCODE_DOWNLOAD` for nf-core `WGET`",
+            "state": "OPEN",
+            "createdAt": "2025-08-08T13:01:49Z",
+            "closedAt": null,
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 735,
+            "title": "Migrate `FASTQ_ALIGN_STAR` subworkflow to nf-core",
+            "state": "CLOSED",
+            "createdAt": "2025-08-05T17:55:06Z",
+            "closedAt": "2025-08-20T17:04:40Z",
+            "author": {
+              "login": "delfiterradas"
+            }
+          },
+          {
+            "number": 732,
+            "title": "Update tests",
+            "state": "CLOSED",
+            "createdAt": "2025-08-01T20:09:45Z",
+            "closedAt": "2025-08-07T13:17:19Z",
+            "author": {
+              "login": "delfiterradas"
+            }
+          },
+          {
+            "number": 731,
+            "title": "Reintegrate `ARRIBA_VISUALIZATION` module into pipeline after migration to nf-core/modules",
+            "state": "CLOSED",
+            "createdAt": "2025-08-01T16:14:23Z",
+            "closedAt": "2025-08-19T18:16:36Z",
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 730,
+            "title": "Test if `STARFUSION` can work with smaller Pfam/Dfam databases",
+            "state": "CLOSED",
+            "createdAt": "2025-07-31T13:13:45Z",
+            "closedAt": "2025-08-04T18:04:00Z",
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 729,
+            "title": "Add missing nf-test to subworkflow `FUSIONINSPECTOR_WORKFLOW`",
+            "state": "CLOSED",
+            "createdAt": "2025-07-31T12:05:08Z",
+            "closedAt": "2025-08-29T14:50:20Z",
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 728,
+            "title": "Add missing nf-test to subworkflow `FASTQ_ALIGN_STAR`",
+            "state": "CLOSED",
+            "createdAt": "2025-07-31T12:04:22Z",
+            "closedAt": "2025-08-29T14:49:57Z",
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 727,
+            "title": "Add test data for `STARFUSION_DETECT`",
+            "state": "CLOSED",
+            "createdAt": "2025-07-29T18:44:52Z",
+            "closedAt": "2025-08-04T17:54:41Z",
+            "author": {
+              "login": "delfiterradas"
+            }
+          },
+          {
+            "number": 724,
+            "title": "STARFUSION_BUILD failes with exit code 2 with Singularity",
+            "state": "CLOSED",
+            "createdAt": "2025-07-24T09:29:22Z",
+            "closedAt": "2025-08-21T12:30:49Z",
+            "author": {
+              "login": "sofievo"
+            }
+          },
+          {
+            "number": 712,
+            "title": "Replace `oras` link with `https` in `FUSIONREPORT_DETECT` and `FUSIONREPORT_DOWNLOAD`",
+            "state": "CLOSED",
+            "createdAt": "2025-07-15T19:04:06Z",
+            "closedAt": "2025-07-15T19:45:04Z",
+            "author": {
+              "login": "delfiterradas"
+            }
+          },
+          {
+            "number": 711,
+            "title": "Replace `oras`  link for `https` link in `FUSIONREPORT_DETECT`",
+            "state": "CLOSED",
+            "createdAt": "2025-07-15T18:41:35Z",
+            "closedAt": "2025-07-16T14:51:16Z",
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 707,
+            "title": "Refactor `STARFUSION_WORKFLOW` to use module directly in main workflow",
+            "state": "CLOSED",
+            "createdAt": "2025-07-10T15:08:25Z",
+            "closedAt": "2025-07-17T15:20:51Z",
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 705,
+            "title": "Refactor `CTAT_SPLICING` to integrate module directly in main workflow",
+            "state": "CLOSED",
+            "createdAt": "2025-07-10T12:50:31Z",
+            "closedAt": "2025-07-16T14:52:00Z",
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 704,
+            "title": "ctatsplicing reference building triggering",
+            "state": "OPEN",
+            "createdAt": "2025-07-10T12:39:33Z",
+            "closedAt": null,
+            "author": {
+              "login": "rannick"
+            }
+          },
+          {
+            "number": 701,
+            "title": "Replace `STARFUSION_DOWNLOAD` module with nf-core `WGET` module",
+            "state": "CLOSED",
+            "createdAt": "2025-07-04T19:26:33Z",
+            "closedAt": "2025-08-08T13:22:07Z",
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 700,
+            "title": "Replace `HGNC_HGNC` module with nf-core `WGET` module",
+            "state": "OPEN",
+            "createdAt": "2025-07-04T19:25:51Z",
+            "closedAt": null,
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 699,
+            "title": "Replace `FUSIONCATCHER_DOWNLOAD` module with nf-core `WGET` module",
+            "state": "CLOSED",
+            "createdAt": "2025-07-04T19:24:30Z",
+            "closedAt": "2025-08-05T17:23:01Z",
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 698,
+            "title": "Replace `ARRIBA_DOWNLOAD` module with nf-core `WGET` module",
+            "state": "CLOSED",
+            "createdAt": "2025-07-04T19:20:39Z",
+            "closedAt": "2025-08-05T17:19:07Z",
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 697,
+            "title": "Replace custom `UCSC_CUSTOM_GTFTOGENEPRED` process with `nf-core/UCSC_CUSTOM_GTFTOGENEPRED` module",
+            "state": "CLOSED",
+            "createdAt": "2025-07-04T16:23:30Z",
+            "closedAt": "2025-08-20T17:03:08Z",
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 696,
+            "title": "Migrate local `STARFUSION_DETECT` to nf-core/modules",
+            "state": "CLOSED",
+            "createdAt": "2025-07-04T16:19:42Z",
+            "closedAt": "2025-08-08T09:14:41Z",
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 695,
+            "title": "Replace custom `GET_RRNA_TRANSCRIPTS` process with `nf-core/RRNATRANSCRIPTS` module",
+            "state": "CLOSED",
+            "createdAt": "2025-07-04T16:17:26Z",
+            "closedAt": "2025-08-19T18:17:02Z",
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 694,
+            "title": "Reintegrate `STARFUSION_BUILD` module into pipeline after migration to nf-core/modules",
+            "state": "CLOSED",
+            "createdAt": "2025-07-04T16:06:24Z",
+            "closedAt": "2025-07-23T13:51:35Z",
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 691,
+            "title": "Refactor `ARRIBA_WORKFLOW` to use module directly in main workflow",
+            "state": "CLOSED",
+            "createdAt": "2025-07-02T12:52:15Z",
+            "closedAt": "2025-07-04T13:45:42Z",
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 690,
+            "title": "Gencode release 48",
+            "state": "OPEN",
+            "createdAt": "2025-07-02T06:28:08Z",
+            "closedAt": null,
+            "author": {
+              "login": "tkcaccia"
+            }
+          },
+          {
+            "number": 689,
+            "title": "Reintegrate `FUSIONREPORT_DETECT` module into pipeline after migration to `nf-core/modules`",
+            "state": "CLOSED",
+            "createdAt": "2025-06-30T17:32:59Z",
+            "closedAt": "2025-07-14T12:05:58Z",
+            "author": {
+              "login": "atrigila"
+            }
+          },
+          {
+            "number": 688,
+            "title": "Add test data for `FUSIONREPORT_DETECT` module to nf-core/test-datasets",
+            "state": "CLOSED",
+            "createdAt": "2025-06-27T19:07:30Z",
+            "closedAt": "2025-07-03T12:43:58Z",
+            "author": {
+              "login": "delfiterradas"
+            }
+          },
+          {
+            "number": 687,
+            "title": "Migrate `FUSIONREPORT_DOWNLOAD` to nf-core/modules",
+            "state": "CLOSED",
+            "createdAt": "2025-06-27T18:38:34Z",
+            "closedAt": "2025-06-30T15:37:41Z",
+            "author": {
+              "login": "delfiterradas"
+            }
+          },
+          {
+            "number": 686,
+            "title": "Without --references_only the pipeline still try to download",
+            "state": "CLOSED",
+            "createdAt": "2025-06-23T09:59:00Z",
+            "closedAt": "2025-06-23T13:09:37Z",
+            "author": {
+              "login": "tkcaccia"
+            }
+          },
+          {
+            "number": 685,
+            "title": "STAR does not use the setting from nextflow.config",
+            "state": "CLOSED",
+            "createdAt": "2025-06-22T09:50:52Z",
+            "closedAt": "2025-07-17T09:24:48Z",
+            "author": {
+              "login": "tkcaccia"
+            }
+          },
+          {
+            "number": 684,
+            "title": "Still error in fusioncatcher. Old link",
+            "state": "CLOSED",
+            "createdAt": "2025-06-21T11:46:36Z",
+            "closedAt": "2025-08-08T08:25:40Z",
+            "author": {
+              "login": "tkcaccia"
+            }
+          },
+          {
+            "number": 682,
+            "title": "RNAFUSION:BUILD_REFERENCES:SALMON_INDEX (Homo_sapiens.GRCh38.102.gtf.fasta)` terminated with an error exit status (137)",
+            "state": "CLOSED",
+            "createdAt": "2025-06-19T07:21:02Z",
+            "closedAt": "2025-06-23T13:08:22Z",
+            "author": {
+              "login": "tkcaccia"
+            }
+          },
+          {
+            "number": 681,
+            "title": "CTATSPLICING module fails due to lack of clear support for CancerSplicingLib indexing inside container",
+            "state": "OPEN",
+            "createdAt": "2025-06-18T17:42:10Z",
+            "closedAt": null,
+            "author": {
+              "login": "tkcaccia"
+            }
+          },
+          {
+            "number": 680,
+            "title": "Fusioncatcher: JVM Initialization Fails: Too small maximum heap due to missing unit in -Xmx parameter",
+            "state": "CLOSED",
+            "createdAt": "2025-06-18T14:59:56Z",
+            "closedAt": "2025-07-04T10:54:42Z",
+            "author": {
+              "login": "tkcaccia"
+            }
+          },
+          {
+            "number": 679,
+            "title": "nextflow.config",
+            "state": "CLOSED",
+            "createdAt": "2025-06-11T09:55:34Z",
+            "closedAt": "2025-06-18T03:49:06Z",
+            "author": {
+              "login": "tkcaccia"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 790,
+            "title": "Fix a typo in awsfulltests",
+            "state": "MERGED",
+            "createdAt": "2026-02-10T08:29:48Z",
+            "mergedAt": "2026-02-10T08:33:24Z",
+            "author": {
+              "login": "nvnieuwk"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 789,
+            "title": "Release PR 4.1.0",
+            "state": "OPEN",
+            "createdAt": "2026-02-09T10:05:49Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nvnieuwk"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "bin/vcf_collect.py"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/vcf_collect/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/samtools/collatefastq/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/collatefastq/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/collatefastq/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/collatefastq/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/samtools/collatefastq/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/test_build.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub_bam.nf.test"
+                },
+                {
+                  "path": "tests/test_stub_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/yml/cram_only.yml"
+                },
+                {
+                  "path": "workflows/rnafusion.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 788,
+            "title": "Bump to 4.1.0",
+            "state": "MERGED",
+            "createdAt": "2026-02-09T08:53:08Z",
+            "mergedAt": "2026-02-09T10:04:43Z",
+            "author": {
+              "login": "nvnieuwk"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/test_build.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub_bam.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 786,
+            "title": "Fix vcf-collect filter when fusions are missing from fusioninspector",
+            "state": "MERGED",
+            "createdAt": "2026-01-08T15:48:50Z",
+            "mergedAt": "2026-01-09T11:24:00Z",
+            "author": {
+              "login": "nvnieuwk"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "bin/vcf_collect.py"
+                },
+                {
+                  "path": "modules/local/vcf_collect/tests/main.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 783,
+            "title": "Add a bam/cram to fastq conversion step",
+            "state": "MERGED",
+            "createdAt": "2025-12-16T13:15:24Z",
+            "mergedAt": "2025-12-19T11:05:49Z",
+            "author": {
+              "login": "nvnieuwk"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/samtools/collatefastq/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/collatefastq/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/collatefastq/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/collatefastq/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/samtools/collatefastq/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/test_build.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub_bam.nf.test"
+                },
+                {
+                  "path": "tests/test_stub_bam.nf.test.snap"
+                },
+                {
+                  "path": "tests/yml/cram_only.yml"
+                },
+                {
+                  "path": "workflows/rnafusion.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 782,
+            "title": "Reorganizes the schema",
+            "state": "OPEN",
+            "createdAt": "2025-11-27T14:45:03Z",
+            "mergedAt": null,
+            "author": {
+              "login": "FriederikeHanssen"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "nextflow_schema.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 781,
+            "title": "Important! Template update for nf-core/tools v3.5.1",
+            "state": "OPEN",
+            "createdAt": "2025-11-20T09:32:48Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".devcontainer/setup.sh"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_rnafusion_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "workflows/rnafusion.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 779,
+            "title": "Update to new runner size syntax",
+            "state": "MERGED",
+            "createdAt": "2025-11-03T15:45:55Z",
+            "mergedAt": "2025-11-03T15:57:51Z",
+            "author": {
+              "login": "mashehu"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 775,
+            "title": "Important! Template update for nf-core/tools v3.4.1",
+            "state": "OPEN",
+            "createdAt": "2025-10-16T13:39:49Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".devcontainer/setup.sh"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_rnafusion_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 772,
+            "title": "Small update of pipeline info",
+            "state": "MERGED",
+            "createdAt": "2025-09-19T12:33:10Z",
+            "mergedAt": "2025-09-19T12:55:20Z",
+            "author": {
+              "login": "rannick"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 771,
+            "title": "small update on pipeline information",
+            "state": "MERGED",
+            "createdAt": "2025-09-19T09:47:40Z",
+            "mergedAt": "2025-09-19T12:32:37Z",
+            "author": {
+              "login": "rannick"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 770,
+            "title": "Code review",
+            "state": "MERGED",
+            "createdAt": "2025-09-16T15:39:38Z",
+            "mergedAt": "2025-09-18T14:56:35Z",
+            "author": {
+              "login": "rannick"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "bin/vcf_collect.py"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "workflows/rnafusion.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 769,
+            "title": "increase disk space",
+            "state": "CLOSED",
+            "createdAt": "2025-09-15T11:40:15Z",
+            "mergedAt": null,
+            "author": {
+              "login": "rannick"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 768,
+            "title": "update download action: remove non-stub run",
+            "state": "MERGED",
+            "createdAt": "2025-09-15T10:48:41Z",
+            "mergedAt": "2025-09-15T11:13:34Z",
+            "author": {
+              "login": "rannick"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 767,
+            "title": "remove conda from test on master",
+            "state": "MERGED",
+            "createdAt": "2025-09-11T12:27:05Z",
+            "mergedAt": "2025-09-11T12:41:34Z",
+            "author": {
+              "login": "rannick"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 766,
+            "title": "Release 4.0.0",
+            "state": "MERGED",
+            "createdAt": "2025-09-11T08:00:49Z",
+            "mergedAt": "2025-09-18T15:17:55Z",
+            "author": {
+              "login": "rannick"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CODEOWNERS"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/actions/get-shards/action.yml"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": ".prettierrc.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/dummy_file_arriba.txt"
+                },
+                {
+                  "path": "assets/dummy_file_fusioncatcher.txt"
+                },
+                {
+                  "path": "assets/dummy_file_pizzly.txt"
+                },
+                {
+                  "path": "assets/dummy_file_squid.txt"
+                },
+                {
+                  "path": "assets/dummy_file_starfusion.txt"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "bin/get_rrna_transcripts.py"
+                },
+                {
+                  "path": "bin/vcf_collect.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/genomes.config"
+                },
+                {
+                  "path": "conf/genomes_ignored.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_build.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/BTB_logo.svg"
+                },
+                {
+                  "path": "docs/images/NGI_logo.svg"
+                },
+                {
+                  "path": "docs/images/SciLifeLab_logo.svg"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/images/nf-core-rnafusion_logo_dark_new.png"
+                },
+                {
+                  "path": "docs/images/nf-core-rnafusion_logo_light_new.png"
+                },
+                {
+                  "path": "docs/images/nf-core-rnafusion_metro_map.png"
+                },
+                {
+                  "path": "docs/images/nf-core-rnafusion_metro_map.svg"
+                },
+                {
+                  "path": "docs/images/rnafusion_logo.svg"
+                },
+                {
+                  "path": "docs/images/rnafusion_logo_new.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/arriba/download/main.nf"
+                },
+                {
+                  "path": "modules/local/arriba/download/meta.yml"
+                },
+                {
+                  "path": "modules/local/arriba/visualisation/meta.yml"
+                },
+                {
+                  "path": "modules/local/convert2bed/main.nf"
+                },
+                {
+                  "path": "modules/local/convert2bed/meta.yml"
+                },
+                {
+                  "path": "modules/local/ensembl/main.nf"
+                },
+                {
+                  "path": "modules/local/fusioncatcher/detect/main.nf"
+                },
+                {
+                  "path": "modules/local/fusioncatcher/detect/meta.yml"
+                },
+                {
+                  "path": "modules/local/fusioncatcher/download/main.nf"
+                },
+                {
+                  "path": "modules/local/fusioncatcher/download/meta.yml"
+                },
+                {
+                  "path": "modules/local/fusioninspector/main.nf"
+                },
+                {
+                  "path": "modules/local/fusioninspector/meta.yml"
+                },
+                {
+                  "path": "modules/local/fusionreport/detect/meta.yml"
+                },
+                {
+                  "path": "modules/local/fusionreport/download/main.nf"
+                },
+                {
+                  "path": "modules/local/fusionreport/download/meta.yml"
+                },
+                {
+                  "path": "modules/local/gencode_download/main.nf"
+                },
+                {
+                  "path": "modules/local/hgnc/main.nf"
+                },
+                {
+                  "path": "modules/local/hgnc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/hgnc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/picard/collectrnaseqmetrics/main.nf"
+                },
+                {
+                  "path": "modules/local/picard/collectrnaseqmetrics/meta.yml"
+                },
+                {
+                  "path": "modules/local/rrnatranscripts/main.nf"
+                },
+                {
+                  "path": "modules/local/starfusion/build/main.nf"
+                },
+                {
+                  "path": "modules/local/starfusion/build/meta.yml"
+                },
+                {
+                  "path": "modules/local/starfusion/detect/main.nf"
+                },
+                {
+                  "path": "modules/local/starfusion/detect/meta.yml"
+                },
+                {
+                  "path": "modules/local/starfusion/download/main.nf"
+                },
+                {
+                  "path": "modules/local/starfusion/download/meta.yml"
+                },
+                {
+                  "path": "modules/local/uscs/custom_gtftogenepred/main.nf"
+                },
+                {
+                  "path": "modules/local/uscs/custom_gtftogenepred/meta.yml"
+                },
+                {
+                  "path": "modules/local/vcf_collect/main.nf"
+                },
+                {
+                  "path": "modules/local/vcf_collect/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/vcf_collect/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/tests/nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 765,
+            "title": "version bumped to 4.0.0",
+            "state": "MERGED",
+            "createdAt": "2025-09-10T12:08:13Z",
+            "mergedAt": "2025-09-11T07:59:08Z",
+            "author": {
+              "login": "rannick"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/test_build.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub_bam.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 764,
+            "title": "fix fusioncatcher hardlinks",
+            "state": "MERGED",
+            "createdAt": "2025-09-10T07:18:15Z",
+            "mergedAt": "2025-09-10T07:42:03Z",
+            "author": {
+              "login": "nvnieuwk"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fusioncatcher/fusioncatcher/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fusioncatcher/fusioncatcher/fusioncatcher-fusioncatcher.diff"
+                },
+                {
+                  "path": "modules/nf-core/fusioncatcher/fusioncatcher/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/fusioncatcher_workflow/tests/main.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 763,
+            "title": "Fix bed format",
+            "state": "MERGED",
+            "createdAt": "2025-09-09T14:29:19Z",
+            "mergedAt": "2025-09-09T14:42:08Z",
+            "author": {
+              "login": "rannick"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 760
+                }
+              ]
+            }
+          },
+          {
+            "number": 762,
+            "title": "Update tower yml reports",
+            "state": "MERGED",
+            "createdAt": "2025-09-05T11:19:16Z",
+            "mergedAt": "2025-09-05T13:11:35Z",
+            "author": {
+              "login": "pinin4fjords"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tower.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 759,
+            "title": "Update modules2",
+            "state": "MERGED",
+            "createdAt": "2025-09-03T11:51:51Z",
+            "mergedAt": "2025-09-09T12:42:01Z",
+            "author": {
+              "login": "rannick"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertspgff2tsv/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertspgff2tsv/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/arriba/arriba/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/arriba/arriba/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/arriba/arriba/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/arriba/arriba/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/cat/fastq/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastp/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastp/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/bedtointervallist/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/bedtointervallist/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/createsequencedictionary/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/createsequencedictionary/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/markduplicates/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/markduplicates/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gffread/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/picard/collectinsertsizemetrics/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/collectrnaseqmetrics/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/collectwgsmetrics/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/salmon/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/salmon/quant/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/convert/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/faidx/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/star/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/star/genomegenerate/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/starfusion/build/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/stringtie/merge/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/stringtie/stringtie/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/ucsc/gtftogenepred/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/build_references/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/fusioninspector_workflow/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/fusioninspector_workflow/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/qc_workflow/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/qc_workflow/test/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/test_build.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub_bam.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 758,
+            "title": "Migrate sbwf stringtie and module gtfftoreflat",
+            "state": "MERGED",
+            "createdAt": "2025-09-02T08:34:55Z",
+            "mergedAt": "2025-09-02T13:36:49Z",
+            "author": {
+              "login": "atrigila"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/uscs/custom_gtftogenepred/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/build_references/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/stringtie_workflow/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/stringtie_workflow/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/stringtie_workflow/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_stringtie_merge/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_stringtie_merge/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_stringtie_merge/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_stringtie_merge/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_build.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub_bam.nf.test.snap"
+                },
+                {
+                  "path": "workflows/rnafusion.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 757,
+            "title": "Remove unused param download_refs",
+            "state": "CLOSED",
+            "createdAt": "2025-08-28T11:31:39Z",
+            "mergedAt": null,
+            "author": {
+              "login": "FriederikeHanssen"
+            },
+            "files": {
+              "nodes": []
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 756,
+            "title": "Change to nf-core subworkflow of `fastq_align_star`",
+            "state": "MERGED",
+            "createdAt": "2025-08-26T21:27:24Z",
+            "mergedAt": "2025-08-29T13:35:27Z",
+            "author": {
+              "login": "delfiterradas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/samtools/flagstat/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/flagstat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/flagstat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/flagstat/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/samtools/flagstat/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/samtools/idxstats/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/idxstats/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/idxstats/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/idxstats/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/samtools/idxstats/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/samtools/stats/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/stats/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/stats/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/stats/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/samtools/stats/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/fastq_align_star/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/qc_workflow/test/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_sort_stats_samtools/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_sort_stats_samtools/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_sort_stats_samtools/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_sort_stats_samtools/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_stats_samtools/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_stats_samtools/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_stats_samtools/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/bam_stats_samtools/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_star/fastq_align_star.diff"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_star/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_star/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_star/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_star/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_star/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_star/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_align_star/tests/with_transcripts.config"
+                },
+                {
+                  "path": "tests/nextflow.config"
+                },
+                {
+                  "path": "tests/test_stub.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub_bam.nf.test.snap"
+                },
+                {
+                  "path": "workflows/rnafusion.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 753,
+            "title": "Add test for fusioninspector subworkflow",
+            "state": "MERGED",
+            "createdAt": "2025-08-25T16:47:01Z",
+            "mergedAt": "2025-08-29T14:45:03Z",
+            "author": {
+              "login": "delfiterradas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "subworkflows/local/fusioninspector_workflow/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/fusioninspector_workflow/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/fusioninspector_workflow/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/fusioninspector_workflow/tests/nextflow.config"
+                },
+                {
+                  "path": "workflows/rnafusion.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 752,
+            "title": "refact: replace local `trim_workflow` for nf-core subworkflow",
+            "state": "MERGED",
+            "createdAt": "2025-08-21T19:35:16Z",
+            "mergedAt": "2025-08-29T11:34:56Z",
+            "author": {
+              "login": "atrigila"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "adapter_fasta_test"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/umitools/extract/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/umitools/extract/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/umitools/extract/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/umitools/extract/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/umitools/extract/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/umitools/extract/tests/nextflow.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/qc_workflow/test/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/qc_workflow/test/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/trim_workflow/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/trim_workflow/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/trim_workflow/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_fastqc_umitools_fastp/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_fastqc_umitools_fastp/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_fastqc_umitools_fastp/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_fastqc_umitools_fastp/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/fastq_fastqc_umitools_fastp/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/test_build.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub_bam.nf.test"
+                },
+                {
+                  "path": "tests/test_stub_bam.nf.test.snap"
+                },
+                {
+                  "path": "workflows/rnafusion.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 751,
+            "title": "fix null params issues",
+            "state": "MERGED",
+            "createdAt": "2025-08-21T10:50:49Z",
+            "mergedAt": "2025-08-21T12:21:51Z",
+            "author": {
+              "login": "nvnieuwk"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "subworkflows/local/build_references/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 750,
+            "title": "add arriba fusion back to fusioninspector input",
+            "state": "MERGED",
+            "createdAt": "2025-08-21T09:28:51Z",
+            "mergedAt": "2025-08-21T12:16:56Z",
+            "author": {
+              "login": "nvnieuwk"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflows/rnafusion.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 749,
+            "title": "fix: detect `transcript_type` in gtf",
+            "state": "MERGED",
+            "createdAt": "2025-08-20T19:11:48Z",
+            "mergedAt": "2025-08-21T12:31:37Z",
+            "author": {
+              "login": "atrigila"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_build.config"
+                },
+                {
+                  "path": "tests/test_build.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 748,
+            "title": "update starfusion detect",
+            "state": "MERGED",
+            "createdAt": "2025-08-20T15:09:12Z",
+            "mergedAt": "2025-08-21T07:19:25Z",
+            "author": {
+              "login": "nvnieuwk"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/starfusion/detect/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 746,
+            "title": "Replace `FASTQ_ALIGN_STAR` subworkflow with version from nf-core",
+            "state": "CLOSED",
+            "createdAt": "2025-08-13T18:46:09Z",
+            "mergedAt": null,
+            "author": {
+              "login": "delfiterradas"
+            },
+            "files": {
+              "nodes": []
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 735
+                }
+              ]
+            }
+          },
+          {
+            "number": 745,
+            "title": "Add nf-test for `vcf_collect`",
+            "state": "MERGED",
+            "createdAt": "2025-08-13T14:36:57Z",
+            "mergedAt": "2025-08-13T15:39:09Z",
+            "author": {
+              "login": "delfiterradas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules/local/vcf_collect/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/vcf_collect/tests/main.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 744,
+            "title": "Add nf-test for vcf_collect",
+            "state": "CLOSED",
+            "createdAt": "2025-08-12T22:04:07Z",
+            "mergedAt": null,
+            "author": {
+              "login": "delfiterradas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/vcf_collect/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/vcf_collect/tests/main.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 743,
+            "title": "Add test for `Fusioninspector_workflow`",
+            "state": "CLOSED",
+            "createdAt": "2025-08-12T21:26:00Z",
+            "mergedAt": null,
+            "author": {
+              "login": "delfiterradas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "bin/get_rrna_transcripts.py"
+                },
+                {
+                  "path": "bin/gtf2bed"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_build.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/arriba/visualisation/meta.yml"
+                },
+                {
+                  "path": "modules/local/arriba/visualisation/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/ctatsplicing/prepgenomelib/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/ctatsplicing/prepgenomelib/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/ctatsplicing/startocancerintrons/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/fusioninspector/main.nf"
+                },
+                {
+                  "path": "modules/local/fusioninspector/meta.yml"
+                },
+                {
+                  "path": "modules/local/fusioninspector/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/fusioninspector/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/local/get_rrna_transcript/environment.yml"
+                },
+                {
+                  "path": "modules/local/get_rrna_transcript/main.nf"
+                },
+                {
+                  "path": "modules/local/starfusion/detect/main.nf"
+                },
+                {
+                  "path": "modules/local/starfusion/detect/meta.yml"
+                },
+                {
+                  "path": "modules/local/starfusion/detect/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/starfusion/detect/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/vcf_collect/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/vcf_collect/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/arriba/visualisation/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/arriba/visualisation/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/arriba/visualisation/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/arriba/visualisation/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/arriba/visualisation/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/arriba/visualisation/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/bioawk/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bioawk/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bioawk/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bioawk/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bioawk/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bioawk/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/prepgenomelib/ctatsplicing-prepgenomelib.diff"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/prepgenomelib/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/prepgenomelib/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/prepgenomelib/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/prepgenomelib/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/startocancerintrons/ctatsplicing-startocancerintrons.diff"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/startocancerintrons/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/startocancerintrons/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/startocancerintrons/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/startocancerintrons/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/startocancerintrons/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/fusioninspector/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fusioninspector/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fusioninspector/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fusioninspector/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fusioninspector/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fusioninspector/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/starfusion/detect/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/starfusion/detect/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/starfusion/detect/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/starfusion/detect/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/starfusion/detect/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/starfusion/detect/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/build_references/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/fusioninspector_workflow/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/fusioninspector_workflow/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/fusioninspector_workflow/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/local/fusioninspector_workflow/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/csv/star.csv"
+                },
+                {
+                  "path": "tests/test_build.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub_bam.nf.test.snap"
+                },
+                {
+                  "path": "workflows/rnafusion.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 742,
+            "title": "Add nf-test for `vcf_collect` module",
+            "state": "CLOSED",
+            "createdAt": "2025-08-12T20:53:26Z",
+            "mergedAt": null,
+            "author": {
+              "login": "delfiterradas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/vcf_collect/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/vcf_collect/tests/main.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 741,
+            "title": "Update documentation for the release",
+            "state": "MERGED",
+            "createdAt": "2025-08-11T09:07:48Z",
+            "mergedAt": "2025-09-02T13:45:02Z",
+            "author": {
+              "login": "nvnieuwk"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 740,
+            "title": "Replace local modules for nf-core modules",
+            "state": "MERGED",
+            "createdAt": "2025-08-08T14:12:33Z",
+            "mergedAt": "2025-08-19T18:14:05Z",
+            "author": {
+              "login": "atrigila"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "bin/get_rrna_transcripts.py"
+                },
+                {
+                  "path": "bin/gtf2bed"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_build.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/arriba/visualisation/meta.yml"
+                },
+                {
+                  "path": "modules/local/arriba/visualisation/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/ctatsplicing/prepgenomelib/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/ctatsplicing/prepgenomelib/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/ctatsplicing/startocancerintrons/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/fusioninspector/main.nf"
+                },
+                {
+                  "path": "modules/local/fusioninspector/meta.yml"
+                },
+                {
+                  "path": "modules/local/fusioninspector/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/fusioninspector/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/local/get_rrna_transcript/environment.yml"
+                },
+                {
+                  "path": "modules/local/get_rrna_transcript/main.nf"
+                },
+                {
+                  "path": "modules/local/starfusion/detect/main.nf"
+                },
+                {
+                  "path": "modules/local/starfusion/detect/meta.yml"
+                },
+                {
+                  "path": "modules/local/starfusion/detect/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/starfusion/detect/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/arriba/visualisation/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/arriba/visualisation/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/arriba/visualisation/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/arriba/visualisation/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/arriba/visualisation/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/arriba/visualisation/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/bioawk/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bioawk/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bioawk/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bioawk/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bioawk/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bioawk/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/prepgenomelib/ctatsplicing-prepgenomelib.diff"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/prepgenomelib/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/prepgenomelib/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/prepgenomelib/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/prepgenomelib/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/startocancerintrons/ctatsplicing-startocancerintrons.diff"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/startocancerintrons/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/startocancerintrons/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/startocancerintrons/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/startocancerintrons/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/startocancerintrons/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/fusioninspector/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fusioninspector/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fusioninspector/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fusioninspector/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fusioninspector/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fusioninspector/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/starfusion/detect/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/starfusion/detect/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/starfusion/detect/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/starfusion/detect/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/starfusion/detect/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/starfusion/detect/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/build_references/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/fusioninspector_workflow.nf"
+                },
+                {
+                  "path": "tests/test_build.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub_bam.nf.test.snap"
+                },
+                {
+                  "path": "workflows/rnafusion.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 738,
+            "title": "Some small config fixes",
+            "state": "MERGED",
+            "createdAt": "2025-08-07T11:04:42Z",
+            "mergedAt": "2025-08-07T11:49:41Z",
+            "author": {
+              "login": "nvnieuwk"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": "conf/test_build.config"
+                },
+                {
+                  "path": "conf/test_cosmic.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 737,
+            "title": "remove usage of cosmic in tests",
+            "state": "MERGED",
+            "createdAt": "2025-08-07T10:57:26Z",
+            "mergedAt": "2025-08-07T12:02:49Z",
+            "author": {
+              "login": "rannick"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": "conf/test_cosmic.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 736,
+            "title": "Replace and fix `get_rrna_transcripts` for nf-core modules",
+            "state": "MERGED",
+            "createdAt": "2025-08-06T15:09:34Z",
+            "mergedAt": "2025-08-19T18:14:06Z",
+            "author": {
+              "login": "atrigila"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "bin/get_rrna_transcripts.py"
+                },
+                {
+                  "path": "bin/gtf2bed"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_build.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/get_rrna_transcript/environment.yml"
+                },
+                {
+                  "path": "modules/local/get_rrna_transcript/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertgff2bed/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/bioawk/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bioawk/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bioawk/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bioawk/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bioawk/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bioawk/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/build_references/main.nf"
+                },
+                {
+                  "path": "tests/test_build.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub_bam.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 734,
+            "title": "Add nf-test for `FASTQ_ALIGN_STAR` subworkflow",
+            "state": "MERGED",
+            "createdAt": "2025-08-04T18:10:02Z",
+            "mergedAt": "2025-08-06T16:01:05Z",
+            "author": {
+              "login": "delfiterradas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/test_build.config"
+                },
+                {
+                  "path": "modules/local/ctatsplicing/prepgenomelib/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/fusioninspector/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/starfusion/detect/tests/main.nf.test"
+                },
+                {
+                  "path": "tests/test_build.nf.test"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 733,
+            "title": "Update `test_build` to use reduced Pfam and Dfam files",
+            "state": "MERGED",
+            "createdAt": "2025-08-04T14:30:52Z",
+            "mergedAt": "2025-08-06T16:01:03Z",
+            "author": {
+              "login": "delfiterradas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/test_build.config"
+                },
+                {
+                  "path": "modules/local/ctatsplicing/prepgenomelib/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/fusioninspector/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/starfusion/detect/tests/main.nf.test"
+                },
+                {
+                  "path": "tests/test_build.nf.test"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 732
+                }
+              ]
+            }
+          },
+          {
+            "number": 726,
+            "title": "Fix vcf collect",
+            "state": "MERGED",
+            "createdAt": "2025-07-29T12:36:11Z",
+            "mergedAt": "2025-08-07T14:04:34Z",
+            "author": {
+              "login": "rannick"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "bin/vcf_collect.py"
+                },
+                {
+                  "path": "modules/local/vcf_collect/main.nf"
+                },
+                {
+                  "path": "tests/test_stub.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub_bam.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 725,
+            "title": "Add tests to `VCF_COLLECT` module",
+            "state": "CLOSED",
+            "createdAt": "2025-07-24T13:53:29Z",
+            "mergedAt": null,
+            "author": {
+              "login": "delfiterradas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/vcf_collect/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/vcf_collect/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nf-test.config"
+                },
+                {
+                  "path": "workflows/rnafusion.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 529
+                }
+              ]
+            }
+          },
+          {
+            "number": 723,
+            "title": "refact: remove unused subworkflows",
+            "state": "MERGED",
+            "createdAt": "2025-07-22T13:37:30Z",
+            "mergedAt": "2025-07-30T16:36:40Z",
+            "author": {
+              "login": "atrigila"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "subworkflows/local/ctatsplicing_workflow/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/fusionreport_workflow/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/fusionreport_workflow/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/fusionreport_workflow/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "tests/test_stub_bam.nf.test"
+                },
+                {
+                  "path": "workflows/rnafusion.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 722,
+            "title": "Add creation of missing output files to CTAT-SPLICING",
+            "state": "MERGED",
+            "createdAt": "2025-07-18T12:20:03Z",
+            "mergedAt": "2025-07-18T12:50:21Z",
+            "author": {
+              "login": "nvnieuwk"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules/local/ctatsplicing/startocancerintrons/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 721,
+            "title": "Add codeowners file",
+            "state": "MERGED",
+            "createdAt": "2025-07-17T16:53:53Z",
+            "mergedAt": "2025-07-17T18:35:43Z",
+            "author": {
+              "login": "atrigila"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/CODEOWNERS"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 720,
+            "title": "udpate modules",
+            "state": "CLOSED",
+            "createdAt": "2025-07-17T14:48:24Z",
+            "mergedAt": null,
+            "author": {
+              "login": "rannick"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/vcf_collect/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertspgff2tsv/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/agat/convertspgff2tsv/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/arriba/arriba/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/arriba/arriba/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/arriba/arriba/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/arriba/arriba/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/cat/fastq/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/prepgenomelib/ctatsplicing-prepgenomelib.diff"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/prepgenomelib/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/ctatsplicing/startocancerintrons/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastp/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastp/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/bedtointervallist/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/bedtointervallist/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/createsequencedictionary/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/createsequencedictionary/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/markduplicates/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gatk4/markduplicates/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gffread/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/picard/collectinsertsizemetrics/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/collectrnaseqmetrics/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/collectwgsmetrics/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/salmon/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/salmon/quant/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/convert/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/faidx/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/star/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/star/genomegenerate/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/starfusion/build/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/stringtie/merge/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/stringtie/stringtie/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/ucsc/gtftogenepred/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/build_references/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/fusioncatcher_workflow/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 719,
+            "title": "update doc",
+            "state": "MERGED",
+            "createdAt": "2025-07-17T14:37:41Z",
+            "mergedAt": "2025-09-03T09:18:44Z",
+            "author": {
+              "login": "rannick"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 631
+                }
+              ]
+            }
+          },
+          {
+            "number": 718,
+            "title": "update metro map",
+            "state": "MERGED",
+            "createdAt": "2025-07-17T14:22:54Z",
+            "mergedAt": "2025-07-30T12:05:04Z",
+            "author": {
+              "login": "rannick"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/images/nf-core-rnafusion_metro_map.png"
+                },
+                {
+                  "path": "docs/images/nf-core-rnafusion_metro_map.svg"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

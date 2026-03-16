@@ -1,0 +1,1075 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 41,
+            "title": "metamorph",
+            "state": "OPEN",
+            "createdAt": "2025-10-21T16:02:49Z",
+            "closedAt": null,
+            "author": {
+              "login": "skchronicles"
+            }
+          },
+          {
+            "number": 40,
+            "title": "create an option to run the main job on a norm node",
+            "state": "CLOSED",
+            "createdAt": "2025-08-21T19:04:09Z",
+            "closedAt": "2025-09-10T17:12:11Z",
+            "author": {
+              "login": "GaryZhangYue"
+            }
+          },
+          {
+            "number": 35,
+            "title": "Add option to pipeline to explicitly set/select the assembler",
+            "state": "CLOSED",
+            "createdAt": "2025-08-13T17:01:25Z",
+            "closedAt": "2025-09-10T17:12:01Z",
+            "author": {
+              "login": "skchronicles"
+            }
+          },
+          {
+            "number": 32,
+            "title": "docs: update run documentation, esp --triggers",
+            "state": "CLOSED",
+            "createdAt": "2025-05-27T15:57:51Z",
+            "closedAt": "2025-08-22T17:07:18Z",
+            "author": {
+              "login": "rroutsong"
+            }
+          },
+          {
+            "number": 29,
+            "title": "dRep rule parameterization ",
+            "state": "CLOSED",
+            "createdAt": "2024-08-19T15:37:15Z",
+            "closedAt": "2025-08-21T19:05:39Z",
+            "author": {
+              "login": "rroutsong"
+            }
+          },
+          {
+            "number": 25,
+            "title": "Add in command line option for choice of assemblers",
+            "state": "CLOSED",
+            "createdAt": "2024-07-18T18:05:35Z",
+            "closedAt": "2024-08-07T16:08:42Z",
+            "author": {
+              "login": "rroutsong"
+            }
+          },
+          {
+            "number": 24,
+            "title": "change dRep rule to derep across all samples together",
+            "state": "CLOSED",
+            "createdAt": "2024-07-18T15:37:18Z",
+            "closedAt": "2024-08-07T16:08:50Z",
+            "author": {
+              "login": "eameyer"
+            }
+          },
+          {
+            "number": 22,
+            "title": "Cumulative bin statistics rule not working",
+            "state": "CLOSED",
+            "createdAt": "2024-07-10T14:59:37Z",
+            "closedAt": "2024-08-07T16:34:46Z",
+            "author": {
+              "login": "rroutsong"
+            }
+          },
+          {
+            "number": 21,
+            "title": "CAT (contig anotation tool) not classifying correctly",
+            "state": "CLOSED",
+            "createdAt": "2024-07-09T16:47:26Z",
+            "closedAt": "2024-08-07T16:36:24Z",
+            "author": {
+              "login": "rroutsong"
+            }
+          },
+          {
+            "number": 20,
+            "title": "Add humann3 DNA rules",
+            "state": "CLOSED",
+            "createdAt": "2024-07-09T16:35:20Z",
+            "closedAt": "2025-08-21T19:05:25Z",
+            "author": {
+              "login": "rroutsong"
+            }
+          },
+          {
+            "number": 19,
+            "title": "Specify snakemake re-run triggers",
+            "state": "CLOSED",
+            "createdAt": "2024-06-14T15:54:24Z",
+            "closedAt": "2024-08-19T15:28:28Z",
+            "author": {
+              "login": "eameyer"
+            }
+          },
+          {
+            "number": 13,
+            "title": "Remove references to the --coa option from run sub command help message",
+            "state": "CLOSED",
+            "createdAt": "2024-02-28T20:08:23Z",
+            "closedAt": "2024-08-19T15:28:39Z",
+            "author": {
+              "login": "skchronicles"
+            }
+          },
+          {
+            "number": 12,
+            "title": "Allow for mouse host in host read removal",
+            "state": "OPEN",
+            "createdAt": "2024-02-27T21:03:59Z",
+            "closedAt": null,
+            "author": {
+              "login": "rroutsong"
+            }
+          },
+          {
+            "number": 9,
+            "title": "Allow for RNA co assembly portion of the pipeline",
+            "state": "CLOSED",
+            "createdAt": "2023-09-16T17:51:27Z",
+            "closedAt": "2024-06-20T17:00:24Z",
+            "author": {
+              "login": "rroutsong"
+            }
+          },
+          {
+            "number": 6,
+            "title": "Add in coassembly feature.",
+            "state": "CLOSED",
+            "createdAt": "2023-08-28T23:31:15Z",
+            "closedAt": "2024-02-27T20:55:12Z",
+            "author": {
+              "login": "rroutsong"
+            }
+          },
+          {
+            "number": 2,
+            "title": "Create a new entry point for pipeline",
+            "state": "CLOSED",
+            "createdAt": "2022-02-25T23:41:04Z",
+            "closedAt": "2022-02-25T23:41:51Z",
+            "author": {
+              "login": "skchronicles"
+            }
+          },
+          {
+            "number": 1,
+            "title": "Create basic scaffold for project",
+            "state": "CLOSED",
+            "createdAt": "2022-02-18T16:06:17Z",
+            "closedAt": "2022-02-18T16:51:11Z",
+            "author": {
+              "login": "skchronicles"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 39,
+            "title": "Fix: Updating regex to work with SRR/SRA indentifers.",
+            "state": "MERGED",
+            "createdAt": "2025-08-18T19:36:03Z",
+            "mergedAt": "2025-08-18T19:43:42Z",
+            "author": {
+              "login": "skchronicles"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/run.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 38,
+            "title": "fix: check rna_included for rna endpoints, backup check at rna rules",
+            "state": "MERGED",
+            "createdAt": "2025-08-18T16:02:06Z",
+            "mergedAt": "2025-08-18T18:31:45Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/DNA.smk"
+                },
+                {
+                  "path": "workflow/rules/RNA.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 37,
+            "title": "csv bug fix",
+            "state": "MERGED",
+            "createdAt": "2025-08-14T14:38:57Z",
+            "mergedAt": "2025-08-14T15:57:10Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/DNA.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 36,
+            "title": "Read-based analysis mode with combined and assembly modes",
+            "state": "MERGED",
+            "createdAt": "2025-08-13T19:45:50Z",
+            "mergedAt": "2025-08-13T21:19:21Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/cluster.json"
+                },
+                {
+                  "path": "config/images.json"
+                },
+                {
+                  "path": "config/resources.json"
+                },
+                {
+                  "path": "docker/bowtie/bowtie2.docker"
+                },
+                {
+                  "path": "docker/bowtie/samtools-1.17.tar.bz2"
+                },
+                {
+                  "path": "metamorph"
+                },
+                {
+                  "path": "src/run.py"
+                },
+                {
+                  "path": "src/run.sh"
+                },
+                {
+                  "path": "src/utils.py"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/DNA.smk"
+                },
+                {
+                  "path": "workflow/rules/RNA.smk"
+                },
+                {
+                  "path": "workflow/scripts/common.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 34,
+            "title": "feat: --triggers documentation",
+            "state": "MERGED",
+            "createdAt": "2025-05-30T20:54:15Z",
+            "mergedAt": "2025-06-04T17:54:35Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/usage/run.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 33,
+            "title": "Rna runs on dna",
+            "state": "MERGED",
+            "createdAt": "2025-05-30T20:49:37Z",
+            "mergedAt": "2025-06-04T17:55:22Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 31,
+            "title": "Samplesheet docs",
+            "state": "MERGED",
+            "createdAt": "2025-05-16T16:44:01Z",
+            "mergedAt": "2025-05-27T20:54:00Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": "config/cluster.json"
+                },
+                {
+                  "path": "config/images.json"
+                },
+                {
+                  "path": "docs/usage/run.md"
+                },
+                {
+                  "path": "metamorph"
+                },
+                {
+                  "path": "workflow/rules/DNA.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 30,
+            "title": "Humann profiling",
+            "state": "MERGED",
+            "createdAt": "2024-08-22T17:40:04Z",
+            "mergedAt": "2024-10-25T19:25:27Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/cluster.json"
+                },
+                {
+                  "path": "config/resources.json"
+                },
+                {
+                  "path": "docker/metawrap/Dockerfile"
+                },
+                {
+                  "path": "metamorph"
+                },
+                {
+                  "path": "workflow/rules/DNA.smk"
+                },
+                {
+                  "path": "workflow/rules/RNA.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 28,
+            "title": "fix: quoting for default trigger value",
+            "state": "MERGED",
+            "createdAt": "2024-08-13T20:10:17Z",
+            "mergedAt": "2024-08-13T20:20:14Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/run.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 27,
+            "title": "feat: add flag to set snakemake rerun triggers",
+            "state": "MERGED",
+            "createdAt": "2024-08-09T15:04:28Z",
+            "mergedAt": "2024-08-12T17:12:19Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "metamorph"
+                },
+                {
+                  "path": "src/run.py"
+                },
+                {
+                  "path": "src/run.sh"
+                },
+                {
+                  "path": "src/utils.py"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/DNA.smk"
+                },
+                {
+                  "path": "workflow/rules/RNA.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 26,
+            "title": "Fix drep add assembler flag",
+            "state": "MERGED",
+            "createdAt": "2024-07-30T14:15:35Z",
+            "mergedAt": "2024-07-30T19:28:17Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "metamorph"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/DNA.smk"
+                },
+                {
+                  "path": "workflow/scripts/common.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 23,
+            "title": "Update assembly resources",
+            "state": "MERGED",
+            "createdAt": "2024-07-17T17:31:11Z",
+            "mergedAt": "2024-07-18T19:47:13Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".tests/test_cohort_DNAonly.txt"
+                },
+                {
+                  "path": ".tests/test_cohort_DNAonly_RNAcolexists.txt"
+                },
+                {
+                  "path": "config/cluster.json"
+                },
+                {
+                  "path": "config/images.json"
+                },
+                {
+                  "path": "config/resources.json"
+                },
+                {
+                  "path": "docker/metawrap/Dockerfile"
+                },
+                {
+                  "path": "metamorph"
+                },
+                {
+                  "path": "src/run.py"
+                },
+                {
+                  "path": "src/run.sh"
+                },
+                {
+                  "path": "src/utils.py"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/DNA.smk"
+                },
+                {
+                  "path": "workflow/rules/RNA.smk"
+                },
+                {
+                  "path": "workflow/scripts/common.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 18,
+            "title": "Update spades",
+            "state": "MERGED",
+            "createdAt": "2024-05-29T19:55:44Z",
+            "mergedAt": "2024-06-05T16:25:40Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docker/metawrap/Dockerfile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 17,
+            "title": "Debug assembly step",
+            "state": "MERGED",
+            "createdAt": "2024-05-13T15:55:29Z",
+            "mergedAt": "2024-05-13T17:27:18Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/cluster.json"
+                },
+                {
+                  "path": "src/run.sh"
+                },
+                {
+                  "path": "workflow/rules/DNA.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 16,
+            "title": "Finish rna pipeline",
+            "state": "MERGED",
+            "createdAt": "2024-04-15T14:57:12Z",
+            "mergedAt": "2024-04-15T18:01:47Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".tests/test_cohort.txt"
+                },
+                {
+                  "path": "config/cluster.json"
+                },
+                {
+                  "path": "config/images.json"
+                },
+                {
+                  "path": "config/resources.json"
+                },
+                {
+                  "path": "docker/metawrap/Dockerfile"
+                },
+                {
+                  "path": "docker/metawrap/biobakery.yaml"
+                },
+                {
+                  "path": "metamorph"
+                },
+                {
+                  "path": "src/run.py"
+                },
+                {
+                  "path": "src/utils.py"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/DNA.smk"
+                },
+                {
+                  "path": "workflow/rules/RNA.smk"
+                },
+                {
+                  "path": "workflow/scripts/common.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 15,
+            "title": "Add biobakery docker",
+            "state": "MERGED",
+            "createdAt": "2024-03-21T15:15:55Z",
+            "mergedAt": "2024-03-21T20:15:52Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docker/metawrap/Dockerfile"
+                },
+                {
+                  "path": "docker/metawrap/biobakery.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 14,
+            "title": "Mags and after rules",
+            "state": "MERGED",
+            "createdAt": "2024-03-20T16:31:15Z",
+            "mergedAt": "2024-03-21T14:25:14Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/cluster.json"
+                },
+                {
+                  "path": "config/images.json"
+                },
+                {
+                  "path": "config/resources.json"
+                },
+                {
+                  "path": "docker/assets/base.yaml"
+                },
+                {
+                  "path": "docker/metagenome/Dockerfile"
+                },
+                {
+                  "path": "docker/metawrap/Dockerfile"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/DNA.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 11,
+            "title": "Add rna inputs workflow",
+            "state": "MERGED",
+            "createdAt": "2024-02-27T21:00:44Z",
+            "mergedAt": "2024-02-28T19:33:18Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/cluster.json"
+                },
+                {
+                  "path": "config/images.json"
+                },
+                {
+                  "path": "config/resources.json"
+                },
+                {
+                  "path": "docker/Dockerfile"
+                },
+                {
+                  "path": "docker/metawrap/Dockerfile"
+                },
+                {
+                  "path": "docker/metawrap/config-metawrap"
+                },
+                {
+                  "path": "docker/metawrap/docker_1.3.0"
+                },
+                {
+                  "path": "docker/metawrap/docker_1.3.2"
+                },
+                {
+                  "path": "docker/metawrap/mw"
+                },
+                {
+                  "path": "docs/requirements.txt"
+                },
+                {
+                  "path": "metamorph"
+                },
+                {
+                  "path": "src/run.py"
+                },
+                {
+                  "path": "src/run.sh"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/coa/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/DNA.smk"
+                },
+                {
+                  "path": "workflow/rules/RNA.smk"
+                },
+                {
+                  "path": "workflow/rules/hooks.smk"
+                },
+                {
+                  "path": "workflow/rules/metawrap.smk"
+                },
+                {
+                  "path": "workflow/scripts/common.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 10,
+            "title": "Consolidate and derep bins",
+            "state": "MERGED",
+            "createdAt": "2024-01-19T15:36:42Z",
+            "mergedAt": "2024-01-19T20:02:38Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yaml"
+                },
+                {
+                  "path": ".tests/WT_S1_R1.fastq.gz"
+                },
+                {
+                  "path": ".tests/WT_S1_R2.fastq.gz"
+                },
+                {
+                  "path": ".tests/WT_S3_R1.fastq.gz"
+                },
+                {
+                  "path": ".tests/WT_S3_R2.fastq.gz"
+                },
+                {
+                  "path": ".tests/WT_S4_R1.fastq.gz"
+                },
+                {
+                  "path": ".tests/WT_S4_R2.fastq.gz"
+                },
+                {
+                  "path": "config/cluster.json"
+                },
+                {
+                  "path": "config/images.json"
+                },
+                {
+                  "path": "docker/metawrap/docker_1.3.2"
+                },
+                {
+                  "path": "docker/metawrap/ep.sh"
+                },
+                {
+                  "path": "metamorph"
+                },
+                {
+                  "path": "src/run.py"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/coa/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/metawrap.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 8,
+            "title": "Adding metawrap workflow up to bin refinement",
+            "state": "MERGED",
+            "createdAt": "2023-09-16T00:58:42Z",
+            "mergedAt": "2023-09-16T15:12:17Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/cluster.json"
+                },
+                {
+                  "path": "config/images.json"
+                },
+                {
+                  "path": "config/resources.json"
+                },
+                {
+                  "path": "src/run.py"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/metawrap.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 7,
+            "title": "Metawrap 1.3.2 + singularity",
+            "state": "MERGED",
+            "createdAt": "2023-08-31T16:16:44Z",
+            "mergedAt": "2023-08-31T18:17:42Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/genome.json"
+                },
+                {
+                  "path": "config/resources.json"
+                },
+                {
+                  "path": "docker/metawrap/config-metawrap_1.3.2"
+                },
+                {
+                  "path": "docker/metawrap/docker_1.3.0"
+                },
+                {
+                  "path": "docker/metawrap/docker_1.3.2"
+                },
+                {
+                  "path": "docker/metawrap/ep.sh"
+                },
+                {
+                  "path": "src/run.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 5,
+            "title": "Metawrap workflow through genome assembly (per-sample)",
+            "state": "MERGED",
+            "createdAt": "2023-08-28T22:26:24Z",
+            "mergedAt": "2023-08-28T23:05:22Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "config/cluster.json"
+                },
+                {
+                  "path": "config/containers.json"
+                },
+                {
+                  "path": "config/genome.json"
+                },
+                {
+                  "path": "config/images.json"
+                },
+                {
+                  "path": "docker/Dockerfile"
+                },
+                {
+                  "path": "docker/metagenome/Dockerfile"
+                },
+                {
+                  "path": "docker/metawrap/Dockerfile"
+                },
+                {
+                  "path": "docker/metawrap/config-metawrap"
+                },
+                {
+                  "path": "src/run.py"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/hooks.smk"
+                },
+                {
+                  "path": "workflow/rules/metawrap.smk"
+                },
+                {
+                  "path": "workflow/scripts/collapse_lanes.py"
+                },
+                {
+                  "path": "workflow/scripts/common.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4,
+            "title": "Install metawrap",
+            "state": "MERGED",
+            "createdAt": "2023-08-16T00:59:20Z",
+            "mergedAt": "2023-08-16T13:13:42Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docker/Dockerfile"
+                },
+                {
+                  "path": "docker/assets/base.yaml"
+                },
+                {
+                  "path": "docker/assets/metawrap.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3,
+            "title": "Build dockerfile and components for containerized workflow",
+            "state": "MERGED",
+            "createdAt": "2023-08-07T18:08:35Z",
+            "mergedAt": "2023-08-07T21:26:29Z",
+            "author": {
+              "login": "rroutsong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "docker/Dockerfile"
+                },
+                {
+                  "path": "docker/README.md"
+                },
+                {
+                  "path": "docker/assets/base.yaml"
+                },
+                {
+                  "path": "docker/assets/metawrap.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

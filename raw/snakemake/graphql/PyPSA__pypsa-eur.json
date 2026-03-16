@@ -1,0 +1,2010 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 2117,
+            "title": "CO2 sequestration potentials may be double (triple?) counted for some storage units/traps",
+            "state": "OPEN",
+            "createdAt": "2026-03-08T18:04:42Z",
+            "closedAt": null,
+            "author": {
+              "login": "irm-codebase"
+            }
+          },
+          {
+            "number": 2112,
+            "title": "`build_renewable_profiles` crashes for offshore buses missing from clustered regions",
+            "state": "OPEN",
+            "createdAt": "2026-03-04T12:29:05Z",
+            "closedAt": null,
+            "author": {
+              "login": "MarcoAnarmo"
+            }
+          },
+          {
+            "number": 2111,
+            "title": "`determine_availability_matrix_MD_UA` crashes when `corine: false`",
+            "state": "OPEN",
+            "createdAt": "2026-03-04T12:24:53Z",
+            "closedAt": null,
+            "author": {
+              "login": "MarcoAnarmo"
+            }
+          },
+          {
+            "number": 2108,
+            "title": "Missing heat dsm entry in tech_colors causes KeyError in plot_summary.py",
+            "state": "OPEN",
+            "createdAt": "2026-02-27T04:47:46Z",
+            "closedAt": null,
+            "author": {
+              "login": "lprieto1409"
+            }
+          },
+          {
+            "number": 2104,
+            "title": "`make_global_summaries` not compatible with scenario management",
+            "state": "OPEN",
+            "createdAt": "2026-02-26T11:25:04Z",
+            "closedAt": null,
+            "author": {
+              "login": "euronion"
+            }
+          },
+          {
+            "number": 2101,
+            "title": "Configuration option `inclusive` for `snapshots` is confusing",
+            "state": "OPEN",
+            "createdAt": "2026-02-26T08:58:21Z",
+            "closedAt": null,
+            "author": {
+              "login": "euronion"
+            }
+          },
+          {
+            "number": 2100,
+            "title": "Problems with scenario management certain keys are not defined in an overwrite config",
+            "state": "OPEN",
+            "createdAt": "2026-02-25T12:44:20Z",
+            "closedAt": null,
+            "author": {
+              "login": "euronion"
+            }
+          },
+          {
+            "number": 2096,
+            "title": "Existing power plants built before 1920 raise an error in add_existing_baseyear",
+            "state": "CLOSED",
+            "createdAt": "2026-02-24T11:25:26Z",
+            "closedAt": "2026-02-24T15:23:59Z",
+            "author": {
+              "login": "tgilon"
+            }
+          },
+          {
+            "number": 2092,
+            "title": "Electricity-Only example fails to complete clustering with HiGHs and SCIP (\"Solver scip does not support quadratic problems\").",
+            "state": "OPEN",
+            "createdAt": "2026-02-24T09:43:47Z",
+            "closedAt": null,
+            "author": {
+              "login": "ZilentKnight"
+            }
+          },
+          {
+            "number": 2090,
+            "title": "Cannot define an OSM pre-built data version that isn't also a float",
+            "state": "OPEN",
+            "createdAt": "2026-02-20T13:08:21Z",
+            "closedAt": null,
+            "author": {
+              "login": "brynpickering"
+            }
+          },
+          {
+            "number": 2059,
+            "title": "Update docs to markdown + mkdocs",
+            "state": "OPEN",
+            "createdAt": "2026-02-13T08:55:49Z",
+            "closedAt": null,
+            "author": {
+              "login": "brynpickering"
+            }
+          },
+          {
+            "number": 2058,
+            "title": "Versioning of `pydeflate` data",
+            "state": "OPEN",
+            "createdAt": "2026-02-13T08:50:43Z",
+            "closedAt": null,
+            "author": {
+              "login": "euronion"
+            }
+          },
+          {
+            "number": 2048,
+            "title": "Download only compressed files",
+            "state": "OPEN",
+            "createdAt": "2026-02-11T10:53:23Z",
+            "closedAt": null,
+            "author": {
+              "login": "gincrement"
+            }
+          },
+          {
+            "number": 2045,
+            "title": "Network clustering incorrectly preferring lines over links",
+            "state": "OPEN",
+            "createdAt": "2026-02-10T16:12:24Z",
+            "closedAt": null,
+            "author": {
+              "login": "brynpickering"
+            }
+          },
+          {
+            "number": 2039,
+            "title": "Little to no offshore wind potential in Germany",
+            "state": "CLOSED",
+            "createdAt": "2026-02-05T12:41:01Z",
+            "closedAt": "2026-02-18T13:37:32Z",
+            "author": {
+              "login": "jonasandresn"
+            }
+          },
+          {
+            "number": 2038,
+            "title": "Infeasible dispatch in Corsica at NUTS-2 level",
+            "state": "OPEN",
+            "createdAt": "2026-02-04T18:01:44Z",
+            "closedAt": null,
+            "author": {
+              "login": "gcost909"
+            }
+          },
+          {
+            "number": 2032,
+            "title": "WDPA missing from data inventory",
+            "state": "OPEN",
+            "createdAt": "2026-02-03T10:25:18Z",
+            "closedAt": null,
+            "author": {
+              "login": "euronion"
+            }
+          },
+          {
+            "number": 2028,
+            "title": "License information missing for new config / REUSE compliance",
+            "state": "OPEN",
+            "createdAt": "2026-02-02T12:37:55Z",
+            "closedAt": null,
+            "author": {
+              "login": "euronion"
+            }
+          },
+          {
+            "number": 2027,
+            "title": "use snakemake [`branch`](https://snakemake.readthedocs.io/en/stable/snakefiles/rules.html#the-branch-function)",
+            "state": "OPEN",
+            "createdAt": "2026-02-02T09:13:16Z",
+            "closedAt": null,
+            "author": {
+              "login": "fneum"
+            }
+          },
+          {
+            "number": 2025,
+            "title": "CO2 emissions of methanol are not uniquely parametrized",
+            "state": "CLOSED",
+            "createdAt": "2026-01-30T16:00:45Z",
+            "closedAt": "2026-02-16T14:28:53Z",
+            "author": {
+              "login": "lindnemi"
+            }
+          },
+          {
+            "number": 2019,
+            "title": "Latest default config is leading to zero land availability for `offwind-dc`",
+            "state": "CLOSED",
+            "createdAt": "2026-01-28T18:11:59Z",
+            "closedAt": "2026-01-28T19:52:30Z",
+            "author": {
+              "login": "brynpickering"
+            }
+          },
+          {
+            "number": 2018,
+            "title": "Use pixi `run-post-link-scripts=insecure`",
+            "state": "CLOSED",
+            "createdAt": "2026-01-28T17:06:32Z",
+            "closedAt": "2026-02-18T12:30:08Z",
+            "author": {
+              "login": "brynpickering"
+            }
+          },
+          {
+            "number": 2017,
+            "title": "Bug: build_hourly_heat_demand fails with pandas ≥ 2.2 due to duplicate freq argument in pd.date_range",
+            "state": "CLOSED",
+            "createdAt": "2026-01-28T16:01:50Z",
+            "closedAt": "2026-01-30T08:54:14Z",
+            "author": {
+              "login": "SebastianGajardo98"
+            }
+          },
+          {
+            "number": 2016,
+            "title": "Make `data/versions.csv` easily extendable with a configurable option",
+            "state": "OPEN",
+            "createdAt": "2026-01-28T09:33:07Z",
+            "closedAt": null,
+            "author": {
+              "login": "euronion"
+            }
+          },
+          {
+            "number": 2015,
+            "title": "ValueError when retrieving bidding_zones_entsoepy from archive",
+            "state": "CLOSED",
+            "createdAt": "2026-01-28T08:41:32Z",
+            "closedAt": "2026-01-28T13:01:56Z",
+            "author": {
+              "login": "tgilon"
+            }
+          },
+          {
+            "number": 2014,
+            "title": "Make pydantic model easily extendable with a configurable plugin option",
+            "state": "CLOSED",
+            "createdAt": "2026-01-27T18:32:40Z",
+            "closedAt": "2026-02-17T10:01:44Z",
+            "author": {
+              "login": "brynpickering"
+            }
+          },
+          {
+            "number": 2005,
+            "title": "Retrieving WDPA from primary does not work (on Windows ?)",
+            "state": "CLOSED",
+            "createdAt": "2026-01-23T16:53:56Z",
+            "closedAt": "2026-01-26T15:59:25Z",
+            "author": {
+              "login": "Eric-Nitschke"
+            }
+          },
+          {
+            "number": 2004,
+            "title": "Retrieving WDPA from archive does not work on Windows",
+            "state": "CLOSED",
+            "createdAt": "2026-01-23T16:25:49Z",
+            "closedAt": "2026-01-26T17:49:10Z",
+            "author": {
+              "login": "Eric-Nitschke"
+            }
+          },
+          {
+            "number": 2003,
+            "title": "snakemake not working due to mandatory SLURM import on Windows",
+            "state": "CLOSED",
+            "createdAt": "2026-01-23T15:47:08Z",
+            "closedAt": "2026-01-26T10:25:41Z",
+            "author": {
+              "login": "Eric-Nitschke"
+            }
+          },
+          {
+            "number": 1999,
+            "title": "Error on World_EEZ_v12_20231025_LR.zip extraction when building country_shapes.geojson",
+            "state": "CLOSED",
+            "createdAt": "2026-01-23T09:58:21Z",
+            "closedAt": "2026-01-23T11:14:26Z",
+            "author": {
+              "login": "SebastianGajardo98"
+            }
+          },
+          {
+            "number": 1981,
+            "title": "Snakemake 9.14.6 breaks mock_snakemake",
+            "state": "CLOSED",
+            "createdAt": "2026-01-15T19:44:29Z",
+            "closedAt": "2026-01-29T21:29:33Z",
+            "author": {
+              "login": "coroa"
+            }
+          },
+          {
+            "number": 1978,
+            "title": "Update eurostat energy balances",
+            "state": "CLOSED",
+            "createdAt": "2026-01-15T13:43:10Z",
+            "closedAt": "2026-02-11T12:19:35Z",
+            "author": {
+              "login": "fneum"
+            }
+          },
+          {
+            "number": 1972,
+            "title": "Update to JRC-IDEES-2023",
+            "state": "CLOSED",
+            "createdAt": "2026-01-14T13:56:33Z",
+            "closedAt": "2026-02-11T16:47:32Z",
+            "author": {
+              "login": "lindnemi"
+            }
+          },
+          {
+            "number": 1970,
+            "title": "Prebuilt Electricity Network for PyPSA-Eur - Where to find most recent/accurate?",
+            "state": "OPEN",
+            "createdAt": "2026-01-13T12:53:22Z",
+            "closedAt": null,
+            "author": {
+              "login": "MaykThewessen"
+            }
+          },
+          {
+            "number": 1969,
+            "title": "Add cutouts for 2024 & 2025 to Zenodo bundle",
+            "state": "CLOSED",
+            "createdAt": "2026-01-13T12:13:55Z",
+            "closedAt": "2026-01-21T17:27:16Z",
+            "author": {
+              "login": "MaykThewessen"
+            }
+          },
+          {
+            "number": 1968,
+            "title": "Improve rooftop PV potentials using JRC DBSM",
+            "state": "OPEN",
+            "createdAt": "2026-01-12T17:39:43Z",
+            "closedAt": null,
+            "author": {
+              "login": "fneum"
+            }
+          },
+          {
+            "number": 1966,
+            "title": "Running pypsa-eur as Snakemake module",
+            "state": "CLOSED",
+            "createdAt": "2026-01-12T16:46:35Z",
+            "closedAt": "2026-01-14T17:05:14Z",
+            "author": {
+              "login": "jonathan-peel"
+            }
+          },
+          {
+            "number": 1964,
+            "title": "cplex issue sector_model pypsa 1.0.6",
+            "state": "OPEN",
+            "createdAt": "2026-01-09T16:31:53Z",
+            "closedAt": null,
+            "author": {
+              "login": "vuillaume"
+            }
+          },
+          {
+            "number": 1962,
+            "title": "FileNotFoundError when using pypsa-eur as a snakemake module",
+            "state": "CLOSED",
+            "createdAt": "2026-01-09T15:15:43Z",
+            "closedAt": "2026-01-12T08:37:06Z",
+            "author": {
+              "login": "jonathan-peel"
+            }
+          },
+          {
+            "number": 1952,
+            "title": "Integrate GEM Global Chemicals Inventory",
+            "state": "OPEN",
+            "createdAt": "2025-12-29T15:00:18Z",
+            "closedAt": null,
+            "author": {
+              "login": "fneum"
+            }
+          },
+          {
+            "number": 1949,
+            "title": "transmission_losses underestimated, especially if using `vopt`",
+            "state": "OPEN",
+            "createdAt": "2025-12-17T14:47:13Z",
+            "closedAt": null,
+            "author": {
+              "login": "lindnemi"
+            }
+          },
+          {
+            "number": 1931,
+            "title": "Population count windows compatibility",
+            "state": "OPEN",
+            "createdAt": "2025-12-01T18:54:30Z",
+            "closedAt": null,
+            "author": {
+              "login": "fneum"
+            }
+          },
+          {
+            "number": 1930,
+            "title": "Handle new datasets with new data layer",
+            "state": "OPEN",
+            "createdAt": "2025-12-01T18:36:08Z",
+            "closedAt": null,
+            "author": {
+              "login": "fneum"
+            }
+          },
+          {
+            "number": 1928,
+            "title": "ValueError when time_dep_hp_cop: false and heating: true",
+            "state": "CLOSED",
+            "createdAt": "2025-12-01T14:15:26Z",
+            "closedAt": "2025-12-01T15:39:05Z",
+            "author": {
+              "login": "jonathan-peel"
+            }
+          },
+          {
+            "number": 1922,
+            "title": "cost assignment(s) might not update in myopic optimisation",
+            "state": "OPEN",
+            "createdAt": "2025-11-24T20:31:13Z",
+            "closedAt": null,
+            "author": {
+              "login": "martacki"
+            }
+          },
+          {
+            "number": 1917,
+            "title": "Allow incremental transmission expansion in the myopic optimisation",
+            "state": "OPEN",
+            "createdAt": "2025-11-21T13:19:01Z",
+            "closedAt": null,
+            "author": {
+              "login": "martacki"
+            }
+          },
+          {
+            "number": 1915,
+            "title": "CI: Test mutli-year support",
+            "state": "OPEN",
+            "createdAt": "2025-11-21T10:40:52Z",
+            "closedAt": null,
+            "author": {
+              "login": "euronion"
+            }
+          },
+          {
+            "number": 1910,
+            "title": "Using heat as bus0 of heat pumps messes with pypsa.statistic.optimal_capacity()",
+            "state": "OPEN",
+            "createdAt": "2025-11-19T12:19:40Z",
+            "closedAt": null,
+            "author": {
+              "login": "vla-climact"
+            }
+          },
+          {
+            "number": 1907,
+            "title": "Load shedding incorrect implementation",
+            "state": "CLOSED",
+            "createdAt": "2025-11-18T12:58:00Z",
+            "closedAt": "2025-11-30T11:07:06Z",
+            "author": {
+              "login": "jonathan-peel"
+            }
+          },
+          {
+            "number": 1906,
+            "title": "fork() being used for multiprocessing crashes solving process with cplex",
+            "state": "OPEN",
+            "createdAt": "2025-11-18T08:28:09Z",
+            "closedAt": null,
+            "author": {
+              "login": "thomgeo"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 2118,
+            "title": "doc: update the PR template",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T13:13:09Z",
+            "mergedAt": null,
+            "author": {
+              "login": "tgilon"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/pull_request_template.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2116,
+            "title": "Update installation.rst",
+            "state": "MERGED",
+            "createdAt": "2026-03-06T14:07:45Z",
+            "mergedAt": "2026-03-06T18:34:17Z",
+            "author": {
+              "login": "jack-gregory"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/installation.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2115,
+            "title": "fix: clamp s/p_nom_max in brownfield to prevent floating-point infeasibility",
+            "state": "OPEN",
+            "createdAt": "2026-03-06T09:03:20Z",
+            "mergedAt": null,
+            "author": {
+              "login": "thogin"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "scripts/add_brownfield.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2114,
+            "title": "chore(deps): bump docker/login-action from 3 to 4 in the github-actions group",
+            "state": "MERGED",
+            "createdAt": "2026-03-04T18:34:28Z",
+            "mergedAt": "2026-03-06T07:36:52Z",
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/push-images.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2113,
+            "title": "Fix corine bool and offshore keyerror",
+            "state": "OPEN",
+            "createdAt": "2026-03-04T12:52:35Z",
+            "mergedAt": null,
+            "author": {
+              "login": "MarcoAnarmo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "scripts/build_renewable_profiles.py"
+                },
+                {
+                  "path": "scripts/determine_availability_matrix_MD_UA.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 2111
+                }
+              ]
+            }
+          },
+          {
+            "number": 2110,
+            "title": "[github-actions.ci] Update locked envs",
+            "state": "MERGED",
+            "createdAt": "2026-03-01T08:24:43Z",
+            "mergedAt": "2026-03-02T07:49:26Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "envs/default_linux-64.pin.txt"
+                },
+                {
+                  "path": "envs/default_osx-64.pin.txt"
+                },
+                {
+                  "path": "envs/default_osx-arm64.pin.txt"
+                },
+                {
+                  "path": "envs/default_win-64.pin.txt"
+                },
+                {
+                  "path": "pixi.lock"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2109,
+            "title": "Industry transport fixed",
+            "state": "OPEN",
+            "createdAt": "2026-03-01T06:16:55Z",
+            "mergedAt": null,
+            "author": {
+              "login": "AbiAfthab"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "DSR_Impact_Analysis.ipynb"
+                },
+                {
+                  "path": "DSR_V3_README.md"
+                },
+                {
+                  "path": "PyPSA_Eurelectric_plot_helper.ipynb"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "V3_VERIFICATION.md"
+                },
+                {
+                  "path": "config/Dunkel_test.yaml"
+                },
+                {
+                  "path": "config/config.default.yaml"
+                },
+                {
+                  "path": "config/examples/config.industry.dsr.technology.yaml"
+                },
+                {
+                  "path": "config/plotting.default.yaml"
+                },
+                {
+                  "path": "config/run_2026-02/config.flex-2030.yaml"
+                },
+                {
+                  "path": "config/run_2026-02/config.flex-2040.yaml"
+                },
+                {
+                  "path": "config/run_2026-02/config.flex-2050.yaml"
+                },
+                {
+                  "path": "config/run_2026-02/config.flexibility-study.yaml"
+                },
+                {
+                  "path": "config/run_2026-02/scenarios.yaml"
+                },
+                {
+                  "path": "config/scenarios/config.baseline_no_flex.yaml"
+                },
+                {
+                  "path": "config/test/Dunkel_test.yaml"
+                },
+                {
+                  "path": "config/test/config.dsr_v3_renewable.yaml"
+                },
+                {
+                  "path": "config/test/config.dsr_v3_test.yaml"
+                },
+                {
+                  "path": "config/test/config.electricity_abi.yaml"
+                },
+                {
+                  "path": "config/test/config.eu_38_2030_base.yaml"
+                },
+                {
+                  "path": "config/test/config.industry.flex.yaml"
+                },
+                {
+                  "path": "config/test/config.no_dsr_renewable.yaml"
+                },
+                {
+                  "path": "config/test/config.temporal_no_dsr.yaml"
+                },
+                {
+                  "path": "config/transport/config.test_transport.yaml"
+                },
+                {
+                  "path": "data/eia_hydro_annual_generation.csv"
+                },
+                {
+                  "path": "doc/configtables/industry.csv"
+                },
+                {
+                  "path": "doc/release_notes.rst"
+                },
+                {
+                  "path": "rules/build_sector.smk"
+                },
+                {
+                  "path": "rules/retrieve.smk"
+                },
+                {
+                  "path": "scripts/build_energy_totals.py"
+                },
+                {
+                  "path": "scripts/build_gas_input_locations.py"
+                },
+                {
+                  "path": "scripts/build_gas_network.py"
+                },
+                {
+                  "path": "scripts/build_industrial_energy_demand_per_node.py"
+                },
+                {
+                  "path": "scripts/build_industry_dsr_profile.py"
+                },
+                {
+                  "path": "scripts/build_transport_demand.py"
+                },
+                {
+                  "path": "scripts/prepare_sector_network.py"
+                },
+                {
+                  "path": "scripts/solve_network.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2107,
+            "title": "Bugfix in solve_network.py",
+            "state": "OPEN",
+            "createdAt": "2026-02-26T18:37:14Z",
+            "mergedAt": null,
+            "author": {
+              "login": "toniseibold"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "scripts/solve_network.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2106,
+            "title": "chore(deps): bump actions/upload-artifact from 6 to 7 in the github-actions group",
+            "state": "MERGED",
+            "createdAt": "2026-02-26T18:34:39Z",
+            "mergedAt": "2026-03-02T07:52:18Z",
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/test.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2105,
+            "title": "feat: improve load shedding with carrier specific options and load sinks",
+            "state": "OPEN",
+            "createdAt": "2026-02-26T15:48:58Z",
+            "mergedAt": null,
+            "author": {
+              "login": "daniel-rdt"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.default.yaml"
+                },
+                {
+                  "path": "config/examples/config.validation.yaml"
+                },
+                {
+                  "path": "config/schema.default.json"
+                },
+                {
+                  "path": "doc/release_notes.rst"
+                },
+                {
+                  "path": "scripts/lib/validation/config/solving.py"
+                },
+                {
+                  "path": "scripts/solve_network.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2103,
+            "title": "Update industry reference year to 2023",
+            "state": "MERGED",
+            "createdAt": "2026-02-26T10:27:18Z",
+            "mergedAt": "2026-02-27T10:12:42Z",
+            "author": {
+              "login": "lindnemi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.default.yaml"
+                },
+                {
+                  "path": "config/schema.default.json"
+                },
+                {
+                  "path": "data/versions.csv"
+                },
+                {
+                  "path": "doc/release_notes.rst"
+                },
+                {
+                  "path": "scripts/build_ammonia_production.py"
+                },
+                {
+                  "path": "scripts/lib/validation/config/industry.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2102,
+            "title": "fix: validator config",
+            "state": "MERGED",
+            "createdAt": "2026-02-26T09:05:27Z",
+            "mergedAt": "2026-02-26T10:48:16Z",
+            "author": {
+              "login": "lkstrp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/test/config.validator.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2099,
+            "title": "feat: setup pypsa-bot github app",
+            "state": "MERGED",
+            "createdAt": "2026-02-25T11:35:59Z",
+            "mergedAt": "2026-02-25T14:33:27Z",
+            "author": {
+              "login": "lkstrp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/pypsa-bot.yml"
+                },
+                {
+                  "path": ".github/workflows/update-lockfile.yaml"
+                },
+                {
+                  "path": "envs/default_osx-64.pin.txt"
+                },
+                {
+                  "path": "envs/default_osx-arm64.pin.txt"
+                },
+                {
+                  "path": "envs/default_win-64.pin.txt"
+                },
+                {
+                  "path": "pixi.lock"
+                },
+                {
+                  "path": "pixi.toml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2098,
+            "title": "build: install pixi env persistent with auto-symlink entrypoint",
+            "state": "MERGED",
+            "createdAt": "2026-02-24T16:03:27Z",
+            "mergedAt": "2026-02-24T16:10:56Z",
+            "author": {
+              "login": "lkstrp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docker/dev-env/Dockerfile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2097,
+            "title": "fix: lower the lower bound for power grouping years",
+            "state": "MERGED",
+            "createdAt": "2026-02-24T11:28:23Z",
+            "mergedAt": "2026-02-24T15:23:57Z",
+            "author": {
+              "login": "tgilon"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.default.yaml"
+                },
+                {
+                  "path": "doc/release_notes.rst"
+                },
+                {
+                  "path": "scripts/lib/validation/config/existing_capacities.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 2096
+                }
+              ]
+            }
+          },
+          {
+            "number": 2095,
+            "title": "build: use /workspace as dev-env container workdir",
+            "state": "MERGED",
+            "createdAt": "2026-02-24T11:11:15Z",
+            "mergedAt": "2026-02-24T11:57:58Z",
+            "author": {
+              "login": "lkstrp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/push-images.yaml"
+                },
+                {
+                  "path": "docker/dev-env/Dockerfile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2094,
+            "title": "chore: remove duplicated OCGT in test config files",
+            "state": "MERGED",
+            "createdAt": "2026-02-24T10:32:22Z",
+            "mergedAt": "2026-02-24T16:07:23Z",
+            "author": {
+              "login": "tgilon"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/test/config.myopic.yaml"
+                },
+                {
+                  "path": "config/test/config.overnight.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2093,
+            "title": "refactor: use scripts path provider consistently",
+            "state": "MERGED",
+            "createdAt": "2026-02-24T10:17:09Z",
+            "mergedAt": "2026-02-25T12:42:38Z",
+            "author": {
+              "login": "tgilon"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/release_notes.rst"
+                },
+                {
+                  "path": "rules/build_electricity.smk"
+                },
+                {
+                  "path": "rules/build_sector.smk"
+                },
+                {
+                  "path": "rules/development.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2091,
+            "title": "fix: don't mutate config in cluster_network",
+            "state": "MERGED",
+            "createdAt": "2026-02-20T14:13:44Z",
+            "mergedAt": "2026-02-24T08:50:21Z",
+            "author": {
+              "login": "lkstrp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "scripts/cluster_network.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2089,
+            "title": "Link release badge to documentation",
+            "state": "MERGED",
+            "createdAt": "2026-02-20T09:46:43Z",
+            "mergedAt": "2026-02-20T15:10:09Z",
+            "author": {
+              "login": "lindnemi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2088,
+            "title": "Heuristically split existing solar capacities 50:50 between rootop and utility scale",
+            "state": "OPEN",
+            "createdAt": "2026-02-19T14:52:57Z",
+            "mergedAt": null,
+            "author": {
+              "login": "lindnemi"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.default.yaml"
+                },
+                {
+                  "path": "doc/release_notes.rst"
+                },
+                {
+                  "path": "scripts/add_existing_baseyear.py"
+                },
+                {
+                  "path": "scripts/lib/validation/config/existing_capacities.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2087,
+            "title": "Allow overwriting docs URL; select correct default config in test",
+            "state": "MERGED",
+            "createdAt": "2026-02-19T14:40:44Z",
+            "mergedAt": "2026-02-20T14:46:08Z",
+            "author": {
+              "login": "brynpickering"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "doc/validation_dev.rst"
+                },
+                {
+                  "path": "scripts/lib/validation/config/__init__.py"
+                },
+                {
+                  "path": "scripts/lib/validation/config/_base.py"
+                },
+                {
+                  "path": "scripts/lib/validation/config/_schema.py"
+                },
+                {
+                  "path": "test/test_config_schema.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2086,
+            "title": "Fix estimation for sequestration potentials",
+            "state": "OPEN",
+            "createdAt": "2026-02-19T14:34:02Z",
+            "mergedAt": null,
+            "author": {
+              "login": "toniseibold"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.default.yaml"
+                },
+                {
+                  "path": "scripts/build_co2_sequestration_potentials.py"
+                },
+                {
+                  "path": "scripts/lib/validation/config/sector.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2085,
+            "title": "ci: always run integration tests on workflow_dispatch trigger",
+            "state": "MERGED",
+            "createdAt": "2026-02-18T15:57:36Z",
+            "mergedAt": "2026-02-18T18:14:34Z",
+            "author": {
+              "login": "lkstrp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/test.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2084,
+            "title": "prepare release v2026.02.0",
+            "state": "MERGED",
+            "createdAt": "2026-02-18T14:08:57Z",
+            "mergedAt": "2026-02-18T14:30:33Z",
+            "author": {
+              "login": "fneum"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CITATION.cff"
+                },
+                {
+                  "path": "config/config.default.yaml"
+                },
+                {
+                  "path": "config/schema.default.json"
+                },
+                {
+                  "path": "doc/conf.py"
+                },
+                {
+                  "path": "doc/release_notes.rst"
+                },
+                {
+                  "path": "scripts/lib/validation/config/_schema.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2083,
+            "title": "Reverting to .pdf file ending for `plot_summary`",
+            "state": "MERGED",
+            "createdAt": "2026-02-18T13:29:44Z",
+            "mergedAt": "2026-02-18T14:13:51Z",
+            "author": {
+              "login": "bobbyxng"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/validate.yaml"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "doc/release_notes.rst"
+                },
+                {
+                  "path": "results/.gitkeep"
+                },
+                {
+                  "path": "rules/postprocess.smk"
+                },
+                {
+                  "path": "scripts/plot_summary.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2082,
+            "title": "[github-actions.ci] Update locked envs",
+            "state": "MERGED",
+            "createdAt": "2026-02-18T11:54:00Z",
+            "mergedAt": "2026-02-18T14:59:45Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "envs/default_linux-64.pin.txt"
+                },
+                {
+                  "path": "envs/default_osx-64.pin.txt"
+                },
+                {
+                  "path": "envs/default_osx-arm64.pin.txt"
+                },
+                {
+                  "path": "envs/default_win-64.pin.txt"
+                },
+                {
+                  "path": "envs/environment.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2081,
+            "title": "Fix offshore wind potentials in Germany",
+            "state": "MERGED",
+            "createdAt": "2026-02-18T11:18:11Z",
+            "mergedAt": "2026-02-18T13:37:31Z",
+            "author": {
+              "login": "fneum"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.default.yaml"
+                },
+                {
+                  "path": "config/schema.default.json"
+                },
+                {
+                  "path": "doc/release_notes.rst"
+                },
+                {
+                  "path": "rules/build_electricity.smk"
+                },
+                {
+                  "path": "scripts/determine_availability_matrix.py"
+                },
+                {
+                  "path": "scripts/lib/validation/config/atlite.py"
+                },
+                {
+                  "path": "scripts/lib/validation/config/renewable.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 2039
+                }
+              ]
+            }
+          },
+          {
+            "number": 2080,
+            "title": "chore: pin grpcio<1.78 to silence warnings",
+            "state": "MERGED",
+            "createdAt": "2026-02-18T10:55:09Z",
+            "mergedAt": "2026-02-18T11:51:40Z",
+            "author": {
+              "login": "daniel-rdt"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/release_notes.rst"
+                },
+                {
+                  "path": "envs/default_linux-64.pin.txt"
+                },
+                {
+                  "path": "envs/default_osx-64.pin.txt"
+                },
+                {
+                  "path": "envs/default_osx-arm64.pin.txt"
+                },
+                {
+                  "path": "envs/default_win-64.pin.txt"
+                },
+                {
+                  "path": "envs/environment.yaml"
+                },
+                {
+                  "path": "pixi.lock"
+                },
+                {
+                  "path": "pixi.toml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2079,
+            "title": "Allow pixi post link scripts to run",
+            "state": "MERGED",
+            "createdAt": "2026-02-18T09:47:22Z",
+            "mergedAt": "2026-02-18T12:30:07Z",
+            "author": {
+              "login": "brynpickering"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".pixi/config.toml"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "doc/index.rst"
+                },
+                {
+                  "path": "doc/introduction.rst"
+                },
+                {
+                  "path": "pixi.toml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 2018
+                }
+              ]
+            }
+          },
+          {
+            "number": 2078,
+            "title": "Add option to specify fixed DC-AC ratio for solar PV",
+            "state": "OPEN",
+            "createdAt": "2026-02-18T08:13:32Z",
+            "mergedAt": null,
+            "author": {
+              "login": "fneum"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.default.yaml"
+                },
+                {
+                  "path": "config/schema.default.json"
+                },
+                {
+                  "path": "scripts/add_electricity.py"
+                },
+                {
+                  "path": "scripts/build_renewable_profiles.py"
+                },
+                {
+                  "path": "scripts/lib/validation/config/renewable.py"
+                },
+                {
+                  "path": "scripts/prepare_sector_network.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2077,
+            "title": "handle co2stop id column across versions",
+            "state": "MERGED",
+            "createdAt": "2026-02-18T07:26:05Z",
+            "mergedAt": "2026-02-18T09:51:28Z",
+            "author": {
+              "login": "fneum"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/release_notes.rst"
+                },
+                {
+                  "path": "scripts/build_co2_sequestration_potentials.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2076,
+            "title": "heuristic for power plant efficiency by age",
+            "state": "OPEN",
+            "createdAt": "2026-02-17T23:54:56Z",
+            "mergedAt": null,
+            "author": {
+              "login": "fneum"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.default.yaml"
+                },
+                {
+                  "path": "config/schema.default.json"
+                },
+                {
+                  "path": "doc/release_notes.rst"
+                },
+                {
+                  "path": "rules/build_electricity.smk"
+                },
+                {
+                  "path": "scripts/add_electricity.py"
+                },
+                {
+                  "path": "scripts/lib/validation/config/conventional.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2075,
+            "title": "allow custom efficiency_classes for conventional generators",
+            "state": "MERGED",
+            "createdAt": "2026-02-17T23:53:28Z",
+            "mergedAt": "2026-02-18T10:51:12Z",
+            "author": {
+              "login": "fneum"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/schema.default.json"
+                },
+                {
+                  "path": "doc/release_notes.rst"
+                },
+                {
+                  "path": "scripts/add_electricity.py"
+                },
+                {
+                  "path": "scripts/lib/validation/config/clustering.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2074,
+            "title": "fix missing or outdated configuration options",
+            "state": "MERGED",
+            "createdAt": "2026-02-17T23:51:52Z",
+            "mergedAt": "2026-02-18T10:44:51Z",
+            "author": {
+              "login": "fneum"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.default.yaml"
+                },
+                {
+                  "path": "config/schema.default.json"
+                },
+                {
+                  "path": "scripts/lib/validation/config/clustering.py"
+                },
+                {
+                  "path": "scripts/lib/validation/config/solving.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2073,
+            "title": "update unit commitment parameters and fix startup cost",
+            "state": "MERGED",
+            "createdAt": "2026-02-17T23:51:04Z",
+            "mergedAt": "2026-02-18T07:53:50Z",
+            "author": {
+              "login": "fneum"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "data/unit_commitment.csv"
+                },
+                {
+                  "path": "doc/data-repos.rst"
+                },
+                {
+                  "path": "doc/release_notes.rst"
+                },
+                {
+                  "path": "scripts/add_electricity.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2072,
+            "title": "annual nuclear energy availability factors",
+            "state": "MERGED",
+            "createdAt": "2026-02-17T23:50:03Z",
+            "mergedAt": "2026-02-18T12:27:11Z",
+            "author": {
+              "login": "fneum"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "data/nuclear_p_max_pu.csv"
+                },
+                {
+                  "path": "doc/release_notes.rst"
+                },
+                {
+                  "path": "scripts/add_electricity.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2071,
+            "title": "add option to add existing batteries from powerplantmatching",
+            "state": "MERGED",
+            "createdAt": "2026-02-17T23:48:48Z",
+            "mergedAt": "2026-02-18T09:39:47Z",
+            "author": {
+              "login": "fneum"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.default.yaml"
+                },
+                {
+                  "path": "config/schema.default.json"
+                },
+                {
+                  "path": "doc/release_notes.rst"
+                },
+                {
+                  "path": "scripts/add_electricity.py"
+                },
+                {
+                  "path": "scripts/lib/validation/config/electricity.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2070,
+            "title": "rolling horizon: drop cyclicity and allow in solve_network",
+            "state": "MERGED",
+            "createdAt": "2026-02-17T23:47:10Z",
+            "mergedAt": "2026-02-18T09:26:06Z",
+            "author": {
+              "login": "fneum"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/release_notes.rst"
+                },
+                {
+                  "path": "scripts/solve_network.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2069,
+            "title": "add name to unclustered power plants",
+            "state": "MERGED",
+            "createdAt": "2026-02-17T23:45:43Z",
+            "mergedAt": "2026-02-18T07:54:11Z",
+            "author": {
+              "login": "fneum"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "scripts/add_electricity.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2068,
+            "title": "Fixing error in solve_network when networks contains inactive components subject to constraints",
+            "state": "MERGED",
+            "createdAt": "2026-02-16T19:21:21Z",
+            "mergedAt": "2026-02-16T21:50:25Z",
+            "author": {
+              "login": "toniseibold"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "scripts/solve_network.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2067,
+            "title": "update README and figures",
+            "state": "MERGED",
+            "createdAt": "2026-02-16T17:32:00Z",
+            "mergedAt": "2026-02-16T17:35:39Z",
+            "author": {
+              "login": "fneum"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "doc/img/base.png"
+                },
+                {
+                  "path": "doc/img/elec.png"
+                },
+                {
+                  "path": "doc/index.rst"
+                },
+                {
+                  "path": "doc/introduction.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2066,
+            "title": "make WDPA download optional even with UA/MD",
+            "state": "MERGED",
+            "createdAt": "2026-02-16T15:37:42Z",
+            "mergedAt": "2026-02-16T17:32:31Z",
+            "author": {
+              "login": "fneum"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "rules/build_electricity.smk"
+                },
+                {
+                  "path": "scripts/determine_availability_matrix_MD_UA.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2065,
+            "title": "make LUISA download optional again",
+            "state": "MERGED",
+            "createdAt": "2026-02-16T13:58:57Z",
+            "mergedAt": "2026-02-16T17:32:44Z",
+            "author": {
+              "login": "fneum"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "rules/build_electricity.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2064,
+            "title": "Make OSM building process for assets under construction more robust",
+            "state": "MERGED",
+            "createdAt": "2026-02-13T16:11:17Z",
+            "mergedAt": "2026-02-14T08:23:08Z",
+            "author": {
+              "login": "bobbyxng"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/examples/config.distribution-grid-experimental.yaml"
+                },
+                {
+                  "path": "config/examples/config.osm-release.yaml"
+                },
+                {
+                  "path": "scripts/build_osm_network.py"
+                },
+                {
+                  "path": "scripts/clean_osm_data.py"
+                },
+                {
+                  "path": "scripts/retrieve_osm_data.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2063,
+            "title": "change default energy balance year to 2023",
+            "state": "MERGED",
+            "createdAt": "2026-02-13T15:54:38Z",
+            "mergedAt": "2026-02-14T08:20:04Z",
+            "author": {
+              "login": "fneum"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.default.yaml"
+                },
+                {
+                  "path": "config/schema.json"
+                },
+                {
+                  "path": "scripts/lib/validation/config/energy.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2062,
+            "title": "Move to using `conda-forge` for `pydeflate`",
+            "state": "MERGED",
+            "createdAt": "2026-02-13T14:48:40Z",
+            "mergedAt": "2026-02-13T16:12:15Z",
+            "author": {
+              "login": "brynpickering"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "pixi.lock"
+                },
+                {
+                  "path": "pixi.toml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2061,
+            "title": "add technology-data v0.14.0",
+            "state": "MERGED",
+            "createdAt": "2026-02-13T12:12:54Z",
+            "mergedAt": "2026-02-14T09:36:58Z",
+            "author": {
+              "login": "fneum"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.default.yaml"
+                },
+                {
+                  "path": "data/versions.csv"
+                },
+                {
+                  "path": "rules/retrieve.smk"
+                },
+                {
+                  "path": "scripts/lib/validation/config/data.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2060,
+            "title": "doc: fix type hints in add_electricity.py",
+            "state": "MERGED",
+            "createdAt": "2026-02-13T09:06:39Z",
+            "mergedAt": "2026-02-13T10:30:27Z",
+            "author": {
+              "login": "tgilon"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "scripts/add_electricity.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2057,
+            "title": "update and process Swiss energy balances from SFOE source",
+            "state": "MERGED",
+            "createdAt": "2026-02-13T08:24:53Z",
+            "mergedAt": "2026-02-13T13:55:14Z",
+            "author": {
+              "login": "fneum"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "REUSE.toml"
+                },
+                {
+                  "path": "config/config.default.yaml"
+                },
+                {
+                  "path": "config/schema.json"
+                },
+                {
+                  "path": "data/switzerland-new_format-all_years.csv"
+                },
+                {
+                  "path": "data/versions.csv"
+                },
+                {
+                  "path": "doc/data-repos.rst"
+                },
+                {
+                  "path": "doc/data_inventory.csv"
+                },
+                {
+                  "path": "doc/release_notes.rst"
+                },
+                {
+                  "path": "rules/build_sector.smk"
+                },
+                {
+                  "path": "rules/retrieve.smk"
+                },
+                {
+                  "path": "scripts/build_energy_totals.py"
+                },
+                {
+                  "path": "scripts/build_swiss_energy_balances.py"
+                },
+                {
+                  "path": "scripts/lib/validation/config/data.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

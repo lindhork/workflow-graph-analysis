@@ -1,0 +1,96 @@
+# ----------------------------------------------------- #
+# A Snakemake workflow for nanopore basecalling         #
+# and multiplexing using dorado.                        #
+# ----------------------------------------------------- #
+
+import os
+import pandas as pd
+from snakemake.utils import validate
+from snakemake.utils import min_version
+
+
+# -----------------------------------------------------
+# meta data and run info
+# -----------------------------------------------------
+__authors__ = ["Rina Ahmed-Begrich", "Michael Jahn"]
+
+cyan = "\033[36m"
+end = "\033[0m"
+
+msg = f"""\nONT-basecalling: A Snakemake workflow
+for nanopore basecalling and demultiplexing using dorado."""
+
+prolog = f"Output directory: {os.getcwd()}/results"
+
+epilog = f"""
+Written by {", ".join(__authors__)}.
+Max Planck Unit for the Science of Pathogens. Copyright (c) 2025.
+"""
+
+# -----------------------------------------------------
+# check minimum snakemake version
+# -----------------------------------------------------
+min_version("8.24.1")
+min_dorado_version = (1, 3, 0)
+
+
+# -----------------------------------------------------
+# load configuration
+# -----------------------------------------------------
+configfile: "config/config.yml"
+
+
+# -----------------------------------------------------
+# container definition (optional)
+# -----------------------------------------------------
+containerized: "oras://ghcr.io/mpusp/snakemake-ont-basecalling:latest"
+
+
+# -----------------------------------------------------
+# load rules
+# -----------------------------------------------------
+include: "rules/common.smk"
+include: "rules/basecall.smk"
+include: "rules/demultiplex.smk"
+include: "rules/qc.smk"
+
+
+# -----------------------------------------------------
+# optional messages, log and error handling
+# -----------------------------------------------------
+onstart:
+    try:
+        check_dorado_version(config["dorado"]["path"], min_dorado_version)
+    except Exception as e:
+        raise SystemExit(f"{cyan}\n{e}{end}\n")
+
+    print(f"{cyan}\n--- Start workflow! ---\n\n{prolog}\n\n{end}")
+
+
+onsuccess:
+    print(f"{cyan}\n{msg}\n{epilog}\n--- Workflow finished! ---\n\n{end}")
+
+
+onerror:
+    print(f"{cyan}\n{msg}\n{epilog}\n --- An error occurred! ---\n\n{end}")
+
+
+localrules:
+    download_model,
+
+
+# -----------------------------------------------------
+# target rules
+# -----------------------------------------------------
+rule all:
+    input:
+        expand(
+            "results/{run}/dorado_final/input_fastq.txt",
+            run=runs.index,
+        ),
+        expand(
+            "results/{run}/report/{tool}_report.html",
+            run=runs.index,
+            tool=config["report"]["tools"],
+        ),
+    default_target: True

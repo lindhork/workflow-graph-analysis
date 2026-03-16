@@ -1,0 +1,42 @@
+## Rule index for ADAPTS deconv
+##
+## @zgr2788
+##
+##
+## Description:
+## This file includes the rules to run deconvolution with ADAPTS methods using
+## C1 reference.
+##
+##      1- proportionsInAdmixture
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+
+rule proportionsInAdmixture_run:
+    input:
+        getC2(getC1(getBulks('{sample}'), '{sample}'),'{sample}')
+
+    output:
+        "Output/{sample}_res_proportionsInAdmixture.rds"
+
+    conda:
+        "env.yaml"
+
+    benchmark:
+        "Benchmarks/{sample}_proportionsInAdmixture_benchmark.txt"
+    
+    params: 
+        markers=config['markers']
+
+    resources:
+        mem_mb=getMB(config['mem_gb']['minorOps'])
+
+    shell:
+        "Rscript Modules/ADAPTS/proportionsInAdmixture_run.R {input} {params.markers} {output}"

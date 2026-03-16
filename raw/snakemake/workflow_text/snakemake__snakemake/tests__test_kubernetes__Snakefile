@@ -1,0 +1,54 @@
+import os
+
+from snakemake.remote.GS import RemoteProvider as GSRemoteProvider
+
+GS = GSRemoteProvider()
+
+
+rule all:
+    input:
+        "landsat-data.txt.bz2",
+        "testdir",
+
+
+rule copy:
+    input:
+        GS.remote(
+            "gcp-public-data-landsat/LC08/01/001/003/LC08_L1GT_001003_20170430_20170501_01_RT/LC08_L1GT_001003_20170430_20170501_01_RT_MTL.txt"
+        ),
+    output:
+        "landsat-data.txt",
+    resources:
+        mem_mb=100,
+        disk_mb=301,
+    run:
+        # Check whether there is enough storage attached
+        stats = os.statvfs(".")
+        volume_gb = stats.f_bsize * stats.f_blocks / 1.0e9
+        assert volume_gb >= 0.3, "Volume size is too small: {}GB".format(volume_gb)
+
+        shell("cp {input} {output}")
+
+
+rule pack:
+    input:
+        "landsat-data.txt",
+    output:
+        "landsat-data.txt.bz2",
+    conda:
+        "envs/gzip.yaml"
+    singularity:
+        "docker://continuumio/miniconda3:4.4.10"
+    log:
+        "logs/pack.log",
+    shell:
+        "bzip2 -c {input} > {output}; echo successful > {log}"
+
+
+rule directory:
+    output:
+        directory("testdir"),
+    log:
+        "logs/directory.log",
+    shell:
+        "mkdir -p {output}; touch {output}/test.txt"

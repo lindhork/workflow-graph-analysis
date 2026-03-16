@@ -1,0 +1,362 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 14,
+            "title": "add pre-commits and post-commits with all the linters as scripts in src",
+            "state": "CLOSED",
+            "createdAt": "2018-06-11T13:39:56Z",
+            "closedAt": "2018-06-11T15:50:25Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 13,
+            "title": "Add execute and execute_cluster in src",
+            "state": "CLOSED",
+            "createdAt": "2018-06-11T13:39:36Z",
+            "closedAt": "2018-06-12T08:07:40Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 11,
+            "title": "add support for the conda/bioconda package manager",
+            "state": "CLOSED",
+            "createdAt": "2016-10-24T14:23:24Z",
+            "closedAt": "2017-03-08T08:53:13Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 10,
+            "title": "move scripts to bin",
+            "state": "CLOSED",
+            "createdAt": "2016-10-13T14:03:27Z",
+            "closedAt": "2016-10-14T09:49:21Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 9,
+            "title": "Find a solution to install locally CPAN packages. ",
+            "state": "CLOSED",
+            "createdAt": "2016-09-16T08:38:37Z",
+            "closedAt": "2017-03-08T08:53:49Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 8,
+            "title": "Fix the mess of surviving variables in bin/activate",
+            "state": "CLOSED",
+            "createdAt": "2016-09-16T08:37:39Z",
+            "closedAt": "2017-03-08T08:54:35Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 7,
+            "title": "Add support to R and its libraries",
+            "state": "CLOSED",
+            "createdAt": "2016-09-12T14:16:48Z",
+            "closedAt": "2016-09-12T14:16:51Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 6,
+            "title": "Put all snakefiles into scrips/snakefiles and drop the extension",
+            "state": "CLOSED",
+            "createdAt": "2016-09-12T08:48:06Z",
+            "closedAt": "2016-10-14T09:49:21Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 5,
+            "title": "Add requirement files",
+            "state": "CLOSED",
+            "createdAt": "2016-09-02T14:52:01Z",
+            "closedAt": "2017-03-08T08:54:58Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 4,
+            "title": "Add a version number",
+            "state": "CLOSED",
+            "createdAt": "2016-09-02T14:51:45Z",
+            "closedAt": "2018-11-27T11:04:14Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 3,
+            "title": "Add a license",
+            "state": "CLOSED",
+            "createdAt": "2016-09-02T14:51:34Z",
+            "closedAt": "2016-10-14T07:43:44Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 2,
+            "title": "Script to create a skeleton for the config file",
+            "state": "CLOSED",
+            "createdAt": "2016-09-02T14:46:41Z",
+            "closedAt": "2018-02-22T16:12:32Z",
+            "author": {
+              "login": "jlanga"
+            }
+          },
+          {
+            "number": 1,
+            "title": "Create a front-end instead of using a Snakefile",
+            "state": "CLOSED",
+            "createdAt": "2016-09-02T14:44:45Z",
+            "closedAt": "2018-11-27T11:04:14Z",
+            "author": {
+              "login": "jlanga"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 17,
+            "title": "feat: refresh to 2024",
+            "state": "MERGED",
+            "createdAt": "2024-05-17T14:42:24Z",
+            "mergedAt": "2024-05-17T14:57:33Z",
+            "author": {
+              "login": "jlanga"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".dockerignore"
+                },
+                {
+                  "path": ".github/workflows/cache.yml"
+                },
+                {
+                  "path": ".github/workflows/conventional-prs.yml"
+                },
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".github/workflows/release-please.yml"
+                },
+                {
+                  "path": ".gitmodules"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".travis.yml"
+                },
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "cluster.yml"
+                },
+                {
+                  "path": "config/features.yml"
+                },
+                {
+                  "path": "config/params.yml"
+                },
+                {
+                  "path": "config/samples.tsv"
+                },
+                {
+                  "path": "features.yml"
+                },
+                {
+                  "path": "profile/default/config.yml"
+                },
+                {
+                  "path": "samples.yml"
+                },
+                {
+                  "path": "src/docker_run.sh"
+                },
+                {
+                  "path": "src/run"
+                },
+                {
+                  "path": "src/run_cluster"
+                },
+                {
+                  "path": "src/snakefiles/call.smk"
+                },
+                {
+                  "path": "src/snakefiles/call.yml"
+                },
+                {
+                  "path": "src/snakefiles/map.smk"
+                },
+                {
+                  "path": "src/snakefiles/map.yml"
+                },
+                {
+                  "path": "src/snakehooks"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/call.smk"
+                },
+                {
+                  "path": "workflow/rules/call.yml"
+                },
+                {
+                  "path": "workflow/rules/clean.smk"
+                },
+                {
+                  "path": "workflow/rules/folders.smk"
+                },
+                {
+                  "path": "workflow/rules/map.smk"
+                },
+                {
+                  "path": "workflow/rules/map.yml"
+                },
+                {
+                  "path": "workflow/rules/raw.smk"
+                },
+                {
+                  "path": "workflow/rules/raw.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 16,
+            "title": "Updated readme",
+            "state": "MERGED",
+            "createdAt": "2019-04-08T10:19:09Z",
+            "mergedAt": "2019-04-08T10:19:16Z",
+            "author": {
+              "login": "jlanga"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 15,
+            "title": "Channels in proper order. Cleaning up.",
+            "state": "MERGED",
+            "createdAt": "2018-11-27T11:02:16Z",
+            "mergedAt": "2018-11-27T11:02:23Z",
+            "author": {
+              "login": "jlanga"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".travis.yml"
+                },
+                {
+                  "path": "src/install/configure_conda.sh"
+                },
+                {
+                  "path": "src/snakefiles/call.yml"
+                },
+                {
+                  "path": "src/snakefiles/map.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 12,
+            "title": "Moved from bin to src",
+            "state": "MERGED",
+            "createdAt": "2017-05-02T10:04:33Z",
+            "mergedAt": "2017-05-02T10:07:58Z",
+            "author": {
+              "login": "jlanga"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".travis.yml"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "bin/snakefiles/folders"
+                },
+                {
+                  "path": "requirements.txt"
+                },
+                {
+                  "path": "src/config.yaml"
+                },
+                {
+                  "path": "src/install/conda_env.sh"
+                },
+                {
+                  "path": "src/snakefiles/call"
+                },
+                {
+                  "path": "src/snakefiles/clean"
+                },
+                {
+                  "path": "src/snakefiles/folders"
+                },
+                {
+                  "path": "src/snakefiles/map"
+                },
+                {
+                  "path": "src/snakefiles/raw"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

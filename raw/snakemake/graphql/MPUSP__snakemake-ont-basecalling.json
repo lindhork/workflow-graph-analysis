@@ -1,0 +1,876 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 37,
+            "title": "update GH actions workflows, particularly superlinter -> v8",
+            "state": "OPEN",
+            "createdAt": "2026-02-12T12:07:06Z",
+            "closedAt": null,
+            "author": {
+              "login": "m-jahn"
+            }
+          },
+          {
+            "number": 34,
+            "title": "inlcude feature to call modified bases",
+            "state": "OPEN",
+            "createdAt": "2026-01-07T09:50:37Z",
+            "closedAt": null,
+            "author": {
+              "login": "rabioinf"
+            }
+          },
+          {
+            "number": 32,
+            "title": "refactor: remove checkpoint rule to speed up workflow",
+            "state": "CLOSED",
+            "createdAt": "2025-12-16T12:47:42Z",
+            "closedAt": "2026-01-07T13:09:21Z",
+            "author": {
+              "login": "rabioinf"
+            }
+          },
+          {
+            "number": 27,
+            "title": "add apptainer deployment",
+            "state": "CLOSED",
+            "createdAt": "2025-11-25T13:26:46Z",
+            "closedAt": "2025-11-28T08:43:20Z",
+            "author": {
+              "login": "m-jahn"
+            }
+          },
+          {
+            "number": 25,
+            "title": "rule aggregate_prefix spawns too many small avoidable jobs",
+            "state": "CLOSED",
+            "createdAt": "2025-09-08T14:52:02Z",
+            "closedAt": "2025-09-12T09:41:03Z",
+            "author": {
+              "login": "m-jahn"
+            }
+          },
+          {
+            "number": 19,
+            "title": "check that basecalling also works without barcodes",
+            "state": "CLOSED",
+            "createdAt": "2025-07-03T07:00:19Z",
+            "closedAt": "2025-07-09T08:01:53Z",
+            "author": {
+              "login": "m-jahn"
+            }
+          },
+          {
+            "number": 18,
+            "title": "include duplex base calling with test data set",
+            "state": "OPEN",
+            "createdAt": "2025-07-03T06:59:03Z",
+            "closedAt": null,
+            "author": {
+              "login": "m-jahn"
+            }
+          },
+          {
+            "number": 6,
+            "title": "clean sorted all_summary file from duplicated header",
+            "state": "CLOSED",
+            "createdAt": "2025-05-13T21:43:03Z",
+            "closedAt": "2025-05-23T06:29:12Z",
+            "author": {
+              "login": "rabioinf"
+            }
+          },
+          {
+            "number": 5,
+            "title": "bug: barcode specific merging of fastq files does not work",
+            "state": "CLOSED",
+            "createdAt": "2025-04-16T10:12:48Z",
+            "closedAt": "2025-05-23T06:28:23Z",
+            "author": {
+              "login": "rabioinf"
+            }
+          },
+          {
+            "number": 4,
+            "title": "refactor summary and barcode list generation",
+            "state": "CLOSED",
+            "createdAt": "2025-04-09T07:41:54Z",
+            "closedAt": "2025-05-23T06:27:32Z",
+            "author": {
+              "login": "rabioinf"
+            }
+          },
+          {
+            "number": 3,
+            "title": "add tool for qc",
+            "state": "CLOSED",
+            "createdAt": "2025-04-08T09:57:45Z",
+            "closedAt": "2025-05-27T11:35:56Z",
+            "author": {
+              "login": "rabioinf"
+            }
+          },
+          {
+            "number": 2,
+            "title": "add example profile for slurm executor",
+            "state": "CLOSED",
+            "createdAt": "2025-04-07T21:50:00Z",
+            "closedAt": "2025-04-15T14:37:00Z",
+            "author": {
+              "login": "rabioinf"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 36,
+            "title": "chore(main): release 1.5.2",
+            "state": "MERGED",
+            "createdAt": "2026-01-07T13:09:42Z",
+            "mergedAt": "2026-01-07T13:19:22Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 32
+                }
+              ]
+            }
+          },
+          {
+            "number": 35,
+            "title": "merge release tags to dev",
+            "state": "MERGED",
+            "createdAt": "2026-01-07T13:05:52Z",
+            "mergedAt": "2026-01-07T13:06:15Z",
+            "author": {
+              "login": "rabioinf"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 33,
+            "title": "fix: remove checkpoint in dorado_demux to speed up workflow, closes #32",
+            "state": "MERGED",
+            "createdAt": "2025-12-16T13:09:24Z",
+            "mergedAt": "2026-01-07T13:09:20Z",
+            "author": {
+              "login": "rabioinf"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/deploy_apptainer.yml"
+                },
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".github/workflows/release-please.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "resources/images/dag.png"
+                },
+                {
+                  "path": "resources/images/dag.svg"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/profiles/slurm/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/demultiplex.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 31,
+            "title": "chore(main): release 1.5.1",
+            "state": "MERGED",
+            "createdAt": "2025-12-03T12:37:22Z",
+            "mergedAt": "2025-12-03T12:46:02Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 30,
+            "title": "fix: updates to documentation of apptainer, dorado version checking",
+            "state": "MERGED",
+            "createdAt": "2025-11-28T11:19:34Z",
+            "mergedAt": "2025-12-03T12:37:06Z",
+            "author": {
+              "login": "m-jahn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".snakemake-workflow-catalog.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/basecall.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 29,
+            "title": "chore(main): release 1.5.0",
+            "state": "MERGED",
+            "createdAt": "2025-11-28T08:42:59Z",
+            "mergedAt": "2025-11-28T08:55:53Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 28,
+            "title": "feat: added automatic apptainer deployment",
+            "state": "MERGED",
+            "createdAt": "2025-11-25T16:07:23Z",
+            "mergedAt": "2025-11-28T08:42:42Z",
+            "author": {
+              "login": "m-jahn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/deploy_apptainer.yml"
+                },
+                {
+                  "path": ".test/config/config.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/config.yml"
+                },
+                {
+                  "path": "config/schemas/config.schema.yml"
+                },
+                {
+                  "path": "resources/images/dag.png"
+                },
+                {
+                  "path": "resources/images/dag.svg"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/profiles/slurm/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/basecall.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/demultiplex.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 26,
+            "title": "chore(main): release 1.4.0",
+            "state": "MERGED",
+            "createdAt": "2025-09-12T09:41:20Z",
+            "mergedAt": "2025-09-12T09:45:43Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 25
+                }
+              ]
+            }
+          },
+          {
+            "number": 24,
+            "title": "feat: various improvements to format and performance",
+            "state": "MERGED",
+            "createdAt": "2025-09-03T07:57:22Z",
+            "mergedAt": "2025-09-12T09:41:02Z",
+            "author": {
+              "login": "m-jahn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/schemas/config.schema.yml"
+                },
+                {
+                  "path": "config/schemas/runs.schema.yml"
+                },
+                {
+                  "path": "resources/images/dag.png"
+                },
+                {
+                  "path": "workflow/profiles/slurm/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/basecall.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/demultiplex.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 23,
+            "title": "chore(main): release 1.4.0",
+            "state": "CLOSED",
+            "createdAt": "2025-07-09T09:23:36Z",
+            "mergedAt": null,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 2
+                },
+                {
+                  "number": 3
+                }
+              ]
+            }
+          },
+          {
+            "number": 22,
+            "title": "chore(main): release 1.4.0",
+            "state": "CLOSED",
+            "createdAt": "2025-07-09T08:04:07Z",
+            "mergedAt": null,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 2
+                },
+                {
+                  "number": 3
+                }
+              ]
+            }
+          },
+          {
+            "number": 21,
+            "title": "chore(main): release 1.3.0",
+            "state": "MERGED",
+            "createdAt": "2025-07-09T08:02:13Z",
+            "mergedAt": "2025-07-09T08:03:43Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 20,
+            "title": "feat!: added functionality to switch demultiplexing on and off",
+            "state": "MERGED",
+            "createdAt": "2025-07-08T10:50:45Z",
+            "mergedAt": "2025-07-09T08:01:50Z",
+            "author": {
+              "login": "m-jahn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yml"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yml"
+                },
+                {
+                  "path": "config/schemas/config.schema.yml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/samtools.yml"
+                },
+                {
+                  "path": "workflow/rules/basecall.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/demultiplex.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 19
+                }
+              ]
+            }
+          },
+          {
+            "number": 17,
+            "title": "chore(main): release 1.2.2",
+            "state": "MERGED",
+            "createdAt": "2025-06-25T07:45:46Z",
+            "mergedAt": "2025-06-25T07:49:36Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 16,
+            "title": "fix: modified per rule resources for slurm",
+            "state": "MERGED",
+            "createdAt": "2025-06-23T13:08:49Z",
+            "mergedAt": "2025-06-25T07:45:26Z",
+            "author": {
+              "login": "m-jahn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/profiles/slurm/config.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 15,
+            "title": "chore(main): release 1.2.1",
+            "state": "MERGED",
+            "createdAt": "2025-06-06T10:00:05Z",
+            "mergedAt": "2025-06-06T10:14:22Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 14,
+            "title": "fix: minor changes to make workflow compatible with catalog",
+            "state": "MERGED",
+            "createdAt": "2025-06-06T08:46:49Z",
+            "mergedAt": "2025-06-06T09:59:44Z",
+            "author": {
+              "login": "m-jahn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".snakemake-workflow-catalog.yml"
+                },
+                {
+                  "path": "workflow/envs/base.yml"
+                },
+                {
+                  "path": "workflow/rules/basecall.smk"
+                },
+                {
+                  "path": "workflow/rules/qc.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 13,
+            "title": "chore(main): release 1.2.0",
+            "state": "MERGED",
+            "createdAt": "2025-06-04T08:18:27Z",
+            "mergedAt": "2025-06-04T08:31:13Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 12,
+            "title": "feat: additions to docs, nanoplot qc, schemas",
+            "state": "MERGED",
+            "createdAt": "2025-05-27T13:05:46Z",
+            "mergedAt": "2025-06-04T08:18:06Z",
+            "author": {
+              "login": "m-jahn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/release-please.yml"
+                },
+                {
+                  "path": ".test/config/config.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/config.yml"
+                },
+                {
+                  "path": "config/schemas/config.schema.yml"
+                },
+                {
+                  "path": "config/schemas/runs.schema.yml"
+                },
+                {
+                  "path": "resources/images/dag.png"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/qc.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 11,
+            "title": "chore(main): release 1.2.0",
+            "state": "CLOSED",
+            "createdAt": "2025-05-27T12:32:18Z",
+            "mergedAt": null,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 2
+                },
+                {
+                  "number": 3
+                }
+              ]
+            }
+          },
+          {
+            "number": 10,
+            "title": "chore(main): release 1.1.0",
+            "state": "MERGED",
+            "createdAt": "2025-05-27T11:36:21Z",
+            "mergedAt": "2025-05-27T12:31:52Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 3
+                }
+              ]
+            }
+          },
+          {
+            "number": 9,
+            "title": "feat: add reporting tool pycoQC, closes #3",
+            "state": "MERGED",
+            "createdAt": "2025-05-27T08:31:13Z",
+            "mergedAt": "2025-05-27T11:35:55Z",
+            "author": {
+              "login": "rabioinf"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/qc.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 8,
+            "title": "chore(main): release 1.1.0",
+            "state": "CLOSED",
+            "createdAt": "2025-05-23T07:13:55Z",
+            "mergedAt": null,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 2
+                }
+              ]
+            }
+          },
+          {
+            "number": 7,
+            "title": "feat: update to include merging and other workflow setup changes",
+            "state": "MERGED",
+            "createdAt": "2025-05-21T14:14:14Z",
+            "mergedAt": "2025-05-22T14:38:38Z",
+            "author": {
+              "login": "m-jahn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/config/config.yml"
+                },
+                {
+                  "path": ".test/data/FBC12581_83933ab2_794bc61c_0.pod5"
+                },
+                {
+                  "path": ".test/data/FBC12581_83933ab2_794bc61c_1.pod5"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/bgzip.yml"
+                },
+                {
+                  "path": "workflow/envs/dorado.yml"
+                },
+                {
+                  "path": "workflow/profiles/default/config.yaml"
+                },
+                {
+                  "path": "workflow/profiles/slurm/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/basecall.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1,
+            "title": "chore(main): release 1.0.0",
+            "state": "MERGED",
+            "createdAt": "2025-04-07T13:11:39Z",
+            "mergedAt": "2025-05-23T07:13:26Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

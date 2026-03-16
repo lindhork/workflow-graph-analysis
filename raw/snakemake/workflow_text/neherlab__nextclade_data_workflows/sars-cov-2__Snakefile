@@ -1,0 +1,156 @@
+import datetime
+
+
+localrules:
+    all,
+    clean,
+    clean_all,
+    dump_config,
+    deploy_wuhan,
+    deploy_BA2,
+    deploy_proteins,
+    deploy_XBB,
+    deploy_BA286,
+
+
+include: "workflow/snakemake_rules/preprocess.smk"
+include: "workflow/snakemake_rules/qc_preparation.smk"
+include: "workflow/snakemake_rules/subsampling.smk"
+include: "workflow/snakemake_rules/core.smk"
+
+
+date = datetime.date.today()
+timestamp = datetime.datetime.utcnow().isoformat()[:-7] + "Z"
+
+BUILDS = config["path-to-build"].values()
+PATHS = config["path-to-build"].keys()
+
+
+rule all:
+    input:
+        expand(
+            "deploy/{build_name}/staging.log",
+            build_name=[build for build in BUILDS],
+        ),
+        expand(
+            "datasets/{path}/tree.json",
+            path=PATHS,
+        ),
+
+
+rule deploy_wuhan:
+    input:
+        tree="auspice/wuhan/auspice.json",
+    output:
+        touchfile="deploy/wuhan/staging.log",
+        tree=temp("deploy/nextclade_sars-cov-2.json"),
+    shell:
+        """
+        cp {input.tree} {output.tree}
+        nextstrain deploy s3://nextstrain-staging \
+            {output.tree}
+        touch {output.touchfile}
+        """
+
+
+rule deploy_BA2:
+    input:
+        tree="auspice/BA.2/auspice.json",
+    output:
+        touchfile="deploy/BA.2/staging.log",
+        tree=temp("deploy/nextclade_sars-cov-2_BA.2.json"),
+    shell:
+        """
+        cp {input.tree} {output.tree}
+        nextstrain deploy s3://nextstrain-staging \
+            {output.tree}
+        touch {output.touchfile}
+        """
+
+
+rule deploy_proteins:
+    input:
+        tree="auspice/proteins/auspice.json",
+    output:
+        touchfile="deploy/proteins/staging.log",
+        tree=temp("deploy/nextclade_sars-cov-2_proteins.json"),
+    shell:
+        """
+        cp {input.tree} {output.tree}
+        nextstrain deploy s3://nextstrain-staging \
+            {output.tree}
+        touch {output.touchfile}
+        """
+
+
+rule deploy_XBB:
+    input:
+        tree="auspice/XBB/auspice.json",
+    output:
+        touchfile="deploy/XBB/staging.log",
+        tree=temp("deploy/nextclade_sars-cov-2_XBB.json"),
+    shell:
+        """
+        cp {input.tree} {output.tree}
+        nextstrain deploy s3://nextstrain-staging \
+            {output.tree}
+        touch {output.touchfile}
+        """
+
+
+rule deploy_BA286:
+    input:
+        tree="auspice/BA.2.86/auspice.json",
+    output:
+        touchfile="deploy/BA.2.86/staging.log",
+        tree=temp("deploy/nextclade_sars-cov-2_BA.2.86.json"),
+    shell:
+        """
+        cp {input.tree} {output.tree}
+        nextstrain deploy s3://nextstrain-staging \
+            {output.tree}
+        touch {output.touchfile}
+        """
+
+
+rule clean_all:
+    message:
+        "Removing directories: {params}"
+    params:
+        "pre-processed",
+        "data",
+        "log/*",
+        "logs",
+        "benchmarks",
+        "auspice",
+        "builds",
+        "output",
+        "examples",
+        "test",
+    shell:
+        "rm -rfv {params}"
+
+
+rule clean:
+    message:
+        "Removing directories: {params}"
+    params:
+        "log/*",
+        "logs",
+        "benchmarks",
+        "auspice",
+        "builds",
+        "test",
+        "output",
+        "examples",
+    shell:
+        "rm -rfv {params}"
+
+
+rule dump_config:
+    run:
+        import sys
+        import ruamel.yaml
+
+        yaml = ruamel.yaml.YAML()
+        yaml.dump(config, sys.stdout)

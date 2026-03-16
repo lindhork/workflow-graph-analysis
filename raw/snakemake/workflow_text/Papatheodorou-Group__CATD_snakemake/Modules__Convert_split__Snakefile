@@ -1,0 +1,91 @@
+## Conversion module for the deconvolution benchmarking pipeline
+##
+## @zgr2788
+##
+##
+## Description:
+##
+##  Converts input .h5ad file to a Seurat object and saves the object as a
+## .rds file to be loaded back for the future steps of the pipeline
+##
+## :
+##
+##
+##
+##
+##
+##
+##
+##
+##
+
+#Rule for converting anndata to seurat object
+rule convertAnndata:
+    input:
+        "Input/{sample}.h5ad"
+
+    output:
+        "Input/{sample}_seurat.rds"
+
+    conda:
+        "env.yaml"
+
+    benchmark:
+        "Benchmarks/{sample}_Convert_benchmark.txt"
+
+    resources:
+        mem_mb=getMB(config['mem_gb']['minorOps'])
+
+    shell:
+        "Rscript Modules/Convert_split/convert.R Input/{wildcards.sample}.h5ad"
+
+
+
+#Rule for splitting seurat object to be sent to different workflows
+rule splitCells:
+    input:
+        "Input/{sample}_seurat.rds"
+
+    output:
+        "Input/Cell_splits/{sample}_gen.rds",
+        "Input/Cell_splits/{sample}_C0.rds"
+
+    conda:
+        "env.yaml"
+
+    benchmark:
+        "Benchmarks/{sample}_Split_benchmark.txt"
+
+    resources:
+        mem_mb=getMB(config['mem_gb']['minorOps'])
+
+    shell:
+        """
+        mkdir -p Input/Cell_splits
+        Rscript Modules/Convert_split/split.R Input/{wildcards.sample}_seurat.rds
+        """
+
+
+#Same as above, but runs the seeded script
+rule splitCellsSeeded:
+    input:
+        "Input/{sample}_seurat.rds"
+
+    output:
+        "Input/Cell_splits/{sample}_gen_seeded.rds",
+        "Input/Cell_splits/{sample}_C0_seeded.rds"
+
+    conda:
+        "env.yaml"
+
+    benchmark:
+        "Benchmarks/{sample}_Split_benchmark.txt"
+
+    resources:
+        mem_mb=getMB(config['mem_gb']['minorOps'])
+
+    shell:
+        """
+        mkdir -p Input/Cell_splits
+        Rscript Modules/Convert_split/split_seeded.R Input/{wildcards.sample}_seurat.rds
+        """

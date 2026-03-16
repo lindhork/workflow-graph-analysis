@@ -1,0 +1,5175 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 23,
+            "title": "incorrect package name in modules/local/Picard_QualityScoreDistribution.nf",
+            "state": "OPEN",
+            "createdAt": "2025-05-14T17:18:53Z",
+            "closedAt": null,
+            "author": {
+              "login": "dslarm"
+            }
+          },
+          {
+            "number": 12,
+            "title": "Question about GATK4_MERGEVCFS",
+            "state": "OPEN",
+            "createdAt": "2024-04-20T07:40:23Z",
+            "closedAt": null,
+            "author": {
+              "login": "lukouxinan"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 25,
+            "title": "Important! Template update for nf-core/tools v3.3.1",
+            "state": "OPEN",
+            "createdAt": "2025-06-03T11:03:10Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/actions/get-shards/action.yml"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": ".prettierrc.yml"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/email_template.txt"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "bin/check_samplesheet.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes_ignored.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowVariantcatalogue.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/templates/dumpsoftwareversions.py"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "nf-test.config"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/input_check.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_variantcatalogue_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 24,
+            "title": "update r::r-base to conda-forge::r-base",
+            "state": "OPEN",
+            "createdAt": "2025-05-27T08:16:53Z",
+            "mergedAt": null,
+            "author": {
+              "login": "maxulysse"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/Picard_QualityScoreDistribution.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 23
+                }
+              ]
+            }
+          },
+          {
+            "number": 22,
+            "title": "Important! Template update for nf-core/tools v3.2.1",
+            "state": "CLOSED",
+            "createdAt": "2025-04-30T12:29:11Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/email_template.txt"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "bin/check_samplesheet.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes_ignored.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowVariantcatalogue.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/templates/dumpsoftwareversions.py"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/input_check.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_variantcatalogue_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "tower.yml"
+                },
+                {
+                  "path": "workflows/variantcatalogue.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 21,
+            "title": "Important! Template update for nf-core/tools v3.2.0",
+            "state": "CLOSED",
+            "createdAt": "2025-01-27T14:48:17Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/email_template.txt"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "bin/check_samplesheet.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes_ignored.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowVariantcatalogue.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/templates/dumpsoftwareversions.py"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/input_check.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_variantcatalogue_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "tower.yml"
+                },
+                {
+                  "path": "workflows/variantcatalogue.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 20,
+            "title": "Important! Template update for nf-core/tools v3.1.2",
+            "state": "CLOSED",
+            "createdAt": "2025-01-20T14:36:42Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/email_template.txt"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "bin/check_samplesheet.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes_ignored.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowVariantcatalogue.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/templates/dumpsoftwareversions.py"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/input_check.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_variantcatalogue_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "tower.yml"
+                },
+                {
+                  "path": "workflows/variantcatalogue.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 19,
+            "title": "Important! Template update for nf-core/tools v3.1.1",
+            "state": "CLOSED",
+            "createdAt": "2024-12-20T13:11:56Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/email_template.txt"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "bin/check_samplesheet.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes_ignored.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowVariantcatalogue.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/templates/dumpsoftwareversions.py"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/input_check.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_variantcatalogue_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "tower.yml"
+                },
+                {
+                  "path": "workflows/variantcatalogue.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 18,
+            "title": "Important! Template update for nf-core/tools v3.1.0",
+            "state": "CLOSED",
+            "createdAt": "2024-12-12T11:26:33Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/email_template.txt"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "bin/check_samplesheet.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes_ignored.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowVariantcatalogue.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/templates/dumpsoftwareversions.py"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/input_check.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_variantcatalogue_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "tower.yml"
+                },
+                {
+                  "path": "workflows/variantcatalogue.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 17,
+            "title": "Important! Template update for nf-core/tools v3.0.2",
+            "state": "CLOSED",
+            "createdAt": "2024-10-11T13:14:19Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/email_template.txt"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "bin/check_samplesheet.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes_ignored.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowVariantcatalogue.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/templates/dumpsoftwareversions.py"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "subworkflows/local/input_check.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_variantcatalogue_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "tower.yml"
+                },
+                {
+                  "path": "workflows/variantcatalogue.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 16,
+            "title": "Important! Template update for nf-core/tools v3.0.1",
+            "state": "CLOSED",
+            "createdAt": "2024-10-09T11:47:10Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/email_template.txt"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "bin/check_samplesheet.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes_ignored.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowVariantcatalogue.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/templates/dumpsoftwareversions.py"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "subworkflows/local/input_check.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_variantcatalogue_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "tower.yml"
+                },
+                {
+                  "path": "workflows/variantcatalogue.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 15,
+            "title": "Important! Template update for nf-core/tools v3.0.0",
+            "state": "CLOSED",
+            "createdAt": "2024-10-08T13:12:46Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/email_template.txt"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "bin/check_samplesheet.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes_ignored.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowVariantcatalogue.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/templates/dumpsoftwareversions.py"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "subworkflows/local/input_check.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_variantcatalogue_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "tower.yml"
+                },
+                {
+                  "path": "workflows/variantcatalogue.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 14,
+            "title": "Important! Template update for nf-core/tools v2.14.1",
+            "state": "CLOSED",
+            "createdAt": "2024-05-09T12:20:27Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/email_template.txt"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "bin/check_samplesheet.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowVariantcatalogue.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/templates/dumpsoftwareversions.py"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "subworkflows/local/input_check.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_variantcatalogue_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/tags.yml"
+                },
+                {
+                  "path": "tower.yml"
+                },
+                {
+                  "path": "workflows/variantcatalogue.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 13,
+            "title": "Important! Template update for nf-core/tools v2.14.0",
+            "state": "CLOSED",
+            "createdAt": "2024-05-08T15:47:58Z",
+            "mergedAt": null,
+            "author": {
+              "login": "mirpedrol"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/email_template.txt"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "bin/check_samplesheet.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowVariantcatalogue.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/templates/dumpsoftwareversions.py"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "subworkflows/local/input_check.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_variantcatalogue_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/tags.yml"
+                },
+                {
+                  "path": "tower.yml"
+                },
+                {
+                  "path": "workflows/variantcatalogue.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 11,
+            "title": "Important! Template update for nf-core/tools v2.13.1",
+            "state": "CLOSED",
+            "createdAt": "2024-03-01T10:52:46Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/email_template.txt"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "bin/check_samplesheet.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowVariantcatalogue.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/templates/dumpsoftwareversions.py"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "subworkflows/local/input_check.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_variantcatalogue_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/tags.yml"
+                },
+                {
+                  "path": "tower.yml"
+                },
+                {
+                  "path": "workflows/variantcatalogue.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 10,
+            "title": "Important! Template update for nf-core/tools v2.13",
+            "state": "CLOSED",
+            "createdAt": "2024-02-20T16:07:21Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/email_template.txt"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "bin/check_samplesheet.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowVariantcatalogue.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/templates/dumpsoftwareversions.py"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "subworkflows/local/input_check.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_variantcatalogue_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.workflow.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/tags.yml"
+                },
+                {
+                  "path": "tower.yml"
+                },
+                {
+                  "path": "workflows/variantcatalogue.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 9,
+            "title": "Important! Template update for nf-core/tools v2.12",
+            "state": "CLOSED",
+            "createdAt": "2024-01-29T15:55:26Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/email_template.txt"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowVariantcatalogue.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "tower.yml"
+                },
+                {
+                  "path": "workflows/variantcatalogue.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 8,
+            "title": "Important! Template update for nf-core/tools v2.11.1",
+            "state": "CLOSED",
+            "createdAt": "2023-12-20T17:06:42Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowVariantcatalogue.groovy"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "tower.yml"
+                },
+                {
+                  "path": "workflows/variantcatalogue.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 7,
+            "title": "Important! Template update for nf-core/tools v2.11",
+            "state": "CLOSED",
+            "createdAt": "2023-12-19T18:37:00Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcments.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowVariantcatalogue.groovy"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "tower.yml"
+                },
+                {
+                  "path": "workflows/variantcatalogue.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6,
+            "title": "Important! Template update for nf-core/tools v2.10",
+            "state": "CLOSED",
+            "createdAt": "2023-09-26T08:11:29Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcments.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowVariantcatalogue.groovy"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "tower.yml"
+                },
+                {
+                  "path": "workflows/variantcatalogue.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 5,
+            "title": "Important! Template update for nf-core/tools v2.9",
+            "state": "CLOSED",
+            "createdAt": "2023-06-30T17:58:13Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-variantcatalogue_logo_light.png"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowVariantcatalogue.groovy"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "tower.yml"
+                },
+                {
+                  "path": "workflows/variantcatalogue.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4,
+            "title": "Important! Template update for nf-core/tools v2.8",
+            "state": "CLOSED",
+            "createdAt": "2023-04-28T15:19:04Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowVariantcatalogue.groovy"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "tower.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3,
+            "title": "Update README.md",
+            "state": "OPEN",
+            "createdAt": "2023-03-29T15:50:56Z",
+            "mergedAt": null,
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2,
+            "title": "Master",
+            "state": "MERGED",
+            "createdAt": "2023-03-28T02:59:54Z",
+            "mergedAt": "2023-03-28T03:00:07Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/samplesheet.csv"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/Picard_CollectAlignmentSummaryMetrics.nf"
+                },
+                {
+                  "path": "modules/local/Picard_QualityScoreDistribution.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/mosdepth/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/mosdepth/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/picard/collectwgsmetrics/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/picard/collectwgsmetrics/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/trimmomatic/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/trimmomatic/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "test_results/bwa/bwa/hg38_full_analysis_set_plus_decoy_hla_chr20_X_Y_MT.fa.amb"
+                },
+                {
+                  "path": "test_results/bwa/bwa/hg38_full_analysis_set_plus_decoy_hla_chr20_X_Y_MT.fa.ann"
+                },
+                {
+                  "path": "test_results/bwa/bwa/hg38_full_analysis_set_plus_decoy_hla_chr20_X_Y_MT.fa.bwt"
+                },
+                {
+                  "path": "test_results/bwa/bwa/hg38_full_analysis_set_plus_decoy_hla_chr20_X_Y_MT.fa.pac"
+                },
+                {
+                  "path": "test_results/bwa/bwa/hg38_full_analysis_set_plus_decoy_hla_chr20_X_Y_MT.fa.sa"
+                },
+                {
+                  "path": "test_results/fastqc/HG00446_T1_1_fastqc.html"
+                },
+                {
+                  "path": "test_results/fastqc/HG00446_T1_1_fastqc.zip"
+                },
+                {
+                  "path": "test_results/fastqc/HG00446_T1_2_fastqc.html"
+                },
+                {
+                  "path": "test_results/fastqc/HG00446_T1_2_fastqc.zip"
+                },
+                {
+                  "path": "test_results/fastqc/NA12718_T1_1_fastqc.html"
+                },
+                {
+                  "path": "test_results/fastqc/NA12718_T1_1_fastqc.zip"
+                },
+                {
+                  "path": "test_results/fastqc/NA12718_T1_2_fastqc.html"
+                },
+                {
+                  "path": "test_results/fastqc/NA12718_T1_2_fastqc.zip"
+                },
+                {
+                  "path": "test_results/fastqc/NA12878mito_T1_1_fastqc.html"
+                },
+                {
+                  "path": "test_results/fastqc/NA12878mito_T1_1_fastqc.zip"
+                },
+                {
+                  "path": "test_results/fastqc/NA12878mito_T1_2_fastqc.html"
+                },
+                {
+                  "path": "test_results/fastqc/NA12878mito_T1_2_fastqc.zip"
+                },
+                {
+                  "path": "test_results/fastqc/NA18549_T1_1_fastqc.html"
+                },
+                {
+                  "path": "test_results/fastqc/NA18549_T1_1_fastqc.zip"
+                },
+                {
+                  "path": "test_results/fastqc/NA18549_T1_2_fastqc.html"
+                },
+                {
+                  "path": "test_results/fastqc/NA18549_T1_2_fastqc.zip"
+                },
+                {
+                  "path": "test_results/fastqc/NA20757_T1_1_fastqc.html"
+                },
+                {
+                  "path": "test_results/fastqc/NA20757_T1_1_fastqc.zip"
+                },
+                {
+                  "path": "test_results/fastqc/NA20757_T1_2_fastqc.html"
+                },
+                {
+                  "path": "test_results/fastqc/NA20757_T1_2_fastqc.zip"
+                },
+                {
+                  "path": "test_results/fastqc/NA20769_T1_1_fastqc.html"
+                },
+                {
+                  "path": "test_results/fastqc/NA20769_T1_1_fastqc.zip"
+                },
+                {
+                  "path": "test_results/fastqc/NA20769_T1_2_fastqc.html"
+                },
+                {
+                  "path": "test_results/fastqc/NA20769_T1_2_fastqc.zip"
+                },
+                {
+                  "path": "test_results/fastqc/SAMPLE1_PE_T1_1_fastqc.html"
+                },
+                {
+                  "path": "test_results/fastqc/SAMPLE1_PE_T1_1_fastqc.zip"
+                },
+                {
+                  "path": "test_results/fastqc/SAMPLE1_PE_T1_2_fastqc.html"
+                },
+                {
+                  "path": "test_results/fastqc/SAMPLE1_PE_T1_2_fastqc.zip"
+                },
+                {
+                  "path": "test_results/fastqc/SAMPLE2_PE_T1_1_fastqc.html"
+                },
+                {
+                  "path": "test_results/fastqc/SAMPLE2_PE_T1_1_fastqc.zip"
+                },
+                {
+                  "path": "test_results/fastqc/SAMPLE2_PE_T1_2_fastqc.html"
+                },
+                {
+                  "path": "test_results/fastqc/SAMPLE2_PE_T1_2_fastqc.zip"
+                },
+                {
+                  "path": "test_results/fastqc/SAMPLE3_SE_T1_fastqc.html"
+                },
+                {
+                  "path": "test_results/fastqc/SAMPLE3_SE_T1_fastqc.zip"
+                },
+                {
+                  "path": "test_results/fastqc/SAMPLE3_SE_T2_fastqc.html"
+                },
+                {
+                  "path": "test_results/fastqc/SAMPLE3_SE_T2_fastqc.zip"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_report_2023-03-28_02-20-14.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_report_2023-03-28_02-24-42.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_report_2023-03-28_02-27-26.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_report_2023-03-28_02-36-25.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_report_2023-03-28_02-40-15.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_report_2023-03-28_02-42-24.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_report_2023-03-28_02-47-12.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_report_2023-03-28_02-54-59.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_timeline_2023-03-28_02-20-14.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_timeline_2023-03-28_02-24-42.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_timeline_2023-03-28_02-27-26.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_timeline_2023-03-28_02-36-25.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_timeline_2023-03-28_02-40-15.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_timeline_2023-03-28_02-42-24.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_timeline_2023-03-28_02-47-12.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_timeline_2023-03-28_02-54-59.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_trace_2023-03-28_01-49-25.txt"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_trace_2023-03-28_01-50-35.txt"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_trace_2023-03-28_02-00-46.txt"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_trace_2023-03-28_02-03-59.txt"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_trace_2023-03-28_02-06-28.txt"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_trace_2023-03-28_02-14-57.txt"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_trace_2023-03-28_02-17-30.txt"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_trace_2023-03-28_02-19-28.txt"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_trace_2023-03-28_02-20-14.txt"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_trace_2023-03-28_02-24-42.txt"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_trace_2023-03-28_02-27-26.txt"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_trace_2023-03-28_02-36-25.txt"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_trace_2023-03-28_02-40-15.txt"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_trace_2023-03-28_02-42-24.txt"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_trace_2023-03-28_02-47-12.txt"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_trace_2023-03-28_02-51-42.txt"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_trace_2023-03-28_02-52-25.txt"
+                },
+                {
+                  "path": "test_results/pipeline_info/execution_trace_2023-03-28_02-54-59.txt"
+                },
+                {
+                  "path": "test_results/pipeline_info/pipeline_dag_2023-03-28_02-20-14.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/pipeline_dag_2023-03-28_02-24-42.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/pipeline_dag_2023-03-28_02-27-26.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/pipeline_dag_2023-03-28_02-36-25.html"
+                },
+                {
+                  "path": "test_results/pipeline_info/pipeline_dag_2023-03-28_02-40-15.html"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1,
+            "title": "Added mapping subworkflow",
+            "state": "MERGED",
+            "createdAt": "2023-03-28T01:28:06Z",
+            "mergedAt": "2023-03-28T01:28:14Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "workflows/variantcatalogue.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,891 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 34,
+            "title": "Getting run time error. Is there any way to change the settings?",
+            "state": "CLOSED",
+            "createdAt": "2023-09-01T16:21:51Z",
+            "closedAt": "2023-11-16T13:38:34Z",
+            "author": {
+              "login": "ModiShrushti"
+            }
+          },
+          {
+            "number": 33,
+            "title": "Problem while trying to run the Dry Run",
+            "state": "CLOSED",
+            "createdAt": "2023-03-29T17:25:46Z",
+            "closedAt": "2023-09-18T12:45:16Z",
+            "author": {
+              "login": "brgonzlez"
+            }
+          },
+          {
+            "number": 32,
+            "title": "New in the latest github version, but not yet in the release",
+            "state": "OPEN",
+            "createdAt": "2023-03-10T14:23:43Z",
+            "closedAt": null,
+            "author": {
+              "login": "sneuensc"
+            }
+          },
+          {
+            "number": 31,
+            "title": "Snakemake error with Imputation",
+            "state": "CLOSED",
+            "createdAt": "2022-09-02T07:27:16Z",
+            "closedAt": "2022-09-02T09:47:10Z",
+            "author": {
+              "login": "teepean"
+            }
+          },
+          {
+            "number": 26,
+            "title": "TODO",
+            "state": "CLOSED",
+            "createdAt": "2021-10-29T06:49:48Z",
+            "closedAt": "2021-10-29T11:16:35Z",
+            "author": {
+              "login": "sneuensc"
+            }
+          },
+          {
+            "number": 10,
+            "title": "Next steps",
+            "state": "CLOSED",
+            "createdAt": "2021-08-23T12:48:08Z",
+            "closedAt": "2023-03-10T14:24:17Z",
+            "author": {
+              "login": "dianaicd"
+            }
+          },
+          {
+            "number": 9,
+            "title": "issues loading python packages",
+            "state": "CLOSED",
+            "createdAt": "2021-08-23T11:45:21Z",
+            "closedAt": "2021-08-23T11:45:46Z",
+            "author": {
+              "login": "dianaicd"
+            }
+          },
+          {
+            "number": 6,
+            "title": "issues while trying to run with test dataset",
+            "state": "CLOSED",
+            "createdAt": "2021-06-17T08:31:37Z",
+            "closedAt": "2021-06-17T12:50:45Z",
+            "author": {
+              "login": "dianaicd"
+            }
+          },
+          {
+            "number": 5,
+            "title": "test the pipeline with real data + comment",
+            "state": "CLOSED",
+            "createdAt": "2021-06-08T09:56:02Z",
+            "closedAt": "2023-03-10T14:14:28Z",
+            "author": {
+              "login": "sapfo"
+            }
+          },
+          {
+            "number": 4,
+            "title": "wiki documentation: to improve?",
+            "state": "CLOSED",
+            "createdAt": "2021-06-08T09:53:16Z",
+            "closedAt": "2023-03-10T14:13:56Z",
+            "author": {
+              "login": "sapfo"
+            }
+          },
+          {
+            "number": 3,
+            "title": "log on screen: typo",
+            "state": "CLOSED",
+            "createdAt": "2021-06-08T09:16:30Z",
+            "closedAt": "2021-06-08T09:48:13Z",
+            "author": {
+              "login": "sapfo"
+            }
+          },
+          {
+            "number": 2,
+            "title": "conda activate base-mamba failed",
+            "state": "CLOSED",
+            "createdAt": "2021-06-01T06:58:23Z",
+            "closedAt": "2023-03-10T14:13:27Z",
+            "author": {
+              "login": "sapfo"
+            }
+          },
+          {
+            "number": 1,
+            "title": "try the software! ",
+            "state": "CLOSED",
+            "createdAt": "2021-05-31T08:13:23Z",
+            "closedAt": "2021-06-08T09:48:19Z",
+            "author": {
+              "login": "sapfo"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 30,
+            "title": "Diana",
+            "state": "MERGED",
+            "createdAt": "2021-11-09T08:53:42Z",
+            "mergedAt": "2021-11-09T08:53:50Z",
+            "author": {
+              "login": "dianaicd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 29,
+            "title": "Diana",
+            "state": "MERGED",
+            "createdAt": "2021-11-08T21:55:26Z",
+            "mergedAt": "2021-11-08T21:56:01Z",
+            "author": {
+              "login": "dianaicd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_fastq.smk"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_index.smk"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_library.smk"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_sample.smk"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_stats.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/merge_stats_per_fastq.R"
+                },
+                {
+                  "path": "workflow/scripts/parse_fastqc.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 28,
+            "title": "Diana",
+            "state": "MERGED",
+            "createdAt": "2021-11-05T17:08:35Z",
+            "mergedAt": "2021-11-05T17:11:03Z",
+            "author": {
+              "login": "dianaicd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 27,
+            "title": "fixing bugs after testing the stats and figures parameters",
+            "state": "MERGED",
+            "createdAt": "2021-11-02T09:05:57Z",
+            "mergedAt": "2021-11-02T09:12:36Z",
+            "author": {
+              "login": "dianaicd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_stats.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/plot_stats.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 25,
+            "title": " crucial stats are computed when requesting mapping only",
+            "state": "MERGED",
+            "createdAt": "2021-10-19T13:50:42Z",
+            "mergedAt": "2021-10-19T13:50:53Z",
+            "author": {
+              "login": "dianaicd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_stats.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/plot_stats.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 24,
+            "title": "Diana",
+            "state": "MERGED",
+            "createdAt": "2021-10-18T15:30:48Z",
+            "mergedAt": "2021-10-18T15:30:55Z",
+            "author": {
+              "login": "dianaicd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/Snakefile_stats.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/plot_bamdamage.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 23,
+            "title": "Diana",
+            "state": "MERGED",
+            "createdAt": "2021-10-18T15:00:16Z",
+            "mergedAt": "2021-10-18T15:01:48Z",
+            "author": {
+              "login": "dianaicd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_stats.smk"
+                },
+                {
+                  "path": "workflow/scripts/assign_sex.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_stats.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 22,
+            "title": "Diana",
+            "state": "MERGED",
+            "createdAt": "2021-10-18T09:46:33Z",
+            "mergedAt": "2021-10-18T09:46:39Z",
+            "author": {
+              "login": "dianaicd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/Snakefile_stats.smk"
+                },
+                {
+                  "path": "workflow/scripts/merge_stats_per_LB.R"
+                },
+                {
+                  "path": "workflow/scripts/merge_stats_per_SM.R"
+                },
+                {
+                  "path": "workflow/scripts/merge_stats_per_fastq.R"
+                },
+                {
+                  "path": "workflow/scripts/parse_fastqc.r"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 21,
+            "title": "updating sex inference",
+            "state": "MERGED",
+            "createdAt": "2021-10-18T09:12:24Z",
+            "mergedAt": "2021-10-18T09:12:33Z",
+            "author": {
+              "login": "dianaicd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_index.smk"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_stats.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/assign_sex.R"
+                },
+                {
+                  "path": "workflow/scripts/sex_assignation.r"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 20,
+            "title": "merging all tables from different genomes; merging plots too; adding …",
+            "state": "MERGED",
+            "createdAt": "2021-10-14T15:34:59Z",
+            "mergedAt": "2021-10-14T15:35:10Z",
+            "author": {
+              "login": "dianaicd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_stats.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/plot_stats.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 19,
+            "title": "plots and other tables moved to 04_statsfolder; plots should now be i…",
+            "state": "MERGED",
+            "createdAt": "2021-10-13T21:17:56Z",
+            "mergedAt": "2021-10-13T21:18:03Z",
+            "author": {
+              "login": "dianaicd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_stats.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 18,
+            "title": "do not request final_stats, as the new stats names need to be updated",
+            "state": "MERGED",
+            "createdAt": "2021-10-12T12:26:29Z",
+            "mergedAt": "2021-10-12T12:26:36Z",
+            "author": {
+              "login": "dianaicd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 17,
+            "title": "some plots are added",
+            "state": "MERGED",
+            "createdAt": "2021-09-24T15:04:35Z",
+            "mergedAt": "2021-09-24T15:04:43Z",
+            "author": {
+              "login": "dianaicd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_stats.smk"
+                },
+                {
+                  "path": "workflow/scripts/plot_stats.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 16,
+            "title": "first plot added (number of raw reads)",
+            "state": "MERGED",
+            "createdAt": "2021-09-24T13:36:01Z",
+            "mergedAt": "2021-09-24T13:36:11Z",
+            "author": {
+              "login": "dianaicd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_stats.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/merge_stats_per_LB.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_stats.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 15,
+            "title": "add tables with depth by chromosome",
+            "state": "MERGED",
+            "createdAt": "2021-09-24T12:26:01Z",
+            "mergedAt": "2021-09-24T12:26:10Z",
+            "author": {
+              "login": "dianaicd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_stats.smk"
+                },
+                {
+                  "path": "workflow/scripts/depth_by_chr.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 14,
+            "title": "R package fastqcr is no longer needed",
+            "state": "MERGED",
+            "createdAt": "2021-09-24T11:37:44Z",
+            "mergedAt": "2021-09-24T11:37:54Z",
+            "author": {
+              "login": "dianaicd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/scripts/merge_stats_per_LB.R"
+                },
+                {
+                  "path": "workflow/scripts/merge_stats_per_SM.R"
+                },
+                {
+                  "path": "workflow/scripts/merge_stats_per_fastq.R"
+                },
+                {
+                  "path": "workflow/scripts/parse_fastqc.r"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 13,
+            "title": "adding fixes; stats and bamdamage should work, but not the plotting",
+            "state": "MERGED",
+            "createdAt": "2021-09-23T17:04:05Z",
+            "mergedAt": "2021-09-23T17:04:19Z",
+            "author": {
+              "login": "dianaicd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_fastq.smk"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_stats.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/merge_stats_per_fastq.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 12,
+            "title": "adding bamdamage as output of the stats file",
+            "state": "MERGED",
+            "createdAt": "2021-09-23T13:22:10Z",
+            "mergedAt": "2021-09-23T13:22:20Z",
+            "author": {
+              "login": "dianaicd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_stats.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 11,
+            "title": "Dev2",
+            "state": "MERGED",
+            "createdAt": "2021-08-23T12:52:41Z",
+            "mergedAt": "2021-08-23T12:53:11Z",
+            "author": {
+              "login": "dianaicd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "LICENSE.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "mapache-env.yaml"
+                },
+                {
+                  "path": "slurm/settings.json"
+                },
+                {
+                  "path": "wally2/__pycache__/scheduler.cpython-35.pyc"
+                },
+                {
+                  "path": "wally2/__pycache__/scheduler.cpython-38.pyc"
+                },
+                {
+                  "path": "wally2/__pycache__/scheduler.cpython-39.pyc"
+                },
+                {
+                  "path": "wally2/config.yaml"
+                },
+                {
+                  "path": "wally2/partitions.yaml"
+                },
+                {
+                  "path": "wally2/scheduler.py"
+                },
+                {
+                  "path": "wally2/slurm.yaml"
+                },
+                {
+                  "path": "wally2/status.py"
+                },
+                {
+                  "path": "wally2/submit.py"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/bedtools.yaml"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_fastq.smk"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_index.smk"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_library.smk"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_sample.smk"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_stats.smk"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_stats_sam.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/scripts/bowtie2_indexing.py"
+                },
+                {
+                  "path": "workflow/scripts/bwa_indexing.py"
+                },
+                {
+                  "path": "workflow/scripts/create_summary_tables.py"
+                },
+                {
+                  "path": "workflow/scripts/depth_concat.py"
+                },
+                {
+                  "path": "workflow/scripts/merge_stats_per_LB.R"
+                },
+                {
+                  "path": "workflow/scripts/merge_stats_per_SM.R"
+                },
+                {
+                  "path": "workflow/scripts/merge_stats_per_fastq.R"
+                },
+                {
+                  "path": "workflow/scripts/picard_indexing.py"
+                },
+                {
+                  "path": "workflow/scripts/plot_stats.R"
+                },
+                {
+                  "path": "workflow/scripts/read_length.pl"
+                },
+                {
+                  "path": "workflow/scripts/samtools_indexing.py"
+                },
+                {
+                  "path": "workflow/scripts/sex_assignation.r"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 8,
+            "title": "Dev",
+            "state": "MERGED",
+            "createdAt": "2021-07-02T14:04:34Z",
+            "mergedAt": "2021-07-02T14:04:42Z",
+            "author": {
+              "login": "sneuensc"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "slurm/config.yaml"
+                },
+                {
+                  "path": "slurm/settings.json"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/bedtools.yaml"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_stats.smk"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_stats_sam.smk"
+                },
+                {
+                  "path": "workflow/scripts/merge_stats_per_LB.R"
+                },
+                {
+                  "path": "workflow/scripts/merge_stats_per_SM.R"
+                },
+                {
+                  "path": "workflow/scripts/merge_stats_per_fastq.R"
+                },
+                {
+                  "path": "workflow/scripts/plot_stats.R"
+                },
+                {
+                  "path": "workflow/scripts/read_length.pl"
+                },
+                {
+                  "path": "workflow/scripts/sex_assignation.r"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 7,
+            "title": "Diana",
+            "state": "MERGED",
+            "createdAt": "2021-06-25T05:33:33Z",
+            "mergedAt": "2021-06-25T05:53:39Z",
+            "author": {
+              "login": "sneuensc"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_stats_diana.smk"
+                },
+                {
+                  "path": "workflow/scripts/merge_stats_per_LB.R"
+                },
+                {
+                  "path": "workflow/scripts/merge_stats_per_SM.R"
+                },
+                {
+                  "path": "workflow/scripts/merge_stats_per_fastq.R"
+                },
+                {
+                  "path": "workflow/scripts/read_length.pl"
+                },
+                {
+                  "path": "workflow/scripts/sex_assignation.r"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

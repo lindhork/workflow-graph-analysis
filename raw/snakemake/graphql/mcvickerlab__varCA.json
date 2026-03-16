@@ -1,0 +1,960 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 56,
+            "title": "Multiple VCF files output instead of merged vcf",
+            "state": "CLOSED",
+            "createdAt": "2025-03-12T15:06:44Z",
+            "closedAt": "2025-03-12T19:47:06Z",
+            "author": {
+              "login": "msalamon2"
+            }
+          },
+          {
+            "number": 54,
+            "title": "Issue missing input files for rule align",
+            "state": "CLOSED",
+            "createdAt": "2025-03-03T17:09:51Z",
+            "closedAt": "2025-03-05T21:34:34Z",
+            "author": {
+              "login": "msalamon2"
+            }
+          },
+          {
+            "number": 52,
+            "title": "mamba",
+            "state": "CLOSED",
+            "createdAt": "2023-06-29T13:34:07Z",
+            "closedAt": "2025-09-10T12:25:52Z",
+            "author": {
+              "login": "portbo"
+            }
+          },
+          {
+            "number": 51,
+            "title": "Error in rule predict",
+            "state": "CLOSED",
+            "createdAt": "2023-03-08T02:44:25Z",
+            "closedAt": "2023-05-04T03:18:42Z",
+            "author": {
+              "login": "silentFUSU"
+            }
+          },
+          {
+            "number": 47,
+            "title": "ERROR conda.core.link:_execute(730)",
+            "state": "OPEN",
+            "createdAt": "2022-07-08T17:20:27Z",
+            "closedAt": null,
+            "author": {
+              "login": "xuanxuan-Jin"
+            }
+          },
+          {
+            "number": 46,
+            "title": "Exit (1) error when running pipeline using example data.",
+            "state": "OPEN",
+            "createdAt": "2022-06-23T16:50:26Z",
+            "closedAt": null,
+            "author": {
+              "login": "rm1238"
+            }
+          },
+          {
+            "number": 43,
+            "title": "add GT info to the VCFs",
+            "state": "OPEN",
+            "createdAt": "2022-04-01T19:42:08Z",
+            "closedAt": null,
+            "author": {
+              "login": "shinlin77"
+            }
+          },
+          {
+            "number": 42,
+            "title": "VarDict-java produces malformed VCF",
+            "state": "CLOSED",
+            "createdAt": "2022-03-02T18:22:37Z",
+            "closedAt": "2022-06-14T15:10:02Z",
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 41,
+            "title": "handling a scATAC custom reference genome from 10x",
+            "state": "OPEN",
+            "createdAt": "2022-02-19T18:06:41Z",
+            "closedAt": null,
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 40,
+            "title": "Not all of the samples requested have provided input",
+            "state": "OPEN",
+            "createdAt": "2021-09-09T12:21:21Z",
+            "closedAt": null,
+            "author": {
+              "login": "umasstr"
+            }
+          },
+          {
+            "number": 39,
+            "title": "warn or error gracefully if index files don't exist",
+            "state": "OPEN",
+            "createdAt": "2021-09-03T15:56:05Z",
+            "closedAt": null,
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 38,
+            "title": "Error: \"An output file is marked as pipe, but consuming jobs are part of conflicting groups.\"",
+            "state": "OPEN",
+            "createdAt": "2021-08-12T12:57:39Z",
+            "closedAt": null,
+            "author": {
+              "login": "Rubbert"
+            }
+          },
+          {
+            "number": 37,
+            "title": "Single-end support",
+            "state": "OPEN",
+            "createdAt": "2021-08-04T10:11:08Z",
+            "closedAt": null,
+            "author": {
+              "login": "Rubbert"
+            }
+          },
+          {
+            "number": 35,
+            "title": "comply with snakemake standards",
+            "state": "OPEN",
+            "createdAt": "2021-07-14T22:15:16Z",
+            "closedAt": null,
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 33,
+            "title": "a smaller test dataset",
+            "state": "OPEN",
+            "createdAt": "2021-07-04T17:35:20Z",
+            "closedAt": null,
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 30,
+            "title": "prepare.yml environment yields conflicts with strict channel_priority",
+            "state": "OPEN",
+            "createdAt": "2021-06-26T18:57:31Z",
+            "closedAt": null,
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 29,
+            "title": "make channel specifications in environment files explicit",
+            "state": "CLOSED",
+            "createdAt": "2021-06-24T22:19:26Z",
+            "closedAt": "2021-07-04T00:23:40Z",
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 28,
+            "title": "2vcf.py exits with a non-zero exit code when executed by snakemake",
+            "state": "CLOSED",
+            "createdAt": "2021-04-15T23:43:32Z",
+            "closedAt": "2021-07-03T23:31:19Z",
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 25,
+            "title": "Varscan generates a REF allele that is not compatible with GATK.",
+            "state": "CLOSED",
+            "createdAt": "2021-03-13T12:32:26Z",
+            "closedAt": "2021-07-01T16:19:27Z",
+            "author": {
+              "login": "lindenb"
+            }
+          },
+          {
+            "number": 24,
+            "title": "Vardict error.",
+            "state": "OPEN",
+            "createdAt": "2021-03-12T22:34:42Z",
+            "closedAt": null,
+            "author": {
+              "login": "lindenb"
+            }
+          },
+          {
+            "number": 23,
+            "title": "ChildIOException: File/directory is a child to another output:",
+            "state": "CLOSED",
+            "createdAt": "2021-03-12T18:01:19Z",
+            "closedAt": "2021-07-04T02:26:27Z",
+            "author": {
+              "login": "lindenb"
+            }
+          },
+          {
+            "number": 22,
+            "title": "Classification model for mouse?",
+            "state": "CLOSED",
+            "createdAt": "2021-03-01T07:16:56Z",
+            "closedAt": "2021-03-02T00:56:32Z",
+            "author": {
+              "login": "YiweiNiu"
+            }
+          },
+          {
+            "number": 21,
+            "title": "excessive memory usage when predicting variants",
+            "state": "OPEN",
+            "createdAt": "2020-10-26T23:26:53Z",
+            "closedAt": null,
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 20,
+            "title": "ldpaths error when using prepare.yaml conda env",
+            "state": "OPEN",
+            "createdAt": "2020-10-23T04:45:16Z",
+            "closedAt": null,
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 19,
+            "title": "only install the necessary variant caller dependencies",
+            "state": "OPEN",
+            "createdAt": "2020-07-15T22:44:14Z",
+            "closedAt": null,
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 18,
+            "title": "snakemake validation",
+            "state": "OPEN",
+            "createdAt": "2020-06-30T15:17:06Z",
+            "closedAt": null,
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 17,
+            "title": "skip rmdups and peak calling steps if input is BAM",
+            "state": "CLOSED",
+            "createdAt": "2020-06-26T22:10:14Z",
+            "closedAt": "2020-06-27T16:18:35Z",
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 15,
+            "title": "create a snakemake file for running both pipelines all at once",
+            "state": "CLOSED",
+            "createdAt": "2020-06-10T00:41:50Z",
+            "closedAt": "2020-06-27T16:18:35Z",
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 14,
+            "title": "run the post-processing steps in the prepare pipeline in parallel",
+            "state": "OPEN",
+            "createdAt": "2020-06-09T18:15:17Z",
+            "closedAt": null,
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 13,
+            "title": "write a script for calculating the following stats on each atac seq cell line",
+            "state": "CLOSED",
+            "createdAt": "2020-04-14T00:25:02Z",
+            "closedAt": "2020-06-27T15:01:29Z",
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 12,
+            "title": "change sge mode in strelka config script",
+            "state": "CLOSED",
+            "createdAt": "2020-04-14T00:18:28Z",
+            "closedAt": "2020-06-04T22:42:23Z",
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 11,
+            "title": "add genotypes (GT field) to final vcf",
+            "state": "CLOSED",
+            "createdAt": "2020-04-13T23:08:55Z",
+            "closedAt": "2022-04-16T12:44:30Z",
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 10,
+            "title": "update dependencies and freeze them",
+            "state": "CLOSED",
+            "createdAt": "2020-04-13T20:36:50Z",
+            "closedAt": "2020-06-27T16:18:35Z",
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 9,
+            "title": "example data",
+            "state": "CLOSED",
+            "createdAt": "2020-04-13T20:28:48Z",
+            "closedAt": "2020-06-27T16:18:35Z",
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 8,
+            "title": "docker",
+            "state": "CLOSED",
+            "createdAt": "2020-04-13T20:25:34Z",
+            "closedAt": "2020-06-27T16:18:34Z",
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 7,
+            "title": "output figures in a snakemake report",
+            "state": "OPEN",
+            "createdAt": "2020-01-05T20:23:04Z",
+            "closedAt": null,
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 6,
+            "title": "output in VCF format",
+            "state": "CLOSED",
+            "createdAt": "2019-12-09T18:01:48Z",
+            "closedAt": "2020-06-27T16:18:34Z",
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 5,
+            "title": "create READMEs for the snakemake pipelines",
+            "state": "CLOSED",
+            "createdAt": "2019-08-22T15:17:39Z",
+            "closedAt": "2019-12-07T22:47:10Z",
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 2,
+            "title": "don't use gatk selectvariants + allow varca to output SNVs and indels in the same VCF",
+            "state": "OPEN",
+            "createdAt": "2019-07-15T16:26:17Z",
+            "closedAt": null,
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 3,
+            "title": "varscan precision recall curve",
+            "state": "CLOSED",
+            "createdAt": "2019-07-12T16:58:45Z",
+            "closedAt": "2019-09-10T02:32:24Z",
+            "author": {
+              "login": "aryarm"
+            }
+          },
+          {
+            "number": 4,
+            "title": "making manta and strelka less picky",
+            "state": "CLOSED",
+            "createdAt": "2019-07-12T16:25:48Z",
+            "closedAt": "2020-04-14T00:32:22Z",
+            "author": {
+              "login": "aryarm"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 55,
+            "title": "docs: explain where to find pre-trained models",
+            "state": "MERGED",
+            "createdAt": "2025-03-05T21:31:36Z",
+            "mergedAt": "2025-03-05T21:34:33Z",
+            "author": {
+              "login": "aryarm"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "configs/README.md"
+                },
+                {
+                  "path": "configs/config.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 54
+                }
+              ]
+            }
+          },
+          {
+            "number": 44,
+            "title": "handle vardict iupac ambiguity codes",
+            "state": "MERGED",
+            "createdAt": "2022-06-14T14:40:56Z",
+            "mergedAt": "2022-06-14T15:10:02Z",
+            "author": {
+              "login": "aryarm"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "callers/vardict"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 42
+                }
+              ]
+            }
+          },
+          {
+            "number": 36,
+            "title": "add citation info",
+            "state": "MERGED",
+            "createdAt": "2021-07-27T19:29:59Z",
+            "mergedAt": "2021-08-02T18:22:26Z",
+            "author": {
+              "login": "aryarm"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CITATION.cff"
+                },
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 34,
+            "title": "create contributing guidelines",
+            "state": "MERGED",
+            "createdAt": "2021-07-09T14:35:42Z",
+            "mergedAt": "2021-07-09T14:50:40Z",
+            "author": {
+              "login": "aryarm"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CONTRIBUTING.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 32,
+            "title": "explicit channel specifications",
+            "state": "MERGED",
+            "createdAt": "2021-07-02T20:31:28Z",
+            "mergedAt": "2021-07-04T00:23:40Z",
+            "author": {
+              "login": "aryarm"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "envs/classify.yml"
+                },
+                {
+                  "path": "envs/prc.yml"
+                },
+                {
+                  "path": "envs/prepare.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 29
+                }
+              ]
+            }
+          },
+          {
+            "number": 31,
+            "title": "remove non-zero exit code from 2vcf.py snakemake rule",
+            "state": "MERGED",
+            "createdAt": "2021-07-02T20:24:50Z",
+            "mergedAt": "2021-07-03T23:31:19Z",
+            "author": {
+              "login": "aryarm"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "rules/classify.smk"
+                },
+                {
+                  "path": "rules/prepare.smk"
+                },
+                {
+                  "path": "scripts/2vcf.py"
+                },
+                {
+                  "path": "scripts/README.md"
+                },
+                {
+                  "path": "scripts/allele_conflicts.bash"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 28
+                }
+              ]
+            }
+          },
+          {
+            "number": 27,
+            "title": "update install instructions",
+            "state": "OPEN",
+            "createdAt": "2021-04-06T18:41:23Z",
+            "mergedAt": null,
+            "author": {
+              "login": "aryarm"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "callers/README.md"
+                },
+                {
+                  "path": "callers/pindel"
+                },
+                {
+                  "path": "callers/varscan"
+                },
+                {
+                  "path": "configs/classify.yaml"
+                },
+                {
+                  "path": "configs/config.yaml"
+                },
+                {
+                  "path": "configs/prepare.yaml"
+                },
+                {
+                  "path": "envs/classify.yml"
+                },
+                {
+                  "path": "envs/prc.yml"
+                },
+                {
+                  "path": "envs/prepare.yml"
+                },
+                {
+                  "path": "rules/README.md"
+                },
+                {
+                  "path": "rules/classify.smk"
+                },
+                {
+                  "path": "rules/prepare.smk"
+                },
+                {
+                  "path": "scripts/2vcf.py"
+                },
+                {
+                  "path": "scripts/README.md"
+                },
+                {
+                  "path": "scripts/allele_conflicts.bash"
+                },
+                {
+                  "path": "scripts/create_test_data.bash"
+                },
+                {
+                  "path": "scripts/fillna.bash"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 26,
+            "title": "handle varscan iupac ambiguity codes",
+            "state": "MERGED",
+            "createdAt": "2021-03-27T16:24:11Z",
+            "mergedAt": "2021-07-01T16:19:26Z",
+            "author": {
+              "login": "aryarm"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "callers/varscan"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 25
+                }
+              ]
+            }
+          },
+          {
+            "number": 16,
+            "title": "convert final pipeline output to vcf",
+            "state": "MERGED",
+            "createdAt": "2020-06-18T17:47:01Z",
+            "mergedAt": "2020-06-27T16:18:34Z",
+            "author": {
+              "login": "aryarm"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "callers/README.md"
+                },
+                {
+                  "path": "callers/breakca"
+                },
+                {
+                  "path": "callers/gatk-indel"
+                },
+                {
+                  "path": "callers/gatk-snp"
+                },
+                {
+                  "path": "callers/illumina"
+                },
+                {
+                  "path": "callers/illumina-manta"
+                },
+                {
+                  "path": "callers/illumina-strelka"
+                },
+                {
+                  "path": "callers/pg"
+                },
+                {
+                  "path": "callers/pg-indel"
+                },
+                {
+                  "path": "callers/pg-snp"
+                },
+                {
+                  "path": "callers/pindel"
+                },
+                {
+                  "path": "callers/vardict-indel"
+                },
+                {
+                  "path": "callers/vardict-snp"
+                },
+                {
+                  "path": "callers/varscan-indel"
+                },
+                {
+                  "path": "callers/varscan-snp"
+                },
+                {
+                  "path": "configs/README.md"
+                },
+                {
+                  "path": "configs/callers.yaml"
+                },
+                {
+                  "path": "configs/classify.yaml"
+                },
+                {
+                  "path": "configs/config.yaml"
+                },
+                {
+                  "path": "configs/configManta.py.ini"
+                },
+                {
+                  "path": "configs/configureStrelkaGermlineWorkflow.py.ini"
+                },
+                {
+                  "path": "configs/prepare.yaml"
+                },
+                {
+                  "path": "envs/classify.yml"
+                },
+                {
+                  "path": "envs/prc.yml"
+                },
+                {
+                  "path": "envs/prepare.yml"
+                },
+                {
+                  "path": "rules/README.md"
+                },
+                {
+                  "path": "rules/classify.smk"
+                },
+                {
+                  "path": "rules/prepare.smk"
+                },
+                {
+                  "path": "run.bash"
+                },
+                {
+                  "path": "scripts/2vcf.py"
+                },
+                {
+                  "path": "scripts/README.md"
+                },
+                {
+                  "path": "scripts/predict_RF.R"
+                },
+                {
+                  "path": "scripts/statistics.py"
+                },
+                {
+                  "path": "scripts/train_RF.R"
+                },
+                {
+                  "path": "scripts/tune_plot.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 6
+                },
+                {
+                  "number": 8
+                },
+                {
+                  "number": 9
+                },
+                {
+                  "number": 10
+                },
+                {
+                  "number": 15
+                },
+                {
+                  "number": 17
+                }
+              ]
+            }
+          },
+          {
+            "number": 1,
+            "title": "combine this repo with the merge_callers repo",
+            "state": "MERGED",
+            "createdAt": "2019-08-16T18:14:50Z",
+            "mergedAt": "2019-08-16T18:15:04Z",
+            "author": {
+              "login": "aryarm"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "breakCA/calculate_posterior.R"
+                },
+                {
+                  "path": "breakCA/count_reads_per_base.R"
+                },
+                {
+                  "path": "breakCA/get_reads_from_bam.R"
+                },
+                {
+                  "path": "callers/README.md"
+                },
+                {
+                  "path": "callers/breakca"
+                },
+                {
+                  "path": "callers/delly"
+                },
+                {
+                  "path": "callers/gatk"
+                },
+                {
+                  "path": "callers/gatk-indel"
+                },
+                {
+                  "path": "callers/gatk-snp"
+                },
+                {
+                  "path": "callers/illumina"
+                },
+                {
+                  "path": "callers/illumina-manta"
+                },
+                {
+                  "path": "callers/illumina-strelka"
+                },
+                {
+                  "path": "callers/pg"
+                },
+                {
+                  "path": "callers/pg-indel"
+                },
+                {
+                  "path": "callers/pg-snp"
+                },
+                {
+                  "path": "callers/pindel"
+                },
+                {
+                  "path": "callers/vardict"
+                },
+                {
+                  "path": "callers/vardict-indel"
+                },
+                {
+                  "path": "callers/vardict-snp"
+                },
+                {
+                  "path": "callers/varscan"
+                },
+                {
+                  "path": "callers/varscan-indel"
+                },
+                {
+                  "path": "callers/varscan-snp"
+                },
+                {
+                  "path": "config.yaml"
+                },
+                {
+                  "path": "envs/env.yml"
+                },
+                {
+                  "path": "run.bash"
+                },
+                {
+                  "path": "scripts/README.md"
+                },
+                {
+                  "path": "scripts/classify.awk"
+                },
+                {
+                  "path": "scripts/configManta.py.ini"
+                },
+                {
+                  "path": "scripts/configureStrelkaGermlineWorkflow.py.ini"
+                },
+                {
+                  "path": "scripts/get_cols.bash"
+                },
+                {
+                  "path": "scripts/metrics.bash"
+                },
+                {
+                  "path": "scripts/prc-all.bash"
+                },
+                {
+                  "path": "scripts/prc.bash"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

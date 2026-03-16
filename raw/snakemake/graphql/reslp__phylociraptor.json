@@ -1,0 +1,1756 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 43,
+            "title": "Symlinks with absolute path after filtering",
+            "state": "CLOSED",
+            "createdAt": "2025-08-05T11:55:42Z",
+            "closedAt": "2025-08-06T12:30:00Z",
+            "author": {
+              "login": "reslp"
+            }
+          },
+          {
+            "number": 42,
+            "title": "Question regarding the pipeline",
+            "state": "OPEN",
+            "createdAt": "2025-05-20T07:54:52Z",
+            "closedAt": null,
+            "author": {
+              "login": "beerchen007"
+            }
+          },
+          {
+            "number": 41,
+            "title": "Small suggestion regarding the test case minimal",
+            "state": "OPEN",
+            "createdAt": "2025-05-20T07:47:39Z",
+            "closedAt": null,
+            "author": {
+              "login": "beerchen007"
+            }
+          },
+          {
+            "number": 35,
+            "title": "A small suggestion",
+            "state": "OPEN",
+            "createdAt": "2024-08-19T07:57:34Z",
+            "closedAt": null,
+            "author": {
+              "login": "deyuanyang"
+            }
+          },
+          {
+            "number": 34,
+            "title": "Setup results missing",
+            "state": "CLOSED",
+            "createdAt": "2024-05-07T10:00:46Z",
+            "closedAt": "2024-05-07T12:40:32Z",
+            "author": {
+              "login": "vrohnie"
+            }
+          },
+          {
+            "number": 33,
+            "title": "documentation in report-file",
+            "state": "OPEN",
+            "createdAt": "2024-02-16T10:18:05Z",
+            "closedAt": null,
+            "author": {
+              "login": "froehlichd"
+            }
+          },
+          {
+            "number": 32,
+            "title": "integration of compleasm as alternative to BUSCO",
+            "state": "OPEN",
+            "createdAt": "2023-11-22T10:22:23Z",
+            "closedAt": null,
+            "author": {
+              "login": "estolle"
+            }
+          },
+          {
+            "number": 28,
+            "title": "command line arguments of altered config parameters are not passed on correctly to snakemake",
+            "state": "OPEN",
+            "createdAt": "2022-12-05T14:21:19Z",
+            "closedAt": null,
+            "author": {
+              "login": "reslp"
+            }
+          },
+          {
+            "number": 27,
+            "title": "Plotting tree fails when there are NA support values",
+            "state": "CLOSED",
+            "createdAt": "2022-11-25T10:30:24Z",
+            "closedAt": "2023-02-06T14:38:39Z",
+            "author": {
+              "login": "reslp"
+            }
+          },
+          {
+            "number": 26,
+            "title": "Report fails when there are multiple BUSCO set directories",
+            "state": "CLOSED",
+            "createdAt": "2022-11-25T10:28:24Z",
+            "closedAt": "2023-09-20T13:39:49Z",
+            "author": {
+              "login": "reslp"
+            }
+          },
+          {
+            "number": 22,
+            "title": "njtree: Concatenate requires modeltest",
+            "state": "CLOSED",
+            "createdAt": "2022-03-29T11:47:38Z",
+            "closedAt": "2022-12-05T14:21:52Z",
+            "author": {
+              "login": "reslp"
+            }
+          },
+          {
+            "number": 18,
+            "title": "Aggregate best models does also incorporate older modeltest results which causes tree reconstructions to fail",
+            "state": "CLOSED",
+            "createdAt": "2022-02-04T16:18:44Z",
+            "closedAt": "2022-02-05T14:57:43Z",
+            "author": {
+              "login": "reslp"
+            }
+          },
+          {
+            "number": 17,
+            "title": "Locally provided gzipped files mess up the orthology step",
+            "state": "CLOSED",
+            "createdAt": "2022-02-04T16:12:10Z",
+            "closedAt": "2023-09-20T13:40:05Z",
+            "author": {
+              "login": "reslp"
+            }
+          },
+          {
+            "number": 16,
+            "title": "report: Genome download overview table header is wrongly formated",
+            "state": "CLOSED",
+            "createdAt": "2021-12-15T08:43:59Z",
+            "closedAt": "2022-12-05T14:22:07Z",
+            "author": {
+              "login": "reslp"
+            }
+          },
+          {
+            "number": 15,
+            "title": "check does not report speciestree correctly when finished",
+            "state": "CLOSED",
+            "createdAt": "2021-12-13T08:24:12Z",
+            "closedAt": "2022-01-31T13:59:48Z",
+            "author": {
+              "login": "reslp"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 40,
+            "title": "Update orthology.smk",
+            "state": "MERGED",
+            "createdAt": "2025-04-09T13:04:01Z",
+            "mergedAt": "2025-04-16T11:28:28Z",
+            "author": {
+              "login": "ddiazescandon"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "rules/orthology.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 39,
+            "title": "Add better support for unpartitioned analyses",
+            "state": "MERGED",
+            "createdAt": "2025-02-03T15:07:12Z",
+            "mergedAt": "2025-02-03T15:09:08Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/plot-conflict.R"
+                },
+                {
+                  "path": "bin/plot-heatmap.R"
+                },
+                {
+                  "path": "bin/plot-t2t-pca.R"
+                },
+                {
+                  "path": "bin/report.Rmd"
+                },
+                {
+                  "path": "data/config.yaml.template"
+                },
+                {
+                  "path": "docs/indepth/mltreeoptions.rst"
+                },
+                {
+                  "path": "docs/index.rst"
+                },
+                {
+                  "path": "phylociraptor"
+                },
+                {
+                  "path": "rules/bitree.smk"
+                },
+                {
+                  "path": "rules/functions.smk"
+                },
+                {
+                  "path": "rules/mltree.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 38,
+            "title": "Update recommended snakemake version to 7.32.4",
+            "state": "MERGED",
+            "createdAt": "2025-01-24T11:34:21Z",
+            "mergedAt": "2025-01-24T11:34:58Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "bin/libphylociraptor/check.py"
+                },
+                {
+                  "path": "bin/libphylociraptor/filehandling.py"
+                },
+                {
+                  "path": "bin/libphylociraptor/usageinfo.py"
+                },
+                {
+                  "path": "docs/introduction/installation.rst"
+                },
+                {
+                  "path": "phylociraptor"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 37,
+            "title": "This add a new logo for phylociraptor and updates the documentation",
+            "state": "MERGED",
+            "createdAt": "2025-01-17T10:13:26Z",
+            "mergedAt": "2025-01-17T10:14:02Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/_static/custom.css"
+                },
+                {
+                  "path": "docs/_templates/search.html"
+                },
+                {
+                  "path": "docs/conf.py"
+                },
+                {
+                  "path": "docs/getting-help/citation.rst"
+                },
+                {
+                  "path": "docs/getting-help/contact.rst"
+                },
+                {
+                  "path": "docs/getting-help/problems.rst"
+                },
+                {
+                  "path": "docs/images/logo.png"
+                },
+                {
+                  "path": "docs/images/logo_small.png"
+                },
+                {
+                  "path": "docs/images/logo_small.svg"
+                },
+                {
+                  "path": "docs/images/phylociraptor.png"
+                },
+                {
+                  "path": "docs/indepth/indepth.rst"
+                },
+                {
+                  "path": "docs/indepth/output.rst"
+                },
+                {
+                  "path": "docs/indepth/setup.rst"
+                },
+                {
+                  "path": "docs/indepth/util.rst"
+                },
+                {
+                  "path": "docs/index.rst"
+                },
+                {
+                  "path": "docs/introduction/about.rst"
+                },
+                {
+                  "path": "docs/introduction/citation.rst"
+                },
+                {
+                  "path": "docs/introduction/installation.rst"
+                },
+                {
+                  "path": "docs/introduction/quickstart.rst"
+                },
+                {
+                  "path": "docs/requirements.txt"
+                },
+                {
+                  "path": "docs/theme.css"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 36,
+            "title": "Changes made during the manuscript  revision process",
+            "state": "MERGED",
+            "createdAt": "2024-09-24T07:45:12Z",
+            "mergedAt": "2024-09-24T07:45:27Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".readthedocs.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "bin/create_sequence_files.py"
+                },
+                {
+                  "path": "bin/extract_orthofinder_table.py"
+                },
+                {
+                  "path": "bin/immediate-submit"
+                },
+                {
+                  "path": "bin/libphylociraptor/check.py"
+                },
+                {
+                  "path": "bin/libphylociraptor/hashing.py"
+                },
+                {
+                  "path": "bin/libphylociraptor/outfiles.py"
+                },
+                {
+                  "path": "bin/libphylociraptor/usageinfo.py"
+                },
+                {
+                  "path": "bin/plot-t2t-pca.R"
+                },
+                {
+                  "path": "bin/rename_sequences.py"
+                },
+                {
+                  "path": "bin/report.Rmd"
+                },
+                {
+                  "path": "data/cluster-config-SGE.yaml.template"
+                },
+                {
+                  "path": "data/cluster-config-SLURM.yaml.template"
+                },
+                {
+                  "path": "data/cluster-config-TORQUE.yaml.template"
+                },
+                {
+                  "path": "data/config.yaml.template"
+                },
+                {
+                  "path": "data/containers.yaml"
+                },
+                {
+                  "path": "data/test_cases/minimal/config.yaml"
+                },
+                {
+                  "path": "data/test_cases/orthofinder/README.md"
+                },
+                {
+                  "path": "data/test_cases/orthofinder/config.yaml"
+                },
+                {
+                  "path": "data/test_cases/orthofinder/protein_sets/Mycoplasma_agalactiae_5632_FP671138.faa"
+                },
+                {
+                  "path": "data/test_cases/orthofinder/protein_sets/Mycoplasma_genitalium_uid97_L43967.faa"
+                },
+                {
+                  "path": "data/test_cases/orthofinder/protein_sets/Mycoplasma_hyopneumoniae_AE017243.faa"
+                },
+                {
+                  "path": "data/test_cases/orthofinder/protein_sets/Mycoplasma_struthionis_GCF_003855455.1.faa"
+                },
+                {
+                  "path": "data/test_cases/orthofinder/protein_sets/Mycoplasma_tauri_GCF_016925555.1.faa"
+                },
+                {
+                  "path": "data/test_cases/orthofinder/small-example.tsv"
+                },
+                {
+                  "path": "data/test_cases/small/config.yaml"
+                },
+                {
+                  "path": "docs/indepth/MYALIGNER.smk"
+                },
+                {
+                  "path": "docs/indepth/MYALIGNER_final.smk"
+                },
+                {
+                  "path": "docs/indepth/add_tools.rst"
+                },
+                {
+                  "path": "docs/indepth/indepth.rst"
+                },
+                {
+                  "path": "docs/index.rst"
+                },
+                {
+                  "path": "docs/introduction/about.rst"
+                },
+                {
+                  "path": "phylociraptor"
+                },
+                {
+                  "path": "rules/align.smk"
+                },
+                {
+                  "path": "rules/aligners/clustalo.smk"
+                },
+                {
+                  "path": "rules/aligners/mafft.smk"
+                },
+                {
+                  "path": "rules/aligners/muscle.smk"
+                },
+                {
+                  "path": "rules/aligners/prank.smk"
+                },
+                {
+                  "path": "rules/aligners/tcoffee.smk"
+                },
+                {
+                  "path": "rules/bitree.smk"
+                },
+                {
+                  "path": "rules/concatenate.smk"
+                },
+                {
+                  "path": "rules/filter-align.smk"
+                },
+                {
+                  "path": "rules/filter-orthology.smk"
+                },
+                {
+                  "path": "rules/functions.smk"
+                },
+                {
+                  "path": "rules/mltree.smk"
+                },
+                {
+                  "path": "rules/modeltest.smk"
+                },
+                {
+                  "path": "rules/orthology.smk"
+                },
+                {
+                  "path": "rules/setup.smk"
+                },
+                {
+                  "path": "rules/trimmers/aliscore.smk"
+                },
+                {
+                  "path": "rules/trimmers/bmge.smk"
+                },
+                {
+                  "path": "rules/trimmers/clipkit.smk"
+                },
+                {
+                  "path": "rules/trimmers/trimal.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 31,
+            "title": "Add functionality for relative composition variability",
+            "state": "MERGED",
+            "createdAt": "2023-09-07T15:52:14Z",
+            "mergedAt": "2023-09-07T15:52:25Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/libphylociraptor/check.py"
+                },
+                {
+                  "path": "bin/libphylociraptor/hashing.py"
+                },
+                {
+                  "path": "bin/report.Rmd"
+                },
+                {
+                  "path": "data/config.yaml.template"
+                },
+                {
+                  "path": "data/containers.yaml"
+                },
+                {
+                  "path": "data/test_cases/minimal/README.md"
+                },
+                {
+                  "path": "data/test_cases/minimal/config.yaml"
+                },
+                {
+                  "path": "data/test_cases/small/README.md"
+                },
+                {
+                  "path": "data/test_cases/small/config.yaml"
+                },
+                {
+                  "path": "phylociraptor"
+                },
+                {
+                  "path": "rules/align.smk"
+                },
+                {
+                  "path": "rules/concatenate.smk"
+                },
+                {
+                  "path": "rules/filter-align.smk"
+                },
+                {
+                  "path": "rules/filter-orthology.smk"
+                },
+                {
+                  "path": "rules/mltree.smk"
+                },
+                {
+                  "path": "rules/modeltest.smk"
+                },
+                {
+                  "path": "rules/orthology.smk"
+                },
+                {
+                  "path": "rules/setup.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 30,
+            "title": "Attempt to fix hashing when empty strings or None is specified",
+            "state": "MERGED",
+            "createdAt": "2023-07-04T10:02:52Z",
+            "mergedAt": "2023-07-06T08:57:36Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/libphylociraptor/hashing.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 29,
+            "title": "Introduce analyses hashes",
+            "state": "MERGED",
+            "createdAt": "2023-02-06T14:34:46Z",
+            "mergedAt": "2023-02-06T14:38:37Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".version"
+                },
+                {
+                  "path": "bin/create_sequence_files.py"
+                },
+                {
+                  "path": "bin/estimate_conflict.py"
+                },
+                {
+                  "path": "bin/extract_busco_table.py"
+                },
+                {
+                  "path": "bin/libphylociraptor/__init__.py"
+                },
+                {
+                  "path": "bin/libphylociraptor/check.py"
+                },
+                {
+                  "path": "bin/libphylociraptor/hashing.py"
+                },
+                {
+                  "path": "bin/libphylociraptor/outfiles.py"
+                },
+                {
+                  "path": "bin/libphylociraptor/usageinfo.py"
+                },
+                {
+                  "path": "bin/modify-busco.sh"
+                },
+                {
+                  "path": "bin/phylociraptor_modules/outfiles.py"
+                },
+                {
+                  "path": "bin/plot-conflict.R"
+                },
+                {
+                  "path": "bin/plot-heatmap.R"
+                },
+                {
+                  "path": "bin/plot-t2t-pca.R"
+                },
+                {
+                  "path": "bin/plot-tree.R"
+                },
+                {
+                  "path": "bin/read_write_yaml.py"
+                },
+                {
+                  "path": "bin/reformat_lineage.py"
+                },
+                {
+                  "path": "bin/report.Rmd"
+                },
+                {
+                  "path": "bin/report_figure.R"
+                },
+                {
+                  "path": "data/config.yaml.template"
+                },
+                {
+                  "path": "phylociraptor"
+                },
+                {
+                  "path": "rules/Snakefile"
+                },
+                {
+                  "path": "rules/align.smk"
+                },
+                {
+                  "path": "rules/concatenate.smk"
+                },
+                {
+                  "path": "rules/filter-align.smk"
+                },
+                {
+                  "path": "rules/filter-orthology.smk"
+                },
+                {
+                  "path": "rules/functions.smk"
+                },
+                {
+                  "path": "rules/mltree.smk"
+                },
+                {
+                  "path": "rules/modeltest.smk"
+                },
+                {
+                  "path": "rules/njtree.smk"
+                },
+                {
+                  "path": "rules/orthology.smk"
+                },
+                {
+                  "path": "rules/quicktree.smk"
+                },
+                {
+                  "path": "rules/setup.smk"
+                },
+                {
+                  "path": "rules/speciestree.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 25,
+            "title": "Improved logging functionality",
+            "state": "MERGED",
+            "createdAt": "2022-08-03T10:14:43Z",
+            "mergedAt": "2022-08-03T10:15:14Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/parse-log.py"
+                },
+                {
+                  "path": "bin/phylociraptor_modules/usageinfo.py"
+                },
+                {
+                  "path": "data/ascomycota.csv"
+                },
+                {
+                  "path": "data/cluster-config-SGE.yaml.template"
+                },
+                {
+                  "path": "data/cluster-config-SLURM.yaml.template"
+                },
+                {
+                  "path": "data/cluster-config-TORQUE.yaml.template"
+                },
+                {
+                  "path": "data/data.csv"
+                },
+                {
+                  "path": "data/data_backup.csv"
+                },
+                {
+                  "path": "data/fish.csv"
+                },
+                {
+                  "path": "data/plath.csv"
+                },
+                {
+                  "path": "data/test_cases/arthropoda/cluster-config-SGE-arthropoda.yaml"
+                },
+                {
+                  "path": "data/test_cases/fungi/cluster-config-SLURM-fungi.yaml"
+                },
+                {
+                  "path": "docs/introduction/minimal.rst"
+                },
+                {
+                  "path": "log/cluster-logs/.gitkeep"
+                },
+                {
+                  "path": "phylociraptor"
+                },
+                {
+                  "path": "rules/align.smk"
+                },
+                {
+                  "path": "rules/concatenate.smk"
+                },
+                {
+                  "path": "rules/filter-align.smk"
+                },
+                {
+                  "path": "rules/filter-orthology.smk"
+                },
+                {
+                  "path": "rules/model.smk"
+                },
+                {
+                  "path": "rules/orthology.smk"
+                },
+                {
+                  "path": "rules/setup.smk"
+                },
+                {
+                  "path": "rules/speciestree.smk"
+                },
+                {
+                  "path": "rules/tree.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 24,
+            "title": "Add BMGE Trimmer plus more",
+            "state": "MERGED",
+            "createdAt": "2022-07-19T13:21:11Z",
+            "mergedAt": "2022-07-19T13:21:20Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "bin/modify-busco.sh"
+                },
+                {
+                  "path": "bin/phylociraptor_modules/usageinfo.py"
+                },
+                {
+                  "path": "bin/plot-similarity-matrix.R"
+                },
+                {
+                  "path": "bin/report.Rmd"
+                },
+                {
+                  "path": "bin/report_figure.R"
+                },
+                {
+                  "path": "data/config.yaml.template"
+                },
+                {
+                  "path": "data/containers.yaml"
+                },
+                {
+                  "path": "data/test_cases/arthropoda/config.yaml"
+                },
+                {
+                  "path": "data/test_cases/fungi/config.yaml"
+                },
+                {
+                  "path": "data/test_cases/minimal/config.yaml"
+                },
+                {
+                  "path": "docs/indepth/util.rst"
+                },
+                {
+                  "path": "phylociraptor"
+                },
+                {
+                  "path": "rules/filter-align.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 23,
+            "title": "Introducing the util module",
+            "state": "MERGED",
+            "createdAt": "2022-06-07T08:57:38Z",
+            "mergedAt": "2022-06-07T08:57:56Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".version"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "bin/estimate_conflict.py"
+                },
+                {
+                  "path": "bin/get_lineage.py"
+                },
+                {
+                  "path": "bin/phylociraptor_modules/outfiles.py"
+                },
+                {
+                  "path": "bin/phylociraptor_modules/usageinfo.py"
+                },
+                {
+                  "path": "bin/plot-similarity-matrix.R"
+                },
+                {
+                  "path": "bin/plot-tree.R"
+                },
+                {
+                  "path": "data/test_cases/arthropoda/config.yaml"
+                },
+                {
+                  "path": "data/test_cases/fungi/config.yaml"
+                },
+                {
+                  "path": "data/test_cases/minimal/config.yaml"
+                },
+                {
+                  "path": "docs/indepth/util.rst"
+                },
+                {
+                  "path": "docs/index.rst"
+                },
+                {
+                  "path": "docs/introduction/installation.rst"
+                },
+                {
+                  "path": "phylociraptor"
+                },
+                {
+                  "path": "phylociraptor-docker"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 21,
+            "title": "some cosmetics and behavioral refinements",
+            "state": "MERGED",
+            "createdAt": "2022-02-24T16:08:38Z",
+            "mergedAt": "2022-02-24T16:22:30Z",
+            "author": {
+              "login": "chrishah"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "data/config.yaml.template"
+                },
+                {
+                  "path": "rules/align.smk"
+                },
+                {
+                  "path": "rules/concatenate.smk"
+                },
+                {
+                  "path": "rules/filter-align.smk"
+                },
+                {
+                  "path": "rules/model.smk"
+                },
+                {
+                  "path": "rules/tree.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 20,
+            "title": "change behavior of aggregate_best_models to take checkpoints as input",
+            "state": "MERGED",
+            "createdAt": "2022-02-07T08:26:07Z",
+            "mergedAt": "2022-02-07T08:34:15Z",
+            "author": {
+              "login": "chrishah"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "rules/model.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 19,
+            "title": "speed up filtering alignments based on nparsimony and nseqs",
+            "state": "MERGED",
+            "createdAt": "2022-02-04T21:42:18Z",
+            "mergedAt": "2022-02-07T08:08:44Z",
+            "author": {
+              "login": "chrishah"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/filter_alignments.py"
+                },
+                {
+                  "path": "rules/filter-align.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 14,
+            "title": "multi - A giant leap towards version 1.0",
+            "state": "MERGED",
+            "createdAt": "2021-11-25T10:45:24Z",
+            "mergedAt": "2021-11-25T10:45:49Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".version"
+                },
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "TODO"
+                },
+                {
+                  "path": "bin/01_run_busco_all.sh"
+                },
+                {
+                  "path": "bin/04_align_sequences.sh"
+                },
+                {
+                  "path": "bin/05_trimal_alignments.sh"
+                },
+                {
+                  "path": "bin/06_get_concatenated_alognment.sh"
+                },
+                {
+                  "path": "bin/07_iqtree_single_gene_trees.sh"
+                },
+                {
+                  "path": "bin/08_count_sequences_in_alignments.sh"
+                },
+                {
+                  "path": "bin/filter_alignments.py"
+                },
+                {
+                  "path": "bin/genome_download.py"
+                },
+                {
+                  "path": "bin/immediate-submit"
+                },
+                {
+                  "path": "bin/old_genome_download.R"
+                },
+                {
+                  "path": "bin/report.R"
+                },
+                {
+                  "path": "bin/report.Rmd"
+                },
+                {
+                  "path": "bin/tar_folder.sh"
+                },
+                {
+                  "path": "data/cluster-config-SGE.yaml.template"
+                },
+                {
+                  "path": "data/cluster-config-SLURM.yaml.template"
+                },
+                {
+                  "path": "data/cluster-config-TORQUE.yaml.template"
+                },
+                {
+                  "path": "data/config.yaml.template"
+                },
+                {
+                  "path": "data/test_cases/arthropoda/arthropoda.csv"
+                },
+                {
+                  "path": "data/test_cases/arthropoda/cluster-config-SGE-arthropoda.yaml"
+                },
+                {
+                  "path": "data/test_cases/arthropoda/config.yaml"
+                },
+                {
+                  "path": "data/test_cases/fungi/cluster-config-SLURM-fungi.yaml"
+                },
+                {
+                  "path": "data/test_cases/fungi/config.yaml"
+                },
+                {
+                  "path": "data/test_cases/fungi/fungi.csv"
+                },
+                {
+                  "path": "data/test_cases/minimal/README.md"
+                },
+                {
+                  "path": "data/test_cases/minimal/config.yaml"
+                },
+                {
+                  "path": "data/test_cases/minimal/minimal.csv"
+                },
+                {
+                  "path": "data/test_cases/minimal/modify_busco.sh"
+                },
+                {
+                  "path": "docs/getting-help/problems.rst"
+                },
+                {
+                  "path": "docs/indepth/indepth.rst"
+                },
+                {
+                  "path": "docs/index.rst"
+                },
+                {
+                  "path": "docs/introduction/about.rst"
+                },
+                {
+                  "path": "docs/introduction/installation.rst"
+                },
+                {
+                  "path": "docs/introduction/minimal.rst"
+                },
+                {
+                  "path": "docs/introduction/quickstart.rst"
+                },
+                {
+                  "path": "envs/biopython.yml"
+                },
+                {
+                  "path": "envs/mafft.yml"
+                },
+                {
+                  "path": "envs/report.yml"
+                },
+                {
+                  "path": "envs/trimal.yml"
+                },
+                {
+                  "path": "phylociraptor"
+                },
+                {
+                  "path": "phylociraptor-docker"
+                },
+                {
+                  "path": "rulegraph.pdf"
+                },
+                {
+                  "path": "rulegraph.png"
+                },
+                {
+                  "path": "rules/Snakefile"
+                },
+                {
+                  "path": "rules/align.smk"
+                },
+                {
+                  "path": "rules/concatenate.smk"
+                },
+                {
+                  "path": "rules/filter-align.smk"
+                },
+                {
+                  "path": "rules/filter-orthology.smk"
+                },
+                {
+                  "path": "rules/model.smk"
+                },
+                {
+                  "path": "rules/orthology.smk"
+                },
+                {
+                  "path": "rules/quicktree.smk"
+                },
+                {
+                  "path": "rules/setup.smk"
+                },
+                {
+                  "path": "rules/speciestree.smk"
+                },
+                {
+                  "path": "rules/tree.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 13,
+            "title": "create_sequence_files parallel",
+            "state": "MERGED",
+            "createdAt": "2021-07-30T10:04:49Z",
+            "mergedAt": "2021-07-30T11:48:49Z",
+            "author": {
+              "login": "chrishah"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/create_sequence_files.py"
+                },
+                {
+                  "path": "data/config.yaml.template"
+                },
+                {
+                  "path": "rules/filter-orthology.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 12,
+            "title": "add exclude functionality to orthology part",
+            "state": "MERGED",
+            "createdAt": "2021-07-27T08:07:56Z",
+            "mergedAt": "2021-07-27T08:09:14Z",
+            "author": {
+              "login": "chrishah"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "data/config.yaml.template"
+                },
+                {
+                  "path": "rules/orthology.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 11,
+            "title": "change column in partition file creation",
+            "state": "MERGED",
+            "createdAt": "2021-07-20T09:47:51Z",
+            "mergedAt": "2021-07-20T09:48:28Z",
+            "author": {
+              "login": "chrishah"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "rules/tree.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 10,
+            "title": "minor things",
+            "state": "MERGED",
+            "createdAt": "2021-07-20T08:56:17Z",
+            "mergedAt": "2021-07-20T09:45:23Z",
+            "author": {
+              "login": "chrishah"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "data/cluster-config-SLURM.yaml.template"
+                },
+                {
+                  "path": "phylociraptor"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 9,
+            "title": "New functionality check",
+            "state": "MERGED",
+            "createdAt": "2021-06-18T09:53:16Z",
+            "mergedAt": "2021-06-18T09:53:34Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitmodules"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "bin/extract_busco_table.py"
+                },
+                {
+                  "path": "bin/immediate-submit"
+                },
+                {
+                  "path": "data/cluster-config-SGE.yaml.template"
+                },
+                {
+                  "path": "data/cluster-config-SLURM.yaml.template"
+                },
+                {
+                  "path": "data/cluster-config-TORQUE.yaml.template"
+                },
+                {
+                  "path": "docs/introduction/installation.rst"
+                },
+                {
+                  "path": "phylociraptor"
+                },
+                {
+                  "path": "rules/concatenate.smk"
+                },
+                {
+                  "path": "rules/filter-align.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 8,
+            "title": "Add immediate_submit submodule",
+            "state": "MERGED",
+            "createdAt": "2021-06-08T07:43:28Z",
+            "mergedAt": "2021-06-08T07:43:36Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitmodules"
+                },
+                {
+                  "path": "bin/immediate-submit"
+                },
+                {
+                  "path": "data/cluster-config-SLURM.yaml.template"
+                },
+                {
+                  "path": "docs/indepth/cluster-config-SLURM.yaml"
+                },
+                {
+                  "path": "docs/indepth/config_files.rst"
+                },
+                {
+                  "path": "docs/introduction/about.rst"
+                },
+                {
+                  "path": "docs/introduction/installation.rst"
+                },
+                {
+                  "path": "phylociraptor"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 7,
+            "title": "Add more extensive documentation",
+            "state": "MERGED",
+            "createdAt": "2021-06-01T08:48:49Z",
+            "mergedAt": "2021-06-01T08:49:07Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/Makefile"
+                },
+                {
+                  "path": "docs/conf.py"
+                },
+                {
+                  "path": "docs/getting-help/contact.rst"
+                },
+                {
+                  "path": "docs/getting-help/faqs.rst"
+                },
+                {
+                  "path": "docs/getting-help/problems.rst"
+                },
+                {
+                  "path": "docs/indepth/cluster-config-SLURM.yaml"
+                },
+                {
+                  "path": "docs/indepth/config.yaml.example"
+                },
+                {
+                  "path": "docs/indepth/config_files.rst"
+                },
+                {
+                  "path": "docs/indepth/indepth.rst"
+                },
+                {
+                  "path": "docs/indepth/setup.rst"
+                },
+                {
+                  "path": "docs/index.rst"
+                },
+                {
+                  "path": "docs/introduction/about.rst"
+                },
+                {
+                  "path": "docs/introduction/citation.rst"
+                },
+                {
+                  "path": "docs/introduction/installation.rst"
+                },
+                {
+                  "path": "docs/introduction/quickstart.rst"
+                },
+                {
+                  "path": "docs/make.bat"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6,
+            "title": "Larger overhaul with many improvements",
+            "state": "MERGED",
+            "createdAt": "2021-05-28T13:07:00Z",
+            "mergedAt": "2021-05-28T13:07:26Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".usr_tmp/.gitkeep"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "TODO"
+                },
+                {
+                  "path": "bin/create_sequence_files.py"
+                },
+                {
+                  "path": "bin/genome_download.py"
+                },
+                {
+                  "path": "bin/old_genome_download.R"
+                },
+                {
+                  "path": "bin/report.Rmd"
+                },
+                {
+                  "path": "data/cluster-config-SGE.yaml.template"
+                },
+                {
+                  "path": "data/cluster-config-SLURM.yaml.template"
+                },
+                {
+                  "path": "data/cluster-config-TORQUE.yaml.template"
+                },
+                {
+                  "path": "data/config.yaml.template"
+                },
+                {
+                  "path": "phylociraptor"
+                },
+                {
+                  "path": "rules/align.smk"
+                },
+                {
+                  "path": "rules/align_trim.smk"
+                },
+                {
+                  "path": "rules/filter-align.smk"
+                },
+                {
+                  "path": "rules/filter-align_trim.smk"
+                },
+                {
+                  "path": "rules/filter-orthology.smk"
+                },
+                {
+                  "path": "rules/model.smk"
+                },
+                {
+                  "path": "rules/orthology.smk"
+                },
+                {
+                  "path": "rules/quicktree.smk"
+                },
+                {
+                  "path": "rules/setup.smk"
+                },
+                {
+                  "path": "rules/speciestree.smk"
+                },
+                {
+                  "path": "rules/tree.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 5,
+            "title": "Add new runmode -m njtree to create a Neighbor-Joining Tree. ",
+            "state": "MERGED",
+            "createdAt": "2021-03-11T13:42:54Z",
+            "mergedAt": "2021-03-11T13:43:02Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "data/cluster-config-SGE.yaml.template"
+                },
+                {
+                  "path": "data/cluster-config-SLURM.yaml.template"
+                },
+                {
+                  "path": "data/cluster-config-TORQUE.yaml.template"
+                },
+                {
+                  "path": "phylociraptor"
+                },
+                {
+                  "path": "rules/quicktree.smk"
+                },
+                {
+                  "path": "rules/tree.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4,
+            "title": "Add improved filtering of busco results and alignments",
+            "state": "MERGED",
+            "createdAt": "2021-03-10T16:02:39Z",
+            "mergedAt": "2021-03-10T16:02:51Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "bin/create_sequence_files.py"
+                },
+                {
+                  "path": "bin/extract_busco_table.py"
+                },
+                {
+                  "path": "bin/filter_alignments.py"
+                },
+                {
+                  "path": "bin/report.Rmd"
+                },
+                {
+                  "path": "data/cluster-config-SGE.yaml.template"
+                },
+                {
+                  "path": "data/cluster-config-SLURM.yaml.template"
+                },
+                {
+                  "path": "data/cluster-config-TORQUE.yaml.template"
+                },
+                {
+                  "path": "data/config.yaml.template"
+                },
+                {
+                  "path": "phylociraptor"
+                },
+                {
+                  "path": "rules/align_trim.smk"
+                },
+                {
+                  "path": "rules/filter-align_trim.smk"
+                },
+                {
+                  "path": "rules/filter-orthology.smk"
+                },
+                {
+                  "path": "rules/model.smk"
+                },
+                {
+                  "path": "rules/orthology.smk"
+                },
+                {
+                  "path": "rules/speciestree.smk"
+                },
+                {
+                  "path": "rules/tree.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3,
+            "title": "Add support for Torque Clusters",
+            "state": "MERGED",
+            "createdAt": "2021-02-09T15:26:30Z",
+            "mergedAt": "2021-02-09T15:26:39Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/immediate_submit.py"
+                },
+                {
+                  "path": "data/cluster-config-TORQUE.yaml.template"
+                },
+                {
+                  "path": "phylociraptor"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2,
+            "title": "Better genome download",
+            "state": "MERGED",
+            "createdAt": "2021-02-07T10:38:59Z",
+            "mergedAt": "2021-02-07T10:39:17Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/genome_download.R"
+                },
+                {
+                  "path": "rules/setup.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1,
+            "title": "Sge",
+            "state": "MERGED",
+            "createdAt": "2021-01-21T16:05:31Z",
+            "mergedAt": "2021-01-21T16:06:20Z",
+            "author": {
+              "login": "reslp"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/immediate_submit.py"
+                },
+                {
+                  "path": "data/cluster-config-SGE.yaml.template"
+                },
+                {
+                  "path": "data/cluster-config-SLURM.yaml.template"
+                },
+                {
+                  "path": "data/cluster_config-sauron.yaml"
+                },
+                {
+                  "path": "phylociraptor"
+                },
+                {
+                  "path": "rules/tree.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

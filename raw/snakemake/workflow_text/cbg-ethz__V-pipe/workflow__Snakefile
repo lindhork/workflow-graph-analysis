@@ -1,0 +1,90 @@
+container: "docker://snakemake/snakemake:v7.32.4"
+
+
+import logging
+
+LOGGER = logging.getLogger("snakemake.logging")
+
+if not "VPIPE_BASEDIR" in dir():
+    # NOTE when used from a module workflow.basedir (and main_snakefile) always point to most-outer wrapping layer, workflow.current_basedir (and snakefile) to the current module
+    VPIPE_BASEDIR = workflow.current_basedir
+LOGGER.info("VPIPE_BASEDIR = %s", VPIPE_BASEDIR)
+
+
+# Include config file parser and globals
+include: "rules/common.smk"
+
+
+# DUMMY RULES
+rule all:
+    input:
+        all_files,
+
+
+rule alltrimmed:
+    input:
+        trimmed_files,
+
+
+rule allfastqc:
+    input:
+        fastqc_files,
+
+
+include: "rules/quality_assurance.smk"
+include: "rules/align.smk"
+include: "rules/consensus.smk"
+include: "rules/mafs.smk"
+include: "rules/stats.smk"
+include: "rules/clean.smk"
+
+
+if config.output["trim_primers"]:
+
+    include: "rules/primerstrim.smk"
+
+
+if 1:
+
+    include: "rules/signatures.smk"
+
+
+if config.output["snv"] or config.output["local"]:
+
+    include: "rules/snv.smk"
+
+
+if config.output["global"]:
+
+    include: "rules/haplotypes.smk"
+
+
+if config.output["QA"]:
+
+    include: "rules/contamination.smk"
+
+
+if config.output["visualization"]:
+
+    include: "rules/visualization.smk"
+
+
+if config.output["diversity"]:
+
+    include: "rules/diversity_measures.smk"
+
+
+if config.output["dehumanized_raw_reads"]:
+
+    include: "rules/dehuman.smk"
+
+
+if config.output["upload"]:
+
+    include: "rules/publish.smk"
+
+
+if config.output["dehumanized_raw_reads"] and config.output["upload"]:
+
+    # only if dehuman.smk and publish.smk are both included
+    ruleorder: dehuman > checksum

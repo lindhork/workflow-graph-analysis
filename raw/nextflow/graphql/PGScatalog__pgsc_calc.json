@@ -1,0 +1,3685 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 479,
+            "title": "Expected memory requirements",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T16:01:34Z",
+            "closedAt": null,
+            "author": {
+              "login": "mmaalvarez"
+            }
+          },
+          {
+            "number": 476,
+            "title": "v2.2.0 conda solve issue",
+            "state": "OPEN",
+            "createdAt": "2026-02-20T11:04:56Z",
+            "closedAt": null,
+            "author": {
+              "login": "nebfield"
+            }
+          },
+          {
+            "number": 475,
+            "title": "`FORMAT_SCOREFILES` fails with memory issues when processing large numbers of scorefiles",
+            "state": "OPEN",
+            "createdAt": "2026-02-17T19:27:42Z",
+            "closedAt": null,
+            "author": {
+              "login": "katgorski"
+            }
+          },
+          {
+            "number": 472,
+            "title": "v3-alpha.1 - publish genotype cache after PGSC_CALC_LOAD finishes not as part of PGSC_CALC_SCORE",
+            "state": "OPEN",
+            "createdAt": "2026-01-23T11:35:13Z",
+            "closedAt": null,
+            "author": {
+              "login": "sritchie73"
+            }
+          },
+          {
+            "number": 470,
+            "title": "Check resource limits in config file can be satisfied for each process at start of pipeline",
+            "state": "OPEN",
+            "createdAt": "2026-01-23T09:47:03Z",
+            "closedAt": null,
+            "author": {
+              "login": "sritchie73"
+            }
+          },
+          {
+            "number": 469,
+            "title": "Error handling for misconfigured config files",
+            "state": "OPEN",
+            "createdAt": "2026-01-21T12:00:50Z",
+            "closedAt": null,
+            "author": {
+              "login": "sritchie73"
+            }
+          },
+          {
+            "number": 467,
+            "title": "Summary error messages for end users",
+            "state": "OPEN",
+            "createdAt": "2026-01-20T16:09:23Z",
+            "closedAt": null,
+            "author": {
+              "login": "sritchie73"
+            }
+          },
+          {
+            "number": 466,
+            "title": "v3-alpha.1 documentation should clarify that .bgen.bgi files are needed",
+            "state": "OPEN",
+            "createdAt": "2026-01-19T17:31:01Z",
+            "closedAt": null,
+            "author": {
+              "login": "sritchie73"
+            }
+          },
+          {
+            "number": 465,
+            "title": "pgsc_calc silently ignores multiple --pgs_id, --pgp_id, --efo_id, and --scorefile arguments",
+            "state": "OPEN",
+            "createdAt": "2026-01-19T15:54:39Z",
+            "closedAt": null,
+            "author": {
+              "login": "sritchie73"
+            }
+          },
+          {
+            "number": 464,
+            "title": "Allow parameter repeats for --scorefile, --efo_id, --pgs_id, and --pgp_id",
+            "state": "OPEN",
+            "createdAt": "2026-01-19T15:49:47Z",
+            "closedAt": null,
+            "author": {
+              "login": "sritchie73"
+            }
+          },
+          {
+            "number": 463,
+            "title": "Problems with ANCESTRY_PROJECT",
+            "state": "OPEN",
+            "createdAt": "2026-01-19T15:12:21Z",
+            "closedAt": null,
+            "author": {
+              "login": "fjgalvezcnic"
+            }
+          },
+          {
+            "number": 461,
+            "title": "--efo_id fails to download PGS with version v3-alpha.1",
+            "state": "OPEN",
+            "createdAt": "2026-01-16T22:34:58Z",
+            "closedAt": null,
+            "author": {
+              "login": "sritchie73"
+            }
+          },
+          {
+            "number": 460,
+            "title": "Issue with conda env",
+            "state": "OPEN",
+            "createdAt": "2026-01-11T11:40:04Z",
+            "closedAt": null,
+            "author": {
+              "login": "bnwolford"
+            }
+          },
+          {
+            "number": 458,
+            "title": "Matching variant being excluded during match process",
+            "state": "CLOSED",
+            "createdAt": "2025-12-19T18:21:13Z",
+            "closedAt": "2025-12-19T23:20:20Z",
+            "author": {
+              "login": "batzler"
+            }
+          },
+          {
+            "number": 454,
+            "title": "Crash with Polars due to missing CPU features in Docker (exit status 132)",
+            "state": "OPEN",
+            "createdAt": "2025-12-03T08:14:04Z",
+            "closedAt": null,
+            "author": {
+              "login": "seppinho"
+            }
+          },
+          {
+            "number": 453,
+            "title": "DNANexus Applet for UKB",
+            "state": "OPEN",
+            "createdAt": "2025-12-02T11:44:42Z",
+            "closedAt": null,
+            "author": {
+              "login": "smlmbrt"
+            }
+          },
+          {
+            "number": 448,
+            "title": "Out of memory error in MAKE_COMPATIBLE:PLINK2_VCF step when processing Illumina WGS gVCF-derived VCF",
+            "state": "OPEN",
+            "createdAt": "2025-10-31T15:04:34Z",
+            "closedAt": null,
+            "author": {
+              "login": "Janeyre91"
+            }
+          },
+          {
+            "number": 447,
+            "title": "How to increase memory for the Input Check Format Scorefiles step",
+            "state": "CLOSED",
+            "createdAt": "2025-10-20T15:24:47Z",
+            "closedAt": "2025-11-13T10:25:40Z",
+            "author": {
+              "login": "icdh99"
+            }
+          },
+          {
+            "number": 446,
+            "title": "Add an option to skip redundant ancestry step in repeated runs",
+            "state": "CLOSED",
+            "createdAt": "2025-10-17T09:49:42Z",
+            "closedAt": "2025-10-24T08:09:18Z",
+            "author": {
+              "login": "zx8754"
+            }
+          },
+          {
+            "number": 443,
+            "title": "Error: chrX is present in the input file, but no sex information was provided;",
+            "state": "CLOSED",
+            "createdAt": "2025-10-01T14:24:12Z",
+            "closedAt": "2025-10-02T16:46:45Z",
+            "author": {
+              "login": "zznx"
+            }
+          },
+          {
+            "number": 442,
+            "title": "Reference concordance with plink",
+            "state": "CLOSED",
+            "createdAt": "2025-09-22T09:29:19Z",
+            "closedAt": "2025-09-22T12:02:10Z",
+            "author": {
+              "login": "zx8754"
+            }
+          },
+          {
+            "number": 441,
+            "title": "Plink vs pgsc PRS calculation difference",
+            "state": "CLOSED",
+            "createdAt": "2025-08-14T14:16:57Z",
+            "closedAt": "2025-08-15T09:02:01Z",
+            "author": {
+              "login": "zx8754"
+            }
+          },
+          {
+            "number": 439,
+            "title": "Choose subset of samples from reference files for --run_ancestry",
+            "state": "OPEN",
+            "createdAt": "2025-07-04T10:44:46Z",
+            "closedAt": null,
+            "author": {
+              "login": "zx8754"
+            }
+          },
+          {
+            "number": 438,
+            "title": "Process requirement exceeds available memory -- req: 24 GB; avail: 16 GB",
+            "state": "CLOSED",
+            "createdAt": "2025-06-26T07:20:07Z",
+            "closedAt": "2025-11-13T10:25:21Z",
+            "author": {
+              "login": "traycho"
+            }
+          },
+          {
+            "number": 437,
+            "title": "Setting multiple scores in one custom scoring file",
+            "state": "OPEN",
+            "createdAt": "2025-06-24T13:41:39Z",
+            "closedAt": null,
+            "author": {
+              "login": "Sabramow"
+            }
+          },
+          {
+            "number": 435,
+            "title": "PGSCATALOG_PGSCCALC:PGSCCALC:MATCH:MATCH_VARIANTS (Cineca chromosome 22)` terminated with an error exit status (137",
+            "state": "CLOSED",
+            "createdAt": "2025-06-23T06:32:24Z",
+            "closedAt": "2025-06-24T20:09:04Z",
+            "author": {
+              "login": "traycho"
+            }
+          },
+          {
+            "number": 434,
+            "title": "23 samplesets detected! Maximum is 1. Check your samplesheet.",
+            "state": "CLOSED",
+            "createdAt": "2025-06-19T20:00:10Z",
+            "closedAt": "2025-06-20T09:12:53Z",
+            "author": {
+              "login": "zx8754"
+            }
+          },
+          {
+            "number": 432,
+            "title": "Scorefile failing to download over SSH connection",
+            "state": "CLOSED",
+            "createdAt": "2025-06-16T21:51:14Z",
+            "closedAt": "2025-06-17T10:18:07Z",
+            "author": {
+              "login": "Lasya-Pasumarthy"
+            }
+          },
+          {
+            "number": 430,
+            "title": "Pipeline error - Cannot invoke method contains() on null object",
+            "state": "CLOSED",
+            "createdAt": "2025-06-11T13:30:03Z",
+            "closedAt": "2025-06-11T15:38:38Z",
+            "author": {
+              "login": "EricSal2004"
+            }
+          },
+          {
+            "number": 428,
+            "title": "getting an error in MATCH COMBINE",
+            "state": "CLOSED",
+            "createdAt": "2025-05-20T16:24:07Z",
+            "closedAt": "2025-06-24T14:12:36Z",
+            "author": {
+              "login": "KylonisThanos"
+            }
+          },
+          {
+            "number": 427,
+            "title": "Note on AoU docs",
+            "state": "CLOSED",
+            "createdAt": "2025-05-19T20:06:30Z",
+            "closedAt": "2025-05-25T23:13:03Z",
+            "author": {
+              "login": "SauersML"
+            }
+          },
+          {
+            "number": 426,
+            "title": "running pgsc_calc with >1 file per chromosome",
+            "state": "OPEN",
+            "createdAt": "2025-05-15T14:36:28Z",
+            "closedAt": null,
+            "author": {
+              "login": "Sabramow"
+            }
+          },
+          {
+            "number": 425,
+            "title": "Supported file formats: vcf.gz",
+            "state": "OPEN",
+            "createdAt": "2025-05-14T20:32:54Z",
+            "closedAt": null,
+            "author": {
+              "login": "candicecjj"
+            }
+          },
+          {
+            "number": 424,
+            "title": "Name of columns in output file",
+            "state": "OPEN",
+            "createdAt": "2025-05-12T17:02:53Z",
+            "closedAt": null,
+            "author": {
+              "login": "scienception"
+            }
+          },
+          {
+            "number": 423,
+            "title": "Error with matching genotype files?",
+            "state": "OPEN",
+            "createdAt": "2025-05-12T16:35:13Z",
+            "closedAt": null,
+            "author": {
+              "login": "scienception"
+            }
+          },
+          {
+            "number": 422,
+            "title": "APPLY_SCORE Failing on Google Cloud Batch",
+            "state": "OPEN",
+            "createdAt": "2025-05-05T13:43:53Z",
+            "closedAt": null,
+            "author": {
+              "login": "alex1craig"
+            }
+          },
+          {
+            "number": 419,
+            "title": "Different results in split and merge files",
+            "state": "CLOSED",
+            "createdAt": "2025-04-28T14:45:09Z",
+            "closedAt": "2025-04-28T15:03:59Z",
+            "author": {
+              "login": "aaaniich"
+            }
+          },
+          {
+            "number": 418,
+            "title": "Pipeline Crashes due to Low Overlap but Scoring File Markers Are Present",
+            "state": "OPEN",
+            "createdAt": "2025-04-25T18:34:03Z",
+            "closedAt": null,
+            "author": {
+              "login": "Lord-of-Bugs"
+            }
+          },
+          {
+            "number": 411,
+            "title": "Error when using `--run_ancestry`",
+            "state": "CLOSED",
+            "createdAt": "2025-03-28T21:55:18Z",
+            "closedAt": "2025-04-02T00:07:47Z",
+            "author": {
+              "login": "alex1craig"
+            }
+          },
+          {
+            "number": 410,
+            "title": "--run_ancestry fails on Imputed arrays in UKB-RAP",
+            "state": "OPEN",
+            "createdAt": "2025-03-20T12:54:48Z",
+            "closedAt": null,
+            "author": {
+              "login": "ashenfernando1"
+            }
+          },
+          {
+            "number": 409,
+            "title": "Error with a custom reference",
+            "state": "CLOSED",
+            "createdAt": "2025-03-10T10:05:24Z",
+            "closedAt": "2025-03-10T18:27:02Z",
+            "author": {
+              "login": "peterjuv"
+            }
+          },
+          {
+            "number": 407,
+            "title": "Error getting started with availMemory",
+            "state": "CLOSED",
+            "createdAt": "2025-02-25T12:08:31Z",
+            "closedAt": "2025-02-25T14:01:21Z",
+            "author": {
+              "login": "peterjuv"
+            }
+          },
+          {
+            "number": 400,
+            "title": "Failure in match.log or matchmerge ",
+            "state": "CLOSED",
+            "createdAt": "2024-12-28T18:37:46Z",
+            "closedAt": "2025-01-06T13:53:29Z",
+            "author": {
+              "login": "batzler"
+            }
+          },
+          {
+            "number": 399,
+            "title": "Using non-harmonized version ",
+            "state": "CLOSED",
+            "createdAt": "2024-12-18T14:14:12Z",
+            "closedAt": "2025-01-06T13:42:28Z",
+            "author": {
+              "login": "scienception"
+            }
+          },
+          {
+            "number": 397,
+            "title": "Some problems in the use of T-SEM",
+            "state": "CLOSED",
+            "createdAt": "2024-12-17T02:31:41Z",
+            "closedAt": "2024-12-17T08:11:50Z",
+            "author": {
+              "login": "JhGoodLuck"
+            }
+          },
+          {
+            "number": 396,
+            "title": "Better support for WGS data",
+            "state": "OPEN",
+            "createdAt": "2024-12-09T10:59:08Z",
+            "closedAt": null,
+            "author": {
+              "login": "smlmbrt"
+            }
+          },
+          {
+            "number": 394,
+            "title": "bfile works but pfile errors out",
+            "state": "OPEN",
+            "createdAt": "2024-12-04T19:53:22Z",
+            "closedAt": null,
+            "author": {
+              "login": "batzler"
+            }
+          },
+          {
+            "number": 393,
+            "title": "ValueError: Missing variants frozenset",
+            "state": "OPEN",
+            "createdAt": "2024-11-29T12:15:48Z",
+            "closedAt": null,
+            "author": {
+              "login": "Jorisvansteenbrugge"
+            }
+          },
+          {
+            "number": 392,
+            "title": "pgscatalog.core.lib.pgsexceptions.ScoreDownloadError: All download retries failed",
+            "state": "CLOSED",
+            "createdAt": "2024-11-19T15:49:01Z",
+            "closedAt": "2025-03-10T14:03:25Z",
+            "author": {
+              "login": "vaksmaz"
+            }
+          },
+          {
+            "number": 391,
+            "title": "TRE Documentation: All Of Us Researcher Workbench, UK Biobank Research Analysis Platform",
+            "state": "CLOSED",
+            "createdAt": "2024-11-01T15:28:12Z",
+            "closedAt": "2025-04-01T09:21:12Z",
+            "author": {
+              "login": "smlmbrt"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 477,
+            "title": "Feat/bam2gvcf updates",
+            "state": "CLOSED",
+            "createdAt": "2026-02-20T15:51:02Z",
+            "mergedAt": null,
+            "author": {
+              "login": "mmaalvarez"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Makefile"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "bin/detect_reference_genome.py"
+                },
+                {
+                  "path": "bin/expand_reference.py"
+                },
+                {
+                  "path": "bin/locate_gridss_jar.sh"
+                },
+                {
+                  "path": "bin/retrieve_read_group_info.py"
+                },
+                {
+                  "path": "conf/bam_to_gvcf.config"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/local/bam_to_gvcf/coordinate_sort.nf"
+                },
+                {
+                  "path": "modules/local/bam_to_gvcf/dedup_bqsr.nf"
+                },
+                {
+                  "path": "modules/local/bam_to_gvcf/filter_dbsnp.nf"
+                },
+                {
+                  "path": "modules/local/bam_to_gvcf/flagstat.nf"
+                },
+                {
+                  "path": "modules/local/bam_to_gvcf/gather_gvcfs.nf"
+                },
+                {
+                  "path": "modules/local/bam_to_gvcf/gdc_download.nf"
+                },
+                {
+                  "path": "modules/local/bam_to_gvcf/generate_samplesheet.nf"
+                },
+                {
+                  "path": "modules/local/bam_to_gvcf/haplotypecaller.nf"
+                },
+                {
+                  "path": "modules/local/bam_to_gvcf/joint_genotype.nf"
+                },
+                {
+                  "path": "modules/local/bam_to_gvcf/link_local_bam.nf"
+                },
+                {
+                  "path": "modules/local/bam_to_gvcf/prepare_cohort_reference.nf"
+                },
+                {
+                  "path": "modules/local/bam_to_gvcf/realign_bwa_mem2.nf"
+                },
+                {
+                  "path": "modules/local/bam_to_gvcf/ref_genome_recognition.nf"
+                },
+                {
+                  "path": "modules/local/bam_to_gvcf/split_calling_regions.nf"
+                },
+                {
+                  "path": "modules/local/bam_to_gvcf/wgs_metrics.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "run.sh"
+                },
+                {
+                  "path": "subworkflows/local/bam_to_gvcf.nf"
+                },
+                {
+                  "path": "subworkflows/local/gvcf_to_joint.nf"
+                },
+                {
+                  "path": "workflows/pgsc_calc.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 468,
+            "title": "Fix: v1.2 do fork da pgsc_calc",
+            "state": "CLOSED",
+            "createdAt": "2026-01-21T00:32:17Z",
+            "mergedAt": null,
+            "author": {
+              "login": "antoniocampos13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/pgsc_calc.config"
+                },
+                {
+                  "path": "container_manifest.json"
+                },
+                {
+                  "path": "lib/WorkflowPgscCalc.groovy"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/intersect_variants.nf"
+                },
+                {
+                  "path": "modules/local/combine_scorefiles.nf"
+                },
+                {
+                  "path": "modules/local/match_combine.nf"
+                },
+                {
+                  "path": "modules/local/match_variants.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "parameter-description-simple.json"
+                },
+                {
+                  "path": "pgscalc_input_NA12878.json"
+                },
+                {
+                  "path": "run-parameters.json"
+                },
+                {
+                  "path": "run-prod-parameters.json"
+                },
+                {
+                  "path": "samplesheet.json"
+                },
+                {
+                  "path": "workflows/pgsc_calc.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 457,
+            "title": "Update AoU instructions",
+            "state": "MERGED",
+            "createdAt": "2025-12-11T11:50:04Z",
+            "mergedAt": "2025-12-11T14:00:15Z",
+            "author": {
+              "login": "smlmbrt"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/docs/tutorial/allofus.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 455,
+            "title": "V2.2.0",
+            "state": "MERGED",
+            "createdAt": "2025-12-04T14:31:56Z",
+            "mergedAt": "2025-12-11T11:22:44Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".readthedocs.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/report/report.qmd"
+                },
+                {
+                  "path": "docs/_static/example_report.html"
+                },
+                {
+                  "path": "docs/_static/test_report.html"
+                },
+                {
+                  "path": "docs/_templates/globaltoc.html"
+                },
+                {
+                  "path": "docs/conf.py"
+                },
+                {
+                  "path": "docs/explanation/index.rst"
+                },
+                {
+                  "path": "docs/explanation/interpret.rst"
+                },
+                {
+                  "path": "docs/explanation/output.rst"
+                },
+                {
+                  "path": "docs/explanation/screenshots/Fig_AncestryMethods.png"
+                },
+                {
+                  "path": "docs/explanation/screenshots/Report_1_Header.png"
+                },
+                {
+                  "path": "docs/explanation/screenshots/Report_2_VariantMatching.png"
+                },
+                {
+                  "path": "docs/explanation/screenshots/Report_3_PCA.png"
+                },
+                {
+                  "path": "docs/explanation/screenshots/Report_4_Scores.png"
+                },
+                {
+                  "path": "docs/explanation/screenshots/p_MergedDist.png"
+                },
+                {
+                  "path": "docs/explanation/screenshots/p_SUM.png"
+                },
+                {
+                  "path": "docs/explanation/screenshots/section1.png"
+                },
+                {
+                  "path": "docs/explanation/screenshots/section2.png"
+                },
+                {
+                  "path": "docs/explanation/screenshots/section3_0.png"
+                },
+                {
+                  "path": "docs/explanation/screenshots/section3_1.png"
+                },
+                {
+                  "path": "docs/explanation/screenshots/section4.png"
+                },
+                {
+                  "path": "docs/getting-started.rst"
+                },
+                {
+                  "path": "docs/how-to/calculate_custom.rst"
+                },
+                {
+                  "path": "docs/how-to/multiple.rst"
+                },
+                {
+                  "path": "docs/index.rst"
+                },
+                {
+                  "path": "docs/requirements.txt"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/plink2_orient.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 452,
+            "title": "Add AoU documentation to v3-rc1 ",
+            "state": "MERGED",
+            "createdAt": "2025-12-01T17:15:22Z",
+            "mergedAt": "2025-12-10T10:34:45Z",
+            "author": {
+              "login": "smlmbrt"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/docs/tutorial/allofus.md"
+                },
+                {
+                  "path": "docs/docs/tutorial/ukbrap.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 451,
+            "title": "Add min_overlap",
+            "state": "MERGED",
+            "createdAt": "2025-11-27T11:29:15Z",
+            "mergedAt": "2025-12-01T16:44:51Z",
+            "author": {
+              "login": "smlmbrt"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/score/main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 450,
+            "title": "pgsc-calc conda env update with packages from PyPI 1",
+            "state": "CLOSED",
+            "createdAt": "2025-11-17T19:37:14Z",
+            "mergedAt": null,
+            "author": {
+              "login": "daniel-sali"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "environments/pgscatalog_utils/environment.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 415,
+            "title": "v2.1.0",
+            "state": "MERGED",
+            "createdAt": "2025-04-14T13:07:41Z",
+            "mergedAt": "2025-06-23T10:38:15Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/diagrams/pgsc_calc_ancestry.png"
+                },
+                {
+                  "path": "assets/diagrams/pgsc_calc_ancestry.svg"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/index.rst"
+                },
+                {
+                  "path": "environments/pgscatalog_utils/environment.yml"
+                },
+                {
+                  "path": "modules/local/format_scorefiles.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/input_check.nf"
+                },
+                {
+                  "path": "subworkflows/local/match.nf"
+                },
+                {
+                  "path": "tests/modules/combine/test.yml"
+                },
+                {
+                  "path": "tests/modules/download/test.yml"
+                },
+                {
+                  "path": "tests/modules/format/main.nf"
+                },
+                {
+                  "path": "tests/modules/format/test.yml"
+                },
+                {
+                  "path": "tests/modules/match/main.nf"
+                },
+                {
+                  "path": "tests/modules/match/test.yml"
+                },
+                {
+                  "path": "tests/subworkflows/perfect.txt"
+                },
+                {
+                  "path": "tests/subworkflows/test_apply_score.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_input_subworkflow.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_liftover_run.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_make_compatible.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_match.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 402,
+            "title": "Documentation update",
+            "state": "MERGED",
+            "createdAt": "2025-01-14T15:56:04Z",
+            "mergedAt": "2025-03-31T16:19:57Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ancestry-vcf.yml"
+                },
+                {
+                  "path": ".github/workflows/ancestry.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/correlation-test.yml"
+                },
+                {
+                  "path": ".github/workflows/module.yml"
+                },
+                {
+                  "path": ".github/workflows/preload-singularity.yml"
+                },
+                {
+                  "path": ".github/workflows/standard-test.yml"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "docs/_static/example_report.html"
+                },
+                {
+                  "path": "docs/_static/test_report.html"
+                },
+                {
+                  "path": "docs/explanation/output.rst"
+                },
+                {
+                  "path": "docs/explanation/screenshots/Report_4_Scores.png"
+                },
+                {
+                  "path": "docs/how-to/AOU.rst"
+                },
+                {
+                  "path": "docs/how-to/index.rst"
+                },
+                {
+                  "path": "docs/how-to/offline.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 382,
+            "title": "2.0.0 release",
+            "state": "MERGED",
+            "createdAt": "2024-10-09T13:33:46Z",
+            "mergedAt": "2024-11-01T11:02:52Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/report/PGS_Logo.png"
+                },
+                {
+                  "path": "assets/report/logo.css"
+                },
+                {
+                  "path": "assets/report/pgs_header_background.png"
+                },
+                {
+                  "path": "assets/report/report.qmd"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/explanation/match.rst"
+                },
+                {
+                  "path": "docs/how-to/bigjob.rst"
+                },
+                {
+                  "path": "docs/index.rst"
+                },
+                {
+                  "path": "environments/pgscatalog_utils/environment.yml"
+                },
+                {
+                  "path": "environments/zstd/environment.yml"
+                },
+                {
+                  "path": "lib/SamplesheetParser.groovy"
+                },
+                {
+                  "path": "modules/local/ancestry/relabel_scorefiles.nf"
+                },
+                {
+                  "path": "modules/local/plink2_score.nf"
+                },
+                {
+                  "path": "modules/local/score_aggregate.nf"
+                },
+                {
+                  "path": "modules/local/score_report.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/apply_score.nf"
+                },
+                {
+                  "path": "subworkflows/local/report.nf"
+                },
+                {
+                  "path": "tests/modules/combine/test.yml"
+                },
+                {
+                  "path": "tests/modules/download/test.yml"
+                },
+                {
+                  "path": "tests/modules/match/test.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_apply_score.py"
+                },
+                {
+                  "path": "tests/subworkflows/test_apply_score.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_liftover_run.yml"
+                },
+                {
+                  "path": "workflows/pgsc_calc.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 345
+                },
+                {
+                  "number": 366
+                },
+                {
+                  "number": 367
+                },
+                {
+                  "number": 387
+                }
+              ]
+            }
+          },
+          {
+            "number": 379,
+            "title": "Make report shareable",
+            "state": "MERGED",
+            "createdAt": "2024-10-02T15:27:04Z",
+            "mergedAt": "2024-10-03T11:45:21Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/report/report.qmd"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 367
+                }
+              ]
+            }
+          },
+          {
+            "number": 353,
+            "title": "Fix link in docs",
+            "state": "MERGED",
+            "createdAt": "2024-08-07T10:05:52Z",
+            "mergedAt": "2024-08-07T10:06:02Z",
+            "author": {
+              "login": "smlmbrt"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/getting-started.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 351,
+            "title": "Documentation edits (August 2024)",
+            "state": "MERGED",
+            "createdAt": "2024-08-06T15:17:54Z",
+            "mergedAt": "2024-08-06T20:42:03Z",
+            "author": {
+              "login": "smlmbrt"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/explanation/geneticancestry.rst"
+                },
+                {
+                  "path": "docs/explanation/output.rst"
+                },
+                {
+                  "path": "docs/getting-started.rst"
+                },
+                {
+                  "path": "docs/index.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 349,
+            "title": "2.0.0-beta.3",
+            "state": "MERGED",
+            "createdAt": "2024-08-02T12:52:48Z",
+            "mergedAt": "2024-08-09T06:33:48Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": "assets/examples/scorefiles/PGS001229_22_duplicate.txt"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "environments/fraposa/environment.yml"
+                },
+                {
+                  "path": "environments/pgscatalog_utils/environment.yml"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "modules/local/plink2_score.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/ancestry/ancestry_project.nf"
+                },
+                {
+                  "path": "subworkflows/local/apply_score.nf"
+                },
+                {
+                  "path": "subworkflows/local/match.nf"
+                },
+                {
+                  "path": "subworkflows/local/report.nf"
+                },
+                {
+                  "path": "tests/modules/match/test.yml"
+                },
+                {
+                  "path": "workflows/pgsc_calc.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 346
+                },
+                {
+                  "number": 352
+                },
+                {
+                  "number": 358
+                }
+              ]
+            }
+          },
+          {
+            "number": 344,
+            "title": "Don't filter TARGET variants for MAF by default, the missingness filt…",
+            "state": "MERGED",
+            "createdAt": "2024-07-31T09:53:28Z",
+            "mergedAt": "2024-07-31T10:38:21Z",
+            "author": {
+              "login": "smlmbrt"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/explanation/geneticancestry.rst"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 342,
+            "title": "remove default anaconda channels",
+            "state": "MERGED",
+            "createdAt": "2024-07-26T16:36:53Z",
+            "mergedAt": "2024-07-30T08:39:40Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "environments/fraposa/environment.yml"
+                },
+                {
+                  "path": "environments/pgscatalog_utils/environment.yml"
+                },
+                {
+                  "path": "environments/plink2/environment.yml"
+                },
+                {
+                  "path": "environments/pyyaml/environment.yml"
+                },
+                {
+                  "path": "environments/report/environment.yml"
+                },
+                {
+                  "path": "environments/zstd/environment.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 341,
+            "title": "v2.0.0-beta.2",
+            "state": "MERGED",
+            "createdAt": "2024-07-19T15:09:29Z",
+            "mergedAt": "2024-07-31T11:02:58Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "assets/report/report.qmd"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/_templates/globaltoc.html"
+                },
+                {
+                  "path": "docs/changelog.rst"
+                },
+                {
+                  "path": "docs/conf.py"
+                },
+                {
+                  "path": "docs/explanation/geneticancestry.rst"
+                },
+                {
+                  "path": "docs/explanation/match.rst"
+                },
+                {
+                  "path": "docs/explanation/output.rst"
+                },
+                {
+                  "path": "docs/getting-started.rst"
+                },
+                {
+                  "path": "docs/how-to/bigjob.rst"
+                },
+                {
+                  "path": "docs/how-to/cache.rst"
+                },
+                {
+                  "path": "docs/how-to/calculate_custom.rst"
+                },
+                {
+                  "path": "docs/how-to/calculate_pgscatalog.rst"
+                },
+                {
+                  "path": "docs/how-to/multiple.rst"
+                },
+                {
+                  "path": "docs/how-to/offline.rst"
+                },
+                {
+                  "path": "docs/how-to/prepare.rst"
+                },
+                {
+                  "path": "docs/how-to/samplesheet.rst"
+                },
+                {
+                  "path": "docs/index.rst"
+                },
+                {
+                  "path": "environments/fraposa/environment.yml"
+                },
+                {
+                  "path": "environments/pgscatalog_utils/environment.yml"
+                },
+                {
+                  "path": "environments/plink2/environment.yml"
+                },
+                {
+                  "path": "environments/pyyaml/environment.yml"
+                },
+                {
+                  "path": "environments/report/environment.yml"
+                },
+                {
+                  "path": "environments/zstd/environment.yml"
+                },
+                {
+                  "path": "lib/WorkflowPgscCalc.groovy"
+                },
+                {
+                  "path": "modules/local/ancestry/intersect_variants.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/fraposa_project.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/plink2_makebed.nf"
+                },
+                {
+                  "path": "modules/local/plink2_score.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "tests/modules/combine/test.yml"
+                },
+                {
+                  "path": "tests/modules/download/test.yml"
+                },
+                {
+                  "path": "tests/modules/match/test.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_apply_score.py"
+                },
+                {
+                  "path": "tests/subworkflows/test_apply_score.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_liftover_run.yml"
+                },
+                {
+                  "path": "workflows/pgsc_calc.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 325
+                }
+              ]
+            }
+          },
+          {
+            "number": 336,
+            "title": "Review docs",
+            "state": "MERGED",
+            "createdAt": "2024-07-10T09:57:46Z",
+            "mergedAt": "2024-07-30T21:51:59Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "docs/_templates/globaltoc.html"
+                },
+                {
+                  "path": "docs/conf.py"
+                },
+                {
+                  "path": "docs/explanation/geneticancestry.rst"
+                },
+                {
+                  "path": "docs/explanation/match.rst"
+                },
+                {
+                  "path": "docs/explanation/output.rst"
+                },
+                {
+                  "path": "docs/how-to/bigjob.rst"
+                },
+                {
+                  "path": "docs/how-to/cache.rst"
+                },
+                {
+                  "path": "docs/how-to/calculate_custom.rst"
+                },
+                {
+                  "path": "docs/how-to/multiple.rst"
+                },
+                {
+                  "path": "docs/how-to/offline.rst"
+                },
+                {
+                  "path": "docs/how-to/prepare.rst"
+                },
+                {
+                  "path": "docs/how-to/samplesheet.rst"
+                },
+                {
+                  "path": "docs/index.rst"
+                },
+                {
+                  "path": "modules/local/ancestry/intersect_variants.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 330,
+            "title": "Write consistent column sets to variant information files",
+            "state": "MERGED",
+            "createdAt": "2024-07-01T15:40:55Z",
+            "mergedAt": "2024-07-04T10:00:18Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/plink2_relabelpvar.nf"
+                },
+                {
+                  "path": "modules/local/plink2_vcf.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 324
+                }
+              ]
+            }
+          },
+          {
+            "number": 322,
+            "title": "Fix samplesheet parsing error warnings",
+            "state": "MERGED",
+            "createdAt": "2024-06-19T19:46:19Z",
+            "mergedAt": "2024-06-20T09:13:06Z",
+            "author": {
+              "login": "smlmbrt"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "lib/SamplesheetParser.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 272
+                },
+                {
+                  "number": 323
+                }
+              ]
+            }
+          },
+          {
+            "number": 318,
+            "title": "v2.0.0-beta",
+            "state": "MERGED",
+            "createdAt": "2024-06-18T12:33:26Z",
+            "mergedAt": "2024-06-19T15:52:36Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/_templates/globaltoc.html"
+                },
+                {
+                  "path": "docs/explanation/index.rst"
+                },
+                {
+                  "path": "docs/explanation/match.rst"
+                },
+                {
+                  "path": "docs/how-to/offline.rst"
+                },
+                {
+                  "path": "environments/fraposa/environment.yml"
+                },
+                {
+                  "path": "environments/pgscatalog_utils/environment.yml"
+                },
+                {
+                  "path": "environments/pyyaml/environment.yml"
+                },
+                {
+                  "path": "environments/report/environment.yml"
+                },
+                {
+                  "path": "environments/zstd/environment.yml"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/ancestry_analysis.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/fraposa_pca.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/fraposa_project.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/relabel_afreq.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/relabel_ids.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/relabel_scorefiles.nf"
+                },
+                {
+                  "path": "modules/local/match_variants.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "tests/modules/combine/test.yml"
+                },
+                {
+                  "path": "tests/modules/download/test.yml"
+                },
+                {
+                  "path": "tests/modules/match/test.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_liftover_run.yml"
+                },
+                {
+                  "path": "workflows/pgsc_calc.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 301
+                },
+                {
+                  "number": 312
+                }
+              ]
+            }
+          },
+          {
+            "number": 315,
+            "title": "Explicitly declare plugins in nextflow.config",
+            "state": "MERGED",
+            "createdAt": "2024-06-14T12:57:33Z",
+            "mergedAt": "2024-06-17T09:27:45Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/how-to/offline.rst"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/local/match_variants.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "workflows/pgsc_calc.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 186
+                },
+                {
+                  "number": 312
+                }
+              ]
+            }
+          },
+          {
+            "number": 311,
+            "title": "Add match error explanation to docs",
+            "state": "MERGED",
+            "createdAt": "2024-06-12T13:55:21Z",
+            "mergedAt": "2024-06-14T14:02:52Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/_templates/globaltoc.html"
+                },
+                {
+                  "path": "docs/explanation/index.rst"
+                },
+                {
+                  "path": "docs/explanation/match.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 310,
+            "title": "Add citation to report",
+            "state": "MERGED",
+            "createdAt": "2024-06-05T11:50:09Z",
+            "mergedAt": "2024-06-06T10:29:48Z",
+            "author": {
+              "login": "smlmbrt"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/report/report.qmd"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 306,
+            "title": "Set defaultBranch to v2.0.0-alpha.5",
+            "state": "MERGED",
+            "createdAt": "2024-05-30T12:48:17Z",
+            "mergedAt": "2024-05-31T16:59:26Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 299,
+            "title": "Update containers.rst",
+            "state": "MERGED",
+            "createdAt": "2024-05-24T12:21:59Z",
+            "mergedAt": "2024-06-01T09:25:42Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/index.rst"
+                },
+                {
+                  "path": "docs/reference/containers.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 297,
+            "title": "Bump minimum nextflow version to 23.10.0",
+            "state": "MERGED",
+            "createdAt": "2024-05-24T10:31:09Z",
+            "mergedAt": "2024-05-24T11:03:36Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/standard-test.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/changelog.rst"
+                },
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 296,
+            "title": "migrate to pygscatalog utilities",
+            "state": "MERGED",
+            "createdAt": "2024-05-21T13:20:23Z",
+            "mergedAt": "2024-05-23T08:56:37Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ancestry-conda.yml"
+                },
+                {
+                  "path": ".github/workflows/ancestry-vcf.yml"
+                },
+                {
+                  "path": ".github/workflows/ancestry.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/correlation-test.yml"
+                },
+                {
+                  "path": ".github/workflows/correlation.yml"
+                },
+                {
+                  "path": ".github/workflows/preload-correlation.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "assets/examples/scorefiles/customgrch37.txt"
+                },
+                {
+                  "path": "assets/examples/scorefiles/customgrch38.txt"
+                },
+                {
+                  "path": "assets/examples/scorefiles/multiscore.txt"
+                },
+                {
+                  "path": "assets/examples/scorefiles/test.scorefile"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "environments/plink2/Dockerfile"
+                },
+                {
+                  "path": "modules/local/ancestry/ancestry_analysis.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/filter_variants.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/intersect_variants.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/relabel_afreq.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/relabel_ids.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/relabel_scorefiles.nf"
+                },
+                {
+                  "path": "modules/local/combine_scorefiles.nf"
+                },
+                {
+                  "path": "modules/local/download_scorefiles.nf"
+                },
+                {
+                  "path": "modules/local/match_combine.nf"
+                },
+                {
+                  "path": "modules/local/match_variants.nf"
+                },
+                {
+                  "path": "modules/local/plink2_relabelbim.nf"
+                },
+                {
+                  "path": "modules/local/plink2_relabelpvar.nf"
+                },
+                {
+                  "path": "modules/local/plink2_vcf.nf"
+                },
+                {
+                  "path": "modules/local/score_aggregate.nf"
+                },
+                {
+                  "path": "subworkflows/local/ancestry/ancestry_project.nf"
+                },
+                {
+                  "path": "subworkflows/local/make_compatible.nf"
+                },
+                {
+                  "path": "tests/ancestry/test_ancestry.yml"
+                },
+                {
+                  "path": "tests/ancestry/test_ancestry_vcf.yml"
+                },
+                {
+                  "path": "tests/config/nextflow.config"
+                },
+                {
+                  "path": "tests/config/score.config"
+                },
+                {
+                  "path": "tests/correlation/PGS_SUM.txt.gz"
+                },
+                {
+                  "path": "tests/correlation/PGS_SUM_alpha5.txt.gz"
+                },
+                {
+                  "path": "tests/correlation/samplesheet.csv"
+                },
+                {
+                  "path": "tests/correlation/test_correlation.py"
+                },
+                {
+                  "path": "tests/correlation/test_correlation.yml"
+                },
+                {
+                  "path": "tests/modules/combine/test.yml"
+                },
+                {
+                  "path": "tests/modules/download/test.yml"
+                },
+                {
+                  "path": "tests/modules/match/main.nf"
+                },
+                {
+                  "path": "tests/modules/match/test.yml"
+                },
+                {
+                  "path": "tests/modules/plink2/relabelbim/main.nf"
+                },
+                {
+                  "path": "tests/modules/plink2/relabelbim/test.yml"
+                },
+                {
+                  "path": "tests/modules/plink2/relabelpvar/main.nf"
+                },
+                {
+                  "path": "tests/modules/plink2/relabelpvar/test.yml"
+                },
+                {
+                  "path": "tests/modules/plink2/score/main.nf"
+                },
+                {
+                  "path": "tests/modules/plink2/score/test.yml"
+                },
+                {
+                  "path": "tests/modules/plink2/vcf/main.nf"
+                },
+                {
+                  "path": "tests/modules/plink2/vcf/test.yml"
+                },
+                {
+                  "path": "tests/scores/1000G.sscore.gz"
+                },
+                {
+                  "path": "tests/scores/run_nxf.sh"
+                },
+                {
+                  "path": "tests/scores/samplesheet.csv"
+                },
+                {
+                  "path": "tests/scores/setup.sh"
+                },
+                {
+                  "path": "tests/scores/test.yml"
+                },
+                {
+                  "path": "tests/scores/test_correlation.py"
+                },
+                {
+                  "path": "tests/subworkflows/test_liftover_run.yml"
+                },
+                {
+                  "path": "workflows/pgsc_calc.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 295,
+            "title": "Doc popsim",
+            "state": "MERGED",
+            "createdAt": "2024-05-21T10:44:01Z",
+            "mergedAt": "2024-05-21T11:40:08Z",
+            "author": {
+              "login": "smlmbrt"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/explanation/output.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 292,
+            "title": "Implement correlation test",
+            "state": "CLOSED",
+            "createdAt": "2024-05-14T12:44:35Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/correlation-test.yml"
+                },
+                {
+                  "path": ".github/workflows/correlation.yml"
+                },
+                {
+                  "path": ".github/workflows/preload-correlation.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "tests/config/nextflow.config"
+                },
+                {
+                  "path": "tests/config/score.config"
+                },
+                {
+                  "path": "tests/correlation/PGS_SUM.txt.gz"
+                },
+                {
+                  "path": "tests/correlation/PGS_SUM_alpha5.txt.gz"
+                },
+                {
+                  "path": "tests/correlation/samplesheet.csv"
+                },
+                {
+                  "path": "tests/correlation/test_correlation.py"
+                },
+                {
+                  "path": "tests/correlation/test_correlation.yml"
+                },
+                {
+                  "path": "tests/scores/1000G.sscore.gz"
+                },
+                {
+                  "path": "tests/scores/run_nxf.sh"
+                },
+                {
+                  "path": "tests/scores/samplesheet.csv"
+                },
+                {
+                  "path": "tests/scores/setup.sh"
+                },
+                {
+                  "path": "tests/scores/test.yml"
+                },
+                {
+                  "path": "tests/scores/test_correlation.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 274,
+            "title": "alpha.6",
+            "state": "MERGED",
+            "createdAt": "2024-04-09T16:00:30Z",
+            "mergedAt": "2024-05-24T09:05:49Z",
+            "author": {
+              "login": "smlmbrt"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ancestry-conda.yml"
+                },
+                {
+                  "path": ".github/workflows/ancestry-vcf.yml"
+                },
+                {
+                  "path": ".github/workflows/ancestry.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/correlation-test.yml"
+                },
+                {
+                  "path": ".github/workflows/correlation.yml"
+                },
+                {
+                  "path": ".github/workflows/module.yml"
+                },
+                {
+                  "path": ".github/workflows/preload-correlation.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "assets/examples/scorefiles/customgrch37.txt"
+                },
+                {
+                  "path": "assets/examples/scorefiles/customgrch38.txt"
+                },
+                {
+                  "path": "assets/examples/scorefiles/multiscore.txt"
+                },
+                {
+                  "path": "assets/examples/scorefiles/test.scorefile"
+                },
+                {
+                  "path": "bin/intersect_variants.sh"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/changelog.rst"
+                },
+                {
+                  "path": "docs/explanation/output.rst"
+                },
+                {
+                  "path": "docs/getting-started.rst"
+                },
+                {
+                  "path": "docs/how-to/bigjob.rst"
+                },
+                {
+                  "path": "docs/how-to/calculate_custom.rst"
+                },
+                {
+                  "path": "docs/how-to/change_version.rst"
+                },
+                {
+                  "path": "docs/how-to/cloud.rst"
+                },
+                {
+                  "path": "docs/how-to/index.rst"
+                },
+                {
+                  "path": "docs/how-to/liftover.rst"
+                },
+                {
+                  "path": "docs/how-to/multiple.rst"
+                },
+                {
+                  "path": "docs/how-to/samplesheet.rst"
+                },
+                {
+                  "path": "docs/requirements.txt"
+                },
+                {
+                  "path": "environments/pgscatalog_utils/environment.yml"
+                },
+                {
+                  "path": "environments/plink2/Dockerfile"
+                },
+                {
+                  "path": "lib/SamplesheetParser.groovy"
+                },
+                {
+                  "path": "modules/local/ancestry/ancestry_analysis.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/filter_variants.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/intersect_variants.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/relabel_afreq.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/relabel_ids.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/relabel_scorefiles.nf"
+                },
+                {
+                  "path": "modules/local/combine_scorefiles.nf"
+                },
+                {
+                  "path": "modules/local/download_scorefiles.nf"
+                },
+                {
+                  "path": "modules/local/match_combine.nf"
+                },
+                {
+                  "path": "modules/local/match_variants.nf"
+                },
+                {
+                  "path": "modules/local/plink2_relabelbim.nf"
+                },
+                {
+                  "path": "modules/local/plink2_relabelpvar.nf"
+                },
+                {
+                  "path": "modules/local/plink2_vcf.nf"
+                },
+                {
+                  "path": "modules/local/score_aggregate.nf"
+                },
+                {
+                  "path": "modules/local/score_report.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/ancestry/ancestry_project.nf"
+                },
+                {
+                  "path": "subworkflows/local/make_compatible.nf"
+                },
+                {
+                  "path": "tests/ancestry/test_ancestry.yml"
+                },
+                {
+                  "path": "tests/ancestry/test_ancestry_vcf.yml"
+                },
+                {
+                  "path": "tests/config/nextflow.config"
+                },
+                {
+                  "path": "tests/config/score.config"
+                },
+                {
+                  "path": "tests/correlation/PGS_SUM.txt.gz"
+                },
+                {
+                  "path": "tests/correlation/PGS_SUM_alpha5.txt.gz"
+                },
+                {
+                  "path": "tests/correlation/samplesheet.csv"
+                },
+                {
+                  "path": "tests/correlation/test_correlation.py"
+                },
+                {
+                  "path": "tests/correlation/test_correlation.yml"
+                },
+                {
+                  "path": "tests/modules/combine/test.yml"
+                },
+                {
+                  "path": "tests/modules/download/test.yml"
+                },
+                {
+                  "path": "tests/modules/match/main.nf"
+                },
+                {
+                  "path": "tests/modules/match/test.yml"
+                },
+                {
+                  "path": "tests/modules/plink2/relabelbim/main.nf"
+                },
+                {
+                  "path": "tests/modules/plink2/relabelbim/test.yml"
+                },
+                {
+                  "path": "tests/modules/plink2/relabelpvar/main.nf"
+                },
+                {
+                  "path": "tests/modules/plink2/relabelpvar/test.yml"
+                },
+                {
+                  "path": "tests/modules/plink2/score/main.nf"
+                },
+                {
+                  "path": "tests/modules/plink2/score/test.yml"
+                },
+                {
+                  "path": "tests/modules/plink2/vcf/main.nf"
+                },
+                {
+                  "path": "tests/modules/plink2/vcf/test.yml"
+                },
+                {
+                  "path": "tests/scores/1000G.sscore.gz"
+                },
+                {
+                  "path": "tests/scores/run_nxf.sh"
+                },
+                {
+                  "path": "tests/scores/samplesheet.csv"
+                },
+                {
+                  "path": "tests/scores/setup.sh"
+                },
+                {
+                  "path": "tests/scores/test.yml"
+                },
+                {
+                  "path": "tests/scores/test_correlation.py"
+                },
+                {
+                  "path": "tests/subworkflows/test_apply_score.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_liftover_run.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_make_compatible.yml"
+                },
+                {
+                  "path": "workflows/pgsc_calc.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 179
+                },
+                {
+                  "number": 252
+                },
+                {
+                  "number": 271
+                },
+                {
+                  "number": 272
+                },
+                {
+                  "number": 280
+                },
+                {
+                  "number": 283
+                }
+              ]
+            }
+          },
+          {
+            "number": 267,
+            "title": "Improve pca",
+            "state": "MERGED",
+            "createdAt": "2024-03-25T14:00:39Z",
+            "mergedAt": "2024-05-23T09:08:22Z",
+            "author": {
+              "login": "smlmbrt"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules/local/ancestry/filter_variants.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/intersect_variants.nf"
+                },
+                {
+                  "path": "modules/local/plink2_relabelbim.nf"
+                },
+                {
+                  "path": "modules/local/plink2_relabelpvar.nf"
+                },
+                {
+                  "path": "modules/local/plink2_vcf.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 265,
+            "title": "add version to report",
+            "state": "MERGED",
+            "createdAt": "2024-03-19T15:39:35Z",
+            "mergedAt": "2024-03-19T16:09:23Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/report/report.qmd"
+                },
+                {
+                  "path": "modules/local/score_report.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 264,
+            "title": "Add information about versions",
+            "state": "MERGED",
+            "createdAt": "2024-03-19T15:01:59Z",
+            "mergedAt": "2024-03-19T15:16:09Z",
+            "author": {
+              "login": "smlmbrt"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/how-to/change_version.rst"
+                },
+                {
+                  "path": "docs/how-to/index.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 223
+                }
+              ]
+            }
+          },
+          {
+            "number": 262,
+            "title": "Fix race condition in cache",
+            "state": "MERGED",
+            "createdAt": "2024-03-18T15:05:13Z",
+            "mergedAt": "2024-03-18T16:17:53Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "subworkflows/local/ancestry/ancestry_project.nf"
+                },
+                {
+                  "path": "subworkflows/local/ancestry/bootstrap_ancestry.nf"
+                },
+                {
+                  "path": "subworkflows/local/apply_score.nf"
+                },
+                {
+                  "path": "workflows/pgsc_calc.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 260,
+            "title": "Fix cache names",
+            "state": "MERGED",
+            "createdAt": "2024-03-02T13:30:44Z",
+            "mergedAt": "2024-03-04T09:26:22Z",
+            "author": {
+              "login": "smlmbrt"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/ancestry/oadp/fraposa_pca.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/plink2_makebed.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/plink2_orient.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 256,
+            "title": "Remove storeDir semantic structure",
+            "state": "MERGED",
+            "createdAt": "2024-02-28T11:18:44Z",
+            "mergedAt": "2024-02-28T16:06:31Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/NO_FILE_INTERSECT_COUNT"
+                },
+                {
+                  "path": "modules/local/ancestry/ancestry_analysis.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/bootstrap/make_database.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/extract_database.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/intersect_variants.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/fraposa_pca.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/fraposa_project.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/intersect_thinned.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/plink2_makebed.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/plink2_orient.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/relabel_ids.nf"
+                },
+                {
+                  "path": "modules/local/match_combine.nf"
+                },
+                {
+                  "path": "modules/local/match_variants.nf"
+                },
+                {
+                  "path": "modules/local/plink2_relabelbim.nf"
+                },
+                {
+                  "path": "modules/local/plink2_relabelpvar.nf"
+                },
+                {
+                  "path": "modules/local/plink2_vcf.nf"
+                },
+                {
+                  "path": "modules/local/score_report.nf"
+                },
+                {
+                  "path": "subworkflows/local/ancestry/ancestry_project.nf"
+                },
+                {
+                  "path": "subworkflows/local/apply_score.nf"
+                },
+                {
+                  "path": "subworkflows/local/report.nf"
+                },
+                {
+                  "path": "workflows/pgsc_calc.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 254,
+            "title": "Docs to explain cache",
+            "state": "MERGED",
+            "createdAt": "2024-02-26T12:24:22Z",
+            "mergedAt": "2024-02-28T13:42:46Z",
+            "author": {
+              "login": "smlmbrt"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/getting-started.rst"
+                },
+                {
+                  "path": "docs/how-to/cache.rst"
+                },
+                {
+                  "path": "docs/how-to/index.rst"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 250,
+            "title": "re-sync nf-core",
+            "state": "MERGED",
+            "createdAt": "2024-02-22T13:13:07Z",
+            "mergedAt": "2024-02-22T15:26:27Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/report/renv.lock"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/sequential.config"
+                },
+                {
+                  "path": "docs/how-to/bigjob.rst"
+                },
+                {
+                  "path": "environments/report/Dockerfile"
+                },
+                {
+                  "path": "environments/report/environment.yml"
+                },
+                {
+                  "path": "environments/report/renv.lock"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowPgscCalc.groovy"
+                },
+                {
+                  "path": "lib/WorkflowPgscalc.groovy"
+                },
+                {
+                  "path": "lib/WorkflowTest.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/bootstrap/make_database.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/extract_database.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/intersect_variants.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/fraposa_pca.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/fraposa_project.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/intersect_thinned.nf"
+                },
+                {
+                  "path": "modules/local/match_combine.nf"
+                },
+                {
+                  "path": "modules/local/match_variants.nf"
+                },
+                {
+                  "path": "modules/local/plink2_relabelbim.nf"
+                },
+                {
+                  "path": "modules/local/plink2_relabelpvar.nf"
+                },
+                {
+                  "path": "modules/local/plink2_vcf.nf"
+                },
+                {
+                  "path": "modules/local/score_report.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "workflows/pgsc_calc.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 249,
+            "title": "Drop aggregation during report generation",
+            "state": "MERGED",
+            "createdAt": "2024-02-21T08:53:17Z",
+            "mergedAt": "2024-02-29T14:11:16Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/NO_FILE_INTERSECT_COUNT"
+                },
+                {
+                  "path": "assets/examples/scorefiles/customgrch37.txt"
+                },
+                {
+                  "path": "assets/examples/scorefiles/customgrch38.txt"
+                },
+                {
+                  "path": "assets/report/renv.lock"
+                },
+                {
+                  "path": "assets/report/report.qmd"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/sequential.config"
+                },
+                {
+                  "path": "docs/getting-started.rst"
+                },
+                {
+                  "path": "docs/how-to/bigjob.rst"
+                },
+                {
+                  "path": "docs/how-to/cache.rst"
+                },
+                {
+                  "path": "docs/how-to/index.rst"
+                },
+                {
+                  "path": "environments/report/Dockerfile"
+                },
+                {
+                  "path": "environments/report/environment.yml"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowPgscCalc.groovy"
+                },
+                {
+                  "path": "lib/WorkflowPgscalc.groovy"
+                },
+                {
+                  "path": "lib/WorkflowTest.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/ancestry_analysis.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/bootstrap/make_database.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/extract_database.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/intersect_variants.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/fraposa_pca.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/fraposa_project.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/intersect_thinned.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/plink2_makebed.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/plink2_orient.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/relabel_ids.nf"
+                },
+                {
+                  "path": "modules/local/match_combine.nf"
+                },
+                {
+                  "path": "modules/local/match_variants.nf"
+                },
+                {
+                  "path": "modules/local/plink2_relabelbim.nf"
+                },
+                {
+                  "path": "modules/local/plink2_relabelpvar.nf"
+                },
+                {
+                  "path": "modules/local/plink2_vcf.nf"
+                },
+                {
+                  "path": "modules/local/score_report.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/ancestry/ancestry_project.nf"
+                },
+                {
+                  "path": "subworkflows/local/apply_score.nf"
+                },
+                {
+                  "path": "subworkflows/local/report.nf"
+                },
+                {
+                  "path": "tests/modules/combine/test.yml"
+                },
+                {
+                  "path": "tests/modules/download/test.yml"
+                },
+                {
+                  "path": "tests/modules/match/test.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_apply_score.py"
+                },
+                {
+                  "path": "tests/subworkflows/test_liftover_run.yml"
+                },
+                {
+                  "path": "workflows/pgsc_calc.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 244,
+            "title": "v2.0.0-alpha.5",
+            "state": "MERGED",
+            "createdAt": "2024-02-16T08:52:39Z",
+            "mergedAt": "2024-03-19T16:27:39Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ancestry-conda.yml"
+                },
+                {
+                  "path": ".github/workflows/ancestry-vcf.yml"
+                },
+                {
+                  "path": ".github/workflows/ancestry.yml"
+                },
+                {
+                  "path": ".github/workflows/conda.yml"
+                },
+                {
+                  "path": ".github/workflows/module.yml"
+                },
+                {
+                  "path": ".github/workflows/preload-docker.yml"
+                },
+                {
+                  "path": ".github/workflows/preload-reference.yml"
+                },
+                {
+                  "path": ".github/workflows/preload-singularity.yml"
+                },
+                {
+                  "path": ".github/workflows/standard-test.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "assets/NO_FILE"
+                },
+                {
+                  "path": "assets/NO_FILE_INTERSECT_COUNT"
+                },
+                {
+                  "path": "assets/examples/samplesheet.json"
+                },
+                {
+                  "path": "assets/examples/scorefiles/customgrch37.txt"
+                },
+                {
+                  "path": "assets/examples/scorefiles/customgrch38.txt"
+                },
+                {
+                  "path": "assets/report/report.qmd"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/sequential.config"
+                },
+                {
+                  "path": "docs/changelog.rst"
+                },
+                {
+                  "path": "docs/getting-started.rst"
+                },
+                {
+                  "path": "docs/how-to/arm.rst"
+                },
+                {
+                  "path": "docs/how-to/bigjob.rst"
+                },
+                {
+                  "path": "docs/how-to/cache.rst"
+                },
+                {
+                  "path": "docs/how-to/change_version.rst"
+                },
+                {
+                  "path": "docs/how-to/index.rst"
+                },
+                {
+                  "path": "docs/how-to/mount.rst"
+                },
+                {
+                  "path": "environments/pgscatalog_utils/environment.yml"
+                },
+                {
+                  "path": "environments/report/Dockerfile"
+                },
+                {
+                  "path": "environments/report/environment.yml"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/SamplesheetParser.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowPgscCalc.groovy"
+                },
+                {
+                  "path": "lib/WorkflowPgscalc.groovy"
+                },
+                {
+                  "path": "lib/WorkflowTest.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/ancestry_analysis.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/bootstrap/make_database.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/extract_database.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/filter_variants.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/intersect_variants.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/fraposa_pca.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/fraposa_project.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/intersect_thinned.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/plink2_makebed.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/oadp/plink2_orient.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/relabel_afreq.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/relabel_ids.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/relabel_scorefiles.nf"
+                },
+                {
+                  "path": "modules/local/match_combine.nf"
+                },
+                {
+                  "path": "modules/local/match_variants.nf"
+                },
+                {
+                  "path": "modules/local/plink2_relabelbim.nf"
+                },
+                {
+                  "path": "modules/local/plink2_relabelpvar.nf"
+                },
+                {
+                  "path": "modules/local/plink2_score.nf"
+                },
+                {
+                  "path": "modules/local/plink2_vcf.nf"
+                },
+                {
+                  "path": "modules/local/samplesheet_json.nf"
+                },
+                {
+                  "path": "modules/local/score_aggregate.nf"
+                },
+                {
+                  "path": "modules/local/score_report.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/ancestry/ancestry_project.nf"
+                },
+                {
+                  "path": "subworkflows/local/ancestry/bootstrap_ancestry.nf"
+                },
+                {
+                  "path": "subworkflows/local/apply_score.nf"
+                },
+                {
+                  "path": "subworkflows/local/input_check.nf"
+                },
+                {
+                  "path": "subworkflows/local/match.nf"
+                },
+                {
+                  "path": "subworkflows/local/report.nf"
+                },
+                {
+                  "path": "tests/modules/combine/test.yml"
+                },
+                {
+                  "path": "tests/modules/download/test.yml"
+                },
+                {
+                  "path": "tests/modules/match/test.yml"
+                },
+                {
+                  "path": "tests/requirements.txt"
+                },
+                {
+                  "path": "tests/subworkflows/test_apply_score.py"
+                },
+                {
+                  "path": "tests/subworkflows/test_apply_score.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_input_subworkflow.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_liftover_run.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_make_compatible.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_match.yml"
+                },
+                {
+                  "path": "workflows/pgsc_calc.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 111
+                },
+                {
+                  "number": 134
+                },
+                {
+                  "number": 207
+                },
+                {
+                  "number": 209
+                },
+                {
+                  "number": 225
+                },
+                {
+                  "number": 239
+                },
+                {
+                  "number": 240
+                },
+                {
+                  "number": 245
+                },
+                {
+                  "number": 246
+                }
+              ]
+            }
+          },
+          {
+            "number": 243,
+            "title": "Use groovy to parse samplesheets",
+            "state": "MERGED",
+            "createdAt": "2024-02-15T15:44:20Z",
+            "mergedAt": "2024-02-15T17:19:39Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/examples/samplesheet.json"
+                },
+                {
+                  "path": "docs/how-to/index.rst"
+                },
+                {
+                  "path": "docs/how-to/mount.rst"
+                },
+                {
+                  "path": "lib/SamplesheetParser.groovy"
+                },
+                {
+                  "path": "modules/local/samplesheet_json.nf"
+                },
+                {
+                  "path": "subworkflows/local/input_check.nf"
+                },
+                {
+                  "path": "tests/subworkflows/test_apply_score.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_input_subworkflow.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_liftover_run.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_make_compatible.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_match.yml"
+                },
+                {
+                  "path": "workflows/pgscalc.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 219,
+            "title": "Bump pgscatalog utils",
+            "state": "MERGED",
+            "createdAt": "2023-12-05T11:24:02Z",
+            "mergedAt": "2023-12-05T11:45:06Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "environments/pgscatalog_utils/environment.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 217,
+            "title": "v2.0.0-alpha.4",
+            "state": "MERGED",
+            "createdAt": "2023-11-29T13:49:16Z",
+            "mergedAt": "2023-12-05T12:00:25Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ancestry.yml"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/getting-started.rst"
+                },
+                {
+                  "path": "docs/how-to/ancestry.rst"
+                },
+                {
+                  "path": "docs/how-to/index.rst"
+                },
+                {
+                  "path": "docs/how-to/mount.rst"
+                },
+                {
+                  "path": "environments/pgscatalog_utils/environment.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "tests/config/nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 177
+                }
+              ]
+            }
+          },
+          {
+            "number": 214,
+            "title": "fix reference link",
+            "state": "MERGED",
+            "createdAt": "2023-11-15T09:25:47Z",
+            "mergedAt": "2023-11-29T16:38:29Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/getting-started.rst"
+                },
+                {
+                  "path": "docs/how-to/ancestry.rst"
+                },
+                {
+                  "path": "docs/how-to/database.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 203,
+            "title": "Update report (renv and include licenses)",
+            "state": "MERGED",
+            "createdAt": "2023-10-24T15:00:14Z",
+            "mergedAt": "2024-02-15T17:20:05Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "assets/report/renv.lock"
+                },
+                {
+                  "path": "assets/report/report.qmd"
+                },
+                {
+                  "path": "environments/report/Dockerfile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 196,
+            "title": "fix trait parameter in getting started",
+            "state": "MERGED",
+            "createdAt": "2023-10-06T08:24:26Z",
+            "mergedAt": "2023-10-06T08:47:14Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/getting-started.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 195
+                }
+              ]
+            }
+          },
+          {
+            "number": 189,
+            "title": "Version reference database with parameter",
+            "state": "MERGED",
+            "createdAt": "2023-10-03T10:31:07Z",
+            "mergedAt": "2023-10-03T11:41:45Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "RELEASE-CHECKLIST.md"
+                },
+                {
+                  "path": "modules/local/ancestry/bootstrap/make_database.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/extract_database.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 187,
+            "title": "v2.0.0-alpha.3 ",
+            "state": "MERGED",
+            "createdAt": "2023-10-03T08:28:13Z",
+            "mergedAt": "2023-10-03T13:52:52Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ancestry-conda.yml"
+                },
+                {
+                  "path": ".github/workflows/ancestry-vcf.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/conda.yml"
+                },
+                {
+                  "path": ".github/workflows/standard-test.yml"
+                },
+                {
+                  "path": "RELEASE-CHECKLIST.md"
+                },
+                {
+                  "path": "assets/examples/samplesheet.csv"
+                },
+                {
+                  "path": "assets/examples/samplesheet_bfile.csv"
+                },
+                {
+                  "path": "assets/examples/samplesheet_vcf.csv"
+                },
+                {
+                  "path": "assets/report/report.qmd"
+                },
+                {
+                  "path": "assets/schemas/samplesheet.json"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "docs/changelog.rst"
+                },
+                {
+                  "path": "docs/explanation/output.rst"
+                },
+                {
+                  "path": "docs/how-to/prepare.rst"
+                },
+                {
+                  "path": "docs/how-to/samplesheet.rst"
+                },
+                {
+                  "path": "environments/pgscatalog_utils/environment.yml"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "modules/local/ancestry/bootstrap/make_database.nf"
+                },
+                {
+                  "path": "modules/local/ancestry/extract_database.nf"
+                },
+                {
+                  "path": "modules/local/match_combine.nf"
+                },
+                {
+                  "path": "modules/local/plink2_relabelbim.nf"
+                },
+                {
+                  "path": "modules/local/plink2_relabelpvar.nf"
+                },
+                {
+                  "path": "modules/local/plink2_score.nf"
+                },
+                {
+                  "path": "modules/local/plink2_vcf.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/ancestry/ancestry_project.nf"
+                },
+                {
+                  "path": "subworkflows/local/ancestry/bootstrap_ancestry.nf"
+                },
+                {
+                  "path": "tests/ancestry/samplesheet_vcf.csv"
+                },
+                {
+                  "path": "tests/ancestry/test_ancestry.yml"
+                },
+                {
+                  "path": "tests/ancestry/test_ancestry_vcf.yml"
+                },
+                {
+                  "path": "tests/config/nextflow.config"
+                },
+                {
+                  "path": "tests/modules/combine/test.yml"
+                },
+                {
+                  "path": "tests/modules/download/test.yml"
+                },
+                {
+                  "path": "tests/modules/match/test.yml"
+                },
+                {
+                  "path": "tests/modules/plink2/relabelbim/main.nf"
+                },
+                {
+                  "path": "tests/modules/plink2/relabelbim/test.yml"
+                },
+                {
+                  "path": "tests/modules/plink2/relabelpvar/main.nf"
+                },
+                {
+                  "path": "tests/modules/plink2/relabelpvar/test.yml"
+                },
+                {
+                  "path": "tests/modules/plink2/score/test.yml"
+                },
+                {
+                  "path": "tests/modules/plink2/vcf/main.nf"
+                },
+                {
+                  "path": "tests/modules/plink2/vcf/test.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_liftover_run.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_make_compatible.yml"
+                },
+                {
+                  "path": "workflows/pgscalc.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 159
+                }
+              ]
+            }
+          },
+          {
+            "number": 185,
+            "title": "Bump utils to v0.4.2",
+            "state": "MERGED",
+            "createdAt": "2023-09-28T15:02:03Z",
+            "mergedAt": "2023-09-28T16:58:39Z",
+            "author": {
+              "login": "nebfield"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "environments/pgscatalog_utils/environment.yml"
+                },
+                {
+                  "path": "tests/modules/combine/test.yml"
+                },
+                {
+                  "path": "tests/modules/download/test.yml"
+                },
+                {
+                  "path": "tests/modules/match/test.yml"
+                },
+                {
+                  "path": "tests/subworkflows/test_liftover_run.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

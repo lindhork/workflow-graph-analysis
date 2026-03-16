@@ -1,0 +1,2611 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 6909,
+            "title": "Segmentation fault with nextflow run hello",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T19:31:13Z",
+            "closedAt": null,
+            "author": {
+              "login": "KunFang93"
+            }
+          },
+          {
+            "number": 6899,
+            "title": "Determine memory requirements for compressed inputs",
+            "state": "OPEN",
+            "createdAt": "2026-03-06T21:31:48Z",
+            "closedAt": null,
+            "author": {
+              "login": "AlexVCaron"
+            }
+          },
+          {
+            "number": 6895,
+            "title": "Latest edge release wants secrets to be a list",
+            "state": "OPEN",
+            "createdAt": "2026-03-05T14:18:32Z",
+            "closedAt": null,
+            "author": {
+              "login": "prototaxites"
+            }
+          },
+          {
+            "number": 6894,
+            "title": "Add config source attribution (blame) to `nextflow config` command",
+            "state": "OPEN",
+            "createdAt": "2026-03-05T09:52:19Z",
+            "closedAt": null,
+            "author": {
+              "login": "ewels"
+            }
+          },
+          {
+            "number": 6892,
+            "title": "Nextflow lint removes required parens in map assignment",
+            "state": "CLOSED",
+            "createdAt": "2026-03-04T22:06:10Z",
+            "closedAt": "2026-03-07T15:14:50Z",
+            "author": {
+              "login": "StephenTannerAtTempus"
+            }
+          },
+          {
+            "number": 6890,
+            "title": "TraceFileObserver NPE on every task when trace file already exists",
+            "state": "OPEN",
+            "createdAt": "2026-03-04T21:43:09Z",
+            "closedAt": null,
+            "author": {
+              "login": "robsyme"
+            }
+          },
+          {
+            "number": 6888,
+            "title": "Unable to stage empty files from S3",
+            "state": "OPEN",
+            "createdAt": "2026-03-04T20:22:00Z",
+            "closedAt": null,
+            "author": {
+              "login": "matthdsm"
+            }
+          },
+          {
+            "number": 6885,
+            "title": "nf-tower plugin blocks JVM exit after workflow completion — missing HTTP read timeout",
+            "state": "OPEN",
+            "createdAt": "2026-03-04T12:01:17Z",
+            "closedAt": null,
+            "author": {
+              "login": "adamrtalbot"
+            }
+          },
+          {
+            "number": 6884,
+            "title": "Cache fail when specific conditions are met",
+            "state": "OPEN",
+            "createdAt": "2026-03-03T22:43:22Z",
+            "closedAt": null,
+            "author": {
+              "login": "vagkaratzas"
+            }
+          },
+          {
+            "number": 6883,
+            "title": "`$/` in scripts shifts the inputs to the right",
+            "state": "OPEN",
+            "createdAt": "2026-03-03T17:42:31Z",
+            "closedAt": null,
+            "author": {
+              "login": "VasLem"
+            }
+          },
+          {
+            "number": 6878,
+            "title": "GoogleBatch API errors about Deadline exceeded - How to handle retries",
+            "state": "OPEN",
+            "createdAt": "2026-03-02T16:04:49Z",
+            "closedAt": null,
+            "author": {
+              "login": "alexvasilikop"
+            }
+          },
+          {
+            "number": 6871,
+            "title": "Google Batch: `outputDir` directive workflow cannot be anything but the bucket",
+            "state": "OPEN",
+            "createdAt": "2026-02-26T10:53:55Z",
+            "closedAt": null,
+            "author": {
+              "login": "VasLem"
+            }
+          },
+          {
+            "number": 6870,
+            "title": "Workflow output `path` closure silently failing causing no follow-up output",
+            "state": "CLOSED",
+            "createdAt": "2026-02-26T10:48:09Z",
+            "closedAt": "2026-03-02T17:30:26Z",
+            "author": {
+              "login": "VasLem"
+            }
+          },
+          {
+            "number": 6865,
+            "title": "`nextflow launch` support launchContainer field",
+            "state": "OPEN",
+            "createdAt": "2026-02-25T16:50:21Z",
+            "closedAt": null,
+            "author": {
+              "login": "adamrtalbot"
+            }
+          },
+          {
+            "number": 6863,
+            "title": "Azure Batch: custom `startTask.script` never executes when `copyToolInstallMode = 'node'`",
+            "state": "OPEN",
+            "createdAt": "2026-02-25T12:38:57Z",
+            "closedAt": null,
+            "author": {
+              "login": "adamrtalbot"
+            }
+          },
+          {
+            "number": 6862,
+            "title": "Standard profile always applied",
+            "state": "CLOSED",
+            "createdAt": "2026-02-25T10:19:58Z",
+            "closedAt": "2026-02-25T10:32:50Z",
+            "author": {
+              "login": "BioWilko"
+            }
+          },
+          {
+            "number": 6857,
+            "title": "nextflow lint: support reading file paths from a file or stdin to avoid ARG_MAX limits",
+            "state": "OPEN",
+            "createdAt": "2026-02-24T12:16:42Z",
+            "closedAt": null,
+            "author": {
+              "login": "adamrtalbot"
+            }
+          },
+          {
+            "number": 6856,
+            "title": "`nextflow lint` ignores `--quiet` flag",
+            "state": "OPEN",
+            "createdAt": "2026-02-24T10:55:35Z",
+            "closedAt": null,
+            "author": {
+              "login": "mashehu"
+            }
+          },
+          {
+            "number": 6850,
+            "title": "`task.ext` task hash is identical despite values being different",
+            "state": "OPEN",
+            "createdAt": "2026-02-19T22:35:36Z",
+            "closedAt": null,
+            "author": {
+              "login": "trev-f"
+            }
+          },
+          {
+            "number": 6842,
+            "title": "Alphafold in nextflow using azure batch",
+            "state": "CLOSED",
+            "createdAt": "2026-02-18T18:21:24Z",
+            "closedAt": "2026-02-18T19:41:55Z",
+            "author": {
+              "login": "venkatt007"
+            }
+          },
+          {
+            "number": 6835,
+            "title": "Error: Exception in thread \"Task submitter\" java.lang.OutOfMemoryError: Java heap space",
+            "state": "CLOSED",
+            "createdAt": "2026-02-13T22:26:53Z",
+            "closedAt": "2026-02-16T15:03:01Z",
+            "author": {
+              "login": "desmodus1984"
+            }
+          },
+          {
+            "number": 6830,
+            "title": "Feature request: pubish per-channel entry index files",
+            "state": "OPEN",
+            "createdAt": "2026-02-13T10:17:15Z",
+            "closedAt": null,
+            "author": {
+              "login": "prototaxites"
+            }
+          },
+          {
+            "number": 6828,
+            "title": "The linter could check whitespace use",
+            "state": "OPEN",
+            "createdAt": "2026-02-12T15:35:44Z",
+            "closedAt": null,
+            "author": {
+              "login": "muffato"
+            }
+          },
+          {
+            "number": 6826,
+            "title": "Google config parsing failed",
+            "state": "OPEN",
+            "createdAt": "2026-02-12T09:14:39Z",
+            "closedAt": null,
+            "author": {
+              "login": "thalassemia"
+            }
+          },
+          {
+            "number": 6825,
+            "title": "Feature Request: add option to change default scheduling policy with nf-google",
+            "state": "OPEN",
+            "createdAt": "2026-02-12T05:04:50Z",
+            "closedAt": null,
+            "author": {
+              "login": "regan-hayward"
+            }
+          },
+          {
+            "number": 6820,
+            "title": "nf-amazon plugin usage failing",
+            "state": "OPEN",
+            "createdAt": "2026-02-09T17:49:47Z",
+            "closedAt": null,
+            "author": {
+              "login": "anoronh4"
+            }
+          },
+          {
+            "number": 6817,
+            "title": "Feature request: Plugin registry can pull unreleased branches",
+            "state": "OPEN",
+            "createdAt": "2026-02-08T10:51:30Z",
+            "closedAt": null,
+            "author": {
+              "login": "adamrtalbot"
+            }
+          },
+          {
+            "number": 6814,
+            "title": "Add support for installing conda environments with `conda-lock`",
+            "state": "OPEN",
+            "createdAt": "2026-02-06T15:08:23Z",
+            "closedAt": null,
+            "author": {
+              "login": "imLew"
+            }
+          },
+          {
+            "number": 6810,
+            "title": "Feature Request: Sparse Checkout Support for Pipeline Repositories",
+            "state": "OPEN",
+            "createdAt": "2026-02-05T11:19:50Z",
+            "closedAt": null,
+            "author": {
+              "login": "adamrtalbot"
+            }
+          },
+          {
+            "number": 6807,
+            "title": "listFiles() does not follow symbolic links",
+            "state": "CLOSED",
+            "createdAt": "2026-02-05T10:27:20Z",
+            "closedAt": "2026-02-06T15:35:50Z",
+            "author": {
+              "login": "adamrtalbot"
+            }
+          },
+          {
+            "number": 6803,
+            "title": "Cannot invoke method minus() on null object",
+            "state": "OPEN",
+            "createdAt": "2026-02-04T21:10:17Z",
+            "closedAt": null,
+            "author": {
+              "login": "MikeWLloyd"
+            }
+          },
+          {
+            "number": 6802,
+            "title": "Deadlock on 25.10.3 on AWS Batch",
+            "state": "CLOSED",
+            "createdAt": "2026-02-04T20:18:24Z",
+            "closedAt": "2026-02-06T10:46:07Z",
+            "author": {
+              "login": "jchorl"
+            }
+          },
+          {
+            "number": 6798,
+            "title": "Config selectors don't merge content when in a profile included via `includeConfig`",
+            "state": "OPEN",
+            "createdAt": "2026-02-04T02:46:14Z",
+            "closedAt": null,
+            "author": {
+              "login": "awgymer"
+            }
+          },
+          {
+            "number": 6797,
+            "title": "Add memory and cpu limits to processes launched through Apptainer / Singularity with a local executor",
+            "state": "OPEN",
+            "createdAt": "2026-02-03T12:21:44Z",
+            "closedAt": null,
+            "author": {
+              "login": "OlivierCoen"
+            }
+          },
+          {
+            "number": 6793,
+            "title": "Imports from JARs are no longer supported",
+            "state": "OPEN",
+            "createdAt": "2026-02-03T04:40:30Z",
+            "closedAt": null,
+            "author": {
+              "login": "jchorl"
+            }
+          },
+          {
+            "number": 6791,
+            "title": "Devcontainer Support",
+            "state": "CLOSED",
+            "createdAt": "2026-02-02T23:28:47Z",
+            "closedAt": "2026-02-26T18:06:45Z",
+            "author": {
+              "login": "PeterKnealeCMRI"
+            }
+          },
+          {
+            "number": 6788,
+            "title": "Cache resume broken when changing syntax parser.",
+            "state": "CLOSED",
+            "createdAt": "2026-02-02T11:37:15Z",
+            "closedAt": "2026-02-03T17:42:00Z",
+            "author": {
+              "login": "jorgee"
+            }
+          },
+          {
+            "number": 6783,
+            "title": "Allow multiple lines in parameter destructuring with V2 strict parser",
+            "state": "CLOSED",
+            "createdAt": "2026-01-29T21:02:17Z",
+            "closedAt": "2026-02-02T14:31:37Z",
+            "author": {
+              "login": "cgoina"
+            }
+          },
+          {
+            "number": 6780,
+            "title": "Add `podman.workDirMountFlags` option to set explicit mount flags for workDir",
+            "state": "OPEN",
+            "createdAt": "2026-01-29T15:00:15Z",
+            "closedAt": null,
+            "author": {
+              "login": "Hoeze"
+            }
+          },
+          {
+            "number": 6779,
+            "title": "Nextflow prioritizes 50001 over .exitcode even when the Batch job is retried and succeeds.",
+            "state": "OPEN",
+            "createdAt": "2026-01-29T13:59:37Z",
+            "closedAt": null,
+            "author": {
+              "login": "mikesivley"
+            }
+          },
+          {
+            "number": 6778,
+            "title": "Compile error when using enums in V2 parse",
+            "state": "CLOSED",
+            "createdAt": "2026-01-29T12:53:54Z",
+            "closedAt": "2026-01-30T16:26:41Z",
+            "author": {
+              "login": "jorgee"
+            }
+          },
+          {
+            "number": 6777,
+            "title": "Strict syntax raises false warning in module templates",
+            "state": "OPEN",
+            "createdAt": "2026-01-29T12:39:37Z",
+            "closedAt": null,
+            "author": {
+              "login": "fasterius"
+            }
+          },
+          {
+            "number": 6773,
+            "title": "Cloudcache plugin configuration warning",
+            "state": "CLOSED",
+            "createdAt": "2026-01-28T21:48:21Z",
+            "closedAt": "2026-01-29T18:50:07Z",
+            "author": {
+              "login": "just-simon-5"
+            }
+          },
+          {
+            "number": 6772,
+            "title": "Change the LSFExecutor killCommand to use '-d'",
+            "state": "OPEN",
+            "createdAt": "2026-01-28T19:44:16Z",
+            "closedAt": null,
+            "author": {
+              "login": "cgoina"
+            }
+          },
+          {
+            "number": 6767,
+            "title": "Pipeline Info - Timeline - Inconsistent verical alignment (small issue / nit)",
+            "state": "CLOSED",
+            "createdAt": "2026-01-27T22:26:31Z",
+            "closedAt": "2026-02-26T18:23:33Z",
+            "author": {
+              "login": "PeterKnealeCMRI"
+            }
+          },
+          {
+            "number": 6762,
+            "title": "v2 parser: params defined in including script not visible in module",
+            "state": "CLOSED",
+            "createdAt": "2026-01-27T10:25:01Z",
+            "closedAt": "2026-01-29T19:43:17Z",
+            "author": {
+              "login": "pinin4fjords"
+            }
+          },
+          {
+            "number": 6761,
+            "title": "Race condition in stage-in of ./bin/ on AWS Batch running ECS Docker containers",
+            "state": "OPEN",
+            "createdAt": "2026-01-27T00:52:07Z",
+            "closedAt": null,
+            "author": {
+              "login": "tfallon-ionis"
+            }
+          },
+          {
+            "number": 6760,
+            "title": "Cannot pass booleans on command-line with strict syntax",
+            "state": "OPEN",
+            "createdAt": "2026-01-26T12:21:30Z",
+            "closedAt": null,
+            "author": {
+              "login": "just-simon-5"
+            }
+          },
+          {
+            "number": 6759,
+            "title": "Parameter configuration resolution change when using strict syntax",
+            "state": "OPEN",
+            "createdAt": "2026-01-26T11:27:35Z",
+            "closedAt": null,
+            "author": {
+              "login": "just-simon-5"
+            }
+          },
+          {
+            "number": 6758,
+            "title": "Pipeline completed with errors ends with correct exit-code",
+            "state": "OPEN",
+            "createdAt": "2026-01-26T04:05:56Z",
+            "closedAt": null,
+            "author": {
+              "login": "mewu3"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 6908,
+            "title": "Add provider option to Seqera executor config",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T16:36:44Z",
+            "mergedAt": null,
+            "author": {
+              "login": "pditommaso"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/reference/config.md"
+                },
+                {
+                  "path": "plugins/nf-seqera/VERSION"
+                },
+                {
+                  "path": "plugins/nf-seqera/build.gradle"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/main/io/seqera/config/ExecutorOpts.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/main/io/seqera/executor/SeqeraExecutor.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/test/io/seqera/config/ExecutorOptsTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6907,
+            "title": "Increase tasks.cloudZone width from 15 to 25",
+            "state": "MERGED",
+            "createdAt": "2026-03-10T11:05:52Z",
+            "mergedAt": "2026-03-10T12:58:11Z",
+            "author": {
+              "login": "ramonamela"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "plugins/nf-tower/src/resources/tower-schema.properties"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6906,
+            "title": "Add compute env ID and provider support to Seqera executor",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T08:54:45Z",
+            "mergedAt": null,
+            "author": {
+              "login": "pditommaso"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/reference/config.md"
+                },
+                {
+                  "path": "docs/reference/env-vars.md"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/platform/PlatformHelper.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/platform/PlatformHelperTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/VERSION"
+                },
+                {
+                  "path": "plugins/nf-seqera/build.gradle"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/main/io/seqera/config/ExecutorOpts.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/main/io/seqera/executor/SeqeraExecutor.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/test/io/seqera/config/ExecutorOptsTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6905,
+            "title": "Support staging closure for input files in typed process",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T00:29:23Z",
+            "mergedAt": null,
+            "author": {
+              "login": "bentsherman"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "adr/20260306-record-types.md"
+                },
+                {
+                  "path": "docs/process-typed.md"
+                },
+                {
+                  "path": "docs/reference/process.md"
+                },
+                {
+                  "path": "docs/workflow.md"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/processor/TaskInputResolver.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/script/dsl/ProcessDslV2.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/script/params/v2/ProcessFileInput.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/processor/TaskInputResolverTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/script/dsl/ProcessDslV2Test.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/script/params/v2/ProcessFileInputTest.groovy"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/script/control/ProcessToGroovyVisitorV2.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/script/control/ScriptToGroovyHelper.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/script/dsl/ProcessDsl.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/test/groovy/nextflow/script/formatter/ScriptFormatterTest.groovy"
+                },
+                {
+                  "path": "tests/checks/.IGNORE-PARSER-V2"
+                },
+                {
+                  "path": "tests/checks/stage-file-closure.nf/.checks"
+                },
+                {
+                  "path": "tests/checks/stage-file-closure.nf/.expected"
+                },
+                {
+                  "path": "tests/collect-tuple-typed.nf"
+                },
+                {
+                  "path": "tests/dynamic-filename-typed.nf"
+                },
+                {
+                  "path": "tests/nullable-path.nf"
+                },
+                {
+                  "path": "tests/stage-file-closure.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 3631
+                }
+              ]
+            }
+          },
+          {
+            "number": 6903,
+            "title": "Fix cached task after abort",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T13:50:45Z",
+            "mergedAt": null,
+            "author": {
+              "login": "jorgee"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/processor/TaskProcessor.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/processor/TaskRun.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/trace/TraceRecord.groovy"
+                },
+                {
+                  "path": "tests/checks/resume-retried-with-abort.nf/.checks"
+                },
+                {
+                  "path": "tests/resume-retried-with-abort.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 6884
+                }
+              ]
+            }
+          },
+          {
+            "number": 6902,
+            "title": "Generate per-container SAS tokens for Azure AD/Managed Identity auth",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T13:12:40Z",
+            "mergedAt": null,
+            "author": {
+              "login": "adamrtalbot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "plugins/nf-azure/src/main/nextflow/cloud/azure/batch/AzBatchExecutor.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/main/nextflow/cloud/azure/batch/AzBatchService.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/main/nextflow/cloud/azure/batch/AzFileCopyStrategy.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/main/nextflow/cloud/azure/batch/AzHelper.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/main/nextflow/cloud/azure/config/AzStorageOpts.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/main/nextflow/cloud/azure/file/AzBashLib.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/main/nextflow/cloud/azure/file/AzPathFactory.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/main/nextflow/cloud/azure/fusion/AzFusionEnv.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/main/nextflow/cloud/azure/nio/AzFileSystem.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/main/nextflow/cloud/azure/nio/AzFileSystemProvider.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/test/nextflow/cloud/azure/batch/AzBatchServiceTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/test/nextflow/cloud/azure/batch/AzFileCopyStrategyTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/test/nextflow/cloud/azure/config/AzStorageOptsTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/test/nextflow/cloud/azure/file/AzBashLibTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/test/nextflow/cloud/azure/fusion/AzFusionEnvTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/test/nextflow/executor/BashWrapperBuilderWithAzTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 5669
+                }
+              ]
+            }
+          },
+          {
+            "number": 6901,
+            "title": "Add Google Batch secret variables support",
+            "state": "CLOSED",
+            "createdAt": "2026-03-09T10:51:20Z",
+            "mergedAt": null,
+            "author": {
+              "login": "jonmarti"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "plugins/nf-google/src/main/nextflow/cloud/google/batch/GoogleBatchExecutor.groovy"
+                },
+                {
+                  "path": "plugins/nf-google/src/main/nextflow/cloud/google/batch/GoogleBatchTaskHandler.groovy"
+                },
+                {
+                  "path": "plugins/nf-google/src/test/nextflow/cloud/google/batch/GoogleBatchExecutorTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-google/src/test/nextflow/cloud/google/batch/GoogleBatchTaskHandlerTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6900,
+            "title": "ADR: Pipeline spec",
+            "state": "OPEN",
+            "createdAt": "2026-03-08T04:42:00Z",
+            "mergedAt": null,
+            "author": {
+              "login": "bentsherman"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "adr/20251212-pipeline-spec.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6898,
+            "title": "Remote module inclusion without @",
+            "state": "MERGED",
+            "createdAt": "2026-03-06T12:23:07Z",
+            "mergedAt": "2026-03-06T15:07:41Z",
+            "author": {
+              "login": "jorgee"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/module/CmdModuleInfo.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/module/CmdModuleInstall.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/module/CmdModuleList.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/module/CmdModulePublish.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/module/CmdModuleRemove.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/module/CmdModuleRun.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/module/DefaultRemoteModuleResolver.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/module/InstalledModule.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/module/ModuleChecksum.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/module/ModuleReference.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/module/ModuleRegistryClient.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/module/ModuleResolver.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/module/ModuleStorage.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/pipeline/PipelineSpec.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/script/IncludeDef.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/cli/module/CmdModuleInfoTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/cli/module/CmdModuleInstallTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/cli/module/CmdModuleListTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/cli/module/CmdModuleRemoveTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/cli/module/CmdModuleRunTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/config/ModulesConfigTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/module/InstalledModuleTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/module/ModuleChecksumTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/module/ModuleReferenceTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/module/ModuleResolverTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/module/ModuleStorageTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/script/IncludeDefTest.groovy"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/script/control/ModuleResolver.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/script/control/ResolveIncludeVisitor.java"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6897,
+            "title": "Add multi-arch support to arch process directive",
+            "state": "OPEN",
+            "createdAt": "2026-03-06T11:24:43Z",
+            "mergedAt": null,
+            "author": {
+              "login": "pditommaso"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/processor/Architecture.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/processor/TaskRun.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/processor/ArchitectureTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-amazon/src/main/nextflow/cloud/aws/batch/AwsBatchTaskHandler.groovy"
+                },
+                {
+                  "path": "plugins/nf-wave/src/main/io/seqera/wave/plugin/WaveClient.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6896,
+            "title": "Add comment option to splitCsv operator (#6705)",
+            "state": "OPEN",
+            "createdAt": "2026-03-05T20:31:10Z",
+            "mergedAt": null,
+            "author": {
+              "login": "oqadiSAK"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/reference/operator.md"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/splitter/CsvSplitter.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/splitter/CsvSplitterTest.groovy"
+                },
+                {
+                  "path": "modules/nf-commons/src/main/nextflow/util/CsvParser.groovy"
+                },
+                {
+                  "path": "modules/nf-commons/src/test/nextflow/util/CsvParserTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 6705
+                }
+              ]
+            }
+          },
+          {
+            "number": 6893,
+            "title": "Fix formatting bug with map key expression",
+            "state": "MERGED",
+            "createdAt": "2026-03-05T01:39:15Z",
+            "mergedAt": "2026-03-07T15:14:49Z",
+            "author": {
+              "login": "bentsherman"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/script/control/ResolveVisitor.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/test/groovy/nextflow/script/formatter/ScriptFormatterTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 6892
+                }
+              ]
+            }
+          },
+          {
+            "number": 6891,
+            "title": "Fix TraceFileObserver NPE when trace file already exists",
+            "state": "OPEN",
+            "createdAt": "2026-03-04T21:57:46Z",
+            "mergedAt": null,
+            "author": {
+              "login": "robsyme"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/trace/TraceFileObserver.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/trace/TraceFileObserverTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 6890
+                }
+              ]
+            }
+          },
+          {
+            "number": 6889,
+            "title": "Add fallback for S3 error code 416",
+            "state": "OPEN",
+            "createdAt": "2026-03-04T20:48:20Z",
+            "mergedAt": null,
+            "author": {
+              "login": "matthdsm"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "plugins/nf-amazon/src/main/nextflow/cloud/aws/nio/S3Client.java"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 6888
+                }
+              ]
+            }
+          },
+          {
+            "number": 6887,
+            "title": "Use PipelineSpec model in Seqera executor",
+            "state": "MERGED",
+            "createdAt": "2026-03-04T13:17:17Z",
+            "mergedAt": "2026-03-04T13:28:52Z",
+            "author": {
+              "login": "pditommaso"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "plugins/nf-seqera/VERSION"
+                },
+                {
+                  "path": "plugins/nf-seqera/build.gradle"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/main/io/seqera/executor/SeqeraExecutor.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6886,
+            "title": "Add nf-seqera executor plugin",
+            "state": "CLOSED",
+            "createdAt": "2026-03-04T13:01:06Z",
+            "mergedAt": null,
+            "author": {
+              "login": "pditommaso"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": "VERSION"
+                },
+                {
+                  "path": "docs/_static/theme.css"
+                },
+                {
+                  "path": "docs/_templates/layout.html"
+                },
+                {
+                  "path": "docs/aws.md"
+                },
+                {
+                  "path": "docs/executor.md"
+                },
+                {
+                  "path": "docs/migrations/25-10.md"
+                },
+                {
+                  "path": "docs/notifications.md"
+                },
+                {
+                  "path": "docs/reference/config.md"
+                },
+                {
+                  "path": "docs/reference/stdlib-types.md"
+                },
+                {
+                  "path": "docs/strict-syntax.md"
+                },
+                {
+                  "path": "docs/workflow.md"
+                },
+                {
+                  "path": "docs/working-with-files.md"
+                },
+                {
+                  "path": "docs/your-first-script.md"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/executor/LsfExecutor.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/executor/res/DiskResource.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/script/ParamsDsl.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/script/PlatformMetadata.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/script/WorkflowMetadata.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/trace/TraceRecord.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/resources/META-INF/plugins-info.txt"
+                },
+                {
+                  "path": "modules/nextflow/src/main/resources/nextflow/trace/assets/d3-timeline.js"
+                },
+                {
+                  "path": "modules/nextflow/src/main/resources/nextflow/trace/assets/d3-timeline.min.js"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/executor/LsfExecutorTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/script/ParamsDslTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/script/PlatformMetadataTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/resources/nextflow/executor/lsf.conf"
+                },
+                {
+                  "path": "modules/nextflow/src/test/resources/nextflow/trace/timeline-expected.html"
+                },
+                {
+                  "path": "modules/nf-commons/src/main/nextflow/plugin/PluginsFacade.groovy"
+                },
+                {
+                  "path": "modules/nf-commons/src/test/nextflow/plugin/PluginsFacadeTest.groovy"
+                },
+                {
+                  "path": "modules/nf-lineage/src/main/nextflow/lineage/LinObserver.groovy"
+                },
+                {
+                  "path": "modules/nf-lineage/src/main/nextflow/lineage/model/v1beta1/Workflow.groovy"
+                },
+                {
+                  "path": "modules/nf-lineage/src/test/nextflow/lineage/LinObserverTest.groovy"
+                },
+                {
+                  "path": "packing.gradle"
+                },
+                {
+                  "path": "plugins/nf-google/src/main/nextflow/cloud/google/batch/GoogleBatchTaskHandler.groovy"
+                },
+                {
+                  "path": "plugins/nf-google/src/test/nextflow/cloud/google/batch/GoogleBatchTaskHandlerTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/README.md"
+                },
+                {
+                  "path": "plugins/nf-seqera/VERSION"
+                },
+                {
+                  "path": "plugins/nf-seqera/build.gradle"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/main/io/seqera/config/ExecutorOpts.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/main/io/seqera/config/MachineRequirementOpts.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/main/io/seqera/config/RetryOpts.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/main/io/seqera/config/SeqeraConfig.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/main/io/seqera/executor/InputFilesProfiler.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/main/io/seqera/executor/Labels.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/main/io/seqera/executor/SeqeraBatchSubmitter.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/main/io/seqera/executor/SeqeraExecutor.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/main/io/seqera/executor/SeqeraTaskHandler.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/main/io/seqera/plugin/SeqeraPlugin.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/main/io/seqera/util/SchemaMapperUtil.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/test/io/seqera/config/ExecutorOptsTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/test/io/seqera/config/MachineRequirementOptsTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/test/io/seqera/config/RetryOptsTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/test/io/seqera/config/SeqeraConfigTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/test/io/seqera/executor/InputFilesProfilerTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/test/io/seqera/executor/LabelsTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/test/io/seqera/executor/SeqeraBatchSubmitterTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/test/io/seqera/executor/SeqeraExecutorTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/test/io/seqera/executor/SeqeraTaskHandlerTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/test/io/seqera/util/MapperUtilTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-tower/VERSION"
+                },
+                {
+                  "path": "plugins/nf-tower/src/main/io/seqera/tower/plugin/TowerClient.groovy"
+                },
+                {
+                  "path": "plugins/nf-tower/src/test/io/seqera/tower/plugin/TowerClientTest.groovy"
+                },
+                {
+                  "path": "settings.gradle"
+                },
+                {
+                  "path": "tests/checks/params-dsl.nf/.checks"
+                },
+                {
+                  "path": "tests/params-dsl.config"
+                },
+                {
+                  "path": "tests/params-dsl.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6882,
+            "title": "bot attempt to figure the bug, based on reproducible example",
+            "state": "OPEN",
+            "createdAt": "2026-03-03T16:19:00Z",
+            "mergedAt": null,
+            "author": {
+              "login": "vagkaratzas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/processor/TaskProcessor.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6881,
+            "title": "Typed dataflow",
+            "state": "OPEN",
+            "createdAt": "2026-03-02T22:22:34Z",
+            "mergedAt": null,
+            "author": {
+              "login": "bentsherman"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "adr/20260306-record-types.md"
+                },
+                {
+                  "path": "adr/20260310-typed-dataflow.md"
+                },
+                {
+                  "path": "docs/process-typed.md"
+                },
+                {
+                  "path": "docs/workflow.md"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/Channel.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/dataflow/ChannelImpl.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/dataflow/ChannelNamespace.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/dataflow/ValueImpl.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/dataflow/ops/CrossOpV2.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/dataflow/ops/GroupByOp.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/dataflow/ops/JoinOpV2.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/extension/CH.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/script/ProcessDef.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/script/WorkflowBinding.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/script/WorkflowDef.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/script/parser/v2/ScriptCompiler.java"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/util/HashBag.java"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/dataflow/ChannelImplTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/dataflow/ValueImplTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/script/parser/v2/ScriptLoaderV2Test.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/util/HashBagTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/testFixtures/groovy/test/ScriptHelper.groovy"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/script/ast/ScriptNode.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/script/control/StripTypesVisitor.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/script/control/TypeCheckingVisitor.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/script/control/VariableScopeVisitor.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/script/dsl/WorkflowDsl.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/script/dsl/WorkflowDslV1.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/script/namespaces/ChannelNamespace.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/script/parser/ScriptAstBuilder.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/script/types/Channel.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/script/types/Value.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/test/groovy/nextflow/script/control/TypeCheckingTest.groovy"
+                },
+                {
+                  "path": "tests/checks/.IGNORE-PARSER-V2"
+                },
+                {
+                  "path": "tests/checks/collect-record.nf/.checks"
+                },
+                {
+                  "path": "tests/checks/topic-channel-typed.nf/.checks"
+                },
+                {
+                  "path": "tests/checks/topic-channel-typed.nf/.expected"
+                },
+                {
+                  "path": "tests/chunk.nf"
+                },
+                {
+                  "path": "tests/collect-record.nf"
+                },
+                {
+                  "path": "tests/collect-tuple-typed.nf"
+                },
+                {
+                  "path": "tests/dynamic-filename-typed.nf"
+                },
+                {
+                  "path": "tests/env-typed.nf"
+                },
+                {
+                  "path": "tests/eval-out-typed.nf"
+                },
+                {
+                  "path": "tests/nullable-path.nf"
+                },
+                {
+                  "path": "tests/output-dsl.nf"
+                },
+                {
+                  "path": "tests/topic-channel-typed.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6880,
+            "title": "Fix `nextflow lint` ignoring `--quiet` flag",
+            "state": "OPEN",
+            "createdAt": "2026-03-02T21:45:26Z",
+            "mergedAt": null,
+            "author": {
+              "login": "ewels"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/CmdLint.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/script/parser/v2/ErrorListener.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/cli/CmdLintTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 6856
+                }
+              ]
+            }
+          },
+          {
+            "number": 6879,
+            "title": "Add NVMe disk allocation and diskMountPath support",
+            "state": "MERGED",
+            "createdAt": "2026-03-02T17:58:48Z",
+            "mergedAt": "2026-03-02T22:25:14Z",
+            "author": {
+              "login": "pditommaso"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/executor.md"
+                },
+                {
+                  "path": "docs/reference/config.md"
+                },
+                {
+                  "path": "plugins/nf-seqera/VERSION"
+                },
+                {
+                  "path": "plugins/nf-seqera/build.gradle"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/main/io/seqera/config/MachineRequirementOpts.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/main/io/seqera/util/SchemaMapperUtil.groovy"
+                },
+                {
+                  "path": "plugins/nf-seqera/src/test/io/seqera/util/MapperUtilTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6877,
+            "title": "Add logStreamId to Tower task record",
+            "state": "MERGED",
+            "createdAt": "2026-03-01T14:38:33Z",
+            "mergedAt": "2026-03-02T13:42:21Z",
+            "author": {
+              "login": "pditommaso"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "plugins/nf-tower/src/main/io/seqera/tower/plugin/TowerClient.groovy"
+                },
+                {
+                  "path": "plugins/nf-tower/src/test/io/seqera/tower/plugin/TowerClientTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6876,
+            "title": "Propagate errors from workflow outputs",
+            "state": "MERGED",
+            "createdAt": "2026-02-27T16:22:33Z",
+            "mergedAt": "2026-03-02T17:30:25Z",
+            "author": {
+              "login": "bentsherman"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/script/OutputDsl.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/script/OutputDslTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 6870
+                }
+              ]
+            }
+          },
+          {
+            "number": 6875,
+            "title": "Add `-print-output` option to print workflow outputs JSON",
+            "state": "OPEN",
+            "createdAt": "2026-02-27T16:03:58Z",
+            "mergedAt": null,
+            "author": {
+              "login": "bentsherman"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/reference/cli.md"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/Session.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/CmdRun.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/config/ConfigBuilder.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/script/OutputDsl.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/script/OutputDslTest.groovy"
+                },
+                {
+                  "path": "tests/checks/output-dsl.nf/.checks"
+                },
+                {
+                  "path": "tests/checks/output-dsl.nf/.expected"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6874,
+            "title": "Handle Azure Batch ActiveJobAndScheduleQuotaReached with retry",
+            "state": "MERGED",
+            "createdAt": "2026-02-27T12:01:39Z",
+            "mergedAt": "2026-02-27T22:39:04Z",
+            "author": {
+              "login": "adamrtalbot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "plugins/nf-azure/src/main/nextflow/cloud/azure/batch/AzBatchService.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/main/nextflow/cloud/azure/config/AzBatchOpts.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/test/nextflow/cloud/azure/batch/AzBatchServiceTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 5575
+                }
+              ]
+            }
+          },
+          {
+            "number": 6873,
+            "title": "Add ResourcesResolver for pre-flight resource optimization",
+            "state": "OPEN",
+            "createdAt": "2026-02-26T17:55:19Z",
+            "mergedAt": null,
+            "author": {
+              "login": "pditommaso"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "adr/20260225-resources-resolver.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6872,
+            "title": "Fix Azure Batch executor scratch directory support",
+            "state": "OPEN",
+            "createdAt": "2026-02-26T16:46:24Z",
+            "mergedAt": null,
+            "author": {
+              "login": "adamrtalbot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "plugins/nf-azure/src/main/nextflow/cloud/azure/batch/AzBatchService.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/main/nextflow/cloud/azure/batch/AzFileCopyStrategy.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/test/nextflow/cloud/azure/batch/AzFileCopyStrategyTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6869,
+            "title": "docs: clarify Path.name for staged process path inputs",
+            "state": "MERGED",
+            "createdAt": "2026-02-26T08:00:55Z",
+            "mergedAt": "2026-02-26T15:29:00Z",
+            "author": {
+              "login": "LarytheLord"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/reference/stdlib-types.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6868,
+            "title": "fix(trace): align timeline labels with task rows",
+            "state": "CLOSED",
+            "createdAt": "2026-02-26T06:33:03Z",
+            "mergedAt": null,
+            "author": {
+              "login": "LarytheLord"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/nextflow/src/main/resources/nextflow/trace/assets/d3-timeline.js"
+                },
+                {
+                  "path": "modules/nextflow/src/main/resources/nextflow/trace/assets/d3-timeline.min.js"
+                },
+                {
+                  "path": "modules/nextflow/src/test/resources/nextflow/trace/timeline-expected.html"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6867,
+            "title": "feat: add a repository devcontainer for contributor onboarding",
+            "state": "CLOSED",
+            "createdAt": "2026-02-26T06:02:56Z",
+            "mergedAt": null,
+            "author": {
+              "login": "LarytheLord"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".devcontainer/post-create.sh"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "CONTRIBUTING.md"
+                },
+                {
+                  "path": "docs/developer/index.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 6791
+                }
+              ]
+            }
+          },
+          {
+            "number": 6866,
+            "title": "feat(nf-tower): add dataset:// FileSystem provider",
+            "state": "OPEN",
+            "createdAt": "2026-02-25T20:53:43Z",
+            "mergedAt": null,
+            "author": {
+              "login": "edmundmiller"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "plugins/nf-tower/build.gradle"
+                },
+                {
+                  "path": "plugins/nf-tower/src/main/io/seqera/tower/plugin/dataset/DatasetFileSystem.java"
+                },
+                {
+                  "path": "plugins/nf-tower/src/main/io/seqera/tower/plugin/dataset/DatasetFileSystemProvider.java"
+                },
+                {
+                  "path": "plugins/nf-tower/src/main/io/seqera/tower/plugin/dataset/DatasetPath.java"
+                },
+                {
+                  "path": "plugins/nf-tower/src/main/io/seqera/tower/plugin/dataset/DatasetPathFactory.groovy"
+                },
+                {
+                  "path": "plugins/nf-tower/src/main/io/seqera/tower/plugin/dataset/DatasetResolver.groovy"
+                },
+                {
+                  "path": "plugins/nf-tower/src/resources/META-INF/services/java.nio.file.spi.FileSystemProvider"
+                },
+                {
+                  "path": "plugins/nf-tower/src/test/io/seqera/tower/plugin/dataset/DatasetFileSystemProviderTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-tower/src/test/io/seqera/tower/plugin/dataset/DatasetIntegrationTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-tower/src/test/io/seqera/tower/plugin/dataset/DatasetLiveAuthRegressionTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-tower/src/test/io/seqera/tower/plugin/dataset/DatasetPathFactoryTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-tower/src/test/io/seqera/tower/plugin/dataset/DatasetPathTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-tower/src/test/io/seqera/tower/plugin/dataset/DatasetResolverTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-tower/src/test/io/seqera/tower/plugin/dataset/DatasetWireMockSpec.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6864,
+            "title": "Fix Azure Batch startTask.script not executing when copyToolInstallMode=node",
+            "state": "OPEN",
+            "createdAt": "2026-02-25T13:08:32Z",
+            "mergedAt": null,
+            "author": {
+              "login": "adamrtalbot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "plugins/nf-azure/src/main/nextflow/cloud/azure/batch/AzBatchService.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/test/nextflow/cloud/azure/batch/AzBatchServiceTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 6863
+                }
+              ]
+            }
+          },
+          {
+            "number": 6861,
+            "title": "Fix docs banner",
+            "state": "MERGED",
+            "createdAt": "2026-02-25T03:42:13Z",
+            "mergedAt": "2026-02-25T15:51:57Z",
+            "author": {
+              "login": "christopher-hakkaart"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/_templates/layout.html"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6859,
+            "title": "Add nextflow module generate-meta command",
+            "state": "OPEN",
+            "createdAt": "2026-02-24T19:26:12Z",
+            "mergedAt": null,
+            "author": {
+              "login": "jorgee"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/cli.md"
+                },
+                {
+                  "path": "docs/module.md"
+                },
+                {
+                  "path": "docs/reference/cli.md"
+                },
+                {
+                  "path": "modules/nextflow/build.gradle"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/CmdBase.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/CmdModule.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/Launcher.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/module/CmdModuleInfo.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/module/CmdModuleInstall.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/module/CmdModuleList.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/module/CmdModulePublish.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/module/CmdModuleRemove.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/module/CmdModuleRun.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/module/CmdModuleSearch.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/module/CmdModuleSpec.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/config/ModulesConfig.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/module/DefaultRemoteModuleResolver.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/module/InstalledModule.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/module/ModuleChecksum.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/module/ModuleReference.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/module/ModuleRegistryClient.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/module/ModuleResolver.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/module/ModuleSpec.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/module/ModuleStorage.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/pipeline/PipelineSpec.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/script/IncludeDef.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/script/ProcessEntryHandler.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/resources/META-INF/extensions.idx"
+                },
+                {
+                  "path": "modules/nextflow/src/main/resources/META-INF/services/nextflow.module.spi.RemoteModuleResolver"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/cli/module/CmdModuleInfoTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/cli/module/CmdModuleInstallTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/cli/module/CmdModuleListTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/cli/module/CmdModulePublishTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/cli/module/CmdModuleRemoveTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/cli/module/CmdModuleRunTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/cli/module/CmdModuleSearchTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/cli/module/CmdModuleSpecTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/config/ModulesConfigTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/module/DefaultRemoteModuleResolverTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/module/InstalledModuleTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/module/ModuleChecksumTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/module/ModuleReferenceTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/module/ModuleRegistryClientTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/module/ModuleResolverTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/module/ModuleSpecTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/module/ModuleStorageTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/script/IncludeDefTest.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/testFixtures/groovy/test/TestHelper.groovy"
+                },
+                {
+                  "path": "modules/nf-commons/build.gradle"
+                },
+                {
+                  "path": "modules/nf-commons/src/main/nextflow/config/RegistryConfig.groovy"
+                },
+                {
+                  "path": "modules/nf-commons/src/main/nextflow/plugin/HttpPluginRepository.groovy"
+                },
+                {
+                  "path": "modules/nf-commons/src/test/nextflow/config/RegistryConfigTest.groovy"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/module/spi/FallbackRemoteModuleResolver.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/module/spi/RemoteModuleResolver.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/module/spi/RemoteModuleResolverProvider.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/script/control/ModuleResolver.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/script/control/ResolveIncludeVisitor.java"
+                },
+                {
+                  "path": "modules/nf-lang/src/main/java/nextflow/script/control/VariableScopeVisitor.java"
+                },
+                {
+                  "path": "settings.gradle"
+                },
+                {
+                  "path": "specs/251117-module-system/data-model.md"
+                },
+                {
+                  "path": "specs/251117-module-system/plan.md"
+                },
+                {
+                  "path": "specs/251117-module-system/quickstart.md"
+                },
+                {
+                  "path": "specs/251117-module-system/research.md"
+                },
+                {
+                  "path": "specs/251117-module-system/spec.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6858,
+            "title": "Add -files-from option to lint command to avoid ARG_MAX limit",
+            "state": "OPEN",
+            "createdAt": "2026-02-24T13:00:17Z",
+            "mergedAt": null,
+            "author": {
+              "login": "adamrtalbot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/cli/CmdLint.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/cli/CmdLintTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 6857
+                }
+              ]
+            }
+          },
+          {
+            "number": 6855,
+            "title": "Report actual GCP zone from Batch status events",
+            "state": "MERGED",
+            "createdAt": "2026-02-23T18:05:23Z",
+            "mergedAt": "2026-02-25T16:21:23Z",
+            "author": {
+              "login": "pditommaso"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "plugins/nf-google/src/main/nextflow/cloud/google/batch/GoogleBatchTaskHandler.groovy"
+                },
+                {
+                  "path": "plugins/nf-google/src/test/nextflow/cloud/google/batch/GoogleBatchTaskHandlerTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 6646
+                }
+              ]
+            }
+          },
+          {
+            "number": 6854,
+            "title": "Report actual GCP zone in Google Batch trace records",
+            "state": "CLOSED",
+            "createdAt": "2026-02-23T17:17:43Z",
+            "mergedAt": null,
+            "author": {
+              "login": "jonmarti"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/processor/TaskRun.groovy"
+                },
+                {
+                  "path": "plugins/nf-google/src/main/nextflow/cloud/google/batch/GoogleBatchScriptLauncher.groovy"
+                },
+                {
+                  "path": "plugins/nf-google/src/main/nextflow/cloud/google/batch/GoogleBatchTaskHandler.groovy"
+                },
+                {
+                  "path": "plugins/nf-google/src/test/nextflow/cloud/google/batch/GoogleBatchScriptLauncherTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-google/src/test/nextflow/cloud/google/batch/GoogleBatchTaskHandlerTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 6646
+                }
+              ]
+            }
+          },
+          {
+            "number": 6853,
+            "title": "chore: Add migration banner to docs",
+            "state": "MERGED",
+            "createdAt": "2026-02-23T03:42:55Z",
+            "mergedAt": "2026-02-24T20:21:03Z",
+            "author": {
+              "login": "christopher-hakkaart"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/_static/theme.css"
+                },
+                {
+                  "path": "docs/_templates/layout.html"
+                },
+                {
+                  "path": "docs/reference/config.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6852,
+            "title": "Fix AnsiLogObserver sticky message duplication on line wrap",
+            "state": "MERGED",
+            "createdAt": "2026-02-22T18:33:14Z",
+            "mergedAt": "2026-02-22T18:56:33Z",
+            "author": {
+              "login": "pditommaso"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/trace/AnsiLogObserver.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/trace/AnsiLogObserverTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6851,
+            "title": "Fix S3 lookup unbounded pagination with double call",
+            "state": "MERGED",
+            "createdAt": "2026-02-20T12:52:15Z",
+            "mergedAt": "2026-02-23T11:37:20Z",
+            "author": {
+              "login": "jorgee"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "plugins/nf-amazon/src/main/nextflow/cloud/aws/nio/util/S3ObjectSummaryLookup.java"
+                },
+                {
+                  "path": "plugins/nf-amazon/src/test/nextflow/cloud/aws/nio/AwsS3NioTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6849,
+            "title": "Fix S3 path lookup hanging on large prefixes",
+            "state": "CLOSED",
+            "createdAt": "2026-02-19T21:00:00Z",
+            "mergedAt": null,
+            "author": {
+              "login": "pditommaso"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "plugins/nf-amazon/src/main/nextflow/cloud/aws/nio/util/S3ObjectSummaryLookup.java"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6848,
+            "title": "Read exit code from file for successful Google Batch jobs to avoid intermediate states",
+            "state": "OPEN",
+            "createdAt": "2026-02-19T14:10:16Z",
+            "mergedAt": null,
+            "author": {
+              "login": "thalassemia"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "plugins/nf-google/src/main/nextflow/cloud/google/batch/GoogleBatchTaskHandler.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6847,
+            "title": "Speed up submission of Google Batch array jobs",
+            "state": "OPEN",
+            "createdAt": "2026-02-19T13:12:59Z",
+            "mergedAt": null,
+            "author": {
+              "login": "thalassemia"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/processor/TaskArrayCollector.groovy"
+                },
+                {
+                  "path": "plugins/nf-google/src/main/nextflow/cloud/google/batch/GoogleBatchExecutor.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6846,
+            "title": "Speed up Google Batch array job submission",
+            "state": "CLOSED",
+            "createdAt": "2026-02-19T12:59:19Z",
+            "mergedAt": null,
+            "author": {
+              "login": "thalassemia"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/processor/TaskArrayCollector.groovy"
+                },
+                {
+                  "path": "plugins/nf-google/src/main/nextflow/cloud/google/batch/GoogleBatchExecutor.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6845,
+            "title": "Ensure main script is the first one in the lineage WorkflowRun record",
+            "state": "MERGED",
+            "createdAt": "2026-02-19T11:52:09Z",
+            "mergedAt": "2026-02-26T18:38:31Z",
+            "author": {
+              "login": "jorgee"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/nf-lineage/src/main/nextflow/lineage/LinObserver.groovy"
+                },
+                {
+                  "path": "modules/nf-lineage/src/main/nextflow/lineage/model/v1beta1/Workflow.groovy"
+                },
+                {
+                  "path": "modules/nf-lineage/src/test/nextflow/lineage/LinObserverTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6844,
+            "title": "Update default Azure Batch VM image to Ubuntu 24.04",
+            "state": "MERGED",
+            "createdAt": "2026-02-19T10:24:04Z",
+            "mergedAt": "2026-02-19T15:30:30Z",
+            "author": {
+              "login": "adamrtalbot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/azure.md"
+                },
+                {
+                  "path": "plugins/nf-azure/changelog.txt"
+                },
+                {
+                  "path": "plugins/nf-azure/src/main/nextflow/cloud/azure/config/AzPoolOpts.groovy"
+                },
+                {
+                  "path": "plugins/nf-azure/src/test/nextflow/cloud/azure/batch/AzBatchServiceTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6841,
+            "title": "Add support for latest-generation Google Cloud machine families",
+            "state": "OPEN",
+            "createdAt": "2026-02-18T13:23:36Z",
+            "mergedAt": null,
+            "author": {
+              "login": "sosoihd"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "plugins/nf-google/src/main/nextflow/cloud/google/batch/GoogleBatchMachineTypeSelector.groovy"
+                },
+                {
+                  "path": "plugins/nf-google/src/main/nextflow/cloud/google/batch/GoogleBatchTaskHandler.groovy"
+                },
+                {
+                  "path": "plugins/nf-google/src/test/nextflow/cloud/google/batch/GoogleBatchMachineTypeSelectorTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-google/src/test/nextflow/cloud/google/batch/GoogleBatchTaskHandlerTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 6614
+                }
+              ]
+            }
+          },
+          {
+            "number": 6840,
+            "title": "Fix ResourcesAggregator deadlock with virtual thread executor",
+            "state": "MERGED",
+            "createdAt": "2026-02-18T07:32:57Z",
+            "mergedAt": "2026-02-18T16:05:01Z",
+            "author": {
+              "login": "pditommaso"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/trace/ReportObserver.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/trace/ResourcesAggregator.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/trace/ResourcesAggregatorTest.groovy"
+                },
+                {
+                  "path": "plugins/nf-tower/src/main/io/seqera/tower/plugin/TowerClient.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6839,
+            "title": "Add native terminal notifications on workflow completion (OSC 777/9/99)",
+            "state": "CLOSED",
+            "createdAt": "2026-02-17T13:59:36Z",
+            "mergedAt": null,
+            "author": {
+              "login": "edmundmiller"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/reference/env-vars.md"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/trace/AnsiLogObserver.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/trace/AnsiLogObserverTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6838,
+            "title": "Add OSC 9;4 terminal progress bar support",
+            "state": "CLOSED",
+            "createdAt": "2026-02-17T13:30:28Z",
+            "mergedAt": null,
+            "author": {
+              "login": "edmundmiller"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/reference/env-vars.md"
+                },
+                {
+                  "path": "modules/nextflow/src/main/groovy/nextflow/trace/AnsiLogObserver.groovy"
+                },
+                {
+                  "path": "modules/nextflow/src/test/groovy/nextflow/trace/AnsiLogObserverTest.groovy"
+                },
+                {
+                  "path": "tests/osc-progress.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6836,
+            "title": "Implement image streaming for Google Batch",
+            "state": "OPEN",
+            "createdAt": "2026-02-14T21:06:24Z",
+            "mergedAt": null,
+            "author": {
+              "login": "thalassemia"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/reference/config.md"
+                },
+                {
+                  "path": "plugins/nf-google/src/main/nextflow/cloud/google/batch/GoogleBatchTaskHandler.groovy"
+                },
+                {
+                  "path": "plugins/nf-google/src/main/nextflow/cloud/google/batch/client/BatchConfig.groovy"
+                },
+                {
+                  "path": "plugins/nf-google/src/test/nextflow/cloud/google/batch/client/BatchConfigTest.groovy"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 4719
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,2085 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 37,
+            "title": "Document method to find data that populates TSV tables",
+            "state": "OPEN",
+            "createdAt": "2026-01-14T09:10:25Z",
+            "closedAt": null,
+            "author": {
+              "login": "bradwbradw"
+            }
+          },
+          {
+            "number": 33,
+            "title": ".png files permissions issue",
+            "state": "OPEN",
+            "createdAt": "2025-04-30T15:46:33Z",
+            "closedAt": null,
+            "author": {
+              "login": "bradwbradw"
+            }
+          },
+          {
+            "number": 18,
+            "title": "`main.nf` missing",
+            "state": "CLOSED",
+            "createdAt": "2022-11-23T20:46:51Z",
+            "closedAt": "2023-01-10T10:47:05Z",
+            "author": {
+              "login": "ggabernet"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 40,
+            "title": "Allow for Population(s)-specific Allele Frequency Extraction for the SNV Subworkflow",
+            "state": "OPEN",
+            "createdAt": "2026-01-14T21:56:45Z",
+            "mergedAt": null,
+            "author": {
+              "login": "JoshuaDanielRubin"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "modules/bcf_to_vcf.nf"
+                },
+                {
+                  "path": "subworkflow/SNV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 39,
+            "title": "Enable Subsetting of Allele Frequencies by Population(s) for the SNV Subworkflow",
+            "state": "CLOSED",
+            "createdAt": "2026-01-14T21:47:58Z",
+            "mergedAt": null,
+            "author": {
+              "login": "JoshuaDanielRubin"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "modules/bcf_to_vcf.nf"
+                },
+                {
+                  "path": "subworkflow/SNV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 38,
+            "title": "Add documentation and Python stub classes for TSV table generation",
+            "state": "CLOSED",
+            "createdAt": "2026-01-14T09:10:31Z",
+            "mergedAt": null,
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".vscode/README.md"
+                },
+                {
+                  "path": ".vscode/launch.json"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "publisher/README.md"
+                },
+                {
+                  "path": "publisher/VCF_README.md"
+                },
+                {
+                  "path": "publisher/VCF_publish.py"
+                },
+                {
+                  "path": "publisher/VCF_test_transformers.py"
+                },
+                {
+                  "path": "publisher/VCF_transformers.py"
+                },
+                {
+                  "path": "publisher/__init__.py"
+                },
+                {
+                  "path": "publisher/fixtures/vcf/gnomad_mt.tsv"
+                },
+                {
+                  "path": "publisher/fixtures/vcf/gnomad_snv.tsv"
+                },
+                {
+                  "path": "publisher/fixtures/vcf/mock_mt.vcf"
+                },
+                {
+                  "path": "publisher/fixtures/vcf/mock_snv.vcf"
+                },
+                {
+                  "path": "publisher/fixtures/vcf/severity_table.tsv"
+                },
+                {
+                  "path": "publisher/pyproject.toml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 37
+                }
+              ]
+            }
+          },
+          {
+            "number": 36,
+            "title": "Add commented fix for invalid SQLAlchemy column selection syntax",
+            "state": "CLOSED",
+            "createdAt": "2026-01-13T00:31:19Z",
+            "mergedAt": null,
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "publisher/do_import.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 35,
+            "title": "Add commented-out fixes for invalid SQLAlchemy column selection syntax",
+            "state": "MERGED",
+            "createdAt": "2026-01-13T00:31:13Z",
+            "mergedAt": "2026-01-13T00:37:32Z",
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "publisher/do_import.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 34,
+            "title": "Fix PNG file permissions issue",
+            "state": "OPEN",
+            "createdAt": "2026-01-11T14:00:46Z",
+            "mergedAt": null,
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "modules/Hail_MEI_QC.py"
+                },
+                {
+                  "path": "modules/Hail_STR.py"
+                },
+                {
+                  "path": "modules/Hail_SV_QC.py"
+                },
+                {
+                  "path": "modules/Hail_sample_QC.py"
+                },
+                {
+                  "path": "modules/Hail_variant_MT_QC.py"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.py"
+                },
+                {
+                  "path": "modules/archive/sample_QC.R"
+                },
+                {
+                  "path": "modules/archive/sample_QC_220504.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 33
+                }
+              ]
+            }
+          },
+          {
+            "number": 32,
+            "title": "Publisher (import script) updates",
+            "state": "MERGED",
+            "createdAt": "2025-03-26T23:15:34Z",
+            "mergedAt": "2026-01-16T06:11:01Z",
+            "author": {
+              "login": "bradwbradw"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "publisher/.env-sample"
+                },
+                {
+                  "path": "publisher/.gitignore"
+                },
+                {
+                  "path": "publisher/.python-version"
+                },
+                {
+                  "path": "publisher/README.md"
+                },
+                {
+                  "path": "publisher/checkt.py"
+                },
+                {
+                  "path": "publisher/delete-tables.py"
+                },
+                {
+                  "path": "publisher/do_import.py"
+                },
+                {
+                  "path": "publisher/dump-sorted.py"
+                },
+                {
+                  "path": "publisher/fixtures/genes/genes_1.tsv"
+                },
+                {
+                  "path": "publisher/fixtures/genomic_gnomad_frequencies/genomic_gnomad_frequencies_1.tsv"
+                },
+                {
+                  "path": "publisher/fixtures/genomic_ibvl_frequencies/genomic_ibvl_frequencies.tsv"
+                },
+                {
+                  "path": "publisher/fixtures/mt_gnomad_frequencies/mt_gnomad_frequencies.tsv"
+                },
+                {
+                  "path": "publisher/fixtures/mt_ibvl_frequencies/mt_ibvl_frequencies.tsv"
+                },
+                {
+                  "path": "publisher/fixtures/mts/mts.tsv"
+                },
+                {
+                  "path": "publisher/fixtures/snvs/snvs_1.tsv"
+                },
+                {
+                  "path": "publisher/fixtures/transcripts/transcripts_1.tsv"
+                },
+                {
+                  "path": "publisher/fixtures/variants/variants_1.tsv"
+                },
+                {
+                  "path": "publisher/fixtures/variants_annotations/variants_annotations_1.tsv"
+                },
+                {
+                  "path": "publisher/fixtures/variants_consequences/variants_consequences_1.tsv"
+                },
+                {
+                  "path": "publisher/fixtures/variants_transcripts/variants_transcripts_1.tsv"
+                },
+                {
+                  "path": "publisher/import_utils.py"
+                },
+                {
+                  "path": "publisher/model_import_actions.py"
+                },
+                {
+                  "path": "publisher/patch-scripts/consolidate_dupe_rows.py"
+                },
+                {
+                  "path": "publisher/publish.py"
+                },
+                {
+                  "path": "publisher/publish_group.py"
+                },
+                {
+                  "path": "publisher/publish_test.py"
+                },
+                {
+                  "path": "publisher/pyproject.toml"
+                },
+                {
+                  "path": "publisher/requirements-dev.lock"
+                },
+                {
+                  "path": "publisher/requirements.lock"
+                },
+                {
+                  "path": "publisher/severities.tsv"
+                },
+                {
+                  "path": "publisher/tables.py"
+                },
+                {
+                  "path": "publisher/test-db.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 31,
+            "title": "merge updates from publisher ( import script )",
+            "state": "MERGED",
+            "createdAt": "2025-03-26T23:08:45Z",
+            "mergedAt": "2025-03-26T23:12:00Z",
+            "author": {
+              "login": "bradwbradw"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Variant_Catalogue_v1.sh"
+                },
+                {
+                  "path": "modules/Hail_sample_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_sample_QC.py"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.py"
+                },
+                {
+                  "path": "modules/SNV_data_organization.R"
+                },
+                {
+                  "path": "modules/SNV_data_organization.nf"
+                },
+                {
+                  "path": "modules/annotation_table_merged.nf"
+                },
+                {
+                  "path": "modules/bcf_to_vcf.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflow/SNV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 30,
+            "title": "Major update to QC & changes for run 2024_1_1.1_GRCh38",
+            "state": "MERGED",
+            "createdAt": "2024-12-11T18:04:03Z",
+            "mergedAt": "2024-12-12T18:56:59Z",
+            "author": {
+              "login": "spetrone"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Variant_Catalogue_v1.sh"
+                },
+                {
+                  "path": "modules/Hail_sample_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_sample_QC.py"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.py"
+                },
+                {
+                  "path": "modules/SNV_data_organization.R"
+                },
+                {
+                  "path": "modules/SNV_data_organization.nf"
+                },
+                {
+                  "path": "modules/annotation_table_merged.nf"
+                },
+                {
+                  "path": "modules/bcf_to_vcf.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflow/SNV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 29,
+            "title": "Merge GRCh38-dev to main",
+            "state": "MERGED",
+            "createdAt": "2024-07-26T18:12:15Z",
+            "mergedAt": "2024-07-26T18:37:24Z",
+            "author": {
+              "login": "spetrone"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Variant_Catalogue_v1.sh"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/Hail_sample_QC.py"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.py"
+                },
+                {
+                  "path": "modules/Picard_CollectAlignmentSummaryMetrics.nf"
+                },
+                {
+                  "path": "modules/Picard_CollectWgsMetrics.nf"
+                },
+                {
+                  "path": "modules/Picard_QualityScoreDistribution.nf"
+                },
+                {
+                  "path": "modules/SNV_data_organization.R"
+                },
+                {
+                  "path": "modules/SNV_data_organization.nf"
+                },
+                {
+                  "path": "modules/align_sort_output_bam.nf"
+                },
+                {
+                  "path": "modules/fastqc.nf"
+                },
+                {
+                  "path": "modules/mosdepth.nf"
+                },
+                {
+                  "path": "modules/multiqc_indiv.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflow/Initialisation.nf"
+                },
+                {
+                  "path": "subworkflow/Mapping.nf"
+                },
+                {
+                  "path": "subworkflow/SNV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 28,
+            "title": "Develop merge functional SV on real data",
+            "state": "MERGED",
+            "createdAt": "2023-12-30T23:21:06Z",
+            "mergedAt": "2023-12-30T23:21:17Z",
+            "author": {
+              "login": "Phillip-a-richmond"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Variant_Catalogue_v1.sh"
+                },
+                {
+                  "path": "modules/annotation_table_merged_no_snv.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflow/SV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 27,
+            "title": "Develop",
+            "state": "MERGED",
+            "createdAt": "2023-12-15T22:38:18Z",
+            "mergedAt": "2023-12-15T22:38:37Z",
+            "author": {
+              "login": "Phillip-a-richmond"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/Hail_variant_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.py"
+                },
+                {
+                  "path": "modules/SNV_data_organization.R"
+                },
+                {
+                  "path": "modules/annotation_table_merged.nf"
+                },
+                {
+                  "path": "modules/archive/samtools_fixmate.nf"
+                },
+                {
+                  "path": "modules/melt.nf"
+                },
+                {
+                  "path": "subworkflow/MT.nf"
+                },
+                {
+                  "path": "subworkflow/SNV.nf"
+                },
+                {
+                  "path": "subworkflow/SV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 26,
+            "title": "Develop",
+            "state": "MERGED",
+            "createdAt": "2023-12-05T18:58:03Z",
+            "mergedAt": "2023-12-05T18:58:58Z",
+            "author": {
+              "login": "Phillip-a-richmond"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Variant_Catalogue_v1.sh"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/Hail_MEI_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_MEI_QC.py"
+                },
+                {
+                  "path": "modules/Hail_STR.nf"
+                },
+                {
+                  "path": "modules/Hail_STR.py"
+                },
+                {
+                  "path": "modules/Hail_SV_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_SV_QC.py"
+                },
+                {
+                  "path": "modules/Hail_sample_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_sample_QC.py"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.py"
+                },
+                {
+                  "path": "modules/SNV_data_organization.R"
+                },
+                {
+                  "path": "modules/SNV_data_organization.nf"
+                },
+                {
+                  "path": "modules/gnomad_frequency_table.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflow/Initialisation.nf"
+                },
+                {
+                  "path": "subworkflow/SNV.nf"
+                },
+                {
+                  "path": "subworkflow/SV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 25,
+            "title": "Update software_information.md",
+            "state": "MERGED",
+            "createdAt": "2022-12-12T03:20:31Z",
+            "mergedAt": "2022-12-12T17:00:56Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "supplementary_information/software_information.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 24,
+            "title": "Update Mapping.nf",
+            "state": "MERGED",
+            "createdAt": "2022-12-12T03:12:24Z",
+            "mergedAt": "2022-12-12T17:00:29Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "subworkflow/Mapping.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 23,
+            "title": "Update main.nf",
+            "state": "MERGED",
+            "createdAt": "2022-12-12T02:52:20Z",
+            "mergedAt": "2022-12-12T17:00:09Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 22,
+            "title": "Update nextflow.config",
+            "state": "MERGED",
+            "createdAt": "2022-12-12T02:27:41Z",
+            "mergedAt": "2022-12-12T16:59:55Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 21,
+            "title": "Update README.md",
+            "state": "MERGED",
+            "createdAt": "2022-12-12T00:27:49Z",
+            "mergedAt": "2023-01-24T23:06:29Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 20,
+            "title": "Add OpenSource License",
+            "state": "MERGED",
+            "createdAt": "2022-12-10T04:56:51Z",
+            "mergedAt": "2022-12-12T00:05:17Z",
+            "author": {
+              "login": "melsiddieg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "LICENSE"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 19,
+            "title": "Update nextflow.config",
+            "state": "MERGED",
+            "createdAt": "2022-12-06T19:04:09Z",
+            "mergedAt": "2022-12-12T00:07:17Z",
+            "author": {
+              "login": "Phillip-a-richmond"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 17,
+            "title": "Tmp dir fixing",
+            "state": "MERGED",
+            "createdAt": "2022-09-20T22:09:15Z",
+            "mergedAt": "2022-09-21T23:45:44Z",
+            "author": {
+              "login": "Phillip-a-richmond"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "Variant_Catalogue_v1.sh"
+                },
+                {
+                  "path": "modules/Hail_MEI_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_MEI_QC.py"
+                },
+                {
+                  "path": "modules/Hail_STR.nf"
+                },
+                {
+                  "path": "modules/Hail_STR.py"
+                },
+                {
+                  "path": "modules/Hail_SV_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_SV_QC.py"
+                },
+                {
+                  "path": "modules/Hail_sample_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_sample_QC.py"
+                },
+                {
+                  "path": "modules/Hail_variant_MT_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_variant_MT_QC.py"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.py"
+                },
+                {
+                  "path": "modules/MT_MergeVcfs.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 16,
+            "title": "Portability",
+            "state": "MERGED",
+            "createdAt": "2022-09-16T19:03:31Z",
+            "mergedAt": "2022-09-16T20:02:04Z",
+            "author": {
+              "login": "Phillip-a-richmond"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "CAFE_pipeline_conda.yml"
+                },
+                {
+                  "path": "install.sh"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow.config_experimental"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 15,
+            "title": "Improved data organization",
+            "state": "MERGED",
+            "createdAt": "2022-09-16T00:43:06Z",
+            "mergedAt": "2022-09-16T00:44:28Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/Hail_variant_MT_QC.py"
+                },
+                {
+                  "path": "modules/MEI_data_organization.R"
+                },
+                {
+                  "path": "modules/MEI_data_organization.nf"
+                },
+                {
+                  "path": "modules/MT_data_organization.R"
+                },
+                {
+                  "path": "modules/MT_data_organization.nf"
+                },
+                {
+                  "path": "modules/SNV_data_organization.R"
+                },
+                {
+                  "path": "modules/SNV_data_organization.nf"
+                },
+                {
+                  "path": "modules/STR_data_organization.R"
+                },
+                {
+                  "path": "modules/SV_data_organization.R"
+                },
+                {
+                  "path": "modules/SV_data_organization.nf"
+                },
+                {
+                  "path": "modules/annotation_table_merged.nf"
+                },
+                {
+                  "path": "subworkflow/MT.nf"
+                },
+                {
+                  "path": "subworkflow/SNV.nf"
+                },
+                {
+                  "path": "subworkflow/SV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 14,
+            "title": "added -e and --home to singularity in nextflow.config to resolve deep…",
+            "state": "MERGED",
+            "createdAt": "2022-09-14T19:37:03Z",
+            "mergedAt": "2022-09-14T19:37:15Z",
+            "author": {
+              "login": "Phillip-a-richmond"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 13,
+            "title": "Included STR data organization",
+            "state": "MERGED",
+            "createdAt": "2022-09-13T18:17:17Z",
+            "mergedAt": "2022-09-13T18:17:30Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/STR_data_organization.R"
+                },
+                {
+                  "path": "modules/STR_data_organization.nf"
+                },
+                {
+                  "path": "subworkflow/SV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 12,
+            "title": "Included data organization for SQL",
+            "state": "MERGED",
+            "createdAt": "2022-09-13T08:10:23Z",
+            "mergedAt": "2022-09-13T08:10:30Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Variant_Catalogue_v1.nf"
+                },
+                {
+                  "path": "Variant_Catalogue_v1.sh"
+                },
+                {
+                  "path": "modules/MEI_data_organization.R"
+                },
+                {
+                  "path": "modules/MEI_data_organization.nf"
+                },
+                {
+                  "path": "modules/MT_Step3_metadata_sample.R"
+                },
+                {
+                  "path": "modules/MT_Step3_metadata_sample.nf"
+                },
+                {
+                  "path": "modules/MT_data_organization.R"
+                },
+                {
+                  "path": "modules/MT_data_organization.nf"
+                },
+                {
+                  "path": "modules/MT_haplocheck.nf"
+                },
+                {
+                  "path": "modules/MT_norm.nf"
+                },
+                {
+                  "path": "modules/SNV_data_organization.R"
+                },
+                {
+                  "path": "modules/SNV_data_organization.nf"
+                },
+                {
+                  "path": "modules/SV_data_organization.R"
+                },
+                {
+                  "path": "modules/SV_data_organization.nf"
+                },
+                {
+                  "path": "modules/annotation_table_merged.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflow/MT.nf"
+                },
+                {
+                  "path": "subworkflow/Mapping.nf"
+                },
+                {
+                  "path": "subworkflow/SNV.nf"
+                },
+                {
+                  "path": "subworkflow/SV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 11,
+            "title": "Improved Variant filtration",
+            "state": "MERGED",
+            "createdAt": "2022-09-09T20:26:20Z",
+            "mergedAt": "2022-09-09T20:26:31Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/Hail_MEI_QC.py"
+                },
+                {
+                  "path": "modules/Hail_STR.nf"
+                },
+                {
+                  "path": "modules/Hail_STR.py"
+                },
+                {
+                  "path": "modules/Hail_SV_QC.py"
+                },
+                {
+                  "path": "modules/annotation_table_merged.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflow/Mapping.nf"
+                },
+                {
+                  "path": "subworkflow/SV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 10,
+            "title": "MT output improved",
+            "state": "MERGED",
+            "createdAt": "2022-09-09T18:04:54Z",
+            "mergedAt": "2022-09-09T18:05:01Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/Hail_MEI_QC.py"
+                },
+                {
+                  "path": "modules/Hail_variant_MT_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_variant_MT_QC.py"
+                },
+                {
+                  "path": "subworkflow/MT.nf"
+                },
+                {
+                  "path": "subworkflow/SV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 9,
+            "title": "Updated path for softwares",
+            "state": "MERGED",
+            "createdAt": "2022-09-09T05:50:48Z",
+            "mergedAt": "2022-09-09T05:50:55Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Variant_Catalogue_v1.nf"
+                },
+                {
+                  "path": "Variant_Catalogue_v1.sh"
+                },
+                {
+                  "path": "modules/GATK_index.nf"
+                },
+                {
+                  "path": "modules/Hail_MEI_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_MEI_QC.py"
+                },
+                {
+                  "path": "modules/Hail_SV_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_SV_QC.py"
+                },
+                {
+                  "path": "modules/Hail_sample_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_sample_QC.py"
+                },
+                {
+                  "path": "modules/Hail_variant_MT_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_variant_MT_QC.py"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.nf"
+                },
+                {
+                  "path": "modules/MT_Extract_MT_Read.nf"
+                },
+                {
+                  "path": "modules/MT_FilterOut_sites.nf"
+                },
+                {
+                  "path": "modules/MT_Filter_Mutect_Calls.nf"
+                },
+                {
+                  "path": "modules/MT_LeftAlignAndTrimVariants.nf"
+                },
+                {
+                  "path": "modules/MT_Liftover.nf"
+                },
+                {
+                  "path": "modules/MT_MarkDuplicates.nf"
+                },
+                {
+                  "path": "modules/MT_MarkDuplicates_index.nf"
+                },
+                {
+                  "path": "modules/MT_MergeVcfs.nf"
+                },
+                {
+                  "path": "modules/MT_Merge_stat_file.nf"
+                },
+                {
+                  "path": "modules/MT_SamtoFastq.nf"
+                },
+                {
+                  "path": "modules/MT_Step1_input_tsv.nf"
+                },
+                {
+                  "path": "modules/MT_Step2_participant_data.nf"
+                },
+                {
+                  "path": "modules/MT_Step3_metadata.nf"
+                },
+                {
+                  "path": "modules/MT_Step3_metadata_sample.R"
+                },
+                {
+                  "path": "modules/MT_Step3_metadata_sample.nf"
+                },
+                {
+                  "path": "modules/MT_align_to_MT.nf"
+                },
+                {
+                  "path": "modules/MT_call_variants.nf"
+                },
+                {
+                  "path": "modules/MT_haplocheck.nf"
+                },
+                {
+                  "path": "modules/MT_norm.nf"
+                },
+                {
+                  "path": "modules/SV_annotation.nf"
+                },
+                {
+                  "path": "modules/SV_concat_by_sample.nf"
+                },
+                {
+                  "path": "modules/SV_paragraph_duphold.nf"
+                },
+                {
+                  "path": "modules/align_sort_output_bam.nf"
+                },
+                {
+                  "path": "modules/annotation_table_merged.nf"
+                },
+                {
+                  "path": "modules/archive/Initialisation.nf"
+                },
+                {
+                  "path": "modules/archive/MEI_data_organization.R"
+                },
+                {
+                  "path": "modules/archive/MEI_data_organization.nf"
+                },
+                {
+                  "path": "modules/archive/MT_data_organization.R"
+                },
+                {
+                  "path": "modules/archive/MT_data_organization.nf"
+                },
+                {
+                  "path": "modules/archive/SNV_data_organization.R"
+                },
+                {
+                  "path": "modules/archive/SNV_data_organization.nf"
+                },
+                {
+                  "path": "modules/archive/STR_data_organization.R"
+                },
+                {
+                  "path": "modules/archive/STR_data_organization.nf"
+                },
+                {
+                  "path": "modules/archive/SV_data_organization.R"
+                },
+                {
+                  "path": "modules/archive/SV_data_organization.nf"
+                },
+                {
+                  "path": "modules/archive/SV_split_vcf_by_chr.nf"
+                },
+                {
+                  "path": "modules/archive/gnomad_SV_frequency_table.nf"
+                },
+                {
+                  "path": "modules/archive/gnomad_frequency_table.nf"
+                },
+                {
+                  "path": "modules/archive/plink_sex_inference.nf"
+                },
+                {
+                  "path": "modules/archive/sample_QC.R"
+                },
+                {
+                  "path": "modules/archive/sample_QC.nf"
+                },
+                {
+                  "path": "modules/bcf_to_vcf.nf"
+                },
+                {
+                  "path": "modules/bwa_index.nf"
+                },
+                {
+                  "path": "modules/expansion_hunter.nf"
+                },
+                {
+                  "path": "modules/melt.nf"
+                },
+                {
+                  "path": "modules/merge_samples.nf"
+                },
+                {
+                  "path": "modules/merge_samples_miss0.nf"
+                },
+                {
+                  "path": "modules/mosdepth.nf"
+                },
+                {
+                  "path": "modules/samtools_fixmate.nf"
+                },
+                {
+                  "path": "modules/shift_back.R"
+                },
+                {
+                  "path": "modules/shift_back.nf"
+                },
+                {
+                  "path": "modules/split_tsv_by_chr.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "sample_QC.txt"
+                },
+                {
+                  "path": "subworkflow/MT.nf"
+                },
+                {
+                  "path": "subworkflow/Mapping.nf"
+                },
+                {
+                  "path": "subworkflow/SNV.nf"
+                },
+                {
+                  "path": "subworkflow/SV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 8,
+            "title": "initial singularity images",
+            "state": "MERGED",
+            "createdAt": "2022-09-03T01:24:30Z",
+            "mergedAt": "2022-09-08T21:02:42Z",
+            "author": {
+              "login": "melsiddieg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "singularity/README"
+                },
+                {
+                  "path": "singularity/picard_r.def"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 7,
+            "title": "Added Hail steps for SV and MEI",
+            "state": "MERGED",
+            "createdAt": "2022-08-26T18:12:18Z",
+            "mergedAt": "2022-08-26T18:12:25Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "modules/Hail_MEI_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_MEI_QC.py"
+                },
+                {
+                  "path": "modules/Hail_SV_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_SV_QC.py"
+                },
+                {
+                  "path": "modules/Hail_variant_MT_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.py"
+                },
+                {
+                  "path": "modules/merge_samples_miss0.nf"
+                },
+                {
+                  "path": "modules/shift_back.R"
+                },
+                {
+                  "path": "modules/shift_back.nf"
+                },
+                {
+                  "path": "subworkflow/SV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6,
+            "title": "SGP-376 - small updates",
+            "state": "MERGED",
+            "createdAt": "2022-06-18T03:09:12Z",
+            "mergedAt": "2022-06-18T03:09:19Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/Hail_variant_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.py"
+                },
+                {
+                  "path": "modules/annotation_table_merged.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 5,
+            "title": "SGP-373 - Push in order to run 80 samples (fastq --> annotated vcf)",
+            "state": "MERGED",
+            "createdAt": "2022-06-17T20:05:40Z",
+            "mergedAt": "2022-06-17T20:05:48Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "Nextflow_SNV_MT_211220.nf"
+                },
+                {
+                  "path": "modules/GLnexus.nf"
+                },
+                {
+                  "path": "modules/Hail_sample_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_sample_QC.py"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.py"
+                },
+                {
+                  "path": "modules/MEI_data_organization.R"
+                },
+                {
+                  "path": "modules/MEI_data_organization.nf"
+                },
+                {
+                  "path": "modules/MT_Extract_MT_Read.nf"
+                },
+                {
+                  "path": "modules/MT_FilterOut_sites.nf"
+                },
+                {
+                  "path": "modules/MT_Filter_Mutect_Calls.nf"
+                },
+                {
+                  "path": "modules/MT_LeftAlignAndTrimVariants.nf"
+                },
+                {
+                  "path": "modules/MT_Liftover.nf"
+                },
+                {
+                  "path": "modules/MT_MarkDuplicates.nf"
+                },
+                {
+                  "path": "modules/MT_MergeVcfs.nf"
+                },
+                {
+                  "path": "modules/MT_Merge_stat_file.nf"
+                },
+                {
+                  "path": "modules/MT_Picard_CollectWgsMetrics_MT.nf"
+                },
+                {
+                  "path": "modules/MT_SamtoFastq.nf"
+                },
+                {
+                  "path": "modules/MT_Step1_input_tsv.nf"
+                },
+                {
+                  "path": "modules/MT_Step3_metadata_sample.nf"
+                },
+                {
+                  "path": "modules/MT_align_to_MT.nf"
+                },
+                {
+                  "path": "modules/MT_call_variants.nf"
+                },
+                {
+                  "path": "modules/MT_haplocheck.nf"
+                },
+                {
+                  "path": "modules/Picard_CollectAlignmentSummaryMetrics.nf"
+                },
+                {
+                  "path": "modules/Picard_CollectWgsMetrics.nf"
+                },
+                {
+                  "path": "modules/Picard_QualityScoreDistribution.nf"
+                },
+                {
+                  "path": "modules/SNV_data_organization.R"
+                },
+                {
+                  "path": "modules/SNV_data_organization.nf"
+                },
+                {
+                  "path": "modules/SV_concat_by_sample.nf"
+                },
+                {
+                  "path": "modules/SV_data_organization.R"
+                },
+                {
+                  "path": "modules/SV_data_organization.nf"
+                },
+                {
+                  "path": "modules/SV_manta.nf"
+                },
+                {
+                  "path": "modules/SV_smoove.nf"
+                },
+                {
+                  "path": "modules/align_sort_output_bam.nf"
+                },
+                {
+                  "path": "modules/annotation_table_merged.nf"
+                },
+                {
+                  "path": "modules/archive/Hail.nf"
+                },
+                {
+                  "path": "modules/archive/QC_indiv.nf"
+                },
+                {
+                  "path": "modules/deepvariant.nf"
+                },
+                {
+                  "path": "modules/expansion_hunter.nf"
+                },
+                {
+                  "path": "modules/fastqc.nf"
+                },
+                {
+                  "path": "modules/gnomad_frequency_table.nf"
+                },
+                {
+                  "path": "modules/melt.nf"
+                },
+                {
+                  "path": "modules/mosdepth.nf"
+                },
+                {
+                  "path": "modules/samtools_fixmate.nf"
+                },
+                {
+                  "path": "modules/shift_back.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "sample_QC.txt"
+                },
+                {
+                  "path": "subworkflow/ALN.nf"
+                },
+                {
+                  "path": "subworkflow/Initialisation.nf"
+                },
+                {
+                  "path": "subworkflow/MT.nf"
+                },
+                {
+                  "path": "subworkflow/Mapping.nf"
+                },
+                {
+                  "path": "subworkflow/SNV.nf"
+                },
+                {
+                  "path": "subworkflow/SV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4,
+            "title": "re-organized the subworkflow, no change to the actual pipeline",
+            "state": "MERGED",
+            "createdAt": "2022-06-02T18:23:41Z",
+            "mergedAt": "2022-06-02T18:23:46Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/MEI_data_organization.nf"
+                },
+                {
+                  "path": "modules/list_vcfs_txt.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflow/MT.nf"
+                },
+                {
+                  "path": "subworkflow/SNV.nf"
+                },
+                {
+                  "path": "subworkflow/SV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3,
+            "title": "SGP-361 : organized and colnames",
+            "state": "MERGED",
+            "createdAt": "2022-05-27T18:07:30Z",
+            "mergedAt": "2022-05-27T18:07:37Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Nextflow_SNV_MT_211220.nf"
+                },
+                {
+                  "path": "modules/Hail_sample_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_sample_QC.py"
+                },
+                {
+                  "path": "modules/Hail_variant_MT_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_variant_MT_QC.py"
+                },
+                {
+                  "path": "modules/MEI_data_organization.R"
+                },
+                {
+                  "path": "modules/MT_FilterOut_sites.nf"
+                },
+                {
+                  "path": "modules/MT_Liftover.nf"
+                },
+                {
+                  "path": "modules/MT_Picard_CollectWgsMetrics_MT.nf"
+                },
+                {
+                  "path": "modules/MT_data_organization.R"
+                },
+                {
+                  "path": "modules/MT_data_organization.nf"
+                },
+                {
+                  "path": "modules/SNV_data_organization.R"
+                },
+                {
+                  "path": "modules/SNV_data_organization.nf"
+                },
+                {
+                  "path": "modules/SV_concat_by_sample.nf"
+                },
+                {
+                  "path": "modules/SV_data_organization.R"
+                },
+                {
+                  "path": "modules/SV_data_organization.nf"
+                },
+                {
+                  "path": "modules/SV_manta.nf"
+                },
+                {
+                  "path": "modules/SV_paragraph_duphold.nf"
+                },
+                {
+                  "path": "modules/SV_smoove.nf"
+                },
+                {
+                  "path": "modules/SV_split_vcf_by_chr.nf"
+                },
+                {
+                  "path": "modules/annotation_table_merged.nf"
+                },
+                {
+                  "path": "modules/archive/SNV_data_organization_220504.R"
+                },
+                {
+                  "path": "modules/bcf_to_vcf.nf"
+                },
+                {
+                  "path": "modules/deepvariant.nf"
+                },
+                {
+                  "path": "modules/gnomad_SV_frequency_table.nf"
+                },
+                {
+                  "path": "modules/plink_sex_inference.nf"
+                },
+                {
+                  "path": "modules/sample_QC.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "severity_table.tsv"
+                },
+                {
+                  "path": "subworkflow/Hail.nf"
+                },
+                {
+                  "path": "subworkflow/MT.nf"
+                },
+                {
+                  "path": "subworkflow/SV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2,
+            "title": "GP-324 : Annot, data org and MT Hail",
+            "state": "MERGED",
+            "createdAt": "2022-05-25T21:18:47Z",
+            "mergedAt": "2022-05-25T21:18:54Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "Nextflow_SNV_MT_211220.nf"
+                },
+                {
+                  "path": "modules/Hail_variant_MT_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_variant_MT_QC.py"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.py"
+                },
+                {
+                  "path": "modules/MEI_data_organization.R"
+                },
+                {
+                  "path": "modules/MEI_data_organization.nf"
+                },
+                {
+                  "path": "modules/MT_FilterOut_sites.nf"
+                },
+                {
+                  "path": "modules/MT_Picard_CollectWgsMetrics_MT.nf"
+                },
+                {
+                  "path": "modules/MT_Step1_input_tsv.nf"
+                },
+                {
+                  "path": "modules/MT_Step2_participant_data.nf"
+                },
+                {
+                  "path": "modules/MT_Step3_metadata.nf"
+                },
+                {
+                  "path": "modules/MT_Step3_metadata_sample.R"
+                },
+                {
+                  "path": "modules/MT_Step3_metadata_sample.nf"
+                },
+                {
+                  "path": "modules/MT_data_organization.R"
+                },
+                {
+                  "path": "modules/MT_data_organization.nf"
+                },
+                {
+                  "path": "modules/MT_haplocheck.nf"
+                },
+                {
+                  "path": "modules/SNV_data_organization.R"
+                },
+                {
+                  "path": "modules/SNV_data_organization.nf"
+                },
+                {
+                  "path": "modules/SNV_data_organization_220504.R"
+                },
+                {
+                  "path": "modules/STR_data_organization.R"
+                },
+                {
+                  "path": "modules/STR_data_organization.nf"
+                },
+                {
+                  "path": "modules/SV_annotation.nf"
+                },
+                {
+                  "path": "modules/SV_data_organization.R"
+                },
+                {
+                  "path": "modules/SV_data_organization.nf"
+                },
+                {
+                  "path": "modules/SV_split_vcf_by_chr.nf"
+                },
+                {
+                  "path": "modules/annotation_table_merged.nf"
+                },
+                {
+                  "path": "modules/archive/Hail_variant_QC_220512.py"
+                },
+                {
+                  "path": "modules/archive/index_vcf.nf"
+                },
+                {
+                  "path": "modules/gnomad_SV_frequency_table.nf"
+                },
+                {
+                  "path": "modules/gnomad_frequency_table.nf"
+                },
+                {
+                  "path": "modules/merge_STR.nf"
+                },
+                {
+                  "path": "modules/shift_back.R"
+                },
+                {
+                  "path": "modules/shift_back.nf"
+                },
+                {
+                  "path": "modules/split_tsv_by_chr.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflow/Hail.nf"
+                },
+                {
+                  "path": "subworkflow/MT.nf"
+                },
+                {
+                  "path": "subworkflow/SNV.nf"
+                },
+                {
+                  "path": "subworkflow/SV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1,
+            "title": "SGP-301",
+            "state": "MERGED",
+            "createdAt": "2022-05-09T16:55:28Z",
+            "mergedAt": "2022-05-09T16:55:36Z",
+            "author": {
+              "login": "scorreard"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Nextflow_SNV_MT_211220.nf"
+                },
+                {
+                  "path": "modules/Hail_sample_QC.nf"
+                },
+                {
+                  "path": "modules/Hail_variant_QC.nf"
+                },
+                {
+                  "path": "modules/MT_MergeVcfs.nf"
+                },
+                {
+                  "path": "modules/SV_concat_by_sample.nf"
+                },
+                {
+                  "path": "modules/SV_jasmine.nf"
+                },
+                {
+                  "path": "modules/SV_manta.nf"
+                },
+                {
+                  "path": "modules/SV_paragraph_duphold.nf"
+                },
+                {
+                  "path": "modules/SV_smoove.nf"
+                },
+                {
+                  "path": "modules/archive/Bcftools_stats.nf"
+                },
+                {
+                  "path": "modules/archive/SV_split_vcf_by_chr.nf"
+                },
+                {
+                  "path": "modules/archive/Vcftools_TsTv_by_qual.nf"
+                },
+                {
+                  "path": "modules/archive/count_bcftools_stats.nf"
+                },
+                {
+                  "path": "modules/archive/count_variants_gatk.nf"
+                },
+                {
+                  "path": "modules/archive/count_variants_gatk_2.nf"
+                },
+                {
+                  "path": "modules/archive/count_variants_vcftools.nf"
+                },
+                {
+                  "path": "modules/archive/gvcf_txt.nf"
+                },
+                {
+                  "path": "modules/archive/merge_STR.nf"
+                },
+                {
+                  "path": "modules/archive/sample_QC_220504.R"
+                },
+                {
+                  "path": "modules/bcf_to_vcf.nf"
+                },
+                {
+                  "path": "modules/deepvariant.nf"
+                },
+                {
+                  "path": "modules/expansion_hunter.nf"
+                },
+                {
+                  "path": "modules/fastqc.nf"
+                },
+                {
+                  "path": "modules/list_vcfs_txt.nf"
+                },
+                {
+                  "path": "modules/melt.nf"
+                },
+                {
+                  "path": "modules/sample_QC.R"
+                },
+                {
+                  "path": "modules/sample_QC.nf"
+                },
+                {
+                  "path": "modules/samtools_fixmate.nf"
+                },
+                {
+                  "path": "subworkflow/Hail.nf"
+                },
+                {
+                  "path": "subworkflow/MT.nf"
+                },
+                {
+                  "path": "subworkflow/SNV.nf"
+                },
+                {
+                  "path": "subworkflow/SV.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

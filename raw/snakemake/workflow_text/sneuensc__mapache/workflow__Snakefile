@@ -1,0 +1,493 @@
+"""
+Author: Samuel Neuenschwander, Diana Ivette Cruz, Lucas Anchieri, Anna-Sapfo Malaspinas 
+Affiliation: DBC, UNIL
+Aim: Map ancient DNA libraries to a reference GENOMES
+Date: 28/10/2019
+"""
+
+##########################################################################################
+import logging
+
+LOGGER = logging.getLogger("snakemake.logging")
+# logging.basicConfig(filename="example.log", encoding="utf-8", level=logging.DEBUG)
+# logging.basicConfig(format="%(levelname)s %(message)s")
+# logging.basicConfig(filename="hello.log")
+
+
+## read the config file
+configfile: "config/config.yaml"
+
+
+include: "scripts/utils.py"
+include: "rules/common.smk"
+
+
+RESULT_DIR = get_param(["result_dir"], "results")
+
+## the file is executed for each session: be verbose only in the first one (use a file as flag)
+fileVerbose = pathlib.Path(f"{RESULT_DIR}/verbose.touch")
+if not fileVerbose.is_file():
+    fileVerbose.parent.mkdir(parents=True, exist_ok=True)
+    fileVerbose.touch()
+    VERBOSE = get_param(["VERBOSE"], True)
+else:
+    VERBOSE = False
+
+
+## retry failed jobs
+memory_increment_ratio = float(get_param(["memory_increment_ratio"], 1))
+runtime_increment_ratio = float(get_param(["runtime_increment_ratio"], 0))
+
+## software versions
+module_samtools = get_param(["envmodules", "samtools"], "")
+module_bowtie2 = get_param(["envmodules", "bowtie2"], "")
+module_bwa = get_param(["envmodules", "bwa"], "")
+module_picard = get_param(["envmodules", "picard"], "")
+module_gatk3 = get_param(["envmodules", "gatk3"], "")
+module_fastqc = get_param(["envmodules", "fastqc"], "")
+module_r = get_param(["envmodules", "r"], "")
+module_adapterremoval = get_param(["envmodules", "adapterremoval"], "")
+module_mapdamage = get_param(["envmodules", "mapdamage"], "")
+module_bedtools = get_param(["envmodules", "bedtools"], "")
+module_seqtk = get_param(["envmodules", "seqtk"], "")
+module_qualimap = get_param(["envmodules", "qualimap"], "")
+module_multiqc = get_param(["envmodules", "multiqc"], "")
+module_dedup = get_param(["envmodules", "dedup"], "")
+module_glimpse = get_param(["envmodules", "glimpse"], "")
+module_glimpse2 = get_param(["envmodules", "glimpse2"], "")
+module_bcftools = get_param(["envmodules", "bcftools"], "")
+module_bamutil = get_param(["envmodules", "bamutil"], "")
+module_fastp = get_param(["envmodules", "fastp"], "")
+module_bamrefine = get_param(["envmodules", "bamrefine"], "")
+
+
+##########################################################################################
+## REFERENCE GENOME
+##########################################################################################
+## is at least a reference GENOMES defined
+GENOMES = list(get_param(["genome"], ""))
+if len(GENOMES) == 0:
+    LOGGER.error("ERROR: Reference genome is not specified (parameter config[genome])!")
+    os._exit(1)
+
+## get all chromosome names and store them in the dict config[chromosomes][genome][all] for later use
+for genome in GENOMES:
+    set_chromosome_names(genome)
+
+
+##########################################################################################
+## SAMPLES (sample file and external bam files)
+##########################################################################################
+# sample_file="config/SAMPLES.tsv"
+SAMPLES, SAMPLES_FINAL, SAMPLE_FILE = read_sample_file()
+PAIRED_END, COLLAPSE = test_SAMPLES()
+
+
+# print(SAMPLES)
+
+
+## get SAMPLES (bam files) to compute only stats on them
+EXTERNAL_SAMPLES, EXTERNAL_SAMPLE_FILE = get_external_samples()
+
+if len(SAMPLES) + len(EXTERNAL_SAMPLES) == 0:
+    LOGGER.error(f"ERROR: No samples are specified)!")
+    sys.exit(1)
+
+# print(EXTERNAL_SAMPLES)
+
+
+wildcard_constraints:
+    sm="|".join([sm for sm in SAMPLES] + [sm for g in EXTERNAL_SAMPLES.values() for sm in g]),
+    lb="|".join([lb for sm in SAMPLES.values() for lb in sm]),
+    id="|".join([id for sm in SAMPLES.values() for lb in sm.values() for id in lb]),
+    genome="|".join([g for g in GENOMES]),
+
+
+##########################################################################################
+##  WORKFLOW
+##########################################################################################
+## --------------------------------------------------------------------------------------------------
+## subsampling (if run is variable then it is set to true)
+run_subsampling = get_param_bool(["subsampling", "run"], ["False", "True"])
+
+if run_subsampling:
+    subsampling_number = get_param(["subsampling", "number"], 0)
+    if type(subsampling_number) is dict:
+        subsampling_number = "variable"
+    else:
+        subsampling_number = float(subsampling_number)
+        if subsampling_number == 0:
+            run_subsampling = False
+
+## --------------------------------------------------------------------------------------------------
+## adapterremoval (if run is variable then it is set to true)
+# run_adapter_removal = get_param_bool(["adapterremoval", "run"], ["True", "False"])
+
+## --------------------------------------------------------------------------------------------------
+## mapping
+mapper = get_param(["mapping", "mapper"], ["bwa_aln", "bwa_mem", "bowtie2", "bowtie2l"])
+
+## --------------------------------------------------------------------------------------------------
+## filtering
+run_filtering = str2bool(get_param(["filtering", "run"], ["True", "False"]))
+
+if run_filtering:
+    save_low_qual = str2bool(get_param(["filtering", "save_low_qual"], ["True", "False"]))
+
+    ## only one of the parameters may be specified
+    ## if mapq is set, write the corresponding argument to 'param'
+    params = get_param(["filtering", "params"], "WWWWWWW")
+    mapq = get_param(["filtering", "mapq"], "WWWWWWW")
+    if mapq != "WWWWWWW":  ## param is set
+        if params != "WWWWWWW":
+            LOGGER.error(
+                "ERROR: Parameters config[filtering][params] and config[filtering][mapq] may not be set both!"
+            )
+            sys.exit(1)
+
+        ## mapq is set: extend the command
+        if type(mapq) is dict:
+            for key in mapq:
+                mapq[key] = f"-F 4 -q {mapq[key]}"
+        else:
+            mapq = f"-F 4 -q {mapq}"
+
+        ## set 'params' accordingly
+        config = update_value(["filtering", "params"], mapq)
+
+else:
+    save_low_qual = False
+
+
+## --------------------------------------------------------------------------------------------------
+## removing duplicates (if run is variable then it is set to true)
+remove_duplicates = get_param(["remove_duplicates", "run"], ["markduplicates", "dedup", "False"])
+
+if remove_duplicates == "dedup" and not PAIRED_END:
+    LOGGER.warning(
+        "WARNING: 'DeDup' is not recommended for single-end reads (parameter config[remove_duplicates][run])!"
+    )
+
+## --------------------------------------------------------------------------------------------------
+## rescaling damage (if run is variable then it is set to true)
+run_damage_rescale = get_param_bool(["damage_rescale", "run"], ["False", "True"])
+if run_damage_rescale and get_param(["damage", "run"], "False") != "mapDamage":
+    LOGGER.error(
+        "ERROR: To use config[damage_rescale][run] the parameter config[damage][run] has to be set to 'mapDamage'!"
+    )
+    sys.exit(1)
+
+
+## --------------------------------------------------------------------------------------------------
+## bamutil (if run is variable then it is set to true)
+run_bamutil = get_param_bool(["bamutil", "run"], ["False", "True"])
+
+
+## --------------------------------------------------------------------------------------------------
+## realigning (if run is variable then it is set to true)
+run_realign = get_param_bool(["realign", "run"], ["True", "False"])
+
+
+## --------------------------------------------------------------------------------------------------
+## recomputing md-flag
+run_compute_md = get_param_bool(["compute_md", "run"], ["True", "False"])
+
+
+##########################################################################################
+##  ANALYSES
+##########################################################################################
+## damage
+run_damage = get_param(["damage", "run"], ["False", "bamdamage", "mapDamage"])
+
+## sex inference
+run_sex_inference = []
+for genome in GENOMES:
+    if str2bool(get_param(["sex_inference", genome, "run"], ["False", "True"])):
+        run_sex_inference = run_sex_inference + [genome]
+        set_sex_inference(genome)
+
+## test if the specified chromosomes are valid
+
+
+## depth
+run_depth = []
+for genome in GENOMES:
+    if str2bool(get_param(["depth", genome, "run"], ["False", "True"])):
+        run_depth = run_depth + [genome]
+        read_depth(genome)
+
+
+## imputation (is assumed to be run ONLY on the first specified reference GENOMES!!!)
+run_imputation = []
+for genome in GENOMES:
+    if get_param(["imputation", genome, "run"], ["False", "glimpse1", "glimpse2"]) != "False":
+        run_imputation = run_imputation + [genome]
+
+
+##########################################################################################
+##  STATISTICS
+##########################################################################################
+## By default he stats are computed on the mapped bam files. However, one can pass pre-computed bam files to use the stats feature of
+## mapache using the paramter 'bam_list'. In this later case only on the specified bam fiels the stats are comouted.
+run_qualimap = str2bool(get_param(["stats", "qualimap"], ["False", "True"]))
+
+run_multiqc = str2bool(get_param(["stats", "multiqc"], ["False", "True"]))
+
+
+##########################################################################################
+include: "rules/index.smk"
+include: "rules/stats.smk"
+include: "rules/fastq.smk"
+include: "rules/library.smk"
+include: "rules/sample.smk"
+include: "rules/imputation_glimpse.smk"
+include: "rules/imputation_glimpse2.smk"
+include: "rules/software_version.smk"
+
+
+report: "report/workflow.rst"
+
+
+##########################################################################################
+## OUTPUT FILES
+##########################################################################################
+# -----------------------------------------------------------------------------#
+## get all final bam and bai files
+final_bam = get_final_bam_files()
+final_bai = [bam2bai(w) for w in final_bam]
+
+final_bam_low_qual = get_final_bam_low_qual_files()
+final_bami_low_qual = [bam2bai(w) for w in final_bam_low_qual]
+
+final_external_bam = get_final_external_bam_files()
+final_external_bai = [bam2bai(w) for w in final_external_bam]
+
+
+# -----------------------------------------------------------------------------#
+## get all final stat files
+qualimap_files = get_qualimap_files()
+multiqc_files = get_multiqc_files()
+sex_files = get_sex_files()
+stat_csv = get_stat_csv_files()
+stat_plot = get_stat_plot_files()
+
+
+# -----------------------------------------------------------------------------#
+## get all stat files which have to be computed during mapping
+fastqc = get_fastqc_files()
+samtools_stats = get_samtools_stats_files()
+lengths = get_length_files()
+idxstats = get_idxstats_files()
+damage_files = get_damage_output()
+
+
+# -----------------------------------------------------------------------------#
+## get the minimal final summary stats
+stats_mapping_checkpoint = (
+    fastqc + samtools_stats + lengths + idxstats + sex_files + damage_files,
+)
+
+final_stats = stat_csv + qualimap_files + multiqc_files
+
+final_stat_figures = (damage_files + stat_plot,)
+
+
+## --------------------------------------------------------------------------------------------------
+##########################################################################################
+## VERBOSE LOG
+##########################################################################################
+## print a summary of the contents
+if VERBOSE:
+    write_log()
+
+
+##########################################################################################
+## STARTING RULES
+##########################################################################################
+localrules:
+    all,
+    dag,
+    mapping,  ## executed locally on a cluster
+
+
+# print(final_bam)
+# print(final_external_bam)
+# print(final_bam_low_qual)
+# print(final_stat_figures)
+# print(final_stats)
+# print(samtools_stats)
+# print(stats_mapping_checkpoint)
+# print(get_imputation_files())
+# print(get_imputation_plots())
+
+
+## rules all
+rule all:
+    """
+    Computes all
+    """
+    input:
+        final_bam,
+        final_bai,
+        final_external_bam,
+        final_external_bai,
+        final_bam_low_qual,
+        final_stat_figures,
+        final_stats,
+        samtools_stats,
+        stats_mapping_checkpoint,
+        get_imputation_files(),
+        get_imputation_plots(),
+        report(
+            f"{RESULT_DIR}/04_stats/03_summary/software_versions.txt",
+            category="Software",
+        ),
+    output:
+        f"{RESULT_DIR}/run_report.sh"
+    message:
+        "--- RUNNING ALL"
+    shell:
+        "echo 'snakemake --report report.html' > {output}"
+
+
+## rules dag (just pipeline)
+rule dag:
+    """
+    Computes just the mapping (used to get a DAG with the relevant steps)
+    """
+    input:
+        final_bam,
+        final_bai,
+        final_external_bam,
+        final_bam_low_qual,
+        get_imputation_files(),
+    message:
+        "--- RUNNING DAG"
+
+print(stats_mapping_checkpoint)
+
+rule mapping:
+    """
+    Performs the mapping and computes all stats which are not anymore able to be comouted later (if temporal fiels are used)
+    """
+    input:
+        final_bam,
+        final_bai,
+        final_external_bam,
+        final_bam_low_qual,
+        stats_mapping_checkpoint,
+        get_imputation_files(),
+        final_stat_figures,
+    output:
+        f"{RESULT_DIR}/run_report.sh"
+    message:
+        "--- RUNNING MAPPING"
+    shell:
+        "echo 'snakemake mapping --report report_mapping.html' > {output}"
+
+
+rule mapping_libraries:
+    """
+    Performs the mapping unitl the libraries
+    """
+    input:
+        get_all_bam_after_mapDamage_inference(),
+        fastqc,
+        get_stat_csv_files(False),
+        get_stat_plot_files(False),
+        damage_files,
+
+        get_samtools_stats_files_library(),
+        get_sex_files_library(),
+        #lengths,
+        #idxstats,
+        #sex_files,
+    output:
+        f"{RESULT_DIR}/run_report.sh"
+    message:
+        "--- RUNNING MAPPING UNTIL LIBRARIES"
+    shell:
+        "echo 'snakemake mapping_libraries --report report_libraries.html' > {output}"
+
+rule version:
+    """
+    Get the versions of the underlying tools
+    """
+    input:
+        get_version_file_of_tools(),
+    output:
+        report(
+            f"{RESULT_DIR}/04_stats/03_summary/software_versions.txt",
+            category="Software",
+        ),
+    shell:
+        """
+        cat {input} > {output}
+        """
+
+
+rule infer_adapter:
+    """
+    infer adapters for paried-end libraries with AdapterRemoval2
+    """
+    input:
+        [
+            f"{RESULT_DIR}/01_fastq/01_trimmed/01_adapterremoval_infer_adapters/{sm}/{lb}/{id}.txt"
+            for sm, smVals in SAMPLES.items()
+            for lb, lbVals in smVals.items()
+            for id in lbVals
+        ],
+    output:
+        adapter1=f"{RESULT_DIR}/04_stats/04_infered_adapter/adapter1.txt",
+        adapter2=f"{RESULT_DIR}/04_stats/04_infered_adapter/adapter2.txt",
+    shell:
+        """
+        for i in {input}; do echo $(grep 'Consensus:' $i | head -n1) {sm}/{lb}/{id}; done > {output.adapter1};
+        for i in {input}; do echo $(grep 'Consensus:' $i | tail -n1) {sm}/{lb}/{id}; done > {output.adapter2}
+        """
+
+
+# -----------------------------------------------------------------------------#
+
+
+rule stats:
+    input:
+        get_qualimap_files(),
+        get_sex_files(),
+        get_imputation_files(),
+
+
+## imputation
+rule imputation:
+    input:
+        get_imputation_files(),
+
+
+##########################################################################################
+onsuccess:
+    LOGGER.info("Wow, 'mapache' finished successfully!")
+    if os.path.exists(f"{RESULT_DIR}/run_report.sh"):
+        with open(f"{RESULT_DIR}/run_report.sh","r") as f: txt = f.read().rstrip()
+        LOGGER.info(f"=> To generate the Snakemake report: run '{txt}'.")
+        os.remove(f"{RESULT_DIR}/run_report.sh")
+
+    shell("cat {log} > snakemake.run.log")
+    email = get_param(["email"], "")
+    if os.path.exists(f"{RESULT_DIR}/verbose.touch"):
+        os.remove(f"{RESULT_DIR}/verbose.touch")
+    if email != "":
+        Logger.info(f"Sending email to {email}")
+        shell("mail -s \"'Mapache' finished successfully\" {email} < {log}")
+
+
+onerror:
+    LOGGER.error("'Mapache' finished with error(s), log stored in 'snakemake.run.log'")
+    shell("cat {log} > snakemake.run.log")
+    email = get_param(["email"], "")
+    if os.path.exists(f"{RESULT_DIR}/run_report.sh"):
+        os.remove(f"{RESULT_DIR}/run_report.sh")
+    if os.path.exists(f"{RESULT_DIR}/verbose.touch"):
+        os.remove(f"{RESULT_DIR}/verbose.touch")
+    if email != "":
+        LOGGER.info(f"Sending email to {email}")
+        shell("mail -s \"'Mapache' finished with error(s)\" {email} < {log}")

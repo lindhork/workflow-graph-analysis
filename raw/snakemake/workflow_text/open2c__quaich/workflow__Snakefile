@@ -1,0 +1,690 @@
+###### Import libraries #######
+import os
+
+os.environ["OPENBLAS_NUM_THREADS"] = "1"
+from os import path
+from glob import glob
+import itertools
+import numpy as np
+import pandas as pd
+import bioframe
+from scipy import spatial
+
+
+localrules:
+    all,
+    make_pentads,
+    make_diff_pentads,
+    merge_dots_across_resolutions,
+    make_differential_insulation,
+    make_tads,
+    call_dots_mustache,
+    download_file,
+
+
+###### Read config parameters #######
+
+project_folder = path.abspath(config.get("project_folder", "results"))
+inputs_folder = path.abspath(config.get("inputs_folder", "inputs"))
+coolers_folder = path.abspath(
+    config.get("coolers_folder", path.join(inputs_folder, "coolers"))
+)
+beds_folder = path.abspath(
+    path.normpath(config.get("beds_folder", path.join(inputs_folder, "beds")))
+)
+beds_folder_name = path.basename(beds_folder)
+bedpes_folder = path.abspath(
+    path.normpath(config.get("bedpes_folder", path.join(inputs_folder, "bedpes")))
+)
+bedpes_folder_name = path.basename(bedpes_folder)
+expected_folder = path.abspath(
+    path.normpath(config.get("expected_folder", path.join(project_folder, "expected")))
+)
+pileups_folder = path.abspath(
+    path.normpath(config.get("pileups_folder", path.join(project_folder, "pileups")))
+)
+
+eigenvectors_folder = path.abspath(
+    path.normpath(
+        config.get("eigenvectors_folder", path.join(project_folder, "eigenvectors"))
+    )
+)
+eig_profiles_folder = path.abspath(
+    path.normpath(
+        config.get(
+            "eig_profiles_folder",
+            path.join(eigenvectors_folder, "eig_profiles"),
+        )
+    )
+)
+compartments_folder = path.abspath(
+    path.normpath(
+        config.get("compartments_folder", path.join(project_folder, "compartments"))
+    )
+)
+saddles_folder = path.abspath(
+    path.normpath(
+        config.get("saddles_folder", path.join(eigenvectors_folder, "saddles"))
+    )
+)
+pentads_folder = path.abspath(
+    path.normpath(
+        config.get("pentads_folder", path.join(eigenvectors_folder, "pentads"))
+    )
+)
+
+insulation_folder = path.abspath(
+    path.normpath(
+        config.get("insulation_folder", path.join(project_folder, "insulation"))
+    )
+)
+tads_folder = path.abspath(
+    path.normpath(config.get("tads_folder", path.join(insulation_folder, "tads")))
+)
+tads_folder_name = path.basename(tads_folder)
+
+boundaries_folder = path.abspath(
+    path.normpath(
+        config.get("boundaries_folder", path.join(insulation_folder, "boundaries"))
+    )
+)
+boundaries_folder_name = path.basename(boundaries_folder)
+
+dots_folder = path.abspath(
+    path.normpath(config.get("dots_folder", path.join(project_folder, "dots")))
+)
+dots_folder_name = path.basename(dots_folder)
+
+
+include: "rules/common.smk"
+
+
+### Input genome
+genome = config["genome"]
+chroms = pd.read_csv(
+    f'{config["chromsizes"]}', sep="\t", names=["chrom", "start", "end"]
+)["chrom"].values
+
+### Input cool files
+from urllib.parse import urlparse
+
+
+def will_download(link):
+    parsed_path = urlparse(link)
+    return False if parsed_path.scheme == "" else True
+
+
+try:
+    samples_df = pd.read_csv(
+        config["samples"],
+        sep="\t",
+        header=0,
+        comment="#",
+        dtype={"do_dots": bool, "do_tads": bool},
+    )
+except:
+    raise ValueError(
+        "Could not read file with samples, please ensure it exists and has data in it"
+    )
+if "sample" not in samples_df.columns:
+    raise ValueError(
+        'Column "sample" has to be in the file with description of samples'
+    )
+if "file" not in samples_df.columns:
+    raise ValueError('Column "file" has to be in the file with description of samples')
+
+samples_df = samples_df.fillna(value=False)
+samples_df.loc[:, "will_download"] = samples_df.file.apply(will_download)
+samples_df.loc[:, "local_path"] = samples_df.apply(
+    lambda x: path.join(coolers_folder, f"{x['sample']}.mcool")
+    if x.will_download
+    else path.abspath(x["file"]),
+    axis=1,
+)
+samples_df = samples_df.set_index("sample")
+
+samples = list(samples_df.index)
+coollinks_dict = dict(
+    zip(
+        samples_df["local_path"],
+        samples_df["file"].apply(lambda x: x if will_download(x) else path.abspath(x)),
+    )
+)  # dict with cools to be downloaded
+coolfiles_dict = dict(samples_df["local_path"])
+
+# Downloaded coolers are verified against the view as part of the download rule
+# Here we check the rest
+for coolfile in samples_df[~samples_df["will_download"]].local_path:
+    verify_view_cooler(coolfile)
+
+# Setting up pairwise comparisons
+sample_pairs = []
+groupers = config.get("fields_to_match", None)
+if groupers is None:
+    groupers = lambda x: True
+if config["fields_to_differ"] is not None:
+    for name, group in samples_df.groupby(groupers):
+        for sample1, sample2 in itertools.permutations(group.index, 2):
+            if np.all(
+                samples_df.loc[
+                    sample1, list(config["fields_to_differ"].keys())
+                ].to_numpy()
+                != np.array(list(config["fields_to_differ"].values()))
+            ) and np.all(
+                samples_df.loc[
+                    sample2, list(config["fields_to_differ"].keys())
+                ].to_numpy()
+                == np.array(list(config["fields_to_differ"].values()))
+            ):
+                sample_pairs.append((sample1, sample2))
+sample_pairs_string = [f"{s1}_vs_{s2}" for s1, s2 in sample_pairs]
+sample_pairs_string_with_reverse = sample_pairs_string + [
+    f"{s2}_vs_{s1}" for s1, s2 in sample_pairs
+]
+# Setting up annotation files
+bedfiles_local = get_files(beds_folder, "bed")
+bedpefiles_local = get_files(bedpes_folder, "bedpe")
+
+local_bed_names = {
+    path.splitext(bedfile)[0]: f"{beds_folder}/{bedfile}" for bedfile in bedfiles_local
+}
+local_bedpe_names = {
+    path.splitext(bedpefile)[0]: f"{bedpes_folder}/{bedpefile}"
+    for bedpefile in bedpefiles_local
+}
+
+if config["annotations"]:
+    try:
+        bed_df = pd.read_csv(config["annotations"], sep="\t", header=0, comment="#")
+    except:
+        raise ValueError(
+            "Could not read file with annotations, please ensure it exists and has data in it"
+        )
+    bed_df.loc[:, "will_download"] = bed_df.file.apply(will_download)
+    bed_df.loc[:, "local_path"] = bed_df.apply(
+        lambda x: path.abspath(make_local_path(x.bedname, x.format))
+        if x.will_download
+        else path.abspath(x.file),
+        axis=1,
+        result_type="reduce",
+    )
+    bed_df = bed_df.set_index("bedname").replace("-", np.nan)
+else:
+    bed_df = pd.DataFrame(
+        columns=["bedname", "file", "format", "will_download", "local_path"]
+        + list(config["pileups"]["arguments"])
+    )
+
+pileup_params = {
+    key: val["pileup"] for key, val in config["pileups"]["arguments"].items()
+}
+
+bed_df[list(pileup_params.keys())] = ~bed_df[list(pileup_params.keys())].isna()
+
+bedlinks_dict = dict(
+    zip(
+        bed_df["local_path"],
+        bed_df["file"].apply(lambda x: x if will_download(x) else path.abspath(x)),
+    )
+)  # dict with beds to be downloaded
+
+bedfiles_dict = dict(bed_df["local_path"])
+bedfiles_dict.update(local_bed_names)
+bedfiles_dict.update(local_bedpe_names)
+bedfiles = list(bedfiles_dict.keys())
+# bedfiles_pileups = [bf for bf in bedfiles if bed_df.loc[bf, 'pileups']]
+bedtype_dict = dict(bed_df["format"])
+# bedpe_pileups_mindist, bedpe_pileups_maxdist = config['bedpe_pileups_distance_limits']
+
+if config["samples_annotations_combinations"]:
+    try:
+        samples_annotations = ~pd.read_csv(
+            config["samples_annotations_combinations"],
+            sep="\t",
+            header=0,
+            index_col=0,
+            comment="#",
+        ).isna()
+    except:
+        raise ValueError(
+            "Could not read file with sample-annotation combinations,"
+            "please ensure it exists and has data in it"
+        )
+else:
+    samples_annotations = pd.DataFrame(
+        np.ones((len(samples), len(bedfiles))), index=samples, columns=bedfiles
+    ).astype(bool)
+
+### Data resolutions
+if config["eigenvectors"]["do"]:
+    eigenvector_resolutions = config["eigenvectors"]["resolutions"]
+
+if config["saddles"]["do"]:
+    saddle_mindist, saddle_maxdist = config["saddles"]["distance_limits"]
+    saddle_mindists = [
+        int(saddle_mindist * 2**i)
+        for i in np.arange(0, np.log2(saddle_maxdist / saddle_mindist))
+    ]
+    saddle_separations = [f"_dist_{mindist}-{mindist*2}" for mindist in saddle_mindists]
+
+if config["pileups"]["do"] or any(
+    [
+        config[key]["pileup"]
+        for key in ("dots", "insulation", "compare_boundaries", "TADs")
+    ]
+):
+    shifts = config["pileups"]["shifts"]
+    pileup_norms = []
+    if shifts > 0:
+        pileup_norms.append(f"{shifts}-shifts")
+    if config["pileups"]["expected"]:
+        pileup_norms.append("expected")
+    if len(pileup_norms) == 0:
+        raise ValueError("Please use expected or shifts to normalize pileups")
+    pileup_resolutions = config["pileups"]["resolutions"]
+    # pileups_mindist, pileups_maxdist = config["pileups"]["distance_limits"]
+    # mindists = [
+    #     int(pileups_mindist * 2**i)
+    #     for i in np.arange(0, np.log2(pileups_maxdist / pileups_mindist))
+    # ]
+    # separations = [f"_dist_{mindist}-{mindist*2}" for mindist in mindists]
+
+
+if config["insulation"]["do"] and config["TADs"]["do"]:
+    config["insulation"]["resolutions"] = merge_dicts(
+        config["insulation"]["resolutions"], config["TADs"]["resolutions"]
+    )
+elif config["TADs"]["do"]:
+    config["insulation"]["resolutions"] = config["TADs"]["resolutions"]
+
+if (
+    config["insulation"]["do"]
+    or config["TADs"]["do"]
+    or config["compare_boundaries"]["do"]
+):
+    insul_res_win_comb = []
+    for resolution in config["insulation"]["resolutions"]:
+        for win in config["insulation"]["resolutions"][resolution]:
+            insul_res_win_comb.append(f"{resolution}_{win}")
+
+if config["TADs"]["do"]:
+    tad_res_win_comb = []
+    for resolution in config["TADs"]["resolutions"]:
+        for win in config["TADs"]["resolutions"][resolution]:
+            tad_res_win_comb.append(f"{resolution}_{win}")
+
+# chroms = cooler.Cooler(f'{coolers_folder}/{coolfiles[0]}::resolutions/{resolutions[0]}').chroms()[:]
+
+# bedpe_mindists = [int(bedpe_pileups_mindist*2**i) for i in np.arange(0, np.log2(bedpe_pileups_maxdist/bedpe_pileups_mindist))]
+# bedpe_separations = [f'{mindist}-{mindist*2}' for mindist in bedpe_mindists]
+
+###### Setup outputs for the pipeline
+# Expected files
+expecteds = []
+if config["expected"]["do"]:
+    if config["expected"]["cis"]:
+        expecteds += expand(
+            f"{expected_folder}/{{sample}}_{{resolution}}.expected.tsv",
+            sample=samples,
+            resolution=config["expected"]["resolutions"],
+        )
+    if config["expected"]["trans"]:
+        expecteds += expand(
+            f"{expected_folder}/{{sample}}_{{resolution}}.expected.trans.tsv",
+            sample=samples,
+            resolution=config["expected"]["resolutions"],
+        )
+
+# Insulation, boundaries, TADs and their pileups
+insulation = (
+    expand(
+        f"{insulation_folder}/{{sample}}_{{resolution}}.insulation.tsv",
+        sample=samples,
+        resolution=config["insulation"]["resolutions"].keys(),
+    )
+    if (config["insulation"]["do"] or config["TADs"]["do"])
+    else []
+)
+
+boundaries = (
+    expand(
+        f"{boundaries_folder}/Boundaries_{{sample}}_{{resolution_window}}.bed",
+        sample=samples,
+        resolution_window=insul_res_win_comb,
+    )
+    if (config["insulation"]["do"] or config["TADs"]["do"])
+    else []
+)
+
+boundaries_pileups = (
+    expand(
+        f"{pileups_folder}/{boundaries_folder_name}/{{sample}}-{{resolution}}_over_Boundaries_{{sample_ref}}_{{resolution_window}}_{{norm}}_local.clpy",
+        sample=samples,
+        resolution=pileup_resolutions,
+        sample_ref=samples,
+        resolution_window=insul_res_win_comb,
+        norm=pileup_norms,
+    )
+    if (config["insulation"]["do"] and config["insulation"]["pileup"])
+    else []
+)
+
+boundaries_pileups_plots = (
+    expand(
+        f"{pileups_folder}/figures/{boundaries_folder_name}/Boundaries_{{sample_ref}}_{{resolution_window}}_compare_samples-{{resolution}}_{{norm}}_local.{{format}}",
+        sample_ref=samples,
+        resolution_window=insul_res_win_comb,
+        resolution=pileup_resolutions,
+        norm=pileup_norms,
+        format=config['figure_formats'],
+    )
+    if (config["insulation"]["do"] and config["insulation"]["pileup"])
+    else []
+)
+
+diff_boundaries = (
+    expand(
+        f"{boundaries_folder}/Diff_boundaries_{{comparison}}_{{resolution_window}}.bed",
+        comparison=sample_pairs_string_with_reverse,
+        resolution_window=insul_res_win_comb,
+    )
+    if config["compare_boundaries"]["do"]
+    else []
+)
+diff_boundaries_pileups = (
+    expand(
+        f"{pileups_folder}/{boundaries_folder_name}/{{sample}}-{{resolution}}_over_Diff_boundaries_{{comparison}}_{{resolution_window}}_{{norm}}_local.clpy",
+        sample=samples,
+        resolution=pileup_resolutions,
+        comparison=sample_pairs_string_with_reverse,
+        resolution_window=insul_res_win_comb,
+        norm=pileup_norms,
+    )
+    if config["compare_boundaries"]["do"] and config["compare_boundaries"]["pileup"]
+    else []
+)
+
+tads = (
+    expand(
+        f"{tads_folder}/TADs_{{sample}}_{{tad_res_win}}.bed",
+        sample=samples_df.index[samples_df["do_tads"]],
+        tad_res_win=tad_res_win_comb,
+    )
+    if config["TADs"]["do"]
+    else []
+)
+
+
+tads_pileups = (
+    expand(
+        f"{pileups_folder}/{tads_folder_name}/{{sample}}-{{resolution}}_over_TADs_{{sampleTADs}}_{{tad_res_win}}_{{norm}}_local_rescaled.clpy",
+        sample=samples,
+        resolution=pileup_resolutions,
+        sampleTADs=samples_df.index[samples_df["do_tads"]],
+        tad_res_win=tad_res_win_comb,
+        norm=pileup_norms,
+    )
+    if config["TADs"]["do"] and config["TADs"]["pileup"] and config["pileups"]["do"]
+    else []
+)
+tads_pileups_plots = (
+    expand(
+        f"{pileups_folder}/figures/{tads_folder_name}/TADs_{{sample}}_{{tad_res_win}}_compare_samples-{{resolution}}_{{norm}}_local_rescaled.{{format}}",
+        sample=samples_df.index[samples_df["do_tads"]],
+        tad_res_win=tad_res_win_comb,
+        resolution=pileup_resolutions,
+        norm=pileup_norms,
+        format=config['figure_formats'],
+    )
+    if config["TADs"]["do"] and config["TADs"]["pileup"] and config["pileups"]["do"]
+    else []
+)
+
+# Dots and dot pileups
+dot_methods = [
+    m for m in config["dots"]["methods"] if config["dots"]["methods"][m]["do"]
+]
+if dot_methods:
+    dots = expand(
+        f"{dots_folder}/Dots_{{method}}_{{sampleDots}}.bedpe",
+        method=dot_methods,
+        sampleDots=samples_df.index[samples_df["do_dots"]],
+    )
+
+    dots_pileups = (
+        expand(
+            f"{pileups_folder}/{dots_folder_name}/{{sample}}-{{resolution}}_over_Dots_{{method}}_{{sampleDots}}_{{norm}}_{{mode}}.clpy",
+            sample=samples,
+            resolution=pileup_resolutions,
+            method=dot_methods,
+            sampleDots=samples_df.index[samples_df["do_dots"]],
+            norm=pileup_norms,
+            mode=["distal", "by_distance"],
+        )
+        if config["dots"]["pileup"] and config["pileups"]["do"]
+        else []
+    )
+
+    dots_pileups_plots = (
+        expand(
+            f"{pileups_folder}/figures/{dots_folder_name}/Dots_{{method}}_{{sampleDots}}_compare_samples-{{resolution}}_{{norm}}_distal.{{format}}",
+            method=dot_methods,
+            sampleDots=samples_df.index[samples_df["do_dots"]],
+            resolution=pileup_resolutions,
+            norm=pileup_norms,
+            format=config['figure_formats'],
+        )
+        if config["dots"]["pileup"] and config["pileups"]["do"]
+        else []
+    )
+else:
+    dots = []
+    dots_pileups = []
+    dots_pileups_plots = []
+
+# Setup file types for dot bedpes files and boundary/TAD beds
+for file in dots:
+    name = path.splitext(path.basename(file))[0]
+    bedfiles_dict[name] = file
+    bedtype_dict[name] = "bedpe"
+for file in tads + boundaries + diff_boundaries:
+    name = path.splitext(path.basename(file))[0]
+    bedfiles_dict[name] = file
+    bedtype_dict[name] = "bed"
+
+# Pileups for annotation files
+beds_pileups = []
+beds_pileups_plots = []
+samples_to_use = {}
+if config["pileups"]["do"]:
+    for bedname, row in bed_df.iterrows():
+        folder = (
+            beds_folder_name if bedtype_dict[bedname] == "bed" else bedpes_folder_name
+        )
+        modes = []
+        for mode in pileup_params.keys():
+            if row[mode]:
+                modes += [mode]
+        samples_to_use[bedname] = []
+
+        for sample in samples:
+            if (
+                bedname in samples_annotations.columns
+                and sample in samples_annotations.index
+                and samples_annotations.loc[sample, bedname]
+            ):
+                samples_to_use[bedname].append(sample)
+            if len(samples_to_use[bedname]) == 0:
+                continue
+        beds_pileups += expand(
+            f"{pileups_folder}/{folder}/{{sample}}-{{resolution}}_over_{bedname}_{{norm}}_{{mode}}.clpy",
+            sample=samples_to_use[bedname],
+            resolution=pileup_resolutions,
+            norm=pileup_norms,
+            mode=modes,
+        )
+        for mode in modes:
+            if config["pileups"]["arguments"][mode]["plot"].get(
+                "compare_samples", False
+            ):
+                beds_pileups_plots += expand(
+                    f"{pileups_folder}/figures/{folder}/{bedname}_compare_samples-{{resolution}}_{{norm}}_{mode}.{{format}}",
+                    resolution=pileup_resolutions,
+                    norm=pileup_norms,
+                    format=config['figure_formats'],
+                )
+            elif config["pileups"]["arguments"][mode]["plot"].get("individual", False):
+                beds_pileups_plots += expand(
+                    f"{pileups_folder}/figures/{folder}/{{sample}}_{bedname}_individual-{{resolution}}_{{norm}}_{mode}.{{format}}",
+                    sample=samples_to_use[bedname],
+                    resolution=pileup_resolutions,
+                    norm=pileup_norms,
+                    format=config['figure_formats'],
+                )
+
+eigenvectors = (
+    expand(
+        f"{eig_profiles_folder}/{{sample}}_{{resolution}}_eigenvectors.{{mode}}.{{ext}}",
+        sample=samples,
+        resolution=eigenvector_resolutions,
+        mode=["cis"],  # Add option to do trans in the future
+        ext=["vecs.tsv", "lam.txt", "bw"],
+    )
+    if config["eigenvectors"]["do"]
+    else []
+)
+
+# Saddles and compartment beds
+saddles = (
+    expand(
+        f"{saddles_folder}/{{sample}}_{{resolution}}_over_{{sample}}_eig_{{bins}}{{dist}}.{{ending}}",
+        sample=samples,
+        resolution=eigenvector_resolutions,
+        bins=config["saddles"]["bins"],
+        dist=saddle_separations + [""],
+        ending=["saddledump.npz", "digitized.tsv"],
+    )
+    if config["saddles"]["do"]
+    else []
+)
+for sample1, sample2 in sample_pairs:
+    saddles += (
+        expand(
+            f"{saddles_folder}/{sample1}_{{resolution}}_over_{sample2}_eig_{{bins}}{{dist}}.{{ending}}",
+            resolution=eigenvector_resolutions,
+            bins=config["saddles"]["bins"],
+            dist=saddle_separations + [""],
+            ending=["saddledump.npz", "digitized.tsv"],
+        )
+        if config["saddles"]["do"]
+        else []
+    )
+
+compartments = (
+    expand(
+        f"{eigenvectors_folder}/compartments/{{sample}}_{{resolution}}_compartments.{{mode}}.bed",
+        sample=samples,
+        resolution=eigenvector_resolutions,
+        mode=["cis"],  # Add option to do trans in the future
+    )
+    if config["eigenvectors"]["do"] and config["eigenvectors"]["save_compartment_beds"]
+    else []
+)
+
+
+# Pentads for all samples based on compartments from all samples - for now all combinations!
+pentads = (
+    expand(
+        f"{eigenvectors_folder}/pentads/{{sample}}_{config['pentads']['data_resolution']}_over_compartments_{{sample}}_{config['pentads']['eigenvector_resolution']}_{{norm}}_pentads.clpy",
+        sample=samples,
+        norm=config["pentads"]["norms"],
+        mode=config["pentads"]["modes"],  # Add option to do trans in the future
+    )
+    if config["pentads"]["do"]
+    else []
+)
+for sample1, sample2 in sample_pairs:
+    pentads += (
+        expand(
+            f"{eigenvectors_folder}/pentads/{sample1}_{config['pentads']['data_resolution']}_over_compartments_{sample2}_{config['pentads']['eigenvector_resolution']}_{{norm}}_pentads.clpy",
+            norm=config["pentads"]["norms"],
+            mode=config["pentads"]["modes"],  # Add option to do trans in the future
+        )
+        if config["pentads"]["do"] and config["pentads"]["do_diff"]
+        else []
+    )
+
+# Differential pentads calculated using compartments from sample2
+diff_pentads = []
+if config["pentads"]["do_diff"]:
+    for sample1, sample2 in sample_pairs:
+        diff_pentads += expand(
+            f"{eigenvectors_folder}/pentads/diff/{sample1}_vs_{sample2}_{config['pentads']['data_resolution']}_over_compartments_{sample2}_{config['pentads']['eigenvector_resolution']}_{{norm}}_pentads.clpy",
+            norm=config["pentads"]["norms"],
+        )
+
+
+# Pentads for all samples based on compartments from all samples - for now all combinations!
+pentads = (
+    expand(
+        f"{eigenvectors_folder}/pentads/{{sample}}_{config['pentads']['data_resolution']}_over_compartments_{{sample}}_{config['pentads']['eigenvector_resolution']}_{{norm}}_pentads.clpy",
+        sample=samples,
+        norm=config["pentads"]["norms"],
+        mode=config["pentads"]["modes"],  # Add option to do trans in the future
+    )
+    if config["pentads"]["do"]
+    else []
+)
+for sample1, sample2 in sample_pairs:
+    pentads += (
+        expand(
+            f"{eigenvectors_folder}/pentads/{sample1}_{config['pentads']['data_resolution']}_over_compartments_{sample2}_{config['pentads']['eigenvector_resolution']}_{{norm}}_pentads.clpy",
+            norm=config["pentads"]["norms"],
+            mode=config["pentads"]["modes"],  # Add option to do trans in the future
+        )
+        if config["pentads"]["do"] and config["pentads"]["do_diff"]
+        else []
+    )
+
+# Differential pentads calculated using compartments from sample2
+diff_pentads = []
+if config["pentads"]["do_diff"]:
+    for sample1, sample2 in sample_pairs:
+        diff_pentads += expand(
+            f"{eigenvectors_folder}/pentads/diff/{sample1}_vs_{sample2}_{config['pentads']['data_resolution']}_over_compartments_{sample2}_{config['pentads']['eigenvector_resolution']}_{{norm}}_pentads.clpy",
+            norm=config["pentads"]["norms"],
+        )
+
+
+###### Define rules #######
+rule all:
+    input:
+        lambda wildcards: expecteds,
+        lambda wildcards: insulation,
+        lambda wildcards: boundaries,
+        lambda wildcards: boundaries_pileups,
+        lambda wildcards: boundaries_pileups_plots,
+        lambda wildcards: diff_boundaries,
+        lambda wildcards: diff_boundaries_pileups,
+        lambda wildcards: tads,
+        lambda wildcards: tads_pileups,
+        lambda wildcards: tads_pileups_plots,
+        lambda wildcards: dots,
+        lambda wildcards: dots_pileups,
+        lambda wildcards: dots_pileups_plots,
+        lambda wildcards: beds_pileups,
+        lambda wildcards: beds_pileups_plots,
+        lambda wildcards: eigenvectors,
+        lambda wildcards: compartments,
+        lambda wildcards: saddles,
+        lambda wildcards: pentads,
+        lambda wildcards: diff_pentads,
+
+
+include: "rules/pentads.smk"
+include: "rules/dots.smk"
+include: "rules/eigenvectors.smk"
+include: "rules/insulation_tads.smk"
+include: "rules/expected.smk"
+include: "rules/saddle.smk"
+include: "rules/pileups.smk"

@@ -1,0 +1,2361 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 190,
+            "title": "feat: upgrade to Snakemake version 9",
+            "state": "CLOSED",
+            "createdAt": "2025-07-13T13:07:39Z",
+            "closedAt": "2026-01-29T09:20:16Z",
+            "author": {
+              "login": "fgypas"
+            }
+          },
+          {
+            "number": 187,
+            "title": "build: do not upgrade env to install dev deps",
+            "state": "CLOSED",
+            "createdAt": "2025-04-21T18:38:57Z",
+            "closedAt": "2025-04-21T18:53:15Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 186,
+            "title": "ci: use GitHub Action to set up Apptainer",
+            "state": "CLOSED",
+            "createdAt": "2025-04-21T18:19:37Z",
+            "closedAt": "2025-04-21T18:53:15Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 185,
+            "title": "ci: upgrade Python",
+            "state": "CLOSED",
+            "createdAt": "2025-04-21T18:13:11Z",
+            "closedAt": "2025-04-21T18:53:15Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 184,
+            "title": "build: upgrade Snakemake",
+            "state": "CLOSED",
+            "createdAt": "2025-04-21T18:11:48Z",
+            "closedAt": "2025-04-21T18:53:14Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 183,
+            "title": "build: use Apptainer instead of Singularity",
+            "state": "CLOSED",
+            "createdAt": "2025-04-21T18:07:43Z",
+            "closedAt": "2025-04-21T18:53:14Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 182,
+            "title": "ci: upgrade Ubuntu images",
+            "state": "CLOSED",
+            "createdAt": "2025-04-21T18:04:51Z",
+            "closedAt": "2025-04-21T18:53:14Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 180,
+            "title": "build: build & CI workflows currently broken",
+            "state": "CLOSED",
+            "createdAt": "2025-04-06T13:30:05Z",
+            "closedAt": "2025-04-21T18:53:13Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 178,
+            "title": "Add Dockerfile",
+            "state": "CLOSED",
+            "createdAt": "2024-12-19T20:03:54Z",
+            "closedAt": "2025-04-21T19:27:24Z",
+            "author": {
+              "login": "fgypas"
+            }
+          },
+          {
+            "number": 174,
+            "title": "docs: deploy dedicated docs pages",
+            "state": "CLOSED",
+            "createdAt": "2024-08-23T10:45:27Z",
+            "closedAt": "2024-08-23T14:37:21Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 171,
+            "title": "Multi-organism analysis",
+            "state": "CLOSED",
+            "createdAt": "2024-02-13T16:48:19Z",
+            "closedAt": "2024-02-21T10:11:16Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 166,
+            "title": "fix(SRA download): rule get layout often fails",
+            "state": "CLOSED",
+            "createdAt": "2024-02-04T20:42:08Z",
+            "closedAt": "2024-02-05T17:35:37Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 165,
+            "title": "docs: describe ZARP outputs and how to use/explore them",
+            "state": "CLOSED",
+            "createdAt": "2024-02-04T04:37:37Z",
+            "closedAt": "2025-04-22T02:15:50Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 162,
+            "title": "ci: warnings due to outdated Actions",
+            "state": "CLOSED",
+            "createdAt": "2024-02-04T03:00:54Z",
+            "closedAt": "2024-02-04T03:24:48Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 160,
+            "title": "fix: too little RAM allocated for BED sorting",
+            "state": "CLOSED",
+            "createdAt": "2024-02-04T02:33:04Z",
+            "closedAt": "2024-02-04T03:01:26Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 159,
+            "title": "bug: kallisto genome quantification fails",
+            "state": "CLOSED",
+            "createdAt": "2024-02-04T01:17:52Z",
+            "closedAt": "2024-02-04T01:40:12Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 158,
+            "title": "chore: address Pandas warnings",
+            "state": "CLOSED",
+            "createdAt": "2024-02-04T00:28:54Z",
+            "closedAt": "2024-02-04T04:19:00Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 156,
+            "title": "SRA download workflow does not execute with Singularity ",
+            "state": "CLOSED",
+            "createdAt": "2024-02-02T11:13:10Z",
+            "closedAt": "2024-02-03T19:25:50Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 154,
+            "title": "build: upgrade tool versions",
+            "state": "CLOSED",
+            "createdAt": "2024-02-01T10:20:43Z",
+            "closedAt": "2024-02-03T17:50:33Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 152,
+            "title": "fix: Cutadapt compression level problem",
+            "state": "CLOSED",
+            "createdAt": "2024-02-01T03:48:09Z",
+            "closedAt": "2024-02-01T15:59:52Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 150,
+            "title": "fix: wildcard inside f-strings not recognized in newer snakemake versions",
+            "state": "CLOSED",
+            "createdAt": "2023-11-22T16:38:45Z",
+            "closedAt": "2023-12-04T11:00:27Z",
+            "author": {
+              "login": "ninsch3000"
+            }
+          },
+          {
+            "number": 148,
+            "title": "fix(ci): snakemake-graphs-format test fails",
+            "state": "CLOSED",
+            "createdAt": "2023-09-06T10:18:48Z",
+            "closedAt": "2023-09-06T16:15:25Z",
+            "author": {
+              "login": "ninsch3000"
+            }
+          },
+          {
+            "number": 147,
+            "title": "test(htsinfer): add test to CI",
+            "state": "CLOSED",
+            "createdAt": "2023-09-06T09:59:04Z",
+            "closedAt": "2023-09-06T16:15:25Z",
+            "author": {
+              "login": "ninsch3000"
+            }
+          },
+          {
+            "number": 145,
+            "title": "feat(htsinfer): Interface log and cluster log directories via config.yaml",
+            "state": "CLOSED",
+            "createdAt": "2023-09-05T14:10:54Z",
+            "closedAt": "2023-09-06T10:13:51Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 136,
+            "title": "fix: e-flag accessed before defined error",
+            "state": "CLOSED",
+            "createdAt": "2023-05-11T17:12:24Z",
+            "closedAt": "2023-05-17T10:07:39Z",
+            "author": {
+              "login": "ninsch3000"
+            }
+          },
+          {
+            "number": 135,
+            "title": "fix: htsinfer.smk treats 'nan' values in sample table wrongly",
+            "state": "CLOSED",
+            "createdAt": "2023-05-11T17:10:47Z",
+            "closedAt": "2023-05-12T13:18:54Z",
+            "author": {
+              "login": "ninsch3000"
+            }
+          },
+          {
+            "number": 132,
+            "title": "fix: segfault upon SRA download workflow reruns",
+            "state": "CLOSED",
+            "createdAt": "2023-04-13T03:06:34Z",
+            "closedAt": "2024-02-03T19:25:49Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 130,
+            "title": "SRA download workflow does not support DRR, ERR identifiers",
+            "state": "CLOSED",
+            "createdAt": "2023-04-13T02:51:01Z",
+            "closedAt": "2023-04-24T22:48:19Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 129,
+            "title": "changelog notes protected branch",
+            "state": "OPEN",
+            "createdAt": "2023-03-30T10:48:02Z",
+            "closedAt": null,
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 127,
+            "title": "Release notes categories",
+            "state": "CLOSED",
+            "createdAt": "2023-03-29T11:31:21Z",
+            "closedAt": "2023-03-30T09:03:29Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 123,
+            "title": "Snakemake update causes rule wiring issues",
+            "state": "CLOSED",
+            "createdAt": "2023-03-23T17:42:37Z",
+            "closedAt": "2023-03-25T19:14:58Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 120,
+            "title": "feat: RO-crate packaging of workflow and metadata",
+            "state": "OPEN",
+            "createdAt": "2023-03-10T17:28:36Z",
+            "closedAt": null,
+            "author": {
+              "login": "ninsch3000"
+            }
+          },
+          {
+            "number": 119,
+            "title": "chore: Move function definitions from top of Snakefile to separate module",
+            "state": "OPEN",
+            "createdAt": "2023-03-10T16:56:19Z",
+            "closedAt": null,
+            "author": {
+              "login": "ninsch3000"
+            }
+          },
+          {
+            "number": 118,
+            "title": "feat: replace BAM by CRAM format",
+            "state": "OPEN",
+            "createdAt": "2023-03-10T16:46:37Z",
+            "closedAt": null,
+            "author": {
+              "login": "ninsch3000"
+            }
+          },
+          {
+            "number": 117,
+            "title": "feat: add support for cloud execution",
+            "state": "OPEN",
+            "createdAt": "2023-03-10T16:43:43Z",
+            "closedAt": null,
+            "author": {
+              "login": "ninsch3000"
+            }
+          },
+          {
+            "number": 116,
+            "title": "feat: Remove PCR duplicates",
+            "state": "OPEN",
+            "createdAt": "2023-03-10T16:37:22Z",
+            "closedAt": null,
+            "author": {
+              "login": "ninsch3000"
+            }
+          },
+          {
+            "number": 115,
+            "title": "feat: support GTF formats other than ensembl",
+            "state": "OPEN",
+            "createdAt": "2023-03-10T16:17:23Z",
+            "closedAt": null,
+            "author": {
+              "login": "ninsch3000"
+            }
+          },
+          {
+            "number": 114,
+            "title": "Add optional installation of ZARP-cli",
+            "state": "CLOSED",
+            "createdAt": "2023-03-10T14:18:35Z",
+            "closedAt": "2023-03-25T19:14:23Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 113,
+            "title": "Sort gtf -issue with alfa",
+            "state": "CLOSED",
+            "createdAt": "2023-03-10T11:40:29Z",
+            "closedAt": "2023-03-20T13:19:58Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 112,
+            "title": "Increase exposure by publishing ZARP on tool/workflow registries",
+            "state": "CLOSED",
+            "createdAt": "2023-03-10T10:20:23Z",
+            "closedAt": "2023-05-17T15:05:27Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 110,
+            "title": "bug: CI tests are not working due to incompatible python and mamba version",
+            "state": "CLOSED",
+            "createdAt": "2023-03-09T23:46:05Z",
+            "closedAt": "2023-03-10T09:11:37Z",
+            "author": {
+              "login": "fgypas"
+            }
+          },
+          {
+            "number": 109,
+            "title": "bug: issue with snakefmt in snakemake workflow catalog",
+            "state": "CLOSED",
+            "createdAt": "2023-03-09T23:36:46Z",
+            "closedAt": "2023-03-10T09:11:06Z",
+            "author": {
+              "login": "fgypas"
+            }
+          },
+          {
+            "number": 108,
+            "title": "bug: CI is not using the specified Python version",
+            "state": "CLOSED",
+            "createdAt": "2023-03-09T23:27:00Z",
+            "closedAt": "2023-03-24T15:00:29Z",
+            "author": {
+              "login": "fgypas"
+            }
+          },
+          {
+            "number": 106,
+            "title": "Partial execution of the workflow",
+            "state": "CLOSED",
+            "createdAt": "2023-01-05T13:57:30Z",
+            "closedAt": "2023-03-02T07:51:46Z",
+            "author": {
+              "login": "dominikburri"
+            }
+          },
+          {
+            "number": 99,
+            "title": "polya removal takes too long ",
+            "state": "CLOSED",
+            "createdAt": "2022-11-22T12:20:35Z",
+            "closedAt": "2022-11-28T13:40:31Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 98,
+            "title": "ALFA strandedness issue",
+            "state": "CLOSED",
+            "createdAt": "2022-11-15T18:01:19Z",
+            "closedAt": "2022-11-28T11:37:48Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 91,
+            "title": "Running the workflow on your own samples in README",
+            "state": "CLOSED",
+            "createdAt": "2022-11-11T10:45:02Z",
+            "closedAt": "2022-11-14T15:04:03Z",
+            "author": {
+              "login": "noepozzan"
+            }
+          },
+          {
+            "number": 88,
+            "title": "Not enough memory in resources",
+            "state": "CLOSED",
+            "createdAt": "2022-11-11T09:41:59Z",
+            "closedAt": "2022-11-28T19:19:58Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 86,
+            "title": "Alfa conda implementation fails",
+            "state": "CLOSED",
+            "createdAt": "2022-11-02T17:04:19Z",
+            "closedAt": "2022-11-04T13:45:08Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 85,
+            "title": "test: automate end-to-end testing",
+            "state": "OPEN",
+            "createdAt": "2022-10-28T10:15:09Z",
+            "closedAt": null,
+            "author": {
+              "login": "mkatsanto"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 191,
+            "title": "Upgrade to Snakemake version 9",
+            "state": "MERGED",
+            "createdAt": "2025-07-13T13:09:51Z",
+            "mergedAt": "2026-01-29T09:20:14Z",
+            "author": {
+              "login": "fgypas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "install/environment.dev.yml"
+                },
+                {
+                  "path": "install/environment.yml"
+                },
+                {
+                  "path": "profiles/slurm-apptainer/config.yaml"
+                },
+                {
+                  "path": "profiles/slurm-conda/config.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 190
+                }
+              ]
+            }
+          },
+          {
+            "number": 189,
+            "title": "ci: allow workflow to force push CHANGELOG",
+            "state": "MERGED",
+            "createdAt": "2025-04-22T02:33:10Z",
+            "mergedAt": "2025-04-22T02:51:34Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/deploy.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 188,
+            "title": "build: add Dockerfile",
+            "state": "MERGED",
+            "createdAt": "2025-04-21T19:06:04Z",
+            "mergedAt": "2025-04-21T19:27:23Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "tests/input_files/config_docker.yaml"
+                },
+                {
+                  "path": "tests/input_files/samples_docker.tsv"
+                },
+                {
+                  "path": "tests/test_integration_workflow_with_docker/test.local.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 178
+                }
+              ]
+            }
+          },
+          {
+            "number": 181,
+            "title": "build: major dependencies update",
+            "state": "MERGED",
+            "createdAt": "2025-04-06T13:31:46Z",
+            "mergedAt": "2025-04-21T18:53:13Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/deploy.yml"
+                },
+                {
+                  "path": ".github/workflows/docs.yml"
+                },
+                {
+                  "path": ".github/workflows/label_prs.yml"
+                },
+                {
+                  "path": ".snakemake-workflow-catalog.yml"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "images/rule_graph.svg"
+                },
+                {
+                  "path": "install/environment.dev.yml"
+                },
+                {
+                  "path": "install/environment.root.yml"
+                },
+                {
+                  "path": "install/environment.yml"
+                },
+                {
+                  "path": "profiles/local-apptainer/config.yaml"
+                },
+                {
+                  "path": "profiles/slurm-apptainer/config.yaml"
+                },
+                {
+                  "path": "tests/test_create_dag_image/test.sh"
+                },
+                {
+                  "path": "tests/test_create_rule_graph/test.sh"
+                },
+                {
+                  "path": "tests/test_format/test_snakemake_lint.sh"
+                },
+                {
+                  "path": "tests/test_htsinfer_with_apptainer/expected_output.md5"
+                },
+                {
+                  "path": "tests/test_htsinfer_with_apptainer/test.local.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow/test.local.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow/test.slurm.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow/test.temp.flag.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow_multiple_lanes/test.local.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow_multiple_lanes/test.slurm.sh"
+                },
+                {
+                  "path": "tests/test_sra_download_with_apptainer/expected_output.files"
+                },
+                {
+                  "path": "tests/test_sra_download_with_apptainer/expected_output.md5"
+                },
+                {
+                  "path": "tests/test_sra_download_with_apptainer/test.local.sh"
+                },
+                {
+                  "path": "tests/test_sra_download_with_apptainer/test.slurm.sh"
+                },
+                {
+                  "path": "workflow/envs/htsinfer.yaml"
+                },
+                {
+                  "path": "workflow/envs/samtools.yaml"
+                },
+                {
+                  "path": "workflow/rules/htsinfer.smk"
+                },
+                {
+                  "path": "workflow/rules/sra_download.smk"
+                },
+                {
+                  "path": "workflow/rules/sra_paired_end.smk"
+                },
+                {
+                  "path": "workflow/rules/sra_single_end.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 180
+                },
+                {
+                  "number": 182
+                },
+                {
+                  "number": 183
+                },
+                {
+                  "number": 184
+                },
+                {
+                  "number": 185
+                },
+                {
+                  "number": 186
+                },
+                {
+                  "number": 187
+                }
+              ]
+            }
+          },
+          {
+            "number": 179,
+            "title": "build: add Dockerfile",
+            "state": "MERGED",
+            "createdAt": "2024-12-22T21:28:01Z",
+            "mergedAt": "2025-03-17T21:12:34Z",
+            "author": {
+              "login": "fgypas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "docs/guides/usage.md"
+                },
+                {
+                  "path": "tests/input_files/config_docker.yaml"
+                },
+                {
+                  "path": "tests/input_files/samples_docker.tsv"
+                },
+                {
+                  "path": "tests/test_integration_workflow_with_docker/test.local.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 178
+                }
+              ]
+            }
+          },
+          {
+            "number": 177,
+            "title": "docs: add extensive externally hosted docs",
+            "state": "MERGED",
+            "createdAt": "2024-12-10T21:41:55Z",
+            "mergedAt": "2025-04-22T02:15:49Z",
+            "author": {
+              "login": "fgypas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CITATION.cff"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "CONTRIBUTING.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "docs/README.md"
+                },
+                {
+                  "path": "docs/guides/images/bioconda_cutadapt.png"
+                },
+                {
+                  "path": "docs/guides/images/biocontainers_cutadapt.png"
+                },
+                {
+                  "path": "docs/guides/images/zarp_multiqc.png"
+                },
+                {
+                  "path": "docs/guides/images/zarp_multiqc_alfa_biotypes.png"
+                },
+                {
+                  "path": "docs/guides/images/zarp_multiqc_alfa_categories.png"
+                },
+                {
+                  "path": "docs/guides/images/zarp_multiqc_cutadapt_filtered_reads_plot.png"
+                },
+                {
+                  "path": "docs/guides/images/zarp_multiqc_fastqc_per_base_sequence_quality_plot.png"
+                },
+                {
+                  "path": "docs/guides/images/zarp_multiqc_fastqc_per_sequence_gc_content_plot.png"
+                },
+                {
+                  "path": "docs/guides/images/zarp_multiqc_fastqc_sequence_counts_plot.png"
+                },
+                {
+                  "path": "docs/guides/images/zarp_multiqc_general_statistics.png"
+                },
+                {
+                  "path": "docs/guides/images/zarp_multiqc_kallisto_alignment.png"
+                },
+                {
+                  "path": "docs/guides/images/zarp_multiqc_salmon_plot.png"
+                },
+                {
+                  "path": "docs/guides/images/zarp_multiqc_star_alignment_plot.png"
+                },
+                {
+                  "path": "docs/guides/images/zarp_multiqc_tin_score.png"
+                },
+                {
+                  "path": "docs/guides/images/zarp_multiqc_zpca.png"
+                },
+                {
+                  "path": "docs/guides/installation.md"
+                },
+                {
+                  "path": "docs/guides/outputs.md"
+                },
+                {
+                  "path": "docs/guides/parameterization.md"
+                },
+                {
+                  "path": "docs/guides/usage.md"
+                },
+                {
+                  "path": "docs/includes/references.md"
+                },
+                {
+                  "path": "install/environment.dev.yml"
+                },
+                {
+                  "path": "install/environment.yml"
+                },
+                {
+                  "path": "mkdocs.yml"
+                },
+                {
+                  "path": "tests/test_integration_workflow_with_docker/test.local.sh"
+                },
+                {
+                  "path": "workflow/envs/r-merge-kallisto.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 165
+                }
+              ]
+            }
+          },
+          {
+            "number": 176,
+            "title": "docs: add ZARP poster to info materials",
+            "state": "MERGED",
+            "createdAt": "2024-08-27T15:24:41Z",
+            "mergedAt": "2024-08-27T18:44:18Z",
+            "author": {
+              "login": "ninsch3000"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/README.md"
+                },
+                {
+                  "path": "docs/images/poster_ZARP_latest.jpg"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 175,
+            "title": "docs: deploy dedicated docs pages",
+            "state": "MERGED",
+            "createdAt": "2024-08-23T10:46:09Z",
+            "mergedAt": "2024-08-23T14:37:20Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/docs.yml"
+                },
+                {
+                  "path": "docs/README.md"
+                },
+                {
+                  "path": "docs/guides/installation.md"
+                },
+                {
+                  "path": "docs/images/biozentrum_logo.200px.png"
+                },
+                {
+                  "path": "docs/images/sib_logo.200px.png"
+                },
+                {
+                  "path": "docs/images/zarp_logo.256px.png"
+                },
+                {
+                  "path": "docs/images/zarp_logo.32px.png"
+                },
+                {
+                  "path": "docs/images/zarp_logo.384px.png"
+                },
+                {
+                  "path": "docs/images/zavolab_logo.200px.png"
+                },
+                {
+                  "path": "docs/includes/abbreviations.md"
+                },
+                {
+                  "path": "docs/includes/references.md"
+                },
+                {
+                  "path": "docs/overrides/.icons/email.svg"
+                },
+                {
+                  "path": "docs/overrides/.icons/forum.svg"
+                },
+                {
+                  "path": "docs/overrides/.icons/github.svg"
+                },
+                {
+                  "path": "docs/overrides/.icons/twitter.svg"
+                },
+                {
+                  "path": "docs/requirements.txt"
+                },
+                {
+                  "path": "mkdocs.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 174
+                }
+              ]
+            }
+          },
+          {
+            "number": 172,
+            "title": "feat: multiorganism support",
+            "state": "MERGED",
+            "createdAt": "2024-02-20T17:51:02Z",
+            "mergedAt": "2024-02-21T10:11:15Z",
+            "author": {
+              "login": "mkatsanto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/test_integration_workflow/expected_output.files"
+                },
+                {
+                  "path": "tests/test_integration_workflow/expected_output.md5"
+                },
+                {
+                  "path": "tests/test_integration_workflow/expected_output_temp_flag.files"
+                },
+                {
+                  "path": "tests/test_integration_workflow/expected_output_temp_flag.md5"
+                },
+                {
+                  "path": "tests/test_integration_workflow/test.local.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow/test.slurm.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow/test.temp.flag.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow_multiple_lanes/expected_output.md5"
+                },
+                {
+                  "path": "tests/test_integration_workflow_multiple_lanes/test.local.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow_multiple_lanes/test.slurm.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow_with_conda/expected_output.files"
+                },
+                {
+                  "path": "tests/test_integration_workflow_with_conda/expected_output.md5"
+                },
+                {
+                  "path": "tests/test_integration_workflow_with_conda/test.local.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow_with_conda/test.slurm.sh"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/paired_end.snakefile.smk"
+                },
+                {
+                  "path": "workflow/rules/single_end.snakefile.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 171
+                }
+              ]
+            }
+          },
+          {
+            "number": 170,
+            "title": "docs: update ZARP-cli installation instructions",
+            "state": "MERGED",
+            "createdAt": "2024-02-13T11:14:44Z",
+            "mergedAt": "2024-02-13T14:50:20Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "install/environment.cli.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 169,
+            "title": "feat(htsinfer): support Conda execution",
+            "state": "MERGED",
+            "createdAt": "2024-02-11T11:38:55Z",
+            "mergedAt": "2024-02-11T12:00:05Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": "pigz_latest.sif"
+                },
+                {
+                  "path": "tests/test_htsinfer_with_conda/expected_output.md5"
+                },
+                {
+                  "path": "tests/test_htsinfer_with_conda/test.local.sh"
+                },
+                {
+                  "path": "tests/test_htsinfer_with_singularity/expected_output.md5"
+                },
+                {
+                  "path": "tests/test_htsinfer_with_singularity/test.local.sh"
+                },
+                {
+                  "path": "tests/test_sra_download_with_singularity/test.local.sh"
+                },
+                {
+                  "path": "tests/test_sra_download_with_singularity/test.slurm.sh"
+                },
+                {
+                  "path": "workflow/envs/htsinfer.yaml"
+                },
+                {
+                  "path": "workflow/rules/htsinfer.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 168,
+            "title": "fix(sra): improve layout extraction from NCBI db",
+            "state": "MERGED",
+            "createdAt": "2024-02-05T17:19:39Z",
+            "mergedAt": "2024-02-05T17:35:36Z",
+            "author": {
+              "login": "mkatsanto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "pigz_latest.sif"
+                },
+                {
+                  "path": "workflow/rules/sra_download.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 166
+                }
+              ]
+            }
+          },
+          {
+            "number": 167,
+            "title": "fix(sra): make layout extraction more resilient",
+            "state": "MERGED",
+            "createdAt": "2024-02-04T21:56:42Z",
+            "mergedAt": "2024-02-04T22:34:50Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/sra_download.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 166
+                }
+              ]
+            }
+          },
+          {
+            "number": 164,
+            "title": "chore: deprecation warnings for get_sample()",
+            "state": "MERGED",
+            "createdAt": "2024-02-04T03:50:28Z",
+            "mergedAt": "2024-02-04T04:18:59Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 158
+                }
+              ]
+            }
+          },
+          {
+            "number": 163,
+            "title": "ci: upgrade used Actions",
+            "state": "MERGED",
+            "createdAt": "2024-02-04T03:10:31Z",
+            "mergedAt": "2024-02-04T03:24:47Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/deploy.yml"
+                },
+                {
+                  "path": ".github/workflows/main.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 162
+                }
+              ]
+            }
+          },
+          {
+            "number": 161,
+            "title": "fix: too little RAM allocated for BED sorting",
+            "state": "MERGED",
+            "createdAt": "2024-02-04T02:45:31Z",
+            "mergedAt": "2024-02-04T03:01:25Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 160
+                }
+              ]
+            }
+          },
+          {
+            "number": 157,
+            "title": "fix: major rewrite of SRA download workflow",
+            "state": "MERGED",
+            "createdAt": "2024-02-02T23:24:32Z",
+            "mergedAt": "2024-02-03T19:25:48Z",
+            "author": {
+              "login": "mkatsanto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "install/environment.yml"
+                },
+                {
+                  "path": "pipeline_documentation.md"
+                },
+                {
+                  "path": "tests/test_htsinfer_workflow/test.local.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow/test.local.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow/test.slurm.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow/test.temp.flag.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow_multiple_lanes/test.local.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow_multiple_lanes/test.slurm.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow_with_conda/test.local.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow_with_conda/test.slurm.sh"
+                },
+                {
+                  "path": "tests/test_sra_download_with_conda/expected_output.files"
+                },
+                {
+                  "path": "tests/test_sra_download_with_conda/expected_output.md5"
+                },
+                {
+                  "path": "tests/test_sra_download_with_conda/test.local.sh"
+                },
+                {
+                  "path": "tests/test_sra_download_with_conda/test.slurm.sh"
+                },
+                {
+                  "path": "tests/test_sra_download_with_singularity/expected_output.files"
+                },
+                {
+                  "path": "tests/test_sra_download_with_singularity/expected_output.md5"
+                },
+                {
+                  "path": "tests/test_sra_download_with_singularity/test.local.sh"
+                },
+                {
+                  "path": "tests/test_sra_download_with_singularity/test.slurm.sh"
+                },
+                {
+                  "path": "workflow/envs/entrez-direct.yaml"
+                },
+                {
+                  "path": "workflow/envs/pigz.yaml"
+                },
+                {
+                  "path": "workflow/rules/sra_download.smk"
+                },
+                {
+                  "path": "workflow/rules/sra_paired_end.smk"
+                },
+                {
+                  "path": "workflow/rules/sra_single_end.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 132
+                },
+                {
+                  "number": 156
+                }
+              ]
+            }
+          },
+          {
+            "number": 155,
+            "title": "build: upgrade tool versions",
+            "state": "MERGED",
+            "createdAt": "2024-02-01T13:47:06Z",
+            "mergedAt": "2024-02-03T17:50:32Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/test_format/test_snakefmt.sh"
+                },
+                {
+                  "path": "tests/test_format/test_snakemake_lint.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow/expected_output.md5"
+                },
+                {
+                  "path": "tests/test_integration_workflow/expected_output_temp_flag.md5"
+                },
+                {
+                  "path": "tests/test_integration_workflow_multiple_lanes/expected_output.md5"
+                },
+                {
+                  "path": "tests/test_integration_workflow_with_conda/expected_output.md5"
+                },
+                {
+                  "path": "tests/test_sra_download_with_conda/test.local.sh"
+                },
+                {
+                  "path": "tests/test_sra_download_with_conda/test.slurm.sh"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/STAR.yaml"
+                },
+                {
+                  "path": "workflow/envs/bedtools.yaml"
+                },
+                {
+                  "path": "workflow/envs/fastqc.yaml"
+                },
+                {
+                  "path": "workflow/envs/gffread.yaml"
+                },
+                {
+                  "path": "workflow/envs/htsinfer.yaml"
+                },
+                {
+                  "path": "workflow/envs/kallisto.yaml"
+                },
+                {
+                  "path": "workflow/envs/pigz.yaml"
+                },
+                {
+                  "path": "workflow/envs/salmon.yaml"
+                },
+                {
+                  "path": "workflow/envs/samtools.yaml"
+                },
+                {
+                  "path": "workflow/envs/sra-tools.yaml"
+                },
+                {
+                  "path": "workflow/envs/ucsc-bedgraphtobigwig.yaml"
+                },
+                {
+                  "path": "workflow/envs/zgtf.yaml"
+                },
+                {
+                  "path": "workflow/rules/paired_end.snakefile.smk"
+                },
+                {
+                  "path": "workflow/rules/single_end.snakefile.smk"
+                },
+                {
+                  "path": "workflow/rules/sra_download.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 154
+                }
+              ]
+            }
+          },
+          {
+            "number": 153,
+            "title": "fix: Cutadapt compression level problem",
+            "state": "MERGED",
+            "createdAt": "2024-02-01T04:01:39Z",
+            "mergedAt": "2024-02-01T15:59:50Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/test_htsinfer_workflow/expected_output.md5"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/cutadapt.yaml"
+                },
+                {
+                  "path": "workflow/rules/paired_end.snakefile.smk"
+                },
+                {
+                  "path": "workflow/rules/single_end.snakefile.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 152
+                }
+              ]
+            }
+          },
+          {
+            "number": 151,
+            "title": "fix: pin Python version",
+            "state": "MERGED",
+            "createdAt": "2023-12-04T10:18:11Z",
+            "mergedAt": "2023-12-04T11:00:26Z",
+            "author": {
+              "login": "balajtimate"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "install/environment.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 150
+                }
+              ]
+            }
+          },
+          {
+            "number": 149,
+            "title": "fix(ci): fix failing jobs, add htsinfer job",
+            "state": "MERGED",
+            "createdAt": "2023-09-06T11:18:29Z",
+            "mergedAt": "2023-09-06T16:15:24Z",
+            "author": {
+              "login": "ninsch3000"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": "tests/test_create_dag_image/test.sh"
+                },
+                {
+                  "path": "tests/test_create_rule_graph/test.sh"
+                },
+                {
+                  "path": "tests/test_htsinfer_workflow/expected_output.md5"
+                },
+                {
+                  "path": "tests/test_htsinfer_workflow/test.local.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow/test.local.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow/test.slurm.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow/test.temp.flag.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow_multiple_lanes/test.local.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow_multiple_lanes/test.slurm.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow_with_conda/test.local.sh"
+                },
+                {
+                  "path": "tests/test_integration_workflow_with_conda/test.slurm.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 147
+                },
+                {
+                  "number": 148
+                }
+              ]
+            }
+          },
+          {
+            "number": 146,
+            "title": "feat(htsinfer): interface log and cluster log dirs via config.yaml",
+            "state": "MERGED",
+            "createdAt": "2023-09-06T09:38:46Z",
+            "mergedAt": "2023-09-06T10:13:50Z",
+            "author": {
+              "login": "ninsch3000"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/test_htsinfer_workflow/test.local.sh"
+                },
+                {
+                  "path": "workflow/rules/htsinfer.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 145
+                }
+              ]
+            }
+          },
+          {
+            "number": 144,
+            "title": "fix: change htsinfer_to_tsv.py exit code",
+            "state": "MERGED",
+            "createdAt": "2023-05-24T12:03:40Z",
+            "mergedAt": "2023-05-24T14:51:40Z",
+            "author": {
+              "login": "balajtimate"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/scripts/htsinfer_to_tsv.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 143,
+            "title": "fix: update htsinfer_to_tsv.py with zarp-cli compatibilities",
+            "state": "MERGED",
+            "createdAt": "2023-05-23T14:30:06Z",
+            "mergedAt": "2023-05-23T15:03:35Z",
+            "author": {
+              "login": "balajtimate"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/scripts/htsinfer_to_tsv.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 142,
+            "title": "ci: fix ZARP Conda environment persistence ",
+            "state": "MERGED",
+            "createdAt": "2023-05-23T06:46:25Z",
+            "mergedAt": "2023-05-23T12:37:38Z",
+            "author": {
+              "login": "dominikburri"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": "workflow/rules/htsinfer.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 141,
+            "title": "doc: DOI badges for biorxiv, zenodo, workflowhub",
+            "state": "MERGED",
+            "createdAt": "2023-05-17T14:18:58Z",
+            "mergedAt": "2023-05-17T15:05:26Z",
+            "author": {
+              "login": "ninsch3000"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 112
+                }
+              ]
+            }
+          },
+          {
+            "number": 140,
+            "title": "perf: pin htsinfer docker image to latest",
+            "state": "MERGED",
+            "createdAt": "2023-05-17T08:58:12Z",
+            "mergedAt": "2023-05-17T13:52:27Z",
+            "author": {
+              "login": "balajtimate"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/htsinfer.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 139,
+            "title": "feat: mount tmp dir in Singularity container",
+            "state": "MERGED",
+            "createdAt": "2023-05-12T15:24:13Z",
+            "mergedAt": "2024-02-02T13:57:10Z",
+            "author": {
+              "login": "ninsch3000"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "profiles/local-singularity/config.yaml"
+                },
+                {
+                  "path": "profiles/slurm-singularity/config.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 138,
+            "title": "fix: allow global error flag variable to be changed inside function",
+            "state": "MERGED",
+            "createdAt": "2023-05-12T14:31:21Z",
+            "mergedAt": "2023-05-17T10:07:38Z",
+            "author": {
+              "login": "ninsch3000"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/htsinfer.smk"
+                },
+                {
+                  "path": "workflow/scripts/htsinfer_to_tsv.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 136
+                }
+              ]
+            }
+          },
+          {
+            "number": 137,
+            "title": "fix: do not use nan in htsinfer call",
+            "state": "MERGED",
+            "createdAt": "2023-05-12T12:09:33Z",
+            "mergedAt": "2023-05-12T13:18:53Z",
+            "author": {
+              "login": "ninsch3000"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/htsinfer.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 135
+                }
+              ]
+            }
+          },
+          {
+            "number": 134,
+            "title": "docs: fix field names in sample table example",
+            "state": "MERGED",
+            "createdAt": "2023-05-05T10:31:35Z",
+            "mergedAt": "2024-02-03T18:17:01Z",
+            "author": {
+              "login": "magmir71"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "pipeline_documentation.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 131,
+            "title": "fix: DRR/ERR IDs not supported in SRA workflow",
+            "state": "MERGED",
+            "createdAt": "2023-04-13T02:56:28Z",
+            "mergedAt": "2023-04-24T22:48:17Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/input_files/sra_samples.tsv"
+                },
+                {
+                  "path": "tests/test_sra_download_with_conda/expected_output.md5"
+                },
+                {
+                  "path": "workflow/rules/sra_download.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 130
+                }
+              ]
+            }
+          },
+          {
+            "number": 128,
+            "title": "fix: release notes categories",
+            "state": "MERGED",
+            "createdAt": "2023-03-29T11:35:56Z",
+            "mergedAt": "2023-03-30T09:02:41Z",
+            "author": {
+              "login": "mkatsanto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/labeler.yml"
+                },
+                {
+                  "path": ".github/release.yml"
+                },
+                {
+                  "path": ".github/workflows/main.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 127
+                }
+              ]
+            }
+          },
+          {
+            "number": 126,
+            "title": "feat: New release 333",
+            "state": "CLOSED",
+            "createdAt": "2023-03-29T10:34:56Z",
+            "mergedAt": null,
+            "author": {
+              "login": "fgypas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/release.yml"
+                },
+                {
+                  "path": "test_file"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 125,
+            "title": "patch: addition of zarp-cli basic testing",
+            "state": "MERGED",
+            "createdAt": "2023-03-28T10:30:03Z",
+            "mergedAt": "2023-03-29T08:51:53Z",
+            "author": {
+              "login": "mkatsanto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 124,
+            "title": "fix: update environment dependency versions",
+            "state": "MERGED",
+            "createdAt": "2023-03-24T14:27:55Z",
+            "mergedAt": "2023-03-24T15:00:28Z",
+            "author": {
+              "login": "balajtimate"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": "install/environment.dev.yml"
+                },
+                {
+                  "path": "install/environment.root.yml"
+                },
+                {
+                  "path": "install/environment.yml"
+                },
+                {
+                  "path": "workflow/rules/sra_download.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 108
+                }
+              ]
+            }
+          },
+          {
+            "number": 122,
+            "title": "feat:  zarp-cli installation as an option",
+            "state": "MERGED",
+            "createdAt": "2023-03-23T04:41:17Z",
+            "mergedAt": "2023-03-25T19:14:21Z",
+            "author": {
+              "login": "mkatsanto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "install/environment.cli.yml"
+                },
+                {
+                  "path": "install/environment.dev.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 114
+                }
+              ]
+            }
+          },
+          {
+            "number": 121,
+            "title": "fix: gtf sorting",
+            "state": "MERGED",
+            "createdAt": "2023-03-14T14:09:14Z",
+            "mergedAt": "2023-03-20T13:19:56Z",
+            "author": {
+              "login": "mkatsanto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "pipeline_documentation.md"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/paired_end.snakefile.smk"
+                },
+                {
+                  "path": "workflow/rules/single_end.snakefile.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 113
+                }
+              ]
+            }
+          },
+          {
+            "number": 111,
+            "title": "fix: issue with snakefmt, issue with mamba version in CI",
+            "state": "MERGED",
+            "createdAt": "2023-03-10T08:31:24Z",
+            "mergedAt": "2023-03-10T09:11:04Z",
+            "author": {
+              "login": "fgypas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 109
+                }
+              ]
+            }
+          },
+          {
+            "number": 107,
+            "title": "Document use of QOS ",
+            "state": "MERGED",
+            "createdAt": "2023-03-09T15:44:47Z",
+            "mergedAt": "2023-03-10T14:07:55Z",
+            "author": {
+              "login": "dominikburri"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 81
+                }
+              ]
+            }
+          },
+          {
+            "number": 105,
+            "title": "feat: addition of snakemake compatible format and linting (#104)",
+            "state": "MERGED",
+            "createdAt": "2022-12-12T18:50:15Z",
+            "mergedAt": "2022-12-12T19:24:08Z",
+            "author": {
+              "login": "mkatsanto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "install/environment.dev.yml"
+                },
+                {
+                  "path": "tests/test_format/test_snakefmt.sh"
+                },
+                {
+                  "path": "tests/test_format/test_snakemake_lint.sh"
+                },
+                {
+                  "path": "tests/test_htsinfer_workflow/test.local.sh"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/htsinfer.smk"
+                },
+                {
+                  "path": "workflow/rules/paired_end.snakefile.smk"
+                },
+                {
+                  "path": "workflow/rules/single_end.snakefile.smk"
+                },
+                {
+                  "path": "workflow/rules/sra_download.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 104,
+            "title": "feat: addition of snakemake compatible format and linting",
+            "state": "MERGED",
+            "createdAt": "2022-12-02T00:52:19Z",
+            "mergedAt": "2022-12-04T21:01:27Z",
+            "author": {
+              "login": "mkatsanto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "install/environment.dev.yml"
+                },
+                {
+                  "path": "tests/test_format/test_snakefmt.sh"
+                },
+                {
+                  "path": "tests/test_format/test_snakemake_lint.sh"
+                },
+                {
+                  "path": "tests/test_htsinfer_workflow/test.local.sh"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/htsinfer.smk"
+                },
+                {
+                  "path": "workflow/rules/paired_end.snakefile.smk"
+                },
+                {
+                  "path": "workflow/rules/single_end.snakefile.smk"
+                },
+                {
+                  "path": "workflow/rules/sra_download.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 12
+                }
+              ]
+            }
+          },
+          {
+            "number": 103,
+            "title": "build: update main branch",
+            "state": "CLOSED",
+            "createdAt": "2022-11-29T17:27:09Z",
+            "mergedAt": null,
+            "author": {
+              "login": "mkatsanto"
+            },
+            "files": {
+              "nodes": []
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 102,
+            "title": "fix: add snakemake-workflow-catalog.yml",
+            "state": "MERGED",
+            "createdAt": "2022-11-28T19:21:04Z",
+            "mergedAt": "2022-11-28T20:19:19Z",
+            "author": {
+              "login": "mkatsanto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".snakemake-workflow-catalog.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 84
+                }
+              ]
+            }
+          },
+          {
+            "number": 101,
+            "title": "fix: sort_bed_4_big memory increase as starting point",
+            "state": "MERGED",
+            "createdAt": "2022-11-28T18:37:21Z",
+            "mergedAt": "2022-11-28T19:01:37Z",
+            "author": {
+              "login": "mkatsanto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 100,
+            "title": "feat: memory issues, cutadapt speedup",
+            "state": "MERGED",
+            "createdAt": "2022-11-22T17:49:31Z",
+            "mergedAt": "2022-11-28T13:40:30Z",
+            "author": {
+              "login": "mkatsanto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/paired_end.snakefile.smk"
+                },
+                {
+                  "path": "workflow/rules/single_end.snakefile.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 99
+                }
+              ]
+            }
+          },
+          {
+            "number": 97,
+            "title": "feat: addition of running instructions to config ",
+            "state": "MERGED",
+            "createdAt": "2022-11-14T15:32:14Z",
+            "mergedAt": "2022-11-28T08:41:33Z",
+            "author": {
+              "login": "mkatsanto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "config/README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 83
+                }
+              ]
+            }
+          },
+          {
+            "number": 96,
+            "title": "Update sra_samples.tsv",
+            "state": "MERGED",
+            "createdAt": "2022-11-11T14:48:55Z",
+            "mergedAt": "2022-11-14T15:03:00Z",
+            "author": {
+              "login": "nielsschlusser"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/input_files/sra_samples.tsv"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 75
+                }
+              ]
+            }
+          },
+          {
+            "number": 95,
+            "title": "fix: ignore files generated in config/",
+            "state": "MERGED",
+            "createdAt": "2022-11-11T13:43:07Z",
+            "mergedAt": "2022-11-14T15:03:40Z",
+            "author": {
+              "login": "noepozzan"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 46
+                }
+              ]
+            }
+          },
+          {
+            "number": 94,
+            "title": "fix: fixed profile path in README for running own samples",
+            "state": "MERGED",
+            "createdAt": "2022-11-11T13:38:23Z",
+            "mergedAt": "2022-11-14T15:04:01Z",
+            "author": {
+              "login": "noepozzan"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 91
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

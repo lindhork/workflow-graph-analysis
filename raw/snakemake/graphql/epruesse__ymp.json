@@ -1,0 +1,2316 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 173,
+            "title": "verify stage name length ",
+            "state": "OPEN",
+            "createdAt": "2021-10-18T15:26:13Z",
+            "closedAt": null,
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 172,
+            "title": "allow copying out built-in stages",
+            "state": "OPEN",
+            "createdAt": "2021-09-17T23:08:13Z",
+            "closedAt": null,
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 171,
+            "title": "Environments install with outdated spec file if env desc changed",
+            "state": "OPEN",
+            "createdAt": "2021-09-14T00:42:01Z",
+            "closedAt": null,
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 170,
+            "title": "Don't override dict/list with none in config",
+            "state": "OPEN",
+            "createdAt": "2021-09-14T00:21:25Z",
+            "closedAt": null,
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 169,
+            "title": "Show path in missing path resource exception",
+            "state": "CLOSED",
+            "createdAt": "2021-09-14T00:20:57Z",
+            "closedAt": "2024-07-16T21:11:34Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 156,
+            "title": "Replace \"ALL\" with project name",
+            "state": "OPEN",
+            "createdAt": "2021-04-26T02:34:44Z",
+            "closedAt": null,
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 152,
+            "title": "Allow capping and scaling resources",
+            "state": "CLOSED",
+            "createdAt": "2021-03-28T16:55:32Z",
+            "closedAt": "2021-04-03T21:15:34Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 150,
+            "title": "Get rid of all_targets.stamp",
+            "state": "OPEN",
+            "createdAt": "2021-03-25T03:05:14Z",
+            "closedAt": null,
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 145,
+            "title": "Ensure that id columns do not contain bad characters",
+            "state": "OPEN",
+            "createdAt": "2021-01-21T00:27:03Z",
+            "closedAt": null,
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 131,
+            "title": "Dependabot couldn't authenticate with https://pypi.python.org/simple/",
+            "state": "CLOSED",
+            "createdAt": "2020-09-24T12:22:48Z",
+            "closedAt": "2020-09-25T13:05:32Z",
+            "author": {
+              "login": "dependabot-preview"
+            }
+          },
+          {
+            "number": 127,
+            "title": "Allow pipeline override of rule parameters",
+            "state": "CLOSED",
+            "createdAt": "2020-09-10T21:12:41Z",
+            "closedAt": "2021-04-19T03:05:33Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 126,
+            "title": "Allow parametrizing pipelines",
+            "state": "CLOSED",
+            "createdAt": "2020-09-10T21:11:56Z",
+            "closedAt": "2021-04-19T03:06:20Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 125,
+            "title": "Allow hiding internal pipeline outputs",
+            "state": "CLOSED",
+            "createdAt": "2020-09-10T21:11:19Z",
+            "closedAt": "2020-10-16T17:45:41Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 124,
+            "title": "Allow overriding built-in stages",
+            "state": "OPEN",
+            "createdAt": "2020-09-10T21:08:27Z",
+            "closedAt": null,
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 123,
+            "title": "Allow capping number of threads",
+            "state": "CLOSED",
+            "createdAt": "2020-09-09T23:59:57Z",
+            "closedAt": "2021-04-19T03:05:54Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 115,
+            "title": "Fix pushing to pypi",
+            "state": "CLOSED",
+            "createdAt": "2020-08-10T01:06:20Z",
+            "closedAt": "2020-09-11T00:11:29Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 114,
+            "title": "Fix generating canned environments",
+            "state": "CLOSED",
+            "createdAt": "2020-08-10T01:06:02Z",
+            "closedAt": "2021-05-09T20:57:58Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 113,
+            "title": "Validate config",
+            "state": "CLOSED",
+            "createdAt": "2020-08-09T05:23:38Z",
+            "closedAt": "2020-08-10T01:09:05Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 89,
+            "title": "Error downloading qt5.9.7 when trying to install/make certain stages",
+            "state": "CLOSED",
+            "createdAt": "2019-06-20T22:49:47Z",
+            "closedAt": "2020-07-18T17:45:53Z",
+            "author": {
+              "login": "hhollandmoritz"
+            }
+          },
+          {
+            "number": 88,
+            "title": "The name of the ymp.yml file",
+            "state": "CLOSED",
+            "createdAt": "2019-06-20T19:46:22Z",
+            "closedAt": "2019-06-21T01:10:02Z",
+            "author": {
+              "login": "hhollandmoritz"
+            }
+          },
+          {
+            "number": 81,
+            "title": "Add scattering stages (MAG generation)",
+            "state": "CLOSED",
+            "createdAt": "2019-05-14T20:21:10Z",
+            "closedAt": "2021-03-25T02:37:49Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 80,
+            "title": "Docs failing due to conda out of memory",
+            "state": "CLOSED",
+            "createdAt": "2019-05-13T22:42:17Z",
+            "closedAt": "2020-08-10T01:06:40Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 79,
+            "title": "Persistent add_rule bug prevents running any commands",
+            "state": "CLOSED",
+            "createdAt": "2019-04-29T22:03:14Z",
+            "closedAt": "2019-05-11T02:45:00Z",
+            "author": {
+              "login": "hhollandmoritz"
+            }
+          },
+          {
+            "number": 73,
+            "title": "Build stage in normalized location",
+            "state": "OPEN",
+            "createdAt": "2018-06-27T23:15:04Z",
+            "closedAt": null,
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 72,
+            "title": "Implement implicit stages",
+            "state": "CLOSED",
+            "createdAt": "2018-06-27T23:10:59Z",
+            "closedAt": "2020-09-11T00:12:20Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 71,
+            "title": "Auto-Generate Stage Tests",
+            "state": "CLOSED",
+            "createdAt": "2018-06-27T23:05:22Z",
+            "closedAt": "2018-07-29T04:10:26Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 70,
+            "title": "v0.2.0 - second bioconda",
+            "state": "CLOSED",
+            "createdAt": "2018-06-05T19:30:16Z",
+            "closedAt": "2018-06-05T19:30:21Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 69,
+            "title": "Have ymp init detect available memory",
+            "state": "CLOSED",
+            "createdAt": "2018-06-05T00:23:44Z",
+            "closedAt": "2018-06-05T19:28:39Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 68,
+            "title": "Handle abort during env download",
+            "state": "CLOSED",
+            "createdAt": "2018-06-05T00:22:32Z",
+            "closedAt": "2018-06-06T17:29:58Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 65,
+            "title": "Add Kallisto / Salmon",
+            "state": "OPEN",
+            "createdAt": "2018-06-04T17:21:11Z",
+            "closedAt": null,
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 64,
+            "title": "Handle alternative URLs for environments",
+            "state": "CLOSED",
+            "createdAt": "2018-06-04T17:20:23Z",
+            "closedAt": "2018-06-06T17:30:38Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 62,
+            "title": "Stagify indexing?",
+            "state": "CLOSED",
+            "createdAt": "2018-05-01T17:31:06Z",
+            "closedAt": "2018-06-27T19:54:03Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 61,
+            "title": "implement retry for downloader",
+            "state": "CLOSED",
+            "createdAt": "2018-05-01T15:17:00Z",
+            "closedAt": "2018-09-16T00:51:17Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 55,
+            "title": "support singularity",
+            "state": "OPEN",
+            "createdAt": "2018-04-11T21:14:26Z",
+            "closedAt": null,
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 52,
+            "title": "Add SRA downloading test case",
+            "state": "OPEN",
+            "createdAt": "2018-04-06T21:40:03Z",
+            "closedAt": null,
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 51,
+            "title": "Verify installed snakemake version at startup",
+            "state": "CLOSED",
+            "createdAt": "2018-04-06T17:37:23Z",
+            "closedAt": "2020-07-18T18:14:20Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 50,
+            "title": "Make YmpConfigError message more helpful",
+            "state": "CLOSED",
+            "createdAt": "2018-04-06T17:12:31Z",
+            "closedAt": "2018-04-11T21:14:49Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 42,
+            "title": "ymp env activate bug",
+            "state": "CLOSED",
+            "createdAt": "2018-03-23T22:17:16Z",
+            "closedAt": "2018-03-27T19:37:30Z",
+            "author": {
+              "login": "shafferm"
+            }
+          },
+          {
+            "number": 41,
+            "title": "Add STAR",
+            "state": "CLOSED",
+            "createdAt": "2018-03-07T20:05:49Z",
+            "closedAt": "2018-05-17T00:18:58Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 40,
+            "title": "Add RSEM",
+            "state": "CLOSED",
+            "createdAt": "2018-03-07T20:05:42Z",
+            "closedAt": "2018-05-17T00:19:06Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 38,
+            "title": "Complete Tab Expansion",
+            "state": "CLOSED",
+            "createdAt": "2018-02-26T03:58:36Z",
+            "closedAt": "2019-05-11T02:47:07Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 37,
+            "title": "docs: highlight `{: :}` with pygments",
+            "state": "OPEN",
+            "createdAt": "2018-02-26T03:48:28Z",
+            "closedAt": null,
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 36,
+            "title": "show localrules flag in docs",
+            "state": "OPEN",
+            "createdAt": "2018-02-26T03:45:49Z",
+            "closedAt": null,
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 35,
+            "title": "show ruleorder in docs",
+            "state": "OPEN",
+            "createdAt": "2018-02-26T03:45:37Z",
+            "closedAt": null,
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 34,
+            "title": "nohup option removes coloring",
+            "state": "CLOSED",
+            "createdAt": "2018-02-26T03:45:23Z",
+            "closedAt": "2020-07-18T18:13:17Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 33,
+            "title": "Add StageGroups and IOTypes",
+            "state": "CLOSED",
+            "createdAt": "2018-02-22T16:56:23Z",
+            "closedAt": "2018-06-27T19:54:48Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 32,
+            "title": "Validate and document config YAML",
+            "state": "OPEN",
+            "createdAt": "2018-02-21T18:19:58Z",
+            "closedAt": null,
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 31,
+            "title": "Unit-tests conda env too big",
+            "state": "CLOSED",
+            "createdAt": "2018-02-12T18:06:40Z",
+            "closedAt": "2018-04-27T18:33:49Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 30,
+            "title": "Move data files to root",
+            "state": "CLOSED",
+            "createdAt": "2018-02-11T20:16:02Z",
+            "closedAt": "2018-04-24T22:41:56Z",
+            "author": {
+              "login": "epruesse"
+            }
+          },
+          {
+            "number": 29,
+            "title": "Implement \"csv\" string expansion",
+            "state": "OPEN",
+            "createdAt": "2018-02-05T17:46:45Z",
+            "closedAt": null,
+            "author": {
+              "login": "epruesse"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 191,
+            "title": "Bump sphinx from 4.0.0 to 6.1.3",
+            "state": "OPEN",
+            "createdAt": "2023-01-11T12:03:59Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 190,
+            "title": "Bump sphinx from 4.0.0 to 6.1.2",
+            "state": "CLOSED",
+            "createdAt": "2023-01-09T12:04:09Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 189,
+            "title": "Bump sphinx from 4.0.0 to 6.1.1",
+            "state": "CLOSED",
+            "createdAt": "2023-01-06T12:02:42Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 188,
+            "title": "Bump sphinx from 4.0.0 to 6.0.0",
+            "state": "CLOSED",
+            "createdAt": "2022-12-30T12:03:57Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 187,
+            "title": "Bump sphinx from 4.0.0 to 5.3.0",
+            "state": "CLOSED",
+            "createdAt": "2022-10-17T12:19:52Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 186,
+            "title": "Bump sphinx from 4.0.0 to 5.2.3",
+            "state": "CLOSED",
+            "createdAt": "2022-10-03T12:16:00Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 185,
+            "title": "Bump sphinx from 4.0.0 to 5.2.2",
+            "state": "CLOSED",
+            "createdAt": "2022-09-28T12:15:30Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 184,
+            "title": "Bump sphinx from 4.0.0 to 5.2.1",
+            "state": "CLOSED",
+            "createdAt": "2022-09-26T12:13:44Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 183,
+            "title": "Bump sphinx from 4.0.0 to 5.1.1",
+            "state": "CLOSED",
+            "createdAt": "2022-07-27T12:13:15Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 182,
+            "title": "Bump sphinx from 4.0.0 to 5.1.0",
+            "state": "CLOSED",
+            "createdAt": "2022-07-25T12:15:53Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 181,
+            "title": "Bump sphinx from 4.0.0 to 5.0.2",
+            "state": "CLOSED",
+            "createdAt": "2022-06-17T12:15:03Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 180,
+            "title": "Bump sphinx from 4.0.0 to 5.0.1",
+            "state": "CLOSED",
+            "createdAt": "2022-06-03T12:14:03Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 179,
+            "title": "Bump sphinx from 4.0.0 to 5.0.0",
+            "state": "CLOSED",
+            "createdAt": "2022-05-30T12:10:54Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 178,
+            "title": "Bump sphinx from 4.0.0 to 4.5.0",
+            "state": "CLOSED",
+            "createdAt": "2022-03-28T12:14:39Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 177,
+            "title": "Bump sphinx from 4.0.0 to 4.4.0",
+            "state": "CLOSED",
+            "createdAt": "2022-01-17T12:11:41Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 176,
+            "title": "Bump sphinx from 4.0.0 to 4.3.2",
+            "state": "CLOSED",
+            "createdAt": "2021-12-20T12:22:08Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 175,
+            "title": "Bump sphinx from 4.0.0 to 4.3.1",
+            "state": "CLOSED",
+            "createdAt": "2021-11-29T12:15:46Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 174,
+            "title": "Bump sphinx from 4.0.0 to 4.3.0",
+            "state": "CLOSED",
+            "createdAt": "2021-11-11T12:11:40Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 168,
+            "title": "Bump sphinx from 4.0.0 to 4.2.0",
+            "state": "CLOSED",
+            "createdAt": "2021-09-13T12:17:05Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 167,
+            "title": "Bump sphinx from 4.0.0 to 4.1.2",
+            "state": "CLOSED",
+            "createdAt": "2021-07-27T12:08:42Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 166,
+            "title": "Bump sphinx from 4.0.0 to 4.1.1",
+            "state": "CLOSED",
+            "createdAt": "2021-07-15T12:10:33Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 165,
+            "title": "Bump sphinx from 4.0.0 to 4.1.0",
+            "state": "CLOSED",
+            "createdAt": "2021-07-12T12:09:42Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 164,
+            "title": "Bump sphinx from 4.0.0 to 4.0.3",
+            "state": "CLOSED",
+            "createdAt": "2021-07-06T12:10:11Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 163,
+            "title": "Bump sphinx from 4.0.0 to 4.0.2",
+            "state": "CLOSED",
+            "createdAt": "2021-05-21T12:08:09Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 162,
+            "title": "Development",
+            "state": "MERGED",
+            "createdAt": "2021-05-15T01:30:17Z",
+            "mergedAt": "2024-07-16T21:11:33Z",
+            "author": {
+              "login": "epruesse"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/tests.yml"
+                },
+                {
+                  "path": "doc/requirements.txt"
+                },
+                {
+                  "path": "environment.yaml"
+                },
+                {
+                  "path": "src/cache.py"
+                },
+                {
+                  "path": "src/ymp/__init__.py"
+                },
+                {
+                  "path": "src/ymp/__main__.py"
+                },
+                {
+                  "path": "src/ymp/cache.py"
+                },
+                {
+                  "path": "src/ymp/cli/__init__.py"
+                },
+                {
+                  "path": "src/ymp/cli/env.py"
+                },
+                {
+                  "path": "src/ymp/cli/make.py"
+                },
+                {
+                  "path": "src/ymp/cli/scan.py"
+                },
+                {
+                  "path": "src/ymp/cli/stage.py"
+                },
+                {
+                  "path": "src/ymp/cluster.py"
+                },
+                {
+                  "path": "src/ymp/common.py"
+                },
+                {
+                  "path": "src/ymp/config.py"
+                },
+                {
+                  "path": "src/ymp/download.py"
+                },
+                {
+                  "path": "src/ymp/env.py"
+                },
+                {
+                  "path": "src/ymp/etc/defaults.yml"
+                },
+                {
+                  "path": "src/ymp/exceptions.py"
+                },
+                {
+                  "path": "src/ymp/rules/00_download.rules"
+                },
+                {
+                  "path": "src/ymp/rules/00_import.rules"
+                },
+                {
+                  "path": "src/ymp/rules/bcftools.rules"
+                },
+                {
+                  "path": "src/ymp/rules/blast.rules"
+                },
+                {
+                  "path": "src/ymp/rules/bowtie2.rules"
+                },
+                {
+                  "path": "src/ymp/rules/fastp.rules"
+                },
+                {
+                  "path": "src/ymp/rules/fastqc.rules"
+                },
+                {
+                  "path": "src/ymp/rules/hisat2.rules"
+                },
+                {
+                  "path": "src/ymp/rules/htseq.rules"
+                },
+                {
+                  "path": "src/ymp/rules/multiqc.rules"
+                },
+                {
+                  "path": "src/ymp/rules/pilon.rules"
+                },
+                {
+                  "path": "src/ymp/rules/rsem.rules"
+                },
+                {
+                  "path": "src/ymp/rules/salmon.rules"
+                },
+                {
+                  "path": "src/ymp/rules/sambamba.rules"
+                },
+                {
+                  "path": "src/ymp/rules/samtools.rules"
+                },
+                {
+                  "path": "src/ymp/rules/sickle.rules"
+                },
+                {
+                  "path": "src/ymp/rules/star.rules"
+                },
+                {
+                  "path": "src/ymp/rules/subreads.rules"
+                },
+                {
+                  "path": "src/ymp/rules/trimmomatic.rules"
+                },
+                {
+                  "path": "src/ymp/rules/tximport.rules"
+                },
+                {
+                  "path": "src/ymp/rules/tximport_rsem.R"
+                },
+                {
+                  "path": "src/ymp/rules/tximport_salmon.R"
+                },
+                {
+                  "path": "src/ymp/snakemake.py"
+                },
+                {
+                  "path": "src/ymp/stage/base.py"
+                },
+                {
+                  "path": "src/ymp/stage/expander.py"
+                },
+                {
+                  "path": "src/ymp/stage/params.py"
+                },
+                {
+                  "path": "src/ymp/stage/pipeline.py"
+                },
+                {
+                  "path": "src/ymp/stage/project.py"
+                },
+                {
+                  "path": "src/ymp/stage/reference.py"
+                },
+                {
+                  "path": "src/ymp/stage/stack.py"
+                },
+                {
+                  "path": "src/ymp/stage/stage.py"
+                },
+                {
+                  "path": "src/ymp/util.py"
+                },
+                {
+                  "path": "src/ymp/yaml.py"
+                },
+                {
+                  "path": "tests/conftest.py"
+                },
+                {
+                  "path": "tests/data/snakemake_plain/rules/test.rules"
+                },
+                {
+                  "path": "tests/test_cache.py"
+                },
+                {
+                  "path": "tests/test_cli.py"
+                },
+                {
+                  "path": "tests/test_pipeline.py"
+                },
+                {
+                  "path": "tests/test_reference.py"
+                },
+                {
+                  "path": "tests/test_snakemake.py"
+                },
+                {
+                  "path": "tests/test_yaml.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 161,
+            "title": "Bump sphinx from 4.0.0 to 4.0.1",
+            "state": "CLOSED",
+            "createdAt": "2021-05-11T12:12:44Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 160,
+            "title": "Bump sphinx from 3.5.4 to 4.0.0",
+            "state": "MERGED",
+            "createdAt": "2021-05-10T12:23:12Z",
+            "mergedAt": "2021-05-10T16:13:45Z",
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 159,
+            "title": "Development",
+            "state": "MERGED",
+            "createdAt": "2021-05-09T20:57:13Z",
+            "mergedAt": "2021-05-10T16:12:26Z",
+            "author": {
+              "login": "epruesse"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "MANIFEST.in"
+                },
+                {
+                  "path": "src/ymp/cli/env.py"
+                },
+                {
+                  "path": "src/ymp/config.py"
+                },
+                {
+                  "path": "src/ymp/env.py"
+                },
+                {
+                  "path": "src/ymp/etc/defaults.yml"
+                },
+                {
+                  "path": "src/ymp/snakemake.py"
+                },
+                {
+                  "path": "tests/test_cli.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 158,
+            "title": "Bump sphinx from 3.3.1 to 3.5.4",
+            "state": "MERGED",
+            "createdAt": "2021-05-08T17:02:29Z",
+            "mergedAt": "2021-05-09T21:02:59Z",
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 157,
+            "title": "Upgrade to GitHub-native Dependabot",
+            "state": "MERGED",
+            "createdAt": "2021-04-29T19:28:49Z",
+            "mergedAt": "2021-05-08T17:01:42Z",
+            "author": {
+              "login": "dependabot-preview"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/dependabot.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 155,
+            "title": "Development",
+            "state": "MERGED",
+            "createdAt": "2021-04-25T15:50:51Z",
+            "mergedAt": "2021-05-08T17:02:34Z",
+            "author": {
+              "login": "epruesse"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/ymp/__init__.py"
+                },
+                {
+                  "path": "src/ymp/cli/show.py"
+                },
+                {
+                  "path": "src/ymp/rules/00_import.rules"
+                },
+                {
+                  "path": "src/ymp/rules/bbmap.rules"
+                },
+                {
+                  "path": "src/ymp/rules/bedtools.rules"
+                },
+                {
+                  "path": "src/ymp/rules/blast.rules"
+                },
+                {
+                  "path": "src/ymp/rules/bmtagger.rules"
+                },
+                {
+                  "path": "src/ymp/rules/bowtie2.rules"
+                },
+                {
+                  "path": "src/ymp/rules/cdhit.rules"
+                },
+                {
+                  "path": "src/ymp/rules/centrifuge.rules"
+                },
+                {
+                  "path": "src/ymp/rules/diamond.rules"
+                },
+                {
+                  "path": "src/ymp/rules/fastqc.rules"
+                },
+                {
+                  "path": "src/ymp/rules/hisat2.rules"
+                },
+                {
+                  "path": "src/ymp/rules/humann2.rules"
+                },
+                {
+                  "path": "src/ymp/rules/megahit.rules"
+                },
+                {
+                  "path": "src/ymp/rules/metabat2.rules"
+                },
+                {
+                  "path": "src/ymp/rules/metaphlan2.rules"
+                },
+                {
+                  "path": "src/ymp/rules/multiqc.rules"
+                },
+                {
+                  "path": "src/ymp/rules/pilon.rules"
+                },
+                {
+                  "path": "src/ymp/rules/prodigal.rules"
+                },
+                {
+                  "path": "src/ymp/rules/quast.rules"
+                },
+                {
+                  "path": "src/ymp/rules/sambamba.rules"
+                },
+                {
+                  "path": "src/ymp/rules/samtools.rules"
+                },
+                {
+                  "path": "src/ymp/rules/spades.rules"
+                },
+                {
+                  "path": "src/ymp/rules/trimmomatic.rules"
+                },
+                {
+                  "path": "src/ymp/rules/trinity.rules"
+                },
+                {
+                  "path": "src/ymp/rules/unicycler.rules"
+                },
+                {
+                  "path": "src/ymp/snakemake.py"
+                },
+                {
+                  "path": "src/ymp/stage/base.py"
+                },
+                {
+                  "path": "src/ymp/stage/expander.py"
+                },
+                {
+                  "path": "src/ymp/stage/params.py"
+                },
+                {
+                  "path": "src/ymp/stage/pipeline.py"
+                },
+                {
+                  "path": "src/ymp/stage/project.py"
+                },
+                {
+                  "path": "src/ymp/stage/reference.py"
+                },
+                {
+                  "path": "src/ymp/stage/stage.py"
+                },
+                {
+                  "path": "src/ymp/yaml.py"
+                },
+                {
+                  "path": "tests/test_pipeline.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 154,
+            "title": "Bump sphinx from 3.3.1 to 3.5.4",
+            "state": "CLOSED",
+            "createdAt": "2021-04-12T13:12:37Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot-preview"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 153,
+            "title": "Development",
+            "state": "MERGED",
+            "createdAt": "2021-04-04T00:52:34Z",
+            "mergedAt": "2021-04-22T23:19:45Z",
+            "author": {
+              "login": "epruesse"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/tests.yml"
+                },
+                {
+                  "path": "src/ymp/__init__.py"
+                },
+                {
+                  "path": "src/ymp/cli/shared_options.py"
+                },
+                {
+                  "path": "src/ymp/common.py"
+                },
+                {
+                  "path": "src/ymp/config.py"
+                },
+                {
+                  "path": "src/ymp/env.py"
+                },
+                {
+                  "path": "src/ymp/etc/defaults.yml"
+                },
+                {
+                  "path": "src/ymp/exceptions.py"
+                },
+                {
+                  "path": "src/ymp/rules/00_download.rules"
+                },
+                {
+                  "path": "src/ymp/rules/Snakefile"
+                },
+                {
+                  "path": "src/ymp/snakemake.py"
+                },
+                {
+                  "path": "src/ymp/stage/__init__.py"
+                },
+                {
+                  "path": "src/ymp/stage/params.py"
+                },
+                {
+                  "path": "src/ymp/stage/pipeline.py"
+                },
+                {
+                  "path": "src/ymp/stage/project.py"
+                },
+                {
+                  "path": "src/ymp/stage/reference.py"
+                },
+                {
+                  "path": "src/ymp/stage/stack.py"
+                },
+                {
+                  "path": "src/ymp/stage/stage.py"
+                },
+                {
+                  "path": "src/ymp/yaml.py"
+                },
+                {
+                  "path": "tests/conftest.py"
+                },
+                {
+                  "path": "tests/data/recursive-include/defaults.yml"
+                },
+                {
+                  "path": "tests/data/recursive-include/local_after_module.yaml"
+                },
+                {
+                  "path": "tests/data/recursive-include/local_after_module.yml"
+                },
+                {
+                  "path": "tests/data/recursive-include/local_before_module.yaml"
+                },
+                {
+                  "path": "tests/data/recursive-include/module/pipeline.yaml"
+                },
+                {
+                  "path": "tests/data/recursive-include/module/pipeline2.yaml"
+                },
+                {
+                  "path": "tests/data/recursive-include/ymp.yml"
+                },
+                {
+                  "path": "tests/test_pipeline.py"
+                },
+                {
+                  "path": "tests/test_project.py"
+                },
+                {
+                  "path": "tests/test_stages.py"
+                },
+                {
+                  "path": "tests/test_yaml.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 151,
+            "title": "Add resource limiting config; allow snakemake 6.1.0",
+            "state": "MERGED",
+            "createdAt": "2021-03-28T16:53:19Z",
+            "mergedAt": "2021-04-03T20:14:49Z",
+            "author": {
+              "login": "epruesse"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/tests.yml"
+                },
+                {
+                  "path": "codecov.yml"
+                },
+                {
+                  "path": "environment.yaml"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "src/ymp/__init__.py"
+                },
+                {
+                  "path": "src/ymp/cli/make.py"
+                },
+                {
+                  "path": "src/ymp/common.py"
+                },
+                {
+                  "path": "src/ymp/config.py"
+                },
+                {
+                  "path": "src/ymp/demo/ymp.yml"
+                },
+                {
+                  "path": "src/ymp/etc/defaults.yml"
+                },
+                {
+                  "path": "src/ymp/exceptions.py"
+                },
+                {
+                  "path": "src/ymp/helpers.py"
+                },
+                {
+                  "path": "src/ymp/rules.attic/align.rules"
+                },
+                {
+                  "path": "src/ymp/rules.attic/anvio.rules"
+                },
+                {
+                  "path": "src/ymp/rules.attic/convert.rules"
+                },
+                {
+                  "path": "src/ymp/rules.attic/fa2fq.yml"
+                },
+                {
+                  "path": "src/ymp/rules.attic/otu.rules"
+                },
+                {
+                  "path": "src/ymp/rules.attic/otu_picking.rules"
+                },
+                {
+                  "path": "src/ymp/rules.attic/phony.rules"
+                },
+                {
+                  "path": "src/ymp/rules.attic/raxml.rules"
+                },
+                {
+                  "path": "src/ymp/rules.attic/scnic.rules"
+                },
+                {
+                  "path": "src/ymp/rules/00_download.rules"
+                },
+                {
+                  "path": "src/ymp/rules/00_import.rules"
+                },
+                {
+                  "path": "src/ymp/rules/Snakefile"
+                },
+                {
+                  "path": "src/ymp/rules/bbmap.rules"
+                },
+                {
+                  "path": "src/ymp/rules/biom_format.yml"
+                },
+                {
+                  "path": "src/ymp/rules/blast.rules"
+                },
+                {
+                  "path": "src/ymp/rules/bmtagger.rules"
+                },
+                {
+                  "path": "src/ymp/rules/bowtie2.rules"
+                },
+                {
+                  "path": "src/ymp/rules/cdhit.rules"
+                },
+                {
+                  "path": "src/ymp/rules/centrifuge.rules"
+                },
+                {
+                  "path": "src/ymp/rules/diamond.rules"
+                },
+                {
+                  "path": "src/ymp/rules/fastq-multx.rules"
+                },
+                {
+                  "path": "src/ymp/rules/fastqc.rules"
+                },
+                {
+                  "path": "src/ymp/rules/hisat2.rules"
+                },
+                {
+                  "path": "src/ymp/rules/humann2.rules"
+                },
+                {
+                  "path": "src/ymp/rules/megahit.rules"
+                },
+                {
+                  "path": "src/ymp/rules/metaphlan2.rules"
+                },
+                {
+                  "path": "src/ymp/rules/pigz.yml"
+                },
+                {
+                  "path": "src/ymp/rules/pilon.rules"
+                },
+                {
+                  "path": "src/ymp/rules/qiime.yml.deactivated"
+                },
+                {
+                  "path": "src/ymp/rules/rsem.rules"
+                },
+                {
+                  "path": "src/ymp/rules/sambamba.rules"
+                },
+                {
+                  "path": "src/ymp/rules/samtools.rules"
+                },
+                {
+                  "path": "src/ymp/rules/spades.rules"
+                },
+                {
+                  "path": "src/ymp/rules/star.rules"
+                },
+                {
+                  "path": "src/ymp/rules/stringtie.rules"
+                },
+                {
+                  "path": "src/ymp/rules/trinity.rules"
+                },
+                {
+                  "path": "src/ymp/snakemake.py"
+                },
+                {
+                  "path": "src/ymp/stage/expander.py"
+                },
+                {
+                  "path": "src/ymp/stage/project.py"
+                },
+                {
+                  "path": "src/ymp/yaml.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 149,
+            "title": "Bump sphinx from 3.3.1 to 3.5.3",
+            "state": "CLOSED",
+            "createdAt": "2021-03-22T12:13:50Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot-preview"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 148,
+            "title": "Bump sphinx from 3.3.1 to 3.5.2",
+            "state": "CLOSED",
+            "createdAt": "2021-03-08T12:14:55Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot-preview"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 147,
+            "title": "Bump sphinx from 3.3.1 to 3.5.1",
+            "state": "CLOSED",
+            "createdAt": "2021-02-17T12:13:00Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot-preview"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 146,
+            "title": "Bump sphinx from 3.3.1 to 3.5.0",
+            "state": "CLOSED",
+            "createdAt": "2021-02-15T12:13:16Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot-preview"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 144,
+            "title": "Development",
+            "state": "MERGED",
+            "createdAt": "2021-01-11T04:48:30Z",
+            "mergedAt": "2021-03-26T00:56:17Z",
+            "author": {
+              "login": "epruesse"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/conf.py"
+                },
+                {
+                  "path": "environment.yaml"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "setup.cfg"
+                },
+                {
+                  "path": "setup.py"
+                },
+                {
+                  "path": "src/ymp/__init__.py"
+                },
+                {
+                  "path": "src/ymp/cli/make.py"
+                },
+                {
+                  "path": "src/ymp/cli/shared_options.py"
+                },
+                {
+                  "path": "src/ymp/common.py"
+                },
+                {
+                  "path": "src/ymp/conda_envs/latest"
+                },
+                {
+                  "path": "src/ymp/config.py"
+                },
+                {
+                  "path": "src/ymp/download.py"
+                },
+                {
+                  "path": "src/ymp/env.py"
+                },
+                {
+                  "path": "src/ymp/rules/00_download.rules"
+                },
+                {
+                  "path": "src/ymp/rules/Snakefile"
+                },
+                {
+                  "path": "src/ymp/rules/bbmap.rules"
+                },
+                {
+                  "path": "src/ymp/rules/bedtools.rules"
+                },
+                {
+                  "path": "src/ymp/rules/blast.rules"
+                },
+                {
+                  "path": "src/ymp/rules/fastq-multx.rules"
+                },
+                {
+                  "path": "src/ymp/rules/pilon.rules"
+                },
+                {
+                  "path": "src/ymp/rules/sambamba.rules"
+                },
+                {
+                  "path": "src/ymp/rules/samtools.rules"
+                },
+                {
+                  "path": "src/ymp/rules/spades.rules"
+                },
+                {
+                  "path": "src/ymp/rules/stringtie.rules"
+                },
+                {
+                  "path": "src/ymp/rules/unicycler.rules"
+                },
+                {
+                  "path": "src/ymp/snakemake.py"
+                },
+                {
+                  "path": "src/ymp/sphinxext.py"
+                },
+                {
+                  "path": "src/ymp/stage/__init__.py"
+                },
+                {
+                  "path": "src/ymp/stage/base.py"
+                },
+                {
+                  "path": "src/ymp/stage/expander.py"
+                },
+                {
+                  "path": "src/ymp/stage/groupby.py"
+                },
+                {
+                  "path": "src/ymp/stage/pipeline.py"
+                },
+                {
+                  "path": "src/ymp/stage/project.py"
+                },
+                {
+                  "path": "src/ymp/stage/reference.py"
+                },
+                {
+                  "path": "src/ymp/stage/stack.py"
+                },
+                {
+                  "path": "src/ymp/stage/stage.py"
+                },
+                {
+                  "path": "src/ymp/string.py"
+                },
+                {
+                  "path": "src/ymp/util.py"
+                },
+                {
+                  "path": "src/ymp/yaml.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 143,
+            "title": "Bump sphinx from 3.3.1 to 3.4.3",
+            "state": "CLOSED",
+            "createdAt": "2021-01-08T12:14:08Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot-preview"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 142,
+            "title": "Development",
+            "state": "MERGED",
+            "createdAt": "2021-01-07T04:39:14Z",
+            "mergedAt": "2021-01-07T04:40:04Z",
+            "author": {
+              "login": "epruesse"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/ymp/rules/metabat2.rules"
+                },
+                {
+                  "path": "src/ymp/rules/spades.rules"
+                },
+                {
+                  "path": "src/ymp/stage/project.py"
+                },
+                {
+                  "path": "src/ymp/stage/stage.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 141,
+            "title": "Bump sphinx from 3.3.1 to 3.4.2",
+            "state": "CLOSED",
+            "createdAt": "2021-01-05T12:12:52Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot-preview"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 140,
+            "title": "Development",
+            "state": "MERGED",
+            "createdAt": "2021-01-02T21:08:52Z",
+            "mergedAt": "2021-01-05T02:27:23Z",
+            "author": {
+              "login": "epruesse"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "environment.yaml"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "setup.cfg"
+                },
+                {
+                  "path": "src/ymp/__init__.py"
+                },
+                {
+                  "path": "src/ymp/blast.py"
+                },
+                {
+                  "path": "src/ymp/cli/make.py"
+                },
+                {
+                  "path": "src/ymp/common.py"
+                },
+                {
+                  "path": "src/ymp/conda_envs/latest"
+                },
+                {
+                  "path": "src/ymp/rules/bbmap.rules"
+                },
+                {
+                  "path": "src/ymp/rules/blast.rules"
+                },
+                {
+                  "path": "src/ymp/rules/samtools.rules"
+                },
+                {
+                  "path": "src/ymp/rules/spades.rules"
+                },
+                {
+                  "path": "src/ymp/sphinxext.py"
+                },
+                {
+                  "path": "src/ymp/stage/base.py"
+                },
+                {
+                  "path": "src/ymp/stage/pipeline.py"
+                },
+                {
+                  "path": "src/ymp/stage/project.py"
+                },
+                {
+                  "path": "src/ymp/stage/reference.py"
+                },
+                {
+                  "path": "src/ymp/stage/stack.py"
+                },
+                {
+                  "path": "src/ymp/stage/stage.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 139,
+            "title": "Initial scatter working",
+            "state": "MERGED",
+            "createdAt": "2020-12-30T21:57:22Z",
+            "mergedAt": "2020-12-30T21:57:35Z",
+            "author": {
+              "login": "epruesse"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/ymp/rules/metabat2.rules"
+                },
+                {
+                  "path": "src/ymp/stage/base.py"
+                },
+                {
+                  "path": "src/ymp/stage/project.py"
+                },
+                {
+                  "path": "src/ymp/stage/stack.py"
+                },
+                {
+                  "path": "src/ymp/stage/stage.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 138,
+            "title": "Bump sphinx from 3.3.1 to 3.4.1",
+            "state": "CLOSED",
+            "createdAt": "2020-12-25T12:12:16Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot-preview"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 137,
+            "title": "Bump sphinx from 3.3.1 to 3.4.0",
+            "state": "CLOSED",
+            "createdAt": "2020-12-21T12:13:36Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot-preview"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 136,
+            "title": "Implement scatter",
+            "state": "MERGED",
+            "createdAt": "2020-12-21T04:00:13Z",
+            "mergedAt": "2020-12-29T16:46:38Z",
+            "author": {
+              "login": "epruesse"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/tests.yml"
+                },
+                {
+                  "path": "src/ymp/cli/make.py"
+                },
+                {
+                  "path": "src/ymp/common.py"
+                },
+                {
+                  "path": "src/ymp/rules/00_download.rules"
+                },
+                {
+                  "path": "src/ymp/rules/bbmap.rules"
+                },
+                {
+                  "path": "src/ymp/rules/metabat2.rules"
+                },
+                {
+                  "path": "src/ymp/snakemake.py"
+                },
+                {
+                  "path": "src/ymp/stage/base.py"
+                },
+                {
+                  "path": "src/ymp/stage/expander.py"
+                },
+                {
+                  "path": "src/ymp/stage/groupby.py"
+                },
+                {
+                  "path": "src/ymp/stage/pipeline.py"
+                },
+                {
+                  "path": "src/ymp/stage/project.py"
+                },
+                {
+                  "path": "src/ymp/stage/reference.py"
+                },
+                {
+                  "path": "src/ymp/stage/stack.py"
+                },
+                {
+                  "path": "src/ymp/stage/stage.py"
+                },
+                {
+                  "path": "tests/test_cli.py"
+                },
+                {
+                  "path": "tests/test_project.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 135,
+            "title": "Bump sphinx from 3.2.1 to 3.3.1",
+            "state": "MERGED",
+            "createdAt": "2020-11-13T12:12:38Z",
+            "mergedAt": "2020-12-13T19:53:07Z",
+            "author": {
+              "login": "dependabot-preview"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 134,
+            "title": "Bump sphinx from 3.2.1 to 3.3.0",
+            "state": "CLOSED",
+            "createdAt": "2020-11-03T12:12:36Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot-preview"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "doc/requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 133,
+            "title": "Add hiding to pipelines",
+            "state": "MERGED",
+            "createdAt": "2020-10-16T02:55:48Z",
+            "mergedAt": "2020-10-16T17:45:41Z",
+            "author": {
+              "login": "epruesse"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/ymp/demo/ymp.yml"
+                },
+                {
+                  "path": "src/ymp/stage/base.py"
+                },
+                {
+                  "path": "src/ymp/stage/pipeline.py"
+                },
+                {
+                  "path": "src/ymp/stage/stage.py"
+                },
+                {
+                  "path": "src/ymp/util.py"
+                },
+                {
+                  "path": "tests/test_pipeline.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 125
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

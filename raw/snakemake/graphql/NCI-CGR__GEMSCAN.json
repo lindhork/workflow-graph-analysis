@@ -1,0 +1,821 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 54,
+            "title": "Version GEMSCAN",
+            "state": "OPEN",
+            "createdAt": "2026-02-06T14:44:34Z",
+            "closedAt": null,
+            "author": {
+              "login": "rajwanir"
+            }
+          },
+          {
+            "number": 53,
+            "title": "[GEMSCAN] Built in clean ups after the build",
+            "state": "CLOSED",
+            "createdAt": "2025-12-08T18:45:11Z",
+            "closedAt": "2026-03-05T20:59:17Z",
+            "author": {
+              "login": "rajwanir"
+            }
+          },
+          {
+            "number": 52,
+            "title": "Runtime for GEMSCAN.",
+            "state": "OPEN",
+            "createdAt": "2025-11-26T19:43:43Z",
+            "closedAt": null,
+            "author": {
+              "login": "rajwanir"
+            }
+          },
+          {
+            "number": 51,
+            "title": "Duplicated Indels in ensemble vcf for WGS",
+            "state": "OPEN",
+            "createdAt": "2025-10-23T14:34:18Z",
+            "closedAt": null,
+            "author": {
+              "login": "jkpark623"
+            }
+          },
+          {
+            "number": 50,
+            "title": "Both compressed and uncompressed vcf stored for `AutoGVP` output for `build_CHR_CMMUSA_combined_WES_34198`",
+            "state": "CLOSED",
+            "createdAt": "2025-08-29T15:26:51Z",
+            "closedAt": "2025-09-05T19:06:42Z",
+            "author": {
+              "login": "rajwanir"
+            }
+          },
+          {
+            "number": 49,
+            "title": "Both vcf and compressed BCF stored for build `build_NEW_WES_SR0618-006+CGRSA-22_CGRSA-1328`?",
+            "state": "CLOSED",
+            "createdAt": "2025-08-29T14:42:54Z",
+            "closedAt": "2025-09-05T19:10:30Z",
+            "author": {
+              "login": "rajwanir"
+            }
+          },
+          {
+            "number": 48,
+            "title": "GLnexus gVCFs are huge so persistently keeping them would be a storage issue.",
+            "state": "CLOSED",
+            "createdAt": "2025-07-29T20:41:30Z",
+            "closedAt": "2025-09-05T19:16:07Z",
+            "author": {
+              "login": "rajwanir"
+            }
+          },
+          {
+            "number": 47,
+            "title": "Pipeline Upgrade",
+            "state": "CLOSED",
+            "createdAt": "2025-07-15T19:16:44Z",
+            "closedAt": "2025-07-15T19:17:33Z",
+            "author": {
+              "login": "wenluo711"
+            }
+          },
+          {
+            "number": 46,
+            "title": "strelka2_AD field is improperly formatted for multi-allelic variants",
+            "state": "OPEN",
+            "createdAt": "2025-07-09T20:06:00Z",
+            "closedAt": null,
+            "author": {
+              "login": "LauraEgolf"
+            }
+          },
+          {
+            "number": 44,
+            "title": "temp directory is having issues",
+            "state": "OPEN",
+            "createdAt": "2024-05-01T19:04:15Z",
+            "closedAt": null,
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 42,
+            "title": "some docker images are out of date",
+            "state": "CLOSED",
+            "createdAt": "2024-05-01T14:14:38Z",
+            "closedAt": "2024-05-01T17:04:31Z",
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 40,
+            "title": "implement Harmonize mode only",
+            "state": "OPEN",
+            "createdAt": "2023-03-22T21:59:08Z",
+            "closedAt": null,
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 39,
+            "title": "The workflow skips many steps if the bed file contains only 1 line",
+            "state": "OPEN",
+            "createdAt": "2023-01-27T18:32:34Z",
+            "closedAt": null,
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 36,
+            "title": "move Docker registry from quay.io to ghcr.io",
+            "state": "OPEN",
+            "createdAt": "2022-04-06T16:39:28Z",
+            "closedAt": null,
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 35,
+            "title": "prepend_labels for strelka calls runs longer than 2 hours",
+            "state": "OPEN",
+            "createdAt": "2022-01-18T19:28:18Z",
+            "closedAt": null,
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 34,
+            "title": "fixing the symlinks in strelka2_AddSampleName rule ",
+            "state": "OPEN",
+            "createdAt": "2021-12-14T19:56:06Z",
+            "closedAt": null,
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 33,
+            "title": "GLnexus merge memory requirements calculation",
+            "state": "OPEN",
+            "createdAt": "2021-12-01T16:40:02Z",
+            "closedAt": null,
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 31,
+            "title": "when sampleID in samples.txt is an integer the workflow fails ",
+            "state": "CLOSED",
+            "createdAt": "2021-11-08T21:27:13Z",
+            "closedAt": "2021-11-09T01:51:13Z",
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 30,
+            "title": "handle alternate contigs and scaffolds in bed file",
+            "state": "OPEN",
+            "createdAt": "2021-10-15T17:05:20Z",
+            "closedAt": null,
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 29,
+            "title": "write a script to generate the samples.txt from a directory with BAM/cram files",
+            "state": "OPEN",
+            "createdAt": "2021-08-03T17:06:27Z",
+            "closedAt": null,
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 28,
+            "title": "set default path to glnexus_strelka2_config",
+            "state": "OPEN",
+            "createdAt": "2021-07-15T17:30:46Z",
+            "closedAt": null,
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 26,
+            "title": "HaplotypeCaller bySample option error at HC_create_each_sample_manifest",
+            "state": "CLOSED",
+            "createdAt": "2021-07-13T14:52:27Z",
+            "closedAt": "2021-07-13T18:59:19Z",
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 25,
+            "title": "add support for remote files on object store as input on Biowulf",
+            "state": "OPEN",
+            "createdAt": "2021-07-02T14:36:43Z",
+            "closedAt": null,
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 23,
+            "title": "add  time limit and multithreading to norm_left_align_split rules",
+            "state": "CLOSED",
+            "createdAt": "2021-06-24T14:57:48Z",
+            "closedAt": "2021-07-01T00:59:06Z",
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 22,
+            "title": "create conda wrapper for GLnexus merge ",
+            "state": "OPEN",
+            "createdAt": "2021-06-22T19:52:43Z",
+            "closedAt": null,
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 20,
+            "title": "increase default wall time for slurm config",
+            "state": "CLOSED",
+            "createdAt": "2021-06-22T18:01:40Z",
+            "closedAt": "2021-07-01T01:00:27Z",
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 18,
+            "title": "make bed file (and gzipped bed file) optional",
+            "state": "OPEN",
+            "createdAt": "2021-06-21T20:58:23Z",
+            "closedAt": null,
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 17,
+            "title": "make GLnexus memory limit slightly less than glnexus_memGB",
+            "state": "CLOSED",
+            "createdAt": "2021-06-21T17:52:07Z",
+            "closedAt": "2021-06-22T19:43:25Z",
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 16,
+            "title": "bedtools validation only check  to make sure the bedfile is sorted",
+            "state": "CLOSED",
+            "createdAt": "2021-06-18T19:50:23Z",
+            "closedAt": "2021-06-22T15:15:45Z",
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 15,
+            "title": "Have option to specify number of cpus by rule in CCAD",
+            "state": "OPEN",
+            "createdAt": "2021-06-16T21:15:29Z",
+            "closedAt": null,
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 14,
+            "title": "Non-clickable link in user document",
+            "state": "CLOSED",
+            "createdAt": "2021-06-16T15:07:56Z",
+            "closedAt": "2021-06-16T17:46:07Z",
+            "author": {
+              "login": "Binz-Z"
+            }
+          },
+          {
+            "number": 12,
+            "title": "runtime not properly mapped in ccad profile",
+            "state": "CLOSED",
+            "createdAt": "2021-06-15T18:18:20Z",
+            "closedAt": "2021-06-15T23:22:28Z",
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 11,
+            "title": "bebops docker image causes \"kernel too old\" error in CCAD",
+            "state": "CLOSED",
+            "createdAt": "2021-06-14T01:24:27Z",
+            "closedAt": "2021-06-14T01:59:42Z",
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 10,
+            "title": "add checks to make sure the samples.txt file is tab delimited",
+            "state": "OPEN",
+            "createdAt": "2021-06-13T22:47:53Z",
+            "closedAt": null,
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 6,
+            "title": "check for valid bed file before running the pipeline",
+            "state": "CLOSED",
+            "createdAt": "2021-06-03T22:19:02Z",
+            "closedAt": "2021-06-11T03:04:13Z",
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 5,
+            "title": "Which vcf/gvcf files to keep? ",
+            "state": "CLOSED",
+            "createdAt": "2021-05-24T15:00:54Z",
+            "closedAt": "2021-06-11T03:02:55Z",
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 4,
+            "title": "Test using glnexus merge to merge HaploytypeCaller gvcf files (instead of combineGVCFs)",
+            "state": "CLOSED",
+            "createdAt": "2021-05-21T02:30:44Z",
+            "closedAt": "2021-06-11T03:04:56Z",
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 3,
+            "title": "allow user to use cram files as input",
+            "state": "CLOSED",
+            "createdAt": "2021-05-20T18:17:37Z",
+            "closedAt": "2021-06-10T02:05:33Z",
+            "author": {
+              "login": "shukwong"
+            }
+          },
+          {
+            "number": 2,
+            "title": "Reference access permission and GRCh38",
+            "state": "CLOSED",
+            "createdAt": "2021-05-19T18:12:35Z",
+            "closedAt": "2021-06-11T14:14:01Z",
+            "author": {
+              "login": "Binz-Z"
+            }
+          },
+          {
+            "number": 1,
+            "title": "need to make sure outputDir in config has \"/\" at the end ",
+            "state": "CLOSED",
+            "createdAt": "2021-05-12T03:16:58Z",
+            "closedAt": "2021-06-10T01:59:53Z",
+            "author": {
+              "login": "shukwong"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 45,
+            "title": "changed the temp directory for bcftools sort",
+            "state": "MERGED",
+            "createdAt": "2024-05-01T20:34:35Z",
+            "mergedAt": "2024-05-01T20:34:47Z",
+            "author": {
+              "login": "shukwong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/Snakefile_DeepVariant"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_HaplotypeCaller"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_Strelka2"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 43,
+            "title": "updated docker images (issue 42)",
+            "state": "MERGED",
+            "createdAt": "2024-05-01T17:00:16Z",
+            "mergedAt": "2024-05-01T17:03:14Z",
+            "author": {
+              "login": "shukwong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/Snakefile_DeepVariant"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_HaplotypeCaller"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_Strelka2"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_harmonize"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_preprocess"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 41,
+            "title": "Merge pull request #1 from NCI-CGR/main",
+            "state": "CLOSED",
+            "createdAt": "2024-05-01T13:54:44Z",
+            "mergedAt": null,
+            "author": {
+              "login": "shukwong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 38,
+            "title": "Biowulf",
+            "state": "MERGED",
+            "createdAt": "2022-07-06T02:57:39Z",
+            "mergedAt": "2023-09-14T17:06:38Z",
+            "author": {
+              "login": "wresch"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/profiles/biowulf/config.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 37,
+            "title": "Update README.md",
+            "state": "CLOSED",
+            "createdAt": "2022-06-22T20:16:31Z",
+            "mergedAt": null,
+            "author": {
+              "login": "komaljain3"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 32,
+            "title": "force samples.txt columns to be str",
+            "state": "MERGED",
+            "createdAt": "2021-11-09T01:50:57Z",
+            "mergedAt": "2021-11-09T01:51:13Z",
+            "author": {
+              "login": "shukwong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 31
+                }
+              ]
+            }
+          },
+          {
+            "number": 27,
+            "title": "fixed rule logic when user wants to run by sample",
+            "state": "MERGED",
+            "createdAt": "2021-07-13T18:58:53Z",
+            "mergedAt": "2021-07-13T18:59:19Z",
+            "author": {
+              "login": "shukwong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/regions/chr3_regions.bed.gz"
+                },
+                {
+                  "path": "tests/regions/chr3_regions.bed.gz.tbi"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_HaplotypeCaller"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 26
+                }
+              ]
+            }
+          },
+          {
+            "number": 24,
+            "title": "Issue23",
+            "state": "MERGED",
+            "createdAt": "2021-07-01T00:57:17Z",
+            "mergedAt": "2021-07-01T00:58:07Z",
+            "author": {
+              "login": "shukwong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_harmonize"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 21,
+            "title": "use 90% of the memory allocated to GLnexus to avoid jobs being killed",
+            "state": "MERGED",
+            "createdAt": "2021-06-22T19:41:46Z",
+            "mergedAt": "2021-06-22T19:41:58Z",
+            "author": {
+              "login": "shukwong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/Snakefile_DeepVariant"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_HaplotypeCaller"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_Strelka2"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 19,
+            "title": "use bedtools merge to check to see if bed file is sorted",
+            "state": "MERGED",
+            "createdAt": "2021-06-22T15:15:21Z",
+            "mergedAt": "2021-06-22T15:15:45Z",
+            "author": {
+              "login": "shukwong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/Snakefile_preprocess"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 16
+                }
+              ]
+            }
+          },
+          {
+            "number": 13,
+            "title": "convert runtime in minutes to be number of seconds for ccad profile",
+            "state": "MERGED",
+            "createdAt": "2021-06-15T23:22:19Z",
+            "mergedAt": "2021-06-15T23:22:28Z",
+            "author": {
+              "login": "shukwong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/profiles/ccad/sge-submit.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 12
+                }
+              ]
+            }
+          },
+          {
+            "number": 9,
+            "title": "Issue6",
+            "state": "MERGED",
+            "createdAt": "2021-06-11T00:50:50Z",
+            "mergedAt": "2021-06-11T00:50:57Z",
+            "author": {
+              "login": "shukwong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/Snakefile_preprocess"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 8,
+            "title": "Issue6: added bed file validation rule",
+            "state": "MERGED",
+            "createdAt": "2021-06-10T16:12:14Z",
+            "mergedAt": "2021-06-10T16:12:27Z",
+            "author": {
+              "login": "shukwong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/envs/bedops.yaml"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_preprocess"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 7,
+            "title": "Use glnexus for all 3 callers (Issue4)",
+            "state": "MERGED",
+            "createdAt": "2021-06-10T03:37:05Z",
+            "mergedAt": "2021-06-10T03:37:32Z",
+            "author": {
+              "login": "shukwong"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "config/README"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/config_template.yaml"
+                },
+                {
+                  "path": "config/samples.txt"
+                },
+                {
+                  "path": "docs/Input_and_Output.rst"
+                },
+                {
+                  "path": "docs/Running_on_NIH_Biowulf.rst"
+                },
+                {
+                  "path": "docs/tutorials/Biowulf_tutorial/Tutorial.rst"
+                },
+                {
+                  "path": "docs/tutorials/CCAD_tutorial/Tutorial.rst"
+                },
+                {
+                  "path": "docs/tutorials/basics.rst"
+                },
+                {
+                  "path": "docs/tutorials/data.rst"
+                },
+                {
+                  "path": "docs/tutorials/setup.rst"
+                },
+                {
+                  "path": "tests/data/NA12878_chr3_100000_1000000.bam"
+                },
+                {
+                  "path": "tests/data/NA12878_chr3_100000_1000000.bam.bai"
+                },
+                {
+                  "path": "tests/expected_outputs/ensemble/all_callers_merged_genotypes.vcf.gz"
+                },
+                {
+                  "path": "tests/expected_outputs/ensemble/all_callers_merged_genotypes.vcf.gz.tbi"
+                },
+                {
+                  "path": "tests/regions/chr3_regions.bed"
+                },
+                {
+                  "path": "tests/regions/chr3_regions.bed.gz"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/profiles/biowulf/cluster_config.yaml"
+                },
+                {
+                  "path": "workflow/profiles/biowulf/settings.json"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_DeepVariant"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_HaplotypeCaller"
+                },
+                {
+                  "path": "workflow/rules/Snakefile_Strelka2"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

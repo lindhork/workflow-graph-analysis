@@ -1,0 +1,4211 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 104,
+            "title": "Offline run produces no results due to clobber handling",
+            "state": "OPEN",
+            "createdAt": "2025-11-16T15:21:25Z",
+            "closedAt": null,
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 103,
+            "title": "Add server error and 429 handling in fetch scripts",
+            "state": "OPEN",
+            "createdAt": "2025-10-30T15:34:04Z",
+            "closedAt": null,
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 102,
+            "title": "Add array size parameter",
+            "state": "OPEN",
+            "createdAt": "2025-10-29T15:43:21Z",
+            "closedAt": null,
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 101,
+            "title": "Fix mean score formula",
+            "state": "OPEN",
+            "createdAt": "2025-10-24T07:35:35Z",
+            "closedAt": null,
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 97,
+            "title": "Fix Conda tests",
+            "state": "OPEN",
+            "createdAt": "2025-07-03T09:53:19Z",
+            "closedAt": null,
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 90,
+            "title": "Add argparse to custom scripts",
+            "state": "OPEN",
+            "createdAt": "2025-04-05T13:38:38Z",
+            "closedAt": null,
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 87,
+            "title": "Add module and subworkflow nf-tests",
+            "state": "OPEN",
+            "createdAt": "2025-03-27T09:36:24Z",
+            "closedAt": null,
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 86,
+            "title": "Migrate local modules to subdirectory structure",
+            "state": "OPEN",
+            "createdAt": "2025-03-27T09:35:35Z",
+            "closedAt": null,
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 82,
+            "title": "Optimize resources",
+            "state": "CLOSED",
+            "createdAt": "2025-03-25T10:54:02Z",
+            "closedAt": "2025-03-27T13:49:37Z",
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 81,
+            "title": "JSON schema: Reportho",
+            "state": "CLOSED",
+            "createdAt": "2025-03-25T00:29:50Z",
+            "closedAt": "2025-03-25T14:53:51Z",
+            "author": {
+              "login": "jen-reeve"
+            }
+          },
+          {
+            "number": 80,
+            "title": "Update metro map",
+            "state": "CLOSED",
+            "createdAt": "2025-03-21T09:20:00Z",
+            "closedAt": "2025-03-26T15:59:40Z",
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 79,
+            "title": "Update MultiQC report",
+            "state": "CLOSED",
+            "createdAt": "2025-03-21T09:19:02Z",
+            "closedAt": "2025-03-27T15:08:10Z",
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 78,
+            "title": "Update report module",
+            "state": "CLOSED",
+            "createdAt": "2025-03-21T09:15:39Z",
+            "closedAt": "2025-03-25T13:28:28Z",
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 77,
+            "title": "Review documentation for 1.1.0",
+            "state": "CLOSED",
+            "createdAt": "2025-03-21T09:12:34Z",
+            "closedAt": "2025-03-26T15:59:59Z",
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 71,
+            "title": "Create MSA daisy-chain",
+            "state": "OPEN",
+            "createdAt": "2024-11-21T14:35:34Z",
+            "closedAt": null,
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 70,
+            "title": "Remove MSA and phylogeny",
+            "state": "CLOSED",
+            "createdAt": "2024-11-21T14:34:49Z",
+            "closedAt": "2024-12-23T12:28:21Z",
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 66,
+            "title": "Add FAMSA aligner",
+            "state": "CLOSED",
+            "createdAt": "2024-10-18T13:03:27Z",
+            "closedAt": "2024-11-21T14:33:09Z",
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 65,
+            "title": "Add sequence-based identifier merging",
+            "state": "CLOSED",
+            "createdAt": "2024-10-18T13:03:00Z",
+            "closedAt": "2024-12-23T12:29:10Z",
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 64,
+            "title": "Running pipeline with Uniprot ids which don't return orthologs",
+            "state": "CLOSED",
+            "createdAt": "2024-10-18T12:55:12Z",
+            "closedAt": "2025-03-25T13:29:47Z",
+            "author": {
+              "login": "charlie-pugh"
+            }
+          },
+          {
+            "number": 48,
+            "title": "Add README to reportho test-datasets",
+            "state": "CLOSED",
+            "createdAt": "2024-06-03T14:15:23Z",
+            "closedAt": "2024-06-04T10:05:14Z",
+            "author": {
+              "login": "JoseEspinosa"
+            }
+          },
+          {
+            "number": 40,
+            "title": "Update output directory structure",
+            "state": "CLOSED",
+            "createdAt": "2024-05-28T07:04:13Z",
+            "closedAt": "2024-05-29T09:39:40Z",
+            "author": {
+              "login": "luisas"
+            }
+          },
+          {
+            "number": 39,
+            "title": "Improve documentation ",
+            "state": "CLOSED",
+            "createdAt": "2024-05-28T06:51:37Z",
+            "closedAt": "2024-05-29T09:39:39Z",
+            "author": {
+              "login": "luisas"
+            }
+          },
+          {
+            "number": 38,
+            "title": "When using the offline flag, still online databases are used",
+            "state": "CLOSED",
+            "createdAt": "2024-05-28T06:49:36Z",
+            "closedAt": "2024-05-29T09:39:39Z",
+            "author": {
+              "login": "luisas"
+            }
+          },
+          {
+            "number": 37,
+            "title": "Test for checking combination of parameters",
+            "state": "CLOSED",
+            "createdAt": "2024-05-28T06:46:07Z",
+            "closedAt": "2024-05-28T13:07:43Z",
+            "author": {
+              "login": "luisas"
+            }
+          },
+          {
+            "number": 36,
+            "title": "Reduce input in report.nf",
+            "state": "CLOSED",
+            "createdAt": "2024-05-28T06:43:58Z",
+            "closedAt": "2024-05-29T09:39:39Z",
+            "author": {
+              "login": "luisas"
+            }
+          },
+          {
+            "number": 35,
+            "title": "Remove code duplication in get_orthologs.nf",
+            "state": "CLOSED",
+            "createdAt": "2024-05-28T06:40:45Z",
+            "closedAt": "2024-05-29T09:39:38Z",
+            "author": {
+              "login": "luisas"
+            }
+          },
+          {
+            "number": 28,
+            "title": "Full offline run",
+            "state": "CLOSED",
+            "createdAt": "2024-05-14T10:56:26Z",
+            "closedAt": "2024-05-23T10:05:14Z",
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 23,
+            "title": "Add multiqc report",
+            "state": "CLOSED",
+            "createdAt": "2024-05-09T10:10:02Z",
+            "closedAt": "2024-05-10T20:19:53Z",
+            "author": {
+              "login": "JoseEspinosa"
+            }
+          },
+          {
+            "number": 22,
+            "title": "Add request error handling in Python scripts",
+            "state": "CLOSED",
+            "createdAt": "2024-05-09T09:20:20Z",
+            "closedAt": "2024-05-14T09:24:03Z",
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 17,
+            "title": "Add validation for fasta file input",
+            "state": "CLOSED",
+            "createdAt": "2024-05-08T09:16:21Z",
+            "closedAt": "2024-05-13T10:08:48Z",
+            "author": {
+              "login": "JoseEspinosa"
+            }
+          },
+          {
+            "number": 14,
+            "title": "Add light mode plots",
+            "state": "CLOSED",
+            "createdAt": "2024-05-07T09:10:26Z",
+            "closedAt": "2024-05-15T12:54:07Z",
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 12,
+            "title": "Add phylogenetic restriction",
+            "state": "OPEN",
+            "createdAt": "2024-04-30T12:33:44Z",
+            "closedAt": null,
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 11,
+            "title": "Add batch API queries",
+            "state": "OPEN",
+            "createdAt": "2024-04-30T12:32:36Z",
+            "closedAt": null,
+            "author": {
+              "login": "itrujnara"
+            }
+          },
+          {
+            "number": 3,
+            "title": "Create homepage",
+            "state": "CLOSED",
+            "createdAt": "2024-03-21T10:42:30Z",
+            "closedAt": "2024-04-15T09:08:35Z",
+            "author": {
+              "login": "itrujnara"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 105,
+            "title": "Important! Template update for nf-core/tools v3.5.1",
+            "state": "OPEN",
+            "createdAt": "2025-11-20T09:32:55Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_reportho_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "workflows/reportho.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 100,
+            "title": "Back to dev",
+            "state": "MERGED",
+            "createdAt": "2025-10-21T15:09:21Z",
+            "mergedAt": "2025-10-21T15:16:27Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 99,
+            "title": "Important! Template update for nf-core/tools v3.4.1",
+            "state": "MERGED",
+            "createdAt": "2025-10-16T13:38:30Z",
+            "mergedAt": "2025-10-17T12:29:44Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".devcontainer/setup.sh"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_reportho_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/offline.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 98,
+            "title": "Important! Template update for nf-core/tools v3.3.2",
+            "state": "MERGED",
+            "createdAt": "2025-07-08T11:40:35Z",
+            "mergedAt": "2025-07-08T14:02:30Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nf-test.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/nextflow.config"
+                },
+                {
+                  "path": "tests/offline.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 96,
+            "title": "Fix CI issues",
+            "state": "MERGED",
+            "createdAt": "2025-06-20T09:11:07Z",
+            "mergedAt": "2025-07-03T10:14:01Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/plot_orthologs.nf"
+                },
+                {
+                  "path": "modules/local/stats2csv.nf"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/join/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/join/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/join/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/join/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/join/tests/tags.yml"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/offline.nf.test"
+                },
+                {
+                  "path": "tests/offline.nf.test.snap"
+                },
+                {
+                  "path": "workflows/reportho.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 95,
+            "title": "Fix release lints from template 3.3.1",
+            "state": "MERGED",
+            "createdAt": "2025-06-17T12:50:29Z",
+            "mergedAt": "2025-06-17T14:58:37Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/fetch_ensembl_sequences.nf"
+                },
+                {
+                  "path": "modules/local/fetch_inspector_group_online.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_group_online.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_sequences.nf"
+                },
+                {
+                  "path": "modules/local/fetch_panther_group_online.nf"
+                },
+                {
+                  "path": "modules/local/fetch_refseq_sequences.nf"
+                },
+                {
+                  "path": "modules/local/fetch_uniprot_sequences.nf"
+                },
+                {
+                  "path": "modules/local/filter_fasta.nf"
+                },
+                {
+                  "path": "modules/local/filter_hits.nf"
+                },
+                {
+                  "path": "modules/local/identify_seq_online.nf"
+                },
+                {
+                  "path": "modules/local/make_hits_table.nf"
+                },
+                {
+                  "path": "modules/local/make_merge_table.nf"
+                },
+                {
+                  "path": "modules/local/make_score_table.nf"
+                },
+                {
+                  "path": "modules/local/make_stats.nf"
+                },
+                {
+                  "path": "modules/local/write_seqinfo.nf"
+                },
+                {
+                  "path": "modules/nf-core/diamond/cluster/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/diamond/cluster/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/diamond/cluster/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/diamond/cluster/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/diamond/cluster/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nf-test.config"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 94,
+            "title": "Important! Template update for nf-core/tools v3.3.1",
+            "state": "MERGED",
+            "createdAt": "2025-06-03T11:03:17Z",
+            "mergedAt": "2025-06-17T07:48:45Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/actions/get-shards/action.yml"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierrc.yml"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_fasta.config"
+                },
+                {
+                  "path": "conf/test_offline.config"
+                },
+                {
+                  "path": "docs/images/reportho_tube_map.svg"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nf-test.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_reportho_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/nextflow.config"
+                },
+                {
+                  "path": "tests/offline.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 93,
+            "title": "Important! Template update for nf-core/tools v3.2.1",
+            "state": "MERGED",
+            "createdAt": "2025-04-30T12:27:59Z",
+            "mergedAt": "2025-04-30T13:15:27Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 92,
+            "title": "Address Meriam comments",
+            "state": "MERGED",
+            "createdAt": "2025-04-12T14:47:14Z",
+            "mergedAt": "2025-04-26T11:20:58Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/test_offline.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "workflows/reportho.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 91,
+            "title": "Address comments from Austyn's review",
+            "state": "MERGED",
+            "createdAt": "2025-04-05T13:59:23Z",
+            "mergedAt": "2025-04-12T14:21:44Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "bin/clustal2fasta.py"
+                },
+                {
+                  "path": "bin/clustal2phylip.py"
+                },
+                {
+                  "path": "bin/csv_adorn.py"
+                },
+                {
+                  "path": "bin/ensembl2uniprot.py"
+                },
+                {
+                  "path": "bin/fetch_afdb_structures.py"
+                },
+                {
+                  "path": "bin/fetch_ensembl_idmap.py"
+                },
+                {
+                  "path": "bin/fetch_ensembl_sequences.py"
+                },
+                {
+                  "path": "bin/fetch_inspector_group.py"
+                },
+                {
+                  "path": "bin/fetch_oma_by_sequence.py"
+                },
+                {
+                  "path": "bin/fetch_oma_group.py"
+                },
+                {
+                  "path": "bin/fetch_oma_groupid.py"
+                },
+                {
+                  "path": "bin/fetch_oma_sequences.py"
+                },
+                {
+                  "path": "bin/fetch_oma_taxid_by_id.py"
+                },
+                {
+                  "path": "bin/fetch_panther_group.py"
+                },
+                {
+                  "path": "bin/fetch_refseq_sequences.py"
+                },
+                {
+                  "path": "bin/fetch_uniprot_sequences.py"
+                },
+                {
+                  "path": "bin/filter_fasta.py"
+                },
+                {
+                  "path": "bin/get_oma_version.py"
+                },
+                {
+                  "path": "bin/make_merge_table.py"
+                },
+                {
+                  "path": "bin/make_score_table.py"
+                },
+                {
+                  "path": "bin/make_stats.py"
+                },
+                {
+                  "path": "bin/map_uniprot.py"
+                },
+                {
+                  "path": "bin/oma2uniprot_local.py"
+                },
+                {
+                  "path": "bin/plot_tree.R"
+                },
+                {
+                  "path": "bin/refseq2uniprot.py"
+                },
+                {
+                  "path": "bin/split_id_format.py"
+                },
+                {
+                  "path": "bin/uniprot2oma_local.py"
+                },
+                {
+                  "path": "bin/uniprot2uniprot.py"
+                },
+                {
+                  "path": "bin/uniprotize_oma_local.py"
+                },
+                {
+                  "path": "bin/uniprotize_oma_online.py"
+                },
+                {
+                  "path": "bin/utils.py"
+                },
+                {
+                  "path": "modules/local/fetch_ensembl_idmap.nf"
+                },
+                {
+                  "path": "modules/local/fetch_ensembl_sequences.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_sequences.nf"
+                },
+                {
+                  "path": "modules/local/fetch_refseq_sequences.nf"
+                },
+                {
+                  "path": "modules/local/fetch_uniprot_sequences.nf"
+                },
+                {
+                  "path": "modules/local/filter_hits.nf"
+                },
+                {
+                  "path": "modules/local/split_id_format.nf"
+                },
+                {
+                  "path": "modules/local/split_taxids.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/offline.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 89,
+            "title": "Release 1.1.0",
+            "state": "MERGED",
+            "createdAt": "2025-03-28T08:38:01Z",
+            "mergedAt": "2025-10-21T14:50:28Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".devcontainer/setup.sh"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/actions/get-shards/action.yml"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": ".prettierrc.yml"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-reportho_logo_dark.png"
+                },
+                {
+                  "path": "assets/samplesheet.csv"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "bin/clustal2fasta.py"
+                },
+                {
+                  "path": "bin/clustal2phylip.py"
+                },
+                {
+                  "path": "bin/csv_adorn.py"
+                },
+                {
+                  "path": "bin/ensembl2uniprot.py"
+                },
+                {
+                  "path": "bin/fetch_afdb_structures.py"
+                },
+                {
+                  "path": "bin/fetch_ensembl_idmap.py"
+                },
+                {
+                  "path": "bin/fetch_ensembl_sequences.py"
+                },
+                {
+                  "path": "bin/fetch_inspector_group.py"
+                },
+                {
+                  "path": "bin/fetch_oma_by_sequence.py"
+                },
+                {
+                  "path": "bin/fetch_oma_group.py"
+                },
+                {
+                  "path": "bin/fetch_oma_groupid.py"
+                },
+                {
+                  "path": "bin/fetch_oma_sequences.py"
+                },
+                {
+                  "path": "bin/fetch_oma_taxid_by_id.py"
+                },
+                {
+                  "path": "bin/fetch_panther_group.py"
+                },
+                {
+                  "path": "bin/fetch_refseq_sequences.py"
+                },
+                {
+                  "path": "bin/fetch_sequences.py"
+                },
+                {
+                  "path": "bin/fetch_uniprot_sequences.py"
+                },
+                {
+                  "path": "bin/filter_fasta.py"
+                },
+                {
+                  "path": "bin/get_oma_version.py"
+                },
+                {
+                  "path": "bin/make_merge_table.py"
+                },
+                {
+                  "path": "bin/make_score_table.py"
+                },
+                {
+                  "path": "bin/make_stats.py"
+                },
+                {
+                  "path": "bin/map_uniprot.py"
+                },
+                {
+                  "path": "bin/oma2uniprot_local.py"
+                },
+                {
+                  "path": "bin/plot_tree.R"
+                },
+                {
+                  "path": "bin/refseq2uniprot.py"
+                },
+                {
+                  "path": "bin/split_id_format.py"
+                },
+                {
+                  "path": "bin/uniprot2oma_local.py"
+                },
+                {
+                  "path": "bin/uniprot2uniprot.py"
+                },
+                {
+                  "path": "bin/uniprotize_oma_local.py"
+                },
+                {
+                  "path": "bin/uniprotize_oma_online.py"
+                },
+                {
+                  "path": "bin/utils.py"
+                },
+                {
+                  "path": "conf/array.config"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_fasta.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_offline.config"
+                },
+                {
+                  "path": "docs/images/nf-core-reportho_logo_hex_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-reportho_logo_hex_light.png"
+                },
+                {
+                  "path": "docs/images/reportho_tube_map.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/convert_fasta.nf"
+                },
+                {
+                  "path": "modules/local/convert_phylip.nf"
+                },
+                {
+                  "path": "modules/local/create_tcoffeetemplate.nf"
+                },
+                {
+                  "path": "modules/local/dump_params.nf"
+                },
+                {
+                  "path": "modules/local/fetch_afdb_structures.nf"
+                },
+                {
+                  "path": "modules/local/fetch_eggnog_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_ensembl_idmap.nf"
+                },
+                {
+                  "path": "modules/local/fetch_ensembl_sequences.nf"
+                },
+                {
+                  "path": "modules/local/fetch_inspector_group_online.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_group_online.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_sequences.nf"
+                },
+                {
+                  "path": "modules/local/fetch_panther_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_panther_group_online.nf"
+                },
+                {
+                  "path": "modules/local/fetch_refseq_sequences.nf"
+                },
+                {
+                  "path": "modules/local/fetch_uniprot_sequences.nf"
+                },
+                {
+                  "path": "modules/local/filter_fasta.nf"
+                },
+                {
+                  "path": "modules/local/filter_hits.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 88,
+            "title": "Pre-release",
+            "state": "MERGED",
+            "createdAt": "2025-03-27T16:03:41Z",
+            "mergedAt": "2025-03-27T16:48:46Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/offline.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 85,
+            "title": "Add merge information to MultiQC report",
+            "state": "MERGED",
+            "createdAt": "2025-03-27T09:31:12Z",
+            "mergedAt": "2025-03-27T15:04:35Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "modules/local/split_id_format.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/offline.nf.test.snap"
+                },
+                {
+                  "path": "workflows/reportho.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 84,
+            "title": "Improve resource request",
+            "state": "MERGED",
+            "createdAt": "2025-03-26T15:54:03Z",
+            "mergedAt": "2025-03-27T13:49:08Z",
+            "author": {
+              "login": "alessiovignoli"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/array.config"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_fasta.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules/local/dump_params.nf"
+                },
+                {
+                  "path": "modules/local/fetch_eggnog_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_ensembl_idmap.nf"
+                },
+                {
+                  "path": "modules/local/fetch_ensembl_sequences.nf"
+                },
+                {
+                  "path": "modules/local/fetch_inspector_group_online.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_group_online.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_sequences.nf"
+                },
+                {
+                  "path": "modules/local/fetch_panther_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_panther_group_online.nf"
+                },
+                {
+                  "path": "modules/local/fetch_refseq_sequences.nf"
+                },
+                {
+                  "path": "modules/local/fetch_uniprot_sequences.nf"
+                },
+                {
+                  "path": "modules/local/filter_hits.nf"
+                },
+                {
+                  "path": "modules/local/identify_seq_online.nf"
+                },
+                {
+                  "path": "modules/local/make_hits_table.nf"
+                },
+                {
+                  "path": "modules/local/make_merge_table.nf"
+                },
+                {
+                  "path": "modules/local/make_report.nf"
+                },
+                {
+                  "path": "modules/local/make_score_table.nf"
+                },
+                {
+                  "path": "modules/local/make_stats.nf"
+                },
+                {
+                  "path": "modules/local/plot_orthologs.nf"
+                },
+                {
+                  "path": "modules/local/split_id_format.nf"
+                },
+                {
+                  "path": "modules/local/split_taxids.nf"
+                },
+                {
+                  "path": "modules/local/stats2csv.nf"
+                },
+                {
+                  "path": "modules/local/write_seqinfo.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/get_orthologs.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 82
+                }
+              ]
+            }
+          },
+          {
+            "number": 83,
+            "title": "Update tube map and docs for 1.1.0",
+            "state": "MERGED",
+            "createdAt": "2025-03-25T15:31:40Z",
+            "mergedAt": "2025-03-26T15:07:53Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/images/reportho_tube_map.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules/local/make_report.nf"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 76,
+            "title": "Add pipeline-level nf-tests and link up merging",
+            "state": "MERGED",
+            "createdAt": "2025-02-17T16:01:52Z",
+            "mergedAt": "2025-03-25T13:23:44Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/samplesheet.csv"
+                },
+                {
+                  "path": "bin/make_merge_table.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/dump_params.nf"
+                },
+                {
+                  "path": "modules/local/make_merge_table.nf"
+                },
+                {
+                  "path": "modules/local/make_report.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastme/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastme/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastme/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastme/tests/main.config"
+                },
+                {
+                  "path": "modules/nf-core/fastme/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastme/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fastme/tests/optionals.config"
+                },
+                {
+                  "path": "modules/nf-core/fastme/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/iqtree/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/iqtree/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/iqtree/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/iqtree/tests/bootstrap.config"
+                },
+                {
+                  "path": "modules/nf-core/iqtree/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/iqtree/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/iqtree/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/tcoffee/align/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/tcoffee/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/tcoffee/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/tcoffee/align/tests/lib.config"
+                },
+                {
+                  "path": "modules/nf-core/tcoffee/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/tcoffee/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/tcoffee/align/tests/sequence.config"
+                },
+                {
+                  "path": "modules/nf-core/tcoffee/align/tests/structure.config"
+                },
+                {
+                  "path": "modules/nf-core/tcoffee/align/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/tcoffee/align/tests/tree.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "nf-test.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/get_orthologs.nf"
+                },
+                {
+                  "path": "subworkflows/local/merge_ids.nf"
+                },
+                {
+                  "path": "subworkflows/local/report.nf"
+                },
+                {
+                  "path": "subworkflows/local/score_orthologs.nf"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/nextflow.config"
+                },
+                {
+                  "path": "tests/offline.nf.test"
+                },
+                {
+                  "path": "tests/offline.nf.test.snap"
+                },
+                {
+                  "path": "workflows/reportho.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 75,
+            "title": "Important! Template update for nf-core/tools v3.2.0",
+            "state": "MERGED",
+            "createdAt": "2025-01-27T15:26:51Z",
+            "mergedAt": "2025-03-25T13:24:41Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": []
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 74,
+            "title": "Important! Template update for nf-core/tools v3.1.2",
+            "state": "CLOSED",
+            "createdAt": "2025-01-20T14:35:38Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_reportho_pipeline/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 73,
+            "title": "Make outdir great again",
+            "state": "MERGED",
+            "createdAt": "2024-12-24T12:22:28Z",
+            "mergedAt": "2025-01-07T14:58:16Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules/local/make_report.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 72,
+            "title": "Important! Template update for nf-core/tools v3.1.0",
+            "state": "MERGED",
+            "createdAt": "2024-12-12T11:25:47Z",
+            "mergedAt": "2024-12-18T09:03:49Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes_ignored.config"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_reportho_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "workflows/reportho.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 69,
+            "title": "Adapt scoring subworkflow to work with ID map",
+            "state": "MERGED",
+            "createdAt": "2024-11-21T11:57:47Z",
+            "mergedAt": "2024-12-17T12:20:58Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "bin/make_score_table.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules/local/convert_fasta.nf"
+                },
+                {
+                  "path": "modules/local/convert_phylip.nf"
+                },
+                {
+                  "path": "modules/local/create_tcoffeetemplate.nf"
+                },
+                {
+                  "path": "modules/local/dump_params.nf"
+                },
+                {
+                  "path": "modules/local/fetch_afdb_structures.nf"
+                },
+                {
+                  "path": "modules/local/make_report.nf"
+                },
+                {
+                  "path": "modules/local/make_score_table.nf"
+                },
+                {
+                  "path": "modules/local/plot_tree.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/align.nf"
+                },
+                {
+                  "path": "subworkflows/local/make_trees.nf"
+                },
+                {
+                  "path": "subworkflows/local/report.nf"
+                },
+                {
+                  "path": "subworkflows/local/score_orthologs.nf"
+                },
+                {
+                  "path": "workflows/reportho.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 68,
+            "title": "Add MERGE_IDS subworkflow",
+            "state": "MERGED",
+            "createdAt": "2024-11-14T15:14:03Z",
+            "mergedAt": "2024-11-15T11:02:57Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/nf-core-reportho_logo_dark.png"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/images/nf-core-reportho_logo_hex_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-reportho_logo_hex_light.png"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/convert_phylip.nf"
+                },
+                {
+                  "path": "modules/local/create_tcoffeetemplate.nf"
+                },
+                {
+                  "path": "modules/local/fetch_afdb_structures.nf"
+                },
+                {
+                  "path": "modules/local/fetch_eggnog_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_inspector_group_online.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_group_online.nf"
+                },
+                {
+                  "path": "modules/local/fetch_panther_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_panther_group_online.nf"
+                },
+                {
+                  "path": "modules/local/filter_fasta.nf"
+                },
+                {
+                  "path": "modules/local/filter_hits.nf"
+                },
+                {
+                  "path": "modules/local/identify_seq_online.nf"
+                },
+                {
+                  "path": "modules/local/make_hits_table.nf"
+                },
+                {
+                  "path": "modules/local/make_report.nf"
+                },
+                {
+                  "path": "modules/local/make_score_table.nf"
+                },
+                {
+                  "path": "modules/local/make_stats.nf"
+                },
+                {
+                  "path": "modules/local/plot_orthologs.nf"
+                },
+                {
+                  "path": "modules/local/split_id_format.nf"
+                },
+                {
+                  "path": "modules/local/split_taxids.nf"
+                },
+                {
+                  "path": "modules/nf-core/diamond/cluster/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/diamond/cluster/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/diamond/cluster/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/diamond/cluster/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/diamond/cluster/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/diamond/cluster/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/gawk/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gawk/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gawk/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gawk/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gawk/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gawk/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/gawk/tests/nextflow_with_program_file.config"
+                },
+                {
+                  "path": "modules/nf-core/gawk/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/merge_ids.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_reportho_pipeline/main.nf"
+                },
+                {
+                  "path": "workflows/reportho.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 67,
+            "title": "Add subworkflow to get sequences",
+            "state": "MERGED",
+            "createdAt": "2024-11-04T14:01:42Z",
+            "mergedAt": "2024-11-08T13:05:48Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "bin/ensembl2uniprot.py"
+                },
+                {
+                  "path": "bin/fetch_ensembl_idmap.py"
+                },
+                {
+                  "path": "bin/fetch_ensembl_sequences.py"
+                },
+                {
+                  "path": "bin/fetch_oma_sequences.py"
+                },
+                {
+                  "path": "bin/fetch_refseq_sequences.py"
+                },
+                {
+                  "path": "bin/fetch_sequences.py"
+                },
+                {
+                  "path": "bin/fetch_uniprot_sequences.py"
+                },
+                {
+                  "path": "bin/map_uniprot.py"
+                },
+                {
+                  "path": "bin/refseq2uniprot.py"
+                },
+                {
+                  "path": "bin/split_id_format.py"
+                },
+                {
+                  "path": "bin/uniprot2uniprot.py"
+                },
+                {
+                  "path": "bin/utils.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/convert_fasta.nf"
+                },
+                {
+                  "path": "modules/local/fetch_ensembl_idmap.nf"
+                },
+                {
+                  "path": "modules/local/fetch_ensembl_sequences.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_sequences.nf"
+                },
+                {
+                  "path": "modules/local/fetch_refseq_sequences.nf"
+                },
+                {
+                  "path": "modules/local/fetch_uniprot_sequences.nf"
+                },
+                {
+                  "path": "modules/local/split_id_format.nf"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/tests/nextflow_unzipped_zipped.config"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/tests/nextflow_zipped_unzipped.config"
+                },
+                {
+                  "path": "modules/nf-core/cat/cat/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/local/get_orthologs.nf"
+                },
+                {
+                  "path": "subworkflows/local/get_sequences.nf"
+                },
+                {
+                  "path": "subworkflows/local/score_orthologs.nf"
+                },
+                {
+                  "path": "workflows/reportho.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 63,
+            "title": "Merge template version 3.0.2",
+            "state": "MERGED",
+            "createdAt": "2024-10-14T08:37:35Z",
+            "mergedAt": "2024-10-14T13:54:09Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_reportho_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "workflows/reportho.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 62,
+            "title": "Important! Template update for nf-core/tools v3.0.2",
+            "state": "CLOSED",
+            "createdAt": "2024-10-11T12:35:25Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes_ignored.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/nextflow.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_reportho_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/tags.yml"
+                },
+                {
+                  "path": "workflows/reportho.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 61,
+            "title": "Merge template version 3.0.1",
+            "state": "MERGED",
+            "createdAt": "2024-10-10T07:14:58Z",
+            "mergedAt": "2024-10-14T08:01:08Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes_ignored.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_fasta.config"
+                },
+                {
+                  "path": "conf/test_offline.config"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/iqtree/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/nextflow.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_reportho_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/tags.yml"
+                },
+                {
+                  "path": "workflows/reportho.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 60,
+            "title": "Important! Template update for nf-core/tools v3.0.1",
+            "state": "CLOSED",
+            "createdAt": "2024-10-09T14:16:59Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes_ignored.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/nextflow.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_reportho_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/tags.yml"
+                },
+                {
+                  "path": "workflows/reportho.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 59,
+            "title": "Back to dev again",
+            "state": "MERGED",
+            "createdAt": "2024-10-07T16:36:03Z",
+            "mergedAt": "2024-10-09T14:12:54Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules/local/fetch_afdb_structures.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "workflows/reportho.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 58,
+            "title": "Patch",
+            "state": "MERGED",
+            "createdAt": "2024-07-18T11:06:06Z",
+            "mergedAt": "2024-07-18T11:13:57Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules/local/fetch_afdb_structures.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "workflows/reportho.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 57,
+            "title": "Patch release 1.0.1",
+            "state": "MERGED",
+            "createdAt": "2024-06-14T10:36:33Z",
+            "mergedAt": "2024-07-18T12:44:33Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules/local/fetch_afdb_structures.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "workflows/reportho.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 56,
+            "title": "Back to dev",
+            "state": "MERGED",
+            "createdAt": "2024-06-11T12:56:25Z",
+            "mergedAt": "2024-06-11T13:26:35Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 55,
+            "title": "Fixed plots in the report, changed release date",
+            "state": "MERGED",
+            "createdAt": "2024-06-11T09:33:57Z",
+            "mergedAt": "2024-06-11T10:30:26Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "workflows/reportho.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 54,
+            "title": "Tube map tweak",
+            "state": "MERGED",
+            "createdAt": "2024-06-10T14:48:15Z",
+            "mergedAt": "2024-06-10T18:58:33Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/images/reportho_tube_map.svg"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 53,
+            "title": "Chenged command in CONTRIBUTING.md",
+            "state": "MERGED",
+            "createdAt": "2024-06-10T12:16:10Z",
+            "mergedAt": "2024-06-10T12:26:42Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".nf-core.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 52,
+            "title": "Release review comments",
+            "state": "MERGED",
+            "createdAt": "2024-06-07T10:51:55Z",
+            "mergedAt": "2024-06-07T12:00:09Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/test_fasta.config"
+                },
+                {
+                  "path": "conf/test_offline.config"
+                },
+                {
+                  "path": "docs/images/nf-core-reportho_tube_map_beta.png"
+                },
+                {
+                  "path": "docs/images/reportho_tube_map.svg"
+                },
+                {
+                  "path": "modules/local/dump_params.nf"
+                },
+                {
+                  "path": "modules/local/fetch_panther_group_online.nf"
+                },
+                {
+                  "path": "modules/local/plot_orthologs.nf"
+                },
+                {
+                  "path": "modules/local/plot_tree.nf"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/fetch_sequences.nf"
+                },
+                {
+                  "path": "subworkflows/local/fetch_structures.nf"
+                },
+                {
+                  "path": "subworkflows/local/get_orthologs.nf"
+                },
+                {
+                  "path": "workflows/reportho.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 51,
+            "title": "Release 1.0.0",
+            "state": "MERGED",
+            "createdAt": "2024-06-06T09:07:31Z",
+            "mergedAt": "2024-06-11T11:55:54Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-reportho_logo_light.png"
+                },
+                {
+                  "path": "assets/samplesheet.csv"
+                },
+                {
+                  "path": "assets/samplesheet_fasta.csv"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "bin/check_samplesheet.py"
+                },
+                {
+                  "path": "bin/clustal2fasta.py"
+                },
+                {
+                  "path": "bin/clustal2phylip.py"
+                },
+                {
+                  "path": "bin/csv_adorn.py"
+                },
+                {
+                  "path": "bin/ensembl2uniprot.py"
+                },
+                {
+                  "path": "bin/fetch_afdb_structures.py"
+                },
+                {
+                  "path": "bin/fetch_inspector_group.py"
+                },
+                {
+                  "path": "bin/fetch_oma_by_sequence.py"
+                },
+                {
+                  "path": "bin/fetch_oma_group.py"
+                },
+                {
+                  "path": "bin/fetch_oma_groupid.py"
+                },
+                {
+                  "path": "bin/fetch_oma_taxid_by_id.py"
+                },
+                {
+                  "path": "bin/fetch_panther_group.py"
+                },
+                {
+                  "path": "bin/fetch_sequences.py"
+                },
+                {
+                  "path": "bin/filter_fasta.py"
+                },
+                {
+                  "path": "bin/get_oma_version.py"
+                },
+                {
+                  "path": "bin/make_hits_table.py"
+                },
+                {
+                  "path": "bin/make_score_table.py"
+                },
+                {
+                  "path": "bin/make_stats.py"
+                },
+                {
+                  "path": "bin/map_uniprot.py"
+                },
+                {
+                  "path": "bin/oma2uniprot_local.py"
+                },
+                {
+                  "path": "bin/plot_orthologs.R"
+                },
+                {
+                  "path": "bin/plot_tree.R"
+                },
+                {
+                  "path": "bin/refseq2uniprot.py"
+                },
+                {
+                  "path": "bin/score_hits.py"
+                },
+                {
+                  "path": "bin/uniprot2oma_local.py"
+                },
+                {
+                  "path": "bin/uniprot2uniprot.py"
+                },
+                {
+                  "path": "bin/uniprotize_oma_local.py"
+                },
+                {
+                  "path": "bin/uniprotize_oma_online.py"
+                },
+                {
+                  "path": "bin/utils.py"
+                },
+                {
+                  "path": "bin/yml2csv.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_fasta.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_offline.config"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/images/nf-core-reportho_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-reportho_logo_light.png"
+                },
+                {
+                  "path": "docs/images/reportho_tube_map.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/WorkflowPipeline.groovy"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/convert_fasta.nf"
+                },
+                {
+                  "path": "modules/local/convert_phylip.nf"
+                },
+                {
+                  "path": "modules/local/create_tcoffeetemplate.nf"
+                },
+                {
+                  "path": "modules/local/dump_params.nf"
+                },
+                {
+                  "path": "modules/local/fetch_afdb_structures.nf"
+                },
+                {
+                  "path": "modules/local/fetch_eggnog_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_inspector_group_online.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_group_online.nf"
+                },
+                {
+                  "path": "modules/local/fetch_panther_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_panther_group_online.nf"
+                },
+                {
+                  "path": "modules/local/fetch_sequences_online.nf"
+                },
+                {
+                  "path": "modules/local/filter_fasta.nf"
+                },
+                {
+                  "path": "modules/local/filter_hits.nf"
+                },
+                {
+                  "path": "modules/local/identify_seq_online.nf"
+                },
+                {
+                  "path": "modules/local/make_hits_table.nf"
+                },
+                {
+                  "path": "modules/local/make_report.nf"
+                },
+                {
+                  "path": "modules/local/make_score_table.nf"
+                },
+                {
+                  "path": "modules/local/make_stats.nf"
+                },
+                {
+                  "path": "modules/local/plot_orthologs.nf"
+                },
+                {
+                  "path": "modules/local/plot_tree.nf"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/local/stats2csv.nf"
+                },
+                {
+                  "path": "modules/local/write_seqinfo.nf"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/meta.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 50,
+            "title": "Version bump and changelog",
+            "state": "MERGED",
+            "createdAt": "2024-06-05T13:17:20Z",
+            "mergedAt": "2024-06-05T13:46:02Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 49,
+            "title": "Some updates (see below)",
+            "state": "MERGED",
+            "createdAt": "2024-06-05T09:44:47Z",
+            "mergedAt": "2024-06-05T12:23:48Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_fasta.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_offline.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/make_report.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "workflows/reportho.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 47,
+            "title": "Update how image is set for report",
+            "state": "MERGED",
+            "createdAt": "2024-05-30T09:35:21Z",
+            "mergedAt": "2024-05-30T12:43:41Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/make_report.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 46,
+            "title": "Bug fixes",
+            "state": "MERGED",
+            "createdAt": "2024-05-29T11:25:52Z",
+            "mergedAt": "2024-05-31T16:30:45Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "bin/fetch_oma_group.py"
+                },
+                {
+                  "path": "bin/fetch_oma_groupid.py"
+                },
+                {
+                  "path": "bin/fetch_oma_taxid_by_id.py"
+                },
+                {
+                  "path": "bin/fetch_panther_group.py"
+                },
+                {
+                  "path": "bin/fetch_sequences.py"
+                },
+                {
+                  "path": "bin/make_hits_table.py"
+                },
+                {
+                  "path": "modules/local/fetch_afdb_structures.nf"
+                },
+                {
+                  "path": "modules/local/fetch_eggnog_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_inspector_group_online.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_group_online.nf"
+                },
+                {
+                  "path": "modules/local/fetch_panther_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_panther_group_online.nf"
+                },
+                {
+                  "path": "modules/local/make_report.nf"
+                },
+                {
+                  "path": "modules/local/write_seqinfo.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 45,
+            "title": "Multiple fixes",
+            "state": "MERGED",
+            "createdAt": "2024-05-28T14:19:38Z",
+            "mergedAt": "2024-05-29T09:39:37Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/utils.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/get_orthologs.nf"
+                },
+                {
+                  "path": "subworkflows/local/make_trees.nf"
+                },
+                {
+                  "path": "subworkflows/local/report.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_reportho_pipeline/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 35
+                },
+                {
+                  "number": 36
+                },
+                {
+                  "number": 38
+                },
+                {
+                  "number": 39
+                },
+                {
+                  "number": 40
+                }
+              ]
+            }
+          },
+          {
+            "number": 44,
+            "title": "Get rid of custom images",
+            "state": "MERGED",
+            "createdAt": "2024-05-28T13:37:29Z",
+            "mergedAt": "2024-05-29T16:50:52Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/fetch_eggnog_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_panther_group_local.nf"
+                },
+                {
+                  "path": "modules/local/plot_orthologs.nf"
+                },
+                {
+                  "path": "modules/local/plot_tree.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 43,
+            "title": "Replace grep with ripgrep for expensive searches",
+            "state": "MERGED",
+            "createdAt": "2024-05-28T10:14:42Z",
+            "mergedAt": "2024-05-28T10:39:21Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/fetch_eggnog_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_panther_group_local.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 42,
+            "title": "Revert to nf-validation, as nf-schema was not really used",
+            "state": "MERGED",
+            "createdAt": "2024-05-28T08:38:24Z",
+            "mergedAt": "2024-05-28T08:48:47Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 41,
+            "title": "Minor changes",
+            "state": "MERGED",
+            "createdAt": "2024-05-28T08:38:20Z",
+            "mergedAt": "2024-05-28T10:01:09Z",
+            "author": {
+              "login": "luisas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "bin/fetch_oma_by_sequence.py"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/create_tcoffeetemplate.nf"
+                },
+                {
+                  "path": "modules/local/dump_params.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_group_local.nf"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/join/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/local/get_orthologs.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 34,
+            "title": "Bug fixes",
+            "state": "MERGED",
+            "createdAt": "2024-05-27T13:09:54Z",
+            "mergedAt": "2024-05-28T08:34:53Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/csv_adorn.py"
+                },
+                {
+                  "path": "bin/make_score_table.py"
+                },
+                {
+                  "path": "bin/make_stats.py"
+                },
+                {
+                  "path": "bin/plot_orthologs.R"
+                },
+                {
+                  "path": "bin/score_hits.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules/local/fetch_eggnog_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_oma_group_local.nf"
+                },
+                {
+                  "path": "modules/local/fetch_panther_group_local.nf"
+                },
+                {
+                  "path": "modules/local/filter_fasta.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 33,
+            "title": "Fixed local OMA bug",
+            "state": "MERGED",
+            "createdAt": "2024-05-24T16:55:22Z",
+            "mergedAt": "2024-05-27T08:39:10Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/fetch_oma_group_local.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 32,
+            "title": "Fixed Venn diagram bug",
+            "state": "MERGED",
+            "createdAt": "2024-05-24T15:36:12Z",
+            "mergedAt": "2024-05-24T15:44:16Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/plot_orthologs.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 31,
+            "title": "Improved path handling in get_orthologs",
+            "state": "MERGED",
+            "createdAt": "2024-05-23T11:06:03Z",
+            "mergedAt": "2024-05-24T14:40:17Z",
+            "author": {
+              "login": "itrujnara"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/get_orthologs.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 30,
+            "title": "Update modules",
+            "state": "MERGED",
+            "createdAt": "2024-05-23T10:23:16Z",
+            "mergedAt": "2024-05-23T10:52:07Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/convert_fasta.nf"
+                },
+                {
+                  "path": "modules/local/create_tcoffeetemplate.nf"
+                },
+                {
+                  "path": "modules/local/dump_params.nf"
+                },
+                {
+                  "path": "modules/local/write_seqinfo.nf"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/concat/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/join/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/join/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/join/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/join/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/join/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/csvtk/join/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/tcoffee/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/tcoffee/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/tcoffee/align/tests/lib.config"
+                },
+                {
+                  "path": "modules/nf-core/tcoffee/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/tcoffee/align/tests/main.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

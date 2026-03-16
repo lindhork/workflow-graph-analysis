@@ -1,0 +1,2514 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 537,
+            "title": "Instructions to install with conda/mamba",
+            "state": "OPEN",
+            "createdAt": "2026-03-10T21:16:33Z",
+            "closedAt": null,
+            "author": {
+              "login": "RicardoRios46"
+            }
+          },
+          {
+            "number": 528,
+            "title": "Add Copilot to auto-assign reviewers",
+            "state": "CLOSED",
+            "createdAt": "2026-02-23T19:51:39Z",
+            "closedAt": "2026-02-23T19:59:37Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 525,
+            "title": "Strip wildcard constraints from path in `__repr__`",
+            "state": "CLOSED",
+            "createdAt": "2026-02-23T19:18:00Z",
+            "closedAt": "2026-02-25T19:30:58Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 523,
+            "title": "Use `functools.cached_property` in attrs classes and modernize cache decorators",
+            "state": "CLOSED",
+            "createdAt": "2026-02-22T02:00:57Z",
+            "closedAt": "2026-02-24T14:40:32Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 519,
+            "title": "Make \\`LATEST\\` private in \\`snakebids.paths.specs\\`",
+            "state": "CLOSED",
+            "createdAt": "2026-02-21T17:22:06Z",
+            "closedAt": "2026-02-22T00:47:57Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 516,
+            "title": "Fix character class constraints in `SnakemakeWildcards` regex patterns",
+            "state": "CLOSED",
+            "createdAt": "2026-02-20T23:33:01Z",
+            "closedAt": "2026-02-21T02:54:23Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 514,
+            "title": "Validate and reject `None` values in filter configurations",
+            "state": "CLOSED",
+            "createdAt": "2026-02-20T21:23:48Z",
+            "closedAt": "2026-02-22T01:46:10Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 513,
+            "title": "Reimplement Snakebids expand using SnakemakeFormatter ",
+            "state": "OPEN",
+            "createdAt": "2026-02-20T21:14:40Z",
+            "closedAt": null,
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 510,
+            "title": "Fix Snakemake wildcard “label” vs BIDS “tag” confusion (subject/session) in `SnakemakeWildcards` and add regression test",
+            "state": "CLOSED",
+            "createdAt": "2026-02-20T17:29:44Z",
+            "closedAt": "2026-02-20T21:16:03Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 509,
+            "title": "Refactor `SnakemakeWildcards` output to brace-wrapped strings and expose structured `.constraints`",
+            "state": "CLOSED",
+            "createdAt": "2026-02-20T17:27:01Z",
+            "closedAt": "2026-02-21T04:58:33Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 508,
+            "title": "Expand BidsComponent to support optional wildcards",
+            "state": "CLOSED",
+            "createdAt": "2026-02-19T16:12:29Z",
+            "closedAt": "2026-02-24T16:59:42Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 505,
+            "title": "Template app raises `invalid escape sequence '\\`'` error in welcome message",
+            "state": "CLOSED",
+            "createdAt": "2026-02-18T21:09:07Z",
+            "closedAt": "2026-02-19T04:19:22Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 493,
+            "title": "Implement SnakemakeFormatter for formatting snakemake templates with optional entities",
+            "state": "CLOSED",
+            "createdAt": "2026-02-12T15:19:24Z",
+            "closedAt": "2026-02-18T16:09:05Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 492,
+            "title": "Create class defining optional wildcard syntax",
+            "state": "CLOSED",
+            "createdAt": "2026-02-11T21:08:16Z",
+            "closedAt": "2026-02-18T18:51:17Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 489,
+            "title": "Implement support for generating Snakemake templates with optional components in `bids()`",
+            "state": "CLOSED",
+            "createdAt": "2026-02-04T21:44:49Z",
+            "closedAt": "2026-02-22T00:50:50Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 488,
+            "title": "Create method on `BidsComponent` for retrieval of input files with optional entity handling",
+            "state": "CLOSED",
+            "createdAt": "2026-02-04T18:06:18Z",
+            "closedAt": "2026-02-28T14:54:54Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 479,
+            "title": "No components found when `--participant-label` requests only non-existant subjects",
+            "state": "OPEN",
+            "createdAt": "2025-11-05T19:16:32Z",
+            "closedAt": null,
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 478,
+            "title": "`--participant-label` is not merged with configured subject filters",
+            "state": "OPEN",
+            "createdAt": "2025-11-05T19:07:27Z",
+            "closedAt": null,
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 469,
+            "title": "ConfigError: Multiple path templates for 't1w' component using generate_inputs",
+            "state": "OPEN",
+            "createdAt": "2025-07-14T18:01:14Z",
+            "closedAt": null,
+            "author": {
+              "login": "zihuaihuai"
+            }
+          },
+          {
+            "number": 464,
+            "title": "single file run",
+            "state": "CLOSED",
+            "createdAt": "2025-01-27T16:05:50Z",
+            "closedAt": "2025-01-29T23:32:17Z",
+            "author": {
+              "login": "jordandekraker"
+            }
+          },
+          {
+            "number": 463,
+            "title": "bids function cannot generate correct path for freesurfer outputs.",
+            "state": "CLOSED",
+            "createdAt": "2025-01-23T17:21:43Z",
+            "closedAt": "2025-01-29T23:34:45Z",
+            "author": {
+              "login": "zihuaihuai"
+            }
+          },
+          {
+            "number": 451,
+            "title": "Support for Cloud Storage URLs (with universal_pathlib)",
+            "state": "CLOSED",
+            "createdAt": "2024-07-17T20:48:57Z",
+            "closedAt": "2024-07-27T23:10:22Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 437,
+            "title": "Using dictionary operations for `bids()` and `expand()`",
+            "state": "CLOSED",
+            "createdAt": "2024-07-02T20:34:54Z",
+            "closedAt": "2024-07-04T00:37:01Z",
+            "author": {
+              "login": "Karl5766"
+            }
+          },
+          {
+            "number": 434,
+            "title": "Snakebids create docs ",
+            "state": "OPEN",
+            "createdAt": "2024-06-03T19:45:26Z",
+            "closedAt": null,
+            "author": {
+              "login": "akhanf"
+            }
+          },
+          {
+            "number": 422,
+            "title": "Wildcards added via cli are not deduplicated",
+            "state": "CLOSED",
+            "createdAt": "2024-05-06T20:20:16Z",
+            "closedAt": "2024-07-29T14:04:38Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 412,
+            "title": "Version plugin does not add CLI parameter",
+            "state": "OPEN",
+            "createdAt": "2024-04-22T17:17:58Z",
+            "closedAt": null,
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 411,
+            "title": "Default help messages for BidsArgs is missing spaces",
+            "state": "CLOSED",
+            "createdAt": "2024-04-22T17:06:56Z",
+            "closedAt": "2024-04-29T19:51:32Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 410,
+            "title": "Template still imposes python < 3.13",
+            "state": "CLOSED",
+            "createdAt": "2024-04-22T15:29:48Z",
+            "closedAt": "2024-04-29T20:25:23Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 398,
+            "title": "attrs version pinning?",
+            "state": "CLOSED",
+            "createdAt": "2024-03-14T13:57:11Z",
+            "closedAt": "2024-04-17T16:53:15Z",
+            "author": {
+              "login": "akhanf"
+            }
+          },
+          {
+            "number": 391,
+            "title": "Documentation stub has numerous problems",
+            "state": "CLOSED",
+            "createdAt": "2024-02-24T19:08:13Z",
+            "closedAt": "2024-02-26T14:48:56Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 381,
+            "title": "Add an option in generate_inputs to ignore files from pybids parsing?",
+            "state": "CLOSED",
+            "createdAt": "2024-02-20T21:24:52Z",
+            "closedAt": "2024-06-03T19:12:41Z",
+            "author": {
+              "login": "akhanf"
+            }
+          },
+          {
+            "number": 371,
+            "title": "`BidsComponent.expand()` returns nothing when no ziplist data",
+            "state": "CLOSED",
+            "createdAt": "2024-02-06T13:46:24Z",
+            "closedAt": "2024-02-20T20:08:36Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 363,
+            "title": "Specifying --filter-x a second time overrides the first provision",
+            "state": "CLOSED",
+            "createdAt": "2024-01-12T17:13:28Z",
+            "closedAt": "2026-02-23T20:05:33Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 347,
+            "title": "No test dataset in snakebids bootstrap app",
+            "state": "CLOSED",
+            "createdAt": "2023-12-05T21:49:03Z",
+            "closedAt": "2023-12-20T17:36:46Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 346,
+            "title": "`BidsComponent.expand()` fails to preserve order",
+            "state": "CLOSED",
+            "createdAt": "2023-12-02T20:15:46Z",
+            "closedAt": "2023-12-11T16:54:14Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 343,
+            "title": "Cannot use `--participant-label` and `--exclude-participant-label` simultaneously",
+            "state": "CLOSED",
+            "createdAt": "2023-10-07T00:29:59Z",
+            "closedAt": "2024-04-17T17:34:44Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 339,
+            "title": "`_format_zip_lists` breaks when formatting an empty zip list",
+            "state": "CLOSED",
+            "createdAt": "2023-09-18T15:40:42Z",
+            "closedAt": "2023-12-12T18:35:54Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 335,
+            "title": "Extension of `BidsComponent.filter` api",
+            "state": "OPEN",
+            "createdAt": "2023-09-06T16:01:26Z",
+            "closedAt": null,
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 333,
+            "title": "`pybids_db_dir` was eliminated without warning, causing migration issues",
+            "state": "CLOSED",
+            "createdAt": "2023-08-24T17:09:04Z",
+            "closedAt": "2023-11-30T19:48:37Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 321,
+            "title": "SnakeBidsApp Assumes filters are present",
+            "state": "CLOSED",
+            "createdAt": "2023-08-04T20:35:10Z",
+            "closedAt": "2026-02-21T03:38:10Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 319,
+            "title": "Scipy dependency",
+            "state": "CLOSED",
+            "createdAt": "2023-08-01T15:00:01Z",
+            "closedAt": "2023-08-04T16:02:15Z",
+            "author": {
+              "login": "kaitj"
+            }
+          },
+          {
+            "number": 315,
+            "title": "Drop Support for Py37",
+            "state": "CLOSED",
+            "createdAt": "2023-06-23T20:02:28Z",
+            "closedAt": "2023-08-12T17:17:39Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 313,
+            "title": "Use PEP 621-based pyproject.toml in snakebids create",
+            "state": "CLOSED",
+            "createdAt": "2023-06-23T16:48:53Z",
+            "closedAt": "2023-12-13T20:46:26Z",
+            "author": {
+              "login": "tkkuehn"
+            }
+          },
+          {
+            "number": 311,
+            "title": "Plugins page in docs",
+            "state": "CLOSED",
+            "createdAt": "2023-06-22T18:28:08Z",
+            "closedAt": "2023-06-23T19:33:46Z",
+            "author": {
+              "login": "kaitj"
+            }
+          },
+          {
+            "number": 307,
+            "title": "Update app creation instructions",
+            "state": "CLOSED",
+            "createdAt": "2023-06-10T18:03:41Z",
+            "closedAt": "2023-07-31T14:40:34Z",
+            "author": {
+              "login": "kaitj"
+            }
+          },
+          {
+            "number": 304,
+            "title": "`export_sourcedir` plugin",
+            "state": "OPEN",
+            "createdAt": "2023-06-02T19:43:51Z",
+            "closedAt": null,
+            "author": {
+              "login": "pvandyken"
+            }
+          },
+          {
+            "number": 303,
+            "title": "exclude_participant_label and filter_component incompatible in some cases",
+            "state": "CLOSED",
+            "createdAt": "2023-06-02T17:24:18Z",
+            "closedAt": "2023-12-16T19:08:06Z",
+            "author": {
+              "login": "tkkuehn"
+            }
+          },
+          {
+            "number": 302,
+            "title": "Expect plugins to be callable classes",
+            "state": "CLOSED",
+            "createdAt": "2023-06-02T17:21:43Z",
+            "closedAt": "2024-02-17T20:50:02Z",
+            "author": {
+              "login": "tkkuehn"
+            }
+          },
+          {
+            "number": 301,
+            "title": "Split bids into its own repository",
+            "state": "CLOSED",
+            "createdAt": "2023-06-02T17:01:26Z",
+            "closedAt": "2023-12-13T20:45:09Z",
+            "author": {
+              "login": "tkkuehn"
+            }
+          },
+          {
+            "number": 299,
+            "title": "Need to Narrow down the `ValueError` thrown in `BidsDataset.from_iterable()`",
+            "state": "CLOSED",
+            "createdAt": "2023-05-19T18:19:50Z",
+            "closedAt": "2023-05-23T20:42:33Z",
+            "author": {
+              "login": "pvandyken"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 536,
+            "title": "Merge updated test timings",
+            "state": "OPEN",
+            "createdAt": "2026-03-03T05:01:23Z",
+            "mergedAt": null,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test_durations"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 535,
+            "title": "[.github/workflows]: Bump the github-actions group with 2 updates",
+            "state": "OPEN",
+            "createdAt": "2026-03-01T07:43:35Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/test.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 534,
+            "title": "[.github/actions/build-test-container]: Bump actions/cache from 4 to 5 in /.github/actions/build-test-container in the github-actions group",
+            "state": "OPEN",
+            "createdAt": "2026-03-01T07:43:11Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/actions/build-test-container/action.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 533,
+            "title": "Phase 1: Rust/PyO3 acceleration for `SnakemakeFormatter.parse()`",
+            "state": "OPEN",
+            "createdAt": "2026-02-28T04:19:39Z",
+            "mergedAt": null,
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "Cargo.toml"
+                },
+                {
+                  "path": "docs/general/rust_acceleration.md"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "rust/src/lib.rs"
+                },
+                {
+                  "path": "src/snakebids/_rust/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/_rust/_core.pyi"
+                },
+                {
+                  "path": "src/snakebids/utils/snakemake_templates.py"
+                },
+                {
+                  "path": "tests/test_snakemake_templates/test_snakemake_formatter.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 532,
+            "title": "feat: partial template formatting and stricter wildcard value validation",
+            "state": "MERGED",
+            "createdAt": "2026-02-27T22:48:31Z",
+            "mergedAt": "2026-02-28T02:35:13Z",
+            "author": {
+              "login": "pvandyken"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakebids/utils/snakemake_templates.py"
+                },
+                {
+                  "path": "tests/test_paths/test_bids.py"
+                },
+                {
+                  "path": "tests/test_snakemake_templates/test_snakemake_formatter.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 531,
+            "title": "fix: raise error for lone closing braces in SnakemakeFormatter",
+            "state": "MERGED",
+            "createdAt": "2026-02-25T18:59:58Z",
+            "mergedAt": "2026-02-25T19:42:05Z",
+            "author": {
+              "login": "pvandyken"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakebids/utils/snakemake_templates.py"
+                },
+                {
+                  "path": "tests/test_paths/test_bids.py"
+                },
+                {
+                  "path": "tests/test_snakemake_templates/strategies.py"
+                },
+                {
+                  "path": "tests/test_snakemake_templates/test_snakemake_formatter.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 530,
+            "title": "Merge updated test timings",
+            "state": "MERGED",
+            "createdAt": "2026-02-24T05:06:06Z",
+            "mergedAt": "2026-02-24T12:40:31Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test_durations"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 529,
+            "title": "Add Copilot to auto-assign reviewers",
+            "state": "MERGED",
+            "createdAt": "2026-02-23T19:51:45Z",
+            "mergedAt": "2026-02-23T19:59:35Z",
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/auto_assign.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 528
+                }
+              ]
+            }
+          },
+          {
+            "number": 527,
+            "title": "Strip wildcard constraints from path in `__repr__`",
+            "state": "MERGED",
+            "createdAt": "2026-02-23T19:18:42Z",
+            "mergedAt": "2026-02-25T19:30:57Z",
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakebids/core/datasets.py"
+                },
+                {
+                  "path": "tests/test_datasets.py"
+                },
+                {
+                  "path": "tests/test_printing.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 525
+                }
+              ]
+            }
+          },
+          {
+            "number": 526,
+            "title": "Reimplement `expand` using `SnakemakeFormatter` instead of Snakemake's `expand`",
+            "state": "OPEN",
+            "createdAt": "2026-02-23T19:18:37Z",
+            "mergedAt": null,
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakebids/core/datasets.py"
+                },
+                {
+                  "path": "src/snakebids/core/expanding.py"
+                },
+                {
+                  "path": "src/snakebids/snakemake_compat.py"
+                },
+                {
+                  "path": "src/snakebids/snakemake_compat.pyi"
+                },
+                {
+                  "path": "tests/test_datasets.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 513
+                }
+              ]
+            }
+          },
+          {
+            "number": 524,
+            "title": "Use `functools.cached_property` in attrs classes and modernize cache decorators",
+            "state": "MERGED",
+            "createdAt": "2026-02-22T02:01:30Z",
+            "mergedAt": "2026-02-24T14:40:31Z",
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "src/snakebids/core/datasets.py"
+                },
+                {
+                  "path": "src/snakebids/io/console.py"
+                },
+                {
+                  "path": "src/snakebids/paths/specs.py"
+                },
+                {
+                  "path": "src/snakebids/utils/utils.py"
+                },
+                {
+                  "path": "uv.lock"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 523
+                }
+              ]
+            }
+          },
+          {
+            "number": 522,
+            "title": "Support optional wildcards in BidsComponent validation",
+            "state": "MERGED",
+            "createdAt": "2026-02-22T01:12:28Z",
+            "mergedAt": "2026-02-24T16:59:40Z",
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakebids/core/datasets.py"
+                },
+                {
+                  "path": "src/snakebids/utils/sb_itertools.py"
+                },
+                {
+                  "path": "tests/test_datasets.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 508
+                }
+              ]
+            }
+          },
+          {
+            "number": 521,
+            "title": "Merge repeated `--filter-x` provisions instead of overriding",
+            "state": "MERGED",
+            "createdAt": "2026-02-22T01:09:52Z",
+            "mergedAt": "2026-02-23T20:05:32Z",
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakebids/plugins/component_edit.py"
+                },
+                {
+                  "path": "tests/test_plugins/test_component_edit.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 363
+                }
+              ]
+            }
+          },
+          {
+            "number": 520,
+            "title": "Make `LATEST` private in `snakebids.paths.specs`",
+            "state": "CLOSED",
+            "createdAt": "2026-02-21T17:25:36Z",
+            "mergedAt": null,
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "scripts/update_bids.py"
+                },
+                {
+                  "path": "src/snakebids/paths/_config.py"
+                },
+                {
+                  "path": "src/snakebids/paths/_factory.py"
+                },
+                {
+                  "path": "src/snakebids/paths/_presets.py"
+                },
+                {
+                  "path": "src/snakebids/paths/specs.py"
+                },
+                {
+                  "path": "src/snakebids/paths/specs.pyi"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 519
+                }
+              ]
+            }
+          },
+          {
+            "number": 518,
+            "title": "Refactor `SnakemakeWildcards`: wildcard objects with brace-wrapped string output and `.constraint` accessor",
+            "state": "MERGED",
+            "createdAt": "2026-02-21T03:21:57Z",
+            "mergedAt": "2026-02-21T04:58:32Z",
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakebids/utils/snakemake_templates.py"
+                },
+                {
+                  "path": "tests/test_snakemake_templates/test_snakemake_wildcards.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 509
+                }
+              ]
+            }
+          },
+          {
+            "number": 517,
+            "title": "Fix character class constraints in `SnakemakeWildcards` regex patterns",
+            "state": "MERGED",
+            "createdAt": "2026-02-20T23:34:57Z",
+            "mergedAt": "2026-02-21T02:54:22Z",
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakebids/utils/snakemake_templates.py"
+                },
+                {
+                  "path": "tests/test_snakemake_templates/test_snakemake_wildcards.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 516
+                }
+              ]
+            }
+          },
+          {
+            "number": 515,
+            "title": "Validate and reject `None` values in filter configurations",
+            "state": "MERGED",
+            "createdAt": "2026-02-20T21:30:05Z",
+            "mergedAt": "2026-02-22T01:46:09Z",
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakebids/core/_querying.py"
+                },
+                {
+                  "path": "tests/test_generate_inputs.py"
+                },
+                {
+                  "path": "tests/test_querying.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 514
+                }
+              ]
+            }
+          },
+          {
+            "number": 512,
+            "title": "[WIP] Create an issue for modifying expand method",
+            "state": "CLOSED",
+            "createdAt": "2026-02-20T20:56:44Z",
+            "mergedAt": null,
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": []
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 511,
+            "title": "Fix wildcard label vs BIDS tag confusion in SnakemakeWildcards",
+            "state": "MERGED",
+            "createdAt": "2026-02-20T17:31:26Z",
+            "mergedAt": "2026-02-20T21:16:01Z",
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakebids/utils/snakemake_templates.py"
+                },
+                {
+                  "path": "tests/test_snakemake_templates/test_snakemake_wildcards.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 510
+                }
+              ]
+            }
+          },
+          {
+            "number": 507,
+            "title": "Fix invalid escape sequence in template Snakefile welcome message",
+            "state": "MERGED",
+            "createdAt": "2026-02-18T23:54:54Z",
+            "mergedAt": "2026-02-19T04:19:21Z",
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakebids/project_template/{{name_slug}}/workflow/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 505
+                }
+              ]
+            }
+          },
+          {
+            "number": 506,
+            "title": "Validate and reject None values in filter configurations",
+            "state": "CLOSED",
+            "createdAt": "2026-02-18T21:13:52Z",
+            "mergedAt": null,
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "src/snakebids/core/_querying.py"
+                },
+                {
+                  "path": "src/snakebids/core/input_generation.py"
+                },
+                {
+                  "path": "tests/helpers.py"
+                },
+                {
+                  "path": "tests/test_generate_inputs.py"
+                },
+                {
+                  "path": "tests/test_querying.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 504,
+            "title": "Document [tool.poe] removal in pyproject.toml",
+            "state": "CLOSED",
+            "createdAt": "2026-02-18T20:09:25Z",
+            "mergedAt": null,
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": []
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 503,
+            "title": "Add optional wildcard support to bids() for Snakemake templates",
+            "state": "MERGED",
+            "createdAt": "2026-02-18T19:50:43Z",
+            "mergedAt": "2026-02-22T00:50:49Z",
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakebids/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/paths/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/paths/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/paths/_factory.py"
+                },
+                {
+                  "path": "src/snakebids/paths/_presets.py"
+                },
+                {
+                  "path": "src/snakebids/paths/_utils.py"
+                },
+                {
+                  "path": "src/snakebids/snakemake_compat.py"
+                },
+                {
+                  "path": "src/snakebids/snakemake_compat.pyi"
+                },
+                {
+                  "path": "src/snakebids/utils/snakemake_templates.py"
+                },
+                {
+                  "path": "tests/test_paths/test_bids.py"
+                },
+                {
+                  "path": "tests/test_paths/test_specs.py"
+                },
+                {
+                  "path": "tests/test_snakemake_templates/test_snakemake_wildcards.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 489
+                }
+              ]
+            }
+          },
+          {
+            "number": 502,
+            "title": "Refactor generate_inputs filtering tests",
+            "state": "MERGED",
+            "createdAt": "2026-02-18T18:46:12Z",
+            "mergedAt": "2026-02-20T19:55:30Z",
+            "author": {
+              "login": "pvandyken"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "src/snakebids/core/_querying.py"
+                },
+                {
+                  "path": "src/snakebids/core/input_generation.py"
+                },
+                {
+                  "path": "tests/helpers.py"
+                },
+                {
+                  "path": "tests/test_generate_inputs.py"
+                },
+                {
+                  "path": "tests/test_querying.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 501,
+            "title": "[WIP] Refactor querying tests for improved performance and maintainability",
+            "state": "CLOSED",
+            "createdAt": "2026-02-18T18:29:04Z",
+            "mergedAt": null,
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakebids/core/_querying.py"
+                },
+                {
+                  "path": "tests/test_querying.py"
+                },
+                {
+                  "path": "tests/test_querying_unit.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 500,
+            "title": "Revert \"Close pull request #474\"",
+            "state": "MERGED",
+            "createdAt": "2026-02-18T17:54:19Z",
+            "mergedAt": "2026-02-18T18:05:21Z",
+            "author": {
+              "login": "pvandyken"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "src/snakebids/core/_querying.py"
+                },
+                {
+                  "path": "src/snakebids/core/input_generation.py"
+                },
+                {
+                  "path": "tests/helpers.py"
+                },
+                {
+                  "path": "tests/test_generate_inputs.py"
+                },
+                {
+                  "path": "tests/test_querying.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 499,
+            "title": "Bump GitHub Actions to latest versions (Node.js 24 support)",
+            "state": "CLOSED",
+            "createdAt": "2026-02-18T04:25:37Z",
+            "mergedAt": null,
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": []
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 498,
+            "title": "Imprecisions in `bids()` testing",
+            "state": "MERGED",
+            "createdAt": "2026-02-13T21:07:14Z",
+            "mergedAt": "2026-02-13T21:33:02Z",
+            "author": {
+              "login": "pvandyken"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakebids/paths/_factory.py"
+                },
+                {
+                  "path": "tests/test_paths/test_bids.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 497,
+            "title": "Add src and test dirs to gh actions triggers",
+            "state": "MERGED",
+            "createdAt": "2026-02-13T17:14:38Z",
+            "mergedAt": "2026-02-13T17:15:20Z",
+            "author": {
+              "login": "pvandyken"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/test.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 496,
+            "title": "[.github/workflows]: Bump the github-actions group across 1 directory with 7 updates",
+            "state": "MERGED",
+            "createdAt": "2026-02-13T17:08:37Z",
+            "mergedAt": "2026-02-18T04:35:57Z",
+            "author": {
+              "login": "dependabot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/autoupdate-release-draft.yml"
+                },
+                {
+                  "path": ".github/workflows/codespell.yml"
+                },
+                {
+                  "path": ".github/workflows/deploy.yml"
+                },
+                {
+                  "path": ".github/workflows/nightly.yml"
+                },
+                {
+                  "path": ".github/workflows/pr.yml"
+                },
+                {
+                  "path": ".github/workflows/release_drafter.yml"
+                },
+                {
+                  "path": ".github/workflows/test.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 495,
+            "title": "Implement SnakemakeFormatter for optional BIDS entity templates",
+            "state": "MERGED",
+            "createdAt": "2026-02-12T15:23:21Z",
+            "mergedAt": "2026-02-18T16:09:03Z",
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakebids/utils/snakemake_templates.py"
+                },
+                {
+                  "path": "tests/test_snakemake_templates/__init__.py"
+                },
+                {
+                  "path": "tests/test_snakemake_templates/__init__.pyi"
+                },
+                {
+                  "path": "tests/test_snakemake_templates/test_snakemake_formatter.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 493
+                }
+              ]
+            }
+          },
+          {
+            "number": 494,
+            "title": "Add SnakemakeWildcards class for BIDS entity wildcard constraints",
+            "state": "MERGED",
+            "createdAt": "2026-02-12T15:22:33Z",
+            "mergedAt": "2026-02-18T18:51:16Z",
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakebids/utils/snakemake_templates.py"
+                },
+                {
+                  "path": "tests/test_snakemake_templates/strategies.py"
+                },
+                {
+                  "path": "tests/test_snakemake_templates/test_snakemake_formatter.py"
+                },
+                {
+                  "path": "tests/test_snakemake_templates/test_snakemake_wildcards.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 492
+                }
+              ]
+            }
+          },
+          {
+            "number": 490,
+            "title": "Add `BidsComponent.get()` for runtime file path retrieval with BIDS special wildcard support",
+            "state": "MERGED",
+            "createdAt": "2026-02-06T18:27:47Z",
+            "mergedAt": "2026-02-28T14:54:53Z",
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/snakebids/core/datasets.py"
+                },
+                {
+                  "path": "src/snakebids/utils/snakemake_templates.py"
+                },
+                {
+                  "path": "tests/test_datasets.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 488
+                }
+              ]
+            }
+          },
+          {
+            "number": 487,
+            "title": "Merge updated test timings",
+            "state": "MERGED",
+            "createdAt": "2025-12-02T04:02:35Z",
+            "mergedAt": "2025-12-05T15:05:21Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test_durations"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 485,
+            "title": "Add uv option for pytest",
+            "state": "MERGED",
+            "createdAt": "2025-11-28T16:30:37Z",
+            "mergedAt": "2025-11-28T16:57:57Z",
+            "author": {
+              "login": "Dhananjhay"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "containers/test-template/test-template.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 484,
+            "title": "Patch uv inside docker",
+            "state": "MERGED",
+            "createdAt": "2025-11-28T16:00:07Z",
+            "mergedAt": "2025-11-28T16:05:37Z",
+            "author": {
+              "login": "Dhananjhay"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "containers/test-template/Dockerfile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 483,
+            "title": "Create a venv inside docker before pip installing packages",
+            "state": "MERGED",
+            "createdAt": "2025-11-28T15:47:05Z",
+            "mergedAt": "2025-11-28T15:53:47Z",
+            "author": {
+              "login": "Dhananjhay"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "containers/test-template/Dockerfile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 482,
+            "title": "Fix CI tests",
+            "state": "MERGED",
+            "createdAt": "2025-11-26T14:34:21Z",
+            "mergedAt": "2025-11-28T15:22:24Z",
+            "author": {
+              "login": "Dhananjhay"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/auto_assign.yml"
+                },
+                {
+                  "path": "tests/test_template.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 481,
+            "title": "Add uv build option for template creation",
+            "state": "MERGED",
+            "createdAt": "2025-11-14T16:49:29Z",
+            "mergedAt": "2025-11-26T14:28:43Z",
+            "author": {
+              "login": "Dhananjhay"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "containers/test-template/Dockerfile"
+                },
+                {
+                  "path": "src/snakebids/project_template/copier.yaml"
+                },
+                {
+                  "path": "src/snakebids/project_template/{% if build_system != 'poetry' %}pyproject.toml{% endif %}.jinja"
+                },
+                {
+                  "path": "tests/test_template.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 480,
+            "title": "Merge updated test timings",
+            "state": "MERGED",
+            "createdAt": "2025-11-11T03:56:55Z",
+            "mergedAt": "2025-11-13T23:44:32Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test_durations"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 477,
+            "title": "Switch to UV and Update Python versions",
+            "state": "MERGED",
+            "createdAt": "2025-11-03T19:23:25Z",
+            "mergedAt": "2025-11-07T19:46:57Z",
+            "author": {
+              "login": "pvandyken"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/actions/install-uv/action.yaml"
+                },
+                {
+                  "path": ".github/workflows/deploy.yml"
+                },
+                {
+                  "path": ".github/workflows/nightly.yml"
+                },
+                {
+                  "path": ".github/workflows/release_drafter.yml"
+                },
+                {
+                  "path": ".github/workflows/test.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".python-version"
+                },
+                {
+                  "path": ".readthedocs.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/tutorial/tutorial.md"
+                },
+                {
+                  "path": "poetry.lock"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "scripts/update_bids.py"
+                },
+                {
+                  "path": "src/snakebids/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/_warningformat.py"
+                },
+                {
+                  "path": "src/snakebids/admin.py"
+                },
+                {
+                  "path": "src/snakebids/app.py"
+                },
+                {
+                  "path": "src/snakebids/bidsapp/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/bidsapp/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/bidsapp/args.py"
+                },
+                {
+                  "path": "src/snakebids/bidsapp/hook.py"
+                },
+                {
+                  "path": "src/snakebids/bidsapp/hookspecs.py"
+                },
+                {
+                  "path": "src/snakebids/bidsapp/run.py"
+                },
+                {
+                  "path": "src/snakebids/cli.py"
+                },
+                {
+                  "path": "src/snakebids/core/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/core/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/core/_querying.py"
+                },
+                {
+                  "path": "src/snakebids/core/datasets.py"
+                },
+                {
+                  "path": "src/snakebids/core/filtering.py"
+                },
+                {
+                  "path": "src/snakebids/core/input_generation.py"
+                },
+                {
+                  "path": "src/snakebids/exceptions.py"
+                },
+                {
+                  "path": "src/snakebids/io/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/io/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/io/config.py"
+                },
+                {
+                  "path": "src/snakebids/io/console.py"
+                },
+                {
+                  "path": "src/snakebids/io/printing.py"
+                },
+                {
+                  "path": "src/snakebids/io/yaml.py"
+                },
+                {
+                  "path": "src/snakebids/jinja2_ext/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/jinja2_ext/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/jinja2_ext/colorama.py"
+                },
+                {
+                  "path": "src/snakebids/jinja2_ext/format_dep_spec.py"
+                },
+                {
+                  "path": "src/snakebids/jinja2_ext/snakebids_version.py"
+                },
+                {
+                  "path": "src/snakebids/jinja2_ext/toml_encode.py"
+                },
+                {
+                  "path": "src/snakebids/jinja2_ext/vcs.py"
+                },
+                {
+                  "path": "src/snakebids/paths/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/paths/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/paths/_config.py"
+                },
+                {
+                  "path": "src/snakebids/paths/_factory.py"
+                },
+                {
+                  "path": "src/snakebids/paths/_presets.py"
+                },
+                {
+                  "path": "src/snakebids/paths/_templates/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/paths/_templates/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/paths/_templates/spec_func.py"
+                },
+                {
+                  "path": "src/snakebids/paths/_utils.py"
+                },
+                {
+                  "path": "src/snakebids/paths/resources/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/paths/resources/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/paths/resources/spec.0.0.0.yaml"
+                },
+                {
+                  "path": "src/snakebids/paths/resources/spec.0.11.0.yaml"
+                },
+                {
+                  "path": "src/snakebids/paths/resources/spec.0.15.0.yaml"
+                },
+                {
+                  "path": "src/snakebids/paths/specs.py"
+                },
+                {
+                  "path": "src/snakebids/paths/specs.pyi"
+                },
+                {
+                  "path": "src/snakebids/plugins/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/plugins/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/plugins/base.py"
+                },
+                {
+                  "path": "src/snakebids/plugins/bidsargs.py"
+                },
+                {
+                  "path": "src/snakebids/plugins/cli_config.py"
+                },
+                {
+                  "path": "src/snakebids/plugins/component_edit.py"
+                },
+                {
+                  "path": "src/snakebids/plugins/pybidsdb.py"
+                },
+                {
+                  "path": "src/snakebids/plugins/snakemake.py"
+                },
+                {
+                  "path": "src/snakebids/plugins/validator.py"
+                },
+                {
+                  "path": "src/snakebids/plugins/version.py"
+                },
+                {
+                  "path": "src/snakebids/project_template/.gitignore"
+                },
+                {
+                  "path": "src/snakebids/project_template/README.md.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/copier.yaml"
+                },
+                {
+                  "path": "src/snakebids/project_template/tests/data/dataset_description.json"
+                },
+                {
+                  "path": "src/snakebids/project_template/tests/data/sub-001/anat/sub-001_T1w.nii.gz"
+                },
+                {
+                  "path": "src/snakebids/project_template/tests/data/sub-001/func/sub-001_task-rest_run-1_bold.nii.gz"
+                },
+                {
+                  "path": "src/snakebids/project_template/tests/data/sub-001/func/sub-001_task-rest_run-2_bold.nii.gz"
+                },
+                {
+                  "path": "src/snakebids/project_template/{% if build_system != 'poetry' %}pyproject.toml{% endif %}.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/{% if build_system == 'poetry' %}pyproject.toml{% endif %}.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/{% if build_system == 'setuptools' %}MANIFEST.in{% endif %}.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/{% if create_doc_template %}docs{% endif %}/conf.py.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/{% if create_doc_template %}docs{% endif %}/getting_started/installation.md.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/{% if create_doc_template %}docs{% endif %}/index.md"
+                },
+                {
+                  "path": "src/snakebids/project_template/{% if create_doc_template %}docs{% endif %}/requirements.txt.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/{% if create_doc_template %}docs{% endif %}/usage/app_cli.md.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/{% if create_doc_template %}docs{% endif %}/usage/snakemake_cli.md"
+                },
+                {
+                  "path": "src/snakebids/project_template/{{name_slug}}/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/project_template/{{name_slug}}/config/snakebids.yml"
+                },
+                {
+                  "path": "src/snakebids/project_template/{{name_slug}}/pipeline_description.json.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/{{name_slug}}/run.py.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/{{name_slug}}/workflow/Snakefile"
+                },
+                {
+                  "path": "src/snakebids/py.typed"
+                },
+                {
+                  "path": "src/snakebids/resources/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/resources/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/resources/bids_tags.json"
+                },
+                {
+                  "path": "src/snakebids/snakemake_compat.py"
+                },
+                {
+                  "path": "src/snakebids/snakemake_compat.pyi"
+                },
+                {
+                  "path": "src/snakebids/types.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 476,
+            "title": "Refactor minimal input generation",
+            "state": "OPEN",
+            "createdAt": "2025-09-03T17:34:26Z",
+            "mergedAt": null,
+            "author": {
+              "login": "zihuaihuai"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "poetry.lock"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "snakebids/__init__.py"
+                },
+                {
+                  "path": "snakebids/core/input_generation.py"
+                },
+                {
+                  "path": "snakebids/paths/resources/spec.0.0.0.yaml"
+                },
+                {
+                  "path": "snakebids/pulp_compat.py"
+                },
+                {
+                  "path": "snakebids/snakenull.py"
+                },
+                {
+                  "path": "snakebids/tests/test_generate_inputs.py"
+                },
+                {
+                  "path": "snakebids/tests/test_snakenull.py"
+                },
+                {
+                  "path": "typings/bids/layout/index.pyi"
+                },
+                {
+                  "path": "typings/bids/layout/layout.pyi"
+                },
+                {
+                  "path": "typings/bids/layout/models.pyi"
+                },
+                {
+                  "path": "typings/copier.pyi"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 475,
+            "title": "Add CI as a of project template",
+            "state": "OPEN",
+            "createdAt": "2025-08-28T15:10:56Z",
+            "mergedAt": null,
+            "author": {
+              "login": "Dhananjhay"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakebids/project_template/copier.yaml"
+                },
+                {
+                  "path": "snakebids/project_template/{% if build_system == 'poetry' %}.github{% endif %}/workflows/python-testing.yaml.jinja"
+                },
+                {
+                  "path": "snakebids/project_template/{% if build_system == 'poetry' %}poetry.lock{% endif %}.jinja"
+                },
+                {
+                  "path": "snakebids/project_template/{% if build_system == 'poetry' %}pyproject.toml{% endif %}.jinja"
+                },
+                {
+                  "path": "snakebids/project_template/{{name_slug}}/workflow/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 474,
+            "title": "Update _querying and participant-label filtering",
+            "state": "MERGED",
+            "createdAt": "2025-08-27T16:19:17Z",
+            "mergedAt": "2026-02-18T17:47:42Z",
+            "author": {
+              "login": "zihuaihuai"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "src/snakebids/core/_querying.py"
+                },
+                {
+                  "path": "src/snakebids/core/input_generation.py"
+                },
+                {
+                  "path": "tests/helpers.py"
+                },
+                {
+                  "path": "tests/test_generate_inputs.py"
+                },
+                {
+                  "path": "tests/test_querying.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 473,
+            "title": "Fix failing tests",
+            "state": "CLOSED",
+            "createdAt": "2025-08-27T16:07:24Z",
+            "mergedAt": null,
+            "author": {
+              "login": "zihuaihuai"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/bids_app/config_snakenull.md"
+                },
+                {
+                  "path": "docs/bids_app/overview.md"
+                },
+                {
+                  "path": "docs/tutorial/tutorial.md"
+                },
+                {
+                  "path": "snakebids/core/input_generation.py"
+                },
+                {
+                  "path": "snakebids/snakenull.py"
+                },
+                {
+                  "path": "snakebids/tests/test_snakenull.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 472,
+            "title": "fix: resolve entity/tag mapping regression in input generation",
+            "state": "MERGED",
+            "createdAt": "2025-08-25T20:54:00Z",
+            "mergedAt": "2025-08-25T22:06:25Z",
+            "author": {
+              "login": "zihuaihuai"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakebids/core/input_generation.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 471,
+            "title": "Fix failing tests",
+            "state": "MERGED",
+            "createdAt": "2025-08-25T18:10:55Z",
+            "mergedAt": "2025-08-25T18:18:09Z",
+            "author": {
+              "login": "jordandekraker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakebids/core/input_generation.py"
+                },
+                {
+                  "path": "snakebids/snakenull.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 470,
+            "title": "normalize mixed/absent entities with a configurable “snakenull” label",
+            "state": "CLOSED",
+            "createdAt": "2025-08-15T16:20:05Z",
+            "mergedAt": null,
+            "author": {
+              "login": "jordandekraker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/bids_app/config_snakenull.md"
+                },
+                {
+                  "path": "docs/bids_app/overview.md"
+                },
+                {
+                  "path": "docs/tutorial/tutorial.md"
+                },
+                {
+                  "path": "snakebids/core/input_generation.py"
+                },
+                {
+                  "path": "snakebids/snakenull.py"
+                },
+                {
+                  "path": "snakebids/tests/test_snakenull.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 468,
+            "title": "add uv package manager option",
+            "state": "CLOSED",
+            "createdAt": "2025-04-21T15:42:52Z",
+            "mergedAt": null,
+            "author": {
+              "login": "Dhananjhay"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/actions/install-uv/action.yaml"
+                },
+                {
+                  "path": ".github/workflows/deploy.yml"
+                },
+                {
+                  "path": ".github/workflows/nightly.yml"
+                },
+                {
+                  "path": ".github/workflows/release_drafter.yml"
+                },
+                {
+                  "path": ".github/workflows/test.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".python-version"
+                },
+                {
+                  "path": ".readthedocs.yml"
+                },
+                {
+                  "path": ".test_durations"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/tutorial/tutorial.md"
+                },
+                {
+                  "path": "poetry.lock"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "scripts/update_bids.py"
+                },
+                {
+                  "path": "src/snakebids/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/_warningformat.py"
+                },
+                {
+                  "path": "src/snakebids/admin.py"
+                },
+                {
+                  "path": "src/snakebids/app.py"
+                },
+                {
+                  "path": "src/snakebids/bidsapp/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/bidsapp/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/bidsapp/args.py"
+                },
+                {
+                  "path": "src/snakebids/bidsapp/hook.py"
+                },
+                {
+                  "path": "src/snakebids/bidsapp/hookspecs.py"
+                },
+                {
+                  "path": "src/snakebids/bidsapp/run.py"
+                },
+                {
+                  "path": "src/snakebids/cli.py"
+                },
+                {
+                  "path": "src/snakebids/core/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/core/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/core/_querying.py"
+                },
+                {
+                  "path": "src/snakebids/core/datasets.py"
+                },
+                {
+                  "path": "src/snakebids/core/filtering.py"
+                },
+                {
+                  "path": "src/snakebids/core/input_generation.py"
+                },
+                {
+                  "path": "src/snakebids/exceptions.py"
+                },
+                {
+                  "path": "src/snakebids/io/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/io/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/io/config.py"
+                },
+                {
+                  "path": "src/snakebids/io/console.py"
+                },
+                {
+                  "path": "src/snakebids/io/printing.py"
+                },
+                {
+                  "path": "src/snakebids/io/yaml.py"
+                },
+                {
+                  "path": "src/snakebids/jinja2_ext/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/jinja2_ext/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/jinja2_ext/colorama.py"
+                },
+                {
+                  "path": "src/snakebids/jinja2_ext/format_dep_spec.py"
+                },
+                {
+                  "path": "src/snakebids/jinja2_ext/snakebids_version.py"
+                },
+                {
+                  "path": "src/snakebids/jinja2_ext/toml_encode.py"
+                },
+                {
+                  "path": "src/snakebids/jinja2_ext/vcs.py"
+                },
+                {
+                  "path": "src/snakebids/paths/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/paths/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/paths/_config.py"
+                },
+                {
+                  "path": "src/snakebids/paths/_factory.py"
+                },
+                {
+                  "path": "src/snakebids/paths/_presets.py"
+                },
+                {
+                  "path": "src/snakebids/paths/_templates/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/paths/_templates/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/paths/_templates/spec_func.py"
+                },
+                {
+                  "path": "src/snakebids/paths/_utils.py"
+                },
+                {
+                  "path": "src/snakebids/paths/resources/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/paths/resources/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/paths/resources/spec.0.0.0.yaml"
+                },
+                {
+                  "path": "src/snakebids/paths/resources/spec.0.11.0.yaml"
+                },
+                {
+                  "path": "src/snakebids/paths/resources/spec.0.15.0.yaml"
+                },
+                {
+                  "path": "src/snakebids/paths/specs.py"
+                },
+                {
+                  "path": "src/snakebids/paths/specs.pyi"
+                },
+                {
+                  "path": "src/snakebids/plugins/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/plugins/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/plugins/base.py"
+                },
+                {
+                  "path": "src/snakebids/plugins/bidsargs.py"
+                },
+                {
+                  "path": "src/snakebids/plugins/cli_config.py"
+                },
+                {
+                  "path": "src/snakebids/plugins/component_edit.py"
+                },
+                {
+                  "path": "src/snakebids/plugins/pybidsdb.py"
+                },
+                {
+                  "path": "src/snakebids/plugins/snakemake.py"
+                },
+                {
+                  "path": "src/snakebids/plugins/validator.py"
+                },
+                {
+                  "path": "src/snakebids/plugins/version.py"
+                },
+                {
+                  "path": "src/snakebids/project_template/.gitignore"
+                },
+                {
+                  "path": "src/snakebids/project_template/README.md.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/copier.yaml"
+                },
+                {
+                  "path": "src/snakebids/project_template/tests/data/dataset_description.json"
+                },
+                {
+                  "path": "src/snakebids/project_template/tests/data/sub-001/anat/sub-001_T1w.nii.gz"
+                },
+                {
+                  "path": "src/snakebids/project_template/tests/data/sub-001/func/sub-001_task-rest_run-1_bold.nii.gz"
+                },
+                {
+                  "path": "src/snakebids/project_template/tests/data/sub-001/func/sub-001_task-rest_run-2_bold.nii.gz"
+                },
+                {
+                  "path": "src/snakebids/project_template/{% if build_system != 'poetry' %}pyproject.toml{% endif %}.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/{% if build_system == 'poetry' %}pyproject.toml{% endif %}.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/{% if build_system == 'setuptools' %}MANIFEST.in{% endif %}.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/{% if create_doc_template %}docs{% endif %}/conf.py.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/{% if create_doc_template %}docs{% endif %}/getting_started/installation.md.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/{% if create_doc_template %}docs{% endif %}/index.md"
+                },
+                {
+                  "path": "src/snakebids/project_template/{% if create_doc_template %}docs{% endif %}/requirements.txt.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/{% if create_doc_template %}docs{% endif %}/usage/app_cli.md.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/{% if create_doc_template %}docs{% endif %}/usage/snakemake_cli.md"
+                },
+                {
+                  "path": "src/snakebids/project_template/{{name_slug}}/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/project_template/{{name_slug}}/config/snakebids.yml"
+                },
+                {
+                  "path": "src/snakebids/project_template/{{name_slug}}/pipeline_description.json.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/{{name_slug}}/run.py.jinja"
+                },
+                {
+                  "path": "src/snakebids/project_template/{{name_slug}}/workflow/Snakefile"
+                },
+                {
+                  "path": "src/snakebids/py.typed"
+                },
+                {
+                  "path": "src/snakebids/resources/__init__.py"
+                },
+                {
+                  "path": "src/snakebids/resources/__init__.pyi"
+                },
+                {
+                  "path": "src/snakebids/resources/bids_tags.json"
+                },
+                {
+                  "path": "src/snakebids/snakemake_compat.py"
+                },
+                {
+                  "path": "src/snakebids/snakemake_compat.pyi"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 467,
+            "title": "upgrade pybids to next version",
+            "state": "CLOSED",
+            "createdAt": "2025-03-18T17:52:12Z",
+            "mergedAt": null,
+            "author": {
+              "login": "akhanf"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "poetry.lock"
+                },
+                {
+                  "path": "pyproject.toml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

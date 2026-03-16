@@ -1,0 +1,65 @@
+/*
+
+Copyright (c) 2026 Pierre Lindenbaum
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+The MIT License (MIT)
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*/
+
+/**
+
+ workflow just to test if nodes are OK
+
+*/
+
+workflow {
+    SLEEP(Channel.of(1..120).flatMap())
+    COWSAY(Channel.of("Hello", "Hi", "Hay", "Namaste", "Hayy", "Hey", "Heyy", "Heya", "Hilo", "Hiya", "Hallo", "Alola","A","N","C"))
+}
+
+process SLEEP {
+label "process_single"
+tag "${seconds}"
+cpus 4
+input:
+    val(seconds)
+output:
+    path("*.txt"),emit:time
+script:
+    def prefix=task.ext.prefix?:"sleep"
+"""
+hostname 1>&2
+pwd 1>&2
+sleep ${seconds}
+echo "${seconds}" > "${prefix}.${seconds}.txt"
+"""
+}
+
+process COWSAY {
+tag "${msg}"
+label "process_single"
+conda "conda-forge::cowpy"
+input:
+	val(msg)
+script:
+"""
+cowpy "${msg}" > msg.txt
+"""
+}

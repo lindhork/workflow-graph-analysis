@@ -1,0 +1,122 @@
+
+##### global workflow dependencies #####
+# conda: "envs/global.yaml"
+
+# libraries
+import yaml
+import pandas as pd
+import os
+from snakemake.utils import validate, min_version
+import json
+import csv
+import sys
+import subprocess
+
+##### module name #####
+module_name = "enrichment_analysis"
+
+##### set minimum snakemake version #####
+min_version("8.20.1")
+
+##### setup report #####
+report: "report/workflow.rst"
+
+##### load config and annotation #####
+configfile: os.path.join("config","config.yaml")
+
+### get annotations 
+### for three data types: query genes, query regions and background regions (to be converted to genes)
+annot = pd.read_csv(config["annotation"], index_col='name')
+
+# gene sets for ORA
+genes = annot.loc[annot['features_path'].str.endswith('.txt'),:]
+genes_dict = genes.to_dict('index')
+
+# ranked genes for preranked GSEA
+rnk = annot.loc[annot['features_path'].str.endswith('.csv'),:]
+rnk_dict = rnk.to_dict('index')
+
+# regions for GREAT & LOLA
+regions = annot.loc[annot['features_path'].str.endswith('.bed'),:]
+regions_dict = regions.to_dict('index')
+
+# background regions
+background_region_df = regions.loc[:,['background_name', 'background_path']]
+background_region_df = background_region_df.drop_duplicates()
+background_regions_dict = background_region_df.set_index('background_name').to_dict('index')
+
+# databases
+# load local database (JSON and GMT) dictionary and keep only non-empty
+database_dict = config["local_databases"]
+database_dict = {k: v for k, v in database_dict.items() if v!=""}
+
+# load LOLA database dictionary and keep only non-empty
+lola_db_dict = config["lola_databases"]
+lola_db_dict = {k: v for k, v in lola_db_dict.items() if v!=""}
+
+# load pycisTarget databases dictionary and keep only non-empty
+pycistarget_db_dict = config["pycistarget_parameters"]["databases"]
+pycistarget_db_dict = {k: v for k, v in pycistarget_db_dict.items() if v!=""}
+
+# load RcisTarget databases dictionary and keep only non-empty
+rcistarget_db_dict = config["rcistarget_parameters"]["databases"]
+rcistarget_db_dict = {k: v for k, v in rcistarget_db_dict.items() if v!=""}
+
+##### set global variables
+result_path = os.path.join(config["result_path"], module_name)
+
+##### target rules #####
+rule all:
+    input:
+        # region enrichment analyses
+        expand(os.path.join(result_path, '{region_set}', 'LOLA','{db}','{region_set}_{db}.csv'), region_set=regions_dict.keys(), db=lola_db_dict.keys()),
+        expand(os.path.join(result_path, '{region_set}', 'LOLA','{db}','{region_set}_{db}.png'), region_set=regions_dict.keys(), db=lola_db_dict.keys()),
+        expand(os.path.join(result_path, '{region_set}', 'GREAT','{db}','{region_set}_{db}.csv'), region_set=regions_dict.keys(), db=database_dict.keys()),
+        expand(os.path.join(result_path, '{region_set}', 'GREAT','{db}','{region_set}_{db}.png'), region_set=regions_dict.keys(), db=database_dict.keys()),
+        expand(os.path.join(result_path, '{background_region_set}', 'GREAT','genes.txt'), background_region_set=background_regions_dict.keys()),
+        expand(os.path.join(result_path, '{region_set}', 'pycisTarget','{db}','{region_set}_{db}.csv'), region_set=regions_dict.keys(), db=pycistarget_db_dict.keys()),
+        expand(os.path.join(result_path, '{region_set}', 'pycisTarget','{db}','{region_set}_{db}.png'), region_set=regions_dict.keys(), db=pycistarget_db_dict.keys()),
+        # gene enrichment analyses for mapped region - ORA_GSEApy
+        expand(os.path.join(result_path, '{region_set}', 'ORA_GSEApy','{db}','{region_set}_{db}.csv'), region_set=regions_dict.keys(), db=database_dict.keys()),
+        expand(os.path.join(result_path, '{region_set}', 'ORA_GSEApy','{db}','{region_set}_{db}.png'), region_set=regions_dict.keys(), db=database_dict.keys()),
+        # gene enrichment analyses for mapped region - RcisTarget
+        expand(os.path.join(result_path, '{region_set}', 'RcisTarget','{db}','{region_set}_{db}.csv'), region_set=regions_dict.keys(), db=rcistarget_db_dict.keys()),
+        expand(os.path.join(result_path, '{region_set}', 'RcisTarget','{db}','{region_set}_{db}.png'), region_set=regions_dict.keys(), db=rcistarget_db_dict.keys()),
+        # gene enrichment analyses - ORA
+        expand(os.path.join(result_path, '{gene_set}', 'ORA_GSEApy','{db}','{gene_set}_{db}.csv'), gene_set=genes_dict.keys(), db=database_dict.keys()),
+        expand(os.path.join(result_path, '{gene_set}', 'ORA_GSEApy','{db}','{gene_set}_{db}.png'), gene_set=genes_dict.keys(), db=database_dict.keys()),
+        # gene TFBS motif enrichment analyses - RcisTarget
+        expand(os.path.join(result_path, '{gene_set}', 'RcisTarget','{db}','{gene_set}_{db}.csv'), gene_set=genes_dict.keys(), db=rcistarget_db_dict.keys()),
+        expand(os.path.join(result_path, '{gene_set}', 'RcisTarget','{db}','{gene_set}_{db}.png'), gene_set=genes_dict.keys(), db=rcistarget_db_dict.keys()),
+        # gene enrichment analyses - preranked
+        expand(os.path.join(result_path, '{gene_set}', 'preranked_GSEApy','{db}','{gene_set}_{db}.csv'), gene_set=rnk_dict.keys(), db=database_dict.keys()),
+        expand(os.path.join(result_path, '{gene_set}', 'preranked_GSEApy','{db}','{gene_set}_{db}.png'), gene_set=rnk_dict.keys(), db=database_dict.keys()),
+        # summaries
+        expand(os.path.join(result_path,'{group}','{tool}','{db}','{group}_{db}_summary_topTerms.png'),group=list(set(genes["group"].tolist()+regions["group"].tolist())), tool='ORA_GSEApy', db=database_dict.keys()),
+        expand(os.path.join(result_path,'{group}','{tool}','{db}','{group}_{db}_summary_specificTerms.png'),group=list(set(genes["group"].tolist()+regions["group"].tolist())), tool='ORA_GSEApy', db=database_dict.keys()),
+        expand(os.path.join(result_path,'{group}','{tool}','{db}','{group}_{db}_summary_topTerms.png'),group=rnk["group"].unique(), tool='preranked_GSEApy', db=database_dict.keys()),
+        expand(os.path.join(result_path,'{group}','{tool}','{db}','{group}_{db}_summary_specificTerms.png'),group=rnk["group"].unique(), tool='preranked_GSEApy', db=database_dict.keys()),
+        expand(os.path.join(result_path,'{group}','{tool}','{db}','{group}_{db}_summary_topTerms.png'),group=regions["group"].unique(), tool='GREAT', db=database_dict.keys()),
+        expand(os.path.join(result_path,'{group}','{tool}','{db}','{group}_{db}_summary_specificTerms.png'),group=regions["group"].unique(), tool='GREAT', db=database_dict.keys()),
+        expand(os.path.join(result_path,'{group}','{tool}','{db}','{group}_{db}_summary_topTerms.png'),group=regions["group"].unique(), tool='LOLA', db=lola_db_dict.keys()),
+        expand(os.path.join(result_path,'{group}','{tool}','{db}','{group}_{db}_summary_specificTerms.png'),group=regions["group"].unique(), tool='LOLA', db=lola_db_dict.keys()),
+        expand(os.path.join(result_path,'{group}','{tool}','{db}','{group}_{db}_summary_topTerms.png'),group=regions["group"].unique(), tool='pycisTarget', db=pycistarget_db_dict.keys()),
+        expand(os.path.join(result_path,'{group}','{tool}','{db}','{group}_{db}_summary_specificTerms.png'),group=regions["group"].unique(), tool='pycisTarget', db=pycistarget_db_dict.keys()),
+        expand(os.path.join(result_path,'{group}','{tool}','{db}','{group}_{db}_summary_topTerms.png'),group=list(set(genes["group"].tolist()+regions["group"].tolist())), tool='RcisTarget', db=rcistarget_db_dict.keys()),
+        expand(os.path.join(result_path,'{group}','{tool}','{db}','{group}_{db}_summary_specificTerms.png'),group=list(set(genes["group"].tolist()+regions["group"].tolist())), tool='RcisTarget', db=rcistarget_db_dict.keys()),
+        # config
+        envs = expand(os.path.join(result_path,'envs','{env}.yaml'),env=['region_enrichment_analysis','gene_enrichment_analysis','visualization','pycisTarget','RcisTarget']),
+        configs = os.path.join(result_path,'configs','{}_config.yaml'.format(config["project_name"])),
+        annotations = os.path.join(result_path,'configs','{}_annot.csv'.format(config["project_name"])),
+    threads: config.get("threads", 1)
+    resources:
+        mem_mb=config.get("mem", "16000"),
+    log:
+        os.path.join("logs","rules","all.log")
+
+##### load rules #####
+include: os.path.join("rules", "common.smk")
+include: os.path.join("rules", "resources.smk")
+include: os.path.join("rules", "enrichment_analysis.smk")
+include: os.path.join("rules", "aggregate.smk")
+include: os.path.join("rules", "envs_export.smk")

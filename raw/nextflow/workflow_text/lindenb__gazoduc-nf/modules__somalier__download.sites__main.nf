@@ -1,0 +1,83 @@
+/*
+
+Copyright (c) 2026 Pierre Lindenbaum
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+The MIT License (MIT)
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*/
+process SOMALIER_DOWNLOAD_SITES {
+tag "${meta1.id?:fasta.name}"
+label "process_single"
+afterScript "rm -rf TMP"
+conda "${moduleDir}/../../../conda/bioinfo.01.yml"
+input:
+	tuple val(meta1),path(fasta)
+	tuple val(meta2),path(fai)
+	tuple val(meta3),path(dict)
+output:
+	tuple val(meta1),path("*.vcf.gz"),path("*.vcf.gz.tbi"),emit:vcf
+	path("versions.yml"),emit:versions
+script:
+	def base = task.ext.base?:"https://github.com/brentp/somalier/files"
+	def prefix = task.ext.prefix?:"sites.${meta1.ucsc_name?:"undefined"}"
+	def url = task.ext.url?:""
+	def jvm = task.ext.jvm?:"-XX:-UsePerfData -Xmx${task.memory.giga}g -Djava.io.tmpdir=TMP"
+"""
+hostname 1>&2
+
+set -x
+mkdir -p TMP
+if ${!url.trim().isEmpty()}
+then
+	echo "${url}" > TMP/jeter.url
+elif ${meta1.ucsc_name=="hg38"}
+then
+	echo '${base}/3412456/sites.hg38.vcf.gz' > TMP/jeter.url
+elif ${meta1.ucsc_name=="hg19"}
+then
+	echo '${base}/3412453/sites.hg19.vcf.gz' > TMP/jeter.url
+else
+	echo "UNDEFINED BUILD URL for ${fasta.name}" 1>&2
+fi
+
+
+test -s TMP/jeter.url
+
+curl -L `cat TMP/jeter.url` |\\
+	gunzip -c |\\
+	jvarkit ${jvm} vcfsetdict -R "${fasta}"  --onNotFound SKIP |\\
+	bcftools sort -T TMP/sort -o TMP/${prefix}.vcf.gz -O z
+
+bcftools index -f -t TMP/${prefix}.vcf.gz
+
+mv -v TMP/${prefix}.* ./
+
+cat << EOF > versions.yml
+${task.process}:
+	URL: "\$(cat TMP/jeter.url)"
+	bcftools: todo
+	jvarkit: todo
+EOF
+"""
+stub:
+"""
+touch versions.yml sites.vcf.gz sites.vcf.gz.tbi
+"""
+}

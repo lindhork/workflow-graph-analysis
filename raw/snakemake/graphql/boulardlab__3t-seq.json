@@ -1,0 +1,1674 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 16,
+            "title": "Strand specificity: STAR & DESeq2",
+            "state": "OPEN",
+            "createdAt": "2025-12-01T13:47:55Z",
+            "closedAt": null,
+            "author": {
+              "login": "likorneeva"
+            }
+          },
+          {
+            "number": 9,
+            "title": "DESeq2 error ",
+            "state": "CLOSED",
+            "createdAt": "2024-04-26T11:25:34Z",
+            "closedAt": "2024-04-29T14:44:38Z",
+            "author": {
+              "login": "fsantilli"
+            }
+          },
+          {
+            "number": 8,
+            "title": "SalmonTE error when sample_sheet.csv has \"condition\" column",
+            "state": "OPEN",
+            "createdAt": "2024-04-22T16:05:39Z",
+            "closedAt": null,
+            "author": {
+              "login": "fsantilli"
+            }
+          },
+          {
+            "number": 7,
+            "title": "How to quantify transferable elements",
+            "state": "CLOSED",
+            "createdAt": "2024-03-16T08:08:46Z",
+            "closedAt": "2024-03-22T02:02:06Z",
+            "author": {
+              "login": "zhangwenda0518"
+            }
+          },
+          {
+            "number": 6,
+            "title": "Port SalmonTE part into 3t-seq",
+            "state": "OPEN",
+            "createdAt": "2024-03-14T09:33:41Z",
+            "closedAt": null,
+            "author": {
+              "login": "ftabaro"
+            }
+          },
+          {
+            "number": 4,
+            "title": "Validate genome label",
+            "state": "OPEN",
+            "createdAt": "2024-03-06T17:34:19Z",
+            "closedAt": null,
+            "author": {
+              "login": "ftabaro"
+            }
+          },
+          {
+            "number": 3,
+            "title": "Make tRNA and TE analysis optional",
+            "state": "CLOSED",
+            "createdAt": "2024-03-04T20:42:36Z",
+            "closedAt": "2024-03-06T17:31:00Z",
+            "author": {
+              "login": "ftabaro"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 15,
+            "title": "fix input sample name matching",
+            "state": "MERGED",
+            "createdAt": "2024-12-17T14:37:47Z",
+            "mergedAt": "2024-12-17T17:17:26Z",
+            "author": {
+              "login": "fsantilli"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".tests/integration/profile/config.yaml"
+                },
+                {
+                  "path": ".tests/unit/build_trna_coverage_matrix/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/common.py"
+                },
+                {
+                  "path": ".tests/unit/deseq2/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/deseq2_starTE_random/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/deseq2_tRNA/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/download_genome_annotation_file/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/download_genome_fasta_file/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/download_gtRNAdb/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/download_repeatmasker_annotation_file/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/edit_condition_file/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/fastqc_markdup/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/fastqc_raw/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/fastqc_raw/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/multiqc_markdup/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/multiqc_star/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/multiqc_trim/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795112_SRR9016958_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795112_SRR9016958_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795113_SRR9016959_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795113_SRR9016959_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795114_SRR9016960_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795114_SRR9016960_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795118_SRR9016964_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795118_SRR9016964_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795119_SRR9016965_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795119_SRR9016965_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/test_build_trna_coverage_matrix.py"
+                },
+                {
+                  "path": ".tests/unit/test_coverage.py"
+                },
+                {
+                  "path": ".tests/unit/test_coverage_trna.py"
+                },
+                {
+                  "path": ".tests/unit/test_datavzrd_single_copy_genes.py"
+                },
+                {
+                  "path": ".tests/unit/test_datavzrd_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_datavzrd_trna.py"
+                },
+                {
+                  "path": ".tests/unit/test_deseq2.py"
+                },
+                {
+                  "path": ".tests/unit/test_deseq2_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_deseq2_tRNA.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_genome_annotation_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_genome_fasta_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_gtRNAdb.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_repeatmasker_annotation_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_edit_condition_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_markdup.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_raw.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_star.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_trim_pe.py"
+                },
+                {
+                  "path": ".tests/unit/test_featureCounts_multihit.py"
+                },
+                {
+                  "path": ".tests/unit/test_featureCounts_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_filter_bam.py"
+                },
+                {
+                  "path": ".tests/unit/test_index_bam.py"
+                },
+                {
+                  "path": ".tests/unit/test_mk_genome_tsv.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_markdup.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_raw.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_star.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_trim.py"
+                },
+                {
+                  "path": ".tests/unit/test_picard_markdup.py"
+                },
+                {
+                  "path": ".tests/unit/test_salmonTE_quant.py"
+                },
+                {
+                  "path": ".tests/unit/test_salmonTE_test.py"
+                },
+                {
+                  "path": ".tests/unit/test_star.py"
+                },
+                {
+                  "path": ".tests/unit/test_starTE_multihit.py"
+                },
+                {
+                  "path": ".tests/unit/test_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_star_genome_preparation.py"
+                },
+                {
+                  "path": ".tests/unit/test_trimmomatic_pe.py"
+                },
+                {
+                  "path": ".tests/unit/test_validate_genome_and_annotation.py"
+                },
+                {
+                  "path": ".tests/unit/test_yte_single_copy_genes.py"
+                },
+                {
+                  "path": ".tests/unit/test_yte_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_yte_trna.py"
+                },
+                {
+                  "path": ".tests/unit/trimmomatic_pe/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/trimmomatic_pe/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/utils.py"
+                },
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "config/config-GSE130735.yaml"
+                },
+                {
+                  "path": "example/report.zip"
+                },
+                {
+                  "path": "profile/slurm-GSE130735/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/datavzrd/volcano-ma-plot.json"
+                },
+                {
+                  "path": "workflow/env/pandas.yml"
+                },
+                {
+                  "path": "workflow/env/wget.yml"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/star.smk"
+                },
+                {
+                  "path": "workflow/rules/starTE.smk"
+                },
+                {
+                  "path": "workflow/scripts/build_tRNA_coverage_matrix_v1.R"
+                },
+                {
+                  "path": "workflow/scripts/deseq2_starTE_random_v1.R"
+                },
+                {
+                  "path": "workflow/scripts/deseq2_trna_v1.R"
+                },
+                {
+                  "path": "workflow/scripts/deseq2_v1.R"
+                },
+                {
+                  "path": "workflow/scripts/get_rmsk.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 14,
+            "title": "Fix starTE matching and naming issues",
+            "state": "MERGED",
+            "createdAt": "2024-11-28T15:52:11Z",
+            "mergedAt": "2024-12-17T17:17:47Z",
+            "author": {
+              "login": "fsantilli"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".tests/integration/profile/config.yaml"
+                },
+                {
+                  "path": ".tests/unit/build_trna_coverage_matrix/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/common.py"
+                },
+                {
+                  "path": ".tests/unit/deseq2/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/deseq2_starTE_random/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/deseq2_tRNA/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/download_genome_annotation_file/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/download_genome_fasta_file/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/download_gtRNAdb/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/download_repeatmasker_annotation_file/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/edit_condition_file/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/fastqc_markdup/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/fastqc_raw/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/fastqc_raw/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/multiqc_markdup/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/multiqc_star/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/multiqc_trim/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795112_SRR9016958_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795112_SRR9016958_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795113_SRR9016959_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795113_SRR9016959_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795114_SRR9016960_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795114_SRR9016960_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795118_SRR9016964_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795118_SRR9016964_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795119_SRR9016965_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795119_SRR9016965_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/test_build_trna_coverage_matrix.py"
+                },
+                {
+                  "path": ".tests/unit/test_coverage.py"
+                },
+                {
+                  "path": ".tests/unit/test_coverage_trna.py"
+                },
+                {
+                  "path": ".tests/unit/test_datavzrd_single_copy_genes.py"
+                },
+                {
+                  "path": ".tests/unit/test_datavzrd_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_datavzrd_trna.py"
+                },
+                {
+                  "path": ".tests/unit/test_deseq2.py"
+                },
+                {
+                  "path": ".tests/unit/test_deseq2_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_deseq2_tRNA.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_genome_annotation_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_genome_fasta_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_gtRNAdb.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_repeatmasker_annotation_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_edit_condition_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_markdup.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_raw.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_star.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_trim_pe.py"
+                },
+                {
+                  "path": ".tests/unit/test_featureCounts_multihit.py"
+                },
+                {
+                  "path": ".tests/unit/test_featureCounts_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_filter_bam.py"
+                },
+                {
+                  "path": ".tests/unit/test_index_bam.py"
+                },
+                {
+                  "path": ".tests/unit/test_mk_genome_tsv.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_markdup.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_raw.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_star.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_trim.py"
+                },
+                {
+                  "path": ".tests/unit/test_picard_markdup.py"
+                },
+                {
+                  "path": ".tests/unit/test_salmonTE_quant.py"
+                },
+                {
+                  "path": ".tests/unit/test_salmonTE_test.py"
+                },
+                {
+                  "path": ".tests/unit/test_star.py"
+                },
+                {
+                  "path": ".tests/unit/test_starTE_multihit.py"
+                },
+                {
+                  "path": ".tests/unit/test_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_star_genome_preparation.py"
+                },
+                {
+                  "path": ".tests/unit/test_trimmomatic_pe.py"
+                },
+                {
+                  "path": ".tests/unit/test_validate_genome_and_annotation.py"
+                },
+                {
+                  "path": ".tests/unit/test_yte_single_copy_genes.py"
+                },
+                {
+                  "path": ".tests/unit/test_yte_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_yte_trna.py"
+                },
+                {
+                  "path": ".tests/unit/trimmomatic_pe/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/trimmomatic_pe/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/utils.py"
+                },
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "config/config-GSE130735.yaml"
+                },
+                {
+                  "path": "example/report.zip"
+                },
+                {
+                  "path": "profile/slurm-GSE130735/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/datavzrd/volcano-ma-plot.json"
+                },
+                {
+                  "path": "workflow/env/pandas.yml"
+                },
+                {
+                  "path": "workflow/env/wget.yml"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/star.smk"
+                },
+                {
+                  "path": "workflow/rules/starTE.smk"
+                },
+                {
+                  "path": "workflow/scripts/build_tRNA_coverage_matrix_v1.R"
+                },
+                {
+                  "path": "workflow/scripts/deseq2_starTE_random_v1.R"
+                },
+                {
+                  "path": "workflow/scripts/deseq2_trna_v1.R"
+                },
+                {
+                  "path": "workflow/scripts/deseq2_v1.R"
+                },
+                {
+                  "path": "workflow/scripts/get_rmsk.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 13,
+            "title": "Fix matching of sample names in DESeq2.R script",
+            "state": "MERGED",
+            "createdAt": "2024-11-28T15:49:06Z",
+            "mergedAt": "2024-12-17T17:18:04Z",
+            "author": {
+              "login": "fsantilli"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".tests/integration/profile/config.yaml"
+                },
+                {
+                  "path": ".tests/unit/build_trna_coverage_matrix/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/common.py"
+                },
+                {
+                  "path": ".tests/unit/deseq2/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/deseq2_starTE_random/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/deseq2_tRNA/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/download_genome_annotation_file/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/download_genome_fasta_file/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/download_gtRNAdb/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/download_repeatmasker_annotation_file/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/edit_condition_file/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/fastqc_markdup/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/fastqc_raw/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/fastqc_raw/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/multiqc_markdup/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/multiqc_star/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/multiqc_trim/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795112_SRR9016958_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795112_SRR9016958_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795113_SRR9016959_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795113_SRR9016959_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795114_SRR9016960_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795114_SRR9016960_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795118_SRR9016964_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795118_SRR9016964_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795119_SRR9016965_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795119_SRR9016965_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/test_build_trna_coverage_matrix.py"
+                },
+                {
+                  "path": ".tests/unit/test_coverage.py"
+                },
+                {
+                  "path": ".tests/unit/test_coverage_trna.py"
+                },
+                {
+                  "path": ".tests/unit/test_datavzrd_single_copy_genes.py"
+                },
+                {
+                  "path": ".tests/unit/test_datavzrd_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_datavzrd_trna.py"
+                },
+                {
+                  "path": ".tests/unit/test_deseq2.py"
+                },
+                {
+                  "path": ".tests/unit/test_deseq2_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_deseq2_tRNA.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_genome_annotation_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_genome_fasta_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_gtRNAdb.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_repeatmasker_annotation_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_edit_condition_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_markdup.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_raw.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_star.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_trim_pe.py"
+                },
+                {
+                  "path": ".tests/unit/test_featureCounts_multihit.py"
+                },
+                {
+                  "path": ".tests/unit/test_featureCounts_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_filter_bam.py"
+                },
+                {
+                  "path": ".tests/unit/test_index_bam.py"
+                },
+                {
+                  "path": ".tests/unit/test_mk_genome_tsv.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_markdup.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_raw.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_star.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_trim.py"
+                },
+                {
+                  "path": ".tests/unit/test_picard_markdup.py"
+                },
+                {
+                  "path": ".tests/unit/test_salmonTE_quant.py"
+                },
+                {
+                  "path": ".tests/unit/test_salmonTE_test.py"
+                },
+                {
+                  "path": ".tests/unit/test_star.py"
+                },
+                {
+                  "path": ".tests/unit/test_starTE_multihit.py"
+                },
+                {
+                  "path": ".tests/unit/test_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_star_genome_preparation.py"
+                },
+                {
+                  "path": ".tests/unit/test_trimmomatic_pe.py"
+                },
+                {
+                  "path": ".tests/unit/test_validate_genome_and_annotation.py"
+                },
+                {
+                  "path": ".tests/unit/test_yte_single_copy_genes.py"
+                },
+                {
+                  "path": ".tests/unit/test_yte_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_yte_trna.py"
+                },
+                {
+                  "path": ".tests/unit/trimmomatic_pe/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/trimmomatic_pe/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/utils.py"
+                },
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "config/config-GSE130735.yaml"
+                },
+                {
+                  "path": "example/report.zip"
+                },
+                {
+                  "path": "profile/slurm-GSE130735/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/datavzrd/volcano-ma-plot.json"
+                },
+                {
+                  "path": "workflow/env/pandas.yml"
+                },
+                {
+                  "path": "workflow/env/wget.yml"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/star.smk"
+                },
+                {
+                  "path": "workflow/rules/starTE.smk"
+                },
+                {
+                  "path": "workflow/scripts/build_tRNA_coverage_matrix_v1.R"
+                },
+                {
+                  "path": "workflow/scripts/deseq2_starTE_random_v1.R"
+                },
+                {
+                  "path": "workflow/scripts/deseq2_trna_v1.R"
+                },
+                {
+                  "path": "workflow/scripts/deseq2_v1.R"
+                },
+                {
+                  "path": "workflow/scripts/get_rmsk.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 12,
+            "title": "Fix bug gtRNAdb",
+            "state": "MERGED",
+            "createdAt": "2024-11-28T15:46:02Z",
+            "mergedAt": "2024-12-17T17:18:21Z",
+            "author": {
+              "login": "fsantilli"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".tests/integration/profile/config.yaml"
+                },
+                {
+                  "path": ".tests/unit/build_trna_coverage_matrix/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/common.py"
+                },
+                {
+                  "path": ".tests/unit/deseq2/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/deseq2_starTE_random/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/deseq2_tRNA/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/download_genome_annotation_file/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/download_genome_fasta_file/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/download_gtRNAdb/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/download_repeatmasker_annotation_file/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/edit_condition_file/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/fastqc_markdup/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/fastqc_raw/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/fastqc_raw/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/multiqc_markdup/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/multiqc_star/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/multiqc_trim/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795112_SRR9016958_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795112_SRR9016958_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795113_SRR9016959_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795113_SRR9016959_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795114_SRR9016960_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795114_SRR9016960_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795118_SRR9016964_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795118_SRR9016964_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795119_SRR9016965_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795119_SRR9016965_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/test_build_trna_coverage_matrix.py"
+                },
+                {
+                  "path": ".tests/unit/test_coverage.py"
+                },
+                {
+                  "path": ".tests/unit/test_coverage_trna.py"
+                },
+                {
+                  "path": ".tests/unit/test_datavzrd_single_copy_genes.py"
+                },
+                {
+                  "path": ".tests/unit/test_datavzrd_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_datavzrd_trna.py"
+                },
+                {
+                  "path": ".tests/unit/test_deseq2.py"
+                },
+                {
+                  "path": ".tests/unit/test_deseq2_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_deseq2_tRNA.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_genome_annotation_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_genome_fasta_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_gtRNAdb.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_repeatmasker_annotation_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_edit_condition_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_markdup.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_raw.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_star.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_trim_pe.py"
+                },
+                {
+                  "path": ".tests/unit/test_featureCounts_multihit.py"
+                },
+                {
+                  "path": ".tests/unit/test_featureCounts_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_filter_bam.py"
+                },
+                {
+                  "path": ".tests/unit/test_index_bam.py"
+                },
+                {
+                  "path": ".tests/unit/test_mk_genome_tsv.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_markdup.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_raw.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_star.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_trim.py"
+                },
+                {
+                  "path": ".tests/unit/test_picard_markdup.py"
+                },
+                {
+                  "path": ".tests/unit/test_salmonTE_quant.py"
+                },
+                {
+                  "path": ".tests/unit/test_salmonTE_test.py"
+                },
+                {
+                  "path": ".tests/unit/test_star.py"
+                },
+                {
+                  "path": ".tests/unit/test_starTE_multihit.py"
+                },
+                {
+                  "path": ".tests/unit/test_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_star_genome_preparation.py"
+                },
+                {
+                  "path": ".tests/unit/test_trimmomatic_pe.py"
+                },
+                {
+                  "path": ".tests/unit/test_validate_genome_and_annotation.py"
+                },
+                {
+                  "path": ".tests/unit/test_yte_single_copy_genes.py"
+                },
+                {
+                  "path": ".tests/unit/test_yte_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_yte_trna.py"
+                },
+                {
+                  "path": ".tests/unit/trimmomatic_pe/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/trimmomatic_pe/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/utils.py"
+                },
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "config/config-GSE130735.yaml"
+                },
+                {
+                  "path": "example/report.zip"
+                },
+                {
+                  "path": "profile/slurm-GSE130735/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/datavzrd/volcano-ma-plot.json"
+                },
+                {
+                  "path": "workflow/env/pandas.yml"
+                },
+                {
+                  "path": "workflow/env/wget.yml"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/coverage_tRNA.smk"
+                },
+                {
+                  "path": "workflow/rules/star.smk"
+                },
+                {
+                  "path": "workflow/rules/starTE.smk"
+                },
+                {
+                  "path": "workflow/scripts/build_tRNA_coverage_matrix_v1.R"
+                },
+                {
+                  "path": "workflow/scripts/coverage_trna.sh"
+                },
+                {
+                  "path": "workflow/scripts/deseq2_starTE_random_v1.R"
+                },
+                {
+                  "path": "workflow/scripts/deseq2_trna_v1.R"
+                },
+                {
+                  "path": "workflow/scripts/deseq2_v1.R"
+                },
+                {
+                  "path": "workflow/scripts/get_rmsk.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 11,
+            "title": "chore(main): release 1.2.0",
+            "state": "OPEN",
+            "createdAt": "2024-05-14T15:15:44Z",
+            "mergedAt": null,
+            "author": {
+              "login": "ftabaro"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 10,
+            "title": "Major update",
+            "state": "MERGED",
+            "createdAt": "2024-05-14T15:12:54Z",
+            "mergedAt": "2024-05-14T15:14:26Z",
+            "author": {
+              "login": "fsantilli"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitattributes"
+                },
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".tests/integration/GSE130735-subset/SRX5795112_SRR9016958_1.fq.gz"
+                },
+                {
+                  "path": ".tests/integration/GSE130735-subset/SRX5795112_SRR9016958_2.fq.gz"
+                },
+                {
+                  "path": ".tests/integration/GSE130735-subset/SRX5795113_SRR9016959_1.fq.gz"
+                },
+                {
+                  "path": ".tests/integration/GSE130735-subset/SRX5795113_SRR9016959_2.fq.gz"
+                },
+                {
+                  "path": ".tests/integration/GSE130735-subset/SRX5795114_SRR9016960_1.fq.gz"
+                },
+                {
+                  "path": ".tests/integration/GSE130735-subset/SRX5795114_SRR9016960_2.fq.gz"
+                },
+                {
+                  "path": ".tests/integration/GSE130735-subset/SRX5795117_SRR9016963_1.fq.gz"
+                },
+                {
+                  "path": ".tests/integration/GSE130735-subset/SRX5795117_SRR9016963_2.fq.gz"
+                },
+                {
+                  "path": ".tests/integration/GSE130735-subset/SRX5795118_SRR9016964_1.fq.gz"
+                },
+                {
+                  "path": ".tests/integration/GSE130735-subset/SRX5795118_SRR9016964_2.fq.gz"
+                },
+                {
+                  "path": ".tests/integration/GSE130735-subset/SRX5795119_SRR9016965_1.fq.gz"
+                },
+                {
+                  "path": ".tests/integration/GSE130735-subset/SRX5795119_SRR9016965_2.fq.gz"
+                },
+                {
+                  "path": ".tests/integration/config.yaml"
+                },
+                {
+                  "path": ".tests/integration/profile/config.yaml"
+                },
+                {
+                  "path": ".tests/integration/sample-sheet-original.csv"
+                },
+                {
+                  "path": ".tests/integration/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/build_trna_coverage_matrix/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/common.py"
+                },
+                {
+                  "path": ".tests/unit/deseq2/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/deseq2_starTE_random/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/deseq2_tRNA/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/download_genome_annotation_file/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/download_genome_fasta_file/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/download_gtRNAdb/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/download_repeatmasker_annotation_file/data/.gitempty"
+                },
+                {
+                  "path": ".tests/unit/edit_condition_file/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/fastqc_markdup/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/fastqc_raw/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/fastqc_raw/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/multiqc_markdup/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/multiqc_raw/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/multiqc_star/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/multiqc_trim/data/resources/sample-sheet.csv"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795112_SRR9016958_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795112_SRR9016958_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795113_SRR9016959_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795113_SRR9016959_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795114_SRR9016960_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795114_SRR9016960_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795118_SRR9016964_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795118_SRR9016964_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795119_SRR9016965_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/salmonTE_quant/data/scratch/tabaro/trim66-testis-paper-review/3t-seq/.tests/integration/GSE130735-subset/SRX5795119_SRR9016965_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/test_build_trna_coverage_matrix.py"
+                },
+                {
+                  "path": ".tests/unit/test_coverage.py"
+                },
+                {
+                  "path": ".tests/unit/test_coverage_trna.py"
+                },
+                {
+                  "path": ".tests/unit/test_datavzrd_single_copy_genes.py"
+                },
+                {
+                  "path": ".tests/unit/test_datavzrd_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_datavzrd_trna.py"
+                },
+                {
+                  "path": ".tests/unit/test_deseq2.py"
+                },
+                {
+                  "path": ".tests/unit/test_deseq2_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_deseq2_tRNA.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_genome_annotation_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_genome_fasta_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_gtRNAdb.py"
+                },
+                {
+                  "path": ".tests/unit/test_download_repeatmasker_annotation_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_edit_condition_file.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_markdup.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_raw.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_star.py"
+                },
+                {
+                  "path": ".tests/unit/test_fastqc_trim_pe.py"
+                },
+                {
+                  "path": ".tests/unit/test_featureCounts_multihit.py"
+                },
+                {
+                  "path": ".tests/unit/test_featureCounts_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_filter_bam.py"
+                },
+                {
+                  "path": ".tests/unit/test_index_bam.py"
+                },
+                {
+                  "path": ".tests/unit/test_mk_genome_tsv.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_markdup.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_raw.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_star.py"
+                },
+                {
+                  "path": ".tests/unit/test_multiqc_trim.py"
+                },
+                {
+                  "path": ".tests/unit/test_picard_markdup.py"
+                },
+                {
+                  "path": ".tests/unit/test_salmonTE_quant.py"
+                },
+                {
+                  "path": ".tests/unit/test_salmonTE_test.py"
+                },
+                {
+                  "path": ".tests/unit/test_star.py"
+                },
+                {
+                  "path": ".tests/unit/test_starTE_multihit.py"
+                },
+                {
+                  "path": ".tests/unit/test_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_star_genome_preparation.py"
+                },
+                {
+                  "path": ".tests/unit/test_trimmomatic_pe.py"
+                },
+                {
+                  "path": ".tests/unit/test_validate_genome_and_annotation.py"
+                },
+                {
+                  "path": ".tests/unit/test_yte_single_copy_genes.py"
+                },
+                {
+                  "path": ".tests/unit/test_yte_starTE_random.py"
+                },
+                {
+                  "path": ".tests/unit/test_yte_trna.py"
+                },
+                {
+                  "path": ".tests/unit/trimmomatic_pe/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_1.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/trimmomatic_pe/data/.tests/integration/GSE130735-subset/SRX5795117_SRR9016963_2.fq.gz"
+                },
+                {
+                  "path": ".tests/unit/utils.py"
+                },
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "images/rulegraph.svg"
+                },
+                {
+                  "path": "resources/sample-sheet.csv"
+                },
+                {
+                  "path": "tests/config-no-te.yaml"
+                },
+                {
+                  "path": "tests/config-no-trna-te.yaml"
+                },
+                {
+                  "path": "tests/config-no-trna.yaml"
+                },
+                {
+                  "path": "tests/profile/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/documentation.md"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 5,
+            "title": "chore(main): release 1.1.0",
+            "state": "MERGED",
+            "createdAt": "2024-03-12T17:15:55Z",
+            "mergedAt": "2024-03-15T09:18:35Z",
+            "author": {
+              "login": "ftabaro"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2,
+            "title": "chore(main): release 1.0.1",
+            "state": "MERGED",
+            "createdAt": "2024-03-04T17:29:21Z",
+            "mergedAt": "2024-03-11T20:53:25Z",
+            "author": {
+              "login": "ftabaro"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "tests/Dockerfile"
+                },
+                {
+                  "path": "tests/profile/config.yaml"
+                },
+                {
+                  "path": "workflow/env/pandas.yml"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/coverage_tRNA.smk"
+                },
+                {
+                  "path": "workflow/rules/deseq2.smk"
+                },
+                {
+                  "path": "workflow/rules/download-references.smk"
+                },
+                {
+                  "path": "workflow/rules/picard_markdup.smk"
+                },
+                {
+                  "path": "workflow/rules/star.smk"
+                },
+                {
+                  "path": "workflow/rules/starTE.smk"
+                },
+                {
+                  "path": "workflow/scripts/deseq2_v1.R"
+                },
+                {
+                  "path": "workflow/scripts/download-fasta.sh"
+                },
+                {
+                  "path": "workflow/scripts/download-gaf.sh"
+                },
+                {
+                  "path": "workflow/scripts/download-gtf.sh"
+                },
+                {
+                  "path": "workflow/scripts/download-gtrnadb.sh"
+                },
+                {
+                  "path": "workflow/scripts/validate_genome_and_annotation.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1,
+            "title": "chore(main): release 1.0.0",
+            "state": "MERGED",
+            "createdAt": "2023-11-17T09:45:20Z",
+            "mergedAt": "2023-11-17T10:43:12Z",
+            "author": {
+              "login": "ftabaro"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

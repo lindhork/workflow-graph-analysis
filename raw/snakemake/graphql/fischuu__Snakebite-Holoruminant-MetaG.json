@@ -1,0 +1,878 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 60,
+            "title": "[Expected results] sample test dataset",
+            "state": "OPEN",
+            "createdAt": "2026-03-02T13:39:34Z",
+            "closedAt": null,
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 59,
+            "title": "[Custom databases] Rumen databases",
+            "state": "OPEN",
+            "createdAt": "2026-03-02T13:18:29Z",
+            "closedAt": null,
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 58,
+            "title": "[mag_annotate - dram] warnings: \"annotation databases is missing\" and \"bin dereplicated_genomes was not found in taxonomy file\"",
+            "state": "OPEN",
+            "createdAt": "2026-03-02T09:36:37Z",
+            "closedAt": null,
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 57,
+            "title": "[Tool Addition] MAG and Contig Formatter for MetaX Compatibility",
+            "state": "OPEN",
+            "createdAt": "2026-02-12T08:54:56Z",
+            "closedAt": null,
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 56,
+            "title": "assemble__metaspades__run : limit parallelization",
+            "state": "CLOSED",
+            "createdAt": "2026-02-06T16:59:32Z",
+            "closedAt": "2026-02-07T06:32:40Z",
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 55,
+            "title": "« .done » file in the output",
+            "state": "CLOSED",
+            "createdAt": "2026-02-06T16:29:27Z",
+            "closedAt": "2026-02-07T05:27:44Z",
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 54,
+            "title": "rule mag_annotate__dram__distill : mv wrong path",
+            "state": "CLOSED",
+            "createdAt": "2026-02-06T16:10:39Z",
+            "closedAt": "2026-02-07T05:22:52Z",
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 53,
+            "title": "rule mag_annotate__dram_mag__distill : mv wrong path",
+            "state": "CLOSED",
+            "createdAt": "2026-02-06T16:02:12Z",
+            "closedAt": "2026-02-07T05:25:48Z",
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 52,
+            "title": "mag_annotate__camper__annotate / without nvme (so without copying DB)",
+            "state": "CLOSED",
+            "createdAt": "2026-02-06T15:48:20Z",
+            "closedAt": "2026-02-07T06:44:58Z",
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 51,
+            "title": "MAG annotation: eggnog orthology with chunking and SHM",
+            "state": "OPEN",
+            "createdAt": "2026-02-03T13:39:24Z",
+            "closedAt": null,
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 50,
+            "title": "contig_annotate__eggnog_orthology : chunking and SHM use",
+            "state": "CLOSED",
+            "createdAt": "2026-02-03T12:51:45Z",
+            "closedAt": "2026-02-07T05:32:32Z",
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 48,
+            "title": "contig_annotate__camper__annotate / without nvme",
+            "state": "CLOSED",
+            "createdAt": "2026-01-30T13:05:58Z",
+            "closedAt": "2026-01-31T05:29:44Z",
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 47,
+            "title": "Unexpected re-runs of assemble rules",
+            "state": "CLOSED",
+            "createdAt": "2026-01-23T13:52:49Z",
+            "closedAt": "2026-02-12T07:13:53Z",
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 46,
+            "title": "Minor log naming detail",
+            "state": "CLOSED",
+            "createdAt": "2026-01-23T13:52:03Z",
+            "closedAt": "2026-02-06T07:58:12Z",
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 45,
+            "title": "Disabling retries when escalation is not used",
+            "state": "CLOSED",
+            "createdAt": "2026-01-23T13:51:43Z",
+            "closedAt": "2026-02-06T07:56:35Z",
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 44,
+            "title": "DRAM missing rrnas.tsv",
+            "state": "CLOSED",
+            "createdAt": "2026-01-23T13:51:22Z",
+            "closedAt": "2026-02-07T06:31:21Z",
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 43,
+            "title": "Diamond DB collision issue (read_annotate)",
+            "state": "OPEN",
+            "createdAt": "2026-01-23T13:49:50Z",
+            "closedAt": null,
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 42,
+            "title": "Handling empty inputs",
+            "state": "OPEN",
+            "createdAt": "2026-01-23T13:46:06Z",
+            "closedAt": null,
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 41,
+            "title": "mag_annotate / eggnog rule changes",
+            "state": "OPEN",
+            "createdAt": "2026-01-23T13:45:02Z",
+            "closedAt": null,
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 40,
+            "title": "Inconsistent pipeline paths",
+            "state": "CLOSED",
+            "createdAt": "2026-01-23T13:43:54Z",
+            "closedAt": "2026-02-12T07:14:40Z",
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 39,
+            "title": "jobs_log directory missing",
+            "state": "OPEN",
+            "createdAt": "2026-01-23T13:42:53Z",
+            "closedAt": null,
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 38,
+            "title": "The MIGALE profile",
+            "state": "OPEN",
+            "createdAt": "2026-01-23T13:42:21Z",
+            "closedAt": null,
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 37,
+            "title": "Custom run script (SGE)",
+            "state": "OPEN",
+            "createdAt": "2026-01-23T13:41:19Z",
+            "closedAt": null,
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 36,
+            "title": "Local config modifications: SGE without nvme",
+            "state": "CLOSED",
+            "createdAt": "2026-01-23T13:40:37Z",
+            "closedAt": "2026-01-27T06:32:38Z",
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 35,
+            "title": "Config files usage",
+            "state": "CLOSED",
+            "createdAt": "2026-01-23T13:38:10Z",
+            "closedAt": "2026-01-24T05:47:36Z",
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 34,
+            "title": "Reference databases: ciliates and version tracking",
+            "state": "CLOSED",
+            "createdAt": "2026-01-23T13:36:48Z",
+            "closedAt": "2026-01-27T07:19:09Z",
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 33,
+            "title": "Diamond summary script",
+            "state": "OPEN",
+            "createdAt": "2025-12-22T12:24:47Z",
+            "closedAt": null,
+            "author": {
+              "login": "fischuu"
+            }
+          },
+          {
+            "number": 32,
+            "title": "Something odd with magscot_run",
+            "state": "OPEN",
+            "createdAt": "2025-12-21T15:48:31Z",
+            "closedAt": null,
+            "author": {
+              "login": "fischuu"
+            }
+          },
+          {
+            "number": 31,
+            "title": "Critical problem with magscot step",
+            "state": "CLOSED",
+            "createdAt": "2025-12-21T05:41:37Z",
+            "closedAt": "2025-12-21T10:00:25Z",
+            "author": {
+              "login": "fischuu"
+            }
+          },
+          {
+            "number": 29,
+            "title": "contig_annotate/hmm creates empty log files, though everything is okay",
+            "state": "CLOSED",
+            "createdAt": "2025-12-10T15:23:40Z",
+            "closedAt": "2025-12-11T04:22:59Z",
+            "author": {
+              "login": "fischuu"
+            }
+          },
+          {
+            "number": 28,
+            "title": "Benchmarking description added to readme and implementing it for every step",
+            "state": "OPEN",
+            "createdAt": "2025-12-09T13:21:25Z",
+            "closedAt": null,
+            "author": {
+              "login": "JSkar"
+            }
+          },
+          {
+            "number": 26,
+            "title": "Zipping files for Diamond output",
+            "state": "OPEN",
+            "createdAt": "2025-11-28T15:30:25Z",
+            "closedAt": null,
+            "author": {
+              "login": "fischuu"
+            }
+          },
+          {
+            "number": 25,
+            "title": "Update the public sample and database files",
+            "state": "CLOSED",
+            "createdAt": "2025-11-25T14:51:03Z",
+            "closedAt": "2025-11-25T16:42:39Z",
+            "author": {
+              "login": "fischuu"
+            }
+          },
+          {
+            "number": 24,
+            "title": "Error when running eggnog - \"Wildcards in input files cannot be determined from output files\"",
+            "state": "CLOSED",
+            "createdAt": "2025-11-25T12:33:52Z",
+            "closedAt": "2025-11-26T14:43:27Z",
+            "author": {
+              "login": "JSkar"
+            }
+          },
+          {
+            "number": 23,
+            "title": "AttributeError: 'OutputFiles' object has no attribute 'results',",
+            "state": "CLOSED",
+            "createdAt": "2025-11-22T10:27:23Z",
+            "closedAt": "2025-11-22T10:28:04Z",
+            "author": {
+              "login": "fischuu"
+            }
+          },
+          {
+            "number": 22,
+            "title": "Magscot crashes when it creates an empty output",
+            "state": "CLOSED",
+            "createdAt": "2025-11-18T04:34:51Z",
+            "closedAt": "2025-11-18T04:47:20Z",
+            "author": {
+              "login": "fischuu"
+            }
+          },
+          {
+            "number": 21,
+            "title": "It seems the reads/fastqc rule does not generate permanent output",
+            "state": "CLOSED",
+            "createdAt": "2025-11-17T17:47:12Z",
+            "closedAt": "2025-11-25T06:08:34Z",
+            "author": {
+              "login": "fischuu"
+            }
+          },
+          {
+            "number": 20,
+            "title": "emapper / annotation partially complete / snakemake doesn't check",
+            "state": "CLOSED",
+            "createdAt": "2025-11-17T10:24:50Z",
+            "closedAt": "2026-02-09T10:37:33Z",
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 19,
+            "title": "Adding HydDB classification",
+            "state": "CLOSED",
+            "createdAt": "2025-11-13T12:58:00Z",
+            "closedAt": "2025-11-26T15:39:12Z",
+            "author": {
+              "login": "fischuu"
+            }
+          },
+          {
+            "number": 18,
+            "title": "Camper database for each job",
+            "state": "CLOSED",
+            "createdAt": "2025-11-10T14:09:33Z",
+            "closedAt": "2025-11-26T04:01:15Z",
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 17,
+            "title": "Where to Find Ciliates Database for Preprocessing - Decontamination",
+            "state": "CLOSED",
+            "createdAt": "2025-11-06T09:23:45Z",
+            "closedAt": "2025-11-17T17:48:00Z",
+            "author": {
+              "login": "JSkar"
+            }
+          },
+          {
+            "number": 16,
+            "title": "Escalation system - check how the job is killed",
+            "state": "OPEN",
+            "createdAt": "2025-11-05T10:23:03Z",
+            "closedAt": null,
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 15,
+            "title": "MetaSpades - memory by default - 250 GB",
+            "state": "CLOSED",
+            "createdAt": "2025-11-05T10:15:25Z",
+            "closedAt": "2025-11-25T06:10:27Z",
+            "author": {
+              "login": "JeremyTournayre"
+            }
+          },
+          {
+            "number": 12,
+            "title": "Parallel (instead of sequential) decontamination",
+            "state": "OPEN",
+            "createdAt": "2025-10-03T03:53:37Z",
+            "closedAt": null,
+            "author": {
+              "login": "fischuu"
+            }
+          },
+          {
+            "number": 9,
+            "title": "Really low number of contigs",
+            "state": "CLOSED",
+            "createdAt": "2024-08-28T07:01:38Z",
+            "closedAt": "2024-09-25T08:14:40Z",
+            "author": {
+              "login": "fischuu"
+            }
+          },
+          {
+            "number": 7,
+            "title": "Module reports should be generated automatically from the modules",
+            "state": "CLOSED",
+            "createdAt": "2024-07-03T10:24:59Z",
+            "closedAt": "2025-10-03T03:44:59Z",
+            "author": {
+              "login": "fischuu"
+            }
+          },
+          {
+            "number": 6,
+            "title": "preprocess contains also read-based analysis",
+            "state": "CLOSED",
+            "createdAt": "2024-07-03T08:10:44Z",
+            "closedAt": "2025-10-03T03:05:05Z",
+            "author": {
+              "login": "fischuu"
+            }
+          },
+          {
+            "number": 5,
+            "title": "Several co-assemblies per sample",
+            "state": "OPEN",
+            "createdAt": "2024-07-03T07:42:01Z",
+            "closedAt": null,
+            "author": {
+              "login": "fischuu"
+            }
+          },
+          {
+            "number": 4,
+            "title": "Extend and adjust the params.yaml file",
+            "state": "CLOSED",
+            "createdAt": "2024-07-03T07:33:15Z",
+            "closedAt": "2025-10-03T03:04:21Z",
+            "author": {
+              "login": "fischuu"
+            }
+          },
+          {
+            "number": 3,
+            "title": "Does the pipeline work on non-nvme systems?",
+            "state": "CLOSED",
+            "createdAt": "2024-07-03T07:18:18Z",
+            "closedAt": "2025-10-03T03:03:59Z",
+            "author": {
+              "login": "fischuu"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 49,
+            "title": "Slurm part res fixes",
+            "state": "MERGED",
+            "createdAt": "2026-01-31T06:15:27Z",
+            "mergedAt": "2026-01-31T06:15:43Z",
+            "author": {
+              "login": "fischuu"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/contig_annotate/camper.smk"
+                },
+                {
+                  "path": "workflow/rules/read_annotate/diamond.smk"
+                },
+                {
+                  "path": "workflow/rules/read_annotate/humann.smk"
+                },
+                {
+                  "path": "workflow/rules/read_annotate/kraken2.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 30,
+            "title": "Log output added",
+            "state": "MERGED",
+            "createdAt": "2025-12-11T04:22:25Z",
+            "mergedAt": "2025-12-11T04:22:34Z",
+            "author": {
+              "login": "fischuu"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/contig_annotate/hmmer.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 27,
+            "title": "Provided assembly started",
+            "state": "MERGED",
+            "createdAt": "2025-12-01T15:09:07Z",
+            "mergedAt": "2025-12-01T15:09:18Z",
+            "author": {
+              "login": "fischuu"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "flowchart/flowchart.R"
+                },
+                {
+                  "path": "flowchart/flowchart.png"
+                },
+                {
+                  "path": "pipeline_diagram.html"
+                },
+                {
+                  "path": "workflow/rules/assemble/bowtie2.smk"
+                },
+                {
+                  "path": "workflow/rules/assemble/concoct.smk"
+                },
+                {
+                  "path": "workflow/rules/assemble/magscot.smk"
+                },
+                {
+                  "path": "workflow/rules/assemble/maxbin2.smk"
+                },
+                {
+                  "path": "workflow/rules/assemble/metabat2.smk"
+                },
+                {
+                  "path": "workflow/rules/contig_annotate/prodigal.smk"
+                },
+                {
+                  "path": "workflow/rules/folders.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 14,
+            "title": "Dev 0.5",
+            "state": "MERGED",
+            "createdAt": "2025-10-04T04:47:27Z",
+            "mergedAt": "2025-10-04T04:47:35Z",
+            "author": {
+              "login": "fischuu"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/read_annotate/diamond.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 13,
+            "title": "Dev 0.5",
+            "state": "CLOSED",
+            "createdAt": "2025-10-04T04:33:17Z",
+            "mergedAt": null,
+            "author": {
+              "login": "fischuu"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/read_annotate/diamond.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 11,
+            "title": "Resouces adjusted",
+            "state": "MERGED",
+            "createdAt": "2025-01-29T15:55:34Z",
+            "mergedAt": "2025-01-29T15:57:21Z",
+            "author": {
+              "login": "fischuu"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/assemble/drep.smk"
+                },
+                {
+                  "path": "workflow/rules/contig_annotate/eggnog.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 10,
+            "title": "Dev",
+            "state": "MERGED",
+            "createdAt": "2024-09-24T17:24:22Z",
+            "mergedAt": "2024-09-24T17:24:32Z",
+            "author": {
+              "login": "fischuu"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".snakemake-workflow-catalog.yml"
+                },
+                {
+                  "path": "CHANGELOG"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/annotate/bakta.smk"
+                },
+                {
+                  "path": "workflow/rules/annotate/checkm2.smk"
+                },
+                {
+                  "path": "workflow/rules/annotate/dram.smk"
+                },
+                {
+                  "path": "workflow/rules/annotate/eggnog.smk"
+                },
+                {
+                  "path": "workflow/rules/annotate/gtdbtk.smk"
+                },
+                {
+                  "path": "workflow/rules/annotate/phylophlan.smk"
+                },
+                {
+                  "path": "workflow/rules/annotate/proteinortho.smk"
+                },
+                {
+                  "path": "workflow/rules/annotate/quast.smk"
+                },
+                {
+                  "path": "workflow/rules/assemble/bowtie2.smk"
+                },
+                {
+                  "path": "workflow/rules/assemble/concoct.smk"
+                },
+                {
+                  "path": "workflow/rules/assemble/drep.smk"
+                },
+                {
+                  "path": "workflow/rules/assemble/magscot.smk"
+                },
+                {
+                  "path": "workflow/rules/assemble/maxbin2.smk"
+                },
+                {
+                  "path": "workflow/rules/assemble/megahit.smk"
+                },
+                {
+                  "path": "workflow/rules/assemble/metabat2.smk"
+                },
+                {
+                  "path": "workflow/rules/assemble/metaspades.smk"
+                },
+                {
+                  "path": "workflow/rules/contig_annotate/__functions__.smk"
+                },
+                {
+                  "path": "workflow/rules/contig_annotate/__main__.smk"
+                },
+                {
+                  "path": "workflow/rules/contig_annotate/eggnog.smk"
+                },
+                {
+                  "path": "workflow/rules/contig_annotate/featurecounts.smk"
+                },
+                {
+                  "path": "workflow/rules/contig_annotate/prodigal.smk"
+                },
+                {
+                  "path": "workflow/rules/folders.smk"
+                },
+                {
+                  "path": "workflow/rules/helpers/fastqc.smk"
+                },
+                {
+                  "path": "workflow/rules/helpers/samtools.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/bowtie2.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/diamond.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/fastp.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/humann.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/kraken2.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/metaphlan.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/nonpareil.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/phyloflash.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/samtools.smk"
+                },
+                {
+                  "path": "workflow/rules/preprocess/singlem.smk"
+                },
+                {
+                  "path": "workflow/rules/quantify/bowtie2.smk"
+                },
+                {
+                  "path": "workflow/rules/quantify/coverm.smk"
+                },
+                {
+                  "path": "workflow/rules/quantify/samtools.smk"
+                },
+                {
+                  "path": "workflow/rules/reads/link.smk"
+                },
+                {
+                  "path": "workflow/rules/reference/hosts.smk"
+                },
+                {
+                  "path": "workflow/rules/report/preprocess.smk"
+                },
+                {
+                  "path": "workflow/rules/report/reads.smk"
+                },
+                {
+                  "path": "workflow/rules/report/sample.smk"
+                },
+                {
+                  "path": "workflow/rules/report/step.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 8,
+            "title": "Bgzip issue",
+            "state": "MERGED",
+            "createdAt": "2024-08-05T06:50:15Z",
+            "mergedAt": "2024-08-05T06:50:31Z",
+            "author": {
+              "login": "fischuu"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/preprocess/fastp.smk"
+                },
+                {
+                  "path": "workflow/rules/report/reads.smk"
+                },
+                {
+                  "path": "workflow/scripts/R/reads.Rmd"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

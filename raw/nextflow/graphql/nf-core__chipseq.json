@@ -1,0 +1,4441 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 479,
+            "title": "Clarify documentation for `antibody`",
+            "state": "OPEN",
+            "createdAt": "2025-11-04T19:15:10Z",
+            "closedAt": null,
+            "author": {
+              "login": "adthrasher"
+            }
+          },
+          {
+            "number": 478,
+            "title": "Clarify genome size error and update usage documentation",
+            "state": "OPEN",
+            "createdAt": "2025-11-04T19:13:36Z",
+            "closedAt": null,
+            "author": {
+              "login": "adthrasher"
+            }
+          },
+          {
+            "number": 469,
+            "title": "Port bedtools_genomecov from local to nf-core module",
+            "state": "OPEN",
+            "createdAt": "2025-06-24T19:32:51Z",
+            "closedAt": null,
+            "author": {
+              "login": "FloWuenne"
+            }
+          },
+          {
+            "number": 468,
+            "title": "Change bigWig creating to use `--bga` option",
+            "state": "OPEN",
+            "createdAt": "2025-06-24T18:39:58Z",
+            "closedAt": null,
+            "author": {
+              "login": "FelixKrueger"
+            }
+          },
+          {
+            "number": 467,
+            "title": "File name collision when using 1-treatment replicate vs. >1-control replicates, i.e. cannot specify the same sample,replicate pair for each different control replicate",
+            "state": "OPEN",
+            "createdAt": "2025-06-16T13:23:57Z",
+            "closedAt": null,
+            "author": {
+              "login": "a1ultima"
+            }
+          },
+          {
+            "number": 466,
+            "title": "ERROR ~ Error executing process > 'NFCORE_CHIPSEQ:CHIPSEQ:INPUT_CHECK:SAMPLESHEET_CHECK (samplesheet_test.csv)'",
+            "state": "OPEN",
+            "createdAt": "2025-06-05T09:16:17Z",
+            "closedAt": null,
+            "author": {
+              "login": "tbooth"
+            }
+          },
+          {
+            "number": 465,
+            "title": "ERROR ~ Error executing process > 'NFCORE_CHIPSEQ:CHIPSEQ:DEEPTOOLS_COMPUTEMATRIX (SPT5_T15_REP1)'",
+            "state": "OPEN",
+            "createdAt": "2025-06-05T09:09:07Z",
+            "closedAt": null,
+            "author": {
+              "login": "tbooth"
+            }
+          },
+          {
+            "number": 463,
+            "title": "Add minimum_alignment_q_score parameter for MAPQ filtering (similar to nf-core/cutandrun)",
+            "state": "OPEN",
+            "createdAt": "2025-05-16T14:32:04Z",
+            "closedAt": null,
+            "author": {
+              "login": "wanisajad"
+            }
+          },
+          {
+            "number": 458,
+            "title": "JSON schema: Chipseq",
+            "state": "OPEN",
+            "createdAt": "2025-03-25T00:24:36Z",
+            "closedAt": null,
+            "author": {
+              "login": "jen-reeve"
+            }
+          },
+          {
+            "number": 457,
+            "title": "Call peak without chip-seq input control.",
+            "state": "OPEN",
+            "createdAt": "2025-03-21T12:06:07Z",
+            "closedAt": null,
+            "author": {
+              "login": "ljw20180420"
+            }
+          },
+          {
+            "number": 456,
+            "title": "Make skip_preseq the default option",
+            "state": "OPEN",
+            "createdAt": "2025-03-13T11:45:05Z",
+            "closedAt": null,
+            "author": {
+              "login": "JoseEspinosa"
+            }
+          },
+          {
+            "number": 455,
+            "title": "Make skip_preseq the default option",
+            "state": "OPEN",
+            "createdAt": "2025-03-13T11:44:02Z",
+            "closedAt": null,
+            "author": {
+              "login": "JoseEspinosa"
+            }
+          },
+          {
+            "number": 454,
+            "title": "Enable the use of CSI bam index",
+            "state": "OPEN",
+            "createdAt": "2025-03-12T08:31:08Z",
+            "closedAt": null,
+            "author": {
+              "login": "JoseEspinosa"
+            }
+          },
+          {
+            "number": 452,
+            "title": "Can we do chip seq analysis using nextflow without input sample?",
+            "state": "OPEN",
+            "createdAt": "2025-03-06T08:25:39Z",
+            "closedAt": null,
+            "author": {
+              "login": "autumnfe79"
+            }
+          },
+          {
+            "number": 451,
+            "title": "No paired-end reads were detected in paired-end read library",
+            "state": "CLOSED",
+            "createdAt": "2025-03-05T11:25:27Z",
+            "closedAt": "2025-03-12T10:06:15Z",
+            "author": {
+              "login": "chengmingbo"
+            }
+          },
+          {
+            "number": 450,
+            "title": "Cannot read project manifest...",
+            "state": "CLOSED",
+            "createdAt": "2025-02-27T15:38:43Z",
+            "closedAt": "2025-03-07T14:35:46Z",
+            "author": {
+              "login": "LauraT89"
+            }
+          },
+          {
+            "number": 448,
+            "title": "Output .bed file not found in the MACS2 folder",
+            "state": "OPEN",
+            "createdAt": "2025-02-03T16:28:20Z",
+            "closedAt": null,
+            "author": {
+              "login": "GopishankarThirumoorthy"
+            }
+          },
+          {
+            "number": 442,
+            "title": "Container hash mismatch at `NFCORE_CHIPSEQ:CHIPSEQ:PHANTOMPEAKQUALTOOLS (1)` step",
+            "state": "OPEN",
+            "createdAt": "2024-12-19T00:15:28Z",
+            "closedAt": null,
+            "author": {
+              "login": "alextruong"
+            }
+          },
+          {
+            "number": 441,
+            "title": "Adjust x-axis to start at 1 for custom phantompeakqualtools NSC plot",
+            "state": "OPEN",
+            "createdAt": "2024-12-17T08:43:17Z",
+            "closedAt": null,
+            "author": {
+              "login": "pontushojer"
+            }
+          },
+          {
+            "number": 440,
+            "title": "Add check for sample name collision when using the same sample for multiple antibodies",
+            "state": "OPEN",
+            "createdAt": "2024-12-16T09:08:51Z",
+            "closedAt": null,
+            "author": {
+              "login": "pontushojer"
+            }
+          },
+          {
+            "number": 432,
+            "title": "Process `NFCORE_CHIPSEQ:PREPARE_GENOME:GFFREAD` declares 2 input channels but 1 were specified",
+            "state": "CLOSED",
+            "createdAt": "2024-11-19T16:46:28Z",
+            "closedAt": "2024-11-28T11:04:27Z",
+            "author": {
+              "login": "ftabaro"
+            }
+          },
+          {
+            "number": 431,
+            "title": "Process `NFCORE_CHIPSEQ:CHIPSEQ:FASTQ_ALIGN_BWA:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (SRR5627136_REP2_T1)` terminated with an error exit status (1)",
+            "state": "OPEN",
+            "createdAt": "2024-10-22T19:20:48Z",
+            "closedAt": null,
+            "author": {
+              "login": "NicoleChant"
+            }
+          },
+          {
+            "number": 429,
+            "title": "cutadapt `trim_nextseq` config typo",
+            "state": "CLOSED",
+            "createdAt": "2024-10-21T17:47:18Z",
+            "closedAt": "2024-10-21T20:26:10Z",
+            "author": {
+              "login": "cmatKhan"
+            }
+          },
+          {
+            "number": 428,
+            "title": "Process `NFCORE_CHIPSEQ:CHIPSEQ:MULTIQC` terminated with an error exit status",
+            "state": "OPEN",
+            "createdAt": "2024-10-17T09:15:58Z",
+            "closedAt": null,
+            "author": {
+              "login": "Sungryong-Oh"
+            }
+          },
+          {
+            "number": 427,
+            "title": "Not a valid path value when provide genome by fasta and gtf in compressed gz format, and not providing genome index or gene bed",
+            "state": "OPEN",
+            "createdAt": "2024-10-16T12:50:39Z",
+            "closedAt": null,
+            "author": {
+              "login": "ljw20180420"
+            }
+          },
+          {
+            "number": 417,
+            "title": "Refactor local modules to use an conda environment yml file and not ping modules directly",
+            "state": "OPEN",
+            "createdAt": "2024-10-01T14:07:09Z",
+            "closedAt": null,
+            "author": {
+              "login": "JoseEspinosa"
+            }
+          },
+          {
+            "number": 416,
+            "title": "Move the KHMER_UNIQUEKMERS logic to prepare_genome",
+            "state": "OPEN",
+            "createdAt": "2024-10-01T13:42:15Z",
+            "closedAt": null,
+            "author": {
+              "login": "JoseEspinosa"
+            }
+          },
+          {
+            "number": 414,
+            "title": "Permission denied at the beginning of the pipeline",
+            "state": "CLOSED",
+            "createdAt": "2024-09-20T10:09:44Z",
+            "closedAt": "2024-09-20T11:09:18Z",
+            "author": {
+              "login": "paolamaragno"
+            }
+          },
+          {
+            "number": 411,
+            "title": "Error: Process `NFCORE_CHIPSEQ:CHIPSEQ:ALIGN_BOWTIE2:BOWTIE2_ALIGN (WT_HA_IP_REP1_T1)` terminated with an error exit status (1)",
+            "state": "CLOSED",
+            "createdAt": "2024-08-15T12:40:44Z",
+            "closedAt": "2024-08-26T15:22:57Z",
+            "author": {
+              "login": "Sungryong-Oh"
+            }
+          },
+          {
+            "number": 409,
+            "title": "Update modules and subworkflows for 2.1.0 release",
+            "state": "CLOSED",
+            "createdAt": "2024-08-06T09:05:22Z",
+            "closedAt": "2024-08-09T07:44:52Z",
+            "author": {
+              "login": "JoseEspinosa"
+            }
+          },
+          {
+            "number": 403,
+            "title": "Get rid of checksamplesheet.py and switch to nf-schema",
+            "state": "OPEN",
+            "createdAt": "2024-07-19T13:52:24Z",
+            "closedAt": null,
+            "author": {
+              "login": "JoseEspinosa"
+            }
+          },
+          {
+            "number": 398,
+            "title": "Streamline nf-core/chipseq and nf-core/atacseq by using shared subworkflows",
+            "state": "CLOSED",
+            "createdAt": "2024-07-04T16:51:54Z",
+            "closedAt": "2024-07-09T14:48:31Z",
+            "author": {
+              "login": "bjlang"
+            }
+          },
+          {
+            "number": 396,
+            "title": "The \"sample\" field from the samplesheet is too lenient ",
+            "state": "CLOSED",
+            "createdAt": "2024-07-04T10:06:46Z",
+            "closedAt": "2024-07-12T13:26:29Z",
+            "author": {
+              "login": "JoseEspinosa"
+            }
+          },
+          {
+            "number": 388,
+            "title": "Macs2 Output ",
+            "state": "CLOSED",
+            "createdAt": "2024-05-08T08:15:17Z",
+            "closedAt": "2024-07-31T07:20:14Z",
+            "author": {
+              "login": "kittyBS"
+            }
+          },
+          {
+            "number": 387,
+            "title": "Remove lib folder to get ready for v2.13.1 template merge",
+            "state": "CLOSED",
+            "createdAt": "2024-04-09T09:19:23Z",
+            "closedAt": "2024-07-03T08:28:30Z",
+            "author": {
+              "login": "JoseEspinosa"
+            }
+          },
+          {
+            "number": 386,
+            "title": "IDR analysis",
+            "state": "CLOSED",
+            "createdAt": "2024-04-04T06:05:22Z",
+            "closedAt": "2024-07-24T10:35:43Z",
+            "author": {
+              "login": "ZeinBader"
+            }
+          },
+          {
+            "number": 385,
+            "title": "Improve website on parameters section Alignment Options for argument --save_unaligned",
+            "state": "CLOSED",
+            "createdAt": "2024-03-20T13:10:53Z",
+            "closedAt": "2024-07-03T15:28:25Z",
+            "author": {
+              "login": "aghr"
+            }
+          },
+          {
+            "number": 384,
+            "title": "Can't run if there is no control",
+            "state": "CLOSED",
+            "createdAt": "2024-03-01T03:58:20Z",
+            "closedAt": "2024-07-24T10:36:52Z",
+            "author": {
+              "login": "d-jch"
+            }
+          },
+          {
+            "number": 382,
+            "title": "There are multiple files for each of the following file names",
+            "state": "CLOSED",
+            "createdAt": "2024-02-28T14:44:43Z",
+            "closedAt": "2024-03-06T08:07:30Z",
+            "author": {
+              "login": "smsobera"
+            }
+          },
+          {
+            "number": 378,
+            "title": "Update MACS to v3",
+            "state": "CLOSED",
+            "createdAt": "2024-01-25T09:43:26Z",
+            "closedAt": "2024-07-23T12:19:37Z",
+            "author": {
+              "login": "alexpmagalhaes"
+            }
+          },
+          {
+            "number": 377,
+            "title": "jobs failing with sigbus and unknown userid errors",
+            "state": "CLOSED",
+            "createdAt": "2024-01-24T03:18:37Z",
+            "closedAt": "2024-01-25T18:48:54Z",
+            "author": {
+              "login": "mniederhuber"
+            }
+          },
+          {
+            "number": 376,
+            "title": "Error running the pipline test in the BWA index step",
+            "state": "CLOSED",
+            "createdAt": "2024-01-19T14:15:30Z",
+            "closedAt": "2024-07-31T07:21:02Z",
+            "author": {
+              "login": "Alhajuji"
+            }
+          },
+          {
+            "number": 375,
+            "title": "Error with NextSeq trimming",
+            "state": "CLOSED",
+            "createdAt": "2023-12-22T02:22:50Z",
+            "closedAt": "2024-07-24T10:38:43Z",
+            "author": {
+              "login": "gitMakeCoffee"
+            }
+          },
+          {
+            "number": 374,
+            "title": "MACS2: Too few paired peaks (0) so I can not build the model!",
+            "state": "CLOSED",
+            "createdAt": "2023-12-20T18:35:57Z",
+            "closedAt": "2024-07-31T07:21:19Z",
+            "author": {
+              "login": "dannyjwan"
+            }
+          },
+          {
+            "number": 370,
+            "title": "PHANTOMPEAKQUALTOOLS throws stack overflow exception",
+            "state": "CLOSED",
+            "createdAt": "2023-11-22T18:37:45Z",
+            "closedAt": "2023-11-27T15:29:39Z",
+            "author": {
+              "login": "krokicki"
+            }
+          },
+          {
+            "number": 369,
+            "title": "minor \"samplesheet_pe.csv\" format issue",
+            "state": "CLOSED",
+            "createdAt": "2023-10-19T03:41:25Z",
+            "closedAt": "2024-07-23T13:39:05Z",
+            "author": {
+              "login": "hukai916"
+            }
+          },
+          {
+            "number": 367,
+            "title": "Get rid of checkIfExists for params paths",
+            "state": "CLOSED",
+            "createdAt": "2023-10-16T15:28:04Z",
+            "closedAt": "2024-07-12T13:27:06Z",
+            "author": {
+              "login": "JoseEspinosa"
+            }
+          },
+          {
+            "number": 364,
+            "title": "Default values for p-value and FDR",
+            "state": "CLOSED",
+            "createdAt": "2023-09-12T17:12:28Z",
+            "closedAt": "2024-07-31T07:21:33Z",
+            "author": {
+              "login": "amibe1"
+            }
+          },
+          {
+            "number": 362,
+            "title": "Make subworkflows & modules available for nf-core tools",
+            "state": "CLOSED",
+            "createdAt": "2023-08-29T16:30:57Z",
+            "closedAt": "2023-10-16T21:49:08Z",
+            "author": {
+              "login": "kelly-sovacool"
+            }
+          },
+          {
+            "number": 361,
+            "title": "No Space left on device error",
+            "state": "CLOSED",
+            "createdAt": "2023-08-08T11:03:23Z",
+            "closedAt": "2023-08-14T11:35:53Z",
+            "author": {
+              "login": "Shashankti"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 482,
+            "title": "Update samplesheet column count from 5 to 7",
+            "state": "OPEN",
+            "createdAt": "2026-01-14T12:47:31Z",
+            "mergedAt": null,
+            "author": {
+              "login": "bentyeh"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/usage.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 481,
+            "title": "Merge-template-3.5.1",
+            "state": "MERGED",
+            "createdAt": "2025-11-20T13:08:24Z",
+            "mergedAt": "2025-11-21T15:07:39Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".devcontainer/setup.sh"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_chipseq_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "workflows/chipseq.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 480,
+            "title": "Important! Template update for nf-core/tools v3.5.1",
+            "state": "MERGED",
+            "createdAt": "2025-11-20T09:32:16Z",
+            "mergedAt": "2025-11-21T15:07:41Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".devcontainer/setup.sh"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_chipseq_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "workflows/chipseq.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 477,
+            "title": "Fix sample identifier in usage documentation",
+            "state": "OPEN",
+            "createdAt": "2025-11-04T18:39:45Z",
+            "mergedAt": null,
+            "author": {
+              "login": "adthrasher"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/usage.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 476,
+            "title": "Important! Template update for nf-core/tools v3.4.1",
+            "state": "MERGED",
+            "createdAt": "2025-10-16T13:38:21Z",
+            "mergedAt": "2025-11-21T15:07:41Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".devcontainer/setup.sh"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/tags.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_chipseq_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 475,
+            "title": "Implement nf-test",
+            "state": "MERGED",
+            "createdAt": "2025-09-03T17:57:35Z",
+            "mergedAt": "2025-09-05T13:22:14Z",
+            "author": {
+              "login": "edmundmiller"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "modules/local/bam_remove_orphans.nf"
+                },
+                {
+                  "path": "modules/local/bamtools_filter.nf"
+                },
+                {
+                  "path": "modules/local/bedtools_genomecov.nf"
+                },
+                {
+                  "path": "modules/local/frip_score.nf"
+                },
+                {
+                  "path": "modules/local/multiqc.nf"
+                },
+                {
+                  "path": "modules/local/multiqc_custom_phantompeakqualtools.nf"
+                },
+                {
+                  "path": "nf-test.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/bowtie2.nf.test"
+                },
+                {
+                  "path": "tests/bowtie2.nf.test.snap"
+                },
+                {
+                  "path": "tests/chromap.nf.test"
+                },
+                {
+                  "path": "tests/chromap.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/nextflow.config"
+                },
+                {
+                  "path": "tests/skip_consensus_peaks.nf.test"
+                },
+                {
+                  "path": "tests/skip_consensus_peaks.nf.test.snap"
+                },
+                {
+                  "path": "tests/skip_trimming.nf.test"
+                },
+                {
+                  "path": "tests/skip_trimming.nf.test.snap"
+                },
+                {
+                  "path": "tests/star.nf.test"
+                },
+                {
+                  "path": "tests/star.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 474,
+            "title": "Update link to featureCounts in README.md (current link is dead)",
+            "state": "OPEN",
+            "createdAt": "2025-07-10T18:27:28Z",
+            "mergedAt": null,
+            "author": {
+              "login": "mohammedkhalfan"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 473,
+            "title": "Important! Template update for nf-core/tools v3.3.2",
+            "state": "MERGED",
+            "createdAt": "2025-07-08T11:38:24Z",
+            "mergedAt": "2025-09-03T15:59:22Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/actions/get-shards/action.yml"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierrc.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nf-test.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_chipseq_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 472,
+            "title": "Implement nf-schema in pipeline",
+            "state": "OPEN",
+            "createdAt": "2025-07-01T13:25:06Z",
+            "mergedAt": null,
+            "author": {
+              "login": "edmundmiller"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "bin/check_samplesheet.py"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/local/multiqc.nf"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "subworkflows/local/input_check.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_chipseq_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/bowtie2.nf.test.snap"
+                },
+                {
+                  "path": "tests/chromap.nf.test.snap"
+                },
+                {
+                  "path": "tests/skip_consensus_peaks.nf.test.snap"
+                },
+                {
+                  "path": "tests/skip_trimming.nf.test.snap"
+                },
+                {
+                  "path": "tests/star.nf.test.snap"
+                },
+                {
+                  "path": "workflows/chipseq.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 403
+                },
+                {
+                  "number": 458
+                }
+              ]
+            }
+          },
+          {
+            "number": 471,
+            "title": "`nextflow_schema.json`: Any of `--fasta` or `--genome`",
+            "state": "OPEN",
+            "createdAt": "2025-06-27T15:39:55Z",
+            "mergedAt": null,
+            "author": {
+              "login": "suhrig"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 470,
+            "title": "Use --bga when creating bigWigs",
+            "state": "MERGED",
+            "createdAt": "2025-06-24T19:43:57Z",
+            "mergedAt": "2025-09-17T15:59:30Z",
+            "author": {
+              "login": "edmundmiller"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/bedtools_genomecov.nf"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/genomecov/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/genomecov/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/genomecov/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/genomecov/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/genomecov/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/genomecov/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/samtools/flagstat/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/flagstat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/flagstat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/samtools/flagstat/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/samtools/flagstat/tests/tags.yml"
+                },
+                {
+                  "path": "subworkflows/local/bam_bedgraph_bigwig_bedtools_ucsc.nf"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/bowtie2.nf.test.snap"
+                },
+                {
+                  "path": "tests/chromap.nf.test.snap"
+                },
+                {
+                  "path": "tests/default.nf.test.snap"
+                },
+                {
+                  "path": "tests/skip_consensus_peaks.nf.test.snap"
+                },
+                {
+                  "path": "tests/skip_trimming.nf.test.snap"
+                },
+                {
+                  "path": "tests/star.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 468
+                }
+              ]
+            }
+          },
+          {
+            "number": 464,
+            "title": "Important! Template update for nf-core/tools v3.3.1",
+            "state": "CLOSED",
+            "createdAt": "2025-06-03T11:01:32Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/actions/get-shards/action.yml"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix_linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template-version-comment.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierrc.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nf-test.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_chipseq_pipeline/main.nf"
+                },
+                {
+                  "path": "tests/.nftignore"
+                },
+                {
+                  "path": "tests/default.nf.test"
+                },
+                {
+                  "path": "tests/nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 462,
+            "title": "Merging template 3.2.1",
+            "state": "MERGED",
+            "createdAt": "2025-05-09T09:58:58Z",
+            "mergedAt": "2025-05-09T15:51:20Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 461,
+            "title": "Important! Template update for nf-core/tools v3.2.1",
+            "state": "MERGED",
+            "createdAt": "2025-04-30T12:26:05Z",
+            "mergedAt": "2025-05-09T15:51:21Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 460,
+            "title": "fix required column number for samplesheet",
+            "state": "CLOSED",
+            "createdAt": "2025-04-08T14:20:45Z",
+            "mergedAt": null,
+            "author": {
+              "login": "tavareshugo"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/usage.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 459,
+            "title": "Update changelog with JSON schema improvements",
+            "state": "OPEN",
+            "createdAt": "2025-03-26T23:32:32Z",
+            "mergedAt": null,
+            "author": {
+              "login": "ftamiro"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 453,
+            "title": "Fixes parametrization of SUBREAD_FEATURECOUNTS depending on meta.single_read",
+            "state": "MERGED",
+            "createdAt": "2025-03-11T12:23:21Z",
+            "mergedAt": "2025-03-12T10:05:07Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "subworkflows/local/bed_consensus_quantify_qc_bedtools_featurecounts_deseq2.nf"
+                },
+                {
+                  "path": "workflows/chipseq.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 449,
+            "title": "Merging-template-3.2.0",
+            "state": "MERGED",
+            "createdAt": "2025-02-26T10:11:03Z",
+            "mergedAt": "2025-02-26T10:59:24Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 447,
+            "title": "Important! Template update for nf-core/tools v3.2.0",
+            "state": "MERGED",
+            "createdAt": "2025-01-27T14:44:56Z",
+            "mergedAt": "2025-02-26T10:59:25Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 446,
+            "title": "Important! Template update for nf-core/tools v3.1.2",
+            "state": "CLOSED",
+            "createdAt": "2025-01-20T14:33:13Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 445,
+            "title": "Merge template version 3.1.1",
+            "state": "MERGED",
+            "createdAt": "2025-01-08T17:52:37Z",
+            "mergedAt": "2025-01-10T09:38:03Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_chipseq_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "workflows/chipseq.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 444,
+            "title": " Fix GFFREAD when gff file provided by user (add empty map to channel) @JoseEspinosa",
+            "state": "MERGED",
+            "createdAt": "2024-12-24T10:44:07Z",
+            "mergedAt": "2024-12-24T12:15:29Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "subworkflows/local/prepare_genome.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 443,
+            "title": "Important! Template update for nf-core/tools v3.1.1",
+            "state": "MERGED",
+            "createdAt": "2024-12-20T13:07:25Z",
+            "mergedAt": "2025-01-10T09:38:05Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_chipseq_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "workflows/chipseq.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 439,
+            "title": "Important! Template update for nf-core/tools v3.1.0",
+            "state": "CLOSED",
+            "createdAt": "2024-12-12T11:21:03Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "ro-crate-metadata.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_chipseq_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/main.workflow.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/tests/main.function.nf.test.snap"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "workflows/chipseq.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 438,
+            "title": "Fix multiqc skip",
+            "state": "MERGED",
+            "createdAt": "2024-12-09T16:00:34Z",
+            "mergedAt": "2024-12-23T10:12:49Z",
+            "author": {
+              "login": "LeonHafner"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflows/chipseq.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 437,
+            "title": "correct merging error",
+            "state": "CLOSED",
+            "createdAt": "2024-11-28T12:53:37Z",
+            "mergedAt": null,
+            "author": {
+              "login": "ftabaro"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules/local/multiqc.nf"
+                },
+                {
+                  "path": "subworkflows/local/prepare_genome.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 436,
+            "title": "Fix multiqc shared mem error",
+            "state": "MERGED",
+            "createdAt": "2024-11-28T12:33:08Z",
+            "mergedAt": "2025-01-08T16:54:45Z",
+            "author": {
+              "login": "ftabaro"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules/local/multiqc.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 435,
+            "title": "Fix GFFREAD",
+            "state": "MERGED",
+            "createdAt": "2024-11-20T17:08:36Z",
+            "mergedAt": "2024-11-26T08:50:49Z",
+            "author": {
+              "login": "ftabaro"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "subworkflows/local/prepare_genome.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 434,
+            "title": "Prevent pipeline fails from erroneous param validation when igenomes is used",
+            "state": "MERGED",
+            "createdAt": "2024-11-20T15:58:51Z",
+            "mergedAt": "2024-11-20T17:13:22Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_chipseq_pipeline/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 433,
+            "title": "Prevent pipeline fails from erroneous param validation when igenomes is used",
+            "state": "CLOSED",
+            "createdAt": "2024-11-20T15:25:56Z",
+            "mergedAt": null,
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_chipseq_pipeline/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 430,
+            "title": "Trimgalore nextseq correction",
+            "state": "CLOSED",
+            "createdAt": "2024-10-21T17:57:22Z",
+            "mergedAt": null,
+            "author": {
+              "login": "cmatKhan"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 426,
+            "title": "Merging template 3.0.2",
+            "state": "MERGED",
+            "createdAt": "2024-10-14T13:38:49Z",
+            "mergedAt": "2024-10-14T14:37:54Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 425,
+            "title": "Important! Template update for nf-core/tools v3.0.2",
+            "state": "MERGED",
+            "createdAt": "2024-10-11T12:31:13Z",
+            "mergedAt": "2024-10-14T14:37:56Z",
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes_ignored.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/nextflow.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_chipseq_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/tags.yml"
+                },
+                {
+                  "path": "workflows/chipseq.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 424,
+            "title": "Merging-template-3.0.1",
+            "state": "MERGED",
+            "createdAt": "2024-10-10T14:53:09Z",
+            "mergedAt": "2024-10-14T12:03:07Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes_ignored.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/deseq2_qc.nf"
+                },
+                {
+                  "path": "modules/local/igv.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/nextflow.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_chipseq_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/tags.yml"
+                },
+                {
+                  "path": "workflows/chipseq.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 423,
+            "title": "Bump version 2.2.0dev",
+            "state": "MERGED",
+            "createdAt": "2024-10-10T10:40:43Z",
+            "mergedAt": "2024-10-10T12:09:15Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 422,
+            "title": "Important! Template update for nf-core/tools v3.0.1",
+            "state": "CLOSED",
+            "createdAt": "2024-10-09T11:55:56Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes_ignored.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/nextflow.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_chipseq_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/tags.yml"
+                },
+                {
+                  "path": "workflows/chipseq.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 421,
+            "title": "Important! Template update for nf-core/tools v3.0.0",
+            "state": "CLOSED",
+            "createdAt": "2024-10-08T12:30:10Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nf-core-bot"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".github/workflows/template_version_comment.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes_ignored.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_adapter.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_counts.png"
+                },
+                {
+                  "path": "docs/images/mqc_fastqc_quality.png"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/nextflow.config"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_chipseq_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nextflow_pipeline/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfcore_pipeline/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfschema_plugin/tests/nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/main.nf"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/meta.yml"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/main.nf.test"
+                },
+                {
+                  "path": "subworkflows/nf-core/utils_nfvalidation_plugin/tests/tags.yml"
+                },
+                {
+                  "path": "workflows/chipseq.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 420,
+            "title": "Fix how replicates are set for downstream analysis",
+            "state": "MERGED",
+            "createdAt": "2024-10-07T10:16:41Z",
+            "mergedAt": "2024-10-07T13:30:21Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "subworkflows/local/bed_consensus_quantify_qc_bedtools_featurecounts_deseq2.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 419,
+            "title": "Fix how replicates are set for downstream analysis",
+            "state": "CLOSED",
+            "createdAt": "2024-10-07T09:49:24Z",
+            "mergedAt": null,
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/bed_consensus_quantify_qc_bedtools_featurecounts_deseq2.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 418,
+            "title": "Apply review suggestions ",
+            "state": "MERGED",
+            "createdAt": "2024-10-01T14:21:24Z",
+            "mergedAt": "2024-10-07T10:10:52Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "bin/check_samplesheet.py"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "workflows/chipseq.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 415,
+            "title": "Get rid of oras from module images",
+            "state": "MERGED",
+            "createdAt": "2024-09-30T10:21:29Z",
+            "mergedAt": "2024-09-30T12:06:13Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/multiqc_custom_phantompeakqualtools.nf"
+                },
+                {
+                  "path": "modules/nf-core/phantompeakqualtools/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/phantompeakqualtools/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/phantompeakqualtools/meta.yml"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "workflows/chipseq.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 413,
+            "title": "Dev -> Master for 2.1.0 release",
+            "state": "MERGED",
+            "createdAt": "2024-09-17T14:36:20Z",
+            "mergedAt": "2024-10-07T15:13:32Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".gitattributes"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATION.cff"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/adaptivecard.json"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/email_template.txt"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc/frip_score_header.txt"
+                },
+                {
+                  "path": "assets/multiqc/peak_count_header.txt"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-chipseq_logo_light.png"
+                },
+                {
+                  "path": "assets/samplesheet_pe.csv"
+                },
+                {
+                  "path": "assets/samplesheet_se.csv"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "bin/bampe_rm_orphan.py"
+                },
+                {
+                  "path": "bin/check_samplesheet.py"
+                },
+                {
+                  "path": "bin/igv_files_to_session.py"
+                },
+                {
+                  "path": "bin/macs3_merged_expand.py"
+                },
+                {
+                  "path": "bin/plot_macs3_qc.r"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/mqc_macs3_peak_count_plot.png"
+                },
+                {
+                  "path": "docs/images/nf-core-chipseq_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-chipseq_logo_light.png"
+                },
+                {
+                  "path": "docs/images/nf-core-chipseq_metro_map_grey.png"
+                },
+                {
+                  "path": "docs/images/nf-core-chipseq_metro_map_grey.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowChipseq.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/annotate_boolean_peaks.nf"
+                },
+                {
+                  "path": "modules/local/bam_remove_orphans.nf"
+                },
+                {
+                  "path": "modules/local/bamtools_filter.nf"
+                },
+                {
+                  "path": "modules/local/bedtools_genomecov.nf"
+                },
+                {
+                  "path": "modules/local/deseq2_qc.nf"
+                },
+                {
+                  "path": "modules/local/frip_score.nf"
+                },
+                {
+                  "path": "modules/local/genome_blacklist_regions.nf"
+                },
+                {
+                  "path": "modules/local/gtf2bed.nf"
+                },
+                {
+                  "path": "modules/local/igv.nf"
+                },
+                {
+                  "path": "modules/local/macs3_consensus.nf"
+                },
+                {
+                  "path": "modules/local/multiqc.nf"
+                },
+                {
+                  "path": "modules/local/multiqc_custom_peaks.nf"
+                },
+                {
+                  "path": "modules/local/multiqc_custom_phantompeakqualtools.nf"
+                },
+                {
+                  "path": "modules/local/plot_homer_annotatepeaks.nf"
+                },
+                {
+                  "path": "modules/local/plot_macs3_qc.nf"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/local/star_align.nf"
+                },
+                {
+                  "path": "modules/local/star_genomegenerate.nf"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/tests/cram_crai.config"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/tests/large_index.config"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/tests/sam.config"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/tests/sam2.config"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/build/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/build/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/build/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/build/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/build/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/tests/main.nf.test"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 412,
+            "title": "Dev -> Master for 2.1.0 release",
+            "state": "CLOSED",
+            "createdAt": "2024-09-17T14:33:03Z",
+            "mergedAt": null,
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".devcontainer/devcontainer.json"
+                },
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".gitattributes"
+                },
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".github/workflows/clean-up.yml"
+                },
+                {
+                  "path": ".github/workflows/download_pipeline.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/release-announcements.yml"
+                },
+                {
+                  "path": ".gitpod.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATION.cff"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/adaptivecard.json"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/email_template.txt"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc/frip_score_header.txt"
+                },
+                {
+                  "path": "assets/multiqc/peak_count_header.txt"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-chipseq_logo_light.png"
+                },
+                {
+                  "path": "assets/samplesheet_pe.csv"
+                },
+                {
+                  "path": "assets/samplesheet_se.csv"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "assets/slackreport.json"
+                },
+                {
+                  "path": "bin/bampe_rm_orphan.py"
+                },
+                {
+                  "path": "bin/check_samplesheet.py"
+                },
+                {
+                  "path": "bin/igv_files_to_session.py"
+                },
+                {
+                  "path": "bin/macs3_merged_expand.py"
+                },
+                {
+                  "path": "bin/plot_macs3_qc.r"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/igenomes.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/images/mqc_macs3_peak_count_plot.png"
+                },
+                {
+                  "path": "docs/images/nf-core-chipseq_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-chipseq_logo_light.png"
+                },
+                {
+                  "path": "docs/images/nf-core-chipseq_metro_map_grey.png"
+                },
+                {
+                  "path": "docs/images/nf-core-chipseq_metro_map_grey.svg"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "lib/NfcoreSchema.groovy"
+                },
+                {
+                  "path": "lib/NfcoreTemplate.groovy"
+                },
+                {
+                  "path": "lib/Utils.groovy"
+                },
+                {
+                  "path": "lib/WorkflowChipseq.groovy"
+                },
+                {
+                  "path": "lib/WorkflowMain.groovy"
+                },
+                {
+                  "path": "lib/nfcore_external_java_deps.jar"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/annotate_boolean_peaks.nf"
+                },
+                {
+                  "path": "modules/local/bam_remove_orphans.nf"
+                },
+                {
+                  "path": "modules/local/bamtools_filter.nf"
+                },
+                {
+                  "path": "modules/local/bedtools_genomecov.nf"
+                },
+                {
+                  "path": "modules/local/deseq2_qc.nf"
+                },
+                {
+                  "path": "modules/local/frip_score.nf"
+                },
+                {
+                  "path": "modules/local/genome_blacklist_regions.nf"
+                },
+                {
+                  "path": "modules/local/gtf2bed.nf"
+                },
+                {
+                  "path": "modules/local/igv.nf"
+                },
+                {
+                  "path": "modules/local/macs3_consensus.nf"
+                },
+                {
+                  "path": "modules/local/multiqc.nf"
+                },
+                {
+                  "path": "modules/local/multiqc_custom_peaks.nf"
+                },
+                {
+                  "path": "modules/local/multiqc_custom_phantompeakqualtools.nf"
+                },
+                {
+                  "path": "modules/local/plot_homer_annotatepeaks.nf"
+                },
+                {
+                  "path": "modules/local/plot_macs3_qc.nf"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/local/star_align.nf"
+                },
+                {
+                  "path": "modules/local/star_genomegenerate.nf"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/tests/large_index.config"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/tests/sam.config"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/tests/sam2.config"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/build/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/chromap/chromap/environment.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 410,
+            "title": "Bulk update of modules and subworkflows for 2.1.0 release",
+            "state": "MERGED",
+            "createdAt": "2024-08-06T16:02:11Z",
+            "mergedAt": "2024-08-09T07:40:42Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/multiqc.nf"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/tests/cram_crai.config"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/align/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/build/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/build/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/build/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/build/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/build/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bowtie2/build/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/chromap/chromap/chromap-chromap.diff"
+                },
+                {
+                  "path": "modules/nf-core/chromap/chromap/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/chromap/chromap/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/chromap/chromap/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/chromap/chromap/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/chromap/chromap/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/chromap/chromap/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/chromap/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/chromap/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/chromap/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/chromap/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/chromap/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/chromap/index/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/getchromsizes/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/getchromsizes/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/getchromsizes/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/getchromsizes/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/custom/getchromsizes/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/custom/getchromsizes/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/computematrix/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/computematrix/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/computematrix/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/computematrix/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/computematrix/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/computematrix/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/computematrix/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/plotfingerprint/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/plotfingerprint/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/plotfingerprint/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/plotfingerprint/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/plotfingerprint/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/plotfingerprint/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/plotheatmap/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/plotheatmap/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/plotheatmap/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/plotheatmap/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/plotheatmap/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/plotheatmap/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/plotprofile/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/plotprofile/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/plotprofile/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/plotprofile/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/plotprofile/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/deeptools/plotprofile/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gffread/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gffread/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gffread/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gffread/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gffread/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gffread/tests/nextflow-fasta.config"
+                },
+                {
+                  "path": "modules/nf-core/gffread/tests/nextflow-gff3.config"
+                },
+                {
+                  "path": "modules/nf-core/gffread/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/gffread/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/homer/annotatepeaks/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/homer/annotatepeaks/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/homer/annotatepeaks/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/khmer/uniquekmers/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/khmer/uniquekmers/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/khmer/uniquekmers/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 408,
+            "title": "Several fixes",
+            "state": "MERGED",
+            "createdAt": "2024-07-25T08:25:48Z",
+            "mergedAt": "2024-07-31T12:41:43Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "subworkflows/local/prepare_genome.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_chipseq_pipeline/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 407,
+            "title": "Always upload logs when running aws full tests",
+            "state": "MERGED",
+            "createdAt": "2024-07-24T16:32:04Z",
+            "mergedAt": "2024-07-24T17:33:54Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 406,
+            "title": "Update images to macs3",
+            "state": "MERGED",
+            "createdAt": "2024-07-24T15:15:36Z",
+            "mergedAt": "2024-07-24T17:33:35Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "docs/images/mqc_macs3_peak_count_plot.png"
+                },
+                {
+                  "path": "docs/images/nf-core-chipseq_metro_map_grey.png"
+                },
+                {
+                  "path": "docs/images/nf-core-chipseq_metro_map_grey.svg"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 405,
+            "title": "Add read group tag to bowtie2 bams",
+            "state": "MERGED",
+            "createdAt": "2024-07-23T14:12:51Z",
+            "mergedAt": "2024-07-23T14:50:49Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "subworkflows/local/input_check.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 404,
+            "title": "Switch from macs2 to macs3",
+            "state": "MERGED",
+            "createdAt": "2024-07-23T10:17:53Z",
+            "mergedAt": "2024-07-23T11:21:25Z",
+            "author": {
+              "login": "JoseEspinosa"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/multiqc/frip_score_header.txt"
+                },
+                {
+                  "path": "assets/multiqc/peak_count_header.txt"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "bin/macs3_merged_expand.py"
+                },
+                {
+                  "path": "bin/plot_macs3_qc.r"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/igv.nf"
+                },
+                {
+                  "path": "modules/local/macs3_consensus.nf"
+                },
+                {
+                  "path": "modules/local/multiqc.nf"
+                },
+                {
+                  "path": "modules/local/plot_macs3_qc.nf"
+                },
+                {
+                  "path": "modules/nf-core/macs3/callpeak/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/macs3/callpeak/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/macs3/callpeak/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/macs3/callpeak/tests/bam.config"
+                },
+                {
+                  "path": "modules/nf-core/macs3/callpeak/tests/bed.config"
+                },
+                {
+                  "path": "modules/nf-core/macs3/callpeak/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/macs3/callpeak/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/bam_peaks_call_qc_annotate_macs3_homer.nf"
+                },
+                {
+                  "path": "subworkflows/local/bed_consensus_quantify_qc_bedtools_featurecounts_deseq2.nf"
+                },
+                {
+                  "path": "subworkflows/local/utils_nfcore_chipseq_pipeline/main.nf"
+                },
+                {
+                  "path": "tower.yml"
+                },
+                {
+                  "path": "workflows/chipseq.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 402,
+            "title": "Clean up and removal of double slashes",
+            "state": "MERGED",
+            "createdAt": "2024-07-09T15:45:56Z",
+            "mergedAt": "2024-07-11T13:58:38Z",
+            "author": {
+              "login": "bjlang"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "subworkflows/local/bed_consensus_quantify_qc_bedtools_featurecounts_deseq2.nf"
+                },
+                {
+                  "path": "workflows/chipseq.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

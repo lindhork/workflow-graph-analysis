@@ -1,0 +1,35 @@
+from snakemake.utils import min_version
+min_version("7.12.1")
+import glob
+
+config_path = config.get("config_path","config/config.yaml")
+configfile: config_path
+#configfile: "config/config.yaml"
+
+EXTENSION = glob_wildcards(config["GENOMES"] + "/{samples}.{extension}").extension
+
+if EXTENSION[0] == "gz":
+	SAMPLES = glob_wildcards(config["GENOMES"] + "/{samples}.fa.{extension}").samples
+else:
+	SAMPLES = glob_wildcards(config["GENOMES"] + "/{samples}.{extension}").samples
+
+num = config["GENE_COUNT"]
+IDS = list(range(1,num+1))
+mode = config.get("mode","accurate")
+deep_mode = config.get("deep_mode","False")
+MIN_ALIGN = config.get("MIN_ALIGN",4)
+
+if (mode == "fast"):
+	include: "rules/mashtree.smk"
+elif (mode == "balanced"):
+	include: "rules/align.smk"
+	include: "rules/sampling.smk"
+	include: "rules/fasttree.smk"
+else:
+	include: "rules/align.smk"
+	include: "rules/sampling.smk"
+	include: "rules/tree.smk"
+	
+rule all:
+	input:
+		config["OUT_DIR"]+"/genetrees/gene_tree_merged.nwk"

@@ -1,0 +1,41 @@
+rule busco_metaeuk:
+    wildcard_constraints:
+        species="|".join(config["species_list"])
+    input:
+        get_genome_file,
+    output:
+        busco_outdir=directory(busco_dir_path / "{species}"),
+        single_copy_busco_sequences=directory(busco_dir_path / "{species}/busco_sequences/single_copy_busco_sequences"),
+        multi_copy_busco_sequences=directory(busco_dir_path / "{species}/busco_sequences/multi_copy_busco_sequences"),
+        summary=busco_dir_path / "{species}/short_summary_{species}.txt",
+    params:
+        mode=config["busco_mode"],
+        busco_dataset_path=config["busco_dataset_path"],
+        busco_options=config["busco_options"],
+        output_prefix="{species}",
+    log:
+        std=(log_dir_path / "busco.{species}.log").resolve(),
+        busco_log=(log_dir_path / "busco_log.{species}.log").resolve(),
+        cluster_log=cluster_log_dir_path / "busco.{species}.cluster.log",
+        cluster_err=cluster_log_dir_path / "busco.{species}.cluster.err",
+    benchmark:
+        benchmark_dir_path / "busco.{species}.benchmark.txt"
+    conda:
+        config["conda"]["buscoclade_main"]["name"] if config["use_existing_envs"] else ("../../%s" % config["conda"]["buscoclade_main"]["yaml"])
+    resources:
+        slurm_partition=config["busco_queue"],
+        runtime=config["busco_time"],
+        mem_mb=config["busco_mem_mb"],
+    threads: config["busco_threads"]
+    shell:
+        " mkdir -p {output.busco_outdir}; cd {output.busco_outdir}; "
+        " busco --metaeuk -m {params.mode} -i {input} -c {threads} -l {params.busco_dataset_path} "
+        " -o {params.output_prefix} {params.busco_options} 1> {log.busco_log} 2>&1; "
+        " mv {params.output_prefix}/* . 1> {log.std} 2>&1; "
+        " rm -r {params.output_prefix}/ 1>> {log.std} 2>&1; "
+        " rm -r busco_sequences/ 1>> {log.std} 2>&1; "
+        " mv run*/* . 1>> {log.std} 2>&1; "
+        " rm -r run* 1>> {log.std} 2>&1; "
+        " mv full_table.tsv full_table_{params.output_prefix}.tsv 1>> {log.std} 2>&1; "
+        " mv missing_busco_list.tsv missing_busco_list_{params.output_prefix}.tsv 1>> {log.std} 2>&1; "
+        " mv short_summary.txt short_summary_{params.output_prefix}.txt 1>> {log.std} 2>&1; "

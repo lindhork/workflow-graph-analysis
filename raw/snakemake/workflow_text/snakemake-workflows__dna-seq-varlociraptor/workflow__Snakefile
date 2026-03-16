@@ -1,0 +1,76 @@
+# bcf files are seperated into subdirectories
+# (processed) candidate calls created by freebayes, delly and arriba are placed under:
+# results/calls/candidates/<rule_identifier>/<group>/<group>.<suffix>.bcf
+# filtered/annotated calls processed by varlociraptor are placed under:
+# results/calls/<rule_identifier>/<group>/<event>/<group>.<suffix>.bcf
+
+
+from snakemake.utils import min_version
+
+min_version("9.1.0")
+
+
+configfile: "config/config.yaml"
+
+
+report: "report/workflow.rst"
+
+
+scattergather:
+    calling=16,
+
+
+inputflags:
+    access.sequential,
+
+
+# Allow users to fix the underlying OS via singularity.
+container: "docker://continuumio/miniconda3"
+
+
+include: "rules/common.smk"
+include: "rules/utils.smk"
+include: "rules/qc.smk"
+include: "rules/benchmarking.smk"
+include: "rules/ref.smk"
+include: "rules/trimming.smk"
+include: "rules/mapping.smk"
+include: "rules/candidate_calling.smk"
+include: "rules/calling.smk"
+include: "rules/annotation.smk"
+include: "rules/filtering.smk"
+include: "rules/maf.smk"
+include: "rules/mutational_burden.smk"
+include: "rules/vega.smk"
+include: "rules/primers.smk"
+include: "rules/table.smk"
+include: "rules/regions.smk"
+include: "rules/plugins.smk"
+include: "rules/datavzrd.smk"
+include: "rules/fusion_calling.smk"
+include: "rules/testcase.smk"
+include: "rules/population.smk"
+include: "rules/mutational_signatures.smk"
+
+
+batches = "all"
+if is_activated("report/stratify"):
+    batches = samples[config["report"]["stratify"]["by-column"]].unique()
+
+
+rule all:
+    input:
+        get_final_output,
+
+
+rule only_alignment:
+    input:
+        expand("results/mapped/{sample}.cram", sample=samples["sample_name"]),
+
+
+rule benchmark:
+    input:
+        expand(
+            "benchmarking/{query}.summary",
+            query=config["calling"]["fdr-control"]["events"],
+        ),

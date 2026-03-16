@@ -1,0 +1,9 @@
+shell.executable("bash")
+
+rule a:
+    output:
+        "test.out"
+    threads: 20
+    run:
+        print(threads)
+        shell("echo {threads} > {output}")

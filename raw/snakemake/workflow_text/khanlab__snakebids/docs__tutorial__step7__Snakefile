@@ -1,0 +1,40 @@
+from snakebids import bids, generate_inputs
+
+configfile: 'config.yml'
+
+inputs = generate_inputs(
+    bids_dir=config['bids_dir'],
+    pybids_inputs=config['pybids_inputs'],
+)
+
+rule all:
+    input:
+        inputs['bold'].expand(
+            bids(
+                root='results',
+                fwhm='{fwhm}',
+                suffix='bold.nii.gz',
+                **inputs['bold'].wildcards
+            ),
+            fwhm=config['fwhm'],
+        )
+
+
+def calc_sigma_from_fwhm(wildcards):
+    return f'{float(wildcards.fwhm)/2.355:0.2f}'
+
+
+rule smooth:
+    input:
+        inputs['bold'].path
+    params:
+        sigma = calc_sigma_from_fwhm
+    output:
+        bids(
+            root='results',
+            fwhm='{fwhm}',
+            suffix='bold.nii.gz',
+            **inputs['bold'].wildcards
+        )
+    shell:
+        'fslmaths {input} -s {params.sigma} {output}'

@@ -1,0 +1,158 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 9,
+            "title": "update GH actions workflows, particularly superlinter -> v8",
+            "state": "OPEN",
+            "createdAt": "2026-02-12T12:06:29Z",
+            "closedAt": null,
+            "author": {
+              "login": "m-jahn"
+            }
+          },
+          {
+            "number": 6,
+            "title": "correct email address",
+            "state": "CLOSED",
+            "createdAt": "2023-04-18T13:32:58Z",
+            "closedAt": "2024-11-25T09:36:36Z",
+            "author": {
+              "login": "m-jahn"
+            }
+          },
+          {
+            "number": 5,
+            "title": "MSstats contrast matrix selects wrong samples for comparison when using more complex sample setup",
+            "state": "CLOSED",
+            "createdAt": "2023-03-01T14:52:25Z",
+            "closedAt": "2023-03-01T15:28:10Z",
+            "author": {
+              "login": "m-jahn"
+            }
+          },
+          {
+            "number": 4,
+            "title": "Rmd report: add software versions, samplesheet, workflow, database",
+            "state": "CLOSED",
+            "createdAt": "2023-03-01T08:42:25Z",
+            "closedAt": "2023-03-03T11:40:18Z",
+            "author": {
+              "login": "m-jahn"
+            }
+          },
+          {
+            "number": 3,
+            "title": "report email needs some corrections",
+            "state": "CLOSED",
+            "createdAt": "2022-12-15T13:11:57Z",
+            "closedAt": "2023-03-03T10:18:57Z",
+            "author": {
+              "login": "m-jahn"
+            }
+          },
+          {
+            "number": 2,
+            "title": "Add schematic overview of pipeline",
+            "state": "CLOSED",
+            "createdAt": "2022-12-15T07:35:25Z",
+            "closedAt": "2022-12-20T11:21:16Z",
+            "author": {
+              "login": "m-jahn"
+            }
+          },
+          {
+            "number": 1,
+            "title": "Add log files for all modules",
+            "state": "CLOSED",
+            "createdAt": "2022-12-15T07:34:05Z",
+            "closedAt": "2022-12-19T15:55:23Z",
+            "author": {
+              "login": "m-jahn"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 8,
+            "title": "chore(main): release 1.0.0",
+            "state": "MERGED",
+            "createdAt": "2025-01-30T14:05:31Z",
+            "mergedAt": "2025-01-30T14:06:10Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 1
+                },
+                {
+                  "number": 2
+                },
+                {
+                  "number": 3
+                },
+                {
+                  "number": 6
+                }
+              ]
+            }
+          },
+          {
+            "number": 7,
+            "title": "feat: updates to documentation, license, gh actions",
+            "state": "MERGED",
+            "createdAt": "2025-01-30T13:29:34Z",
+            "mergedAt": "2025-01-30T14:04:52Z",
+            "author": {
+              "login": "m-jahn"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/conventional-prs.yml"
+                },
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".github/workflows/release-please.yml"
+                },
+                {
+                  "path": ".snakemake-workflow-catalog.yml"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

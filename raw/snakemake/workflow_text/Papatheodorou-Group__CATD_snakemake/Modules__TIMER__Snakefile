@@ -1,0 +1,42 @@
+## Rule index for TIMER deconv
+##
+## @zgr2788
+##
+##
+## Description:
+## This file includes the rule to run TIMER with C0 reference.
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+
+rule TIMER_run:
+    input:
+        getC2(getPhenData(getC0(getBulks('{sample}'), '{sample}'), '{sample}'),'{sample}')
+
+    output:
+        "Output/{sample}_res_TIMER.rds"
+
+    conda:
+        "env.yaml"
+
+    benchmark:
+        "Benchmarks/{sample}_TIMER_benchmark.txt"
+
+    resources:
+        mem_mb=getMB(config['mem_gb']['TIMER'])
+    
+    params:
+        markers=config['markers']
+
+    shell:
+        "Rscript Modules/TIMER/TIMER_run.R {input} {params.markers} {output}"

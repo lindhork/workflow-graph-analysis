@@ -1,0 +1,49 @@
+# workflow/rules/fastqc.smk
+
+
+rule fastqc:
+    input:
+        fq=get_fq_files,
+        checksum_valid=get_checksum_dependency,
+    output:
+        htmls="results/fastqc/{sample_unit}_{read}/{sample_unit}_{read}.html",
+        zips="results/fastqc/{sample_unit}_{read}/{sample_unit}_{read}_fastqc.zip",
+    params:
+        extra=config["params"]["fastqc"]["extra"],
+        memory=config["params"]["fastqc"]["memory"],
+        outdir="results/fastqc/{sample_unit}_{read}",
+    threads: 12
+    conda:
+        "../envs/fastqc.yaml"
+    log:
+        "logs/fastqc/{sample_unit}_{read}.log",
+    message:
+        """
+        Generating FastQC report for:
+            sample_unit = {wildcards.sample_unit}
+            read = {wildcards.read}
+        """
+    shell:
+        """
+        (# Perform fastqc on each read
+        fastqc --threads {threads} --memory {params.memory} \
+        {params.extra} --outdir {params.outdir}/ {input.fq}
+        
+        # Determine the base name by removing known fastq extensions
+        base_name=$(basename "{input.fq}")
+        if [[ "$base_name" == *.fq.gz ]]; then
+            base_name=$(basename "$base_name" .fq.gz)
+        elif [[ "$base_name" == *.fastq.gz ]]; then
+            base_name=$(basename "$base_name" .fastq.gz)
+        elif [[ "$base_name" == *.fq ]]; then
+            base_name=$(basename "$base_name" .fq)
+        elif [[ "$base_name" == *.fastq ]]; then
+            base_name=$(basename "$base_name" .fastq)
+        fi
+        
+        html_output_name=${{base_name}}_fastqc.html
+        zip_output_name=${{base_name}}_fastqc.zip
+        
+        mv {params.outdir}/$html_output_name {output.htmls}
+        mv {params.outdir}/$zip_output_name {output.zips}) &> {log}
+        """

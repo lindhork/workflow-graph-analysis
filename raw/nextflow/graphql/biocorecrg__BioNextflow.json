@@ -1,0 +1,453 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 17,
+            "title": "deeplexicon produces different demultiplexing results for GPU and CPU mode.",
+            "state": "OPEN",
+            "createdAt": "2023-07-10T14:52:37Z",
+            "closedAt": null,
+            "author": {
+              "login": "adalisan"
+            }
+          },
+          {
+            "number": 16,
+            "title": "Allow saving unmapped reads in minimap2 output",
+            "state": "OPEN",
+            "createdAt": "2023-03-15T18:51:58Z",
+            "closedAt": null,
+            "author": {
+              "login": "alexamlie"
+            }
+          },
+          {
+            "number": 15,
+            "title": "rpy2 package  which is required by tombo's plotting functions is not installed in mopmod singularity  images",
+            "state": "OPEN",
+            "createdAt": "2023-02-27T19:00:51Z",
+            "closedAt": null,
+            "author": {
+              "login": "adalisan"
+            }
+          },
+          {
+            "number": 10,
+            "title": "Pass the a hash as parameters",
+            "state": "OPEN",
+            "createdAt": "2021-11-19T09:37:09Z",
+            "closedAt": null,
+            "author": {
+              "login": "lucacozzuto"
+            }
+          },
+          {
+            "number": 9,
+            "title": "Help with pasapipeline params files to run PASA with mysql within Nextflow",
+            "state": "OPEN",
+            "createdAt": "2021-07-16T18:30:24Z",
+            "closedAt": null,
+            "author": {
+              "login": "tamuanand"
+            }
+          },
+          {
+            "number": 7,
+            "title": "Use common interface for exposed workflows of modules in the same category",
+            "state": "CLOSED",
+            "createdAt": "2021-04-07T13:17:46Z",
+            "closedAt": "2021-11-19T09:34:38Z",
+            "author": {
+              "login": "emi80"
+            }
+          },
+          {
+            "number": 3,
+            "title": "Migrate NF modules to bioNextflow template",
+            "state": "OPEN",
+            "createdAt": "2021-01-20T14:22:02Z",
+            "closedAt": null,
+            "author": {
+              "login": "edgano"
+            }
+          },
+          {
+            "number": 2,
+            "title": "multiple libraries",
+            "state": "CLOSED",
+            "createdAt": "2018-04-03T17:00:19Z",
+            "closedAt": "2018-06-05T13:54:57Z",
+            "author": {
+              "login": "lucacozzuto"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 18,
+            "title": "Update get_singularity.py",
+            "state": "OPEN",
+            "createdAt": "2025-09-29T10:10:14Z",
+            "mergedAt": null,
+            "author": {
+              "login": "samir-watson"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "scripts/get_singularity.py"
+                },
+                {
+                  "path": "subworkflows/basecalling/dorado.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 14,
+            "title": "adding single plots",
+            "state": "MERGED",
+            "createdAt": "2022-12-02T15:08:35Z",
+            "mergedAt": "2022-12-02T15:08:48Z",
+            "author": {
+              "login": "lucacozzuto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "subworkflows/misc/deeptools.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 13,
+            "title": "removing multi-threading",
+            "state": "MERGED",
+            "createdAt": "2021-12-21T09:41:17Z",
+            "mergedAt": "2021-12-21T09:41:23Z",
+            "author": {
+              "login": "lucacozzuto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "subworkflows/demultiplexing/deeplexicon.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 12,
+            "title": "fixing indexing",
+            "state": "MERGED",
+            "createdAt": "2021-11-22T15:04:22Z",
+            "mergedAt": "2021-11-22T15:04:28Z",
+            "author": {
+              "login": "lucacozzuto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "subworkflows/alignment/salmon.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 11,
+            "title": "fixing salmon",
+            "state": "MERGED",
+            "createdAt": "2021-11-22T11:43:37Z",
+            "mergedAt": "2021-11-22T11:43:45Z",
+            "author": {
+              "login": "lucacozzuto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "subworkflows/alignment/salmon.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 8,
+            "title": "Adding a trimmomatic module",
+            "state": "CLOSED",
+            "createdAt": "2021-05-17T14:29:43Z",
+            "mergedAt": null,
+            "author": {
+              "login": "HediaTnani"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "subworkflows/trimming/trimmomatic.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6,
+            "title": "adding deq",
+            "state": "MERGED",
+            "createdAt": "2021-03-24T09:45:54Z",
+            "mergedAt": "2021-03-24T09:46:01Z",
+            "author": {
+              "login": "lucacozzuto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "subworkflows/peak_calling/deq.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 5,
+            "title": "adding tools",
+            "state": "MERGED",
+            "createdAt": "2021-03-16T17:07:28Z",
+            "mergedAt": "2021-03-16T17:07:36Z",
+            "author": {
+              "login": "lucacozzuto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "subworkflows/alignment/star.nf"
+                },
+                {
+                  "path": "subworkflows/basecalling/albacore.nf"
+                },
+                {
+                  "path": "subworkflows/basecalling/guppy.nf"
+                },
+                {
+                  "path": "subworkflows/demultiplexing/Untitled-1.nf"
+                },
+                {
+                  "path": "subworkflows/demultiplexing/deeplexicon.nf"
+                },
+                {
+                  "path": "subworkflows/misc/misc.nf"
+                },
+                {
+                  "path": "subworkflows/peak_calling/MoAIMS.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4,
+            "title": "Dls2",
+            "state": "MERGED",
+            "createdAt": "2021-03-12T12:04:25Z",
+            "mergedAt": "2021-03-12T14:01:03Z",
+            "author": {
+              "login": "lucacozzuto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "INSTALL.sh"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docker_files/Dockerfile_class-transcripts_20200626"
+                },
+                {
+                  "path": "docker_files/Dockerfile_epic_2_12"
+                },
+                {
+                  "path": "docker_files/Dockerfile_moaims_1_0"
+                },
+                {
+                  "path": "docker_files/Dockerfile_pasapipeline_2_3_3"
+                },
+                {
+                  "path": "example_pipe/main.nf"
+                },
+                {
+                  "path": "example_pipe/nextflow.config"
+                },
+                {
+                  "path": "example_pipe/params.config"
+                },
+                {
+                  "path": "example_pipe/test_data/B7_H3K4me1_s_chr19.fastq.gz"
+                },
+                {
+                  "path": "example_pipe/test_data/chr19.fasta.gz"
+                },
+                {
+                  "path": "lib/FeatureCounter.groovy"
+                },
+                {
+                  "path": "lib/Misc.groovy"
+                },
+                {
+                  "path": "lib/NGSaligner.groovy"
+                },
+                {
+                  "path": "lib/PeakCaller.groovy"
+                },
+                {
+                  "path": "lib/QualityChecker.groovy"
+                },
+                {
+                  "path": "lib/Reporter.groovy"
+                },
+                {
+                  "path": "lib/Trimmer.groovy"
+                },
+                {
+                  "path": "subworkflows/alignment/bwa.nf"
+                },
+                {
+                  "path": "subworkflows/alignment/salmon.nf"
+                },
+                {
+                  "path": "subworkflows/alignment/samblaster.nf"
+                },
+                {
+                  "path": "subworkflows/alignment/star.nf"
+                },
+                {
+                  "path": "subworkflows/global_functions.nf"
+                },
+                {
+                  "path": "subworkflows/misc/bedtools.nf"
+                },
+                {
+                  "path": "subworkflows/misc/misc.nf"
+                },
+                {
+                  "path": "subworkflows/misc/picard.nf"
+                },
+                {
+                  "path": "subworkflows/misc/samtools.nf"
+                },
+                {
+                  "path": "subworkflows/peak_calling/MoAIMS.nf"
+                },
+                {
+                  "path": "subworkflows/peak_calling/epic.nf"
+                },
+                {
+                  "path": "subworkflows/peak_calling/epic2.nf"
+                },
+                {
+                  "path": "subworkflows/peak_calling/macs.nf"
+                },
+                {
+                  "path": "subworkflows/peak_calling/macs2.nf"
+                },
+                {
+                  "path": "subworkflows/qc/fastq_stats.nf"
+                },
+                {
+                  "path": "subworkflows/qc/fastqc.nf"
+                },
+                {
+                  "path": "subworkflows/reporting/multiqc.nf"
+                },
+                {
+                  "path": "subworkflows/structural_annotation/class.nf"
+                },
+                {
+                  "path": "subworkflows/structural_annotation/pasapipeline.nf"
+                },
+                {
+                  "path": "subworkflows/structural_annotation/scallop.nf"
+                },
+                {
+                  "path": "subworkflows/structural_annotation/strawberry.nf"
+                },
+                {
+                  "path": "subworkflows/structural_annotation/stringtie.nf"
+                },
+                {
+                  "path": "subworkflows/structural_variant/cnvkit.nf"
+                },
+                {
+                  "path": "subworkflows/structural_variant/lumpy.nf"
+                },
+                {
+                  "path": "subworkflows/trimming/skewer.nf"
+                },
+                {
+                  "path": "testFunctions.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1,
+            "title": "Refactored test to use simple assertion",
+            "state": "MERGED",
+            "createdAt": "2018-03-19T16:44:50Z",
+            "mergedAt": "2018-03-19T16:53:11Z",
+            "author": {
+              "login": "pditommaso"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "lib/BiologicalFunctions.groovy"
+                },
+                {
+                  "path": "testFunctions.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

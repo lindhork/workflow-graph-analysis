@@ -1,0 +1,3150 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 196,
+            "title": "Add ontology IDs to GVF in square brackets",
+            "state": "OPEN",
+            "createdAt": "2025-01-15T22:15:02Z",
+            "closedAt": null,
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 195,
+            "title": "Enable validation for output files",
+            "state": "OPEN",
+            "createdAt": "2025-01-15T22:07:54Z",
+            "closedAt": null,
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 185,
+            "title": "Allow functional annotations from multiple files to be added to the GVF",
+            "state": "OPEN",
+            "createdAt": "2024-10-28T02:19:44Z",
+            "closedAt": null,
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 183,
+            "title": "functional_annotation.py bug for MPOX",
+            "state": "CLOSED",
+            "createdAt": "2024-10-24T10:51:37Z",
+            "closedAt": "2024-10-28T04:27:02Z",
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 181,
+            "title": "gff2json.py doesn't currently accept lists for protein_alias",
+            "state": "OPEN",
+            "createdAt": "2024-09-18T06:54:34Z",
+            "closedAt": null,
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 180,
+            "title": "September 9, 2024 meeting notes",
+            "state": "OPEN",
+            "createdAt": "2024-09-10T05:48:33Z",
+            "closedAt": null,
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 179,
+            "title": "tidying",
+            "state": "CLOSED",
+            "createdAt": "2024-07-30T06:07:17Z",
+            "closedAt": "2024-10-22T19:36:33Z",
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 178,
+            "title": "RdRp missing for merging functional annotations",
+            "state": "CLOSED",
+            "createdAt": "2024-07-30T02:09:30Z",
+            "closedAt": "2024-07-30T06:22:00Z",
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 177,
+            "title": "missing \"gene\" keys in MPOX JSON",
+            "state": "CLOSED",
+            "createdAt": "2024-06-14T22:37:57Z",
+            "closedAt": "2025-01-22T22:41:35Z",
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 170,
+            "title": "change \"gene\" attribute in GVF to \"gene_name\"",
+            "state": "CLOSED",
+            "createdAt": "2024-04-30T20:38:46Z",
+            "closedAt": "2024-10-25T18:47:56Z",
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 168,
+            "title": "functional_annotation file fixes",
+            "state": "CLOSED",
+            "createdAt": "2024-04-26T22:11:23Z",
+            "closedAt": "2024-10-22T19:34:53Z",
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 167,
+            "title": "Add gene names and symbols to mutation index",
+            "state": "CLOSED",
+            "createdAt": "2024-04-26T22:08:38Z",
+            "closedAt": "2024-10-22T19:35:23Z",
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 166,
+            "title": "sample_size finding for reference mode",
+            "state": "OPEN",
+            "createdAt": "2024-04-26T22:00:28Z",
+            "closedAt": null,
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 165,
+            "title": "Correct HGVS nucleotide names to be indexed from the start of the reference genome",
+            "state": "CLOSED",
+            "createdAt": "2024-04-26T21:57:26Z",
+            "closedAt": "2024-10-25T04:35:32Z",
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 162,
+            "title": "addfunctions2gvf.py produces an empty file",
+            "state": "CLOSED",
+            "createdAt": "2024-04-26T10:11:29Z",
+            "closedAt": "2024-04-26T18:19:45Z",
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 159,
+            "title": "need all empty #attributes key-pairs to be \"n/a\", not empty strings",
+            "state": "CLOSED",
+            "createdAt": "2024-04-22T02:19:12Z",
+            "closedAt": "2024-04-26T10:16:50Z",
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 153,
+            "title": "Virus-MVP tasks (Madeline)",
+            "state": "CLOSED",
+            "createdAt": "2024-01-30T23:29:30Z",
+            "closedAt": "2024-03-05T18:56:03Z",
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 152,
+            "title": "reevaluate adjustments to the nucleotide names",
+            "state": "OPEN",
+            "createdAt": "2024-01-27T02:07:15Z",
+            "closedAt": null,
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 151,
+            "title": "mutation name discrepancy",
+            "state": "CLOSED",
+            "createdAt": "2024-01-27T00:45:38Z",
+            "closedAt": "2024-01-29T20:05:28Z",
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 150,
+            "title": "Mutation index has some integers in mutation name column",
+            "state": "OPEN",
+            "createdAt": "2024-01-24T22:30:04Z",
+            "closedAt": null,
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 142,
+            "title": "Update scripts to accomodate re-organized pokay",
+            "state": "CLOSED",
+            "createdAt": "2023-10-06T20:28:07Z",
+            "closedAt": "2024-10-22T19:36:10Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 141,
+            "title": "update the gff2json.py to integrate into nextflow ",
+            "state": "OPEN",
+            "createdAt": "2023-10-06T19:54:41Z",
+            "closedAt": null,
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 135,
+            "title": "comb_mutation composite names",
+            "state": "CLOSED",
+            "createdAt": "2023-07-10T16:52:16Z",
+            "closedAt": "2023-07-19T07:07:07Z",
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 134,
+            "title": "Pokay parsing",
+            "state": "CLOSED",
+            "createdAt": "2023-07-07T22:34:38Z",
+            "closedAt": "2025-01-22T22:42:24Z",
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 132,
+            "title": "Missing 'ID' attribute",
+            "state": "CLOSED",
+            "createdAt": "2023-07-05T23:35:49Z",
+            "closedAt": "2023-07-07T22:39:34Z",
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 103,
+            "title": "Differentiate the previously and currently circulating variants",
+            "state": "CLOSED",
+            "createdAt": "2022-10-21T21:00:42Z",
+            "closedAt": "2022-11-25T04:19:23Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 102,
+            "title": "Update the HGVS annotation",
+            "state": "OPEN",
+            "createdAt": "2022-10-21T17:52:46Z",
+            "closedAt": null,
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 101,
+            "title": "Add the in vitro therapeutic activity against SARS-CoV-2 variants",
+            "state": "OPEN",
+            "createdAt": "2022-10-21T17:48:57Z",
+            "closedAt": null,
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 100,
+            "title": "Add alias to the sub-lineages",
+            "state": "CLOSED",
+            "createdAt": "2022-10-21T17:32:15Z",
+            "closedAt": "2022-11-25T04:19:23Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 95,
+            "title": "Add recombinat lineages (XD, XE) to constellation os lineages & variants tracke and add support for surveillance reports of recombinant lineages",
+            "state": "CLOSED",
+            "createdAt": "2022-04-15T10:46:25Z",
+            "closedAt": "2022-04-15T11:20:21Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 94,
+            "title": "Collation of lineages to variants go wrong when only one lineage per variant and/or sequences from the lineage are not preset",
+            "state": "CLOSED",
+            "createdAt": "2022-04-15T10:01:14Z",
+            "closedAt": "2022-04-15T11:20:32Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 84,
+            "title": "Summarized Surveillance reports in PDF/HTML format",
+            "state": "CLOSED",
+            "createdAt": "2022-01-19T15:12:28Z",
+            "closedAt": "2022-01-19T15:38:22Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 81,
+            "title": "Pangolin module required",
+            "state": "CLOSED",
+            "createdAt": "2022-01-13T21:58:03Z",
+            "closedAt": "2022-01-13T21:58:47Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 78,
+            "title": "Current structure of modules doesn't allow installation of nf-core module",
+            "state": "CLOSED",
+            "createdAt": "2022-01-13T21:46:30Z",
+            "closedAt": "2022-01-13T21:50:42Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 76,
+            "title": "extract_metadata.py doesnt allow filtering data with dates for VirusSeq data portal",
+            "state": "CLOSED",
+            "createdAt": "2022-01-13T21:08:11Z",
+            "closedAt": "2022-01-13T21:29:02Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 64,
+            "title": "Add a connecting script to map sequences from VirusSeq data-portal to the lineages. ",
+            "state": "CLOSED",
+            "createdAt": "2021-11-18T19:39:42Z",
+            "closedAt": "2021-11-18T19:59:01Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 63,
+            "title": "No template for bug or new feature",
+            "state": "CLOSED",
+            "createdAt": "2021-11-15T05:13:55Z",
+            "closedAt": "2021-11-15T05:14:33Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 52,
+            "title": "Ability to differentiate single/multiple genome fasta file",
+            "state": "CLOSED",
+            "createdAt": "2021-11-02T08:18:42Z",
+            "closedAt": "2021-11-02T08:43:51Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 47,
+            "title": "Error: empty files error",
+            "state": "CLOSED",
+            "createdAt": "2021-10-29T21:48:46Z",
+            "closedAt": "2021-11-02T08:10:47Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 45,
+            "title": "Add num of sequences (sample size) to GVF for each lineage",
+            "state": "CLOSED",
+            "createdAt": "2021-10-28T18:23:59Z",
+            "closedAt": "2021-10-28T18:25:39Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 38,
+            "title": "Limited documentation ",
+            "state": "CLOSED",
+            "createdAt": "2021-10-21T10:39:24Z",
+            "closedAt": "2021-10-21T10:40:35Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 36,
+            "title": "Clade-defining info for vcf2gvf.py",
+            "state": "CLOSED",
+            "createdAt": "2021-10-19T06:06:06Z",
+            "closedAt": "2021-10-19T18:38:36Z",
+            "author": {
+              "login": "miseminger"
+            }
+          },
+          {
+            "number": 33,
+            "title": "Error: workflow should find the lineages from the metadata file",
+            "state": "CLOSED",
+            "createdAt": "2021-10-13T06:08:06Z",
+            "closedAt": "2021-10-18T07:04:45Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 28,
+            "title": "Error in ncov_voc:vcfTogvf",
+            "state": "CLOSED",
+            "createdAt": "2021-10-01T06:45:00Z",
+            "closedAt": "2021-10-18T07:08:26Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 24,
+            "title": "Update filenames and tags in modules",
+            "state": "CLOSED",
+            "createdAt": "2021-10-01T06:17:53Z",
+            "closedAt": "2021-10-01T06:20:23Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 21,
+            "title": "Update to stable version of dsl=2",
+            "state": "CLOSED",
+            "createdAt": "2021-10-01T05:58:01Z",
+            "closedAt": "2021-10-01T06:10:59Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 20,
+            "title": "add single genome parsing to vcfTogvf.py",
+            "state": "CLOSED",
+            "createdAt": "2021-09-29T23:17:00Z",
+            "closedAt": "2021-09-29T23:17:56Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 17,
+            "title": "Functional annotation using pokay ",
+            "state": "CLOSED",
+            "createdAt": "2021-09-20T20:52:02Z",
+            "closedAt": "2021-09-20T20:56:27Z",
+            "author": {
+              "login": "Anoosha-Sehar"
+            }
+          },
+          {
+            "number": 16,
+            "title": "Process user-uploaded file",
+            "state": "CLOSED",
+            "createdAt": "2021-09-09T10:28:52Z",
+            "closedAt": "2021-10-01T05:56:45Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          },
+          {
+            "number": 10,
+            "title": "Update Metadata extraction for non-GISAID Metadata tables",
+            "state": "CLOSED",
+            "createdAt": "2021-09-09T06:55:48Z",
+            "closedAt": "2021-09-09T07:07:34Z",
+            "author": {
+              "login": "anwarMZ"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 199,
+            "title": "Update README.md",
+            "state": "MERGED",
+            "createdAt": "2025-08-28T18:21:48Z",
+            "mergedAt": "2025-08-28T18:30:04Z",
+            "author": {
+              "login": "anwarMZ"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 198,
+            "title": "added new features in development branch",
+            "state": "MERGED",
+            "createdAt": "2025-06-23T04:44:12Z",
+            "mergedAt": "2025-06-23T05:05:41Z",
+            "author": {
+              "login": "anwarMZ"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/virus_variants/NC_045512.2/variants_classification.tsv"
+                },
+                {
+                  "path": "figs/VIRUS-MVP-ADAPT.png"
+                },
+                {
+                  "path": "modules/local/vcf-validator.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_variantcalling.nf"
+                },
+                {
+                  "path": "workflows/virusmvp_wastewater.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 197,
+            "title": "Merging new changes to master from development branch",
+            "state": "MERGED",
+            "createdAt": "2025-01-22T21:59:00Z",
+            "mergedAt": "2025-01-23T05:08:46Z",
+            "author": {
+              "login": "anwarMZ"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/nextflow_CI.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/archive/metadata.json"
+                },
+                {
+                  "path": "assets/metadata_conf/metadata_flu.yaml"
+                },
+                {
+                  "path": "assets/metadata_conf/metadata_mpox.yaml"
+                },
+                {
+                  "path": "assets/metadata_conf/metadata_ncov.yaml"
+                },
+                {
+                  "path": "assets/virus_functionalAnnotation/NC_063383.1/Pokay_functionalAnnotation_MPOX_v1.0.tsv"
+                },
+                {
+                  "path": "assets/virus_geneCoordinates/NC_063383.1/NC_063383.1.json"
+                },
+                {
+                  "path": "assets/virus_variants/NC_063383.1/variants_classification.tsv"
+                },
+                {
+                  "path": "conf/eagle.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/nf-ncov-voc.config"
+                },
+                {
+                  "path": "covidmvp_clinical_params.yaml"
+                },
+                {
+                  "path": "covidmvp_timeseries_params.yaml"
+                },
+                {
+                  "path": "covidmvp_user.yaml"
+                },
+                {
+                  "path": "covidmvp_user_params.yaml"
+                },
+                {
+                  "path": "covidmvp_wastewater_params.yaml"
+                },
+                {
+                  "path": "figs/nf-ncov-voc.png"
+                },
+                {
+                  "path": "modules/local/harmonize_metadata.nf"
+                },
+                {
+                  "path": "modules/local/snpeff_ann.nf"
+                },
+                {
+                  "path": "modules/local/tsv2pdf.nf"
+                },
+                {
+                  "path": "modules/local/vcftogvf.nf"
+                },
+                {
+                  "path": "poxmvp_clinical_params.yaml"
+                },
+                {
+                  "path": "poxmvp_user_params.yaml"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_annotation.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_config.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_preprocessing.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_surveillance.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_variantcalling.nf"
+                },
+                {
+                  "path": "test_data/mpox/mpox_test_data.fa.gz"
+                },
+                {
+                  "path": "test_data/mpox/mpox_test_data.tsv.gz"
+                },
+                {
+                  "path": "test_data/mpox/mpox_test_data_100x.fa"
+                },
+                {
+                  "path": "test_data/mpox/mpox_test_data_10x.fa"
+                },
+                {
+                  "path": "test_data/mpox/mpox_test_data_1x.fa"
+                },
+                {
+                  "path": "test_data/mpox/mpox_test_data_25x.fa"
+                },
+                {
+                  "path": "test_data/mpox/mpox_test_data_50x.fa"
+                },
+                {
+                  "path": "test_data/mpox/mpox_test_data_5x.fa"
+                },
+                {
+                  "path": "test_data/mpox/mpox_test_data_ids.txt"
+                },
+                {
+                  "path": "test_data/sars-cov-2/wastewater/sample1_R1.fastq.gz"
+                },
+                {
+                  "path": "test_data/sars-cov-2/wastewater/sample1_R2.fastq.gz"
+                },
+                {
+                  "path": "test_data/sars-cov-2/wastewater/sample2_R1.fastq.gz"
+                },
+                {
+                  "path": "test_data/sars-cov-2/wastewater/sample2_R2.fastq.gz"
+                },
+                {
+                  "path": "test_data/sars-cov-2/wastewater/sample3_R1.fastq.gz"
+                },
+                {
+                  "path": "test_data/sars-cov-2/wastewater/sample3_R2.fastq.gz"
+                },
+                {
+                  "path": "test_data/sars-cov-2/wastewater/samplesheet.csv"
+                },
+                {
+                  "path": "workflows/covidmvp.nf"
+                },
+                {
+                  "path": "workflows/poxmvp.nf"
+                },
+                {
+                  "path": "workflows/virusmvp_wastewater.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 177
+                }
+              ]
+            }
+          },
+          {
+            "number": 194,
+            "title": "Merge dev to master",
+            "state": "MERGED",
+            "createdAt": "2024-12-16T08:43:33Z",
+            "mergedAt": "2024-12-16T08:51:44Z",
+            "author": {
+              "login": "anwarMZ"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/nextflow_CI.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".vscode/extensions.json"
+                },
+                {
+                  "path": ".vscode/settings.json"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/virus_functionalAnnotation/NC_045512.2/Pokay_functionalAnnotation_SARSCoV2_v1.0.tsv"
+                },
+                {
+                  "path": "assets/virus_functionalAnnotation/NC_045512.2/Pokay_functionalAnnotation_SARSCoV2_v4.1.tsv"
+                },
+                {
+                  "path": "assets/virus_functionalAnnotation/NC_045512.2/Pokay_functionalAnnotation_SARSCoV2_v4.2.tsv"
+                },
+                {
+                  "path": "assets/virus_functionalAnnotation/NC_063383.1/Pokay_functionalAnnotation_MPOX_v1.0.tsv"
+                },
+                {
+                  "path": "assets/virus_functionalAnnotation/NC_063383.1/pokay_annotations_v_0.1.tsv"
+                },
+                {
+                  "path": "assets/virus_geneCoordinates/NC_045512.2/NC_045512.2.json"
+                },
+                {
+                  "path": "assets/virus_geneCoordinates/NC_063383.1/NC_063383.1.json"
+                },
+                {
+                  "path": "assets/virus_genomeAnnotation/NC_045512.2/NC_045512.2_key.json"
+                },
+                {
+                  "path": "assets/virus_genomeAnnotation/NC_063383.1/NC_063383.1_key.json"
+                },
+                {
+                  "path": "assets/virus_ontologyTerms/NC_045512.2/NC_045512.2_ROBOT.tsv"
+                },
+                {
+                  "path": "assets/virus_ontologyTerms/NC_045512.2/NC_045512.2_ontology_genes.json"
+                },
+                {
+                  "path": "assets/virus_ontologyTerms/NC_045512.2/NC_045512.2_ontology_proteins.json"
+                },
+                {
+                  "path": "assets/virus_ontologyTerms/NC_063383.1/NC_063383.1_ROBOT.tsv"
+                },
+                {
+                  "path": "assets/virus_ontologyTerms/NC_063383.1/NC_063383.1_ontology_genes.json"
+                },
+                {
+                  "path": "assets/virus_ontologyTerms/NC_063383.1/NC_063383.1_ontology_proteins.json"
+                },
+                {
+                  "path": "assets/virus_variants/NC_045512.2/variants_classification.tsv"
+                },
+                {
+                  "path": "bin/addfunctions2gvf.py"
+                },
+                {
+                  "path": "bin/addontologyterms2json.py"
+                },
+                {
+                  "path": "bin/addpmids2functionalannotation.py"
+                },
+                {
+                  "path": "bin/archive/gvf2tsv.py"
+                },
+                {
+                  "path": "bin/archive/surveillance_report_pdf.py"
+                },
+                {
+                  "path": "bin/archive/update_index_and_logfile.py"
+                },
+                {
+                  "path": "bin/convert_pokay_to_virusmvp.py"
+                },
+                {
+                  "path": "bin/functional_annotation.py"
+                },
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/gvf2indexandlog.py"
+                },
+                {
+                  "path": "bin/gvf2tsv.py"
+                },
+                {
+                  "path": "bin/merge_indices.py"
+                },
+                {
+                  "path": "bin/merge_indices.py.bak"
+                },
+                {
+                  "path": "bin/merge_logfiles.py"
+                },
+                {
+                  "path": "bin/robot2json.py"
+                },
+                {
+                  "path": "bin/splitmutationnames_functionalannotation.py"
+                },
+                {
+                  "path": "bin/splitmutationnames_gvf.py"
+                },
+                {
+                  "path": "bin/surveillance_report_pdf.py"
+                },
+                {
+                  "path": "bin/vcf2gvf.py"
+                },
+                {
+                  "path": "conf/eagle.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/nf-ncov-voc.config"
+                },
+                {
+                  "path": "conf/profiles.config"
+                },
+                {
+                  "path": "conf/resources.config"
+                },
+                {
+                  "path": "covidmvp_clinical_params.yaml"
+                },
+                {
+                  "path": "covidmvp_user.yaml"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/local/addFunctionalAnnotation.nf"
+                },
+                {
+                  "path": "modules/local/addVariantAnnotation.nf"
+                },
+                {
+                  "path": "modules/local/annotatematpeptides_ncov.nf"
+                },
+                {
+                  "path": "modules/local/archive/custom.nf"
+                },
+                {
+                  "path": "modules/local/archive/seqkit.nf"
+                },
+                {
+                  "path": "modules/local/archive/seqkitstats.nf"
+                },
+                {
+                  "path": "modules/local/archive/update_log_index.nf"
+                },
+                {
+                  "path": "modules/local/arcticdownloadscheme.nf"
+                },
+                {
+                  "path": "modules/local/bbmap_reformat.nf"
+                },
+                {
+                  "path": "modules/local/convertgff2json.nf"
+                },
+                {
+                  "path": "modules/local/custom.nf"
+                },
+                {
+                  "path": "modules/local/downloadPangoalias.nf"
+                },
+                {
+                  "path": "modules/local/extractMetadata.nf"
+                },
+                {
+                  "path": "modules/local/extractVariants.nf"
+                },
+                {
+                  "path": "modules/local/gvf2tsv.nf"
+                },
+                {
+                  "path": "modules/local/gvftoindexandlog.nf"
+                },
+                {
+                  "path": "modules/local/harmonize_metadata.nf"
+                },
+                {
+                  "path": "modules/local/help.nf"
+                },
+                {
+                  "path": "modules/local/ivar.nf"
+                },
+                {
+                  "path": "modules/local/mergeIndices.nf"
+                },
+                {
+                  "path": "modules/local/mergeLogfiles.nf"
+                },
+                {
+                  "path": "modules/local/merge_classification_report.nf"
+                },
+                {
+                  "path": "modules/local/post_log.nf"
+                },
+                {
+                  "path": "modules/local/postprocessing.nf"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "modules/local/snpeff_ann.nf"
+                },
+                {
+                  "path": "modules/local/snpeff_build.nf"
+                },
+                {
+                  "path": "modules/local/splitmutations_gvf.nf"
+                },
+                {
+                  "path": "modules/local/splitmutations_pokay.nf"
+                },
+                {
+                  "path": "modules/local/tagproblematicsites_ncov.nf"
+                },
+                {
+                  "path": "modules/local/tsv2pdf.nf"
+                },
+                {
+                  "path": "modules/local/vcftogvf.nf"
+                },
+                {
+                  "path": "modules/local/viralai/processViralai_metadata.nf"
+                },
+                {
+                  "path": "modules/local/viralai/viralai_metadata.nf"
+                },
+                {
+                  "path": "modules/local/viralai/viralai_multifasta.nf"
+                },
+                {
+                  "path": "modules/local/wf_header.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/mpileup/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/view/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/grep/main.nf"
+                },
+                {
+                  "path": "poxmvp_clinical_params.yaml"
+                },
+                {
+                  "path": "subworkflows/local/input_check.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_annotation.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_classification.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_config.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_gvf_processing_annotations.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_postprocessing.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_preprocessing.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_qc.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_surveillance.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_variantcalling.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 193,
+            "title": "fix dtypes in merge_indices",
+            "state": "MERGED",
+            "createdAt": "2024-12-13T20:56:01Z",
+            "mergedAt": "2024-12-13T21:06:50Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/merge_indices.py"
+                },
+                {
+                  "path": "bin/merge_logfiles.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 192,
+            "title": "Fix unequal length lists",
+            "state": "MERGED",
+            "createdAt": "2024-11-29T08:25:46Z",
+            "mergedAt": "2024-11-29T16:00:38Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/splitmutationnames_functionalannotation.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 191,
+            "title": "regex fix, index column name change",
+            "state": "MERGED",
+            "createdAt": "2024-11-29T04:08:45Z",
+            "mergedAt": "2024-11-29T07:01:35Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/convert_pokay_to_virusmvp.py"
+                },
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/gvf2indexandlog.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 190,
+            "title": "vcf2gvf.py error fixing",
+            "state": "MERGED",
+            "createdAt": "2024-11-28T11:21:37Z",
+            "mergedAt": "2024-11-28T16:40:01Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/functions.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 189,
+            "title": "Fix missing file and alias names",
+            "state": "MERGED",
+            "createdAt": "2024-11-26T10:34:56Z",
+            "mergedAt": "2024-11-26T18:13:07Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/convert_pokay_to_virusmvp.py"
+                },
+                {
+                  "path": "bin/functions.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 188,
+            "title": "Fix duplication bug and quotation marks issue",
+            "state": "MERGED",
+            "createdAt": "2024-11-13T01:45:33Z",
+            "mergedAt": "2024-11-13T04:40:34Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/virus_functionalAnnotation/NC_045512.2/Pokay_functionalAnnotation_SARSCoV2_v3.0.tsv"
+                },
+                {
+                  "path": "assets/virus_functionalAnnotation/NC_045512.2/Pokay_functionalAnnotation_SARSCoV2_v4.1.tsv"
+                },
+                {
+                  "path": "bin/addfunctions2gvf.py"
+                },
+                {
+                  "path": "bin/addpmids2functionalannotation.py"
+                },
+                {
+                  "path": "bin/convert_pokay_to_virusmvp.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 187,
+            "title": "Remove duplicate rows in functional annotation file",
+            "state": "MERGED",
+            "createdAt": "2024-11-08T22:49:39Z",
+            "mergedAt": "2024-11-11T08:23:50Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/convert_pokay_to_virusmvp.py"
+                },
+                {
+                  "path": "bin/splitmutationnames_functionalannotation.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 186,
+            "title": "Add MPOX functional annotation file",
+            "state": "MERGED",
+            "createdAt": "2024-10-28T06:05:45Z",
+            "mergedAt": "2024-11-12T22:46:02Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/virus_functionalAnnotation/NC_063383.1/Pokay_functionalAnnotation_MPOX_v1.0.tsv"
+                },
+                {
+                  "path": "assets/virus_functionalAnnotation/NC_063383.1/pokay_annotations_v_0.1.tsv"
+                },
+                {
+                  "path": "assets/virus_functionalAnnotation/NC_063383.1/pokay_annotations_v_0.2.tsv"
+                },
+                {
+                  "path": "bin/addpmids2functionalannotation.py"
+                },
+                {
+                  "path": "bin/convert_pokay_to_virusmvp.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 184,
+            "title": "Adapt to new DH template",
+            "state": "MERGED",
+            "createdAt": "2024-10-24T15:06:13Z",
+            "mergedAt": "2024-10-25T04:34:56Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/virus_functionalAnnotation/NC_045512.2/Pokay_functionalAnnotation_SARSCoV2_v1.0.tsv"
+                },
+                {
+                  "path": "assets/virus_functionalAnnotation/NC_045512.2/Pokay_functionalAnnotation_SARSCoV2_v3.0.tsv"
+                },
+                {
+                  "path": "assets/virus_functionalAnnotation/NC_063383.1/pokay_annotations_v_0.2.tsv"
+                },
+                {
+                  "path": "assets/virus_geneCoordinates/NC_045512.2/NC_045512.2.json"
+                },
+                {
+                  "path": "assets/virus_geneCoordinates/NC_063383.1/NC_063383.1.json"
+                },
+                {
+                  "path": "assets/virus_genomeAnnotation/NC_045512.2/NC_045512.2_key.json"
+                },
+                {
+                  "path": "assets/virus_genomeAnnotation/NC_063383.1/NC_063383.1_key.json"
+                },
+                {
+                  "path": "assets/virus_ontologyTerms/NC_045512.2/NC_045512.2_ROBOT.tsv"
+                },
+                {
+                  "path": "assets/virus_ontologyTerms/NC_045512.2/NC_045512.2_ontology_genes.json"
+                },
+                {
+                  "path": "assets/virus_ontologyTerms/NC_045512.2/NC_045512.2_ontology_proteins.json"
+                },
+                {
+                  "path": "assets/virus_ontologyTerms/NC_063383.1/NC_063383.1_ROBOT.tsv"
+                },
+                {
+                  "path": "assets/virus_ontologyTerms/NC_063383.1/NC_063383.1_ontology_genes.json"
+                },
+                {
+                  "path": "assets/virus_ontologyTerms/NC_063383.1/NC_063383.1_ontology_proteins.json"
+                },
+                {
+                  "path": "bin/addfunctions2gvf.py"
+                },
+                {
+                  "path": "bin/addontologyterms2json.py"
+                },
+                {
+                  "path": "bin/addpmids2functionalannotation.py"
+                },
+                {
+                  "path": "bin/archive/gvf2tsv.py"
+                },
+                {
+                  "path": "bin/convert_pokay_to_virusmvp.py"
+                },
+                {
+                  "path": "bin/functional_annotation.py"
+                },
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/gvf2indexandlog.py"
+                },
+                {
+                  "path": "bin/gvf2tsv.py"
+                },
+                {
+                  "path": "bin/robot2json.py"
+                },
+                {
+                  "path": "bin/splitmutationnames_functionalannotation.py"
+                },
+                {
+                  "path": "bin/splitmutationnames_gvf.py"
+                },
+                {
+                  "path": "bin/update_index_and_logfile.py"
+                },
+                {
+                  "path": "bin/vcf2gvf.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 102
+                },
+                {
+                  "number": 134
+                },
+                {
+                  "number": 165
+                },
+                {
+                  "number": 170
+                }
+              ]
+            }
+          },
+          {
+            "number": 176,
+            "title": "Development",
+            "state": "MERGED",
+            "createdAt": "2024-05-22T05:22:56Z",
+            "mergedAt": "2024-05-22T05:23:03Z",
+            "author": {
+              "login": "anwarMZ"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/virus_variants/NC_045512.2/variants_classification.tsv"
+                },
+                {
+                  "path": "covidmvp_clinical_params.yaml"
+                },
+                {
+                  "path": "modules/local/harmonize_metadata.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 175,
+            "title": "Development",
+            "state": "MERGED",
+            "createdAt": "2024-05-16T20:31:52Z",
+            "mergedAt": "2024-05-16T20:31:57Z",
+            "author": {
+              "login": "anwarMZ"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/profiles.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/tagproblematicsites_ncov.nf"
+                },
+                {
+                  "path": "modules/nf-core/gunzip/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 174,
+            "title": "updated docker registry",
+            "state": "MERGED",
+            "createdAt": "2024-05-16T19:39:29Z",
+            "mergedAt": "2024-05-16T19:39:34Z",
+            "author": {
+              "login": "anwarMZ"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/gvftoindexandlog.nf"
+                },
+                {
+                  "path": "modules/local/mergeIndices.nf"
+                },
+                {
+                  "path": "modules/local/mergeLogfiles.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/norm/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/sort/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastp/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/freebayes/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/freyja/boot/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/freyja/demix/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/freyja/update/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/freyja/variants/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/ivar/trim/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/ivar/variants/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/minimap2/align/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/nextclade/datasetget/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/nextclade/run/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/pangolin/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/faidx/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/fastq/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/flagstat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/idxstats/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/mpileup/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/sort/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/stats/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/samtools/view/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/grep/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/seqkit/replace/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/tabix/bgziptabix/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/xz/compress/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/xz/decompress/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 173,
+            "title": "update default docker.registry",
+            "state": "MERGED",
+            "createdAt": "2024-05-16T19:13:12Z",
+            "mergedAt": "2024-05-16T19:13:18Z",
+            "author": {
+              "login": "anwarMZ"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/profiles.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 172,
+            "title": "update docker containers for local modules",
+            "state": "MERGED",
+            "createdAt": "2024-05-14T21:45:52Z",
+            "mergedAt": "2024-05-14T21:45:58Z",
+            "author": {
+              "login": "anwarMZ"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/addFunctionalAnnotation.nf"
+                },
+                {
+                  "path": "modules/local/addVariantAnnotation.nf"
+                },
+                {
+                  "path": "modules/local/annotatematpeptides_ncov.nf"
+                },
+                {
+                  "path": "modules/local/bbmap_reformat.nf"
+                },
+                {
+                  "path": "modules/local/convertgff2json.nf"
+                },
+                {
+                  "path": "modules/local/extractMetadata.nf"
+                },
+                {
+                  "path": "modules/local/extractVariants.nf"
+                },
+                {
+                  "path": "modules/local/gvftoindexandlog.nf"
+                },
+                {
+                  "path": "modules/local/harmonize_metadata.nf"
+                },
+                {
+                  "path": "modules/local/mergeIndices.nf"
+                },
+                {
+                  "path": "modules/local/mergeLogfiles.nf"
+                },
+                {
+                  "path": "modules/local/merge_classification_report.nf"
+                },
+                {
+                  "path": "modules/local/splitmutations_gvf.nf"
+                },
+                {
+                  "path": "modules/local/splitmutations_pokay.nf"
+                },
+                {
+                  "path": "modules/local/vcftogvf.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 171,
+            "title": "Merging development to master",
+            "state": "MERGED",
+            "createdAt": "2024-05-01T19:36:39Z",
+            "mergedAt": "2024-05-01T19:36:50Z",
+            "author": {
+              "login": "anwarMZ"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "assets/archive/MN908947.3.fasta"
+                },
+                {
+                  "path": "assets/archive/NC_063383.1.formatted.fasta"
+                },
+                {
+                  "path": "bin/addfunctions2gvf.py"
+                },
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/gff2json.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/nf-ncov-voc.config"
+                },
+                {
+                  "path": "conf/profiles.config"
+                },
+                {
+                  "path": "covidmvp_clinical_params.yaml"
+                },
+                {
+                  "path": "covidmvp_timeseries_params.yaml"
+                },
+                {
+                  "path": "covidmvp_user.yaml"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/local/addFunctionalAnnotation.nf"
+                },
+                {
+                  "path": "modules/local/addVariantAnnotation.nf"
+                },
+                {
+                  "path": "modules/local/archive/update_log_index.nf"
+                },
+                {
+                  "path": "modules/local/bbmap_reformat.nf"
+                },
+                {
+                  "path": "modules/local/convertgff2json.nf"
+                },
+                {
+                  "path": "modules/local/extractMetadata.nf"
+                },
+                {
+                  "path": "modules/local/extractVariants.nf"
+                },
+                {
+                  "path": "modules/local/merge_classification_report.nf"
+                },
+                {
+                  "path": "modules/local/post_log.nf"
+                },
+                {
+                  "path": "modules/local/splitmutations_gvf.nf"
+                },
+                {
+                  "path": "modules/local/splitmutations_pokay.nf"
+                },
+                {
+                  "path": "modules/local/vcftogvf.nf"
+                },
+                {
+                  "path": "modules/local/viralai/processViralai_metadata.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_annotation.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_gvf_processing_annotations.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 169,
+            "title": "Some fixes for Conda",
+            "state": "MERGED",
+            "createdAt": "2024-04-29T21:14:24Z",
+            "mergedAt": "2024-04-30T19:23:41Z",
+            "author": {
+              "login": "ivansg44"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/profiles.config"
+                },
+                {
+                  "path": "modules/local/addFunctionalAnnotation.nf"
+                },
+                {
+                  "path": "modules/local/addVariantAnnotation.nf"
+                },
+                {
+                  "path": "modules/local/archive/update_log_index.nf"
+                },
+                {
+                  "path": "modules/local/bbmap_reformat.nf"
+                },
+                {
+                  "path": "modules/local/convertgff2json.nf"
+                },
+                {
+                  "path": "modules/local/extractMetadata.nf"
+                },
+                {
+                  "path": "modules/local/extractVariants.nf"
+                },
+                {
+                  "path": "modules/local/merge_classification_report.nf"
+                },
+                {
+                  "path": "modules/local/post_log.nf"
+                },
+                {
+                  "path": "modules/local/splitmutations_gvf.nf"
+                },
+                {
+                  "path": "modules/local/splitmutations_pokay.nf"
+                },
+                {
+                  "path": "modules/local/vcftogvf.nf"
+                },
+                {
+                  "path": "modules/local/viralai/processViralai_metadata.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 164,
+            "title": "get sample_size from any row in sample_stats for user-uploaded fasta",
+            "state": "MERGED",
+            "createdAt": "2024-04-26T19:48:55Z",
+            "mergedAt": "2024-04-26T19:49:21Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/functions.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 163,
+            "title": "Make addfunctions2gvf.py compatible with new 'n/a' in \"comb_mutation\" and 'multiaa_comb_mutation' columns",
+            "state": "MERGED",
+            "createdAt": "2024-04-26T10:15:05Z",
+            "mergedAt": "2024-04-26T17:22:44Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/addfunctions2gvf.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 162
+                },
+                {
+                  "number": 165
+                }
+              ]
+            }
+          },
+          {
+            "number": 161,
+            "title": "add missing regex parameter in functions.py",
+            "state": "MERGED",
+            "createdAt": "2024-04-22T19:58:24Z",
+            "mergedAt": "2024-04-22T19:59:30Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/functions.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 160,
+            "title": "make sure all empty key pairs are written as \"attribute_key=n/a\"",
+            "state": "MERGED",
+            "createdAt": "2024-04-22T02:20:17Z",
+            "mergedAt": "2024-04-22T05:52:49Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/functions.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 159
+                }
+              ]
+            }
+          },
+          {
+            "number": 158,
+            "title": "viral genomes",
+            "state": "MERGED",
+            "createdAt": "2024-04-19T22:05:21Z",
+            "mergedAt": "2024-04-19T22:05:28Z",
+            "author": {
+              "login": "anwarMZ"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/virus_referenceGenome/NC_045512.2/NC_045512.2.fasta"
+                },
+                {
+                  "path": "assets/virus_referenceGenome/NC_063383.1/NC_063383.1.fasta"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 157,
+            "title": "Merging dev to master",
+            "state": "MERGED",
+            "createdAt": "2024-04-19T19:08:07Z",
+            "mergedAt": "2024-04-19T19:08:41Z",
+            "author": {
+              "login": "anwarMZ"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "assets/metadata_conf/metadata.yaml"
+                },
+                {
+                  "path": "assets/virus_functionalAnnotation/NC_045512.2/Pokay_functionalAnnotation_SARSCoV2_v1.0.tsv"
+                },
+                {
+                  "path": "assets/virus_functionalAnnotation/NC_045512.2/pokay_annotation_V.0.4.tsv"
+                },
+                {
+                  "path": "assets/virus_variants/NC_045512.2/variants_classification.tsv"
+                },
+                {
+                  "path": "bin/addfunctions2gvf.py"
+                },
+                {
+                  "path": "bin/addpmids2functionalannotation.py"
+                },
+                {
+                  "path": "bin/dois2pmcids.sh"
+                },
+                {
+                  "path": "bin/extract_metadata.py"
+                },
+                {
+                  "path": "bin/functional_annotation.py"
+                },
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/gvf2indexandlog.py"
+                },
+                {
+                  "path": "bin/merge_indices.py"
+                },
+                {
+                  "path": "bin/merge_logfiles.py"
+                },
+                {
+                  "path": "bin/parse_variants.py"
+                },
+                {
+                  "path": "bin/splitmutationnames_Pokay.py"
+                },
+                {
+                  "path": "bin/splitmutationnames_functionalannotation.py"
+                },
+                {
+                  "path": "bin/update_index_and_logfile.py"
+                },
+                {
+                  "path": "bin/vcf2gvf.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/nf-ncov-voc.config"
+                },
+                {
+                  "path": "covidmvp_clinical_params.yaml"
+                },
+                {
+                  "path": "covidmvp_timeseries_params.yaml"
+                },
+                {
+                  "path": "covidmvp_user.yaml"
+                },
+                {
+                  "path": "covidmvp_wastewater_params.yaml"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/archive/update_log_index.nf"
+                },
+                {
+                  "path": "modules/local/arcticdownloadscheme.nf"
+                },
+                {
+                  "path": "modules/local/bbmap_reformat.nf"
+                },
+                {
+                  "path": "modules/local/convertgff2json.nf"
+                },
+                {
+                  "path": "modules/local/downloadPangoalias.nf"
+                },
+                {
+                  "path": "modules/local/extractMetadata.nf"
+                },
+                {
+                  "path": "modules/local/extractVariants.nf"
+                },
+                {
+                  "path": "modules/local/gvftoindexandlog.nf"
+                },
+                {
+                  "path": "modules/local/harmonize_metadata.nf"
+                },
+                {
+                  "path": "modules/local/mergeIndices.nf"
+                },
+                {
+                  "path": "modules/local/mergeLogfiles.nf"
+                },
+                {
+                  "path": "modules/local/merge_classification_report.nf"
+                },
+                {
+                  "path": "modules/local/splitmutations_pokay.nf"
+                },
+                {
+                  "path": "modules/local/vcftogvf.nf"
+                },
+                {
+                  "path": "modules/local/viralai/processViralai_metadata.nf"
+                },
+                {
+                  "path": "modules/local/viralai/viralai_metadata.nf"
+                },
+                {
+                  "path": "modules/local/viralai/viralai_multifasta.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/norm/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/norm/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/norm/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/sort/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/sort/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/sort/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwa/index/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bwa/mem/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastp/.prettierrc"
+                },
+                {
+                  "path": "modules/nf-core/fastp/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastp/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastp/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastp/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastp/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/fastp/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/fastp/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/freebayes/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/freebayes/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/freebayes/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/freebayes/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/freebayes/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/freebayes/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/freyja/boot/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/freyja/boot/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/freyja/boot/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/freyja/boot/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/freyja/boot/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/freyja/boot/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/freyja/boot/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/freyja/demix/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/freyja/demix/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/freyja/demix/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/freyja/demix/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/freyja/demix/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/freyja/demix/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/freyja/demix/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/freyja/update/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/freyja/update/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/freyja/update/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/freyja/update/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/freyja/update/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/freyja/update/tests/tags.yml"
+                },
+                {
+                  "path": "modules/nf-core/freyja/variants/environment.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 156,
+            "title": "Use spec format for functional annotation, add new pragmas to GVFs",
+            "state": "MERGED",
+            "createdAt": "2024-04-05T09:29:48Z",
+            "mergedAt": "2024-04-05T13:29:15Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/virus_functionalAnnotation/NC_045512.2/functional_annotation_spec_format.tsv"
+                },
+                {
+                  "path": "bin/addfunctions2gvf.py"
+                },
+                {
+                  "path": "bin/addpmids2functionalannotation.py"
+                },
+                {
+                  "path": "bin/dois2pmcids.sh"
+                },
+                {
+                  "path": "bin/functional_annotation.py"
+                },
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/splitmutationnames_Pokay.py"
+                },
+                {
+                  "path": "bin/splitmutationnames_functionalannotation.py"
+                },
+                {
+                  "path": "bin/vcf2gvf.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 155,
+            "title": "split update_index_and_logfile.py into 3 scripts, and use Dask",
+            "state": "MERGED",
+            "createdAt": "2024-02-19T06:09:19Z",
+            "mergedAt": "2024-03-12T06:09:07Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/gvf2indexandlog.py"
+                },
+                {
+                  "path": "bin/merge_indices.py"
+                },
+                {
+                  "path": "bin/merge_logfiles.py"
+                },
+                {
+                  "path": "bin/update_index_and_logfile.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 154,
+            "title": "Solve code-stopping HGVS naming bug",
+            "state": "MERGED",
+            "createdAt": "2024-01-31T09:11:59Z",
+            "mergedAt": "2024-02-01T07:03:37Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/vcf2gvf.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 149,
+            "title": "Add HGVS names to GVFs and mutation index",
+            "state": "MERGED",
+            "createdAt": "2024-01-19T20:15:10Z",
+            "mergedAt": "2024-01-30T18:48:26Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/update_index_and_logfile.py"
+                },
+                {
+                  "path": "bin/vcf2gvf.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 148,
+            "title": "Merging dev to master",
+            "state": "MERGED",
+            "createdAt": "2023-12-12T23:07:52Z",
+            "mergedAt": "2023-12-13T22:00:28Z",
+            "author": {
+              "login": "anwarMZ"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "assets/NO_FILE"
+                },
+                {
+                  "path": "assets/archive/MN908947.3.fasta.fai"
+                },
+                {
+                  "path": "assets/archive/MN908947.3.gb"
+                },
+                {
+                  "path": "assets/archive/MN908947.3.gbk"
+                },
+                {
+                  "path": "assets/archive/MN908947.3.gff"
+                },
+                {
+                  "path": "assets/archive/NC_045512.2.gff"
+                },
+                {
+                  "path": "assets/archive/NC_045512.2_full.gbk"
+                },
+                {
+                  "path": "assets/archive/NC_063383.1.gb"
+                },
+                {
+                  "path": "assets/archive/functional_annotation_V.0.4.tsv"
+                },
+                {
+                  "path": "assets/archive/ncov_geneCoordinates/gene_positions.json"
+                },
+                {
+                  "path": "assets/metadata_conf/metadata.yaml"
+                },
+                {
+                  "path": "assets/virus_functionalAnnotation/NC_045512.2/pokay_annotation_V.0.4.tsv"
+                },
+                {
+                  "path": "assets/virus_functionalAnnotation/NC_063383.1/pokay_annotations_v_0.1.tsv"
+                },
+                {
+                  "path": "assets/virus_geneCoordinates/MN908947.3.json"
+                },
+                {
+                  "path": "assets/virus_geneCoordinates/NC_045512.2/NC_045512.2.json"
+                },
+                {
+                  "path": "assets/virus_geneCoordinates/NC_063383.1.json"
+                },
+                {
+                  "path": "assets/virus_geneCoordinates/NC_063383.1/NC_063383.1.json"
+                },
+                {
+                  "path": "assets/virus_genomeAnnotation/NC_045512.2/NC_045512.2.gff"
+                },
+                {
+                  "path": "assets/virus_genomeAnnotation/NC_045512.2/NC_045512.2_key.json"
+                },
+                {
+                  "path": "assets/virus_genomeAnnotation/NC_063383.1/NC_063383.1.gff"
+                },
+                {
+                  "path": "assets/virus_genomeAnnotation/NC_063383.1/NC_063383.1_key.json"
+                },
+                {
+                  "path": "assets/virus_genomeFeatures/MN908947.3.gff3"
+                },
+                {
+                  "path": "assets/virus_genomeFeatures/NC_045512.2/NC_045512.2.gbk"
+                },
+                {
+                  "path": "assets/virus_genomeFeatures/NC_063383.1/NC_063383.1.gbk"
+                },
+                {
+                  "path": "assets/virus_mutation_index/NC_045512.2/mutation_index.tsv"
+                },
+                {
+                  "path": "assets/virus_problematicSites/NC_045512.2/problematic_sites_sarsCov2.vcf"
+                },
+                {
+                  "path": "assets/virus_referenceGenome/MN908947.3.fasta"
+                },
+                {
+                  "path": "assets/virus_referenceGenome/NC_045512.2/NC_045512.2.fasta.fai"
+                },
+                {
+                  "path": "assets/virus_referenceGenome/NC_063383.1.fasta"
+                },
+                {
+                  "path": "assets/virus_referenceGenome/NC_063383.1.formatted.fasta"
+                },
+                {
+                  "path": "assets/virus_referenceGenome/NC_063383.1/NC_063383.1.fasta.fai"
+                },
+                {
+                  "path": "assets/virus_surveillanceIndicators/functions_df_template.tsv"
+                },
+                {
+                  "path": "assets/virus_variants/NC_045512.2/variants_classification.tsv"
+                },
+                {
+                  "path": "assets/virus_variants/NC_063383.1/variants_classification.tsv"
+                },
+                {
+                  "path": "bin/addfunctions2gvf.py"
+                },
+                {
+                  "path": "bin/archive/gfftojson_try.py"
+                },
+                {
+                  "path": "bin/config.ini"
+                },
+                {
+                  "path": "bin/extract_metadata.py"
+                },
+                {
+                  "path": "bin/functional_annotation.py"
+                },
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/gff2json.py"
+                },
+                {
+                  "path": "bin/harmonize_metadata.py"
+                },
+                {
+                  "path": "bin/mature_peptide_annotation.py"
+                },
+                {
+                  "path": "bin/merge_classifier_metadata.py"
+                },
+                {
+                  "path": "bin/merge_pangolin_metadata.py"
+                },
+                {
+                  "path": "bin/parse_variants.py"
+                },
+                {
+                  "path": "bin/problematic_sites_tag.py"
+                },
+                {
+                  "path": "bin/process_viralaimetadata.py"
+                },
+                {
+                  "path": "bin/update_index_and_logfile.py"
+                },
+                {
+                  "path": "bin/vcf2gvf.py"
+                },
+                {
+                  "path": "bin/virusmvp_web_connector.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/nf-ncov-voc.config"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/local/annotatematpeptides_ncov.nf"
+                },
+                {
+                  "path": "modules/local/bbmap_reformat.nf"
+                },
+                {
+                  "path": "modules/local/convertgff2json.nf"
+                },
+                {
+                  "path": "modules/local/extractMetadata.nf"
+                },
+                {
+                  "path": "modules/local/extractVariants.nf"
+                },
+                {
+                  "path": "modules/local/ivar.nf"
+                },
+                {
+                  "path": "modules/local/merge_classification_report.nf"
+                },
+                {
+                  "path": "modules/local/post_log.nf"
+                },
+                {
+                  "path": "modules/local/processViralai_metadata.nf"
+                },
+                {
+                  "path": "modules/local/snpeff_ann.nf"
+                },
+                {
+                  "path": "modules/local/snpeff_build.nf"
+                },
+                {
+                  "path": "modules/local/splitmutations_gvf.nf"
+                },
+                {
+                  "path": "modules/local/splitmutations_pokay.nf"
+                },
+                {
+                  "path": "modules/local/update_log_index.nf"
+                },
+                {
+                  "path": "modules/local/vcftogvf.nf"
+                },
+                {
+                  "path": "modules/local/viralai_multifasta.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_annotation.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_classification.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_config.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_gvf_processing_annotations.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_postprocessing.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_preprocessing.nf"
+                },
+                {
+                  "path": "subworkflows/local/virusmvp_variantcalling.nf"
+                },
+                {
+                  "path": "workflows/covidmvp.nf"
+                },
+                {
+                  "path": "workflows/poxmvp.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 147,
+            "title": "Fix missing alias names bug",
+            "state": "MERGED",
+            "createdAt": "2023-11-07T07:19:43Z",
+            "mergedAt": "2023-11-07T07:25:31Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/vcf2gvf.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 146,
+            "title": "VCF 'INFO' parsing error + functional annotation merge fix",
+            "state": "MERGED",
+            "createdAt": "2023-11-02T20:48:35Z",
+            "mergedAt": "2023-11-02T21:38:48Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/addfunctions2gvf.py"
+                },
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/vcf2gvf.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 145,
+            "title": "switch to list of GVFs as input",
+            "state": "MERGED",
+            "createdAt": "2023-10-31T21:27:35Z",
+            "mergedAt": "2023-11-01T05:48:18Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/addfunctions2gvf.py"
+                },
+                {
+                  "path": "bin/update_index_and_logfile.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 144,
+            "title": "Switch to list of GVFs as input for index update script",
+            "state": "CLOSED",
+            "createdAt": "2023-10-31T21:15:29Z",
+            "mergedAt": null,
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/ncov_functionalAnnotation/functional_annotation_V.0.4_with_alias.tsv"
+                },
+                {
+                  "path": "bin/addfunctions2gvf.py"
+                },
+                {
+                  "path": "bin/functional_annotation.py"
+                },
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/update_index_and_logfile.py"
+                },
+                {
+                  "path": "bin/vcf2gvf.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 143,
+            "title": "Update vcf2gvf.py to work with new gene positions JSON format",
+            "state": "MERGED",
+            "createdAt": "2023-10-27T20:35:33Z",
+            "mergedAt": "2023-10-31T19:36:07Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/functional_annotation.py"
+                },
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/vcf2gvf.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 140,
+            "title": "Upload logfile creation + index updating script, and add aliases to the Pokay annotations file",
+            "state": "MERGED",
+            "createdAt": "2023-09-27T16:40:31Z",
+            "mergedAt": "2023-10-06T19:41:59Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/ncov_functionalAnnotation/functional_annotation_V.0.4_with_alias.tsv"
+                },
+                {
+                  "path": "bin/addfunctions2gvf.py"
+                },
+                {
+                  "path": "bin/update_index_and_logfile.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 139,
+            "title": "Add alias names to GVFs",
+            "state": "MERGED",
+            "createdAt": "2023-09-20T04:04:53Z",
+            "mergedAt": "2023-09-21T21:20:09Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/vcf2gvf.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 138,
+            "title": "add gff2json.py, allow filename for mutations not matched with Pokay",
+            "state": "MERGED",
+            "createdAt": "2023-08-08T16:37:10Z",
+            "mergedAt": "2023-09-08T21:55:35Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/addfunctions2gvf.py"
+                },
+                {
+                  "path": "bin/gff2json.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 137,
+            "title": "workaround if gene_positions.json doesn't have protein coordinates yet",
+            "state": "MERGED",
+            "createdAt": "2023-07-19T18:37:39Z",
+            "mergedAt": "2023-07-19T22:09:28Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/functions.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 136,
+            "title": "Wastewater sample size & splitnames changes",
+            "state": "MERGED",
+            "createdAt": "2023-07-19T00:21:14Z",
+            "mergedAt": "2023-07-19T05:10:47Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/splitmutationnames_Pokay.py"
+                },
+                {
+                  "path": "bin/splitnames.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 133,
+            "title": "Separate functional annotation and variant info into new scripts",
+            "state": "MERGED",
+            "createdAt": "2023-07-05T23:43:03Z",
+            "mergedAt": "2023-07-17T20:45:23Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/ncov_geneCoordinates/gene_positions.json"
+                },
+                {
+                  "path": "bin/addfunctions2gvf.py"
+                },
+                {
+                  "path": "bin/addvariantinfo2gvf.py"
+                },
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/gvf2tsv.py"
+                },
+                {
+                  "path": "bin/splitnames.py"
+                },
+                {
+                  "path": "bin/vcf2gvf.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 131,
+            "title": "enable find_sample_size() for wastewater data",
+            "state": "MERGED",
+            "createdAt": "2023-04-14T21:07:45Z",
+            "mergedAt": "2023-04-14T21:37:08Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/vcf2gvf.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 130,
+            "title": "parse ao/ro/dp based on variant calling source",
+            "state": "MERGED",
+            "createdAt": "2023-04-05T19:14:33Z",
+            "mergedAt": "2023-04-05T21:10:10Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/vcf2gvf.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 129,
+            "title": "enable wastewater vcf processing",
+            "state": "MERGED",
+            "createdAt": "2023-03-31T08:32:38Z",
+            "mergedAt": "2023-03-31T12:14:10Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/vcf2gvf.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 128,
+            "title": "split type into multiple rows",
+            "state": "MERGED",
+            "createdAt": "2023-03-03T22:56:51Z",
+            "mergedAt": "2023-03-07T22:25:39Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/functions.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 127,
+            "title": "Take same number of annotations as there are AO values",
+            "state": "MERGED",
+            "createdAt": "2023-02-28T00:49:33Z",
+            "mergedAt": "2023-02-28T04:05:20Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/vcf2gvf.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 126,
+            "title": "updating dev features and reference genomes",
+            "state": "MERGED",
+            "createdAt": "2023-02-24T23:33:18Z",
+            "mergedAt": "2023-02-24T23:33:27Z",
+            "author": {
+              "login": "anwarMZ"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "assets/ncov_geneCoordinates/gene_positions.json"
+                },
+                {
+                  "path": "assets/ncov_genomeAnnotation/NC_045512.2.gff"
+                },
+                {
+                  "path": "assets/ncov_refdb/MN908947.3.fasta"
+                },
+                {
+                  "path": "assets/ncov_refdb/MN908947.3.fasta.amb"
+                },
+                {
+                  "path": "assets/ncov_refdb/MN908947.3.fasta.ann"
+                },
+                {
+                  "path": "assets/ncov_refdb/MN908947.3.fasta.bwt"
+                },
+                {
+                  "path": "assets/ncov_refdb/MN908947.3.fasta.fai"
+                },
+                {
+                  "path": "assets/ncov_refdb/MN908947.3.fasta.pac"
+                },
+                {
+                  "path": "assets/ncov_refdb/MN908947.3.fasta.sa"
+                },
+                {
+                  "path": "assets/ncov_refdb/NC_045512.2.fasta"
+                },
+                {
+                  "path": "assets/ncov_refdb/NC_045512.2.fasta.fai"
+                },
+                {
+                  "path": "bin/extract_metadata.py"
+                },
+                {
+                  "path": "bin/functional_annotation.py"
+                },
+                {
+                  "path": "bin/gvf2tsv.py"
+                },
+                {
+                  "path": "bin/map_virusseq_GISAID.py"
+                },
+                {
+                  "path": "bin/mature_peptide_annotation.py"
+                },
+                {
+                  "path": "bin/merge_pangolin_metadata.py"
+                },
+                {
+                  "path": "bin/parse_variants.py"
+                },
+                {
+                  "path": "bin/problematic_sites_tag.py"
+                },
+                {
+                  "path": "bin/process_gvcf.py"
+                },
+                {
+                  "path": "bin/surveillance_report_pdf.py"
+                },
+                {
+                  "path": "conf/base.config"
+                },
+                {
+                  "path": "conf/conda.config"
+                },
+                {
+                  "path": "conf/profiles.config"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules/local/custom.nf"
+                },
+                {
+                  "path": "modules/local/snpeff.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "workflows/covidmvp_surveillance.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 125,
+            "title": "Merging dev new changes into ViralAi",
+            "state": "MERGED",
+            "createdAt": "2023-02-24T07:17:20Z",
+            "mergedAt": "2023-02-24T07:17:34Z",
+            "author": {
+              "login": "anwarMZ"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/vcf2gvf.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 124,
+            "title": "Remove unwanted SNPeff annotations",
+            "state": "MERGED",
+            "createdAt": "2023-02-24T01:00:01Z",
+            "mergedAt": "2023-02-24T07:16:05Z",
+            "author": {
+              "login": "miseminger"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/functions.py"
+                },
+                {
+                  "path": "bin/vcf2gvf.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+
+
+configfile: "config/config.json"
+
+
+rule all:
+    input:
+        expand("test/{sample}.tsv", sample=range(3))
+
+rule a:
+    input:
+        config["in_file"],
+    output:
+        temp("test/{sample}.txt"),
+        temp("test/{sample}.tmp"),
+    shell:
+        "touch {output}"
+
+
+rule b:
+    input:
+        "test/{sample}.txt"
+    output:
+        "test/{sample}.tsv"
+    shell:
+        "cp {input} {output}"

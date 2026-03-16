@@ -1,0 +1,64 @@
+# The main entry point of the workflow.
+# After configuring, running snakemake -n in a clone of this repository should successfully execute a dry-run of the workflow.
+# Run:
+#   snakemake --use-conda --cores 8 -j
+# To create workflow view:
+#   snakemake --dag | dot -Tpdf > dag.pdf
+# To view report:
+#   snakemake --report report/report.html
+
+from pathlib import Path
+import textwrap
+from snakemake.utils import min_version
+
+min_version("5.30.0")
+
+
+report: "report/workflow.rst"
+
+
+#container: "docker://continuumio/miniconda3:4.4.10"
+
+
+configfile: "config/config.yaml"
+
+
+##### load rules #####
+include: "rules/common.smk"  # python helper functions
+
+
+# --- ALL RULE
+rule all:
+    input:
+        unpack(setup),
+
+if config["file_type"] == "aminoacid":  # files after gene calling (amino acid files)
+    include: "rules/ensure_faa.smk"
+elif config["file_type"] == "fastq": 
+    include: "rules/fastq_to_fasta.smk"
+    include: "rules/prokka.smk"
+elif config["file_type"] == "nucleotide":
+    include: "rules/prokka.smk"
+
+include: "rules/ensure_download.smk"
+
+include: "rules/pfam.smk"
+include: "rules/cog.smk"
+include: "rules/kegg.smk"
+include: "rules/merops.smk"
+include: "rules/cazymes.smk"
+
+include: "rules/ensure_all.smk"
+include: "rules/join_all.smk"
+
+onstart:
+    print("Starting, files that will be annotated:")
+    print(GENOMES)
+
+
+onsuccess:
+    print("Workflow finished, no error")
+
+
+onerror:
+    print("An error occurred")

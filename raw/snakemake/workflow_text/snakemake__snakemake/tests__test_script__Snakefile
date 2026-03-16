@@ -1,0 +1,101 @@
+# vim: ft=python
+from pathlib import Path
+
+
+configfile: "config.yaml"
+
+rule all:
+    input:
+        "test.out",
+        "test.html",
+        "rel_source.out",
+        "julia.out",
+        "bash.out",
+
+
+rule:
+    input:
+        "test.in"
+    output:
+        txt="test.out"
+    params:
+        null_param=None,
+        logical_param=True,
+        integer_param=123,
+        double_param=123.0,
+        nan_param=float("NaN"),
+        inf_param=float("Inf"),
+        neginf_param=float("-Inf"),
+        complex_param=complex(1,2),
+        character_param="abc",
+        vector_param=[1, 2, 3],
+        list_param=[True, 123, "abc"],
+    conda:
+        "envs/r.yaml"
+    script:
+        "scripts/test.R"
+
+
+rule:
+    output:
+        "test.in"
+    script:
+        Path("scripts/test.py")
+
+
+rule:
+    output:
+        "test.html"
+    params:
+        test="testparam"
+    conda:
+        "envs/r.yaml"
+    script:
+        "scripts/test.Rmd"
+
+
+rule:
+    output:
+        "rel_source.out"
+    conda:
+        "envs/r.yaml"
+    script:
+        "scripts/rel_source.R"
+
+
+rule julia:
+    input:
+        "test.in",
+        named_input="test.in"
+    output:
+        "julia.out"
+    params:
+        integer=123,
+        astring="foo\n'\\\" ", # nasty string
+    conda:
+        "envs/julia.yaml"
+    script:
+        "scripts/test.jl"
+
+
+rule bash:
+    input:
+        "test2.in",
+        named="test.in",
+    output:
+        "{bash}{empty}.out"
+    wildcard_constraints:
+        bash = "bash",
+        empty = "()",
+    params:
+        integer=123,
+        astring="foo\n'\\\" ", # nasty string
+        alist=["a", "b"],
+    resources:
+        mem_mb=1024
+    log:
+        "{bash}{empty}.log"
+    conda:
+        "envs/bash.yaml"
+    script:
+        "scripts/test.sh"

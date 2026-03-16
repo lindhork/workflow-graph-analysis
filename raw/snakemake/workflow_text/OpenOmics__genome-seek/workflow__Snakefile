@@ -1,0 +1,642 @@
+# Python standard library
+from os.path import join
+from os import listdir
+import datetime, json
+import os, re
+
+# 3rd party imports from pypi
+from snakemake.workflow import workflow as wf_api
+from snakemake.utils import R
+
+# Local imports
+from scripts.common import (
+    ignore,
+    provided, 
+    references,
+    str_bool
+)
+
+# Timestamp in YYYYMMDD format
+today = str(datetime.datetime.today()).split()[0].replace('-', '')
+
+# Global workflow variables
+configfile: 'config.json'                      # Generated from user input and config/*.json
+run_mode = config['options']['mode']           # Run mode: local, slurm, or uge
+bindpath = config['bindpaths']                 # Singularity paths to bind to the container
+samples  = config['samples']                   # Base name of input samples
+workpath = config['project']['workpath']       # Pipeline's output directory
+filetype = config['project']['filetype']       # 'paired-end' or 'single-end' (not supported)
+tmpdir   = config['options']['tmp_dir']        # Temporary directory
+batch_id = config['options']['batch_id']       # Batch Identifer
+chunks   = config['references']['CHR_CHUNKS']  # Scatter on chromosomes, chr1, ...
+regions  = config['references']['CHR_REGIONS'] # Scatter on regions: chr1:1-30000001, ...
+recals   = list(config['references']['NRECALS'].keys()) # Scatter recal on chromosome sets
+tumors   = list(config['pairs'].keys())        # List of tumor samples
+normals  = list(set(config['pairs'].values())) # List of normal samples
+normals  = [n for n in normals if n]           # Remove tumor-onlys, i.e. empty strings
+tumor2normal =  config['pairs']                # Dict to map a tumor to its normal
+# List of tumor samples with a paired normal
+tumorWnormal = [t for t in tumors if tumor2normal[t]]
+# List of tumor-only samples
+tumorOnly = [t for t in tumors if not tumor2normal[t]]
+# Use GPU-compute for any supported tools
+use_gpus = str_bool(
+    config['options']['use_gpus']
+)
+
+# Analysis Options 
+call_cnv = str_bool(                      # Call copy number variation (CNVs),
+    config['options']['call_cnv']         # default: False
+)
+call_sv = str_bool(                       # Call structural variation (SV),
+    config['options']['call_sv']          # default: False
+)
+call_hla = str_bool(                      # Call HLA types,
+    config['options']['call_hla']         # default: False
+)
+call_somatic = str_bool(                  # Call somatic variants,
+    config['options']['call_somatic']     # default: False
+)
+skip_qc  = str_bool(                      # Skip over QC steps,
+    config['options']['skip_qc']          # default: False
+)
+run_oc  = str_bool(                      # Run OpenCRAVAT rules,
+    config['options']['open_cravat']     # default: False
+)
+
+# Resource bundle
+resource_bundle = config['options']['resource_bundle'] # Default to "None"
+# Create FQscreen config file,
+# only created if the resource
+# bundle option was provided.
+create_fastq_screen_config = True if resource_bundle != "None" else False
+
+# Whole-exome sequencing pipeline options
+# By default, the WGS pipeline runs.
+# The WES pipeline will run if the 
+# --wes  option or the --wes-bed
+# option are provided. If just the
+# --wes option is provided the default
+# GENCODE exons BED file is used.
+wes_bed_provided = config['options']['wes_bed']   # default: None
+wes_bed_file = config['references']['WES_BED']    # default: gencode_v44_protein-coding_exons.bed
+# Run WES pipeline, default: False
+run_wes = (wes_bed_provided != "None" or str_bool(config['options']['wes_mode']))
+
+# Call variants with GATK4's set of 
+# best practices for germline variants
+# only runs if provided --gatk-germline,
+# default: False
+call_gatk_germline = str_bool(config['options']['gatk_germline']) 
+
+# List of somatic callers
+# TODO: add as cli option,
+# make sure at least one
+# caller is added and add
+# conditional running of 
+# each supported caller
+somatic_callers = ["octopus", "mutect2", "sage"]  # callers run in both TN and TO mode
+tn_somatic_callers = ["muse", "deepsomatic"]      # callers run exclusively in TN mode, strelka removed
+to_somatic_callers = ["clairs"]                   # callers run exclusively in TO mode
+# Mutect2 and MuSE reliably 
+# work with Purple CNV Caller
+purple_callers  = ["mutect2"]
+purple_callers  = list(set(purple_callers) & set(somatic_callers))
+
+# Read in resource information,
+# containing information about 
+# threads, mem, walltimes, etc.
+# TODO: Add handler for when the
+# mode is set to local.
+with open(join('config', 'cluster', '{0}.json'.format(run_mode))) as fh:
+    cluster = json.load(fh)
+
+
+# Final ouput files of the pipeline
+rule all:
+    input:
+        # Build and reformats WES BED capture kit,
+        # Optional step, only runs if --wes or --wes-bed
+        # option(s) provided.
+        # @imported from rules/wes.smk
+        provided(
+            [join(workpath, "references", "wes_regions_50bp_padded.bed")],
+            run_wes
+        ),
+        # FastQ Information, flowcell and lanes
+        # Optional step, not run if --skip-qc 
+        # @imported from rules/qc.smk
+        expand(
+            join(workpath,"rawQC","{name}.fastq.info.txt"),
+            name=ignore(samples, skip_qc)
+        ),
+        # FastQC (before and after trimming)
+        # Optional step, not run if --skip-qc 
+        # @imported from rules/qc.smk
+        expand(
+            join(workpath,"rawQC","{name}.R1_fastqc.zip"), 
+            name=ignore(samples, skip_qc)
+        ),
+        expand(
+            join(workpath,"rawQC","{name}.R2_fastqc.zip"), 
+            name=ignore(samples, skip_qc)
+        ),
+        expand(
+             join(workpath,"QC","{name}.sorted_fastqc.html"),
+            name=ignore(samples, skip_qc)
+        ),
+        # fastp, remove adapter sequences
+        # @imported from rules/trim_map_preprocess.smk
+        expand(
+            join(workpath,"fastqs","{name}.R1.trimmed.fastq.gz"), 
+            name=samples
+        ),
+        expand(
+            join(workpath,"fastqs","{name}.R2.trimmed.fastq.gz"), 
+            name=samples
+        ),
+        # FastQ Screen, contamination screening
+        # Optional step, not run if --skip-qc 
+        # @imported from rules/qc.smk
+        # Conditionally create FQscreen config file if 
+        # the resource bundle option was provided.
+        provided(
+            [join(workpath,"FQscreen","fastq_screen.conf")], 
+            create_fastq_screen_config
+        ),
+        expand(
+            join(workpath,"FQscreen","{name}.R1.trimmed_screen.txt"),
+            name=ignore(samples, skip_qc)
+        ),
+        expand(
+            join(workpath,"FQscreen","{name}.R2.trimmed_screen.txt"),
+            name=ignore(samples, skip_qc)
+        ),
+        # bwa-mem2, align to reference genome
+        # @imported from rules/trim_map_preprocess.smk
+        expand(
+            join(workpath, "BAM", "{name}.sorted.bam.bai"), 
+            name=samples
+        ),
+        # QualiMap2, bam quality control
+        # Optional step, not run if --skip-qc 
+        # @imported from rules/qc.smk
+        expand(
+            join(workpath,"QC","{name}","qualimapReport.html"),
+            name=ignore(samples, skip_qc)
+        ),
+        # Samtools Flagstat, bam quality control
+        # Optional step, not run if --skip-qc 
+        # @imported from rules/qc.smk
+        expand(
+            join(workpath,"QC","{name}.samtools_flagstat.txt"),
+            name=ignore(samples, skip_qc)
+        ),
+        # HLA*LA, infers hla type
+        # Optional step, run if --call-hla
+        # @imported from rules/hla.smk
+        expand(
+            join(workpath,"HLA", "{name}", "sample", "hla", "R1_bestguess_G.txt"),
+            name=provided(samples, call_hla)
+        ),
+        # Deepvariant, call germline variants
+        # @imported from rules/germline.smk
+        expand(
+            join(workpath, "deepvariant", "gVCFs", "{name}.g.vcf.gz"),
+            name=samples
+        ),
+        expand(
+            join(workpath, "deepvariant", "VCFs", "{name}.vcf.gz"),
+            name=samples
+        ),
+        # GLnexus, jointly-called norm multi-sample VCF file
+        # @imported from rules/germline.smk
+        join(workpath, "deepvariant", "VCFs", "joint.glnexus.norm.vcf.gz"),
+        # GATK4 SelectVariants, jointly-called norm per-sample VCF file
+        # @imported from rules/germline.smk
+        expand(
+            join(workpath, "deepvariant", "VCFs", "{name}.germline.vcf.gz"),
+            name=samples
+        ),
+        # BCFtools Stats, variant quality control
+        # @imported from rules/qc.smk
+        expand(
+            join(workpath, "QC", "BCFStats", "{name}.germline.bcftools_stats.txt"),
+            name=ignore(samples, skip_qc)
+        ),
+        # GATK4 VariantEval, variant quality control
+        # @imported from rules/qc.smk
+        expand(
+            join(workpath, "QC", "VariantEval", "{name}.germline.eval.grp"),
+            name=ignore(samples, skip_qc)
+        ),
+        # SNPeff, variant quality control and annotation
+        # @imported from rules/qc.smk
+        expand(
+            join(workpath, "QC", "SNPeff", "{name}.germline.snpeff.ann.vcf"),
+            name=samples
+        ),
+        # VCFtools, variant quality control 
+        # @imported from rules/qc.smk
+        expand(
+            join(workpath, "QC", "{batch}_variants.het"),
+            batch=ignore([batch_id], skip_qc)
+        ),
+        # Picards CollectVariantCallingMetrics, variant quality control
+        # @imported from rules/qc.smk
+        expand(
+            join(workpath, "QC", "{batch}_variants.variant_calling_detail_metrics"),
+            batch=ignore([batch_id], skip_qc)
+        ),
+        # Somalier, relatedness and ancestry 
+        # @imported from rules/qc.smk
+        expand(
+            join(workpath, "somalier", "{name}.somalier"),
+            name=samples
+        ),
+        join(workpath, "somalier", "relatedness.samples.tsv"),
+        join(workpath, "somalier", "ancestry.somalier-ancestry.tsv"),
+        # Peddy, infer biological sex,
+        # only runs when provided --call-cnv
+        # @imported from rules/cnv.smk
+        expand( 
+            join(workpath, "deepvariant", "VCFs", "{batch}_peddy.sex_check.csv"),        
+            batch=provided([batch_id], call_cnv)
+        ),
+        # CANVAS, predicted germline CNVs,
+        # only runs when provided --call-cnv
+        # @imported from rules/cnv.smk
+        expand( 
+            join(workpath, "CANVAS", "{name}", "CNV.vcf.gz"),        
+            name=provided(samples, call_cnv)
+        ),
+        # AnnotSV, annotated germline CNVs,
+        # only runs when provided --call-cnv
+        # @imported from rules/cnv.smk
+        expand( 
+            join(workpath, "CANVAS", "{name}", "{name}.segments.annotations.tsv"),       
+            name=provided(samples, call_cnv)
+        ),
+        # Manta, call germline structural variation (SV),
+        # only runs when provided --call-sv
+        # @imported from rules/sv.smk
+        expand( 
+            join(workpath, "MANTA", "germline", "{name}", "results", "variants", "diploidSV.vcf.gz"),       
+            name=provided(samples, call_sv)
+        ),
+        # GATK4 SelectVariants, jointly-called norm per-chrom VCF file,
+        # only runs if provided --open-cravat
+        # @imported from rules/open_cravat.smk
+        expand( 
+            join(workpath, "OpenCRAVAT", "germline", "VCFs", "{chunk}.germline.vcf.gz"),
+            chunk=provided(chunks, run_oc)
+        ),
+        # OpenCRAVAT, germline annotation, rank and score variants,
+        # only runs if provided --open-cravat
+        # @imported from rules/open_cravat.smk
+        expand( 
+            join(workpath, "OpenCRAVAT", "germline", "cravat_{chunk}.sqlite"),
+            chunk=provided(chunks, run_oc)
+        ),
+        # Filter OpenCRAVAT, filters germline SQL-lite file,
+        # only runs if provided --open-cravat
+        # @imported from rules/open_cravat.smk
+        expand( 
+            join(workpath, "OpenCRAVAT", "germline", "filter", "cravat_{chunk}.fixed.sqlite"),
+            chunk=provided(chunks, run_oc)
+        ),
+        # Merge OpenCRAVAT, merges fitlered germline SQL-lite files,
+        # only runs if provided --open-cravat
+        # @imported from rules/open_cravat.smk
+        provided([join(workpath, "OpenCRAVAT", "germline", "cravat.merged.sqlite")], run_oc),
+        # GATK3 Indel Realignment
+        # @imported from rules/gatk_recal.smk
+        expand( 
+            join(workpath, "BAM", "{name}.intervals"),
+            name=provided(samples, call_somatic)
+        ),
+        # Scatterd GATK4 recalibration tables for ApplyBQSR,
+        # only runs if provided --call-somatic 
+        # @imported from rules/gatk_recal.smk
+        expand( 
+            join(workpath, "BAM", "{name}_{recal}_data.grp"),
+            name=provided(samples, call_somatic),
+            recal=provided(recals, call_somatic)
+        ),
+        # Gathered GATK4 recalibration table for ApplyBQSR,
+        # only runs if provided --call-somatic 
+        # @imported from rules/gatk_recal.smk
+        expand( 
+            join(workpath, "BAM", "{name}_gathered_recal_data.grp"),
+            name=provided(samples, call_somatic),
+        ),
+        # Apply GATK4 recalibration to BAM file,
+        # only runs if provided --call-somatic 
+        # @imported from rules/gatk_recal.smk
+        expand( 
+            join(workpath, "BAM", "{name}.recal.bam"),
+            name=provided(samples, call_somatic),
+        ),
+        # Call somatic variants with Octopus,
+        # scattered and merged on regions
+        # to speed up overall run time,
+        # only runs if provided --call-somatic 
+        # @imported from rules/somatic.smk
+        expand( 
+            join(workpath, "octopus", "somatic", "chunks", "{region}", "{name}.vcf.gz"),
+            region=provided(regions, call_somatic),
+            name=provided(tumors, call_somatic),
+        ),
+        expand( 
+            join(workpath, "octopus", "somatic", "{name}.octopus.vcf"),
+            name=provided(tumors, call_somatic),
+        ),
+        # Call somatic variants with SAGE,
+        # only runs if provided --call-somatic,
+        # @imported from rules/somatic.smk
+        expand( 
+            join(workpath, "sage", "somatic", "{name}.sage.vcf"),
+            name=provided(tumors, call_somatic),
+        ),
+        # Call somatic variants with ClairS-TO,
+        # only runs if provided --call-somatic,
+        # and only runs with tumor-only samples,
+        # @imported from rules/somatic.smk
+        expand( 
+            join(workpath, "clairs", "somatic", "{name}.clairs.vcf"),
+            name=provided(tumorOnly, call_somatic),
+        ),
+        # Manta, call somatic structural variation (SV),
+        # only runs if provided --call-somatic AND --call-sv
+        # @imported from rules/sv.smk
+        expand( 
+            join(workpath, "MANTA", "somatic", "{name}", "results", "variants", "somaticSV.vcf.gz"),
+            name=provided(provided(tumors, call_somatic), call_sv),
+        ),
+        expand( 
+            join(workpath, "MANTA", "somatic", "{name}", "results", "variants", "somaticSV.filtered.vcf"),
+            name=provided(provided(tumors, call_somatic), call_sv),
+        ),
+        # Mutect2, call somatic variants,
+        # scattered and merged on chroms
+        # to speed up overall run time,
+        # only runs if provided --call-somatic 
+        # @imported from rules/somatic.smk
+        expand( 
+            join(workpath, "mutect2", "chrom_split", "{name}.{chrom}.vcf"),
+            name=provided(tumors, call_somatic),
+            chrom=provided(chunks, call_somatic),
+        ),
+        expand( 
+            join(workpath, "mutect2", "somatic","{name}.read-orientation-model.tar.gz"),
+            name=provided(tumors, call_somatic),
+        ),
+        expand( 
+            join(workpath, "mutect2", "somatic", "{name}.tumorPileup.table"),
+            name=provided(tumors, call_somatic),
+        ),
+        expand( 
+            join(workpath, "mutect2", "somatic", "{name}.normalPileup.table"),
+            name=provided(tumorWnormal, call_somatic),
+        ),
+        expand( 
+            join(workpath, "mutect2", "somatic", "{name}.contamination.table"),
+            name=provided(tumors, call_somatic),
+        ),
+        expand( 
+            join(workpath, "mutect2", "somatic", "{name}.mutect2.vcf"),
+            name=provided(tumors, call_somatic),
+        ),
+        # Call somatic variants with Deepsomatic,
+        # only runs if provided --call-somatic,
+        # only runs with tumor-normal pairs,
+        # @imported from rules/somatic.smk
+        expand( 
+            join(workpath, "deepsomatic", "somatic", "{name}.deepsomatic.vcf"),
+            name=provided(tumorWnormal, call_somatic),
+        ),
+        # MuSE, call somatic variants,
+        # only runs if provided --call-somatic,
+        # only runs with tumor-normal pairs, 
+        # @imported from rules/somatic.smk
+        expand( 
+            join(workpath, "muse", "somatic", "{name}.muse.vcf"),
+            name=provided(tumorWnormal, call_somatic),
+        ),
+        # Post-process somatic VCF, filter and 
+        # normalize each somatic callers VCF,
+        # only runs if provided --call-somatic,
+        # runs TN or Tonly somatic callers,
+        # Octopus, Mutect2, SAGE
+        # @imported from rules/somatic.smk
+        expand( 
+            join(workpath, "{caller}", "somatic", "{name}.{caller}.filtered.norm.vcf"),
+            caller=provided(somatic_callers, call_somatic),
+            name=provided(tumors, call_somatic),
+        ),
+        # Conditionally runs the exclusive TN callers,
+        # MuSE and Deepsomatic (strelka removed)
+        expand( 
+            join(workpath, "{caller}", "somatic", "{name}.{caller}.filtered.norm.vcf"),
+            caller=provided(tn_somatic_callers, call_somatic),
+            name=provided(tumorWnormal, call_somatic),
+        ),
+        # Conditionally runs the exclusive TO callers,
+        # ClairS-TO
+        expand( 
+            join(workpath, "{caller}", "somatic", "{name}.{caller}.filtered.norm.vcf"),
+            caller=provided(to_somatic_callers, call_somatic),
+            name=provided(tumorOnly, call_somatic),
+        ),
+        # Post-process somatic VCF, 
+        # and merge callsets across callers,
+        # only runs if provided --call-somatic 
+        # @imported from rules/somatic.smk
+        expand( 
+            join(workpath, "merged", "somatic", "{name}.merged.filtered.norm.vcf.gz"),
+            name=provided(tumors, call_somatic),
+        ),
+        # vcf2maf, create per-sample MAF file,
+        # only runs if provided --call-somatic 
+        # @imported from rules/somatic.smk
+        expand( 
+            join(workpath, "merged", "somatic", "{name}.merged.filtered.norm.maf"),
+            name=provided(tumors, call_somatic),
+        ),
+        # vcf2maf, create cohort-level MAF file,
+        # only runs if provided --call-somatic 
+        # @imported from rules/somatic.smk    
+        provided(
+            [join(workpath, "merged", "somatic", "cohort_somatic_variants.maf")], 
+            call_somatic
+        ),
+        # maftools, create cohort-level summary plots,
+        # only runs if provided --call-somatic 
+        # @imported from rules/somatic.smk    
+        provided(
+            [join(workpath, "merged", "somatic", "cohort_oncoplot.pdf")], 
+            call_somatic
+        ),
+        # SigProfiler, create sample portrait plots
+        # only runs if provided --call-somatic 
+        # @imported from rules/somatic.smk
+        expand( 
+            join(workpath, "sigprofiler", "sample_portrait_{name}.pdf"),
+            name=provided(tumors, call_somatic),
+        ),
+        provided(
+            [join(workpath, "sigprofiler", "merged_sigprofiler.pdf")], 
+            call_somatic
+        ),
+        # HMF Tools Purple, estimates CNV, purity and ploidy
+        # only runs if provided --call-somatic AND --call-cnv,
+        # purple will optionally use somatic SVs from MANTA 
+        # if --call-sv is also provided at runtime. These
+        # steps will only run for WGS data, if the --wes-mode
+        # option is provided the steps will be skipped. 
+        # @imported from rules/cnv.smk
+        expand( 
+            join(workpath, "hmftools", "amber", "{name}", "{name}.amber.baf.tsv"),
+            name=provided(provided(tumors, call_somatic), call_cnv and not run_wes)
+        ),
+        expand( 
+            join(workpath, "hmftools", "cobalt", "{name}", "{name}.cobalt.ratio.tsv"),
+            name=provided(provided(tumors, call_somatic), call_cnv and not run_wes)
+        ),
+        expand( 
+            join(workpath, "hmftools", "purple", "{name}", "{name}.purple.cnv.somatic.tsv"),
+            name=provided(provided(tumors, call_somatic), call_cnv and not run_wes)
+        ),
+        expand( 
+            join(workpath, "hmftools", "purple", "{name}", "{name}.purple.maf"),
+            name=provided(provided(tumors, call_somatic), call_cnv and not run_wes)
+        ),
+        # Maftools, create cohort-level summary plots from purple somatic VCF,
+        # only runs if provided --call-somatic AND --call-cnv and NOT WES mode,
+        # This step will only run for WGS data.
+        # @imported from rules/somatic.smk    
+        provided(
+            provided(
+                [join(workpath, "hmftools", "cohort_oncoplot.pdf")],
+                call_somatic
+            ),
+            call_cnv and not run_wes
+        ),
+        # Sequenza, estimates purity/ploidy and CNV,
+        # only runs if provided --call-somatic AND --call-cnv AND --wes-mode
+        # AND only runs with tumor-normal pairs,
+        # @imported from rules/wes.smk
+        expand( 
+            join(workpath, "sequenza_out", "{name}_alternative_solutions.txt"),
+            name=provided(tumorWnormal, call_somatic and call_cnv and run_wes)
+        ),
+        # cnvkit, infer and visualize CNVs in targeted sequencing data,
+        # only runs if provided --call-somatic AND --call-cnv AND --wes-mode
+        # AND only runs with tumor-normal pairs
+        # NOTE: currently only being run in the WES pipeline
+        # @imported from rules/wes.smk
+        expand( 
+            join(workpath, "cnvkit", "{name}", "{name}.call.cns"),
+            name=provided(tumorWnormal, call_somatic and call_cnv and run_wes)
+        ),
+        # OpenCRAVAT, somatic annotation, rank and score variants,
+        # only runs if provided --open-cravat AND --call-somatic
+        # @imported from rules/open_cravat.smk
+        provided(
+            provided(
+                [join(workpath, "OpenCRAVAT", "somatic", "cravat_somatic.sqlite")], 
+                run_oc
+            ),
+            call_somatic
+        ),
+        provided(
+            provided(
+                [join(workpath, "OpenCRAVAT", "somatic", "cravat.merged.sqlite")], 
+                run_oc
+            ),
+            call_somatic
+        ),
+        # Call germline variants with GATK4 HaplotypeCaller,
+        # scattered/merged on chroms per-sample, only runs 
+        # if provided --gatk-germline and NOT WES mode,
+        # @imported from rules/germline.smk
+        expand( 
+            join(workpath, "haplotypecaller", "gVCFs", "chunks", "{name}", "{chrom}.g.vcf.gz"),
+            name=provided(samples, call_gatk_germline and not run_wes),
+            chrom=provided(chunks, call_gatk_germline and not run_wes)
+        ),
+        expand( 
+            join(workpath, "haplotypecaller", "gVCFs", "{name}.g.vcf.gz"),
+            name=provided(samples, call_gatk_germline and not run_wes)
+        ),
+        # GATK4 GenomicsDBImport, merge gVCFs into a single 
+        # TileDB datastore for joint genotyping, only runs
+        # if provided --gatk-germline and NOT WES mode,
+        # @imported from rules/germline.smk
+        provided(
+            [join(workpath, "haplotypecaller", "gVCFs", "genomicsdbimport_gvcfs.tsv")], 
+            call_gatk_germline and not run_wes
+        ),
+        expand( 
+            join(workpath, "haplotypecaller", "gVCFs", "genomicsdb", "{region}", "gvcf_to_tiledb_import.done"),
+            region=provided(regions, call_gatk_germline and not run_wes)
+        ),
+        # GATK4 GenotypeGVCFs, jointly genotype germline
+        # variants on one or more samples, only runs if 
+        # provided --gatk-germline and NOT WES mode,
+        # @imported from rules/germline.smk
+        expand( 
+            join(workpath, "haplotypecaller", "VCFs", "chunks", "raw_variants_{region}.vcf.gz"),
+            region=provided(regions, call_gatk_germline and not run_wes)
+        ),
+        provided(
+            [join(workpath, "haplotypecaller", "VCFs", "raw_variants.vcf.gz")], 
+            call_gatk_germline and not run_wes
+        ),
+        # GATK4 VariantRecalibrator, builds and applies
+        # a recalibration model to the raw variants to
+        # produce a filtered VCF, only runs if provided
+        # --gatk-germline and NOT WES mode,
+        # @imported from rules/germline.smk
+        provided( 
+            [join(workpath, "haplotypecaller", "VCFs", "SNP.output.AS.recal")],
+            call_gatk_germline and not run_wes
+        ),
+        expand( 
+            join(workpath, "haplotypecaller", "VCFs", "snp_recal_chunks", "snps_recal_variants_{region}.vcf.gz"),
+            region=provided(regions, call_gatk_germline and not run_wes)
+        ),
+        provided( 
+            [join(workpath, "haplotypecaller", "VCFs", "INDEL.output.AS.recal")],
+            call_gatk_germline and not run_wes
+        ),
+        expand( 
+            join(workpath, "haplotypecaller", "VCFs", "snp_indel_recal_chunks", "snps_and_indels_recal_variants_{region}.vcf.gz"),
+            region=provided(regions, call_gatk_germline and not run_wes)
+        ),
+        provided( 
+            [join(workpath, "haplotypecaller", "VCFs", "snps_and_indels_recal_refinement_variants.vcf.gz")],
+            call_gatk_germline and not run_wes
+        ),
+        provided( 
+            [join(workpath, "haplotypecaller", "VCFs", "snps_and_indels_recal_refinement_variants.GTfix.vcf.gz")],
+            call_gatk_germline and not run_wes
+        ),
+        # MultiQC, QC report and sample statistics
+        # @imported from rules/qc.smk 
+        join(workpath, "QC", "MultiQC_Report.html"),
+
+
+# Import rules
+include: join("rules", "trim_map.smk")
+include: join("rules", "germline.smk")
+include: join("rules", "qc.smk")
+include: join("rules", "hla.smk")
+include: join("rules", "cnv.smk")
+include: join("rules", "sv.smk")
+include: join("rules", "open_cravat.smk")
+include: join("rules", "gatk_recal.smk")
+include: join("rules", "somatic.smk")
+include: join("rules", "wes.smk")
+include: join("rules", "gatk_germline.smk")
+include: join("rules", "hooks.smk")

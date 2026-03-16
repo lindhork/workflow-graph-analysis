@@ -1,0 +1,13 @@
+rule:
+    output:
+        "foo.txt"
+    input:
+        "bar.txt"
+    singularity: "docker://bash"
+    shadow: "minimal"
+    shell:
+        "mount; " 
+        "pwd; "
+        "ls -l {input}; "
+        "cat {input} > {output}"
+

@@ -1,0 +1,3077 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 186,
+            "title": "Add support for primer scheme that includes insert size in name",
+            "state": "CLOSED",
+            "createdAt": "2026-02-25T12:19:09Z",
+            "closedAt": "2026-03-01T14:23:05Z",
+            "author": {
+              "login": "florianzwagemaker"
+            }
+          },
+          {
+            "number": 185,
+            "title": "TypeError when no target is specified",
+            "state": "CLOSED",
+            "createdAt": "2026-02-25T10:57:27Z",
+            "closedAt": "2026-03-01T14:23:04Z",
+            "author": {
+              "login": "florianzwagemaker"
+            }
+          },
+          {
+            "number": 179,
+            "title": "Expand allowed primer name formats in `amplicon_covs.py`",
+            "state": "CLOSED",
+            "createdAt": "2026-02-18T13:50:12Z",
+            "closedAt": "2026-02-23T18:00:50Z",
+            "author": {
+              "login": "florianzwagemaker"
+            }
+          },
+          {
+            "number": 178,
+            "title": "The self-updater is not actually updating itself (the viroconstrictor installation) consistently",
+            "state": "CLOSED",
+            "createdAt": "2026-02-18T09:04:33Z",
+            "closedAt": "2026-02-23T18:00:49Z",
+            "author": {
+              "login": "florianzwagemaker"
+            }
+          },
+          {
+            "number": 177,
+            "title": "Reorganisation of log files in log directory",
+            "state": "OPEN",
+            "createdAt": "2026-02-12T08:31:53Z",
+            "closedAt": null,
+            "author": {
+              "login": "florianzwagemaker"
+            }
+          },
+          {
+            "number": 161,
+            "title": "Containers are too big for the current Github Actions workflow",
+            "state": "OPEN",
+            "createdAt": "2025-12-03T21:01:37Z",
+            "closedAt": null,
+            "author": {
+              "login": "florianzwagemaker"
+            }
+          },
+          {
+            "number": 147,
+            "title": "Container download failure preventing pipeline execution",
+            "state": "CLOSED",
+            "createdAt": "2025-09-23T19:29:26Z",
+            "closedAt": "2026-02-01T18:38:14Z",
+            "author": {
+              "login": "nascimento-jean"
+            }
+          },
+          {
+            "number": 116,
+            "title": "Failed to download container: 'viroconstrictor_alignment:48c633'",
+            "state": "CLOSED",
+            "createdAt": "2025-02-27T09:52:44Z",
+            "closedAt": "2025-03-04T08:47:22Z",
+            "author": {
+              "login": "rodriguesjotte96"
+            }
+          },
+          {
+            "number": 113,
+            "title": "Ask multiple times about gridmode vs localmode",
+            "state": "OPEN",
+            "createdAt": "2025-01-22T10:47:50Z",
+            "closedAt": null,
+            "author": {
+              "login": "raaijmag"
+            }
+          },
+          {
+            "number": 111,
+            "title": "Post-update input detection is not consistent",
+            "state": "CLOSED",
+            "createdAt": "2024-10-30T15:40:13Z",
+            "closedAt": "2025-01-24T09:43:17Z",
+            "author": {
+              "login": "florianzwagemaker"
+            }
+          },
+          {
+            "number": 110,
+            "title": "Samplesheet parser crashes if there are empty rows in between data-rows",
+            "state": "CLOSED",
+            "createdAt": "2024-10-28T09:19:13Z",
+            "closedAt": "2025-12-03T15:54:44Z",
+            "author": {
+              "login": "florianzwagemaker"
+            }
+          },
+          {
+            "number": 104,
+            "title": "Add genbank input file support",
+            "state": "CLOSED",
+            "createdAt": "2024-09-23T07:42:07Z",
+            "closedAt": "2025-09-15T13:12:28Z",
+            "author": {
+              "login": "florianzwagemaker"
+            }
+          },
+          {
+            "number": 96,
+            "title": "ViroConstrictor multi-sequence analysis running error",
+            "state": "CLOSED",
+            "createdAt": "2024-04-08T15:04:14Z",
+            "closedAt": "2024-04-15T12:47:49Z",
+            "author": {
+              "login": "Chrisxie03"
+            }
+          },
+          {
+            "number": 56,
+            "title": "Reads lost in ampligone or fastp or something else",
+            "state": "CLOSED",
+            "createdAt": "2022-12-13T10:44:03Z",
+            "closedAt": "2022-12-13T11:12:06Z",
+            "author": {
+              "login": "KHajji"
+            }
+          },
+          {
+            "number": 9,
+            "title": "Workflow is unable to complete when --primers flag is set to NONE",
+            "state": "CLOSED",
+            "createdAt": "2021-11-03T15:44:39Z",
+            "closedAt": "2021-11-03T19:14:04Z",
+            "author": {
+              "login": "florianzwagemaker"
+            }
+          },
+          {
+            "number": 5,
+            "title": "Make sure workflow is able to complete with empty input files",
+            "state": "CLOSED",
+            "createdAt": "2021-10-27T10:43:12Z",
+            "closedAt": "2021-11-03T19:13:14Z",
+            "author": {
+              "login": "florianzwagemaker"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 191,
+            "title": "chore: sync main to dev",
+            "state": "MERGED",
+            "createdAt": "2026-03-01T14:42:51Z",
+            "mergedAt": "2026-03-01T14:42:52Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".release-please-manifest.json"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "ViroConstrictor/__init__.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 190,
+            "title": "chore(main): release 1.6.6",
+            "state": "MERGED",
+            "createdAt": "2026-03-01T14:23:33Z",
+            "mergedAt": "2026-03-01T14:42:40Z",
+            "author": {
+              "login": "ids-bioinformatics"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".release-please-manifest.json"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "ViroConstrictor/__init__.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 189,
+            "title": "Extra updates in amplicon scheme regex patterns and bugfix for missing targets on CLI",
+            "state": "MERGED",
+            "createdAt": "2026-02-26T14:03:36Z",
+            "mergedAt": "2026-03-01T14:23:04Z",
+            "author": {
+              "login": "florianzwagemaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".release-please-manifest.json"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "ViroConstrictor/__init__.py"
+                },
+                {
+                  "path": "ViroConstrictor/parser.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/amplicon_covs.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_amplicon_covs.py"
+                },
+                {
+                  "path": "tests/unit/test_parser.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 185
+                },
+                {
+                  "number": 186
+                }
+              ]
+            }
+          },
+          {
+            "number": 188,
+            "title": "resolve TypeError when no target is given on cli",
+            "state": "MERGED",
+            "createdAt": "2026-02-26T09:52:40Z",
+            "mergedAt": "2026-02-26T12:04:59Z",
+            "author": {
+              "login": "florianzwagemaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/parser.py"
+                },
+                {
+                  "path": "tests/unit/test_parser.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 187,
+            "title": "Add regex to support primer names containing an insert size",
+            "state": "MERGED",
+            "createdAt": "2026-02-25T19:51:44Z",
+            "mergedAt": "2026-02-26T12:05:13Z",
+            "author": {
+              "login": "florianzwagemaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/amplicon_covs.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_amplicon_covs.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 186
+                }
+              ]
+            }
+          },
+          {
+            "number": 184,
+            "title": "chore: sync main to dev",
+            "state": "MERGED",
+            "createdAt": "2026-02-23T18:17:19Z",
+            "mergedAt": "2026-02-23T18:17:21Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".release-please-manifest.json"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "ViroConstrictor/__init__.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 183,
+            "title": "chore(main): release 1.6.5",
+            "state": "MERGED",
+            "createdAt": "2026-02-23T18:01:52Z",
+            "mergedAt": "2026-02-23T18:16:47Z",
+            "author": {
+              "login": "ids-bioinformatics"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".release-please-manifest.json"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "ViroConstrictor/__init__.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 182,
+            "title": "Updates to self updater, amplicon_covs.py script and testing suite",
+            "state": "MERGED",
+            "createdAt": "2026-02-23T10:11:22Z",
+            "mergedAt": "2026-02-23T18:00:48Z",
+            "author": {
+              "login": "florianzwagemaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/agents/DocstringUpdater.agent.md"
+                },
+                {
+                  "path": ".github/agents/UnitTestBuilder.agent.md"
+                },
+                {
+                  "path": ".github/copilot-instructions.md"
+                },
+                {
+                  "path": ".github/workflows/run_unittests.yml"
+                },
+                {
+                  "path": "ViroConstrictor/update.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/generic_workflow_methods.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/amplicon_covs.py"
+                },
+                {
+                  "path": "conftest.py"
+                },
+                {
+                  "path": "docs/manual.md"
+                },
+                {
+                  "path": "env.yml"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "tests/unit/scripts/test_amplicon_covs.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_group_refs.py"
+                },
+                {
+                  "path": "tests/unit/test_update.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 178
+                },
+                {
+                  "number": 179
+                }
+              ]
+            }
+          },
+          {
+            "number": 181,
+            "title": "Change the self updater process to no longer use the mamba api",
+            "state": "MERGED",
+            "createdAt": "2026-02-19T08:16:50Z",
+            "mergedAt": "2026-02-23T10:07:55Z",
+            "author": {
+              "login": "florianzwagemaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/update.py"
+                },
+                {
+                  "path": "tests/unit/test_update.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 180,
+            "title": "Include extra regex pattern for Artic V5.4.2 primer scheme in `amplicon_covs.py`",
+            "state": "MERGED",
+            "createdAt": "2026-02-19T08:02:27Z",
+            "mergedAt": "2026-02-19T16:53:05Z",
+            "author": {
+              "login": "florianzwagemaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/amplicon_covs.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_amplicon_covs.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 176,
+            "title": "chore: sync main to dev",
+            "state": "MERGED",
+            "createdAt": "2026-02-10T20:20:57Z",
+            "mergedAt": "2026-02-10T20:20:59Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".release-please-manifest.json"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "ViroConstrictor/__init__.py"
+                },
+                {
+                  "path": "docs/presets.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 175,
+            "title": "chore(main): release 1.6.4",
+            "state": "MERGED",
+            "createdAt": "2026-02-10T17:15:17Z",
+            "mergedAt": "2026-02-10T20:20:30Z",
+            "author": {
+              "login": "ids-bioinformatics"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".release-please-manifest.json"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "ViroConstrictor/__init__.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 174,
+            "title": "Update test file to match quadratic runtime scaling in workflows",
+            "state": "MERGED",
+            "createdAt": "2026-02-02T06:52:25Z",
+            "mergedAt": "2026-02-02T07:05:08Z",
+            "author": {
+              "login": "copilot-swe-agent"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/unit/test_dynamic_memory-runtime.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 173,
+            "title": "Addition of combined results on various levels: all results, per-virus results, and per-sample results",
+            "state": "MERGED",
+            "createdAt": "2026-01-26T15:26:36Z",
+            "mergedAt": "2026-02-10T17:14:23Z",
+            "author": {
+              "login": "florianzwagemaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/copilot-instructions.md"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "ViroConstrictor/match_ref.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/directories.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/generic_workflow_methods.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/preset_aliases.json"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/preset_params.json"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/results.combined.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/results.concatenations.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/aggregate_combined_files.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/combine_fasta.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/combine_tabular.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/extract_sample_from_fasta.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/workflow.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/workflow.smk"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "tests/unit/scripts/test_aggregate_combined_files.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_combine_fasta.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_combine_tabular.py"
+                },
+                {
+                  "path": "tests/unit/test_dynamic_memory-runtime.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 172,
+            "title": "feat: add a combined results folder with aggregates",
+            "state": "MERGED",
+            "createdAt": "2026-01-12T16:36:05Z",
+            "mergedAt": "2026-01-22T11:23:41Z",
+            "author": {
+              "login": "florianzwagemaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/workflow/helpers/directories.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/generic_workflow_methods.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/results.combined.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/aggregate_combined_files.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/combine_fasta.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/combine_tabular.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/extract_sample_from_fasta.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/workflow.smk"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "tests/unit/scripts/test_aggregate_combined_files.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_combine_fasta.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_combine_tabular.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 171,
+            "title": "fix: ensure mean coverage per amplicon is calculated excluding the amplicon-overlaps",
+            "state": "MERGED",
+            "createdAt": "2026-01-12T16:15:45Z",
+            "mergedAt": "2026-01-13T10:46:47Z",
+            "author": {
+              "login": "florianzwagemaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/amplicon_covs.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 170,
+            "title": "chore(main): release 1.6.3",
+            "state": "MERGED",
+            "createdAt": "2025-12-29T14:01:25Z",
+            "mergedAt": "2025-12-29T14:46:17Z",
+            "author": {
+              "login": "ids-bioinformatics"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".release-please-manifest.json"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "ViroConstrictor/__init__.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 169,
+            "title": "fix: add additional primer name option (MuV-NGS_19-alt22_LEFT)",
+            "state": "MERGED",
+            "createdAt": "2025-12-29T13:48:50Z",
+            "mergedAt": "2025-12-29T14:01:06Z",
+            "author": {
+              "login": "raaijmag"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/amplicon_covs.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_amplicon_covs.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 168,
+            "title": "chore: sync main to dev",
+            "state": "MERGED",
+            "createdAt": "2025-12-17T11:59:36Z",
+            "mergedAt": "2026-01-05T12:14:32Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".release-please-manifest.json"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "ViroConstrictor/__init__.py"
+                },
+                {
+                  "path": "ViroConstrictor/__main__.py"
+                },
+                {
+                  "path": "ViroConstrictor/logging.py"
+                },
+                {
+                  "path": "ViroConstrictor/parser.py"
+                },
+                {
+                  "path": "ViroConstrictor/runreport.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/presets.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/clipper.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/group_refs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow_config.py"
+                },
+                {
+                  "path": "containers/build_containers.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_amplicon_covs.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 167,
+            "title": "chore(main): release 1.6.2",
+            "state": "MERGED",
+            "createdAt": "2025-12-17T09:26:17Z",
+            "mergedAt": "2025-12-17T11:59:25Z",
+            "author": {
+              "login": "ids-bioinformatics"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".release-please-manifest.json"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "ViroConstrictor/__init__.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 166,
+            "title": "chore: small fixes related to samples df",
+            "state": "MERGED",
+            "createdAt": "2025-12-17T07:53:35Z",
+            "mergedAt": "2025-12-17T09:25:51Z",
+            "author": {
+              "login": "krskovai"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/__main__.py"
+                },
+                {
+                  "path": "ViroConstrictor/logging.py"
+                },
+                {
+                  "path": "ViroConstrictor/parser.py"
+                },
+                {
+                  "path": "ViroConstrictor/runreport.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/presets.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/clipper.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/group_refs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow_config.py"
+                },
+                {
+                  "path": "containers/build_containers.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 165,
+            "title": "chore: sync main to dev",
+            "state": "MERGED",
+            "createdAt": "2025-12-12T18:50:52Z",
+            "mergedAt": "2025-12-12T18:50:54Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".release-please-manifest.json"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "ViroConstrictor/__init__.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 164,
+            "title": "chore(main): release 1.6.1",
+            "state": "MERGED",
+            "createdAt": "2025-12-12T18:07:37Z",
+            "mergedAt": "2025-12-12T18:50:42Z",
+            "author": {
+              "login": "ids-bioinformatics"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".release-please-manifest.json"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "ViroConstrictor/__init__.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 163,
+            "title": "update to sars-cov-2 preset",
+            "state": "MERGED",
+            "createdAt": "2025-12-12T18:07:08Z",
+            "mergedAt": "2025-12-12T18:07:16Z",
+            "author": {
+              "login": "florianzwagemaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".release-please-manifest.json"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "ViroConstrictor/__init__.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/preset_params.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 162,
+            "title": "Preset adjustment for sars cov 2",
+            "state": "MERGED",
+            "createdAt": "2025-12-12T15:54:35Z",
+            "mergedAt": "2025-12-12T18:05:31Z",
+            "author": {
+              "login": "florianzwagemaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/workflow/helpers/preset_params.json"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 160,
+            "title": "chore: sync main to dev",
+            "state": "MERGED",
+            "createdAt": "2025-12-03T16:23:14Z",
+            "mergedAt": "2025-12-03T16:23:15Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".release-please-manifest.json"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "ViroConstrictor/__init__.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 159,
+            "title": "chore(main): release 1.6.0",
+            "state": "MERGED",
+            "createdAt": "2025-12-03T15:57:27Z",
+            "mergedAt": "2025-12-03T16:23:02Z",
+            "author": {
+              "login": "ids-bioinformatics"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".release-please-manifest.json"
+                },
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "ViroConstrictor/__init__.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 158,
+            "title": "Version 1.6.0",
+            "state": "MERGED",
+            "createdAt": "2025-12-03T10:47:10Z",
+            "mergedAt": "2025-12-03T15:54:43Z",
+            "author": {
+              "login": "florianzwagemaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/build_and_test.yml"
+                },
+                {
+                  "path": ".github/workflows/publish_containers.yaml"
+                },
+                {
+                  "path": ".github/workflows/release.yml"
+                },
+                {
+                  "path": ".github/workflows/sync.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".release-please-manifest.json"
+                },
+                {
+                  "path": "CITATION.cff"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "ViroConstrictor/__main__.py"
+                },
+                {
+                  "path": "ViroConstrictor/functions.py"
+                },
+                {
+                  "path": "ViroConstrictor/genbank.py"
+                },
+                {
+                  "path": "ViroConstrictor/logging.py"
+                },
+                {
+                  "path": "ViroConstrictor/match_ref.py"
+                },
+                {
+                  "path": "ViroConstrictor/parser.py"
+                },
+                {
+                  "path": "ViroConstrictor/runconfigs.py"
+                },
+                {
+                  "path": "ViroConstrictor/runreport.py"
+                },
+                {
+                  "path": "ViroConstrictor/samplesheet.py"
+                },
+                {
+                  "path": "ViroConstrictor/scheduler.py"
+                },
+                {
+                  "path": "ViroConstrictor/update.py"
+                },
+                {
+                  "path": "ViroConstrictor/userprofile.py"
+                },
+                {
+                  "path": "ViroConstrictor/validatefasta.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/Alignment.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/Clean.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/Consensus.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/ORF_analysis.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/Scripts.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/core_scripts.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/mr_scripts.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/__init__.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/base_script_class.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/containers.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/directories.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/generic_workflow_methods.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/preset_aliases.json"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/preset_params.json"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/presets.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/__init__.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/clean.adapter_removal.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/clean.data_filter.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/clean.primer_removal.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/preparation.features.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/preparation.primers.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/preparation.references.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/results.concatenations.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/results.reporting_metrics.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/results.sequences.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/stats.post_clean.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/stats.pre_clean.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/configs/multiqc.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/__init__.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/boc.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/clipper.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/concat_amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/extract_gff.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/fastqc.sh"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/filter_bed_input.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/group_aminoacids.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/prepare_refs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/vcf_to_tsv.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/workflow.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/__init__.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/filter.features.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/filter.primers.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/preparation.references.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/selection.alignment.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/selection.reference.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/__init__.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/count_mapped_reads.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/filter_bed.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/filter_best_matching_ref.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/filter_gff.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/filter_references.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/group_refs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/workflow.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/preset_params.json"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/presets.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/boc.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/clipper.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/concat_amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/extract_gff.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/filter_bed_input.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/group_aminoacids.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/count_mapped_reads.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/filter_bed.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/filter_best_matching_ref.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/filter_gff.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/filter_references.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/group_refs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/prepare_refs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/vcf_to_tsv.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/workflow.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow_config.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow_executor.py"
+                },
+                {
+                  "path": "build_local_containers.py"
+                },
+                {
+                  "path": "containers/Alignment.dockerfile"
+                },
+                {
+                  "path": "containers/Clean.dockerfile"
+                },
+                {
+                  "path": "containers/Consensus.dockerfile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 110
+                }
+              ]
+            }
+          },
+          {
+            "number": 157,
+            "title": "Fragment-lookaround-size warning update and name addition",
+            "state": "MERGED",
+            "createdAt": "2025-11-24T08:38:13Z",
+            "mergedAt": "2025-12-03T09:31:29Z",
+            "author": {
+              "login": "MargoRaijmakers"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CITATION.cff"
+                },
+                {
+                  "path": "ViroConstrictor/parser.py"
+                },
+                {
+                  "path": "pyproject.toml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 156,
+            "title": "Version 1.6.0",
+            "state": "MERGED",
+            "createdAt": "2025-11-10T11:00:40Z",
+            "mergedAt": "2025-11-10T12:46:46Z",
+            "author": {
+              "login": "raaijmag"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/build_and_test.yml"
+                },
+                {
+                  "path": ".github/workflows/publish_containers.yaml"
+                },
+                {
+                  "path": ".github/workflows/release.yml"
+                },
+                {
+                  "path": ".github/workflows/sync.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".release-please-manifest.json"
+                },
+                {
+                  "path": "ViroConstrictor/__main__.py"
+                },
+                {
+                  "path": "ViroConstrictor/functions.py"
+                },
+                {
+                  "path": "ViroConstrictor/genbank.py"
+                },
+                {
+                  "path": "ViroConstrictor/logging.py"
+                },
+                {
+                  "path": "ViroConstrictor/match_ref.py"
+                },
+                {
+                  "path": "ViroConstrictor/parser.py"
+                },
+                {
+                  "path": "ViroConstrictor/runconfigs.py"
+                },
+                {
+                  "path": "ViroConstrictor/runreport.py"
+                },
+                {
+                  "path": "ViroConstrictor/samplesheet.py"
+                },
+                {
+                  "path": "ViroConstrictor/scheduler.py"
+                },
+                {
+                  "path": "ViroConstrictor/update.py"
+                },
+                {
+                  "path": "ViroConstrictor/userprofile.py"
+                },
+                {
+                  "path": "ViroConstrictor/validatefasta.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/Consensus.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/ORF_analysis.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/core_scripts.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/mr_scripts.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/__init__.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/base_script_class.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/containers.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/directories.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/generic_workflow_methods.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/preset_aliases.json"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/preset_params.json"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/presets.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/__init__.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/clean.adapter_removal.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/clean.data_filter.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/clean.primer_removal.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/preparation.features.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/preparation.primers.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/preparation.references.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/results.concatenations.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/results.reporting_metrics.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/results.sequences.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/stats.post_clean.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/stats.pre_clean.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/configs/multiqc.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/__init__.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/boc.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/clipper.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/concat_amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/extract_gff.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/fastqc.sh"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/filter_bed_input.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/group_aminoacids.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/prepare_refs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/vcf_to_tsv.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/workflow.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/__init__.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/filter.features.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/filter.primers.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/preparation.references.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/selection.alignment.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/selection.reference.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/__init__.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/count_mapped_reads.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/filter_bed.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/filter_best_matching_ref.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/filter_gff.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/filter_references.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/group_refs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/workflow.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/preset_params.json"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/presets.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/boc.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/clipper.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/concat_amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/extract_gff.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/filter_bed_input.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/group_aminoacids.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/count_mapped_reads.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/filter_bed.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/filter_best_matching_ref.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/filter_gff.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/filter_references.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/group_refs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/prepare_refs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/vcf_to_tsv.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/workflow.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow_config.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow_executor.py"
+                },
+                {
+                  "path": "build_local_containers.py"
+                },
+                {
+                  "path": "containers/Alignment.dockerfile"
+                },
+                {
+                  "path": "containers/Clean.dockerfile"
+                },
+                {
+                  "path": "containers/Consensus.dockerfile"
+                },
+                {
+                  "path": "containers/ORF_analysis.dockerfile"
+                },
+                {
+                  "path": "containers/build_containers.py"
+                },
+                {
+                  "path": "containers/convert_artifact_containers_for_apptainer.py"
+                },
+                {
+                  "path": "containers/core_scripts.dockerfile"
+                },
+                {
+                  "path": "containers/mr_scripts.dockerfile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 155,
+            "title": "Idsbio 1108 set snakemake rule runtime",
+            "state": "MERGED",
+            "createdAt": "2025-11-05T14:39:31Z",
+            "mergedAt": "2025-11-10T10:59:34Z",
+            "author": {
+              "login": "raaijmag"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/workflow/main/components/clean.adapter_removal.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/clean.data_filter.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/clean.primer_removal.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/preparation.features.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/preparation.primers.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/preparation.references.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/results.concatenations.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/results.reporting_metrics.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/results.sequences.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/stats.post_clean.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/stats.pre_clean.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/concat_amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/workflow.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/filter.features.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/filter.primers.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/preparation.references.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/selection.alignment.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/selection.reference.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/workflow.smk"
+                },
+                {
+                  "path": "env.yml"
+                },
+                {
+                  "path": "tests/e2e/data/reference_MR.fasta"
+                },
+                {
+                  "path": "tests/e2e/test_e2e.py"
+                },
+                {
+                  "path": "tests/unit/data/test_reference_bad.gb"
+                },
+                {
+                  "path": "tests/unit/scripts/test_amplicon_covs.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_concat_amplicon_covs.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_extract_gff.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_filter_bed.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_group_aa.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_group_refs.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_prepare_refs.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_vcf_to_tsv.py"
+                },
+                {
+                  "path": "tests/unit/test_dynamic_memory-runtime.py"
+                },
+                {
+                  "path": "tests/unit/test_genbank.py"
+                },
+                {
+                  "path": "tests/unit/test_validate_fasta.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 154,
+            "title": "Clear up multiple todo comments",
+            "state": "MERGED",
+            "createdAt": "2025-11-03T12:18:55Z",
+            "mergedAt": "2025-11-03T12:26:52Z",
+            "author": {
+              "login": "florianzwagemaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/__main__.py"
+                },
+                {
+                  "path": "ViroConstrictor/match_ref.py"
+                },
+                {
+                  "path": "ViroConstrictor/runconfigs.py"
+                },
+                {
+                  "path": "ViroConstrictor/runreport.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow_config.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow_executor.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 153,
+            "title": "Idsbio 1313 snakemake annotated string error",
+            "state": "MERGED",
+            "createdAt": "2025-10-30T10:05:51Z",
+            "mergedAt": "2025-11-03T11:19:06Z",
+            "author": {
+              "login": "raaijmag"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/runreport.py"
+                },
+                {
+                  "path": "ViroConstrictor/update.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/workflow.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow_executor.py"
+                },
+                {
+                  "path": "tests/unit/test_runreport.py"
+                },
+                {
+                  "path": "tests/unit/test_update.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 152,
+            "title": "upgrade aminoextract to version 0.4.1",
+            "state": "MERGED",
+            "createdAt": "2025-10-29T14:21:08Z",
+            "mergedAt": "2025-11-03T06:31:55Z",
+            "author": {
+              "login": "florianzwagemaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/workflow/envs/Consensus.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/ORF_analysis.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/core_scripts.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/mr_scripts.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/generic_workflow_methods.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/preset_params.json"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/presets.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/results.sequences.smk"
+                },
+                {
+                  "path": "env.yml"
+                },
+                {
+                  "path": "pyproject.toml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 151,
+            "title": "fix: IDSBIO-1334 amplicon covs too strict naming",
+            "state": "MERGED",
+            "createdAt": "2025-10-15T13:09:57Z",
+            "mergedAt": "2025-10-28T07:01:36Z",
+            "author": {
+              "login": "raaijmag"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/amplicon_covs.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_amplicon_covs.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 150,
+            "title": "docs: re-wrote most of the docs",
+            "state": "MERGED",
+            "createdAt": "2025-10-15T07:48:45Z",
+            "mergedAt": "2025-10-28T09:45:01Z",
+            "author": {
+              "login": "raaijmag"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/scheduler.py"
+                },
+                {
+                  "path": "docs/amplicons.md"
+                },
+                {
+                  "path": "docs/architecture.md"
+                },
+                {
+                  "path": "docs/configuration.md"
+                },
+                {
+                  "path": "docs/dependencies.md"
+                },
+                {
+                  "path": "docs/flags.md"
+                },
+                {
+                  "path": "docs/index.md"
+                },
+                {
+                  "path": "docs/input-formatting.md"
+                },
+                {
+                  "path": "docs/installation.md"
+                },
+                {
+                  "path": "docs/manual.md"
+                },
+                {
+                  "path": "docs/multi-reference-analysis.md"
+                },
+                {
+                  "path": "docs/multi-reference.md"
+                },
+                {
+                  "path": "docs/multi-target-analysis.md"
+                },
+                {
+                  "path": "docs/presets.md"
+                },
+                {
+                  "path": "docs/quickstart.md"
+                },
+                {
+                  "path": "docs/single-target-analysis.md"
+                },
+                {
+                  "path": "docs/workflow-visualization-guide.md"
+                },
+                {
+                  "path": "mkdocs.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 149,
+            "title": "IDSBIO-463: Per-sample setting of AmpliGone's fragment lookaround size",
+            "state": "MERGED",
+            "createdAt": "2025-10-06T12:02:17Z",
+            "mergedAt": "2025-10-13T16:01:49Z",
+            "author": {
+              "login": "MargoRaijmakers"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/parser.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/clean.primer_removal.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 148,
+            "title": "IDSBIO-145: Per-sample disabling of preset functionality",
+            "state": "MERGED",
+            "createdAt": "2025-10-01T11:48:45Z",
+            "mergedAt": "2025-10-13T13:52:13Z",
+            "author": {
+              "login": "MargoRaijmakers"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/__main__.py"
+                },
+                {
+                  "path": "ViroConstrictor/genbank.py"
+                },
+                {
+                  "path": "ViroConstrictor/parser.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/generic_workflow_methods.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 146,
+            "title": "IDSBIO-613 samplesheet parser error empty rows",
+            "state": "MERGED",
+            "createdAt": "2025-09-23T14:30:41Z",
+            "mergedAt": "2025-10-13T11:27:35Z",
+            "author": {
+              "login": "MargoRaijmakers"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/parser.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 145,
+            "title": "Idsbio 1074 rework scripts dir",
+            "state": "MERGED",
+            "createdAt": "2025-09-03T10:07:24Z",
+            "mergedAt": "2025-09-03T11:46:33Z",
+            "author": {
+              "login": "raaijmag"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "ViroConstrictor/genbank.py"
+                },
+                {
+                  "path": "ViroConstrictor/logging.py"
+                },
+                {
+                  "path": "ViroConstrictor/parser.py"
+                },
+                {
+                  "path": "ViroConstrictor/scheduler.py"
+                },
+                {
+                  "path": "ViroConstrictor/validatefasta.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/containers.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/Consensus.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/ORF_analysis.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/Scripts.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/preset_aliases.json"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/preset_params.json"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/amplicon_arg_parser.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/base_script_class.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/boc.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/clipper.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/concat_amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/extract_gff.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/filter_bed_input.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/group_aminoacids.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/count_mapped_reads.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/filter_bed.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/filter_best_matching_ref.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/filter_gff.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/filter_references.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/group_refs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/prepare_refs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/vcf_to_tsv.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/workflow.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow_config.py"
+                },
+                {
+                  "path": "containers/Alignment.dockerfile"
+                },
+                {
+                  "path": "containers/Clean.dockerfile"
+                },
+                {
+                  "path": "containers/Consensus.dockerfile"
+                },
+                {
+                  "path": "containers/ORF_analysis.dockerfile"
+                },
+                {
+                  "path": "containers/Scripts.dockerfile"
+                },
+                {
+                  "path": "env.yml"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "results/Virus~Severe_acute_respiratory_syndrome_coronavirus_2/RefID~NC_045512.2/aminoacids/E.faa"
+                },
+                {
+                  "path": "results/Virus~Severe_acute_respiratory_syndrome_coronavirus_2/RefID~NC_045512.2/aminoacids/M.faa"
+                },
+                {
+                  "path": "results/Virus~Severe_acute_respiratory_syndrome_coronavirus_2/RefID~NC_045512.2/aminoacids/N.faa"
+                },
+                {
+                  "path": "results/Virus~Severe_acute_respiratory_syndrome_coronavirus_2/RefID~NC_045512.2/aminoacids/ORF10.faa"
+                },
+                {
+                  "path": "results/Virus~Severe_acute_respiratory_syndrome_coronavirus_2/RefID~NC_045512.2/aminoacids/ORF1ab.faa"
+                },
+                {
+                  "path": "results/Virus~Severe_acute_respiratory_syndrome_coronavirus_2/RefID~NC_045512.2/aminoacids/ORF3a.faa"
+                },
+                {
+                  "path": "results/Virus~Severe_acute_respiratory_syndrome_coronavirus_2/RefID~NC_045512.2/aminoacids/ORF6.faa"
+                },
+                {
+                  "path": "results/Virus~Severe_acute_respiratory_syndrome_coronavirus_2/RefID~NC_045512.2/aminoacids/ORF7a.faa"
+                },
+                {
+                  "path": "results/Virus~Severe_acute_respiratory_syndrome_coronavirus_2/RefID~NC_045512.2/aminoacids/ORF7b.faa"
+                },
+                {
+                  "path": "results/Virus~Severe_acute_respiratory_syndrome_coronavirus_2/RefID~NC_045512.2/aminoacids/ORF8.faa"
+                },
+                {
+                  "path": "results/Virus~Severe_acute_respiratory_syndrome_coronavirus_2/RefID~NC_045512.2/aminoacids/S.faa"
+                },
+                {
+                  "path": "tests/e2e/data/ESIB_EQA_2024_SARS1_01_features.gff"
+                },
+                {
+                  "path": "tests/e2e/data/Primers_articv4.1.bed"
+                },
+                {
+                  "path": "tests/e2e/data/Primers_articv4.1.fasta"
+                },
+                {
+                  "path": "tests/e2e/data/reference_genome.fasta"
+                },
+                {
+                  "path": "tests/e2e/data/reference_genome.gb"
+                },
+                {
+                  "path": "tests/e2e/data/reference_genome.gff"
+                },
+                {
+                  "path": "tests/e2e/data/test_features.gff"
+                },
+                {
+                  "path": "tests/e2e/data/test_primers.bed"
+                },
+                {
+                  "path": "tests/e2e/data/test_reference.fasta"
+                },
+                {
+                  "path": "tests/e2e/data/test_settings.ini"
+                },
+                {
+                  "path": "tests/e2e/test_e2e.py"
+                },
+                {
+                  "path": "tests/unit/data/ESIB_EQA_2024_SARS1_01_ampliconcoverage.csv"
+                },
+                {
+                  "path": "tests/unit/data/ESIB_EQA_2024_SARS1_01_ampliconcoverage_output.csv"
+                },
+                {
+                  "path": "tests/unit/data/ESIB_EQA_2024_SARS1_01_consensus.fa"
+                },
+                {
+                  "path": "tests/unit/data/ESIB_EQA_2024_SARS1_01_consensus.gff"
+                },
+                {
+                  "path": "tests/unit/data/ESIB_EQA_2024_SARS1_01_consensus.translated.fa"
+                },
+                {
+                  "path": "tests/unit/data/ESIB_EQA_2024_SARS1_01_coverage.tsv"
+                },
+                {
+                  "path": "tests/unit/data/ESIB_EQA_2024_SARS1_01_features.gff"
+                },
+                {
+                  "path": "tests/unit/data/ESIB_EQA_2024_SARS1_01_features_output.gff"
+                },
+                {
+                  "path": "tests/unit/data/ESIB_EQA_2024_SARS1_01_primers.bed"
+                },
+                {
+                  "path": "tests/unit/data/ESIB_EQA_2024_SARS1_01_primers_output.csv"
+                },
+                {
+                  "path": "tests/unit/data/Influenza_A_virus"
+                },
+                {
+                  "path": "tests/unit/data/aa.faa"
+                },
+                {
+                  "path": "tests/unit/data/aa2.faa"
+                },
+                {
+                  "path": "tests/unit/data/reference_genome.fasta"
+                },
+                {
+                  "path": "tests/unit/data/sampleinfo.pkl"
+                },
+                {
+                  "path": "tests/unit/data/sampleinfo2.pkl"
+                },
+                {
+                  "path": "tests/unit/data/test_primers.bed"
+                },
+                {
+                  "path": "tests/unit/data/test_primers_output.bed"
+                },
+                {
+                  "path": "tests/unit/data/test_reference.fasta"
+                },
+                {
+                  "path": "tests/unit/data/test_reference.gb"
+                },
+                {
+                  "path": "tests/unit/data/test_reference.gff"
+                },
+                {
+                  "path": "tests/unit/data/test_reference_bad.fasta"
+                },
+                {
+                  "path": "tests/unit/data/test_reference_double.fasta"
+                },
+                {
+                  "path": "tests/unit/data/test_reference_double.gb"
+                },
+                {
+                  "path": "tests/unit/data/test_reference_double.gff"
+                },
+                {
+                  "path": "tests/unit/scripts/test_amplicon_covs.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_concat_amplicon_covs.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_extract_gff.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_filter_bed.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_group_aa.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_prepare_refs.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_scripts.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_translate_aa.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_trueconsense.py"
+                },
+                {
+                  "path": "tests/unit/scripts/test_vcf_to_tsv.py"
+                },
+                {
+                  "path": "tests/unit/test_genbank.py"
+                },
+                {
+                  "path": "tests/unit/test_scheduler.py"
+                },
+                {
+                  "path": "tests/unit/test_validate_fasta.py"
+                },
+                {
+                  "path": "tests/utils/fasta_generator.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 144,
+            "title": "Verbose option",
+            "state": "MERGED",
+            "createdAt": "2025-08-21T07:21:15Z",
+            "mergedAt": "2025-09-23T08:24:24Z",
+            "author": {
+              "login": "MargoRaijmakers"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/logging.py"
+                },
+                {
+                  "path": "ViroConstrictor/parser.py"
+                },
+                {
+                  "path": "ViroConstrictor/runreport.py"
+                },
+                {
+                  "path": "ViroConstrictor/scheduler.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/containers.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/presets.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 143,
+            "title": "Restructure of workflow(s) into separate components",
+            "state": "MERGED",
+            "createdAt": "2025-08-07T17:07:05Z",
+            "mergedAt": "2025-09-22T11:04:58Z",
+            "author": {
+              "login": "florianzwagemaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "ViroConstrictor/__main__.py"
+                },
+                {
+                  "path": "ViroConstrictor/functions.py"
+                },
+                {
+                  "path": "ViroConstrictor/genbank.py"
+                },
+                {
+                  "path": "ViroConstrictor/logging.py"
+                },
+                {
+                  "path": "ViroConstrictor/match_ref.py"
+                },
+                {
+                  "path": "ViroConstrictor/parser.py"
+                },
+                {
+                  "path": "ViroConstrictor/runreport.py"
+                },
+                {
+                  "path": "ViroConstrictor/samplesheet.py"
+                },
+                {
+                  "path": "ViroConstrictor/scheduler.py"
+                },
+                {
+                  "path": "ViroConstrictor/update.py"
+                },
+                {
+                  "path": "ViroConstrictor/userprofile.py"
+                },
+                {
+                  "path": "ViroConstrictor/validatefasta.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/Consensus.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/ORF_analysis.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/core_scripts.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/mr_scripts.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/__init__.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/base_script_class.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/containers.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/directories.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/generic_workflow_methods.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/preset_aliases.json"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/preset_params.json"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/helpers/presets.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/__init__.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/clean.adapter_removal.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/clean.data_filter.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/clean.primer_removal.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/preparation.features.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/preparation.primers.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/preparation.references.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/results.concatenations.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/results.reporting_metrics.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/results.sequences.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/stats.post_clean.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/components/stats.pre_clean.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/configs/multiqc.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/__init__.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/boc.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/clipper.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/concat_amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/extract_gff.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/fastqc.sh"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/filter_bed_input.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/group_aminoacids.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/prepare_refs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/scripts/vcf_to_tsv.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/main/workflow.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/__init__.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/filter.features.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/filter.primers.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/preparation.references.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/selection.alignment.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/components/selection.reference.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/__init__.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/count_mapped_reads.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/filter_bed.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/filter_best_matching_ref.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/filter_gff.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/filter_references.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/scripts/group_refs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref/workflow.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/amplicon_arg_parser.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/boc.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/clipper.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/concat_amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/extract_gff.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/filter_bed_input.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/group_aminoacids.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/count_mapped_reads.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/filter_bed.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/filter_best_matching_ref.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/filter_gff.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/filter_references.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/match_ref/group_refs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/prepare_refs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/vcf_to_tsv.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/workflow.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow_config.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow_executor.py"
+                },
+                {
+                  "path": "build_local_containers.py"
+                },
+                {
+                  "path": "containers/Alignment.dockerfile"
+                },
+                {
+                  "path": "containers/Clean.dockerfile"
+                },
+                {
+                  "path": "containers/Consensus.dockerfile"
+                },
+                {
+                  "path": "containers/ORF_analysis.dockerfile"
+                },
+                {
+                  "path": "containers/build_containers.py"
+                },
+                {
+                  "path": "containers/convert_artifact_containers_for_apptainer.py"
+                },
+                {
+                  "path": "containers/core_scripts.dockerfile"
+                },
+                {
+                  "path": "containers/mr_scripts.dockerfile"
+                },
+                {
+                  "path": "containers/pull_published_containers.py"
+                },
+                {
+                  "path": "containers/tag_and_push_containers.py"
+                },
+                {
+                  "path": "env.yml"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "snakemake_logger_plugin_viroconstrictor/__init__.py"
+                },
+                {
+                  "path": "snakemake_logger_plugin_viroconstrictor/handler.py"
+                },
+                {
+                  "path": "tests/e2e/data/ESIB_EQA_2024_SARS1_01_features.gff"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 142,
+            "title": "IDSBIO612 -  add genbank support",
+            "state": "CLOSED",
+            "createdAt": "2025-07-29T07:41:41Z",
+            "mergedAt": null,
+            "author": {
+              "login": "raaijmag"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "ViroConstrictor/genbank.py"
+                },
+                {
+                  "path": "ViroConstrictor/parser.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/envs/ORF_analysis.yaml"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/scripts/amplicon_covs.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/workflow.smk"
+                },
+                {
+                  "path": "containers/Scripts.dockerfile"
+                },
+                {
+                  "path": "env.yml"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "tests/e2e/data/test_features.gff"
+                },
+                {
+                  "path": "tests/e2e/data/test_primers.bed"
+                },
+                {
+                  "path": "tests/e2e/data/test_reference.fasta"
+                },
+                {
+                  "path": "tests/e2e/data/test_reference.gb"
+                },
+                {
+                  "path": "tests/e2e/data/test_reference.gff"
+                },
+                {
+                  "path": "tests/e2e/data/test_settings.ini"
+                },
+                {
+                  "path": "tests/e2e/test_e2e.py"
+                },
+                {
+                  "path": "tests/unit/data/Influenza A virus"
+                },
+                {
+                  "path": "tests/unit/data/Influenza_A_virus"
+                },
+                {
+                  "path": "tests/unit/data/test_reference.fasta"
+                },
+                {
+                  "path": "tests/unit/data/test_reference.gb"
+                },
+                {
+                  "path": "tests/unit/data/test_reference.gff"
+                },
+                {
+                  "path": "tests/unit/data/test_reference_bad.fasta"
+                },
+                {
+                  "path": "tests/unit/data/test_reference_double.fasta"
+                },
+                {
+                  "path": "tests/unit/data/test_reference_double.gb"
+                },
+                {
+                  "path": "tests/unit/data/test_reference_double.gff"
+                },
+                {
+                  "path": "tests/unit/test_genbank.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 141,
+            "title": "chore: sync main to dev",
+            "state": "MERGED",
+            "createdAt": "2025-07-28T17:20:09Z",
+            "mergedAt": "2025-07-29T10:54:41Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATION.cff"
+                },
+                {
+                  "path": "ViroConstrictor/__init__.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 140,
+            "title": "chore(main): release 1.5.5",
+            "state": "MERGED",
+            "createdAt": "2025-07-28T17:12:24Z",
+            "mergedAt": "2025-07-28T17:19:55Z",
+            "author": {
+              "login": "ids-bioinformatics"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                },
+                {
+                  "path": "CITATION.cff"
+                },
+                {
+                  "path": "ViroConstrictor/__init__.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 139,
+            "title": "hotfix for rulename typo",
+            "state": "MERGED",
+            "createdAt": "2025-07-28T16:56:42Z",
+            "mergedAt": "2025-07-28T17:12:01Z",
+            "author": {
+              "login": "florianzwagemaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/workflow/workflow.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 138,
+            "title": "add correct setting of the dryrun mode and set remote job scheduler queue dynamically based on config",
+            "state": "MERGED",
+            "createdAt": "2025-07-18T12:43:35Z",
+            "mergedAt": "2025-07-25T11:24:49Z",
+            "author": {
+              "login": "florianzwagemaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/logging.py"
+                },
+                {
+                  "path": "ViroConstrictor/parser.py"
+                },
+                {
+                  "path": "ViroConstrictor/scheduler.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow_config.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 137,
+            "title": "feat: IDSBIO-1107 auto detect hpc scheduler",
+            "state": "MERGED",
+            "createdAt": "2025-07-10T11:54:43Z",
+            "mergedAt": "2025-07-14T07:28:56Z",
+            "author": {
+              "login": "raaijmag"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/__main__.py"
+                },
+                {
+                  "path": "ViroConstrictor/match_ref.py"
+                },
+                {
+                  "path": "ViroConstrictor/parser.py"
+                },
+                {
+                  "path": "ViroConstrictor/scheduler.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow_executor.py"
+                },
+                {
+                  "path": "env.yml"
+                },
+                {
+                  "path": "tests/unit/test_scheduler.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 136,
+            "title": "Add support for unidirectional illumina data",
+            "state": "MERGED",
+            "createdAt": "2025-07-09T13:01:30Z",
+            "mergedAt": "2025-07-14T07:31:14Z",
+            "author": {
+              "login": "florianzwagemaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/parser.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/match_ref.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/workflow.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow_config.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 135,
+            "title": "Preset and task parameter injection restructure",
+            "state": "MERGED",
+            "createdAt": "2025-07-04T08:28:44Z",
+            "mergedAt": "2025-07-07T14:15:14Z",
+            "author": {
+              "login": "florianzwagemaker"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "ViroConstrictor/workflow/match_ref.smk"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/preset_aliases.json"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/preset_params.json"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/presets.py"
+                },
+                {
+                  "path": "ViroConstrictor/workflow/workflow.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

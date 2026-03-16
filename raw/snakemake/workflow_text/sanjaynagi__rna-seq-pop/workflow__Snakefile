@@ -1,0 +1,49 @@
+from snakemake.utils import validate
+import datetime
+import pandas as pd
+import numpy as np
+import os
+wkdir = os.getcwd()
+
+container: "docker://continuumio/miniconda3"
+
+configfile: "config/config.yaml"
+configpath = workflow.configfiles[0]
+
+include: "rules/common.smk"
+metadata = load_metadata(config['metadata'])
+validate(metadata, schema="schemas/samples.schema.yaml")
+samples = metadata["sampleID"]
+
+if config['VariantsOfInterest']['activate']:
+    mutationData =  pd.read_csv(config["VariantsOfInterest"]["path"], sep="\t")
+    mutationData["mutID"] = (
+        mutationData["Name"].astype(str).str.strip().str.replace(r"\s+", "_", regex=True)
+        + "__"
+        + mutationData["Location"].astype(str).str.strip().str.replace(r"[^A-Za-z0-9._-]", "_", regex=True)
+    )
+    mutid_dupe_index = mutationData.groupby("mutID").cumcount()
+    mutationData.loc[mutid_dupe_index > 0, "mutID"] = (
+        mutationData.loc[mutid_dupe_index > 0, "mutID"]
+        + "__dup"
+        + (mutid_dupe_index[mutid_dupe_index > 0] + 1).astype(str)
+    )
+    include: "rules/variants-of-interest.smk"
+
+welcome(version="v2.3.0")
+
+include: "rules/qc.smk"
+include: "rules/diffexp.smk"
+include: "rules/utilities.smk"
+include: "rules/hisat2-freebayes.smk"
+include: "rules/snp-eff.smk"
+include: "rules/variant-analysis.smk"
+include: "rules/jupyter-book.smk"
+
+if config['pipeline'] == 'parabricks':
+    include: "rules/star-haplotypecaller.smk"
+
+rule all:
+    input:
+        # The below function (defined in rules/common.smk) will read the config file and determine desired output files
+        rnaseqpop_outputs,

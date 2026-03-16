@@ -1,0 +1,39 @@
+## Rule index for Bisque deconv
+##
+## @zgr2788
+##
+##
+## Description:
+## This file includes the rule to run Bisque with C0 reference.
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+
+rule Bisque_run:
+    input:
+        getPhenData(getC0(getBulks('{sample}'), '{sample}'), '{sample}')
+
+    output:
+        "Output/{sample}_res_Bisque.rds"
+
+    conda:
+        "env.yaml"
+
+    benchmark:
+        "Benchmarks/{sample}_Bisque_benchmark.txt"
+
+    resources:
+        mem_mb=getMB(config['mem_gb']['Bisque'])
+
+    shell:
+        "Rscript Modules/BisqueRNA/Bisque_run.R {input} {output}"

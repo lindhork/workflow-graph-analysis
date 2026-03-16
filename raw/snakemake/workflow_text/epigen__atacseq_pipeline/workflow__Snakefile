@@ -1,0 +1,73 @@
+
+##### global workflow dependencies #####
+# conda: "envs/global.yaml"
+
+# libraries
+import yaml
+import pandas as pd
+import os
+import shutil
+from snakemake.utils import validate, min_version
+from string import Template
+
+module_name = "atacseq_pipeline"
+
+##### set minimum snakemake version #####
+min_version("8.20.1")
+
+##### setup report #####
+report: os.path.join("report", "workflow.rst")
+    
+# list of names of the used environment specifications in workflow/envs/{env_name}.yaml
+envs = ["bowtie2","macs2_homer","multiqc","pybedtools","uropa","datamash","ggplot"]
+
+##### load config and sample annotation sheets #####
+configfile: os.path.join("config","config.yaml")
+
+# load sample/unit annotation
+annot = pd.read_csv(config["annotation"], index_col="sample_name")
+samples_quantify = annot[annot['pass_qc'] > 0].index.unique().tolist()
+
+# convert annot into dictionary for parametrization of rules, by deduplicating by sample_name (should only differ by bam_file)
+samples = annot.reset_index().drop_duplicates(subset='sample_name', keep='first').set_index("sample_name").to_dict(orient="index")
+
+##### set global variables
+result_path = os.path.join(config["result_path"], module_name)
+HOMER_path = os.path.abspath(os.path.join("resources", config["project_name"], "HOMER"))
+
+# to deal with rule ambiguity concerning final outputs in counts/
+ruleorder: sample_annotation > quantify_aggregate
+
+##### target rules #####
+rule all:
+    input:
+        # PROCESSING
+        multiqc_report = os.path.join(result_path,"report","multiqc_report.html"),
+        # QUANTIFICATION
+        sample_annotation = os.path.join(result_path, "counts", "sample_annotation.csv") if len(samples_quantify)>0 else [],
+        sample_annotation_plot = os.path.join(result_path, "report", "sample_annotation.png") if len(samples_quantify)>0 else [],
+        support_counts = os.path.join(result_path,"counts","support_counts.csv") if len(samples_quantify)>0 else [],
+        consensus_counts = os.path.join(result_path,"counts","consensus_counts.csv") if len(samples_quantify)>0 else [],
+        promoter_counts = os.path.join(result_path,"counts","promoter_counts.csv") if len(samples_quantify)>0 else [],
+        tss_counts = os.path.join(result_path,"counts","TSS_counts.csv") if len(samples_quantify)>0 else [],
+        HOMER_knownMotifs = os.path.join(result_path,"counts","HOMER_knownMotifs.csv") if len(samples_quantify)>0 else [],
+        # ANNOTATION
+        consensus_annotation = os.path.join(result_path,'counts',"consensus_annotation.csv") if len(samples_quantify)>0 else [],
+        # EXPORT environments and configurations
+        envs = expand(os.path.join(result_path,'envs','{env}.yaml'),env=envs),
+        configs = os.path.join(result_path,'configs','{}_config.yaml'.format(config["project_name"])),
+        annotations = os.path.join(result_path,'configs','{}_annot.csv'.format(config["project_name"])),
+    resources:
+        mem_mb=config.get("mem", "8000"),
+    threads: config.get("threads", 1)
+    log:
+        os.path.join("logs","rules","all.log")
+
+##### load rules #####
+include: os.path.join("rules", "export.smk")
+include: os.path.join("rules", "common.smk")
+include: os.path.join("rules", "resources.smk")
+include: os.path.join("rules", "processing.smk")
+include: os.path.join("rules", "report.smk")
+include: os.path.join("rules", "quantification.smk")
+include: os.path.join("rules", "region_annotation.smk")

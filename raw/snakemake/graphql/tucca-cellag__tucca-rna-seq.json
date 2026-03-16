@@ -1,0 +1,1303 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 22,
+            "title": "feat(ci): run CI tests on Tufts HPC via SSH + SLURM",
+            "state": "CLOSED",
+            "createdAt": "2026-03-02T23:18:04Z",
+            "closedAt": "2026-03-03T20:19:58Z",
+            "author": {
+              "login": "benjibromberg"
+            }
+          },
+          {
+            "number": 17,
+            "title": "Enhancement: Add Support for Additional Pseudoalignment Tools (Kallisto, RSEM)",
+            "state": "CLOSED",
+            "createdAt": "2025-10-01T16:06:04Z",
+            "closedAt": "2026-03-09T18:38:33Z",
+            "author": {
+              "login": "benjibromberg"
+            }
+          },
+          {
+            "number": 16,
+            "title": "Enhancement: Add Support for Additional Differential Expression Methods",
+            "state": "OPEN",
+            "createdAt": "2025-10-01T16:03:38Z",
+            "closedAt": null,
+            "author": {
+              "login": "benjibromberg"
+            }
+          },
+          {
+            "number": 15,
+            "title": "Enhancement: Expand Topology-Based Pathway Enrichment Analysis Methods",
+            "state": "OPEN",
+            "createdAt": "2025-10-01T15:58:20Z",
+            "closedAt": null,
+            "author": {
+              "login": "benjibromberg"
+            }
+          },
+          {
+            "number": 14,
+            "title": "Enhancement: AI-Powered Analysis Integration",
+            "state": "OPEN",
+            "createdAt": "2025-10-01T15:31:39Z",
+            "closedAt": null,
+            "author": {
+              "login": "benjibromberg"
+            }
+          },
+          {
+            "number": 13,
+            "title": "Enhancement: Google Cloud/Batch and Colab Integration",
+            "state": "OPEN",
+            "createdAt": "2025-10-01T15:25:52Z",
+            "closedAt": null,
+            "author": {
+              "login": "benjibromberg"
+            }
+          },
+          {
+            "number": 11,
+            "title": "tximeta fails in GitHub Actions during ad-hoc containerization (via Singularity or Apptainer) due to cache/config write permissions",
+            "state": "CLOSED",
+            "createdAt": "2025-05-23T08:11:59Z",
+            "closedAt": "2025-05-23T18:18:53Z",
+            "author": {
+              "login": "benjibromberg"
+            }
+          },
+          {
+            "number": 10,
+            "title": "Add validation for sample_name consistency between samples.tsv and units.tsv",
+            "state": "CLOSED",
+            "createdAt": "2025-05-20T21:28:34Z",
+            "closedAt": "2025-05-21T18:22:19Z",
+            "author": {
+              "login": "coderabbitai"
+            }
+          },
+          {
+            "number": 9,
+            "title": "Refactor: Replace hard-coded API key with environment variable in test script",
+            "state": "CLOSED",
+            "createdAt": "2025-05-20T20:00:02Z",
+            "closedAt": "2025-11-26T00:04:41Z",
+            "author": {
+              "login": "coderabbitai"
+            }
+          },
+          {
+            "number": 8,
+            "title": "Create comprehensive CONTRIBUTING.md guidelines",
+            "state": "CLOSED",
+            "createdAt": "2025-05-20T19:59:41Z",
+            "closedAt": "2026-03-02T22:57:37Z",
+            "author": {
+              "login": "coderabbitai"
+            }
+          },
+          {
+            "number": 7,
+            "title": "Add content to CODE_OF_CONDUCT.md placeholder",
+            "state": "CLOSED",
+            "createdAt": "2025-05-20T19:59:40Z",
+            "closedAt": "2026-03-02T23:24:04Z",
+            "author": {
+              "login": "coderabbitai"
+            }
+          },
+          {
+            "number": 6,
+            "title": "Populate citations in CITATIONS.md",
+            "state": "CLOSED",
+            "createdAt": "2025-05-20T19:59:30Z",
+            "closedAt": "2026-03-02T22:50:37Z",
+            "author": {
+              "login": "coderabbitai"
+            }
+          },
+          {
+            "number": 5,
+            "title": "Add support for single-end reads processing",
+            "state": "CLOSED",
+            "createdAt": "2025-05-20T19:09:30Z",
+            "closedAt": "2026-03-09T18:38:27Z",
+            "author": {
+              "login": "coderabbitai"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 24,
+            "title": "chore(main): release 1.1.0",
+            "state": "OPEN",
+            "createdAt": "2026-03-09T18:37:32Z",
+            "mergedAt": null,
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 23,
+            "title": "refactor(ci): optimize CI layout and add weekly schedules",
+            "state": "MERGED",
+            "createdAt": "2026-03-03T10:55:26Z",
+            "mergedAt": "2026-03-03T22:00:22Z",
+            "author": {
+              "login": "benjibromberg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/auto-rerun.yml"
+                },
+                {
+                  "path": ".github/workflows/compatibility-tests.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/main.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 22
+                }
+              ]
+            }
+          },
+          {
+            "number": 21,
+            "title": "chore(main): release 1.0.1",
+            "state": "MERGED",
+            "createdAt": "2025-11-26T19:34:11Z",
+            "mergedAt": "2026-03-02T22:11:32Z",
+            "author": {
+              "login": "github-actions"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CHANGELOG.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 9
+                }
+              ]
+            }
+          },
+          {
+            "number": 20,
+            "title": "refactor: Migrate API Keys to .env File",
+            "state": "MERGED",
+            "createdAt": "2025-11-25T09:22:49Z",
+            "mergedAt": "2025-11-26T00:04:40Z",
+            "author": {
+              "login": "benjibromberg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".env.template"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".test/tufts_hpc_tests.sh"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 9
+                }
+              ]
+            }
+          },
+          {
+            "number": 19,
+            "title": "feat(checksum): support Novogene MD5.txt format",
+            "state": "MERGED",
+            "createdAt": "2025-11-25T07:03:32Z",
+            "mergedAt": "2026-03-09T18:37:11Z",
+            "author": {
+              "login": "benjibromberg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/MD5.txt"
+                },
+                {
+                  "path": "workflow/rules/checksum.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 18,
+            "title": "feat: Interactive Visualization Toolkit",
+            "state": "MERGED",
+            "createdAt": "2025-10-01T16:16:41Z",
+            "mergedAt": "2025-10-02T07:17:32Z",
+            "author": {
+              "login": "benjibromberg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".Rprofile"
+                },
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/etoh60_1_1.fq.md5"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/etoh60_1_2.fq.md5"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/etoh60_2_1.fq.md5"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/etoh60_2_2.fq.md5"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/etoh60_3_1.fq.md5"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/etoh60_3_2.fq.md5"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/ref1_1.fq.md5"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/ref1_2.fq.md5"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/ref2_1.fq.md5"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/ref2_2.fq.md5"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/ref3_1.fq.md5"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/ref3_2.fq.md5"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/temp33_1_1.fq.md5"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/temp33_1_2.fq.md5"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/temp33_2_1.fq.md5"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/temp33_2_2.fq.md5"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/temp33_3_1.fq.md5"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/temp33_3_2.fq.md5"
+                },
+                {
+                  "path": ".test/local_reads/ensembl/config_basic/config.yaml"
+                },
+                {
+                  "path": ".test/local_reads/ensembl/config_complex/config.yaml"
+                },
+                {
+                  "path": ".test/local_reads/ensembl/config_gmt_test/config.yaml"
+                },
+                {
+                  "path": ".test/local_reads/ensembl/config_gmt_test/samples.tsv"
+                },
+                {
+                  "path": ".test/local_reads/ensembl/config_gmt_test/test_yeast_genesets.gmt"
+                },
+                {
+                  "path": ".test/local_reads/ensembl/config_gmt_test/units.tsv"
+                },
+                {
+                  "path": ".test/sra_reads/config/config.yaml"
+                },
+                {
+                  "path": ".test/sra_reads/config_mouse/GeneTonic_playground_mouse.Rmd"
+                },
+                {
+                  "path": ".test/sra_reads/config_mouse/config.yaml"
+                },
+                {
+                  "path": ".test/sra_reads/config_mouse/ideal_playground_mouse.Rmd"
+                },
+                {
+                  "path": ".test/sra_reads/config_mouse/meta/10.1038_s41598-024-61458-9-citation.ris"
+                },
+                {
+                  "path": ".test/sra_reads/config_mouse/meta/SraRunTable.csv"
+                },
+                {
+                  "path": ".test/sra_reads/config_mouse/pcaExplorer_playground_mouse.Rmd"
+                },
+                {
+                  "path": ".test/sra_reads/config_mouse/samples.tsv"
+                },
+                {
+                  "path": ".test/sra_reads/config_mouse/units.tsv"
+                },
+                {
+                  "path": ".test/sra_reads/config_yeast/config.yaml"
+                },
+                {
+                  "path": ".test/sra_reads/config_yeast/meta/SraRunTable.csv"
+                },
+                {
+                  "path": ".test/sra_reads/config_yeast/samples.tsv"
+                },
+                {
+                  "path": ".test/sra_reads/config_yeast/units.tsv"
+                },
+                {
+                  "path": ".test/tufts_hpc_tests.sh"
+                },
+                {
+                  "path": "CITATION.cff"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "analysis/GeneTonic_playground.Rmd"
+                },
+                {
+                  "path": "analysis/css/doc.css"
+                },
+                {
+                  "path": "analysis/grateful-refs.bib"
+                },
+                {
+                  "path": "analysis/ideal_playground.Rmd"
+                },
+                {
+                  "path": "analysis/nature.csl"
+                },
+                {
+                  "path": "analysis/pcaExplorer_playground.Rmd"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/samples.tsv"
+                },
+                {
+                  "path": "config/units.tsv"
+                },
+                {
+                  "path": "images/tucca-rna-seq-workflow-no-logo.png"
+                },
+                {
+                  "path": "images/tucca-rna-seq-workflow.png"
+                },
+                {
+                  "path": "profiles/github-actions-singularity/config.v8+.yaml"
+                },
+                {
+                  "path": "profiles/github-actions/config.v8+.yaml"
+                },
+                {
+                  "path": "profiles/slurm-dev/config.v8+.yaml"
+                },
+                {
+                  "path": "profiles/slurm/config.v8+.yaml"
+                },
+                {
+                  "path": "renv.lock"
+                },
+                {
+                  "path": "renv/.gitignore"
+                },
+                {
+                  "path": "renv/activate.R"
+                },
+                {
+                  "path": "renv/settings.json"
+                },
+                {
+                  "path": "resources/gmt/README.md"
+                },
+                {
+                  "path": "resources/gmt/muscle_genesets.gmt"
+                },
+                {
+                  "path": "resources/harmonizome/README.md"
+                },
+                {
+                  "path": "tucca-rna-seq.Rproj"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/annotationforge.yaml"
+                },
+                {
+                  "path": "workflow/envs/ncbi_datasets.yaml"
+                },
+                {
+                  "path": "workflow/envs/r_env.yaml"
+                },
+                {
+                  "path": "workflow/envs/tximeta.yaml"
+                },
+                {
+                  "path": "workflow/rules/checksum.smk"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/deseq2.smk"
+                },
+                {
+                  "path": "workflow/rules/enrichment.smk"
+                },
+                {
+                  "path": "workflow/rules/fastqc.smk"
+                },
+                {
+                  "path": "workflow/rules/genome_download.smk"
+                },
+                {
+                  "path": "workflow/rules/make_linked_txome.smk"
+                },
+                {
+                  "path": "workflow/rules/qualimap.smk"
+                },
+                {
+                  "path": "workflow/rules/salmon.smk"
+                },
+                {
+                  "path": "workflow/rules/sra_tools.smk"
+                },
+                {
+                  "path": "workflow/rules/star.smk"
+                },
+                {
+                  "path": "workflow/rules/star_index.smk"
+                },
+                {
+                  "path": "workflow/rules/tximeta.smk"
+                },
+                {
+                  "path": "workflow/schemas/config.schema.yaml"
+                },
+                {
+                  "path": "workflow/scripts/build_local_orgdb.R"
+                },
+                {
+                  "path": "workflow/scripts/deseqtransform.R"
+                },
+                {
+                  "path": "workflow/scripts/enrichment_utils.R"
+                },
+                {
+                  "path": "workflow/scripts/harmonizome_utils.R"
+                },
+                {
+                  "path": "workflow/scripts/install_orgdb.R"
+                },
+                {
+                  "path": "workflow/scripts/make_linked_txome.R"
+                },
+                {
+                  "path": "workflow/scripts/make_spia_data.R"
+                },
+                {
+                  "path": "workflow/scripts/preload_msigdb.R"
+                },
+                {
+                  "path": "workflow/scripts/run_gsea.R"
+                },
+                {
+                  "path": "workflow/scripts/run_ora.R"
+                },
+                {
+                  "path": "workflow/scripts/run_spia.R"
+                },
+                {
+                  "path": "workflow/scripts/snapshot_config.py"
+                },
+                {
+                  "path": "workflow/scripts/tximeta.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 12,
+            "title": "feat: Configure MultiQC rule to use Snakemake wrapper",
+            "state": "MERGED",
+            "createdAt": "2025-05-29T13:52:00Z",
+            "mergedAt": "2025-05-29T15:14:52Z",
+            "author": {
+              "login": "benjibromberg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "workflow/envs/multiqc.yaml"
+                },
+                {
+                  "path": "workflow/report/workflow.rst"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/multiqc.smk"
+                },
+                {
+                  "path": "workflow/schemas/config.schema.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4,
+            "title": "feat: Add DESeq2 & Tximeta, restructure tests, and update configs",
+            "state": "MERGED",
+            "createdAt": "2025-05-20T17:27:27Z",
+            "mergedAt": "2025-05-23T19:26:43Z",
+            "author": {
+              "login": "benjibromberg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".editorconfig"
+                },
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".gitmodules"
+                },
+                {
+                  "path": ".test/data/ngs-test-data"
+                },
+                {
+                  "path": ".test/data/snakemake_data/COPYING.md"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/etoh60_1_1.fq"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/etoh60_1_2.fq"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/etoh60_2_1.fq"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/etoh60_2_2.fq"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/etoh60_3_1.fq"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/etoh60_3_2.fq"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/ref1_1.fq"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/ref1_2.fq"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/ref2_1.fq"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/ref2_2.fq"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/ref3_1.fq"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/ref3_2.fq"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/temp33_1_1.fq"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/temp33_1_2.fq"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/temp33_2_1.fq"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/temp33_2_2.fq"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/temp33_3_1.fq"
+                },
+                {
+                  "path": ".test/data/snakemake_data/yeast/reads/temp33_3_2.fq"
+                },
+                {
+                  "path": ".test/local_reads/ensembl/config_basic/config.yaml"
+                },
+                {
+                  "path": ".test/local_reads/ensembl/config_basic/samples.tsv"
+                },
+                {
+                  "path": ".test/local_reads/ensembl/config_basic/units.tsv"
+                },
+                {
+                  "path": ".test/local_reads/ensembl/config_complex/config.yaml"
+                },
+                {
+                  "path": ".test/local_reads/ensembl/config_complex/samples.tsv"
+                },
+                {
+                  "path": ".test/local_reads/ensembl/config_complex/units.tsv"
+                },
+                {
+                  "path": ".test/local_reads/refseq/config_basic/config.yaml"
+                },
+                {
+                  "path": ".test/local_reads/refseq/config_basic/samples.tsv"
+                },
+                {
+                  "path": ".test/local_reads/refseq/config_basic/units.tsv"
+                },
+                {
+                  "path": ".test/local_reads/refseq/config_complex/config.yaml"
+                },
+                {
+                  "path": ".test/local_reads/refseq/config_complex/samples.tsv"
+                },
+                {
+                  "path": ".test/local_reads/refseq/config_complex/units.tsv"
+                },
+                {
+                  "path": ".test/ngs-test-data"
+                },
+                {
+                  "path": ".test/singularity/local_reads_ensembl/config/units.tsv"
+                },
+                {
+                  "path": ".test/singularity/local_reads_refseq/config/units.tsv"
+                },
+                {
+                  "path": ".test/slurm-hpc-testing/run_snakemake_tests.sh"
+                },
+                {
+                  "path": ".test/sra_reads/config/config.yaml"
+                },
+                {
+                  "path": ".test/sra_reads/config/samples.tsv"
+                },
+                {
+                  "path": ".test/sra_reads/config/units.tsv"
+                },
+                {
+                  "path": ".test/tufts_hpc_tests.sh"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "CODE_OF_CONDUCT.md"
+                },
+                {
+                  "path": "CONTRIBUTING.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "images/tucca-rna-seq-logo-white.png"
+                },
+                {
+                  "path": "images/tucca-rna-seq-logo.png"
+                },
+                {
+                  "path": "images/tucca-rna-seq-workflow-no-logo.png"
+                },
+                {
+                  "path": "images/tucca-rna-seq-workflow.png"
+                },
+                {
+                  "path": "profiles/github-actions/config.v8+.yaml"
+                },
+                {
+                  "path": "profiles/slurm-dev/config.v8+.yaml"
+                },
+                {
+                  "path": "profiles/slurm/config.v8+.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/salmon.yaml"
+                },
+                {
+                  "path": "workflow/envs/star.yaml"
+                },
+                {
+                  "path": "workflow/envs/tximeta.yaml"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/deseq2.smk"
+                },
+                {
+                  "path": "workflow/rules/fastqc.smk"
+                },
+                {
+                  "path": "workflow/rules/genome_download.smk"
+                },
+                {
+                  "path": "workflow/rules/make_linked_txome.smk"
+                },
+                {
+                  "path": "workflow/rules/qualimap.smk"
+                },
+                {
+                  "path": "workflow/rules/salmon.smk"
+                },
+                {
+                  "path": "workflow/rules/snapshot_config.smk"
+                },
+                {
+                  "path": "workflow/rules/sra_tools.smk"
+                },
+                {
+                  "path": "workflow/rules/star.smk"
+                },
+                {
+                  "path": "workflow/rules/star_index.smk"
+                },
+                {
+                  "path": "workflow/rules/tximeta.smk"
+                },
+                {
+                  "path": "workflow/rules/tximport.smk"
+                },
+                {
+                  "path": "workflow/schemas/config.schema.yaml"
+                },
+                {
+                  "path": "workflow/schemas/units.schema.yaml"
+                },
+                {
+                  "path": "workflow/scripts/make_linked_txome.R"
+                },
+                {
+                  "path": "workflow/scripts/tximeta.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3,
+            "title": "feat: Ensembl/GENCODE integration",
+            "state": "MERGED",
+            "createdAt": "2025-04-15T15:34:45Z",
+            "mergedAt": "2025-04-15T15:37:07Z",
+            "author": {
+              "login": "benjibromberg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".Rprofile"
+                },
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".snakemake-workflow-catalog.yml"
+                },
+                {
+                  "path": ".test/singularity/local_reads/config/config.yaml"
+                },
+                {
+                  "path": ".test/singularity/local_reads_ensembl/config/config.yaml"
+                },
+                {
+                  "path": ".test/singularity/local_reads_ensembl/config/samples.tsv"
+                },
+                {
+                  "path": ".test/singularity/local_reads_ensembl/config/units.tsv"
+                },
+                {
+                  "path": ".test/singularity/local_reads_refseq/config/config.yaml"
+                },
+                {
+                  "path": ".test/singularity/local_reads_refseq/config/samples.tsv"
+                },
+                {
+                  "path": ".test/singularity/local_reads_refseq/config/units.tsv"
+                },
+                {
+                  "path": ".test/singularity/sra_reads/config/config.yaml"
+                },
+                {
+                  "path": ".test/slurm-hpc-testing/run_snakemake_tests.sh"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "profiles/github-actions/config.v8+.yaml"
+                },
+                {
+                  "path": "profiles/slurm-dev/config.v8+.yaml"
+                },
+                {
+                  "path": "profiles/slurm/config.v8+.yaml"
+                },
+                {
+                  "path": "renv.lock"
+                },
+                {
+                  "path": "renv/.gitignore"
+                },
+                {
+                  "path": "renv/activate.R"
+                },
+                {
+                  "path": "renv/settings.json"
+                },
+                {
+                  "path": "tucca-rna-seq.Rproj"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/fastqc.yaml"
+                },
+                {
+                  "path": "workflow/envs/multiqc.yaml"
+                },
+                {
+                  "path": "workflow/envs/ncbi_datasets.yaml"
+                },
+                {
+                  "path": "workflow/envs/p7zip.yaml"
+                },
+                {
+                  "path": "workflow/envs/qualimap.yaml"
+                },
+                {
+                  "path": "workflow/envs/salmon.yaml"
+                },
+                {
+                  "path": "workflow/envs/sra_tools.yaml"
+                },
+                {
+                  "path": "workflow/envs/star.yaml"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/datasets_download_genome.smk"
+                },
+                {
+                  "path": "workflow/rules/dummy_singularity_image.smk"
+                },
+                {
+                  "path": "workflow/rules/fastqc.smk"
+                },
+                {
+                  "path": "workflow/rules/genome_download.smk"
+                },
+                {
+                  "path": "workflow/rules/multiqc.smk"
+                },
+                {
+                  "path": "workflow/rules/qualimap.smk"
+                },
+                {
+                  "path": "workflow/rules/salmon.smk"
+                },
+                {
+                  "path": "workflow/rules/salmon_decoys.smk"
+                },
+                {
+                  "path": "workflow/rules/salmon_index.smk"
+                },
+                {
+                  "path": "workflow/rules/salmon_quant.smk"
+                },
+                {
+                  "path": "workflow/rules/snapshot_config.smk"
+                },
+                {
+                  "path": "workflow/rules/sra_tools.smk"
+                },
+                {
+                  "path": "workflow/rules/star.smk"
+                },
+                {
+                  "path": "workflow/rules/star_index.smk"
+                },
+                {
+                  "path": "workflow/rules/tximport.smk"
+                },
+                {
+                  "path": "workflow/schemas/config.schema.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2,
+            "title": "test: GitHub Actions workflow rework",
+            "state": "MERGED",
+            "createdAt": "2025-03-29T08:05:12Z",
+            "mergedAt": "2025-03-29T08:30:21Z",
+            "author": {
+              "login": "benjibromberg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".snakemake-workflow-catalog.yml"
+                },
+                {
+                  "path": ".test/singularity/local_reads/config/README.md"
+                },
+                {
+                  "path": ".test/singularity/local_reads/config/config.yaml"
+                },
+                {
+                  "path": ".test/singularity/local_reads/config/multiqc_config.yaml"
+                },
+                {
+                  "path": ".test/singularity/local_reads/config/samples.tsv"
+                },
+                {
+                  "path": ".test/singularity/local_reads/config/units.tsv"
+                },
+                {
+                  "path": ".test/singularity/sra_reads/config/README.md"
+                },
+                {
+                  "path": ".test/singularity/sra_reads/config/config.yaml"
+                },
+                {
+                  "path": ".test/singularity/sra_reads/config/multiqc_config.yaml"
+                },
+                {
+                  "path": ".test/singularity/sra_reads/config/samples.tsv"
+                },
+                {
+                  "path": ".test/singularity/sra_reads/config/units.tsv"
+                },
+                {
+                  "path": ".test/slurm-hpc-testing/run_snakemake_tests.sh"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "config/README.md"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "config/multiqc_config.yaml"
+                },
+                {
+                  "path": "config/units.tsv"
+                },
+                {
+                  "path": "profiles/github-actions/config.v8+.yaml"
+                },
+                {
+                  "path": "profiles/slurm-dev/config.v8+.yaml"
+                },
+                {
+                  "path": "profiles/slurm/config.v8+.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/datasets_download_genome.smk"
+                },
+                {
+                  "path": "workflow/rules/dummy_singularity_image.smk"
+                },
+                {
+                  "path": "workflow/rules/multiqc.smk"
+                },
+                {
+                  "path": "workflow/rules/qualimap.smk"
+                },
+                {
+                  "path": "workflow/rules/salmon_decoys.smk"
+                },
+                {
+                  "path": "workflow/rules/snapshot_config.smk"
+                },
+                {
+                  "path": "workflow/rules/sra_tools.smk"
+                },
+                {
+                  "path": "workflow/rules/star.smk"
+                },
+                {
+                  "path": "workflow/rules/star_index.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1,
+            "title": "Add Automated Tests and Containerize Workflow with Singularity",
+            "state": "MERGED",
+            "createdAt": "2025-03-21T16:45:39Z",
+            "mergedAt": "2025-03-21T16:49:39Z",
+            "author": {
+              "login": "benjibromberg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/main.yml"
+                },
+                {
+                  "path": ".snakemake-workflow-catalog.yml"
+                },
+                {
+                  "path": ".test/singularity/local_reads/config/README.md"
+                },
+                {
+                  "path": ".test/singularity/local_reads/config/config.yaml"
+                },
+                {
+                  "path": ".test/singularity/local_reads/config/multiqc_config.yaml"
+                },
+                {
+                  "path": ".test/singularity/local_reads/config/samples.tsv"
+                },
+                {
+                  "path": ".test/singularity/local_reads/config/units.tsv"
+                },
+                {
+                  "path": ".test/singularity/sra_reads/config/README.md"
+                },
+                {
+                  "path": ".test/singularity/sra_reads/config/config.yaml"
+                },
+                {
+                  "path": ".test/singularity/sra_reads/config/multiqc_config.yaml"
+                },
+                {
+                  "path": ".test/singularity/sra_reads/config/samples.tsv"
+                },
+                {
+                  "path": ".test/singularity/sra_reads/config/units.tsv"
+                },
+                {
+                  "path": "config/config.yaml"
+                },
+                {
+                  "path": "install/1.0.0.yaml"
+                },
+                {
+                  "path": "install/dev-1.0.0.yaml"
+                },
+                {
+                  "path": "launch.sh"
+                },
+                {
+                  "path": "profiles/github-actions/config.v8+.yaml"
+                },
+                {
+                  "path": "profiles/slurm-dev/config.v8+.yaml"
+                },
+                {
+                  "path": "profiles/slurm/config.v8+.yaml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/envs/fastqc.yaml"
+                },
+                {
+                  "path": "workflow/envs/gffread.yaml"
+                },
+                {
+                  "path": "workflow/envs/multiqc.yaml"
+                },
+                {
+                  "path": "workflow/envs/ncbi_datasets_cli.yaml"
+                },
+                {
+                  "path": "workflow/envs/qualimap.yaml"
+                },
+                {
+                  "path": "workflow/envs/salmon.yaml"
+                },
+                {
+                  "path": "workflow/envs/sra_tools.yaml"
+                },
+                {
+                  "path": "workflow/envs/star.yaml"
+                },
+                {
+                  "path": "workflow/rules/common.smk"
+                },
+                {
+                  "path": "workflow/rules/datasets_download_genome.smk"
+                },
+                {
+                  "path": "workflow/rules/dummy_singularity_image.smk"
+                },
+                {
+                  "path": "workflow/rules/fastqc.smk"
+                },
+                {
+                  "path": "workflow/rules/gffread.smk"
+                },
+                {
+                  "path": "workflow/rules/multiqc.smk"
+                },
+                {
+                  "path": "workflow/rules/qualimap.smk"
+                },
+                {
+                  "path": "workflow/rules/salmon_decoys.smk"
+                },
+                {
+                  "path": "workflow/rules/salmon_index.smk"
+                },
+                {
+                  "path": "workflow/rules/salmon_quant.smk"
+                },
+                {
+                  "path": "workflow/rules/snapshot_config.smk"
+                },
+                {
+                  "path": "workflow/rules/sra_tools.smk"
+                },
+                {
+                  "path": "workflow/rules/star.smk"
+                },
+                {
+                  "path": "workflow/rules/star_index.smk"
+                },
+                {
+                  "path": "workflow/scripts/snapshot_config.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

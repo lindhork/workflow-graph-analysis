@@ -1,0 +1,85 @@
+## Psuedobulk generation module for the deconvolution benchmarking pipeline
+##
+## @zgr2788
+##
+##
+## Description:
+##
+## Takes a SeuratObject as input ('{input}_gen.rds' as part of pipeline) and
+## generates pseudobulks with the given parameters. If reproducability is
+## desired, the seeded version of the rule should be used, which is essentially
+## the same code with a seed of '42'.
+##
+##
+##
+##
+##
+##
+##
+##
+##
+
+rule generatePseudobulks:
+    input:
+        'Input/Cell_splits/{sample}_gen.rds'
+
+    output:
+        'Input/Pseudobulks/{sample}_pbulks.rds',
+        'Input/Pseudobulks/{sample}_props.rds'
+
+    params:
+        mode = config['pbulkParam']['pbulkMode'],
+        cellCount = config['pbulkParam']['cellCount'],
+        nSamples = config['pbulkParam']['nSamples'],
+        propVar = config['pbulkParam']['propVar'],
+        sampleCT = config['pbulkParam']['sampleCT']
+
+    conda:
+        "env.yaml"
+
+    threads: config['cores']['pbulks']
+
+    benchmark:
+        "Benchmarks/{sample}_Pbulks_benchmark.txt"
+
+    resources:
+        mem_mb=getMB(config['mem_gb']['pbulks'])
+
+    shell:
+        """
+        mkdir -p Input/Pseudobulks
+        Rscript Modules/Psuedobulk/randomGen.R Input/Cell_splits/{wildcards.sample}_gen.rds {params} {threads}
+        """
+
+
+rule generateSeededPseudobulks:
+    input:
+        'Input/Cell_splits/{sample}_gen_seeded.rds'
+
+    output:
+        'Input/Pseudobulks/{sample}_pbulks_seeded.rds',
+        'Input/Pseudobulks/{sample}_props_seeded.rds'
+
+    params:
+        mode = config['pbulkParam']['pbulkMode'],
+        cellCount = config['pbulkParam']['cellCount'],
+        nSamples = config['pbulkParam']['nSamples'],
+        propVar = config['pbulkParam']['propVar'],
+        sampleCT = config['pbulkParam']['sampleCT']
+
+    conda:
+        "env.yaml"
+
+    threads: config['cores']['pbulks']
+
+    benchmark:
+        "Benchmarks/{sample}_Pbulks_benchmark.txt"
+
+    resources:
+        mem_mb=getMB(config['mem_gb']['pbulks'])
+
+    shell:
+        """
+        mkdir -p Input/Pseudobulks
+        Rscript Modules/Psuedobulk/randomGen_seeded.R Input/Cell_splits/{wildcards.sample}_gen_seeded.rds {params} {threads}
+        """

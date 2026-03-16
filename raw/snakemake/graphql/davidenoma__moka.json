@@ -1,0 +1,119 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": []
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 4,
+            "title": "Add HPC user-space Micromamba setup guide and Snakemake wrapper scripts",
+            "state": "MERGED",
+            "createdAt": "2025-10-08T22:33:23Z",
+            "mergedAt": "2025-10-08T22:35:09Z",
+            "author": {
+              "login": "1234-Ariel-code"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/README_Snakemake_ARC.md"
+                },
+                {
+                  "path": "examples/cluster_support/run_smk.sbatch"
+                },
+                {
+                  "path": "examples/cluster_support/run_smk.sh"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3,
+            "title": "Docker config",
+            "state": "MERGED",
+            "createdAt": "2025-09-23T00:52:03Z",
+            "mergedAt": "2025-09-23T00:52:12Z",
+            "author": {
+              "login": "davidenoma"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".idea/copilot.data.migration.agent.xml"
+                },
+                {
+                  "path": ".idea/copilot.data.migration.ask.xml"
+                },
+                {
+                  "path": ".idea/copilot.data.migration.ask2agent.xml"
+                },
+                {
+                  "path": ".idea/copilot.data.migration.edit.xml"
+                },
+                {
+                  "path": "Dockerfile"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2,
+            "title": "Merge pull request #1 from davidenoma/main",
+            "state": "MERGED",
+            "createdAt": "2025-09-22T18:12:54Z",
+            "mergedAt": "2025-09-22T18:13:00Z",
+            "author": {
+              "login": "davidenoma"
+            },
+            "files": {
+              "nodes": []
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1,
+            "title": "update to the snakemake rules for manhattan_plots.R",
+            "state": "MERGED",
+            "createdAt": "2025-09-22T18:04:45Z",
+            "mergedAt": "2025-09-22T18:05:06Z",
+            "author": {
+              "login": "davidenoma"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".dockerignore"
+                },
+                {
+                  "path": "docker_environment.yml"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+shell.executable("bash")
+
+rule all:
+    input:
+        "aggregated/a.txt",
+        "aggregated/b.txt"
+
+
+# create three txt files 1.txt to 3.txt containing
+# the numbers 1, 2, and 3 respectively.
+checkpoint clustering:
+    input:
+        "samples/{sample}.txt"
+    output:
+        clusters=directory("clustering/{sample}")
+    shell:
+        "mkdir clustering/{wildcards.sample}; "
+        "for i in 1 2 3; do echo $i > clustering/{wildcards.sample}/$i.txt; done"
+
+
+rule intermediate:
+    input:
+        "clustering/{sample}/{i}.txt"
+    output:
+        "post/{sample}/{i}.txt"
+    shell:
+        "cp {input} {output}"
+
+
+# input function collecting all txt files (all i's)
+# for a given sample. E.g. for sample b:
+# ['post/b/1.txt', 'post/b/3.txt', 'post/b/2.txt']
+# To avoid different order based on different architectures,
+# this input file list is sorted. For details see
+# https://github.com/snakemake/snakemake/pull/826#issue-550400376
+def aggregate_input(wildcards):
+    return sorted(
+        expand(
+            "post/{sample}/{i}.txt",
+            sample=wildcards.sample,
+            i=glob_wildcards(
+                os.path.join(
+                    checkpoints.clustering.get(**wildcards).output[0], "{i}.txt"
+                )
+            ).i,
+        )
+    )
+
+
+rule aggregate:
+    input:
+        aggregate_input
+    output:
+        "aggregated/{sample}.txt"
+    shell:
+        "cat {input} > {output}"

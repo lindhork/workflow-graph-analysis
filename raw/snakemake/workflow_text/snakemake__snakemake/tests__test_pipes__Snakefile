@@ -1,0 +1,22 @@
+shell.executable("bash")
+
+rule all:
+    input:
+        expand("test.{i}.out", i=range(2))
+
+
+rule a:
+    output:
+        pipe("test.{i}.txt")
+    shell:
+        r"echo -e '{wildcards.i}\n{wildcards.i}\n{wildcards.i}' > {output}"
+
+
+rule b:
+    input:
+        "test.{i}.txt"
+    output:
+        "test.{i}.out"
+    shell:
+        "grep {wildcards.i} < {input} > {output}"
+

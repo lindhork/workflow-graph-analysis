@@ -1,0 +1,393 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 7,
+            "title": "Fail at the last iteration of snakemake pipe",
+            "state": "CLOSED",
+            "createdAt": "2025-12-10T07:39:23Z",
+            "closedAt": "2025-12-11T17:01:55Z",
+            "author": {
+              "login": "rogermeisal"
+            }
+          },
+          {
+            "number": 5,
+            "title": "GPU dependence and final tree generation",
+            "state": "CLOSED",
+            "createdAt": "2025-09-24T08:46:06Z",
+            "closedAt": "2025-09-25T13:50:15Z",
+            "author": {
+              "login": "Weiwei-Zhuo"
+            }
+          },
+          {
+            "number": 1,
+            "title": "Itermode Error caused by CUDA",
+            "state": "CLOSED",
+            "createdAt": "2025-08-18T12:27:19Z",
+            "closedAt": "2025-08-26T04:19:29Z",
+            "author": {
+              "login": "Weiwei-Zhuo"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 8,
+            "title": "Yuhsiang",
+            "state": "MERGED",
+            "createdAt": "2025-12-18T00:06:53Z",
+            "mergedAt": "2025-12-18T00:07:05Z",
+            "author": {
+              "login": "y3tseng"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CMakeLists.txt"
+                },
+                {
+                  "path": "src/align-util.cpp"
+                },
+                {
+                  "path": "src/align-util.hpp"
+                },
+                {
+                  "path": "src/cuda/msa-gpu.cu"
+                },
+                {
+                  "path": "src/hip/msa-gpu.hip.cpp"
+                },
+                {
+                  "path": "src/msa-cpu.cpp"
+                },
+                {
+                  "path": "src/setting.cpp"
+                },
+                {
+                  "path": "src/setting.hpp"
+                },
+                {
+                  "path": "src/util.cpp"
+                },
+                {
+                  "path": "src_new/TALCO-XDrop.cpp"
+                },
+                {
+                  "path": "src_new/TALCO-XDrop.hpp"
+                },
+                {
+                  "path": "src_new/alignment-cpu.cpp"
+                },
+                {
+                  "path": "src_new/alignment-helper.cpp"
+                },
+                {
+                  "path": "src_new/blosum.hpp"
+                },
+                {
+                  "path": "src_new/cuda/alignment-gpu.cu"
+                },
+                {
+                  "path": "src_new/cuda/device-function.cu"
+                },
+                {
+                  "path": "src_new/cuda/device-function.cuh"
+                },
+                {
+                  "path": "src_new/cuda/findgpu.cu"
+                },
+                {
+                  "path": "src_new/cuda/gpu-info.cu"
+                },
+                {
+                  "path": "src_new/cuda/twilight-main.cu"
+                },
+                {
+                  "path": "src_new/hip/alignment-gpu.hip.cpp"
+                },
+                {
+                  "path": "src_new/hip/device-function.hip.cpp"
+                },
+                {
+                  "path": "src_new/hip/device-function.hip.hpp"
+                },
+                {
+                  "path": "src_new/hip/findgpu.hip.cpp"
+                },
+                {
+                  "path": "src_new/hip/gpu-info.hip.cpp"
+                },
+                {
+                  "path": "src_new/hip/twilight-main.hip.cpp"
+                },
+                {
+                  "path": "src_new/io.cpp"
+                },
+                {
+                  "path": "src_new/kseq.h"
+                },
+                {
+                  "path": "src_new/msa.hpp"
+                },
+                {
+                  "path": "src_new/node.cpp"
+                },
+                {
+                  "path": "src_new/option.cpp"
+                },
+                {
+                  "path": "src_new/partitionInfo.cpp"
+                },
+                {
+                  "path": "src_new/phylogeny.cpp"
+                },
+                {
+                  "path": "src_new/phylogeny.hpp"
+                },
+                {
+                  "path": "src_new/progressive.cpp"
+                },
+                {
+                  "path": "src_new/scoring-matrix.cpp"
+                },
+                {
+                  "path": "src_new/sequencedb.cpp"
+                },
+                {
+                  "path": "src_new/tree.cpp"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6,
+            "title": "Merge \"yuhsiang\" branch",
+            "state": "MERGED",
+            "createdAt": "2025-09-29T21:19:37Z",
+            "mergedAt": "2025-09-29T21:19:45Z",
+            "author": {
+              "login": "y3tseng"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/align-util.cpp"
+                },
+                {
+                  "path": "src/cuda/twilight-main.cu"
+                },
+                {
+                  "path": "src/hip/msa-gpu.hip.cpp"
+                },
+                {
+                  "path": "src/hip/twilight-main.hip.cpp"
+                },
+                {
+                  "path": "src/setting.cpp"
+                },
+                {
+                  "path": "src/setting.hpp"
+                },
+                {
+                  "path": "src/twilight-main.cpp"
+                },
+                {
+                  "path": "src/util.cpp"
+                },
+                {
+                  "path": "src/util.hpp"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4,
+            "title": "fix bugs",
+            "state": "MERGED",
+            "createdAt": "2025-09-18T05:43:04Z",
+            "mergedAt": "2025-09-18T05:43:12Z",
+            "author": {
+              "login": "y3tseng"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/TALCO-XDrop.cpp"
+                },
+                {
+                  "path": "src/align-util.cpp"
+                },
+                {
+                  "path": "src/cuda/align.cu"
+                },
+                {
+                  "path": "src/cuda/msa-gpu.cu"
+                },
+                {
+                  "path": "src/msa-cpu.cpp"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3,
+            "title": "update hip",
+            "state": "MERGED",
+            "createdAt": "2025-08-21T20:16:26Z",
+            "mergedAt": "2025-08-21T20:16:32Z",
+            "author": {
+              "login": "y3tseng"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "src/hip/align.hip.cpp"
+                },
+                {
+                  "path": "src/hip/msa-gpu.hip.cpp"
+                },
+                {
+                  "path": "src/hip/msa-gpu.hip.hpp"
+                },
+                {
+                  "path": "src/hip/twilight-main.hip.cpp"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2,
+            "title": "Update to v0.2.0",
+            "state": "MERGED",
+            "createdAt": "2025-08-21T03:09:43Z",
+            "mergedAt": "2025-08-21T03:09:50Z",
+            "author": {
+              "login": "y3tseng"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "dataset/RNASim_backbone.aln"
+                },
+                {
+                  "path": "dataset/RNASim_backbone.nwk"
+                },
+                {
+                  "path": "dataset/RNASim_sub.fa"
+                },
+                {
+                  "path": "install/installIterative.sh"
+                },
+                {
+                  "path": "src/align-util.cpp"
+                },
+                {
+                  "path": "src/align-util.hpp"
+                },
+                {
+                  "path": "src/cuda/msa-gpu.cu"
+                },
+                {
+                  "path": "src/cuda/msa-gpu.cuh"
+                },
+                {
+                  "path": "src/cuda/twilight-main.cu"
+                },
+                {
+                  "path": "src/msa-cpu.cpp"
+                },
+                {
+                  "path": "src/msa-cpu.hpp"
+                },
+                {
+                  "path": "src/setting.cpp"
+                },
+                {
+                  "path": "src/setting.hpp"
+                },
+                {
+                  "path": "src/tree.cpp"
+                },
+                {
+                  "path": "src/tree.hpp"
+                },
+                {
+                  "path": "src/twilight-main.cpp"
+                },
+                {
+                  "path": "src/util.cpp"
+                },
+                {
+                  "path": "src/util.hpp"
+                },
+                {
+                  "path": "version.txt"
+                },
+                {
+                  "path": "workflow/Snakefile"
+                },
+                {
+                  "path": "workflow/config.yaml"
+                },
+                {
+                  "path": "workflow/rules/fasttree.smk"
+                },
+                {
+                  "path": "workflow/rules/iqtree.smk"
+                },
+                {
+                  "path": "workflow/rules/maffttree.smk"
+                },
+                {
+                  "path": "workflow/rules/mashtree.smk"
+                },
+                {
+                  "path": "workflow/rules/parttree.smk"
+                },
+                {
+                  "path": "workflow/rules/placement.smk"
+                },
+                {
+                  "path": "workflow/rules/rapidnj.smk"
+                },
+                {
+                  "path": "workflow/rules/raxml.smk"
+                },
+                {
+                  "path": "workflow/rules/twilight.smk"
+                },
+                {
+                  "path": "workflow/scripts/resolveTree.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

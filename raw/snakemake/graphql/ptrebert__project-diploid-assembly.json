@@ -1,0 +1,1105 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 15,
+            "title": "Error running demo",
+            "state": "OPEN",
+            "createdAt": "2023-01-05T15:01:38Z",
+            "closedAt": null,
+            "author": {
+              "login": "j-schoenebeck"
+            }
+          },
+          {
+            "number": 14,
+            "title": "Hifiasm as assembler",
+            "state": "CLOSED",
+            "createdAt": "2022-06-30T21:26:13Z",
+            "closedAt": "2022-07-01T15:00:35Z",
+            "author": {
+              "login": "LYC-vio"
+            }
+          },
+          {
+            "number": 13,
+            "title": "Error in rule minimap_contig_to_known_reference_alignment",
+            "state": "OPEN",
+            "createdAt": "2021-06-13T13:35:19Z",
+            "closedAt": null,
+            "author": {
+              "login": "wjj666"
+            }
+          },
+          {
+            "number": 12,
+            "title": "Config file setup_env not found.",
+            "state": "CLOSED",
+            "createdAt": "2021-04-21T10:39:24Z",
+            "closedAt": "2021-04-21T11:27:19Z",
+            "author": {
+              "login": "wjj666"
+            }
+          },
+          {
+            "number": 7,
+            "title": "blacklist update: na20509",
+            "state": "CLOSED",
+            "createdAt": "2020-05-13T08:39:09Z",
+            "closedAt": "2020-05-14T11:54:20Z",
+            "author": {
+              "login": "ptrebert"
+            }
+          },
+          {
+            "number": 6,
+            "title": "workaround: sRc diag plot",
+            "state": "CLOSED",
+            "createdAt": "2020-05-06T18:22:13Z",
+            "closedAt": "2020-05-14T11:56:21Z",
+            "author": {
+              "login": "ptrebert"
+            }
+          },
+          {
+            "number": 5,
+            "title": "kmer analysis",
+            "state": "CLOSED",
+            "createdAt": "2020-05-06T18:20:41Z",
+            "closedAt": "2021-02-16T08:24:56Z",
+            "author": {
+              "login": "ptrebert"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 11,
+            "title": "Fixed param version bug in autoconf.py",
+            "state": "MERGED",
+            "createdAt": "2021-03-12T19:18:07Z",
+            "mergedAt": "2021-03-15T17:19:54Z",
+            "author": {
+              "login": "wharvey31"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "autoconf.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 10,
+            "title": "make v13 current main dev branch",
+            "state": "MERGED",
+            "createdAt": "2021-02-16T08:44:50Z",
+            "mergedAt": "2021-02-16T09:06:53Z",
+            "author": {
+              "login": "ptrebert"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "environment/conda/conda_biotools.yml"
+                },
+                {
+                  "path": "environment/conda/conda_evaltools.yml"
+                },
+                {
+                  "path": "environment/conda/conda_pyscript.yml"
+                },
+                {
+                  "path": "environment/conda/conda_whatshap.yml"
+                },
+                {
+                  "path": "scripts/gfa_to_fasta.py"
+                },
+                {
+                  "path": "scripts/plot_saarclust_diagnostics.R"
+                },
+                {
+                  "path": "scripts/run_breakpointr.R"
+                },
+                {
+                  "path": "scripts/run_saarclust.R"
+                },
+                {
+                  "path": "scripts/run_strandphaser.R"
+                },
+                {
+                  "path": "smk_config/params/smk_cfg_params_RV13.yml"
+                },
+                {
+                  "path": "smk_config/samples/na24143.yml"
+                },
+                {
+                  "path": "smk_config/samples/na24149.yml"
+                },
+                {
+                  "path": "smk_config/samples/na24385.yml"
+                },
+                {
+                  "path": "smk_config/selectors/test_hifiasm.yml"
+                },
+                {
+                  "path": "smk_include/aux_utilities.smk"
+                },
+                {
+                  "path": "smk_include/dev/run_contig_remap.smk"
+                },
+                {
+                  "path": "smk_include/environments.smk"
+                },
+                {
+                  "path": "smk_include/haploid_assembly_clustering.smk"
+                },
+                {
+                  "path": "smk_include/integrative_phasing.smk"
+                },
+                {
+                  "path": "smk_include/prepare_custom_references.smk"
+                },
+                {
+                  "path": "smk_include/run_alignments.smk"
+                },
+                {
+                  "path": "smk_include/run_assemblies.smk"
+                },
+                {
+                  "path": "smk_include/strandseq_dga_split.smk"
+                },
+                {
+                  "path": "smk_include/targets.smk"
+                },
+                {
+                  "path": "smk_include/variant_calling.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 9,
+            "title": "Development",
+            "state": "MERGED",
+            "createdAt": "2021-02-16T08:21:45Z",
+            "mergedAt": "2021-02-16T08:23:31Z",
+            "author": {
+              "login": "ptrebert"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "annotation/1kg_hgsvc_colors.csv"
+                },
+                {
+                  "path": "annotation/20200128_ASanders_QCselect_HGSVClibs.txt"
+                },
+                {
+                  "path": "annotation/20200507_ASanders_100cell_controls.txt"
+                },
+                {
+                  "path": "annotation/20200507_ASanders_wgs_cells.txt"
+                },
+                {
+                  "path": "annotation/archive/20200507_hgsvc_blacklist.txt"
+                },
+                {
+                  "path": "annotation/archive/20200507_sseq_fastq.txt"
+                },
+                {
+                  "path": "annotation/archive/20200513_hgsvc_blacklist.txt"
+                },
+                {
+                  "path": "annotation/archive/20200513_sseq_fastq.txt"
+                },
+                {
+                  "path": "annotation/archive/20200605_hgsvc_blacklist.txt"
+                },
+                {
+                  "path": "annotation/grch38/20200723_GRCh38_p13_regions.bed"
+                },
+                {
+                  "path": "annotation/grch38/20200723_GRCh38_p13_unresolved-issues.bed"
+                },
+                {
+                  "path": "annotation/grch38/GRCh38_cytobands.bed"
+                },
+                {
+                  "path": "annotation/grch38/GRCh38_segdups.bed"
+                },
+                {
+                  "path": "annotation/grch38/issues/grch38_p13_gaps.tsv"
+                },
+                {
+                  "path": "annotation/grch38/issues/grch38_p13_unknown.tsv"
+                },
+                {
+                  "path": "annotation/grch38/issues/grch38_p13_variation.tsv"
+                },
+                {
+                  "path": "annotation/grch38/known_regions/GRCh38_p13_chromXY_PAR.tsv"
+                },
+                {
+                  "path": "annotation/grch38/known_regions/Modeled_regions_for_GRCh38.tsv"
+                },
+                {
+                  "path": "annotation/grch38/known_regions/hg38_hgsvc2_noalt.chroms.bed"
+                },
+                {
+                  "path": "annotation/grch38/known_regions/hg38_hgsvc2_noalt.chroms.tsv"
+                },
+                {
+                  "path": "annotation/grch38/known_regions/ucsc_cytoband.bed"
+                },
+                {
+                  "path": "annotation/grch38/known_regions/ucsc_segdups.tsv.gz"
+                },
+                {
+                  "path": "annotation/hgsvc_blacklist.txt"
+                },
+                {
+                  "path": "annotation/in_preparation/20200528_ASanders_QCselect_HGSVClibs.norm.tsv"
+                },
+                {
+                  "path": "annotation/in_preparation/20200528_ASanders_QCselect_HGSVClibs.tsv"
+                },
+                {
+                  "path": "annotation/in_preparation/bl_supp_HG02818_HG03125_HG03486_NA19434.txt"
+                },
+                {
+                  "path": "annotation/sample_table.tsv"
+                },
+                {
+                  "path": "autoconf.py"
+                },
+                {
+                  "path": "docs/demo.md"
+                },
+                {
+                  "path": "docs/faq.md"
+                },
+                {
+                  "path": "docs/tutorial.md"
+                },
+                {
+                  "path": "environment/conda/conda_bifrost.yml"
+                },
+                {
+                  "path": "environment/conda/conda_biotools.yml"
+                },
+                {
+                  "path": "environment/conda/conda_convert.yml"
+                },
+                {
+                  "path": "environment/conda/conda_dipassm.yml"
+                },
+                {
+                  "path": "environment/conda/conda_evaltools.yml"
+                },
+                {
+                  "path": "environment/conda/conda_merqury.yml"
+                },
+                {
+                  "path": "environment/conda/conda_rscript.yml"
+                },
+                {
+                  "path": "environment/conda/conda_rtools.yml"
+                },
+                {
+                  "path": "environment/snakemake/cluster/denbi_tu_pbs/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/cluster/hhu_pbs/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/cluster/hhu_pbs/hilbert_cluster.json"
+                },
+                {
+                  "path": "environment/snakemake/laptop/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/d3compute/config.yaml"
+                },
+                {
+                  "path": "notebooks/2020_project/content/fig_stats_bng_breaks.ipynb"
+                },
+                {
+                  "path": "notebooks/2020_project/content/plot_bng_uniq_upset.ipynb"
+                },
+                {
+                  "path": "notebooks/2020_project/content/stats_3q29_concordance.ipynb"
+                },
+                {
+                  "path": "notebooks/2020_project/content/stats_eval_aligned_scaffolds.ipynb"
+                },
+                {
+                  "path": "notebooks/2020_project/content/stats_sv_illumina_bng_overlap.ipynb"
+                },
+                {
+                  "path": "notebooks/2020_project/content/stats_uncharted_territory.ipynb"
+                },
+                {
+                  "path": "notebooks/2020_project/content/table_lola_enrich.ipynb"
+                },
+                {
+                  "path": "notebooks/2020_project/content/table_mapq60_alt-contig_cov.ipynb"
+                },
+                {
+                  "path": "notebooks/2020_project/content/table_mapq60_contig_cov.ipynb"
+                },
+                {
+                  "path": "notebooks/2020_project/content/table_roi_assm_stats.ipynb"
+                },
+                {
+                  "path": "notebooks/2020_project/processing/clean_issue_annotation.ipynb"
+                },
+                {
+                  "path": "notebooks/2020_project/processing/clean_region_annotation.ipynb"
+                },
+                {
+                  "path": "notebooks/2020_project/processing/clean_segdups_annotation.ipynb"
+                },
+                {
+                  "path": "notebooks/2020_project/processing/convert_bionano_tables.ipynb"
+                },
+                {
+                  "path": "notebooks/2020_project/processing/cut_hg38_3q29_segments.ipynb"
+                },
+                {
+                  "path": "notebooks/2020_project/processing/flatten_bng_table.ipynb"
+                },
+                {
+                  "path": "notebooks/2020_project/processing/summarize_unscf_maploc.ipynb"
+                },
+                {
+                  "path": "notebooks/aln_len_hist.ipynb"
+                },
+                {
+                  "path": "notebooks/arrow_runtime_charts.ipynb"
+                },
+                {
+                  "path": "notebooks/aux_mods/plot_aux.py"
+                },
+                {
+                  "path": "notebooks/dev/break_plots.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/cut_out_unknown_segment.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/grch38_region_sizes.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_fig1_panels/dump_quast_busco_stats_table.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_fig1_panels/plot_assm_contiguity_panel.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_fig1_panels/plot_contiguity_inserts_panel.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_fig1_panels/plot_kmer_stats.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_fig1_panels/plot_population_legend.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_fig1_panels/plot_read_stats_panel.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_fig1_panels/plot_tagging_stats.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_3q29_locus.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_64hap_coverage.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_assm_completeness.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_chr16p_ideogram.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_chr3q29_ideogram.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_contig_align_stats.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_genome_ideogram.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_hapreg_jaccard.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_hla_locus.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_ideogram_64hap_cov.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_ideogram_access.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_ideogram_alt_cov.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_ideogram_chr12_64hap_cov.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_qv_estimates.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_regb_stats.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_regctg_coverage.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_snv_phasing_panel.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_tech_comparison.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_unscf_density.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/merge_chr3_dotplots.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/merge_numpy_aln_dumps.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/plot_ideogram.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/print_bng_stats.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/split_repmasker.ipynb"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 8,
+            "title": "Merge latest dev commits into v13",
+            "state": "MERGED",
+            "createdAt": "2020-08-07T10:57:22Z",
+            "mergedAt": "2020-08-07T10:57:34Z",
+            "author": {
+              "login": "ptrebert"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "notebooks/dev/hgsvc_fig1_panels/plot_assm_contiguity_panel.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_fig1_panels/plot_snv_phasing_panel.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_fig1_panels/plot_tagging_stats.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_assm_completeness.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_contig_align_stats.ipynb"
+                },
+                {
+                  "path": "notebooks/dev/hgsvc_figSX_panels/plot_hapreg_jaccard.ipynb"
+                },
+                {
+                  "path": "smk_include/dev/run_contig_remap.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4,
+            "title": "Merge v0.1dev into master",
+            "state": "MERGED",
+            "createdAt": "2020-04-14T12:03:02Z",
+            "mergedAt": "2020-04-14T12:03:12Z",
+            "author": {
+              "login": "ptrebert"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "annotation/20200128_ASanders_QCselect_HGSVClibs.txt"
+                },
+                {
+                  "path": "annotation/HG00733_sub20_libraries_sseq.txt"
+                },
+                {
+                  "path": "annotation/HG00733_sub40_libraries_sseq.txt"
+                },
+                {
+                  "path": "annotation/HG00733_sub60_libraries_sseq.txt"
+                },
+                {
+                  "path": "annotation/HG00733_sub80_libraries_sseq.txt"
+                },
+                {
+                  "path": "annotation/NA24385_selected_libraries_sseq.csv"
+                },
+                {
+                  "path": "annotation/input_data_sources.json"
+                },
+                {
+                  "path": "annotation/reference_data_sources.json"
+                },
+                {
+                  "path": "autoconf.py"
+                },
+                {
+                  "path": "docs/autoconf.md"
+                },
+                {
+                  "path": "docs/demo.md"
+                },
+                {
+                  "path": "docs/execute.md"
+                },
+                {
+                  "path": "docs/faq.md"
+                },
+                {
+                  "path": "docs/tutorial.md"
+                },
+                {
+                  "path": "environment/conda/conda_biotools.yml"
+                },
+                {
+                  "path": "environment/conda/conda_dipassm.yml"
+                },
+                {
+                  "path": "environment/conda/conda_pbtools.txt"
+                },
+                {
+                  "path": "environment/conda/conda_pbtools.yml"
+                },
+                {
+                  "path": "environment/conda/conda_pyscript.yml"
+                },
+                {
+                  "path": "environment/conda/conda_rscript.yml"
+                },
+                {
+                  "path": "environment/conda/conda_rtools.yml"
+                },
+                {
+                  "path": "environment/conda/conda_shelltools.yml"
+                },
+                {
+                  "path": "environment/conda/wh_split.txt"
+                },
+                {
+                  "path": "environment/conda/wh_split.yml"
+                },
+                {
+                  "path": "environment/snakemake/cluster/deep/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/snakemake/cluster/denbi_tu_pbs/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/cluster/denbi_tu_pbs/denbi_cluster.json"
+                },
+                {
+                  "path": "environment/snakemake/cluster/denbi_tu_pbs/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/snakemake/cluster/denbi_tu_slurm/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/snakemake/cluster/hhu_pbs/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/cluster/hhu_pbs/hilbert_cluster.json"
+                },
+                {
+                  "path": "environment/snakemake/cluster/hhu_pbs/hilbert_queues.md"
+                },
+                {
+                  "path": "environment/snakemake/demo/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/ariel/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/ariel/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/snakemake/server/belinda/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/belinda/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/snakemake/server/bianca/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/bianca/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/snakemake/server/cordelia/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/cordelia/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/snakemake/server/d3compute/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/d3compute/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/snakemake/server/denbi_europa/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/juliet/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/juliet/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/snakemake/server/miranda/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/miranda/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/snakemake/server/portia/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/portia/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/snakemake/server/umbriel/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/umbriel/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/sync/exclude.txt"
+                },
+                {
+                  "path": "environment/sync/include.txt"
+                },
+                {
+                  "path": "environment/sync/sync_commands.md"
+                },
+                {
+                  "path": "notebooks/subsample_hg00733_strandseq.ipynb"
+                },
+                {
+                  "path": "notes/align_ccs_racon.md"
+                },
+                {
+                  "path": "notes/config_saarclust.md"
+                },
+                {
+                  "path": "notes/minimap_ctg_ref.md"
+                },
+                {
+                  "path": "scripts/cluster_status/denbi_valet.py"
+                },
+                {
+                  "path": "scripts/cluster_status/hhu_hilbert.py"
+                },
+                {
+                  "path": "scripts/collect_read_stats.py"
+                },
+                {
+                  "path": "scripts/deprecated/filter_squashed_assembly.py"
+                },
+                {
+                  "path": "scripts/dump_shasta_fasta.py"
+                },
+                {
+                  "path": "scripts/evaluate.py"
+                },
+                {
+                  "path": "scripts/install_breakpointr.R"
+                },
+                {
+                  "path": "scripts/install_saarclust.R"
+                },
+                {
+                  "path": "scripts/install_strandphaser.R"
+                },
+                {
+                  "path": "scripts/norm_longshot_output.py"
+                },
+                {
+                  "path": "scripts/plot_saarclust_diagnostics.R"
+                },
+                {
+                  "path": "scripts/plot_sample_stats.py"
+                },
+                {
+                  "path": "scripts/run_breakpointr.R"
+                },
+                {
+                  "path": "scripts/run_saarclust.R"
+                },
+                {
+                  "path": "scripts/run_strandphaser.R"
+                },
+                {
+                  "path": "scripts/scan_remote_path.py"
+                },
+                {
+                  "path": "scripts/utilities/downloader.py"
+                },
+                {
+                  "path": "scripts/utilities/inspect_environment.py"
+                },
+                {
+                  "path": "scripts/utilities/mem_profiler.py"
+                },
+                {
+                  "path": "scripts/utilities/version_checker.py"
+                },
+                {
+                  "path": "smk_cfg_denbi_bibgrid.yml"
+                },
+                {
+                  "path": "smk_cfg_denbi_unicore.yml"
+                },
+                {
+                  "path": "smk_cfg_mmci.yml"
+                },
+                {
+                  "path": "smk_config/data_sources/altnhr_local_hhu.yml"
+                },
+                {
+                  "path": "smk_config/data_sources/hgsvc_ftp_sources.yml"
+                },
+                {
+                  "path": "smk_config/data_sources/hgsvc_local_hhu.yml"
+                },
+                {
+                  "path": "smk_config/data_sources/hgsvc_local_mmci.yml"
+                },
+                {
+                  "path": "smk_config/data_sources/sseq_local_denbi.yml"
+                },
+                {
+                  "path": "smk_config/data_sources/sseq_local_hhu.yml"
+                },
+                {
+                  "path": "smk_config/demo/na12878.yml"
+                },
+                {
+                  "path": "smk_config/demo/params.yml"
+                },
+                {
+                  "path": "smk_config/demo/run_env.yml"
+                },
+                {
+                  "path": "smk_config/params/smk_cfg_params_RV7.yml"
+                },
+                {
+                  "path": "smk_config/params/smk_cfg_params_RV8.yml"
+                },
+                {
+                  "path": "smk_config/params/smk_cfg_params_RV9.yml"
+                },
+                {
+                  "path": "smk_config/ref_data/reference_data_sources.yml"
+                },
+                {
+                  "path": "smk_config/run_env/smk_cfg_env-hhu.yml"
+                },
+                {
+                  "path": "smk_config/run_env/smk_cfg_env-lap1372.yml"
+                },
+                {
+                  "path": "smk_config/run_env/smk_cfg_env-mmci.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3,
+            "title": "Fix issues in alignments/assemblies",
+            "state": "MERGED",
+            "createdAt": "2019-11-14T16:37:40Z",
+            "mergedAt": "2019-11-14T16:38:19Z",
+            "author": {
+              "login": "ptrebert"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "smk_include/preprocess_input.smk"
+                },
+                {
+                  "path": "smk_include/run_alignments.smk"
+                },
+                {
+                  "path": "smk_include/run_assemblies.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2,
+            "title": "Latest start-to-finish version including one round of polishing",
+            "state": "MERGED",
+            "createdAt": "2019-11-14T15:04:31Z",
+            "mergedAt": "2019-11-14T15:05:55Z",
+            "author": {
+              "login": "ptrebert"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Snakefile"
+                },
+                {
+                  "path": "environment/conda/conda_dipassm.yml"
+                },
+                {
+                  "path": "environment/conda/wh_split.txt"
+                },
+                {
+                  "path": "environment/conda/wh_split.yml"
+                },
+                {
+                  "path": "environment/snakemake/cluster/hhu_pbs/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/cluster/hhu_pbs/hilbert_cluster.json"
+                },
+                {
+                  "path": "environment/snakemake/cluster/hhu_pbs/hilbert_queues.md"
+                },
+                {
+                  "path": "environment/snakemake/cluster/hhu_pbs/run_pipeline.txt"
+                },
+                {
+                  "path": "notes/config_saarclust.md"
+                },
+                {
+                  "path": "scripts/scan_remote_path.py"
+                },
+                {
+                  "path": "smk_config/data/smk_cfg_data.yml"
+                },
+                {
+                  "path": "smk_config/run_env/smk_cfg_env-bibigrid.yml"
+                },
+                {
+                  "path": "smk_config/run_env/smk_cfg_env-hhu.yml"
+                },
+                {
+                  "path": "smk_config/run_env/smk_cfg_env-mmci.yml"
+                },
+                {
+                  "path": "smk_config/run_env/smk_cfg_env-unicore.yml"
+                },
+                {
+                  "path": "smk_include/arrow_polishing.smk"
+                },
+                {
+                  "path": "smk_include/aux_utilities.smk"
+                },
+                {
+                  "path": "smk_include/canonical_dga.smk"
+                },
+                {
+                  "path": "smk_include/collect_statistics.smk"
+                },
+                {
+                  "path": "smk_include/eval_known_reference.smk"
+                },
+                {
+                  "path": "smk_include/handle_data_download.smk"
+                },
+                {
+                  "path": "smk_include/handle_reference_download.smk"
+                },
+                {
+                  "path": "smk_include/integrative_phasing.smk"
+                },
+                {
+                  "path": "smk_include/prepare_custom_references.smk"
+                },
+                {
+                  "path": "smk_include/preprocess_input.smk"
+                },
+                {
+                  "path": "smk_include/preprocess_references.smk"
+                },
+                {
+                  "path": "smk_include/racon_polishing.smk"
+                },
+                {
+                  "path": "smk_include/results_child.smk"
+                },
+                {
+                  "path": "smk_include/results_parents.smk"
+                },
+                {
+                  "path": "smk_include/run_alignments.smk"
+                },
+                {
+                  "path": "smk_include/run_assemblies.smk"
+                },
+                {
+                  "path": "smk_include/strandseq_dga_joint.smk"
+                },
+                {
+                  "path": "smk_include/strandseq_dga_split.smk"
+                },
+                {
+                  "path": "smk_include/variant_calling.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1,
+            "title": "Dev feat ftp loader",
+            "state": "MERGED",
+            "createdAt": "2019-10-27T12:30:48Z",
+            "mergedAt": "2019-10-27T12:30:59Z",
+            "author": {
+              "login": "ptrebert"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "annotation/input_data_sources.json"
+                },
+                {
+                  "path": "environment/snakemake/server/d3compute/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/d3compute/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/snakemake/server/deprecated/ariel/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/deprecated/ariel/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/snakemake/server/deprecated/belinda/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/deprecated/belinda/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/snakemake/server/deprecated/bianca/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/deprecated/bianca/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/snakemake/server/deprecated/cordelia/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/deprecated/cordelia/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/snakemake/server/deprecated/juliet/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/deprecated/juliet/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/snakemake/server/deprecated/miranda/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/deprecated/miranda/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/snakemake/server/deprecated/portia/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/deprecated/portia/run_pipeline.txt"
+                },
+                {
+                  "path": "environment/snakemake/server/deprecated/umbriel/config.yaml"
+                },
+                {
+                  "path": "environment/snakemake/server/deprecated/umbriel/run_pipeline.txt"
+                },
+                {
+                  "path": "scripts/scan_remote_path.py"
+                },
+                {
+                  "path": "smk_cfg_mmci.yml"
+                },
+                {
+                  "path": "smk_include/handle_data_download.smk"
+                },
+                {
+                  "path": "smk_include/link_data_sources.smk"
+                },
+                {
+                  "path": "smk_include/preprocess_input.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

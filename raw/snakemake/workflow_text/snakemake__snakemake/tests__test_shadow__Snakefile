@@ -1,0 +1,179 @@
+rule all:
+    input: "simple_shallow.out", "simple_full.out",
+           "absolute_exists.out", "touched.out", "log_exists.out",
+           "protected.out", "benchmark_exists.out", "minimal_ok.out"
+
+rule shallow:
+    input: "test.in"
+    output: "simple_shallow.out"
+    shadow: "shallow"
+    shell:
+        """
+        echo 1 > junk.out
+        cat {input} >> {output}
+        echo simple_shallow >> {output}
+        test ! -f more_junk.out
+        """
+
+rule full:
+    input: "test.in"
+    output: "simple_full.out"
+    shadow: "full"
+    shell:
+        """
+        echo 1 > more_junk.out
+        cat {input} > {output}
+        echo simple_full >> {output}
+        test ! -f junk.out
+        """
+
+rule absolute_link:
+    input: "test.in"
+    output: "absolute.out", "absolute_link.out"
+    shadow: "shallow"
+    shell:
+        """
+        echo 1 > absolute.out
+        DIRNAME=$(perl -e 'use Cwd "abs_path"; print abs_path(shift)' .)
+        ln -s $DIRNAME/absolute.out absolute_link.out
+        """
+
+# Snakemake has check_broken_symlink so we just need to test existence
+rule absolute_stat:
+    input: "absolute_link.out"
+    output: touch("absolute_exists.out")
+    shell:
+        """
+        test -f {input}
+        """
+
+rule log_stat:
+    input: "touched.out"
+    output: touch("log_exists.out")
+    shell:
+        """
+        test -f shadow.log
+        """
+
+rule touch:
+    output: touch("touched.out")
+    log: "shadow.log"
+    shadow: "shallow"
+    shell:
+        """
+        echo 1 > {log}
+        """
+
+rule protected:
+    output: protected("protected.out")
+    shadow: "shallow"
+    shell:
+        """
+        touch {output}
+        """
+
+rule benchmark:
+    output: touch("benchmark.out")
+    benchmark: "benchmark.txt"
+    shadow: "shallow"
+    shell:
+        """
+        touch {output}
+        """
+
+rule benchmark_stat:
+    input: "benchmark.out"
+    output: touch("benchmark_exists.out")
+    shell:
+        """
+        test -f benchmark.txt
+        """
+
+# Setup files for testing of shadow: "minimal"
+rule minimal_setup:
+    input: "test.in"
+    output:
+        "subdir1/subdir2/test.in",
+        "subdir1/subdir2/test.symbolic.in"
+    shell:
+        """
+        cp -P {input} {output[0]}
+        cd subdir1/subdir2
+        ln -s test.in test.symbolic.in
+        """
+
+# Tests relative inputs/outputs and in the current dir
+rule minimal_rel_curdir:
+    input: "test.in"
+    output: protected("simple_minimal.out")
+    benchmark: "benchmark_minimal.txt"
+    log: "minimal.log"
+    shadow: "minimal"
+    shell:
+        """
+        touch minimal_junk.out
+        cat {input} >> {output}
+        echo simple_minimal >> {output}
+        echo minimal_log > {log}
+        """
+
+# Tests relative inputs/outputs in subdirectories
+rule minimal_rel_subdir:
+    input: "subdir1/subdir2/test.in"
+    output: "outdir/minimal.out"
+    shadow: "minimal"
+    shell:
+        """
+        touch outdir/minimal_junk.out
+        touch {output}
+        """
+
+# Tests symbolic input/output
+rule minimal_symbolic:
+    input: "subdir1/subdir2/test.symbolic.in"
+    output: "outdir/minimal_real.out",
+            "outdir/minimal_symbolic.out"
+    shadow: "minimal"
+    shell:
+        """
+        touch outdir/minimal_real.out
+        cd outdir
+        ln -s minimal_real.out minimal_symbolic.out
+        """
+
+# Test huge command line in shadow: "minimal"
+rule minimal_huge_cmd:
+    output: "outdir/minimal_huge.out"
+    params: huge_cmd="#" * 16 * 4096
+    shadow: "minimal"
+    shell:
+        "touch {output}; {params.huge_cmd}"
+
+# Tests absolute input/output
+rule minimal_absolute:
+    input:
+        os.path.join(os.getcwd(),"test.in")
+    output: os.path.join(os.getcwd(),"outdir/minimal_absolute.out")
+    shadow: "minimal"
+    shell:
+        """
+        touch {output}
+        """
+
+# Aggregates tests for shadow: "minimal"
+rule minimal_ok:
+    input:  "simple_minimal.out",
+            "outdir/minimal.out",
+            "outdir/minimal_symbolic.out",
+            "outdir/minimal_huge.out",
+            os.path.join(os.getcwd(),"outdir/minimal_absolute.out")
+    output: "minimal_ok.out"
+    shell:
+        """
+        #test ! -w {input[0]}
+        test -f benchmark_minimal.txt
+        test -f minimal.log
+        test ! -f minimal_junk.out
+        test ! -f outdir/minimal_junk.out
+        touch {output}
+        """

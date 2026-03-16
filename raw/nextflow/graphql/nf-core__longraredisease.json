@@ -1,0 +1,1222 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 14,
+            "title": "Family analysis supporting (reel) PED format",
+            "state": "CLOSED",
+            "createdAt": "2026-01-15T09:14:58Z",
+            "closedAt": "2026-03-05T09:27:11Z",
+            "author": {
+              "login": "tetedange13"
+            }
+          },
+          {
+            "number": 12,
+            "title": "Test \"test_ubam\" raises syntax error",
+            "state": "CLOSED",
+            "createdAt": "2026-01-09T12:48:39Z",
+            "closedAt": "2026-01-09T13:02:09Z",
+            "author": {
+              "login": "tetedange13"
+            }
+          },
+          {
+            "number": 11,
+            "title": "Minimum Nextflow version ?",
+            "state": "CLOSED",
+            "createdAt": "2026-01-09T12:19:03Z",
+            "closedAt": "2026-01-09T13:08:54Z",
+            "author": {
+              "login": "tetedange13"
+            }
+          },
+          {
+            "number": 3,
+            "title": "Add nf-tests",
+            "state": "CLOSED",
+            "createdAt": "2025-08-22T12:24:11Z",
+            "closedAt": "2026-03-05T09:27:17Z",
+            "author": {
+              "login": "nourmahfel"
+            }
+          },
+          {
+            "number": 2,
+            "title": "Correct the header followed by running unify",
+            "state": "CLOSED",
+            "createdAt": "2025-07-08T10:28:37Z",
+            "closedAt": "2025-08-22T12:22:42Z",
+            "author": {
+              "login": "nourmahfel"
+            }
+          },
+          {
+            "number": 1,
+            "title": "Add methylation calling",
+            "state": "CLOSED",
+            "createdAt": "2025-07-08T10:27:55Z",
+            "closedAt": "2025-08-22T12:22:35Z",
+            "author": {
+              "login": "nourmahfel"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 15,
+            "title": "Finalize pipeline ",
+            "state": "OPEN",
+            "createdAt": "2026-03-05T09:26:26Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nourmahfel"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "bin/annotate_str.py"
+                },
+                {
+                  "path": "bin/epi2me_downsample_sv.py"
+                },
+                {
+                  "path": "bin/spectre_roundDP.py"
+                },
+                {
+                  "path": "bin/unify_geneyx.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_fastq.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_ubam.config"
+                },
+                {
+                  "path": "conf/test_ubam_dir.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/annotate_str/main.nf"
+                },
+                {
+                  "path": "modules/local/clair3_fixVCF/main.nf"
+                },
+                {
+                  "path": "modules/local/create_ped_file/main.nf"
+                },
+                {
+                  "path": "modules/local/epi2me_downsample_sv/main.nf"
+                },
+                {
+                  "path": "modules/local/fix_header_sv/cutesv/main.nf"
+                },
+                {
+                  "path": "modules/local/fix_header_sv/jasmine/main.nf"
+                },
+                {
+                  "path": "modules/local/hificnv/main.nf"
+                },
+                {
+                  "path": "modules/local/multiqc_mosdepth/main.nf"
+                },
+                {
+                  "path": "modules/local/rtg/format_ref/main.nf"
+                },
+                {
+                  "path": "modules/local/rtg/mendelian/main.nf"
+                },
+                {
+                  "path": "modules/local/rtg/mendelian_violations/main.nf"
+                },
+                {
+                  "path": "modules/local/sniffles/generate_plots/main.nf"
+                },
+                {
+                  "path": "modules/local/sniffles/trio/main.nf"
+                },
+                {
+                  "path": "modules/local/spectre/cnvcaller/environment.yml"
+                },
+                {
+                  "path": "modules/local/spectre/cnvcaller/main.nf"
+                },
+                {
+                  "path": "modules/local/spectre/cnvcaller/meta.yml"
+                },
+                {
+                  "path": "modules/local/spectre/rounddp/main.nf"
+                },
+                {
+                  "path": "modules/local/straglr/main.nf"
+                },
+                {
+                  "path": "modules/local/svanna/main.nf"
+                },
+                {
+                  "path": "modules/local/svim/alignment/environment.yml"
+                },
+                {
+                  "path": "modules/local/svim/alignment/main.nf"
+                },
+                {
+                  "path": "modules/local/svim/alignment/meta.yml"
+                },
+                {
+                  "path": "modules/local/svim/alignment/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/svim/alignment/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/local/svim/alignment/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/local/unifyvcf_geneyx/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/annotsv/annotsv/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/annotsv/annotsv/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/annotsv/annotsv/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/annotsv/annotsv/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/annotsv/annotsv/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/annotsv/annotsv/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/annotsv/installannotations/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/annotsv/installannotations/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/annotsv/installannotations/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/annotsv/installannotations/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/annotsv/installannotations/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/filter/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/filter/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/filter/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/filter/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/filter/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/filter/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/filter/tests/region_filter.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/filter/tests/vcf_gz_index.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/filter/tests/vcf_gz_index_csi.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/filter/tests/vcf_gz_index_tbi.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/index/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/index/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/index/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/index/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/index/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/index/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/intersect/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/intersect/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/intersect/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/intersect/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/merge/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/merge/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/merge/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/merge/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bedtools/merge/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/gfastats/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/gfastats/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/gfastats/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/gfastats/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/glnexus/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/glnexus/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/glnexus/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/glnexus/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/glnexus/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/hifiasm/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/hifiasm/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/hifiasm/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/hifiasm/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/hifiasm/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/hificnv/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/hificnv/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/hificnv/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/hificnv/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/hificnv/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/hificnv/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/longphase/haplotag/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/longphase/haplotag/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/longphase/haplotag/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/longphase/haplotag/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/longphase/haplotag/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/longphase/haplotag/tests/nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 13,
+            "title": "Fix bam2fastq subworkflow",
+            "state": "MERGED",
+            "createdAt": "2026-01-09T12:56:06Z",
+            "mergedAt": "2026-01-09T13:00:19Z",
+            "author": {
+              "login": "nourmahfel"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "subworkflows/local/bam2fastq.nf"
+                },
+                {
+                  "path": "subworkflows/local/longphase.nf"
+                },
+                {
+                  "path": "workflows/longraredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 10,
+            "title": "Add annotation",
+            "state": "MERGED",
+            "createdAt": "2026-01-07T17:01:59Z",
+            "mergedAt": "2026-01-07T17:09:04Z",
+            "author": {
+              "login": "nourmahfel"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/straglr/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/stranger/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/stranger/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/stranger/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/stranger/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/stranger/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/stranger/tests/nextflow.config"
+                },
+                {
+                  "path": "subworkflows/local/annotate_str.nf"
+                },
+                {
+                  "path": "subworkflows/local/call_str.nf"
+                },
+                {
+                  "path": "workflows/longraredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 9,
+            "title": "Added sv info plots and trio sv analysis",
+            "state": "MERGED",
+            "createdAt": "2025-11-14T17:19:18Z",
+            "mergedAt": "2025-11-14T17:32:12Z",
+            "author": {
+              "login": "nourmahfel"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/generate_reports/report_sv.py"
+                },
+                {
+                  "path": "bin/generate_reports/report_utils/common.py"
+                },
+                {
+                  "path": "bin/generate_reports/report_utils/sections.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "fix_formatting.sh"
+                },
+                {
+                  "path": "modules/local/generate_sv_plots/main.nf"
+                },
+                {
+                  "path": "modules/local/normalize_merged_sv/main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "workflows/longraredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 8,
+            "title": "Template update for nf-core/tools version 3.4.1",
+            "state": "CLOSED",
+            "createdAt": "2025-11-13T22:44:43Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nourmahfel"
+            },
+            "files": {
+              "nodes": []
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 7,
+            "title": "Update pipeline",
+            "state": "MERGED",
+            "createdAt": "2025-11-13T22:37:28Z",
+            "mergedAt": "2025-11-13T23:23:53Z",
+            "author": {
+              "login": "nourmahfel"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": "assets/data/annotate_str/variant_catalog_hg38.json"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/samplesheet.csv"
+                },
+                {
+                  "path": "assets/samplesheet_test_fastq.csv"
+                },
+                {
+                  "path": "assets/samplesheet_test_ubam.csv"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "assets/test_data/HG002_ONT.fastq.gz"
+                },
+                {
+                  "path": "assets/test_data/test.exclude.bed"
+                },
+                {
+                  "path": "bin/ONTUnifyVcf.py"
+                },
+                {
+                  "path": "bin/annotate_str.py"
+                },
+                {
+                  "path": "bin/filterSV.py"
+                },
+                {
+                  "path": "bin/roundDP.py"
+                },
+                {
+                  "path": "bin/wf_ont_filter.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_fastq.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "conf/test_ubam.config"
+                },
+                {
+                  "path": "fix_nf_format.py"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/SvAnna/main.nf"
+                },
+                {
+                  "path": "modules/local/annotate_str/main.nf"
+                },
+                {
+                  "path": "modules/local/clair3_fixVCF/main.nf"
+                },
+                {
+                  "path": "modules/local/downsample_sv/main.nf"
+                },
+                {
+                  "path": "modules/local/exomiser/main.nf"
+                },
+                {
+                  "path": "modules/local/hificnv/main.nf"
+                },
+                {
+                  "path": "modules/local/methbat/main.nf"
+                },
+                {
+                  "path": "modules/local/normalize_cutesv/main.nf"
+                },
+                {
+                  "path": "modules/local/normalize_merged_sv/main.nf"
+                },
+                {
+                  "path": "modules/local/round_dp/main.nf"
+                },
+                {
+                  "path": "modules/local/spectre/main.nf"
+                },
+                {
+                  "path": "modules/local/straglr/main.nf"
+                },
+                {
+                  "path": "modules/local/survivor_vcftobed/main.nf"
+                },
+                {
+                  "path": "modules/local/svim/main.nf"
+                },
+                {
+                  "path": "modules/local/truvari/collapse/main.nf"
+                },
+                {
+                  "path": "modules/local/unifyvcf_geneyx/main.nf"
+                },
+                {
+                  "path": "modules/local/winnowmap/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/tests/tab.gz.config"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/filtervep/tests/vcf.config"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/vep/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/vep/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/vep/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/vep/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/vep/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/vep/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/vep/tests/tab.gz.config"
+                },
+                {
+                  "path": "modules/nf-core/ensemblvep/vep/tests/vcf.config"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/hiphase/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/hiphase/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/hiphase/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/hiphase/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/hiphase/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/jasminesv/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/jasminesv/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/jasminesv/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/jasminesv/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/jasminesv/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/jasminesv/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/longphase/phase/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/longphase/phase/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/longphase/phase/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/modkit/pileup/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/modkit/pileup/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/modkit/pileup/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/multiqc/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/paraphase/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/paraphase/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/paraphase/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/paraphase/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/paraphase/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/paraphase/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/paraphase/tests/nextflow.csi_index.config"
+                },
+                {
+                  "path": "modules/nf-core/pbsv/call/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/pbsv/call/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/pbsv/call/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/pbsv/call/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/pbsv/call/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/stranger/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/stranger/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/stranger/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/stranger/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/stranger/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/stranger/tests/nextflow.config"
+                },
+                {
+                  "path": "modules/nf-core/survivor/filter/environment.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6,
+            "title": "Fixed tests",
+            "state": "MERGED",
+            "createdAt": "2025-10-06T09:37:34Z",
+            "mergedAt": "2025-10-06T09:46:10Z",
+            "author": {
+              "login": "nourmahfel"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/actions/find-tests/action.yml"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "subworkflows/local/bam2fastq.nf"
+                },
+                {
+                  "path": "subworkflows/local/longphase.nf"
+                },
+                {
+                  "path": "subworkflows/local/snv.nf"
+                },
+                {
+                  "path": "workflows/longraredisease.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 5,
+            "title": "Fixed linting issues and added modules",
+            "state": "MERGED",
+            "createdAt": "2025-10-03T12:40:48Z",
+            "mergedAt": "2025-10-05T20:51:08Z",
+            "author": {
+              "login": "nourmahfel"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.yml"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/config.yml"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/feature_request.yml"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/actions/get-shards/action.yml"
+                },
+                {
+                  "path": ".github/actions/nf-test/action.yml"
+                },
+                {
+                  "path": ".github/workflows/awsfulltest.yml"
+                },
+                {
+                  "path": ".github/workflows/awstest.yml"
+                },
+                {
+                  "path": ".github/workflows/branch.yml"
+                },
+                {
+                  "path": ".github/workflows/fix-linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".github/workflows/nf-test.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": ".prettierignore"
+                },
+                {
+                  "path": ".prettierrc.yml"
+                },
+                {
+                  "path": "LICENSE"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/adaptivecard.json"
+                },
+                {
+                  "path": "assets/clair3_models.txt"
+                },
+                {
+                  "path": "assets/data/str_repeats.bed"
+                },
+                {
+                  "path": "assets/data_download_links.txt"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/email_template.txt"
+                },
+                {
+                  "path": "assets/methods_description_template.yml"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-longraredisease_logo_light.png"
+                },
+                {
+                  "path": "assets/nf-core-nanoraredx_logo_light.png"
+                },
+                {
+                  "path": "assets/samplesheet.csv"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "assets/sendmail_template.txt"
+                },
+                {
+                  "path": "assets/test_data/bam_pass/test_pass_fc1e9677_854ad362_0.bam"
+                },
+                {
+                  "path": "assets/test_data/bam_pass/test_pass_fc1e9677_854ad362_0.bam.bai"
+                },
+                {
+                  "path": "assets/test_data/bam_pass/test_pass_fc1e9677_854ad362_1.bam"
+                },
+                {
+                  "path": "assets/test_data/bam_pass/test_pass_fc1e9677_854ad362_1.bam.bai"
+                },
+                {
+                  "path": "assets/test_data/bam_pass/test_pass_fc1e9677_854ad362_10.bam"
+                },
+                {
+                  "path": "assets/test_data/bam_pass/test_pass_fc1e9677_854ad362_10.bam.bai"
+                },
+                {
+                  "path": "assets/test_data/bam_pass/test_pass_fc1e9677_854ad362_100.bam"
+                },
+                {
+                  "path": "assets/test_data/bam_pass/test_pass_fc1e9677_854ad362_100.bam.bai"
+                },
+                {
+                  "path": "assets/test_data/bam_pass/test_pass_fc1e9677_854ad362_1000.bam"
+                },
+                {
+                  "path": "assets/test_data/bam_pass/test_pass_fc1e9677_854ad362_1000.bam.bai"
+                },
+                {
+                  "path": "assets/test_data/bam_pass/test_pass_fc1e9677_854ad362_1001.bam"
+                },
+                {
+                  "path": "assets/test_data/bam_pass/test_pass_fc1e9677_854ad362_1001.bam.bai"
+                },
+                {
+                  "path": "assets/test_data/bam_pass/test_pass_fc1e9677_854ad362_1002.bam"
+                },
+                {
+                  "path": "assets/test_data/bam_pass/test_pass_fc1e9677_854ad362_1002.bam.bai"
+                },
+                {
+                  "path": "assets/test_data/test.exclude.bed"
+                },
+                {
+                  "path": "bin/ONTUnifyVcf.py"
+                },
+                {
+                  "path": "bin/filterSV.py"
+                },
+                {
+                  "path": "bin/roundDP.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/README.md"
+                },
+                {
+                  "path": "docs/images/nf-core-longraredisease_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-longraredisease_logo_light.png"
+                },
+                {
+                  "path": "docs/images/nf-core-nanoraredx_logo_dark.png"
+                },
+                {
+                  "path": "docs/images/nf-core-nanoraredx_logo_light.png"
+                },
+                {
+                  "path": "fix_formatting.sh"
+                },
+                {
+                  "path": "fix_nf_format.py"
+                },
+                {
+                  "path": "longraredisease_slurm.sh"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/SvAnna/main.nf"
+                },
+                {
+                  "path": "modules/local/clair3_fixVCF/main.nf"
+                },
+                {
+                  "path": "modules/local/exomiser/main.nf"
+                },
+                {
+                  "path": "modules/local/filterSV/main.nf"
+                },
+                {
+                  "path": "modules/local/hificnv/main.nf"
+                },
+                {
+                  "path": "modules/local/methbat/main.nf"
+                },
+                {
+                  "path": "modules/local/round_dp/main.nf"
+                },
+                {
+                  "path": "modules/local/spectre/environment.yml"
+                },
+                {
+                  "path": "modules/local/spectre/main.nf"
+                },
+                {
+                  "path": "modules/local/spectre/meta.yml"
+                },
+                {
+                  "path": "modules/local/straglr/main.nf"
+                },
+                {
+                  "path": "modules/local/survivor_vcftobed/main.nf"
+                },
+                {
+                  "path": "modules/local/svim/main.nf"
+                },
+                {
+                  "path": "modules/local/truvari/collapse/main.nf"
+                },
+                {
+                  "path": "modules/local/truvari/collapse/meta.yml"
+                },
+                {
+                  "path": "modules/local/truvari/collapse/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/local/unifyvcf_geneyx/main.nf"
+                },
+                {
+                  "path": "modules/local/winnowmap/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/concat/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/concat/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/concat/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/concat/tests/main.nf.test"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/concat/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/concat/tests/vcf_gz_index.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/concat/tests/vcf_gz_index_csi.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/concat/tests/vcf_gz_index_tbi.config"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/isec/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/isec/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/isec/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/merge/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/norm/environment.yml"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/norm/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/norm/tests/main.nf.test.snap"
+                },
+                {
+                  "path": "modules/nf-core/bcftools/reheader/environment.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4,
+            "title": "Update README.md",
+            "state": "CLOSED",
+            "createdAt": "2025-10-03T12:36:37Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nourmahfel"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

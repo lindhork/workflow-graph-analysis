@@ -1,0 +1,171 @@
+import pandas as pd
+import numpy as np
+import os
+from shutil import which
+from snakemake.utils import validate, min_version
+import itertools
+
+##### set minimum snakemake version #####
+min_version("7.25.0")
+
+##### load config and sample sheets #####
+
+configfile: "config/config.yaml"
+
+units = pd.read_table(config["units"], dtype={"sample" : str, "group" : str, "fq1" : str, "fq2" : str, "RG" : str})
+units["RG"] = units["RG"].fillna("")
+validate(units, "../schema/units.schema.yaml")
+units['group_index'] = units.groupby('sample').cumcount().astype(str)
+
+onstart:
+    print(units)
+
+fq2_is_all_empty = units['fq2'].isna() | (units['fq2'] == '')
+fq2_is_all_empty = fq2_is_all_empty.all()
+
+if (fq2_is_all_empty and config['PE_or_SE'] != "SE"):
+    raise Exception('The fq2 column in the samplesheet must be filled unless PE_or_SE is set to "SE" in config/config.yaml.')
+
+if not (units['fq1'].is_unique and (units['fq2'].is_unique or fq2_is_all_empty)):
+    raise Exception('Same fastq specified in more than one row.')
+
+
+samples = units[["sample","group"]].drop_duplicates()
+if not samples['sample'].is_unique:
+    raise Exception('A sample has more than one group.')
+valid_groups = samples.groupby(['group'])['group'].count() > 1
+
+if not (valid_groups.all()):
+    raise Exception('Each group in the samplesheet must have at least two samples.')
+
+
+Rproj_packages_vals = pd.read_table("config/R_proj_packages.txt", header=None)[0].values
+Rproj_packages = "c('" + "','".join(Rproj_packages_vals) + "')"
+
+# comparisons: list of comparisons (contrasts) to be tested
+comparisons = pd.read_table(config["comparisons"]) #, dtype={"comparison_name" : str, "group_test" : str, "group_reference" : str})
+if not (comparisons['group_test'].isin(samples['group']).all() and comparisons['group_reference'].isin(samples['group']).all()):
+    raise Exception('A group in the comparisons file is not in the samplesheet.')
+    
+
+snakemake_dir = os.getcwd() + "/"
+
+# make a tmp directory for analyses
+tmp_dir = os.path.join(snakemake_dir, "tmp")
+if not os.path.exists(tmp_dir):
+    os.mkdir(tmp_dir)
+
+
+
+# Need this directive because both PE and SE versions of these rules produce the trimmed R1 output files.
+ruleorder: trim_galore_PE > trim_galore_SE
+
+
+
+# below is to process quick ref genome information:
+quick_ref_id = config['quick_ref']['species_name']
+quick_vers = config['quick_ref']['ref_genome_version']
+
+print("\n")
+if quick_ref_id:
+    if config['call_variants']:
+        raise Exception("Quick references not supported when variant calling is requested.")
+
+    print("Using quick_ref instead of manually indicated index files.")
+    
+    # erase manually specified files to prevent accidentally mixing files from different versions
+    config['ref'] = {}
+
+    ref_base_dir = "/varidata/research/projects/bbc/versioned_references"
+    
+    if quick_vers:
+        ref_base_dir = f'{ref_base_dir}/{quick_vers}'
+    else:
+        print(f'Version number not specified. Will use the latest version of the BBC-curated reference files.')
+        ref_base_dir = os.readlink(f"{ref_base_dir}/latest")
+
+    ref_base_dir = f'{ref_base_dir}/data/{quick_ref_id}'
+    print(f'Using the index files in {ref_base_dir}.\n')
+
+    config['ref']['index'] = f'{ref_base_dir}/indexes/star'
+    config['ref']['salmon_index'] = f'{ref_base_dir}/indexes/salmon/{quick_ref_id}'
+    config['ref']['annotation'] = f'{ref_base_dir}/annotation/{quick_ref_id}.gtf'
+    config['ref']['dict'] = f'{ref_base_dir}/sequence/{quick_ref_id}.dict'
+
+else:
+    print("Using the index files manually specified in the config file.\n")
+
+quick_ref_dict = {
+        
+    "hg38_gencode"       :["hsa", "human",    "Homo sapiens",            "org.Hs.eg.db"],
+    "mm10_gencode"       :["mmu", "mouse",    "Mus musculus",            "org.Mm.eg.db"],
+    "rnor6_ensembl"      :["rno", "rat",      "Ratus norvegicus",        "org.Rn.eg.db"],
+    "dm6_BDGP6.28.100"   :["dme", "fly",      "Drosophila melanogaster", "org.Dm.eg.db"],
+    "c.elegans-WBcel235" :["cel", "celegans", "Caenorhabditis elegans",  "org.Ce.eg.db"]
+
+    }
+
+if quick_ref_id in quick_ref_dict:
+
+    # quick_ref python dictionary for quick implementation: 
+
+    # For GSEA
+    # kegg_org should be a three or four letter string corresponding to your reference species. List of KEGG species is found here: https://www.genome.jp/kegg/tables/br08606.html
+    config['kegg_org'] = quick_ref_dict[quick_ref_id][0]
+
+    # reactome_org can be "human", "mouse", "rat", "celegans", "yeast", "zebrafish", "fly" 
+    config['reactome_org'] = quick_ref_dict[quick_ref_id][1]
+
+    # Full species name. Applicable input strings can be found by installing the msigdbr library in R and using msigdbr::msigdbr_species()
+    config['msigdb_organism'] = quick_ref_dict[quick_ref_id][2]
+
+    # The species database for translating gene names and analyses
+    config['orgdb'] = quick_ref_dict[quick_ref_id][3]
+
+
+if (config['call_variants']):
+    # read grouped contigs
+    contigs_file = config["grouped_contigs"]
+    contig_groups = pd.read_table(contigs_file)
+    contig_groups['contigs'] = contig_groups['contigs'].replace('', np.nan) # unplaced_contigs can be empty for certain references.
+    contig_groups.dropna(subset=['contigs'], inplace=True)
+
+    # check chromosomes/contigs parsed correctly by comparing to fai.
+    fai_file = config["ref"]["fai"]
+    contigs_fai = sorted(pd.read_table(fai_file, names=['name','len','offset','linebases','linewidth'])['name'].values)
+    contigs_parsed = [x.split(',') for x in contig_groups['contigs'].values]
+    contigs_parsed_flat = sorted(list(itertools.chain.from_iterable(contigs_parsed)))
+
+    assert contigs_fai == contigs_parsed_flat, "Chromosomes in grouped contigs file do not match fai."
+
+    include: 'rules/variants.smk'
+
+rule all:
+    input:
+        "results/multiqc/multiqc_report.html",
+        expand("results/SummarizedExperiment/{pref}.rds", pref=['SummarizedExperiment', 'sce']),
+        expand("results/avg_bigwigs/{group}.unstr.bw", group=pd.unique(samples['group'])) if (config["run_vis_bigwig"]) else [],
+        expand("results/deseq2/DESeq2_{comparison_name}.html", comparison_name=pd.unique(comparisons["comparison_name"])),
+        expand("results/gsea/gsea_{comparison_name}.html", comparison_name=pd.unique(comparisons["comparison_name"])),
+        "results/variant_calling/final/07a_variant_annot/all.merged.filt.PASS.snpeff.vcf.gz" if (config["call_variants"]) else [],
+        "results/variant_calling/final/07b_snp_pca_and_dendro/snprelate.html" if (config["call_variants"]) else [],
+        "results/make_final_report/BBC_RNAseq_Report",
+        "results/iSEE/app.R",
+        "results/iSEE/deployed" if (config["deploy_to_shinyio"]) else [],
+
+include:
+    'rules/RNAseq.smk'
+include:
+    'rules/qc.smk'
+include:
+    'rules/visualisation.smk'
+include:
+    'rules/make_Rprojects.smk'
+include:
+    'rules/deseq2.smk'
+include:
+    'rules/gsea.smk'
+include:
+    'rules/make_report.smk'
+include:
+    'rules/isee.smk'

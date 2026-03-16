@@ -1,0 +1,186 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 13,
+            "title": "Pipeline failure with example samples",
+            "state": "OPEN",
+            "createdAt": "2024-08-21T09:45:58Z",
+            "closedAt": null,
+            "author": {
+              "login": "RuanSpies21"
+            }
+          },
+          {
+            "number": 12,
+            "title": "Error running Transmission analysis step on examples",
+            "state": "OPEN",
+            "createdAt": "2024-05-08T22:50:48Z",
+            "closedAt": null,
+            "author": {
+              "login": "paumayell"
+            }
+          },
+          {
+            "number": 8,
+            "title": "[*] Error: run seqtrack R script failed.",
+            "state": "OPEN",
+            "createdAt": "2023-09-01T00:19:05Z",
+            "closedAt": null,
+            "author": {
+              "login": "Czirion"
+            }
+          },
+          {
+            "number": 7,
+            "title": "Same as issue #6",
+            "state": "OPEN",
+            "createdAt": "2023-07-12T18:14:08Z",
+            "closedAt": null,
+            "author": {
+              "login": "jloubser"
+            }
+          },
+          {
+            "number": 6,
+            "title": "Error Running on Examples",
+            "state": "OPEN",
+            "createdAt": "2023-07-01T10:53:38Z",
+            "closedAt": null,
+            "author": {
+              "login": "lsplf"
+            }
+          },
+          {
+            "number": 5,
+            "title": "Error running example",
+            "state": "CLOSED",
+            "createdAt": "2023-05-31T19:30:33Z",
+            "closedAt": "2023-10-03T15:02:35Z",
+            "author": {
+              "login": "Czirion"
+            }
+          },
+          {
+            "number": 4,
+            "title": "Cannot run example files after install with mamba",
+            "state": "OPEN",
+            "createdAt": "2023-05-28T22:29:49Z",
+            "closedAt": null,
+            "author": null
+          },
+          {
+            "number": 3,
+            "title": "fastq files not going to temp file",
+            "state": "CLOSED",
+            "createdAt": "2023-05-22T15:12:24Z",
+            "closedAt": "2023-05-22T20:32:44Z",
+            "author": null
+          },
+          {
+            "number": 2,
+            "title": "Environment Killed while solving",
+            "state": "CLOSED",
+            "createdAt": "2023-04-11T20:07:29Z",
+            "closedAt": "2023-04-11T20:55:29Z",
+            "author": null
+          },
+          {
+            "number": 1,
+            "title": "Is there some Annotation information abou pangenomeMTB_consensus.fasta?",
+            "state": "CLOSED",
+            "createdAt": "2023-01-17T09:17:49Z",
+            "closedAt": "2023-01-17T14:49:45Z",
+            "author": {
+              "login": "Dx-wmc"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 11,
+            "title": "Configurable minimum valid cluster size",
+            "state": "OPEN",
+            "createdAt": "2024-02-09T10:33:45Z",
+            "mergedAt": null,
+            "author": {
+              "login": "marvinkobit"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Readme.md"
+                },
+                {
+                  "path": "config/configfile.yaml"
+                },
+                {
+                  "path": "workflow/rules/transmission_detection.smk"
+                },
+                {
+                  "path": "workflow/scripts/run_transmission_detection.py"
+                },
+                {
+                  "path": "workflow/transmission_analysis.snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 10,
+            "title": "Use MIN_QUAL parameter in Trimmomatic for PE",
+            "state": "MERGED",
+            "createdAt": "2024-01-27T12:27:49Z",
+            "mergedAt": "2024-02-09T08:07:06Z",
+            "author": {
+              "login": "marvinkobit"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflow/rules/transmission_detection.smk"
+                },
+                {
+                  "path": "workflow/rules/trimming.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 9,
+            "title": "bug fix: subprocess error",
+            "state": "MERGED",
+            "createdAt": "2023-12-22T20:05:34Z",
+            "mergedAt": "2024-01-07T13:22:32Z",
+            "author": {
+              "login": "marvinkobit"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "Readme.md"
+                },
+                {
+                  "path": "workflow/rules/transition.smk"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

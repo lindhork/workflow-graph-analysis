@@ -1,0 +1,3006 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 96,
+            "title": "feat: write out samples table regardless of zarp being run or not",
+            "state": "OPEN",
+            "createdAt": "2024-11-03T16:54:03Z",
+            "closedAt": null,
+            "author": {
+              "login": "ninsch3000"
+            }
+          },
+          {
+            "number": 94,
+            "title": "Strict Conda channel priority not supported",
+            "state": "OPEN",
+            "createdAt": "2024-09-22T11:37:38Z",
+            "closedAt": null,
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 85,
+            "title": "feat: minimize Singularity bind paths",
+            "state": "OPEN",
+            "createdAt": "2024-02-05T03:20:25Z",
+            "closedAt": null,
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 84,
+            "title": "feat: set verbosity during init",
+            "state": "CLOSED",
+            "createdAt": "2024-02-05T03:16:11Z",
+            "closedAt": "2024-02-05T13:15:25Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 81,
+            "title": "fix: propagate HTSinfer inferences",
+            "state": "CLOSED",
+            "createdAt": "2024-01-31T17:56:28Z",
+            "closedAt": "2024-01-31T20:17:16Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 74,
+            "title": "build: fix environment files to avoid warnings & errors",
+            "state": "CLOSED",
+            "createdAt": "2023-09-07T00:32:30Z",
+            "closedAt": "2023-09-07T00:42:28Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 73,
+            "title": "feat: include verbosity level in default configuration",
+            "state": "OPEN",
+            "createdAt": "2023-09-07T00:28:07Z",
+            "closedAt": null,
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 72,
+            "title": "feat: restructure HTSinfer output directory tree",
+            "state": "CLOSED",
+            "createdAt": "2023-09-07T00:26:25Z",
+            "closedAt": "2023-09-07T00:59:58Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 70,
+            "title": "feat: support sample-specific genome assembly & version params",
+            "state": "OPEN",
+            "createdAt": "2023-09-06T11:32:25Z",
+            "closedAt": null,
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 69,
+            "title": "feat: support default versions for multiple Ensembl databases",
+            "state": "OPEN",
+            "createdAt": "2023-09-06T11:24:20Z",
+            "closedAt": null,
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 68,
+            "title": "feat: pass HTSinfer options",
+            "state": "OPEN",
+            "createdAt": "2023-09-06T11:08:25Z",
+            "closedAt": null,
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 66,
+            "title": "build: use Conda for dev environment setup",
+            "state": "CLOSED",
+            "createdAt": "2023-09-05T23:08:36Z",
+            "closedAt": "2023-09-06T00:00:54Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 64,
+            "title": "fix: input files for SMK workflows are not always found when executing via Singularity",
+            "state": "CLOSED",
+            "createdAt": "2023-09-05T21:00:11Z",
+            "closedAt": "2023-09-05T21:14:43Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 59,
+            "title": "feat: use profiles in Snakemake call",
+            "state": "CLOSED",
+            "createdAt": "2023-05-15T09:53:27Z",
+            "closedAt": "2023-09-14T06:44:57Z",
+            "author": {
+              "login": "balajtimate"
+            }
+          },
+          {
+            "number": 56,
+            "title": "feat: set dummy data",
+            "state": "CLOSED",
+            "createdAt": "2023-05-12T09:34:34Z",
+            "closedAt": "2023-05-12T11:18:18Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 55,
+            "title": "fix: use defaults from user config",
+            "state": "CLOSED",
+            "createdAt": "2023-05-12T08:32:42Z",
+            "closedAt": "2023-05-12T11:40:26Z",
+            "author": {
+              "login": "balajtimate"
+            }
+          },
+          {
+            "number": 53,
+            "title": "feat: set sample config defaults",
+            "state": "CLOSED",
+            "createdAt": "2023-04-28T11:32:57Z",
+            "closedAt": "2023-05-12T10:47:28Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 48,
+            "title": "docs: API reference not built for all modules",
+            "state": "CLOSED",
+            "createdAt": "2023-03-15T01:31:12Z",
+            "closedAt": "2023-03-15T01:38:42Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 46,
+            "title": "docs: fix docs title",
+            "state": "CLOSED",
+            "createdAt": "2023-03-15T01:12:56Z",
+            "closedAt": "2023-03-15T01:21:05Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 44,
+            "title": "docs: fix broken/outdated badges",
+            "state": "CLOSED",
+            "createdAt": "2023-03-15T00:57:20Z",
+            "closedAt": "2023-03-15T01:11:29Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 43,
+            "title": "ci: automatically publish documentation on GH Pages",
+            "state": "CLOSED",
+            "createdAt": "2023-03-15T00:45:32Z",
+            "closedAt": "2023-03-15T00:53:11Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 42,
+            "title": "docs: provide API reference",
+            "state": "CLOSED",
+            "createdAt": "2023-03-15T00:43:04Z",
+            "closedAt": "2023-03-15T00:53:10Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 41,
+            "title": "docs: provide extensive documentation",
+            "state": "CLOSED",
+            "createdAt": "2023-03-15T00:40:33Z",
+            "closedAt": "2023-09-06T22:18:06Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 38,
+            "title": "docs: refer to ZARP installation",
+            "state": "CLOSED",
+            "createdAt": "2023-03-10T14:07:44Z",
+            "closedAt": "2023-04-13T16:33:45Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 37,
+            "title": "Publish ZARP-cli on Bioconda",
+            "state": "CLOSED",
+            "createdAt": "2023-03-10T12:08:22Z",
+            "closedAt": "2023-03-17T08:42:43Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 36,
+            "title": "Use Conda for dependency management",
+            "state": "CLOSED",
+            "createdAt": "2023-03-10T12:06:12Z",
+            "closedAt": "2023-03-14T18:02:54Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 34,
+            "title": "feat: infer missing metadata",
+            "state": "CLOSED",
+            "createdAt": "2022-12-02T09:39:48Z",
+            "closedAt": "2023-05-24T22:14:44Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 30,
+            "title": "Fix broken/outdated badges in README",
+            "state": "CLOSED",
+            "createdAt": "2022-11-20T00:54:35Z",
+            "closedAt": "2022-12-01T23:04:16Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 26,
+            "title": "ci: move to GitHub Actions",
+            "state": "CLOSED",
+            "createdAt": "2022-03-21T22:05:17Z",
+            "closedAt": "2022-05-05T07:31:49Z",
+            "author": {
+              "login": "AngryMaciek"
+            }
+          },
+          {
+            "number": 25,
+            "title": "feat: fetch genome resources",
+            "state": "CLOSED",
+            "createdAt": "2022-03-17T11:12:06Z",
+            "closedAt": "2023-05-22T00:20:56Z",
+            "author": {
+              "login": "mzavolan"
+            }
+          },
+          {
+            "number": 22,
+            "title": "Clone repos from github",
+            "state": "CLOSED",
+            "createdAt": "2022-03-16T14:36:50Z",
+            "closedAt": "2023-03-10T14:19:30Z",
+            "author": {
+              "login": "dominikburri"
+            }
+          },
+          {
+            "number": 19,
+            "title": "Move run specific parameters from samples.tsv to rule_config.yaml",
+            "state": "CLOSED",
+            "createdAt": "2021-04-09T17:26:50Z",
+            "closedAt": "2022-12-01T23:44:04Z",
+            "author": {
+              "login": "ninsch3000"
+            }
+          },
+          {
+            "number": 18,
+            "title": "Integration of zarp",
+            "state": "CLOSED",
+            "createdAt": "2021-04-09T14:02:08Z",
+            "closedAt": "2022-03-13T23:47:29Z",
+            "author": {
+              "login": "dominikburri"
+            }
+          },
+          {
+            "number": 16,
+            "title": "Ensure compatibility between HTSinfer inferences & user input",
+            "state": "CLOSED",
+            "createdAt": "2021-03-19T10:18:52Z",
+            "closedAt": "2022-03-13T23:46:36Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 15,
+            "title": "Define run model & implement validations",
+            "state": "CLOSED",
+            "createdAt": "2021-03-13T16:14:23Z",
+            "closedAt": "2022-08-27T16:24:27Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 14,
+            "title": "Add config handler",
+            "state": "CLOSED",
+            "createdAt": "2021-03-13T16:05:26Z",
+            "closedAt": "2022-08-27T16:24:27Z",
+            "author": {
+              "login": "uniqueg"
+            }
+          },
+          {
+            "number": 13,
+            "title": "feat: post-processing & cleanup",
+            "state": "OPEN",
+            "createdAt": "2021-03-01T23:30:06Z",
+            "closedAt": null,
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 12,
+            "title": "feat: create Snakemake report",
+            "state": "OPEN",
+            "createdAt": "2021-03-01T23:28:03Z",
+            "closedAt": null,
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 11,
+            "title": "feat: run ZARP workflow",
+            "state": "CLOSED",
+            "createdAt": "2021-03-01T23:26:29Z",
+            "closedAt": "2023-08-31T22:59:49Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 10,
+            "title": "Create Snakemake run config files",
+            "state": "CLOSED",
+            "createdAt": "2021-03-01T23:25:13Z",
+            "closedAt": "2022-12-02T02:17:56Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 9,
+            "title": "Infer missing sample parameters with HTSinfer",
+            "state": "CLOSED",
+            "createdAt": "2021-03-01T23:19:48Z",
+            "closedAt": "2022-03-13T23:46:18Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 8,
+            "title": "Download samples from SRA",
+            "state": "CLOSED",
+            "createdAt": "2021-03-01T23:16:46Z",
+            "closedAt": "2023-04-13T16:31:01Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 7,
+            "title": "Create list of sample model class objects",
+            "state": "CLOSED",
+            "createdAt": "2021-03-01T23:14:00Z",
+            "closedAt": "2021-03-13T16:16:18Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 6,
+            "title": "Implement initialization routine",
+            "state": "CLOSED",
+            "createdAt": "2021-03-01T23:11:56Z",
+            "closedAt": "2022-08-27T16:24:27Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 5,
+            "title": "feat: genome resources management",
+            "state": "CLOSED",
+            "createdAt": "2021-03-01T23:06:11Z",
+            "closedAt": "2023-08-31T17:31:50Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 4,
+            "title": "Define sample model & implement validations",
+            "state": "CLOSED",
+            "createdAt": "2021-03-01T23:00:12Z",
+            "closedAt": "2021-03-31T08:59:51Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 3,
+            "title": "Define user model & implement validations",
+            "state": "CLOSED",
+            "createdAt": "2021-03-01T22:57:07Z",
+            "closedAt": "2021-03-31T08:59:50Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 2,
+            "title": "Parse & validate CLI args",
+            "state": "CLOSED",
+            "createdAt": "2021-03-01T22:51:29Z",
+            "closedAt": "2022-08-27T16:24:27Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          },
+          {
+            "number": 1,
+            "title": "Define CLI params",
+            "state": "CLOSED",
+            "createdAt": "2021-03-01T22:44:10Z",
+            "closedAt": "2022-08-27T16:24:26Z",
+            "author": {
+              "login": "mkatsanto"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 97,
+            "title": "build: major dependencies update",
+            "state": "OPEN",
+            "createdAt": "2025-04-22T13:06:34Z",
+            "mergedAt": null,
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/docs.yml"
+                },
+                {
+                  "path": ".github/workflows/tests.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/README.md"
+                },
+                {
+                  "path": "docs/guides/initialization.md"
+                },
+                {
+                  "path": "docs/guides/installation.md"
+                },
+                {
+                  "path": "docs/includes/abbreviations.md"
+                },
+                {
+                  "path": "docs/includes/references.md"
+                },
+                {
+                  "path": "install/environment.dev.root.yml"
+                },
+                {
+                  "path": "install/environment.dev.yml"
+                },
+                {
+                  "path": "install/environment.root.yml"
+                },
+                {
+                  "path": "install/environment.yml"
+                },
+                {
+                  "path": "setup.py"
+                },
+                {
+                  "path": "tests/config/test_args.py"
+                },
+                {
+                  "path": "tests/plugins/sample_fetchers/test_sra.py"
+                },
+                {
+                  "path": "tests/plugins/sample_processors/test_defaults.py"
+                },
+                {
+                  "path": "tests/plugins/sample_processors/test_dummy_data.py"
+                },
+                {
+                  "path": "tests/plugins/sample_processors/test_genomepy.py"
+                },
+                {
+                  "path": "tests/plugins/sample_processors/test_htsinfer.py"
+                },
+                {
+                  "path": "tests/runner/test_zarp_runner.py"
+                },
+                {
+                  "path": "tests/samples/test_sample_record_processor.py"
+                },
+                {
+                  "path": "tests/snakemake/test_run.py"
+                },
+                {
+                  "path": "zarp/config/enums.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/defaults.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/htsinfer.py"
+                },
+                {
+                  "path": "zarp/runner/zarp_runner.py"
+                },
+                {
+                  "path": "zarp/samples/sample_record_processor.py"
+                },
+                {
+                  "path": "zarp/snakemake/run.py"
+                },
+                {
+                  "path": "zarp/version.py"
+                },
+                {
+                  "path": "zarp/zarp.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 94
+                }
+              ]
+            }
+          },
+          {
+            "number": 95,
+            "title": "docs: typo fix in initialization.md",
+            "state": "MERGED",
+            "createdAt": "2024-11-01T10:28:38Z",
+            "mergedAt": "2024-11-01T11:27:47Z",
+            "author": {
+              "login": "ninsch3000"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/guides/initialization.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 93,
+            "title": "docs: add latest poster",
+            "state": "MERGED",
+            "createdAt": "2024-08-27T15:26:04Z",
+            "mergedAt": "2024-08-27T18:44:07Z",
+            "author": {
+              "login": "ninsch3000"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/README.md"
+                },
+                {
+                  "path": "docs/images/poster_ZARP_latest.jpg"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 92,
+            "title": "docs: update README.md",
+            "state": "MERGED",
+            "createdAt": "2024-08-24T15:53:43Z",
+            "mergedAt": "2024-08-24T16:04:43Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 91,
+            "title": "chore: add CITATION.cff",
+            "state": "MERGED",
+            "createdAt": "2024-08-24T15:11:20Z",
+            "mergedAt": "2024-08-24T15:22:48Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "CITATION.cff"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 90,
+            "title": "docs: various updates (rebase)",
+            "state": "MERGED",
+            "createdAt": "2024-08-23T14:26:20Z",
+            "mergedAt": "2024-08-23T14:33:45Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/README.md"
+                },
+                {
+                  "path": "docs/guides/examples.md"
+                },
+                {
+                  "path": "docs/guides/initialization.md"
+                },
+                {
+                  "path": "docs/guides/installation.md"
+                },
+                {
+                  "path": "docs/includes/references.md"
+                },
+                {
+                  "path": "docs/overrides/.icons/download.svg"
+                },
+                {
+                  "path": "docs/overrides/.icons/twitter.svg"
+                },
+                {
+                  "path": "docs/overrides/.icons/x.svg"
+                },
+                {
+                  "path": "mkdocs.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 89,
+            "title": "build: v1.0.0-rc.1",
+            "state": "MERGED",
+            "createdAt": "2024-03-06T14:52:11Z",
+            "mergedAt": "2024-03-06T15:14:19Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "zarp/version.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 88,
+            "title": "docs: minor fixes",
+            "state": "MERGED",
+            "createdAt": "2024-03-06T14:24:14Z",
+            "mergedAt": "2024-03-06T14:47:51Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/guides/usage.md"
+                },
+                {
+                  "path": "zarp/config/args.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 87,
+            "title": "feat: Conda support for HTSinfer workflow",
+            "state": "MERGED",
+            "createdAt": "2024-02-11T11:48:56Z",
+            "mergedAt": "2024-02-11T12:01:16Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "zarp/snakemake/run.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 86,
+            "title": "fix(htsinfer): set Singularity bind args for Conda",
+            "state": "MERGED",
+            "createdAt": "2024-02-05T12:20:24Z",
+            "mergedAt": "2024-02-05T13:06:31Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "zarp/snakemake/run.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 83,
+            "title": "fix: various prerelease fixes",
+            "state": "MERGED",
+            "createdAt": "2024-02-01T16:06:23Z",
+            "mergedAt": "2024-02-05T03:29:53Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "data/genome_assemblies.csv"
+                },
+                {
+                  "path": "tests/plugins/sample_processors/test_htsinfer.py"
+                },
+                {
+                  "path": "tests/snakemake/test_config_file_processor.py"
+                },
+                {
+                  "path": "tests/snakemake/test_run.py"
+                },
+                {
+                  "path": "zarp/config/constants.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/dummy_data.py"
+                },
+                {
+                  "path": "zarp/runner/zarp_runner.py"
+                },
+                {
+                  "path": "zarp/snakemake/run.py"
+                },
+                {
+                  "path": "zarp/zarp.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 82,
+            "title": "fix: various pre-release fixes",
+            "state": "MERGED",
+            "createdAt": "2024-02-01T03:38:56Z",
+            "mergedAt": "2024-02-01T04:02:11Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "data/genome_assemblies.csv"
+                },
+                {
+                  "path": "tests/config/test_init.py"
+                },
+                {
+                  "path": "tests/plugins/sample_processors/test_htsinfer.py"
+                },
+                {
+                  "path": "tests/runner/test_zarp_runner.py"
+                },
+                {
+                  "path": "tests/samples/test_sample_record_processor.py"
+                },
+                {
+                  "path": "tests/samples/test_sample_table_processor.py"
+                },
+                {
+                  "path": "zarp/config/samples.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_fetchers/sra.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/defaults.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/dummy_data.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/genomepy.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/htsinfer.py"
+                },
+                {
+                  "path": "zarp/runner/zarp_runner.py"
+                },
+                {
+                  "path": "zarp/samples/sample_record_processor.py"
+                },
+                {
+                  "path": "zarp/samples/sample_table_processor.py"
+                },
+                {
+                  "path": "zarp/zarp.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 80,
+            "title": "fix: propagate HTSinfer inferences",
+            "state": "MERGED",
+            "createdAt": "2024-01-31T17:54:11Z",
+            "mergedAt": "2024-01-31T20:16:54Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/files/zarp/workflow/Snakefile"
+                },
+                {
+                  "path": "tests/files/zarp/workflow/rules/htsinfer.smk"
+                },
+                {
+                  "path": "tests/plugins/sample_processors/test_htsinfer.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/htsinfer.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 79,
+            "title": "fix: mount TMP directories for Singularity",
+            "state": "MERGED",
+            "createdAt": "2024-01-31T17:53:55Z",
+            "mergedAt": "2024-01-31T18:03:07Z",
+            "author": {
+              "login": "ninsch3000"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "zarp/snakemake/run.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 78,
+            "title": "fix: mount TMP directories for Singularity",
+            "state": "CLOSED",
+            "createdAt": "2024-01-31T17:38:19Z",
+            "mergedAt": null,
+            "author": {
+              "login": "ninsch3000"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "zarp/snakemake/run.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 77,
+            "title": "feat: pass Snakemake profile to ZARP workflow",
+            "state": "MERGED",
+            "createdAt": "2023-09-14T06:17:27Z",
+            "mergedAt": "2023-09-14T06:44:56Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/guides/initialization.md"
+                },
+                {
+                  "path": "docs/includes/references.md"
+                },
+                {
+                  "path": "tests/snakemake/test_run.py"
+                },
+                {
+                  "path": "zarp/config/args.py"
+                },
+                {
+                  "path": "zarp/config/models.py"
+                },
+                {
+                  "path": "zarp/snakemake/run.py"
+                },
+                {
+                  "path": "zarp/version.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 59
+                }
+              ]
+            }
+          },
+          {
+            "number": 76,
+            "title": "feat: restructure HTSinfer output dir tree",
+            "state": "MERGED",
+            "createdAt": "2023-09-07T00:52:00Z",
+            "mergedAt": "2023-09-07T00:59:57Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "zarp/config/models.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/htsinfer.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 72
+                }
+              ]
+            }
+          },
+          {
+            "number": 75,
+            "title": "build: fix installation",
+            "state": "MERGED",
+            "createdAt": "2023-09-07T00:33:48Z",
+            "mergedAt": "2023-09-07T00:42:27Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/docs.yml"
+                },
+                {
+                  "path": ".github/workflows/tests.yml"
+                },
+                {
+                  "path": "MANIFEST.in"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "bin/LICENSE"
+                },
+                {
+                  "path": "bin/README.md"
+                },
+                {
+                  "path": "bin/bedToGenePred"
+                },
+                {
+                  "path": "bin/genePredToBed"
+                },
+                {
+                  "path": "bin/genePredToGtf"
+                },
+                {
+                  "path": "bin/gff3ToGenePred"
+                },
+                {
+                  "path": "bin/gtfToGenePred"
+                },
+                {
+                  "path": "docs/guides/installation.md"
+                },
+                {
+                  "path": "environment.dev.yml"
+                },
+                {
+                  "path": "environment.root.yml"
+                },
+                {
+                  "path": "install/environment.dev.root.yml"
+                },
+                {
+                  "path": "install/environment.dev.yml"
+                },
+                {
+                  "path": "install/environment.root.yml"
+                },
+                {
+                  "path": "install/environment.yml"
+                },
+                {
+                  "path": "zarp/version.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 74
+                }
+              ]
+            }
+          },
+          {
+            "number": 71,
+            "title": "docs: provide extensive documentation",
+            "state": "MERGED",
+            "createdAt": "2023-09-06T21:28:10Z",
+            "mergedAt": "2023-09-06T22:18:05Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/docs.yml"
+                },
+                {
+                  "path": ".github/workflows/tests.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/.pages"
+                },
+                {
+                  "path": "docs/README.md"
+                },
+                {
+                  "path": "docs/api/conf.py"
+                },
+                {
+                  "path": "docs/api/index.rst"
+                },
+                {
+                  "path": "docs/guides/examples.md"
+                },
+                {
+                  "path": "docs/guides/initialization.md"
+                },
+                {
+                  "path": "docs/guides/installation.md"
+                },
+                {
+                  "path": "docs/guides/usage.md"
+                },
+                {
+                  "path": "docs/images/biozentrum_logo.200px.png"
+                },
+                {
+                  "path": "docs/images/poster_ZARP_cli.jpg"
+                },
+                {
+                  "path": "docs/images/sib_logo.200px.png"
+                },
+                {
+                  "path": "docs/images/zarp_logo.256px.png"
+                },
+                {
+                  "path": "docs/images/zarp_logo.32px.png"
+                },
+                {
+                  "path": "docs/images/zarp_logo.384px.png"
+                },
+                {
+                  "path": "docs/images/zavolab_logo.200px.png"
+                },
+                {
+                  "path": "docs/includes/abbreviations.md"
+                },
+                {
+                  "path": "docs/includes/references.md"
+                },
+                {
+                  "path": "docs/overrides/.icons/email.svg"
+                },
+                {
+                  "path": "docs/overrides/.icons/forum.svg"
+                },
+                {
+                  "path": "docs/overrides/.icons/github.svg"
+                },
+                {
+                  "path": "docs/overrides/.icons/twitter.svg"
+                },
+                {
+                  "path": "mkdocs.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 41
+                }
+              ]
+            }
+          },
+          {
+            "number": 67,
+            "title": "build: use Conda for dev environment setup",
+            "state": "MERGED",
+            "createdAt": "2023-09-05T23:10:47Z",
+            "mergedAt": "2023-09-06T00:00:53Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/docs.yml"
+                },
+                {
+                  "path": ".github/workflows/tests.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "environment.dev.yml"
+                },
+                {
+                  "path": "environment.root.yml"
+                },
+                {
+                  "path": "environment.yml"
+                },
+                {
+                  "path": "requirements.txt"
+                },
+                {
+                  "path": "requirements_dev.txt"
+                },
+                {
+                  "path": "setup.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 66
+                }
+              ]
+            }
+          },
+          {
+            "number": 65,
+            "title": "fix: bind input file locations to Singularity",
+            "state": "MERGED",
+            "createdAt": "2023-09-05T21:01:29Z",
+            "mergedAt": "2023-09-05T21:14:42Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "requirements.txt"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/htsinfer.py"
+                },
+                {
+                  "path": "zarp/runner/zarp_runner.py"
+                },
+                {
+                  "path": "zarp/snakemake/run.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 64
+                }
+              ]
+            }
+          },
+          {
+            "number": 63,
+            "title": "feat: execute ZARP",
+            "state": "MERGED",
+            "createdAt": "2023-08-31T17:37:22Z",
+            "mergedAt": "2023-08-31T22:59:48Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/tests.yml"
+                },
+                {
+                  "path": "data/genome_assemblies.csv"
+                },
+                {
+                  "path": "tests/config/test_args.py"
+                },
+                {
+                  "path": "tests/config/test_enums.py"
+                },
+                {
+                  "path": "tests/config/test_init.py"
+                },
+                {
+                  "path": "tests/config/test_samples.py"
+                },
+                {
+                  "path": "tests/files/complete_test_set/annotations.gtf"
+                },
+                {
+                  "path": "tests/files/complete_test_set/genome.fa"
+                },
+                {
+                  "path": "tests/files/complete_test_set/genome.fa.fai"
+                },
+                {
+                  "path": "tests/files/complete_test_set/sample_table_complete.tsv"
+                },
+                {
+                  "path": "tests/files/config_valid.yaml"
+                },
+                {
+                  "path": "tests/files/genome_assemblies.csv"
+                },
+                {
+                  "path": "tests/files/sample_table_short.tsv"
+                },
+                {
+                  "path": "tests/plugins/sample_fetchers/test_sra.py"
+                },
+                {
+                  "path": "tests/plugins/sample_processors/test_defaults.py"
+                },
+                {
+                  "path": "tests/plugins/sample_processors/test_dummy_data.py"
+                },
+                {
+                  "path": "tests/plugins/sample_processors/test_genomepy.py"
+                },
+                {
+                  "path": "tests/plugins/sample_processors/test_htsinfer.py"
+                },
+                {
+                  "path": "tests/runner/__init__.py"
+                },
+                {
+                  "path": "tests/runner/test_zarp_runner.py"
+                },
+                {
+                  "path": "tests/samples/test_sample_record_processor.py"
+                },
+                {
+                  "path": "tests/snakemake/test_config_file_processor.py"
+                },
+                {
+                  "path": "tests/snakemake/test_run.py"
+                },
+                {
+                  "path": "tests/test_zarp.py"
+                },
+                {
+                  "path": "zarp/abstract_classes/sample_processor.py"
+                },
+                {
+                  "path": "zarp/cli.py"
+                },
+                {
+                  "path": "zarp/config/args.py"
+                },
+                {
+                  "path": "zarp/config/enums.py"
+                },
+                {
+                  "path": "zarp/config/init.py"
+                },
+                {
+                  "path": "zarp/config/mappings.py"
+                },
+                {
+                  "path": "zarp/config/models.py"
+                },
+                {
+                  "path": "zarp/config/sample_tables.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_fetchers/sra.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/genomepy.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/htsinfer.py"
+                },
+                {
+                  "path": "zarp/runner/__init__.py"
+                },
+                {
+                  "path": "zarp/runner/zarp_runner.py"
+                },
+                {
+                  "path": "zarp/samples/sample_record_processor.py"
+                },
+                {
+                  "path": "zarp/samples/sample_table_processor.py"
+                },
+                {
+                  "path": "zarp/snakemake/config_file_processor.py"
+                },
+                {
+                  "path": "zarp/utils.py"
+                },
+                {
+                  "path": "zarp/version.py"
+                },
+                {
+                  "path": "zarp/zarp.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 11
+                }
+              ]
+            }
+          },
+          {
+            "number": 62,
+            "title": "ci: add Singularity to integration tests",
+            "state": "MERGED",
+            "createdAt": "2023-05-24T11:23:58Z",
+            "mergedAt": "2023-05-24T11:24:28Z",
+            "author": {
+              "login": "balajtimate"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/tests.yml"
+                },
+                {
+                  "path": "zarp/snakemake/run.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 61,
+            "title": "feat: fetch genome resources and set paths",
+            "state": "MERGED",
+            "createdAt": "2023-05-21T22:54:56Z",
+            "mergedAt": "2023-05-22T00:20:55Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/tests.yml"
+                },
+                {
+                  "path": "bin/LICENSE"
+                },
+                {
+                  "path": "bin/README.md"
+                },
+                {
+                  "path": "bin/bedToGenePred"
+                },
+                {
+                  "path": "bin/genePredToBed"
+                },
+                {
+                  "path": "bin/genePredToGtf"
+                },
+                {
+                  "path": "bin/gff3ToGenePred"
+                },
+                {
+                  "path": "bin/gtfToGenePred"
+                },
+                {
+                  "path": "data/genome_assemblies.csv"
+                },
+                {
+                  "path": "requirements.txt"
+                },
+                {
+                  "path": "tests/config/test_init.py"
+                },
+                {
+                  "path": "tests/config/test_samples.py"
+                },
+                {
+                  "path": "tests/files/config_valid.yaml"
+                },
+                {
+                  "path": "tests/files/fasta"
+                },
+                {
+                  "path": "tests/files/genome_assemblies.csv"
+                },
+                {
+                  "path": "tests/files/gtf"
+                },
+                {
+                  "path": "tests/files/sample_table.tsv"
+                },
+                {
+                  "path": "tests/plugins/sample_fetchers/test_sra.py"
+                },
+                {
+                  "path": "tests/plugins/sample_processors/test_defaults.py"
+                },
+                {
+                  "path": "tests/plugins/sample_processors/test_dummy_data.py"
+                },
+                {
+                  "path": "tests/plugins/sample_processors/test_genomepy.py"
+                },
+                {
+                  "path": "tests/snakemake/test_run.py"
+                },
+                {
+                  "path": "tests/test_cli.py"
+                },
+                {
+                  "path": "tests/test_utils.py"
+                },
+                {
+                  "path": "tests/test_zarp.py"
+                },
+                {
+                  "path": "zarp/abstract_classes/sample_processor.py"
+                },
+                {
+                  "path": "zarp/cli.py"
+                },
+                {
+                  "path": "zarp/config/args.py"
+                },
+                {
+                  "path": "zarp/config/mappings.py"
+                },
+                {
+                  "path": "zarp/config/models.py"
+                },
+                {
+                  "path": "zarp/config/parser.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_fetchers/genomepy.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_fetchers/sra.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/genomepy.py"
+                },
+                {
+                  "path": "zarp/samples/sample_record_processor.py"
+                },
+                {
+                  "path": "zarp/utils.py"
+                },
+                {
+                  "path": "zarp/zarp.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 25
+                }
+              ]
+            }
+          },
+          {
+            "number": 60,
+            "title": "feat: infer missing metadata",
+            "state": "MERGED",
+            "createdAt": "2023-05-21T18:31:22Z",
+            "mergedAt": "2023-05-24T22:14:43Z",
+            "author": {
+              "login": "balajtimate"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/tests.yml"
+                },
+                {
+                  "path": "tests/files/config_valid.yaml"
+                },
+                {
+                  "path": "tests/files/zarp/workflow/rules/htsinfer.smk"
+                },
+                {
+                  "path": "tests/plugins/sample_processors/__init__.py"
+                },
+                {
+                  "path": "tests/plugins/sample_processors/test_htsinfer.py"
+                },
+                {
+                  "path": "tests/snakemake/test_run.py"
+                },
+                {
+                  "path": "zarp/config/args.py"
+                },
+                {
+                  "path": "zarp/config/models.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/htsinfer.py"
+                },
+                {
+                  "path": "zarp/snakemake/run.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 34
+                }
+              ]
+            }
+          },
+          {
+            "number": 58,
+            "title": "fix: use defaults from user config",
+            "state": "MERGED",
+            "createdAt": "2023-05-12T11:32:27Z",
+            "mergedAt": "2023-05-12T11:40:25Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "zarp/config/args.py"
+                },
+                {
+                  "path": "zarp/config/models.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 55
+                }
+              ]
+            }
+          },
+          {
+            "number": 57,
+            "title": "feat: set dummy data",
+            "state": "MERGED",
+            "createdAt": "2023-05-12T11:11:48Z",
+            "mergedAt": "2023-05-12T11:18:15Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/plugins/sample_processors/test_dummy_data.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/defaults.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/dummy_data.py"
+                },
+                {
+                  "path": "zarp/zarp.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 56
+                }
+              ]
+            }
+          },
+          {
+            "number": 54,
+            "title": "feat: set sample config defaults",
+            "state": "MERGED",
+            "createdAt": "2023-04-29T10:42:09Z",
+            "mergedAt": "2023-05-12T10:47:26Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/plugins/sample_processors/test_defaults.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/defaults.py"
+                },
+                {
+                  "path": "zarp/samples/sample_record_processor.py"
+                },
+                {
+                  "path": "zarp/zarp.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 53
+                }
+              ]
+            }
+          },
+          {
+            "number": 52,
+            "title": "feat: implement sample processing flow",
+            "state": "MERGED",
+            "createdAt": "2023-04-26T23:53:23Z",
+            "mergedAt": "2023-04-27T00:10:17Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "pylint.cfg"
+                },
+                {
+                  "path": "tests/abstract_classes/test_sample_processor.py"
+                },
+                {
+                  "path": "tests/plugins/sample_fetchers/test_sra.py"
+                },
+                {
+                  "path": "tests/samples/test_sample_record_processor.py"
+                },
+                {
+                  "path": "tests/test_zarp.py"
+                },
+                {
+                  "path": "zarp/abstract_classes/sample_processor.py"
+                },
+                {
+                  "path": "zarp/abstract_classes/sample_processors.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_fetchers/genomepy.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_fetchers/sra.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/defaults.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/htsinfer.py"
+                },
+                {
+                  "path": "zarp/samples/sample_record_processor.py"
+                },
+                {
+                  "path": "zarp/zarp.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 51,
+            "title": "refactor: major code cleanup",
+            "state": "MERGED",
+            "createdAt": "2023-04-18T01:32:30Z",
+            "mergedAt": "2023-04-18T03:10:13Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/tests.yml"
+                },
+                {
+                  "path": "pylint.cfg"
+                },
+                {
+                  "path": "requirements.txt"
+                },
+                {
+                  "path": "requirements_dev.txt"
+                },
+                {
+                  "path": "tests/abstract_classes/__init__.py"
+                },
+                {
+                  "path": "tests/abstract_classes/test_sample_processors.py"
+                },
+                {
+                  "path": "tests/config/__init__.py"
+                },
+                {
+                  "path": "tests/config/test_enums.py"
+                },
+                {
+                  "path": "tests/config/test_mappings.py"
+                },
+                {
+                  "path": "tests/config/test_models.py"
+                },
+                {
+                  "path": "tests/config/test_run_config.py"
+                },
+                {
+                  "path": "tests/config/test_samples.py"
+                },
+                {
+                  "path": "tests/files/config_valid.yaml"
+                },
+                {
+                  "path": "tests/plugins/__init__.py"
+                },
+                {
+                  "path": "tests/plugins/sample_fetchers/__init__.py"
+                },
+                {
+                  "path": "tests/plugins/sample_fetchers/test_sra.py"
+                },
+                {
+                  "path": "tests/run/__init__.py"
+                },
+                {
+                  "path": "tests/run/test_snakemake.py"
+                },
+                {
+                  "path": "tests/samples/__init__.py"
+                },
+                {
+                  "path": "tests/samples/test_sample_record_processor.py"
+                },
+                {
+                  "path": "tests/samples/test_sample_table_processor.py"
+                },
+                {
+                  "path": "tests/snakemake/__init__.py"
+                },
+                {
+                  "path": "tests/snakemake/test_config_file_processor.py"
+                },
+                {
+                  "path": "tests/snakemake/test_run.py"
+                },
+                {
+                  "path": "tests/test_cli.py"
+                },
+                {
+                  "path": "tests/test_utils.py"
+                },
+                {
+                  "path": "tests/test_version.py"
+                },
+                {
+                  "path": "tests/test_zarp.py"
+                },
+                {
+                  "path": "tests/utils.py"
+                },
+                {
+                  "path": "zarp/abstract_classes/__init__.py"
+                },
+                {
+                  "path": "zarp/abstract_classes/sample_processors.py"
+                },
+                {
+                  "path": "zarp/cli.py"
+                },
+                {
+                  "path": "zarp/config/__init__.py"
+                },
+                {
+                  "path": "zarp/config/args.py"
+                },
+                {
+                  "path": "zarp/config/enums.py"
+                },
+                {
+                  "path": "zarp/config/init.py"
+                },
+                {
+                  "path": "zarp/config/mappings.py"
+                },
+                {
+                  "path": "zarp/config/models.py"
+                },
+                {
+                  "path": "zarp/config/parser.py"
+                },
+                {
+                  "path": "zarp/config/run_config.py"
+                },
+                {
+                  "path": "zarp/config/sample_tables.py"
+                },
+                {
+                  "path": "zarp/config/samples.py"
+                },
+                {
+                  "path": "zarp/extensions/__init__.py"
+                },
+                {
+                  "path": "zarp/extensions/ensembl.py"
+                },
+                {
+                  "path": "zarp/extensions/htsinfer.py"
+                },
+                {
+                  "path": "zarp/plugins/__init__.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_dereferencers/__init__.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_fetchers/__init__.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_fetchers/sra.py"
+                },
+                {
+                  "path": "zarp/plugins/sample_processors/__init__.py"
+                },
+                {
+                  "path": "zarp/run/__init__.py"
+                },
+                {
+                  "path": "zarp/run/cleanup.py"
+                },
+                {
+                  "path": "zarp/run/snakemake.py"
+                },
+                {
+                  "path": "zarp/samples/__init__.py"
+                },
+                {
+                  "path": "zarp/samples/sample_record_processor.py"
+                },
+                {
+                  "path": "zarp/samples/sample_table_processor.py"
+                },
+                {
+                  "path": "zarp/snakemake/__init__.py"
+                },
+                {
+                  "path": "zarp/snakemake/config_file_processor.py"
+                },
+                {
+                  "path": "zarp/snakemake/run.py"
+                },
+                {
+                  "path": "zarp/utils.py"
+                },
+                {
+                  "path": "zarp/zarp.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 50,
+            "title": "feat: support for fetching libraries from SRA",
+            "state": "MERGED",
+            "createdAt": "2023-04-13T06:47:14Z",
+            "mergedAt": "2023-04-13T16:30:59Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/tests.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "requirements.txt"
+                },
+                {
+                  "path": "tests/config/test_args.py"
+                },
+                {
+                  "path": "tests/config/test_run_config.py"
+                },
+                {
+                  "path": "tests/config/test_sample_tables.py"
+                },
+                {
+                  "path": "tests/config/test_samples.py"
+                },
+                {
+                  "path": "tests/files/config_valid.yaml"
+                },
+                {
+                  "path": "tests/files/sample_table.tsv"
+                },
+                {
+                  "path": "tests/files/sample_table_faulty.tsv"
+                },
+                {
+                  "path": "tests/files/sra_table.tsv"
+                },
+                {
+                  "path": "tests/files/sra_table_2cols.tsv"
+                },
+                {
+                  "path": "tests/files/sra_table_empty.tsv"
+                },
+                {
+                  "path": "tests/files/sra_table_no_files.tsv"
+                },
+                {
+                  "path": "tests/files/zarp/workflow/rules/sra_download.smk"
+                },
+                {
+                  "path": "tests/run/test_snakemake.py"
+                },
+                {
+                  "path": "tests/test_cli.py"
+                },
+                {
+                  "path": "tests/test_zarp.py"
+                },
+                {
+                  "path": "zarp/cli.py"
+                },
+                {
+                  "path": "zarp/config/args.py"
+                },
+                {
+                  "path": "zarp/config/models.py"
+                },
+                {
+                  "path": "zarp/config/run_config.py"
+                },
+                {
+                  "path": "zarp/config/samples.py"
+                },
+                {
+                  "path": "zarp/extensions/sra.py"
+                },
+                {
+                  "path": "zarp/run/snakemake.py"
+                },
+                {
+                  "path": "zarp/utils.py"
+                },
+                {
+                  "path": "zarp/zarp.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 8
+                }
+              ]
+            }
+          },
+          {
+            "number": 49,
+            "title": "docs: build API reference for all modules",
+            "state": "MERGED",
+            "createdAt": "2023-03-15T01:34:04Z",
+            "mergedAt": "2023-03-15T01:38:40Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/docs.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 48
+                }
+              ]
+            }
+          },
+          {
+            "number": 47,
+            "title": "docs: fix page title",
+            "state": "MERGED",
+            "createdAt": "2023-03-15T01:15:24Z",
+            "mergedAt": "2023-03-15T01:21:03Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/docs.yml"
+                },
+                {
+                  "path": "mkdocs.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 46
+                }
+              ]
+            }
+          },
+          {
+            "number": 45,
+            "title": "docs: fix broken/outdated badges",
+            "state": "MERGED",
+            "createdAt": "2023-03-15T01:06:27Z",
+            "mergedAt": "2023-03-15T01:11:28Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/docs.yml"
+                },
+                {
+                  "path": ".github/workflows/tests.yml"
+                },
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 44
+                }
+              ]
+            }
+          },
+          {
+            "number": 40,
+            "title": "docs: build & publish on GH Pages",
+            "state": "MERGED",
+            "createdAt": "2023-03-14T22:42:54Z",
+            "mergedAt": "2023-03-15T00:53:09Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/docs.yml"
+                },
+                {
+                  "path": ".github/workflows/tests.yml"
+                },
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/.pages"
+                },
+                {
+                  "path": "docs/README.md"
+                },
+                {
+                  "path": "docs/docstring/.pages"
+                },
+                {
+                  "path": "docs/requirements.txt"
+                },
+                {
+                  "path": "mkdocs.yml"
+                },
+                {
+                  "path": "setup.py"
+                },
+                {
+                  "path": "tests/test_zarp.py"
+                },
+                {
+                  "path": "zarp/config/args.py"
+                },
+                {
+                  "path": "zarp/run/snakemake.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 42
+                },
+                {
+                  "number": 43
+                }
+              ]
+            }
+          },
+          {
+            "number": 39,
+            "title": "feat: addition of local conda installation",
+            "state": "CLOSED",
+            "createdAt": "2023-03-13T21:37:10Z",
+            "mergedAt": null,
+            "author": {
+              "login": "fgypas"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "environment.yaml"
+                },
+                {
+                  "path": "environment_dev.yaml"
+                },
+                {
+                  "path": "requirements.txt"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 36
+                }
+              ]
+            }
+          },
+          {
+            "number": 35,
+            "title": "feat: add ZARP repo path param",
+            "state": "MERGED",
+            "createdAt": "2023-01-17T13:04:18Z",
+            "mergedAt": "2023-01-18T15:42:22Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/files/config_valid.yaml"
+                },
+                {
+                  "path": "zarp/config/args.py"
+                },
+                {
+                  "path": "zarp/config/models.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 33,
+            "title": "feat: write Snakemake run config file",
+            "state": "MERGED",
+            "createdAt": "2022-12-02T02:11:58Z",
+            "mergedAt": "2022-12-02T02:17:55Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/config/test_run_config.py"
+                },
+                {
+                  "path": "zarp/cli.py"
+                },
+                {
+                  "path": "zarp/config/models.py"
+                },
+                {
+                  "path": "zarp/config/run_config.py"
+                },
+                {
+                  "path": "zarp/config/sample_tables.py"
+                },
+                {
+                  "path": "zarp/version.py"
+                },
+                {
+                  "path": "zarp/zarp.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 10
+                }
+              ]
+            }
+          },
+          {
+            "number": 32,
+            "title": "feat: add arg for rule config",
+            "state": "MERGED",
+            "createdAt": "2022-12-01T23:58:54Z",
+            "mergedAt": "2022-12-02T00:01:20Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "zarp/config/args.py"
+                },
+                {
+                  "path": "zarp/config/init.py"
+                },
+                {
+                  "path": "zarp/config/models.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 31,
+            "title": "docs: fix outdated shield links",
+            "state": "MERGED",
+            "createdAt": "2022-12-01T22:45:13Z",
+            "mergedAt": "2022-12-01T22:57:35Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/api/conf.py"
+                },
+                {
+                  "path": "setup.py"
+                },
+                {
+                  "path": "tests/test_version.py"
+                },
+                {
+                  "path": "zarp/__init__.py"
+                },
+                {
+                  "path": "zarp/config/args.py"
+                },
+                {
+                  "path": "zarp/version.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 29,
+            "title": "feat: config & sample management",
+            "state": "MERGED",
+            "createdAt": "2022-08-27T16:05:36Z",
+            "mergedAt": "2022-08-27T16:24:25Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": "CONTRIBUTING.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/api/conf.py"
+                },
+                {
+                  "path": "pull_request_template.md"
+                },
+                {
+                  "path": "pylint.cfg"
+                },
+                {
+                  "path": "requirements.txt"
+                },
+                {
+                  "path": "requirements_dev.txt"
+                },
+                {
+                  "path": "setup.py"
+                },
+                {
+                  "path": "tests/__init__.py"
+                },
+                {
+                  "path": "tests/config/__init__.py"
+                },
+                {
+                  "path": "tests/config/test_args.py"
+                },
+                {
+                  "path": "tests/config/test_init.py"
+                },
+                {
+                  "path": "tests/config/test_models.py"
+                },
+                {
+                  "path": "tests/config/test_parser.py"
+                },
+                {
+                  "path": "tests/config/test_sample_tables.py"
+                },
+                {
+                  "path": "tests/config/test_samples.py"
+                },
+                {
+                  "path": "tests/files/config_invalid.yaml"
+                },
+                {
+                  "path": "tests/files/config_valid.yaml"
+                },
+                {
+                  "path": "tests/files/em@pt:y"
+                },
+                {
+                  "path": "tests/files/empty"
+                },
+                {
+                  "path": "tests/files/sample_table.tsv"
+                },
+                {
+                  "path": "tests/test_cli.py"
+                },
+                {
+                  "path": "tests/test_utils.py"
+                },
+                {
+                  "path": "tests/test_zarp.py"
+                },
+                {
+                  "path": "tests/utils.py"
+                },
+                {
+                  "path": "zarp/__init__.py"
+                },
+                {
+                  "path": "zarp/cli.py"
+                },
+                {
+                  "path": "zarp/config/__init__.py"
+                },
+                {
+                  "path": "zarp/config/args.py"
+                },
+                {
+                  "path": "zarp/config/enums.py"
+                },
+                {
+                  "path": "zarp/config/init.py"
+                },
+                {
+                  "path": "zarp/config/models.py"
+                },
+                {
+                  "path": "zarp/config/parser.py"
+                },
+                {
+                  "path": "zarp/config/sample_tables.py"
+                },
+                {
+                  "path": "zarp/config/samples.py"
+                },
+                {
+                  "path": "zarp/extensions/__init__.py"
+                },
+                {
+                  "path": "zarp/extensions/ensembl.py"
+                },
+                {
+                  "path": "zarp/extensions/htsinfer.py"
+                },
+                {
+                  "path": "zarp/extensions/sra.py"
+                },
+                {
+                  "path": "zarp/run/__init__.py"
+                },
+                {
+                  "path": "zarp/run/cleanup.py"
+                },
+                {
+                  "path": "zarp/run/snakemake.py"
+                },
+                {
+                  "path": "zarp/utils.py"
+                },
+                {
+                  "path": "zarp/zarp.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 1
+                },
+                {
+                  "number": 2
+                },
+                {
+                  "number": 6
+                },
+                {
+                  "number": 14
+                },
+                {
+                  "number": 15
+                }
+              ]
+            }
+          },
+          {
+            "number": 28,
+            "title": "Ensembl downloads",
+            "state": "CLOSED",
+            "createdAt": "2022-04-07T20:12:24Z",
+            "mergedAt": null,
+            "author": {
+              "login": "mzavolan"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/config/test_ensembl_downloads.py"
+                },
+                {
+                  "path": "zarp/config/ensembl_downloads.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 66
+                }
+              ]
+            }
+          },
+          {
+            "number": 27,
+            "title": "ci: migrate to GH Actions",
+            "state": "MERGED",
+            "createdAt": "2022-03-22T13:18:57Z",
+            "mergedAt": "2022-05-05T07:31:49Z",
+            "author": {
+              "login": "AngryMaciek"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": ".travis.yml"
+                },
+                {
+                  "path": "requirements_dev.txt"
+                },
+                {
+                  "path": "setup.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 26
+                }
+              ]
+            }
+          },
+          {
+            "number": 24,
+            "title": "WIP: Clone external repositories",
+            "state": "CLOSED",
+            "createdAt": "2022-03-16T15:38:08Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dominikburri"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "requirements.txt"
+                },
+                {
+                  "path": "tests/config/test_init.py"
+                },
+                {
+                  "path": "zarp/config/init.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 22
+                }
+              ]
+            }
+          },
+          {
+            "number": 23,
+            "title": "feat: add generic Snakemake executor",
+            "state": "MERGED",
+            "createdAt": "2022-03-16T15:26:57Z",
+            "mergedAt": "2023-01-16T14:31:16Z",
+            "author": {
+              "login": "dominikburri"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "requirements.txt"
+                },
+                {
+                  "path": "requirements_dev.txt"
+                },
+                {
+                  "path": "tests/config/test_init.py"
+                },
+                {
+                  "path": "tests/run/__init__.py"
+                },
+                {
+                  "path": "tests/run/test_snakemake.py"
+                },
+                {
+                  "path": "zarp/config/enums.py"
+                },
+                {
+                  "path": "zarp/config/models.py"
+                },
+                {
+                  "path": "zarp/run/__init__.py"
+                },
+                {
+                  "path": "zarp/run/snakemake.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 21,
+            "title": "Define cli params",
+            "state": "CLOSED",
+            "createdAt": "2021-05-06T22:10:23Z",
+            "mergedAt": null,
+            "author": {
+              "login": "mkatsanto"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": "0TI9QX/samples.tsv"
+                },
+                {
+                  "path": "CONTRIBUTING.md"
+                },
+                {
+                  "path": "MI1CNC/samples.tsv"
+                },
+                {
+                  "path": "NW5RHX/samples.tsv"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "X9E92Q/samples.tsv"
+                },
+                {
+                  "path": "YOJAHR/samples.tsv"
+                },
+                {
+                  "path": "docs/api/conf.py"
+                },
+                {
+                  "path": "pylint.cfg"
+                },
+                {
+                  "path": "requirements.txt"
+                },
+                {
+                  "path": "requirements_dev.txt"
+                },
+                {
+                  "path": "setup.cfg"
+                },
+                {
+                  "path": "setup.py"
+                },
+                {
+                  "path": "tests/__init__.py"
+                },
+                {
+                  "path": "tests/config/__init__.py"
+                },
+                {
+                  "path": "tests/config/test_args.py"
+                },
+                {
+                  "path": "tests/config/test_init.py"
+                },
+                {
+                  "path": "tests/config/test_models.py"
+                },
+                {
+                  "path": "tests/config/test_parser.py"
+                },
+                {
+                  "path": "tests/config/test_sample_tables.py"
+                },
+                {
+                  "path": "tests/config/test_samples.py"
+                },
+                {
+                  "path": "tests/files/config_invalid.yaml"
+                },
+                {
+                  "path": "tests/files/config_valid.yaml"
+                },
+                {
+                  "path": "tests/files/em@pt:y"
+                },
+                {
+                  "path": "tests/files/empty"
+                },
+                {
+                  "path": "tests/files/sample_table.tsv"
+                },
+                {
+                  "path": "tests/test_cli.py"
+                },
+                {
+                  "path": "tests/test_utils.py"
+                },
+                {
+                  "path": "tests/test_zarp.py"
+                },
+                {
+                  "path": "tests/utils.py"
+                },
+                {
+                  "path": "zarp/__init__.py"
+                },
+                {
+                  "path": "zarp/cli.py"
+                },
+                {
+                  "path": "zarp/config/__init__.py"
+                },
+                {
+                  "path": "zarp/config/args.py"
+                },
+                {
+                  "path": "zarp/config/enums.py"
+                },
+                {
+                  "path": "zarp/config/init.py"
+                },
+                {
+                  "path": "zarp/config/models.py"
+                },
+                {
+                  "path": "zarp/config/parser.py"
+                },
+                {
+                  "path": "zarp/config/sample_tables.py"
+                },
+                {
+                  "path": "zarp/config/samples.py"
+                },
+                {
+                  "path": "zarp/extensions/__init__.py"
+                },
+                {
+                  "path": "zarp/extensions/ensembl.py"
+                },
+                {
+                  "path": "zarp/extensions/htsinfer.py"
+                },
+                {
+                  "path": "zarp/extensions/sra.py"
+                },
+                {
+                  "path": "zarp/run/__init__.py"
+                },
+                {
+                  "path": "zarp/run/cleanup.py"
+                },
+                {
+                  "path": "zarp/run/snakemake.py"
+                },
+                {
+                  "path": "zarp/utils.py"
+                },
+                {
+                  "path": "zarp/zarp.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 1
+                }
+              ]
+            }
+          },
+          {
+            "number": 20,
+            "title": "Run zarp with Snakemake API",
+            "state": "CLOSED",
+            "createdAt": "2021-04-30T15:16:26Z",
+            "mergedAt": null,
+            "author": {
+              "login": "dominikburri"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "requirements.txt"
+                },
+                {
+                  "path": "tests/run/__init__.py"
+                },
+                {
+                  "path": "tests/run/test_snakemake.py"
+                },
+                {
+                  "path": "zarp/config/models.py"
+                },
+                {
+                  "path": "zarp/run/snakemake.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 11
+                }
+              ]
+            }
+          },
+          {
+            "number": 17,
+            "title": "feat: add configuration models",
+            "state": "MERGED",
+            "createdAt": "2021-03-31T08:58:44Z",
+            "mergedAt": "2021-03-31T08:59:50Z",
+            "author": {
+              "login": "uniqueg"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "requirements.txt"
+                },
+                {
+                  "path": "tests/config/__init__.py"
+                },
+                {
+                  "path": "tests/config/test_models.py"
+                },
+                {
+                  "path": "tests/test_zarp.py"
+                },
+                {
+                  "path": "zarp/config/cli.py"
+                },
+                {
+                  "path": "zarp/config/models.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 3
+                },
+                {
+                  "number": 4
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

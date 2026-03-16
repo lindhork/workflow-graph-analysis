@@ -1,0 +1,230 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 10,
+            "title": "Resume flag",
+            "state": "CLOSED",
+            "createdAt": "2025-02-14T20:45:53Z",
+            "closedAt": "2025-02-26T23:18:01Z",
+            "author": {
+              "login": "sabrinacamp2"
+            }
+          },
+          {
+            "number": 9,
+            "title": "Exiting python process leaves Nextflow running",
+            "state": "OPEN",
+            "createdAt": "2025-01-30T16:27:19Z",
+            "closedAt": null,
+            "author": {
+              "login": "bmyers-ozette"
+            }
+          },
+          {
+            "number": 6,
+            "title": "Date parsing from log",
+            "state": "CLOSED",
+            "createdAt": "2022-09-03T19:52:13Z",
+            "closedAt": "2022-09-10T19:39:44Z",
+            "author": {
+              "login": "telatin"
+            }
+          },
+          {
+            "number": 4,
+            "title": "`run_and_poll` affected by previous logs",
+            "state": "CLOSED",
+            "createdAt": "2022-08-20T13:40:54Z",
+            "closedAt": "2022-08-29T00:03:09Z",
+            "author": {
+              "login": "telatin"
+            }
+          },
+          {
+            "number": 3,
+            "title": "Get stdout/stderr while polling",
+            "state": "CLOSED",
+            "createdAt": "2022-06-04T18:24:18Z",
+            "closedAt": "2022-06-15T18:38:30Z",
+            "author": {
+              "login": "samirelanduk"
+            }
+          },
+          {
+            "number": 2,
+            "title": "Issue with PyInstaller and subprocessor",
+            "state": "CLOSED",
+            "createdAt": "2022-05-10T18:13:16Z",
+            "closedAt": "2022-05-10T20:25:09Z",
+            "author": {
+              "login": "jjacobson95"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 12,
+            "title": "refactor(ProcessExecution): remove io as a field on the class and sup…",
+            "state": "MERGED",
+            "createdAt": "2025-10-31T16:17:14Z",
+            "mergedAt": "2025-10-31T18:29:02Z",
+            "author": {
+              "login": "mhusbynflow"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "nextflow/command.py"
+                },
+                {
+                  "path": "nextflow/models.py"
+                },
+                {
+                  "path": "tests/integration/base.py"
+                },
+                {
+                  "path": "tests/integration/test_run.py"
+                },
+                {
+                  "path": "tests/unit/test_command.py"
+                },
+                {
+                  "path": "tests/unit/test_process_executions.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 11,
+            "title": "refactor(models.Execution): add none as a type option for `started` a…",
+            "state": "MERGED",
+            "createdAt": "2025-06-19T16:34:21Z",
+            "mergedAt": "2025-06-19T16:43:41Z",
+            "author": {
+              "login": "mhusbynflow"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "nextflow/models.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 8,
+            "title": "Feature/ocb 8905 investigate nextflow status delay",
+            "state": "CLOSED",
+            "createdAt": "2025-01-17T21:06:37Z",
+            "mergedAt": null,
+            "author": {
+              "login": "bmyers-ozette"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "nextflow/command.py"
+                },
+                {
+                  "path": "nextflow/log.py"
+                },
+                {
+                  "path": "tests/unit/test_command.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 7,
+            "title": "Update readme: mention conda installation",
+            "state": "CLOSED",
+            "createdAt": "2022-09-03T20:00:13Z",
+            "mergedAt": null,
+            "author": {
+              "login": "telatin"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.rst"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 5,
+            "title": "Tolerate empty strings from logs",
+            "state": "MERGED",
+            "createdAt": "2022-08-20T13:48:18Z",
+            "mergedAt": "2022-08-29T00:03:07Z",
+            "author": {
+              "login": "telatin"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "nextflow/execution.py"
+                },
+                {
+                  "path": "nextflow/pipeline.py"
+                },
+                {
+                  "path": "nextflow/utils.py"
+                },
+                {
+                  "path": "tests/unit/test_executions.py"
+                },
+                {
+                  "path": "tests/unit/test_pipelines.py"
+                },
+                {
+                  "path": "tests/unit/test_utils.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1,
+            "title": "Update pipeline.py",
+            "state": "CLOSED",
+            "createdAt": "2022-05-10T17:44:42Z",
+            "mergedAt": null,
+            "author": {
+              "login": "jjacobson95"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "nextflow/pipeline.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

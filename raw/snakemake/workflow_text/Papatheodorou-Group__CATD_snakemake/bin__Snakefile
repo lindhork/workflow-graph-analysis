@@ -1,0 +1,242 @@
+## Driver script for the deconvolution assessment pipeline
+##
+## @zgr2788
+##
+##
+## Description:
+## This file is essentially a driver for the different modules that are
+## a part of the deconvolution assessment network.
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+
+#Set config here
+configfile: 'config.yaml'
+
+
+#Helper functions to fetch inputs from other modules
+def getMB(val):
+        return int(val*1024)
+
+
+
+def getHeatmap(sampleName):
+    return str("Plots/" + sampleName + "_metricsHeatmap.png")
+
+
+
+def getRunSums(sampleName):
+    return str("runSum_" + sampleName + "/config.yaml")
+
+
+
+def getBenchmarks(sampleName):
+        return str(sampleName + "_benchmarks_summarized.png")
+
+
+
+def getVioPlots(sampleName):
+        metricsList = config['resMetrics']
+        plotsList = [str("Plots/" + sampleName + "_vioplot_" + metric + ".png") for metric in metricsList if (metric == "rmse" or metric == "avgcos")]
+
+        return(plotsList)
+
+
+
+def getPlots(sampleName):
+        metricsList = config['resMetrics']
+        plotsList = [str("Plots/" + sampleName + "_barplot_" + metric + ".png") for metric in metricsList]
+
+        return(plotsList)
+
+
+
+def getSelectedMetrics(sampleName):
+        metricsList = config['resMetrics']
+        outputList = [str("Metrics/" + sampleName + "_res_" + metric + ".rds") for metric in metricsList]
+
+        return(outputList)
+
+
+
+def getMethods(sampleName):
+        Methods = [str("Output/" + sampleName + "_res_" + methods + ".rds") for methods in config['deconMethods']]
+
+        return(Methods)
+
+
+
+def getBulks(sampleName):
+        inList = []
+
+        if config['seededRun']:
+            seedStatus = "_seeded"
+        else:
+            seedStatus = ""
+
+        if config["stParam"]['scaleFirst']:
+            st = "_scaled_transformed"
+        else:
+            st = "_transformed_scaled"
+
+        filename_T = str("Input/Normalized_tables/" + sampleName + "_pbulks" + seedStatus + st + ".rds")
+
+        if not config['realBulk-noProp']:
+            filename_P = str("Input/Pseudobulks/" + sampleName + "_props" + seedStatus + ".rds")
+
+        inList.append(filename_T)
+
+        if not config['realBulk-noProp']:
+            inList.append(filename_P)
+        else:
+            inList.append("Modules/Psuedobulk/dummy_props.rds")
+
+        return inList
+
+
+
+def getC2(inList, sampleName):
+        if config['seededRun']:
+            seedStatus = "_seeded"
+        else:
+            seedStatus = ""
+
+        filename_C2 = str("Input/References/" + sampleName + "_C2" + seedStatus + ".rds")
+
+        inList.append(filename_C2)
+
+        return inList
+
+
+
+def getC1(inList, sampleName):
+        if config['seededRun']:
+            seedStatus = "_seeded"
+        else:
+            seedStatus = ""
+
+        filename_C1 = str("Input/References/" + sampleName + "_C1" + seedStatus + ".rds")
+
+        inList.append(filename_C1)
+
+        return inList
+
+
+
+def getRefVar(inList, sampleName):
+        if config['seededRun']:
+            seedStatus = "_seeded"
+        else:
+            seedStatus = ""
+
+        filename_refVar = str("Input/References/" + sampleName + "_refVar" + seedStatus + ".rds")
+
+        inList.append(filename_refVar)
+
+        return inList
+
+
+
+def getC0(inList, sampleName):
+        if config['seededRun']:
+            seedStatus = "_seeded"
+        else:
+            seedStatus = ""
+
+        if config["stParam"]['scaleFirst']:
+            st = "_scaled_transformed"
+        else:
+            st = "_transformed_scaled"
+
+        filename_C0 = str("Input/Normalized_tables/" + sampleName + "_C0" + seedStatus + st + ".rds")
+
+        inList.append(filename_C0)
+
+        return inList
+
+
+
+def getPhenData(inList, sampleName):
+        if config['seededRun']:
+            seedStatus = "_seeded"
+        else:
+            seedStatus = ""
+
+        filename_phenData = str("Input/References/" + sampleName + "_phenData" + seedStatus + ".rds")
+
+        inList.append(filename_phenData)
+
+        return inList
+
+def getConsensus(sampleName):
+    return str("ConsensusPlot/" + sampleName + "_consensus.png")
+
+
+#Prep metamodule
+include: "Modules/Convert_split/Snakefile"
+
+if not (config['realBulk'] or config['realBulk-noProp']):
+    include: "Modules/Psuedobulk/Snakefile"
+
+include: "Modules/C_generation/Snakefile"
+include: "Modules/Scale_transform/Snakefile"
+
+#Deconv metamodule
+include: "Modules/debCAM/Snakefile"
+include: "Modules/CDSeq/Snakefile"
+include: "Modules/DeconRNASeq/Snakefile"
+include: "Modules/OLS/Snakefile"
+include: "Modules/NNLS/Snakefile"
+include: "Modules/CIBERSORT/Snakefile"
+include: "Modules/RLR/Snakefile"
+include: "Modules/FARDEEP/Snakefile"
+include: "Modules/DCQ/Snakefile"
+include: "Modules/elasticNET/Snakefile"
+include: "Modules/lasso/Snakefile"
+include: "Modules/ridge/Snakefile"
+include: "Modules/EPIC/Snakefile"
+include: "Modules/dtangle/Snakefile"
+include: "Modules/CellMix/Snakefile"
+include: "Modules/ADAPTS/Snakefile"
+include: "Modules/EpiDISH/Snakefile"
+include: "Modules/MuSiC/Snakefile"
+include: "Modules/BisqueRNA/Snakefile"
+include: "Modules/SCDC/Snakefile"
+include: "Modules/DWLS/Snakefile"
+include: "Modules/bseqsc/Snakefile"
+include: "Modules/CPM/Snakefile"
+include: "Modules/TIMER/Snakefile"
+include: "Modules/omnideconv/Snakefile"
+include: "Modules/cX/Snakefile"
+
+
+#Results metamodule
+include: "Modules/Res_explore/Snakefile"
+
+#Grab all methods from config
+
+#Target methods
+#Target methods
+if not config['realBulk-noProp']:
+    rule all:
+        input:
+            expand(getRunSums('{sampleName}'), sampleName = config['sampleNames'])
+
+elif config['getConsensus']:
+    rule all:
+        input:
+            expand(getConsensus('{sampleName}'), sampleName = config['sampleNames'])
+
+else:
+    rule all:
+        input:
+            expand(getHeatmap('{sampleName}'), sampleName = config['sampleNames'])

@@ -1,0 +1,1324 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 21,
+            "title": "Flaky test: test_wildcards_complex intermittently fails with fewer jobs than expected",
+            "state": "OPEN",
+            "createdAt": "2025-12-24T07:37:50Z",
+            "closedAt": null,
+            "author": {
+              "login": "nh13"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 33,
+            "title": "feat: make help shortcut more discoverable in TUI footer",
+            "state": "MERGED",
+            "createdAt": "2026-02-04T22:33:23Z",
+            "mergedAt": "2026-03-02T00:03:46Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/tui/monitor.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 32,
+            "title": "fix: defer error event emission until error block fully parsed",
+            "state": "MERGED",
+            "createdAt": "2026-01-05T00:12:48Z",
+            "mergedAt": "2026-01-05T01:05:48Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/parser/core.py"
+                },
+                {
+                  "path": "snakesee/parser/line_parser.py"
+                },
+                {
+                  "path": "snakesee/parser/log_reader.py"
+                },
+                {
+                  "path": "snakesee/tui/monitor.py"
+                },
+                {
+                  "path": "tests/test_benchmarks.py"
+                },
+                {
+                  "path": "tests/test_parser.py"
+                },
+                {
+                  "path": "uv.lock"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 31,
+            "title": "fix: populate job registry from log parsing when events unavailable",
+            "state": "MERGED",
+            "createdAt": "2026-01-03T05:27:58Z",
+            "mergedAt": "2026-01-03T05:35:00Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/tui/monitor.py"
+                },
+                {
+                  "path": "tests/test_tui.py"
+                },
+                {
+                  "path": "uv.lock"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 30,
+            "title": "feat: extend table navigation to pending jobs and rule statistics",
+            "state": "MERGED",
+            "createdAt": "2026-01-02T01:01:45Z",
+            "mergedAt": "2026-01-02T03:54:11Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/tui/monitor.py"
+                },
+                {
+                  "path": "tests/test_tui.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 29,
+            "title": "fix: detect and ignore stale events files from previous workflow runs",
+            "state": "MERGED",
+            "createdAt": "2026-01-02T00:42:22Z",
+            "mergedAt": "2026-01-02T00:50:20Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/models.py"
+                },
+                {
+                  "path": "snakesee/tui/monitor.py"
+                },
+                {
+                  "path": "tests/test_models.py"
+                },
+                {
+                  "path": "tests/test_tui.py"
+                },
+                {
+                  "path": "uv.lock"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 28,
+            "title": "feat: add Codecov and Read the Docs badges",
+            "state": "MERGED",
+            "createdAt": "2025-12-28T04:46:52Z",
+            "mergedAt": "2025-12-28T05:08:02Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/tests.yml"
+                },
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 27,
+            "title": "feat: add Codecov and Read the Docs badges",
+            "state": "CLOSED",
+            "createdAt": "2025-12-27T03:02:26Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/tests.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/architecture.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "pixi.toml"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "snakemake-logger-plugin-snakesee/src/snakemake_logger_plugin_snakesee/handler.py"
+                },
+                {
+                  "path": "snakemake-logger-plugin-snakesee/tests/conftest.py"
+                },
+                {
+                  "path": "snakesee/__init__.py"
+                },
+                {
+                  "path": "snakesee/cli.py"
+                },
+                {
+                  "path": "snakesee/constants.py"
+                },
+                {
+                  "path": "snakesee/estimation/__init__.py"
+                },
+                {
+                  "path": "snakesee/estimation/data_loader.py"
+                },
+                {
+                  "path": "snakesee/estimation/estimator.py"
+                },
+                {
+                  "path": "snakesee/estimation/pending_inferrer.py"
+                },
+                {
+                  "path": "snakesee/estimation/rule_matcher.py"
+                },
+                {
+                  "path": "snakesee/estimator.py"
+                },
+                {
+                  "path": "snakesee/events.py"
+                },
+                {
+                  "path": "snakesee/exceptions.py"
+                },
+                {
+                  "path": "snakesee/formatting.py"
+                },
+                {
+                  "path": "snakesee/log_handler_script.py"
+                },
+                {
+                  "path": "snakesee/logging.py"
+                },
+                {
+                  "path": "snakesee/models.py"
+                },
+                {
+                  "path": "snakesee/parameter_validation.py"
+                },
+                {
+                  "path": "snakesee/parser.py"
+                },
+                {
+                  "path": "snakesee/parser/__init__.py"
+                },
+                {
+                  "path": "snakesee/parser/core.py"
+                },
+                {
+                  "path": "snakesee/parser/failure_tracker.py"
+                },
+                {
+                  "path": "snakesee/parser/file_position.py"
+                },
+                {
+                  "path": "snakesee/parser/job_tracker.py"
+                },
+                {
+                  "path": "snakesee/parser/line_parser.py"
+                },
+                {
+                  "path": "snakesee/parser/log_reader.py"
+                },
+                {
+                  "path": "snakesee/parser/metadata.py"
+                },
+                {
+                  "path": "snakesee/parser/patterns.py"
+                },
+                {
+                  "path": "snakesee/parser/stats.py"
+                },
+                {
+                  "path": "snakesee/parser/utils.py"
+                },
+                {
+                  "path": "snakesee/plugins/__init__.py"
+                },
+                {
+                  "path": "snakesee/plugins/base.py"
+                },
+                {
+                  "path": "snakesee/plugins/discovery.py"
+                },
+                {
+                  "path": "snakesee/plugins/loader.py"
+                },
+                {
+                  "path": "snakesee/plugins/registry.py"
+                },
+                {
+                  "path": "snakesee/profile.py"
+                },
+                {
+                  "path": "snakesee/state/__init__.py"
+                },
+                {
+                  "path": "snakesee/state/clock.py"
+                },
+                {
+                  "path": "snakesee/state/config.py"
+                },
+                {
+                  "path": "snakesee/state/job_registry.py"
+                },
+                {
+                  "path": "snakesee/state/paths.py"
+                },
+                {
+                  "path": "snakesee/state/rule_registry.py"
+                },
+                {
+                  "path": "snakesee/state/workflow_state.py"
+                },
+                {
+                  "path": "snakesee/state_comparison.py"
+                },
+                {
+                  "path": "snakesee/tui/__init__.py"
+                },
+                {
+                  "path": "snakesee/tui/monitor.py"
+                },
+                {
+                  "path": "snakesee/types.py"
+                },
+                {
+                  "path": "snakesee/utils.py"
+                },
+                {
+                  "path": "snakesee/validation.py"
+                },
+                {
+                  "path": "snakesee/variance.py"
+                },
+                {
+                  "path": "tests/conftest.py"
+                },
+                {
+                  "path": "tests/test_benchmarks.py"
+                },
+                {
+                  "path": "tests/test_cli.py"
+                },
+                {
+                  "path": "tests/test_estimation_components.py"
+                },
+                {
+                  "path": "tests/test_estimator.py"
+                },
+                {
+                  "path": "tests/test_formatting.py"
+                },
+                {
+                  "path": "tests/test_job_registry.py"
+                },
+                {
+                  "path": "tests/test_log_handler_script.py"
+                },
+                {
+                  "path": "tests/test_models.py"
+                },
+                {
+                  "path": "tests/test_parser.py"
+                },
+                {
+                  "path": "tests/test_plugins.py"
+                },
+                {
+                  "path": "tests/test_profile.py"
+                },
+                {
+                  "path": "tests/test_rule_registry.py"
+                },
+                {
+                  "path": "tests/test_state_clock.py"
+                },
+                {
+                  "path": "tests/test_state_config.py"
+                },
+                {
+                  "path": "tests/test_state_paths.py"
+                },
+                {
+                  "path": "tests/test_tui.py"
+                },
+                {
+                  "path": "tests/test_utils.py"
+                },
+                {
+                  "path": "tests/test_validation.py"
+                },
+                {
+                  "path": "tests/test_variance.py"
+                },
+                {
+                  "path": "tests/test_workflow_state.py"
+                },
+                {
+                  "path": "uv.lock"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 26,
+            "title": "refactor: centralized state management, performance optimizations, and vim-style navigation",
+            "state": "MERGED",
+            "createdAt": "2025-12-26T10:17:53Z",
+            "mergedAt": "2025-12-28T04:43:06Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".codecov.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "docs/architecture.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "pixi.toml"
+                },
+                {
+                  "path": "pyproject.toml"
+                },
+                {
+                  "path": "snakemake-logger-plugin-snakesee/src/snakemake_logger_plugin_snakesee/handler.py"
+                },
+                {
+                  "path": "snakemake-logger-plugin-snakesee/tests/conftest.py"
+                },
+                {
+                  "path": "snakesee/__init__.py"
+                },
+                {
+                  "path": "snakesee/cli.py"
+                },
+                {
+                  "path": "snakesee/constants.py"
+                },
+                {
+                  "path": "snakesee/estimation/__init__.py"
+                },
+                {
+                  "path": "snakesee/estimation/data_loader.py"
+                },
+                {
+                  "path": "snakesee/estimation/estimator.py"
+                },
+                {
+                  "path": "snakesee/estimation/pending_inferrer.py"
+                },
+                {
+                  "path": "snakesee/estimation/rule_matcher.py"
+                },
+                {
+                  "path": "snakesee/estimator.py"
+                },
+                {
+                  "path": "snakesee/events.py"
+                },
+                {
+                  "path": "snakesee/exceptions.py"
+                },
+                {
+                  "path": "snakesee/formatting.py"
+                },
+                {
+                  "path": "snakesee/log_handler_script.py"
+                },
+                {
+                  "path": "snakesee/logging.py"
+                },
+                {
+                  "path": "snakesee/models.py"
+                },
+                {
+                  "path": "snakesee/parameter_validation.py"
+                },
+                {
+                  "path": "snakesee/parser.py"
+                },
+                {
+                  "path": "snakesee/parser/__init__.py"
+                },
+                {
+                  "path": "snakesee/parser/core.py"
+                },
+                {
+                  "path": "snakesee/parser/failure_tracker.py"
+                },
+                {
+                  "path": "snakesee/parser/file_position.py"
+                },
+                {
+                  "path": "snakesee/parser/job_tracker.py"
+                },
+                {
+                  "path": "snakesee/parser/line_parser.py"
+                },
+                {
+                  "path": "snakesee/parser/log_reader.py"
+                },
+                {
+                  "path": "snakesee/parser/metadata.py"
+                },
+                {
+                  "path": "snakesee/parser/patterns.py"
+                },
+                {
+                  "path": "snakesee/parser/stats.py"
+                },
+                {
+                  "path": "snakesee/parser/utils.py"
+                },
+                {
+                  "path": "snakesee/plugins/__init__.py"
+                },
+                {
+                  "path": "snakesee/plugins/base.py"
+                },
+                {
+                  "path": "snakesee/plugins/discovery.py"
+                },
+                {
+                  "path": "snakesee/plugins/loader.py"
+                },
+                {
+                  "path": "snakesee/plugins/registry.py"
+                },
+                {
+                  "path": "snakesee/profile.py"
+                },
+                {
+                  "path": "snakesee/state/__init__.py"
+                },
+                {
+                  "path": "snakesee/state/clock.py"
+                },
+                {
+                  "path": "snakesee/state/config.py"
+                },
+                {
+                  "path": "snakesee/state/job_registry.py"
+                },
+                {
+                  "path": "snakesee/state/paths.py"
+                },
+                {
+                  "path": "snakesee/state/rule_registry.py"
+                },
+                {
+                  "path": "snakesee/state/workflow_state.py"
+                },
+                {
+                  "path": "snakesee/state_comparison.py"
+                },
+                {
+                  "path": "snakesee/tui/__init__.py"
+                },
+                {
+                  "path": "snakesee/tui/monitor.py"
+                },
+                {
+                  "path": "snakesee/types.py"
+                },
+                {
+                  "path": "snakesee/utils.py"
+                },
+                {
+                  "path": "snakesee/validation.py"
+                },
+                {
+                  "path": "snakesee/variance.py"
+                },
+                {
+                  "path": "tests/conftest.py"
+                },
+                {
+                  "path": "tests/integration/conftest.py"
+                },
+                {
+                  "path": "tests/test_benchmarks.py"
+                },
+                {
+                  "path": "tests/test_cli.py"
+                },
+                {
+                  "path": "tests/test_estimation_components.py"
+                },
+                {
+                  "path": "tests/test_estimator.py"
+                },
+                {
+                  "path": "tests/test_formatting.py"
+                },
+                {
+                  "path": "tests/test_job_registry.py"
+                },
+                {
+                  "path": "tests/test_log_handler_script.py"
+                },
+                {
+                  "path": "tests/test_models.py"
+                },
+                {
+                  "path": "tests/test_parser.py"
+                },
+                {
+                  "path": "tests/test_plugins.py"
+                },
+                {
+                  "path": "tests/test_profile.py"
+                },
+                {
+                  "path": "tests/test_rule_registry.py"
+                },
+                {
+                  "path": "tests/test_state_clock.py"
+                },
+                {
+                  "path": "tests/test_state_config.py"
+                },
+                {
+                  "path": "tests/test_state_paths.py"
+                },
+                {
+                  "path": "tests/test_tui.py"
+                },
+                {
+                  "path": "tests/test_utils.py"
+                },
+                {
+                  "path": "tests/test_validation.py"
+                },
+                {
+                  "path": "tests/test_variance.py"
+                },
+                {
+                  "path": "tests/test_workflow_state.py"
+                },
+                {
+                  "path": "uv.lock"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 25,
+            "title": "refactor: centralized state management architecture",
+            "state": "CLOSED",
+            "createdAt": "2025-12-25T15:57:26Z",
+            "mergedAt": null,
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/events.py"
+                },
+                {
+                  "path": "snakesee/models.py"
+                },
+                {
+                  "path": "snakesee/parser/metadata.py"
+                },
+                {
+                  "path": "snakesee/tui/monitor.py"
+                },
+                {
+                  "path": "snakesee/utils.py"
+                },
+                {
+                  "path": "tests/test_benchmarks.py"
+                },
+                {
+                  "path": "tests/test_tui.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 24,
+            "title": "fix: make test_failing_job tolerant of event timing in CI",
+            "state": "MERGED",
+            "createdAt": "2025-12-25T06:08:34Z",
+            "mergedAt": "2025-12-25T06:19:41Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/integration/test_workflows.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 23,
+            "title": "fix: show actual job IDs and look up logs by job_id",
+            "state": "MERGED",
+            "createdAt": "2025-12-25T06:02:28Z",
+            "mergedAt": "2025-12-25T06:33:59Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/models.py"
+                },
+                {
+                  "path": "snakesee/parser.py"
+                },
+                {
+                  "path": "snakesee/tui.py"
+                },
+                {
+                  "path": "tests/test_tui.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 22,
+            "title": "chore: update setup-uv from v4 to v7",
+            "state": "MERGED",
+            "createdAt": "2025-12-24T07:43:08Z",
+            "mergedAt": "2025-12-24T07:54:49Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/integration-tests.yml"
+                },
+                {
+                  "path": ".github/workflows/publish.yml"
+                },
+                {
+                  "path": ".github/workflows/tests.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 20,
+            "title": "feat: add row numbers to job tables",
+            "state": "MERGED",
+            "createdAt": "2025-12-24T07:26:56Z",
+            "mergedAt": "2025-12-24T07:47:22Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/tui.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 19,
+            "title": "feat: add virtual scrolling for job tables",
+            "state": "MERGED",
+            "createdAt": "2025-12-24T07:22:54Z",
+            "mergedAt": "2025-12-24T07:39:28Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/tui.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 18,
+            "title": "fix: improve arrow key handling and job selection bounds",
+            "state": "MERGED",
+            "createdAt": "2025-12-24T07:19:30Z",
+            "mergedAt": "2025-12-24T07:31:51Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/tui.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 17,
+            "title": "fix: refresh current_rules when new workflow starts",
+            "state": "MERGED",
+            "createdAt": "2025-12-24T06:43:28Z",
+            "mergedAt": "2025-12-24T07:20:33Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/tui.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 16,
+            "title": "fix: make test_keep_going_mixed more robust",
+            "state": "MERGED",
+            "createdAt": "2025-12-23T22:10:25Z",
+            "mergedAt": "2025-12-24T06:37:12Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/integration/test_workflows.py"
+                },
+                {
+                  "path": "tests/integration/workflows/keep_going_mixed/Snakefile"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 15,
+            "title": "fix: use incomplete markers to detect running workflows",
+            "state": "MERGED",
+            "createdAt": "2025-12-23T22:01:43Z",
+            "mergedAt": "2025-12-23T22:07:50Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/parser.py"
+                },
+                {
+                  "path": "tests/test_parser.py"
+                },
+                {
+                  "path": "uv.lock"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 14,
+            "title": "fix: filter pending jobs and stats by current workflow rules",
+            "state": "MERGED",
+            "createdAt": "2025-12-23T08:44:44Z",
+            "mergedAt": "2025-12-23T20:05:38Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".pre-commit-config.yaml"
+                },
+                {
+                  "path": "snakesee/tui.py"
+                },
+                {
+                  "path": "tests/conftest.py"
+                },
+                {
+                  "path": "tests/integration/test_workflows.py"
+                },
+                {
+                  "path": "uv.lock"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 13,
+            "title": "feat: add Snakemake 8.x support via --log-handler-script",
+            "state": "MERGED",
+            "createdAt": "2025-12-21T05:43:16Z",
+            "mergedAt": "2025-12-21T19:19:04Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/integration-tests.yml"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "snakemake-logger-plugin-snakesee/src/snakemake_logger_plugin_snakesee/handler.py"
+                },
+                {
+                  "path": "snakemake-logger-plugin-snakesee/src/snakemake_logger_plugin_snakesee/writer.py"
+                },
+                {
+                  "path": "snakemake-logger-plugin-snakesee/tests/test_writer.py"
+                },
+                {
+                  "path": "snakesee/__init__.py"
+                },
+                {
+                  "path": "snakesee/cli.py"
+                },
+                {
+                  "path": "snakesee/log_handler_script.py"
+                },
+                {
+                  "path": "snakesee/tui.py"
+                },
+                {
+                  "path": "tests/integration/conftest.py"
+                },
+                {
+                  "path": "tests/integration/test_workflows.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 12,
+            "title": "fix: don't show incomplete jobs while workflow is running",
+            "state": "MERGED",
+            "createdAt": "2025-12-21T05:06:13Z",
+            "mergedAt": "2025-12-21T05:16:08Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/parser.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 11,
+            "title": "feat: add loading screen with progress indicators",
+            "state": "MERGED",
+            "createdAt": "2025-12-21T04:49:33Z",
+            "mergedAt": "2025-12-21T05:14:21Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/estimator.py"
+                },
+                {
+                  "path": "snakesee/parser.py"
+                },
+                {
+                  "path": "snakesee/tui.py"
+                },
+                {
+                  "path": "uv.lock"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 10,
+            "title": "fix: improve robustness for workflow changes and race conditions",
+            "state": "MERGED",
+            "createdAt": "2025-12-21T01:24:24Z",
+            "mergedAt": "2025-12-21T01:50:00Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/estimator.py"
+                },
+                {
+                  "path": "snakesee/parser.py"
+                },
+                {
+                  "path": "snakesee/plugins/__init__.py"
+                },
+                {
+                  "path": "snakesee/tui.py"
+                },
+                {
+                  "path": "uv.lock"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 9,
+            "title": "build: add mypy to pre-commit hooks",
+            "state": "MERGED",
+            "createdAt": "2025-12-21T01:01:03Z",
+            "mergedAt": "2025-12-21T01:01:43Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".pre-commit-config.yaml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 8,
+            "title": "test(tui): add tests for rule stats, panels, and init methods",
+            "state": "MERGED",
+            "createdAt": "2025-12-21T00:49:32Z",
+            "mergedAt": "2025-12-21T00:59:57Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/conftest.py"
+                },
+                {
+                  "path": "tests/test_tui.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 7,
+            "title": "test(tui): add fixtures and tests to improve coverage",
+            "state": "MERGED",
+            "createdAt": "2025-12-21T00:38:45Z",
+            "mergedAt": "2025-12-21T00:46:33Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "tests/conftest.py"
+                },
+                {
+                  "path": "tests/test_tui.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 6,
+            "title": "fix(parser): filter stale incomplete markers by workflow start time",
+            "state": "MERGED",
+            "createdAt": "2025-12-21T00:29:45Z",
+            "mergedAt": "2025-12-21T00:35:15Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/parser.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 5,
+            "title": "fix(models): subtract incomplete jobs from pending count",
+            "state": "MERGED",
+            "createdAt": "2025-12-21T00:22:47Z",
+            "mergedAt": "2025-12-21T00:28:20Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/models.py"
+                },
+                {
+                  "path": "tests/test_models.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 4,
+            "title": "feat(tui): add threads column and improve workflow status detection",
+            "state": "MERGED",
+            "createdAt": "2025-12-20T19:07:44Z",
+            "mergedAt": "2025-12-21T00:17:18Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "snakesee/estimator.py"
+                },
+                {
+                  "path": "snakesee/models.py"
+                },
+                {
+                  "path": "snakesee/parser.py"
+                },
+                {
+                  "path": "snakesee/tui.py"
+                },
+                {
+                  "path": "tests/test_estimator.py"
+                },
+                {
+                  "path": "tests/test_events.py"
+                },
+                {
+                  "path": "tests/test_models.py"
+                },
+                {
+                  "path": "tests/test_parser.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 3,
+            "title": "fix(tui): update rule statistics with live job completions",
+            "state": "MERGED",
+            "createdAt": "2025-12-20T18:46:10Z",
+            "mergedAt": "2025-12-20T19:04:06Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/tui.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 2,
+            "title": "feat(tui): improve INCOMPLETE workflow display with yellow progress bar",
+            "state": "MERGED",
+            "createdAt": "2025-12-20T17:41:58Z",
+            "mergedAt": "2025-12-20T18:39:21Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/parser.py"
+                },
+                {
+                  "path": "snakesee/tui.py"
+                },
+                {
+                  "path": "tests/test_parser.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 1,
+            "title": "feat: add INCOMPLETE workflow status for interrupted pipelines",
+            "state": "MERGED",
+            "createdAt": "2025-12-20T17:23:37Z",
+            "mergedAt": "2025-12-20T17:24:36Z",
+            "author": {
+              "login": "nh13"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "snakesee/cli.py"
+                },
+                {
+                  "path": "snakesee/models.py"
+                },
+                {
+                  "path": "snakesee/parser.py"
+                },
+                {
+                  "path": "snakesee/tui.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

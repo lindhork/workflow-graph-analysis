@@ -1,0 +1,2547 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "nodes": [
+          {
+            "number": 201,
+            "title": "Add feature dispersion script",
+            "state": "CLOSED",
+            "createdAt": "2024-07-05T18:38:47Z",
+            "closedAt": "2024-07-23T13:03:41Z",
+            "author": {
+              "login": "rbeiko"
+            }
+          },
+          {
+            "number": 200,
+            "title": "Add UpSet plot script",
+            "state": "CLOSED",
+            "createdAt": "2024-07-05T15:26:00Z",
+            "closedAt": "2024-07-25T16:05:22Z",
+            "author": {
+              "login": "rbeiko"
+            }
+          },
+          {
+            "number": 168,
+            "title": "Add BAKTA annotation results to rSPR output",
+            "state": "CLOSED",
+            "createdAt": "2023-10-07T18:29:41Z",
+            "closedAt": "2023-10-10T17:42:48Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 150,
+            "title": "Change default resource requirements and add different resource profiles ",
+            "state": "CLOSED",
+            "createdAt": "2023-07-19T18:01:39Z",
+            "closedAt": "2023-08-22T11:44:44Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 146,
+            "title": "Adjust phylogenomics output",
+            "state": "CLOSED",
+            "createdAt": "2023-07-03T15:38:29Z",
+            "closedAt": "2023-07-03T18:37:12Z",
+            "author": {
+              "login": "rbeiko"
+            }
+          },
+          {
+            "number": 143,
+            "title": "Create new entries for the pipeline",
+            "state": "CLOSED",
+            "createdAt": "2023-07-02T13:45:05Z",
+            "closedAt": "2023-11-18T12:57:16Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 140,
+            "title": "Allow the user to choose which columns get added to the feature profile",
+            "state": "CLOSED",
+            "createdAt": "2023-06-29T18:55:09Z",
+            "closedAt": "2023-07-02T12:36:29Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 138,
+            "title": "Change add_column/filter_matches processes to run with collected output",
+            "state": "CLOSED",
+            "createdAt": "2023-06-26T17:11:14Z",
+            "closedAt": "2023-06-26T19:37:39Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 133,
+            "title": "Let the user choose which tools to run in the annotation subworkflow",
+            "state": "CLOSED",
+            "createdAt": "2023-06-16T16:59:03Z",
+            "closedAt": "2023-06-16T19:47:13Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 129,
+            "title": "Add a sample ID check in samplesheet check ",
+            "state": "CLOSED",
+            "createdAt": "2023-06-13T18:17:39Z",
+            "closedAt": "2023-06-20T15:28:36Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 126,
+            "title": "Automate phylogenomic analysis from Ppangolin output",
+            "state": "CLOSED",
+            "createdAt": "2023-06-09T17:11:00Z",
+            "closedAt": "2023-06-13T11:10:16Z",
+            "author": {
+              "login": "rbeiko"
+            }
+          },
+          {
+            "number": 123,
+            "title": "Add PhiSpy to annotation report and profile",
+            "state": "CLOSED",
+            "createdAt": "2023-06-06T13:12:51Z",
+            "closedAt": "2023-06-06T16:21:32Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 121,
+            "title": "Generalize how the mobsuite contig IDs are parsed by create_report.py",
+            "state": "CLOSED",
+            "createdAt": "2023-05-31T17:22:04Z",
+            "closedAt": "2023-06-05T15:45:09Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 119,
+            "title": "VFDB short ID regex fails when more than three groups get captured",
+            "state": "CLOSED",
+            "createdAt": "2023-05-31T12:42:38Z",
+            "closedAt": "2023-05-31T14:11:50Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 117,
+            "title": "Chunked fasttree overwriting files when filename has '.'",
+            "state": "CLOSED",
+            "createdAt": "2023-05-29T11:31:59Z",
+            "closedAt": "2023-05-29T13:44:07Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 115,
+            "title": "Replace VIBRANT with another prophage-prediction tool",
+            "state": "CLOSED",
+            "createdAt": "2023-05-25T11:14:22Z",
+            "closedAt": "2023-06-03T16:17:29Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 113,
+            "title": "Pipeline crashes when PopPUNK identifies only one lineage",
+            "state": "OPEN",
+            "createdAt": "2023-05-15T01:16:11Z",
+            "closedAt": null,
+            "author": {
+              "login": "rbeiko"
+            }
+          },
+          {
+            "number": 110,
+            "title": "Add module to create presence / absence pattern of features across genomes",
+            "state": "CLOSED",
+            "createdAt": "2023-05-12T13:55:22Z",
+            "closedAt": "2023-05-21T13:01:52Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 109,
+            "title": "Update RGI",
+            "state": "CLOSED",
+            "createdAt": "2023-05-12T13:54:35Z",
+            "closedAt": "2023-05-15T14:11:32Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 108,
+            "title": "Add cross-referencing/useful IDs for other DIAMOND dbs",
+            "state": "CLOSED",
+            "createdAt": "2023-05-12T13:52:35Z",
+            "closedAt": "2023-05-16T14:04:49Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 106,
+            "title": "Add ppanggolin as an alternative to Panaroo",
+            "state": "CLOSED",
+            "createdAt": "2023-05-08T11:39:23Z",
+            "closedAt": "2023-05-12T13:20:43Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 104,
+            "title": "Add other VFDB IDs in the annotation report",
+            "state": "CLOSED",
+            "createdAt": "2023-05-04T17:22:57Z",
+            "closedAt": "2023-05-06T19:29:05Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 102,
+            "title": "Create samplesheet for panaroo input",
+            "state": "CLOSED",
+            "createdAt": "2023-05-02T18:18:38Z",
+            "closedAt": "2023-05-02T20:06:25Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 99,
+            "title": "Header lines repeated in IntegronFinder output",
+            "state": "CLOSED",
+            "createdAt": "2023-04-28T12:49:52Z",
+            "closedAt": "2023-04-29T12:41:42Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 96,
+            "title": "Run RGI on Bakta's output",
+            "state": "CLOSED",
+            "createdAt": "2023-04-27T12:19:24Z",
+            "closedAt": "2023-04-27T13:39:45Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 95,
+            "title": "Create TSV report for annotation results",
+            "state": "CLOSED",
+            "createdAt": "2023-04-26T17:04:51Z",
+            "closedAt": "2023-05-02T12:13:17Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 92,
+            "title": "Add actual filtering to filter_alignment.py",
+            "state": "CLOSED",
+            "createdAt": "2023-04-24T18:25:50Z",
+            "closedAt": "2023-04-27T11:48:09Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 88,
+            "title": "Suggest using a different -entry if samplesheet fits that entry",
+            "state": "CLOSED",
+            "createdAt": "2023-04-21T13:35:24Z",
+            "closedAt": "2023-04-21T15:15:58Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 87,
+            "title": "Error on missing samples",
+            "state": "CLOSED",
+            "createdAt": "2023-04-21T13:26:20Z",
+            "closedAt": "2023-04-21T18:12:58Z",
+            "author": {
+              "login": "fmaguire"
+            }
+          },
+          {
+            "number": 85,
+            "title": "Create table with concatenated results from annotation",
+            "state": "CLOSED",
+            "createdAt": "2023-04-19T12:59:02Z",
+            "closedAt": "2023-04-25T20:20:17Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 84,
+            "title": "Convert panaroo output to graphviz dot format",
+            "state": "CLOSED",
+            "createdAt": "2023-04-19T12:57:03Z",
+            "closedAt": "2023-04-21T14:03:21Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 81,
+            "title": "Add module for heatmap of core/accessory thresholds and number of genomes",
+            "state": "CLOSED",
+            "createdAt": "2023-04-12T18:21:25Z",
+            "closedAt": "2023-04-26T16:18:38Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 80,
+            "title": "Make --poppunk_db flag optional in assembly/assembly_qc entries",
+            "state": "CLOSED",
+            "createdAt": "2023-04-12T18:20:25Z",
+            "closedAt": "2023-04-13T12:53:19Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 79,
+            "title": "Use subsampled genomes only in the phylogenomics subworkflow",
+            "state": "CLOSED",
+            "createdAt": "2023-04-12T18:18:16Z",
+            "closedAt": "2023-04-14T00:14:23Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 78,
+            "title": "Automate PopPunk genome scan",
+            "state": "CLOSED",
+            "createdAt": "2023-04-12T11:21:16Z",
+            "closedAt": "2023-04-26T16:19:16Z",
+            "author": {
+              "login": "rbeiko"
+            }
+          },
+          {
+            "number": 77,
+            "title": "Restore subsampled genomes after pan-genome inference",
+            "state": "OPEN",
+            "createdAt": "2023-04-12T11:19:38Z",
+            "closedAt": null,
+            "author": {
+              "login": "rbeiko"
+            }
+          },
+          {
+            "number": 75,
+            "title": "CheckM execution failing on assemblyqc subworkflow",
+            "state": "CLOSED",
+            "createdAt": "2023-04-10T12:02:07Z",
+            "closedAt": "2023-04-10T19:15:40Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 72,
+            "title": "Add singularity to CI checks",
+            "state": "CLOSED",
+            "createdAt": "2023-04-03T12:01:29Z",
+            "closedAt": "2023-04-04T10:14:03Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 70,
+            "title": "Add Integron Finder",
+            "state": "CLOSED",
+            "createdAt": "2023-03-31T00:31:24Z",
+            "closedAt": "2023-04-04T11:02:22Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 68,
+            "title": "VIBRANT DB download fails because of command line dependencies",
+            "state": "CLOSED",
+            "createdAt": "2023-03-28T12:42:01Z",
+            "closedAt": "2023-03-31T11:50:49Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 66,
+            "title": "Don't create figures when running VIBRANT",
+            "state": "CLOSED",
+            "createdAt": "2023-03-27T19:27:55Z",
+            "closedAt": "2023-03-27T20:54:44Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 64,
+            "title": "Add genomic island detection to the workflow",
+            "state": "CLOSED",
+            "createdAt": "2023-03-21T11:39:15Z",
+            "closedAt": "2023-03-21T13:42:33Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 60,
+            "title": "Add option to subsample similar genomes",
+            "state": "CLOSED",
+            "createdAt": "2023-03-10T11:59:10Z",
+            "closedAt": "2023-04-05T16:38:55Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 59,
+            "title": "Add module for phage identification",
+            "state": "CLOSED",
+            "createdAt": "2023-03-10T11:56:57Z",
+            "closedAt": "2023-03-24T11:49:38Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 58,
+            "title": "Add alignment step against ICEberg2 db",
+            "state": "CLOSED",
+            "createdAt": "2023-03-10T11:56:15Z",
+            "closedAt": "2023-03-10T13:37:32Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 57,
+            "title": "Add outgroup genome parameter to the pipeline",
+            "state": "CLOSED",
+            "createdAt": "2023-03-09T13:59:49Z",
+            "closedAt": "2023-11-17T13:31:09Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 53,
+            "title": "Update Bakta module and add Bakta db download",
+            "state": "CLOSED",
+            "createdAt": "2023-03-06T11:38:17Z",
+            "closedAt": "2023-03-07T13:39:22Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 46,
+            "title": "Change panaroo default to be -a pan",
+            "state": "CLOSED",
+            "createdAt": "2023-02-21T12:04:59Z",
+            "closedAt": "2023-02-28T11:03:11Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 43,
+            "title": "Concatenate DIAMOND's results by DB",
+            "state": "CLOSED",
+            "createdAt": "2023-02-17T16:45:27Z",
+            "closedAt": "2023-02-22T13:05:15Z",
+            "author": {
+              "login": "jvfe"
+            }
+          },
+          {
+            "number": 42,
+            "title": "Add --light option to the workflow",
+            "state": "CLOSED",
+            "createdAt": "2023-02-17T16:43:47Z",
+            "closedAt": "2023-02-21T14:31:01Z",
+            "author": {
+              "login": "jvfe"
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 208,
+            "title": "Updated rspr_approx.py to remove double counting",
+            "state": "MERGED",
+            "createdAt": "2025-04-05T19:36:51Z",
+            "mergedAt": "2025-04-05T19:37:45Z",
+            "author": {
+              "login": "rbeiko"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/rspr_approx.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 207,
+            "title": "Update rspr",
+            "state": "MERGED",
+            "createdAt": "2025-04-04T17:01:06Z",
+            "mergedAt": "2025-04-04T17:06:02Z",
+            "author": {
+              "login": "rbeiko"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/rgi.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 206,
+            "title": "Test new checkout",
+            "state": "CLOSED",
+            "createdAt": "2025-04-04T16:33:20Z",
+            "mergedAt": null,
+            "author": {
+              "login": "rbeiko"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/rgi.nf"
+                },
+                {
+                  "path": "venv/bin/Activate.ps1"
+                },
+                {
+                  "path": "venv/bin/activate"
+                },
+                {
+                  "path": "venv/bin/activate.csh"
+                },
+                {
+                  "path": "venv/bin/activate.fish"
+                },
+                {
+                  "path": "venv/bin/pip"
+                },
+                {
+                  "path": "venv/bin/pip3"
+                },
+                {
+                  "path": "venv/bin/pip3.10"
+                },
+                {
+                  "path": "venv/bin/python"
+                },
+                {
+                  "path": "venv/bin/python3"
+                },
+                {
+                  "path": "venv/bin/python3.10"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/_distutils_hack/__init__.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/_distutils_hack/override.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/distutils-precedence.pth"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip-23.0.1.dist-info/INSTALLER"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip-23.0.1.dist-info/LICENSE.txt"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip-23.0.1.dist-info/METADATA"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip-23.0.1.dist-info/RECORD"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip-23.0.1.dist-info/REQUESTED"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip-23.0.1.dist-info/WHEEL"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip-23.0.1.dist-info/entry_points.txt"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip-23.0.1.dist-info/top_level.txt"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/__init__.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/__main__.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/__pip-runner__.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/__init__.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/build_env.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/cache.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/cli/__init__.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/cli/autocompletion.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/cli/base_command.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/cli/cmdoptions.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/cli/command_context.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/cli/main.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/cli/main_parser.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/cli/parser.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/cli/progress_bars.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/cli/req_command.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/cli/spinners.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/cli/status_codes.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/commands/__init__.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/commands/cache.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/commands/check.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/commands/completion.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/commands/configuration.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/commands/debug.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/commands/download.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/commands/freeze.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/commands/hash.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/commands/help.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/commands/index.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/commands/inspect.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/commands/install.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/commands/list.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/commands/search.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/commands/show.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/commands/uninstall.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/commands/wheel.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/configuration.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/distributions/__init__.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/distributions/base.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/distributions/installed.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/distributions/sdist.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/distributions/wheel.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/exceptions.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/index/__init__.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/index/collector.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/index/package_finder.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/index/sources.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/locations/__init__.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/locations/_distutils.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/locations/_sysconfig.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/locations/base.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/main.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/metadata/__init__.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/metadata/_json.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/metadata/base.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/metadata/importlib/__init__.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/metadata/importlib/_compat.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/metadata/importlib/_dists.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/metadata/importlib/_envs.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/metadata/pkg_resources.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/models/__init__.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/models/candidate.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/models/direct_url.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/models/format_control.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/models/index.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/models/installation_report.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/models/link.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/models/scheme.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/models/search_scope.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/models/selection_prefs.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/models/target_python.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/models/wheel.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/network/__init__.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/network/auth.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/network/cache.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/network/download.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/network/lazy_wheel.py"
+                },
+                {
+                  "path": "venv/lib/python3.10/site-packages/pip/_internal/network/session.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 205,
+            "title": "refactor: Update PECCM after revisions",
+            "state": "MERGED",
+            "createdAt": "2025-01-23T16:35:01Z",
+            "mergedAt": "2025-01-23T17:00:37Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/ci.yml"
+                },
+                {
+                  "path": "assets/ParallelEvolCCM_supplement.tar.gz"
+                },
+                {
+                  "path": "bin/ParallelEvolCCM.R"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 204,
+            "title": "feat: Add Build_Upset module",
+            "state": "MERGED",
+            "createdAt": "2024-07-24T18:45:00Z",
+            "mergedAt": "2024-07-25T16:05:21Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/Build_Upset.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "docs/params.md"
+                },
+                {
+                  "path": "modules/local/build_upset/main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/annotation.nf"
+                },
+                {
+                  "path": "test/test_full_samplesheet.csv"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 200
+                }
+              ]
+            }
+          },
+          {
+            "number": 203,
+            "title": "feat: Add feature dispersion script",
+            "state": "MERGED",
+            "createdAt": "2024-07-22T20:23:55Z",
+            "mergedAt": "2024-07-23T13:03:40Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/Feature_Dispersion.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/params.md"
+                },
+                {
+                  "path": "modules/local/featuredispersion/main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/annotation.nf"
+                },
+                {
+                  "path": "subworkflows/local/phylo.nf"
+                },
+                {
+                  "path": "tests/subworkflows/local/phylo.nf.test"
+                },
+                {
+                  "path": "workflows/arete.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 201
+                }
+              ]
+            }
+          },
+          {
+            "number": 202,
+            "title": "refact: Add alternative strategy for merging mobsuite results",
+            "state": "MERGED",
+            "createdAt": "2024-07-22T14:14:09Z",
+            "mergedAt": "2024-07-22T14:32:50Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/create_report.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 199,
+            "title": "refact: Add performance parameters to iqtree",
+            "state": "MERGED",
+            "createdAt": "2024-06-27T12:29:58Z",
+            "mergedAt": "2024-06-28T11:12:05Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 198,
+            "title": "refactor: Update resource requirements",
+            "state": "MERGED",
+            "createdAt": "2024-06-11T16:31:43Z",
+            "mergedAt": "2024-06-11T17:06:41Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 197,
+            "title": "refactor: Change how quast and recombination inputs work",
+            "state": "MERGED",
+            "createdAt": "2024-06-07T17:52:20Z",
+            "mergedAt": "2024-06-08T11:20:34Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/organize_recomb_data.py"
+                },
+                {
+                  "path": "modules/nf-core/quast/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/quast/quast.diff"
+                },
+                {
+                  "path": "subworkflows/local/assemblyqc.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 196,
+            "title": "refactor: Update evolCCM script pre-publication",
+            "state": "MERGED",
+            "createdAt": "2024-06-05T17:46:35Z",
+            "mergedAt": "2024-06-12T18:43:35Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/ParallelEvolCCM_supplement.tar.gz"
+                },
+                {
+                  "path": "bin/ParallelEvolCCM.R"
+                },
+                {
+                  "path": "docs/evolccm.md"
+                },
+                {
+                  "path": "docs/faq.md"
+                },
+                {
+                  "path": "modules/local/evolccm.nf"
+                },
+                {
+                  "path": "modules/nf-core/fastqc/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 194,
+            "title": "fix: Allow no RGI in annotation tools",
+            "state": "MERGED",
+            "createdAt": "2024-05-19T15:14:57Z",
+            "mergedAt": "2024-05-20T11:59:15Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "subworkflows/local/annotation.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 193,
+            "title": "fix: Avoid file location issue with ppanggolin/poppunk",
+            "state": "MERGED",
+            "createdAt": "2024-05-10T14:24:53Z",
+            "mergedAt": "2024-05-11T13:35:15Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/poppunk/createdb/main.nf"
+                },
+                {
+                  "path": "modules/local/ppanggolin/workflow/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/panaroo/run/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/phylo.nf"
+                },
+                {
+                  "path": "subworkflows/local/poppunk.nf"
+                },
+                {
+                  "path": "tests/subworkflows/local/phylo.nf.test"
+                },
+                {
+                  "path": "tests/subworkflows/local/poppunk.nf.test.skip"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 192,
+            "title": "fix: Compress output file in EvolCCM",
+            "state": "MERGED",
+            "createdAt": "2024-05-09T13:52:40Z",
+            "mergedAt": "2024-05-09T20:14:05Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/ParallelEvolCCM.R"
+                },
+                {
+                  "path": "modules/local/evolccm.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 191,
+            "title": "fix: Run rSPR when tree has duplicated nodes",
+            "state": "MERGED",
+            "createdAt": "2024-05-06T17:28:13Z",
+            "mergedAt": "2024-05-07T11:59:42Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/rspr_approx.py"
+                },
+                {
+                  "path": "bin/rspr_exact.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 190,
+            "title": "refactor: Save cluster tree with cluster prob",
+            "state": "MERGED",
+            "createdAt": "2024-05-06T12:34:55Z",
+            "mergedAt": "2024-05-06T12:59:57Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/rspr_heatmap.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 189,
+            "title": "feat(rspr): Save cluster tree in newick format",
+            "state": "MERGED",
+            "createdAt": "2024-04-16T12:04:33Z",
+            "mergedAt": "2024-04-16T16:53:09Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/rspr_heatmap.py"
+                },
+                {
+                  "path": "modules/local/rspr/heatmap.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 188,
+            "title": "chore: Bump ppanggolin version",
+            "state": "MERGED",
+            "createdAt": "2024-04-10T11:50:07Z",
+            "mergedAt": "2024-04-10T13:46:35Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "modules/local/ppanggolin/msa/main.nf"
+                },
+                {
+                  "path": "modules/local/ppanggolin/workflow/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 187,
+            "title": "chore: Update evolCCM image with patch",
+            "state": "MERGED",
+            "createdAt": "2024-02-22T11:37:47Z",
+            "mergedAt": "2024-02-22T14:01:58Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/evolccm.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 186,
+            "title": "refactor: Change subsetting logic and move to script",
+            "state": "MERGED",
+            "createdAt": "2024-02-06T19:54:02Z",
+            "mergedAt": "2024-03-01T12:51:41Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/filter_genomes.py"
+                },
+                {
+                  "path": "bin/make_heatmap.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules/local/make_heatmap_and_filter.nf"
+                },
+                {
+                  "path": "subworkflows/local/subsample.nf"
+                },
+                {
+                  "path": "workflows/arete.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 185,
+            "title": "refactor: Optimize rspr calls and improve visualizations",
+            "state": "MERGED",
+            "createdAt": "2024-02-05T11:23:22Z",
+            "mergedAt": "2024-02-05T14:40:09Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/CONTRIBUTING.md"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "bin/make_heatmap.py"
+                },
+                {
+                  "path": "bin/rspr_approx.py"
+                },
+                {
+                  "path": "bin/rspr_exact.py"
+                },
+                {
+                  "path": "bin/rspr_heatmap.py"
+                },
+                {
+                  "path": "conf/light.config"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "conf/test.config"
+                },
+                {
+                  "path": "docs/assets/arete-symbol.png"
+                },
+                {
+                  "path": "docs/contributing.md"
+                },
+                {
+                  "path": "docs/img/favicon.ico"
+                },
+                {
+                  "path": "docs/issues.md"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/params.md"
+                },
+                {
+                  "path": "docs/resource_profiles.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "mkdocs.yml"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/evolccm.nf"
+                },
+                {
+                  "path": "modules/local/functions.nf"
+                },
+                {
+                  "path": "modules/local/get_minikraken.nf"
+                },
+                {
+                  "path": "modules/local/get_software_versions.nf"
+                },
+                {
+                  "path": "modules/local/mobsuite.nf"
+                },
+                {
+                  "path": "modules/local/poppunk/createdb/meta.yml"
+                },
+                {
+                  "path": "modules/local/poppunk/extractdistances/meta.yml"
+                },
+                {
+                  "path": "modules/local/poppunk/fitmodel/meta.yml"
+                },
+                {
+                  "path": "modules/local/poppunk/qcdb/meta.yml"
+                },
+                {
+                  "path": "modules/local/poppunk/visualise/meta.yml"
+                },
+                {
+                  "path": "modules/local/rgi.nf"
+                },
+                {
+                  "path": "modules/local/rspr/approx.nf"
+                },
+                {
+                  "path": "modules/local/rspr/exact.nf"
+                },
+                {
+                  "path": "modules/local/rspr/heatmap.nf"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/rspr.nf"
+                },
+                {
+                  "path": "workflows/arete.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 184,
+            "title": "refactor: Add 1.0 threshold to subsetting heatmap",
+            "state": "MERGED",
+            "createdAt": "2024-02-02T16:19:59Z",
+            "mergedAt": "2024-02-02T16:36:55Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/make_heatmap.py"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 183,
+            "title": "refactor: Add rspr and evolccm to annotation entry",
+            "state": "MERGED",
+            "createdAt": "2024-01-24T13:53:28Z",
+            "mergedAt": "2024-01-24T14:10:25Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "workflows/arete.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 182,
+            "title": "refactor: Remove old unused nf-core functions",
+            "state": "MERGED",
+            "createdAt": "2024-01-23T17:52:27Z",
+            "mergedAt": "2024-01-23T18:56:06Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/functions.nf"
+                },
+                {
+                  "path": "modules/local/get_minikraken.nf"
+                },
+                {
+                  "path": "modules/local/get_software_versions.nf"
+                },
+                {
+                  "path": "modules/local/mobsuite.nf"
+                },
+                {
+                  "path": "modules/local/rgi.nf"
+                },
+                {
+                  "path": "modules/local/samplesheet_check.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 181,
+            "title": "docs: Add tab for known ARETE issues",
+            "state": "MERGED",
+            "createdAt": "2024-01-08T12:44:36Z",
+            "mergedAt": "2024-01-08T13:01:31Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/issues.md"
+                },
+                {
+                  "path": "mkdocs.yml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 180,
+            "title": "feat: Add light profile to config",
+            "state": "MERGED",
+            "createdAt": "2024-01-07T12:16:35Z",
+            "mergedAt": "2024-01-07T12:47:41Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/light.config"
+                },
+                {
+                  "path": "docs/resource_profiles.md"
+                },
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 179,
+            "title": "chore: Update rSPR image to 1.3.3",
+            "state": "MERGED",
+            "createdAt": "2024-01-03T18:53:38Z",
+            "mergedAt": "2024-01-03T19:40:54Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/rspr/approx.nf"
+                },
+                {
+                  "path": "modules/local/rspr/exact.nf"
+                },
+                {
+                  "path": "modules/local/rspr/heatmap.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 178,
+            "title": "chore: Update rspr to latest version",
+            "state": "MERGED",
+            "createdAt": "2024-01-02T19:42:36Z",
+            "mergedAt": "2024-01-02T22:57:09Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/rspr/approx.nf"
+                },
+                {
+                  "path": "modules/local/rspr/exact.nf"
+                },
+                {
+                  "path": "modules/local/rspr/heatmap.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 177,
+            "title": "fix: Remove large dataset error on the rSPR entry",
+            "state": "MERGED",
+            "createdAt": "2023-11-22T12:06:46Z",
+            "mergedAt": "2023-11-22T13:56:54Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/rspr_approx.py"
+                },
+                {
+                  "path": "modules/local/rspr/approx.nf"
+                },
+                {
+                  "path": "subworkflows/local/rspr.nf"
+                },
+                {
+                  "path": "subworkflows/local/rspr_input_check.nf"
+                },
+                {
+                  "path": "workflows/arete.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 176,
+            "title": "feat: Add gene order entry",
+            "state": "MERGED",
+            "createdAt": "2023-11-17T13:13:35Z",
+            "mergedAt": "2023-11-18T12:57:15Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "assets/arete.diagram.light.png"
+                },
+                {
+                  "path": "assets/arete.diagram.png"
+                },
+                {
+                  "path": "docs/assets/arete.diagram.light.png"
+                },
+                {
+                  "path": "docs/assets/arete.diagram.png"
+                },
+                {
+                  "path": "docs/assets/arete.drawio.xml"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "subworkflows/local/geneorder_input_check.nf"
+                },
+                {
+                  "path": "test/gene-order/gene_order_samplesheet.csv"
+                },
+                {
+                  "path": "workflows/arete.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 143
+                }
+              ]
+            }
+          },
+          {
+            "number": 175,
+            "title": "feat: Add recombination entry",
+            "state": "MERGED",
+            "createdAt": "2023-11-07T12:33:33Z",
+            "mergedAt": "2023-11-07T13:48:18Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "workflows/arete.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 174,
+            "title": "feat: Add evolCCM entry",
+            "state": "MERGED",
+            "createdAt": "2023-11-03T11:52:39Z",
+            "mergedAt": "2023-11-05T12:26:04Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/params.md"
+                },
+                {
+                  "path": "lib/WorkflowArete.groovy"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "workflows/arete.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 173,
+            "title": "docs: Update rSPR outputs",
+            "state": "MERGED",
+            "createdAt": "2023-11-01T12:12:00Z",
+            "mergedAt": "2023-11-01T13:29:56Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "docs/output.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 172,
+            "title": "fix: Stop ppanggolin msa from altering input file",
+            "state": "MERGED",
+            "createdAt": "2023-10-24T12:55:51Z",
+            "mergedAt": "2023-10-24T13:20:04Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/local/ppanggolin/msa/main.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 171,
+            "title": "feat: Add rspr entry",
+            "state": "MERGED",
+            "createdAt": "2023-10-23T12:51:40Z",
+            "mergedAt": "2023-10-23T23:01:42Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/rspr_approx.py"
+                },
+                {
+                  "path": "docs/params.md"
+                },
+                {
+                  "path": "docs/usage.md"
+                },
+                {
+                  "path": "main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/rspr_input_check.nf"
+                },
+                {
+                  "path": "workflows/arete.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 170,
+            "title": "refactor: Ignore time reached error in rspr_exact",
+            "state": "MERGED",
+            "createdAt": "2023-10-16T11:44:35Z",
+            "mergedAt": "2023-10-16T12:15:34Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 169,
+            "title": "feat: Add annotations to rSPR outputs",
+            "state": "MERGED",
+            "createdAt": "2023-10-10T13:08:08Z",
+            "mergedAt": "2023-10-10T17:42:47Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/rspr_approx.py"
+                },
+                {
+                  "path": "bin/rspr_exact.py"
+                },
+                {
+                  "path": "bin/rspr_heatmap.py"
+                },
+                {
+                  "path": "modules/local/rspr/approx.nf"
+                },
+                {
+                  "path": "modules/local/rspr/exact.nf"
+                },
+                {
+                  "path": "subworkflows/local/annotation.nf"
+                },
+                {
+                  "path": "subworkflows/local/rspr.nf"
+                },
+                {
+                  "path": "tests/subworkflows/local/poppunk.nf.test.skip"
+                },
+                {
+                  "path": "tests/subworkflows/local/subsample.nf.test.skip"
+                },
+                {
+                  "path": "workflows/arete.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 168
+                }
+              ]
+            }
+          },
+          {
+            "number": 167,
+            "title": "Add rSPR",
+            "state": "MERGED",
+            "createdAt": "2023-09-29T16:36:33Z",
+            "mergedAt": "2023-10-07T18:26:12Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".gitignore"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "ROADMAP.md"
+                },
+                {
+                  "path": "assets/arete.diagram.light.png"
+                },
+                {
+                  "path": "assets/arete.diagram.png"
+                },
+                {
+                  "path": "bin/rspr_approx.py"
+                },
+                {
+                  "path": "bin/rspr_exact.py"
+                },
+                {
+                  "path": "bin/rspr_heatmap.py"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/assets/arete.diagram.light.png"
+                },
+                {
+                  "path": "docs/assets/arete.diagram.png"
+                },
+                {
+                  "path": "docs/assets/arete.drawio.xml"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/params.md"
+                },
+                {
+                  "path": "modules/local/rspr/approx.nf"
+                },
+                {
+                  "path": "modules/local/rspr/exact.nf"
+                },
+                {
+                  "path": "modules/local/rspr/heatmap.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/phylo.nf"
+                },
+                {
+                  "path": "subworkflows/local/rspr.nf"
+                },
+                {
+                  "path": "tests/subworkflows/local/annotation_input_check.nf.test.skip"
+                },
+                {
+                  "path": "tests/subworkflows/local/recombination.nf.test.skip"
+                },
+                {
+                  "path": "workflows/arete.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 38
+                }
+              ]
+            }
+          },
+          {
+            "number": 166,
+            "title": "refactor: Return PopPUNK create-db outputs",
+            "state": "MERGED",
+            "createdAt": "2023-09-20T19:08:47Z",
+            "mergedAt": "2023-09-20T22:16:18Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/output.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 165,
+            "title": "fix: Add missing samplesheet",
+            "state": "MERGED",
+            "createdAt": "2023-09-18T17:22:04Z",
+            "mergedAt": "2023-09-18T17:54:17Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/samplesheet.csv"
+                },
+                {
+                  "path": "nextflow.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 164,
+            "title": "refactor: Improve multiqc reports + general housekeeping",
+            "state": "MERGED",
+            "createdAt": "2023-09-18T14:14:32Z",
+            "mergedAt": "2023-09-18T15:38:36Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/.dockstore.yml"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/bug_report.md"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/config.yml"
+                },
+                {
+                  "path": ".github/ISSUE_TEMPLATE/feature_request.md"
+                },
+                {
+                  "path": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                  "path": ".github/markdownlint.yml"
+                },
+                {
+                  "path": ".github/workflows/linting.yml"
+                },
+                {
+                  "path": ".github/workflows/linting_comment.yml"
+                },
+                {
+                  "path": ".nf-core.yml"
+                },
+                {
+                  "path": "ROADMAP.md"
+                },
+                {
+                  "path": "assets/email_template.html"
+                },
+                {
+                  "path": "assets/email_template.txt"
+                },
+                {
+                  "path": "assets/multiqc_config.yml"
+                },
+                {
+                  "path": "assets/nf-core-arete_logo.png"
+                },
+                {
+                  "path": "assets/samplesheet.csv"
+                },
+                {
+                  "path": "assets/schema_input.json"
+                },
+                {
+                  "path": "assets/sendmail_template.txt"
+                },
+                {
+                  "path": "bin/scrape_software_versions.py"
+                },
+                {
+                  "path": "docs/params.md"
+                },
+                {
+                  "path": "modules.json"
+                },
+                {
+                  "path": "modules/local/rgi.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/custom-dumpsoftwareversions.diff"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/meta.yml"
+                },
+                {
+                  "path": "modules/nf-core/custom/dumpsoftwareversions/templates/dumpsoftwareversions.py"
+                },
+                {
+                  "path": "modules/nf-core/diamond/blastx/diamond-blastx.diff"
+                },
+                {
+                  "path": "modules/nf-core/diamond/blastx/main.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/annotation.nf"
+                },
+                {
+                  "path": "subworkflows/local/assembly.nf"
+                },
+                {
+                  "path": "subworkflows/local/lineage.nf"
+                },
+                {
+                  "path": "workflows/arete.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 163,
+            "title": "refactor: Separate chunked fasttree from core tree",
+            "state": "MERGED",
+            "createdAt": "2023-09-10T17:40:02Z",
+            "mergedAt": "2023-09-13T00:32:46Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "modules/local/chunked_fasttree.nf"
+                },
+                {
+                  "path": "modules/nf-core/fasttree/main.nf"
+                },
+                {
+                  "path": "subworkflows/local/phylo.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 162,
+            "title": "feat: Add subset warning",
+            "state": "MERGED",
+            "createdAt": "2023-09-05T12:06:59Z",
+            "mergedAt": "2023-09-05T13:35:36Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "subworkflows/local/subsample.nf"
+                },
+                {
+                  "path": "test/test_annotation_dataset.csv"
+                },
+                {
+                  "path": "tests/subworkflows/local/annotation_input_check.nf.test"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 161,
+            "title": "feat: Add automated QC filtering",
+            "state": "MERGED",
+            "createdAt": "2023-09-04T11:03:45Z",
+            "mergedAt": "2023-09-10T13:26:26Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "bin/organize_recomb_data.py"
+                },
+                {
+                  "path": "docs/params.md"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/assembly.nf"
+                },
+                {
+                  "path": "subworkflows/local/assemblyqc.nf"
+                },
+                {
+                  "path": "subworkflows/local/recombination.nf"
+                },
+                {
+                  "path": "test/transposed_report.tsv"
+                },
+                {
+                  "path": "tests/subworkflows/local/assembly.nf.test"
+                },
+                {
+                  "path": "tests/subworkflows/local/assemblyqc.nf.test.skip"
+                },
+                {
+                  "path": "tests/subworkflows/local/recombination.nf.test"
+                },
+                {
+                  "path": "workflows/arete.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 12
+                }
+              ]
+            }
+          },
+          {
+            "number": 160,
+            "title": "refactor: Increase memory reqs for test_full",
+            "state": "MERGED",
+            "createdAt": "2023-09-01T18:22:45Z",
+            "mergedAt": "2023-09-01T18:51:07Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "conf/test_full.config"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 159,
+            "title": "docs: Add ARETE diagram",
+            "state": "MERGED",
+            "createdAt": "2023-08-28T13:33:36Z",
+            "mergedAt": "2023-08-28T18:49:14Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "assets/arete.diagram.light.png"
+                },
+                {
+                  "path": "assets/arete.diagram.png"
+                },
+                {
+                  "path": "docs/assets/arete.diagram.light.png"
+                },
+                {
+                  "path": "docs/assets/arete.diagram.png"
+                },
+                {
+                  "path": "docs/assets/arete.drawio.xml"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 158,
+            "title": "feat: Add EvolCCM",
+            "state": "MERGED",
+            "createdAt": "2023-08-14T14:19:37Z",
+            "mergedAt": "2023-08-17T19:35:13Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": ".github/workflows/test.yml"
+                },
+                {
+                  "path": "CITATIONS.md"
+                },
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "bin/ParallelEvolCCM.R"
+                },
+                {
+                  "path": "conf/modules.config"
+                },
+                {
+                  "path": "docs/output.md"
+                },
+                {
+                  "path": "docs/params.md"
+                },
+                {
+                  "path": "modules/local/evolccm.nf"
+                },
+                {
+                  "path": "nextflow.config"
+                },
+                {
+                  "path": "nextflow_schema.json"
+                },
+                {
+                  "path": "subworkflows/local/annotation.nf"
+                },
+                {
+                  "path": "subworkflows/local/evolccm.nf"
+                },
+                {
+                  "path": "subworkflows/local/phylo.nf"
+                },
+                {
+                  "path": "test/feature_profile_reallyreduced.tsv.gz"
+                },
+                {
+                  "path": "test/rooted_vtec_phylogeny.tre"
+                },
+                {
+                  "path": "tests/subworkflows/local/evolccm.nf.test.skip"
+                },
+                {
+                  "path": "workflows/arete.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 35
+                }
+              ]
+            }
+          },
+          {
+            "number": 157,
+            "title": "Update README.md",
+            "state": "MERGED",
+            "createdAt": "2023-08-03T19:51:32Z",
+            "mergedAt": "2023-08-03T22:37:33Z",
+            "author": {
+              "login": "RyanCFink"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 156,
+            "title": "feat: Add test_full dataset",
+            "state": "MERGED",
+            "createdAt": "2023-08-01T12:25:53Z",
+            "mergedAt": "2023-08-01T15:40:06Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "README.md"
+                },
+                {
+                  "path": "conf/test_full.config"
+                },
+                {
+                  "path": "test/test_full_samplesheet.csv"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 155,
+            "title": "refactor: Collect assemblies for quast input",
+            "state": "MERGED",
+            "createdAt": "2023-07-31T16:55:44Z",
+            "mergedAt": "2023-07-31T23:33:26Z",
+            "author": {
+              "login": "jvfe"
+            },
+            "files": {
+              "nodes": [
+                {
+                  "path": "modules/nf-core/quast/main.nf"
+                },
+                {
+                  "path": "modules/nf-core/quast/quast.diff"
+                },
+                {
+                  "path": "subworkflows/local/assembly.nf"
+                },
+                {
+                  "path": "subworkflows/local/assemblyqc.nf"
+                },
+                {
+                  "path": "subworkflows/local/recombination.nf"
+                },
+                {
+                  "path": "tests/subworkflows/local/recombination.nf.test"
+                },
+                {
+                  "path": "workflows/arete.nf"
+                }
+              ]
+            },
+            "closingIssuesReferences": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

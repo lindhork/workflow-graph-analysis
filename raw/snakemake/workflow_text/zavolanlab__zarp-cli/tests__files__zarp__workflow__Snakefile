@@ -1,0 +1,21 @@
+"""Dummy version of Snakefile for ZARP workflow."""
+
+
+localrules:
+    dummy,
+    all,
+
+
+rule all:
+    input:
+        "zarp_dummy_output",
+
+
+rule dummy:
+    input:
+        config["samples"],
+    output:
+        "zarp_dummy_output",
+    shell:
+        'cat {input} > {output}'
+
